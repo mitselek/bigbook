@@ -41,10 +41,10 @@ Olime harilikult sama täpsed nagu järgneva näite puhul:
 
 | Kannan vimma: | Põhjus: | Puudutab minu: |
 |---|---|---|
-| Härra Browni peale | Tema tähelepanu minu naise suhtes. Ta rääkis mu naisele minu armukesest. Brown võib mu töökoha endale saada. | Seksuaalsuhteid. Enesehinnangut (hirm). Seksuaalsuhteid. Enesehinnangut (hirm). |
-| Proua Jonesi peale | Ta on segane ja tõrjub mind. Ta lasi oma mehe joomise pärast haiglasse panna. Mees on minu sõber. Ta on keelepeksja. | Turvatunnet. Enesehinnangut (hirm). Isiklikke suhteid. Enesehinnangut (hirm). |
-| Oma tööandja peale | Ebamõistlik, ebaõiglane, kamandav. Ähvardab mind joomise ja kuluarvete võltsimise pärast lahti lasta. | Enesehinnangut (hirm). Turvatunnet. |
-| Oma naise peale | Ei mõista mind ja näägutab. Talle meeldib Brown. Tahab maja oma nimele kirjutada. | Eneseuhkust, isiklikke seksuaalsuhteid, turvatunnet (hirm). |
+| Härra Browni peale | Tema tähelepanu minu naise suhtes.<br>Ta rääkis mu naisele minu armukesest.<br>Brown võib mu töökoha endale saada. | Seksuaalsuhteid. Enesehinnangut (hirm).<br>Seksuaalsuhteid.<br>Enesehinnangut (hirm). |
+| Proua Jonesi peale | Ta on segane ja tõrjub mind.<br>Ta lasi oma mehe joomise pärast haiglasse panna.<br>Mees on minu sõber.<br>Ta on keelepeksja. | Turvatunnet.<br>Enesehinnangut (hirm).<br>Isiklikke suhteid.<br>Enesehinnangut (hirm). |
+| Oma tööandja peale | Ebamõistlik, ebaõiglane, kamandav.<br>Ähvardab mind joomise ja kuluarvete võltsimise pärast lahti lasta. | Enesehinnangut (hirm).<br>Turvatunnet. |
+| Oma naise peale | Ei mõista mind ja näägutab.<br>Talle meeldib Brown.<br>Tahab maja oma nimele kirjutada. | Eneseuhkust.<br>isiklikke seksuaalsuhteid.<br>turvatunnet (hirm). |
 
 Vaatasime tagasi kogu oma eelnevale elule. Peamine oli seejuures põhjalikkus ning ausus. Valmis saanud, mõtlesime selle üle hoolikalt järele. Kõigepealt ilmnes, et maailm ja inimesed eksisid üsna sageli. Enamik meist ei jõudnud kaugemale järeldusest, et teised eksisid. Tavaliselt viis see selleni, et inimesed jätkasid meie suhtes valesti käitumist ja meie olime endiselt kibestunud. Mõnikord valdas meid kahetsus ja siis olime kibestunud enda peale. Kuid mida enam me võitlesime ja üritasime oma tahtmist läbi suruda, seda hullemaks asjad läksid. Nagu sõjaski, võitis võitja ainult näiliselt. Meie võidurõõmu hetked jäid üürikeseks.
 
