@@ -1,0 +1,360 @@
+ DOKTOR BOBI PAINAJALIK UNENÄGU
+   Anonüümsete Alkohoolikute asutajaliige. Meie
+Ühingu sündi tähistab tema pideva kainuse esimene
+päev – 10. juuni 1935.
+   1950-ndaks aastaks, mil ta suri, oli ta AA sõnumi
+edasi andnud rohkem kui 5000-le alkohoolikust mehele
+ja naisele ning kõigile neile osutas ta ka meditsiinilist abi
+ilma tasu peale mõtlemata.
+   Selles imetlusväärses tegevuses oli talle suureks abiks
+üks meie Sõpruskonna suurimaid sõpru õde Ignatia
+Ohio osariigi Akroni linna St Thomase haiglast.
+
+
+S     ündisin väikeses, umbes 7000 elanikuga küla-
+      keses Uus-Inglismaal. Sealsed käitumisreeglid
+olid minu mäletamist mööda keskmisest rangemad.
+Ümbrus­konnas müüdi õlut ja muud kangemat kraami
+ainult riiklikus alkoholipoes, kust võis hankida pool liitrit
+napsi, kui õnnestus sealset ülemust veenda, et seda tõe-
+poolest vaja läheb. Vastavate tõendite puudumisel pidi
+ootus­rikas ostja tühjade kätega lahkuma, saamata piiskagi
+seda jooki, mida ma hiljem hakkasin pidama imerohuks
+kõigi inimlike hädade vastu. Meeste peale, kes lasksid
+endale Bostonist või New Yorgist kiirrongiga alkoholi
+tuua, vaatas enamik korralikke linnaelanikke umbusal-
+dava ja sallimatu pilguga. Linnakeses oli arvukalt kirikuid
+ja koole, kus ma alustasin oma varajast haridusteed.
+   Minu isa oli haritud ja tunnustatud inimene ning nii
+tema kui mu ema olid väga aktiivsed kirikuskäijad. Nad
+mõlemad olid ka keskmisest tunduvalt intelligentsemad.
+   Minu õnnetuseks olin ma peres ainuke laps ja see
+võiski kujundada minus isekust, millel oli väga suur osa
+minu alkoholismi tekkes.
+                            171
+
+172       ANONÜÜMSED ALKOHOOLIKUD
+   Lapsepõlvest keskkooli lõpuni põhimõtteliselt sunniti
+mind käima kirikus, pühapäevakoolis ja õhtusel jumala­
+teenistusel, esmaspäeva õhtusel tänujumalateenistusel
+ja mõnikord ka kolmapäevaõhtusel palvusel. Kõige selle
+tagajärjel tõotasin ma endale, et kui ma ükskord vane-
+mate võimu alt pääsen, ei tõsta ma enam jalgagi üle
+kiriku läve. Seda tõotust järgisin ma rangelt neliküm-
+mend aastat, välja arvatud siis, kui minu puudumine
+oleks võinud näida kohatu.
+   Keskkoolile järgnesid neli aastat ühes meie riigi pare-
+mas kolledžis, kus peamiseks vaba aja veetmise viisiks
+paistis olevat joomine. Tundus, et sellega tegelesid kõik.
+Ka mina jõin aina rohkem ja rohkem ning elasin lõbu-
+salt ilma eriliste kehaliste vaevusteta ja rahamuredeta.
+Tundus, et minul õnnestus joomajärgsetel hommiku-
+tel paremini vormi saada, kui mu napsikaaslastel, keda
+tabas karistusena (või hoopis õnnistusena) võimas hom-
+mikune iiveldus. Mul pole pea kunagi valutanud, mis
+sunnib arvama, et ma olin peaaegu algusest peale alko-
+hoolik. Kogu mu elu näis keerlevat mu enese tahtmiste
+ümber, ilma et kellegi teise õigused, soovid või privilee-
+gid oleksid arvesse tulnud. Selline vaimne seisund aina
+süvenes aastate jooksul. Joomakaaslaste vennaskonna
+silmis lõpetasin ma õpingud „summa cum laude”, kuid
+mitte rektori silmis.
+   Järgmised kolm aastat veetsin ma Bostonis, Chicagos
+ja Montrealis ühe suure tööstuskontserni teenistuses ja
+tegelesin raudtee varuosade, igasuguste gaasimooto-
+rite ja muu rasketööstustoodangu müügiga. Neil aastail
+jõin ma nii palju kui rahakott lubas, ikka veel suuremate
+vaevusteta, ehkki mul vahel käed hommikuti värisesid.
+Nende kolme aasta jooksul läks mul kaotsi ainult üks­
+ainus poolik tööpäev.
+
+       DOKTOR BOBI PAINAJALIK UNENÄGU                  173
+   Järgmise sammuna alustasin ma meditsiiniõpinguid
+ühes Ühendriikide suuremas ülikoolis. Seal pühendu-
+sin ma joomisele tõsisemalt kui kunagi varem. Tänu
+tohutule võimele õlut juua valiti mind ühe joomaseltsi
+liikmeks ning varsti sai minust üks selle keskseid tege-
+lasi. Hommikuti juhtus tihti, et läksin küll kooli täiesti
+ettevalmistunult, kuid pöörasin värinate tõttu ümber
+ja seadsin sammud tagasi üliõpilasseltsi majja, sest ma
+ei söandanud astuda loengusaali kartuses, et kui mind
+vastama kutsutakse, võin mingi stseeni korraldada.
+   Asi läks päris hulluks, kui ma teise kursuse kevadel
+peale pikka joomaperioodi otsustasin, et ei suuda kur-
+sust lõpetada, pakkisin oma kompsud kokku ja sõitsin
+Lõunasse, et veeta kuu ühe sõbra suures farmis. Kui
+mu pea klaariks sai, leidsin ma, et kooli poolelijätmine
+oleks väga rumal tegu ja et parem oleks tagasi minna
+ning õppetööd jätkata. Ülikooli naastes avastasin, et
+teaduskonnas oldi asjast teistsugusel arvamusel. Peale
+pikka vaidlemist lubati mul siiski tagasi tulla ja eksameid
+sooritada, mida ma ka edukalt tegin. Kuid õppejõudude
+seas tekitas see paksu verd ja mulle anti mõista, et nii
+seda asja ei jäeta. Pärast paljusid piinarikkaid jagelusi
+sain viimaks oma paberid kätte ja läksin üle ühte teise
+juhtivasse ülikooli, alustades selsamal sügisel esimesest
+kursusest.
+   Seal muutus mu joomine nii palju hullemaks, et
+poisid minu üliõpilasseltsi majast olid sunnitud kohale
+kutsuma mu isa, kes sõitis maha pika tee asjatus lootu-
+ses mind kaineks teha. Sellest ei tulnud midagi välja,
+sest ma jätkasin joomist ja pruukisin kangemaid napse
+rohkem kui enne.
+   Lõpueksamite eel alustasin eriti pikka joomatuuri.
+Eksamile minnes värises mu käsi nii, et ma ei suutnud
+
+174      ANONÜÜMSED ALKOHOOLIKUD
+pliiatsit hoida. Andsin ära vähemalt kolm täiesti puu-
+tumata eksamitööd. Mõistagi põrusin ma mürinal läbi
+ja pidin veel üheks semestriks jääma, kui tahtsin üli-
+kooli lõpetada ega tohtinud tilkagi võtta. See läks mul
+ka korda ning ma tõestasin teaduskonnale, et nii minu
+käitumise kui õppeedukusega võis rahule jääda.
+   Pidasin end nii kiiduväärselt ülal, et mul õnnestus
+saada väga ihaldatud internikoht ühes lääneosariigi
+linnas, kuhu ma jäin kaheks aastaks. Nendel kahel aastal
+oli mul nii palju tegemist, et ma vaevalt haiglast välja
+sain. Seetõttu polnud mul ka võimalik pahandustesse
+sattuda.
+   Kui need kaks aastat mööda said, avasin ma kesklin-
+nas oma vastuvõtukabineti. Mul oli natuke raha, aega
+lõputult ja päris tõsine kõhuhäda. Peagi avastasin, et
+paar napsi leevendasid mu seedevaevusi vähemalt paa-
+riks tunniks ja nii polnud mul sugugi raske naasta oma
+varasema, ülemäära alkoholilembese eluviisi juurde.
+   Selleks ajaks oli joomine hakanud tõsiselt mu tervise
+peale käima ning lootuses kergendust leida pagesin ma
+vähemalt tosinal korral vabatahtlikult mõne kohaliku
+sanatooriumi seinte vahele. Olin nagu Skylla ja Charyb-
+dise vahel, sest kui ma ei joonud, piinas mind kõht, ja
+kui ma jõin, piinasid mind närvid. Nii kestis see kolm
+aastat, kuni ma lõpetasin kohalikus haiglas, kus arstid
+mind aidata püüdsid. Kuid mul õnnestus sõpru keeli-
+tada, et nad mulle salaja napsi tooksid, lubades muidu
+pihta panna kogu alkoholi terves hoones ja mu seisund
+halvenes kiiresti.
+   Lõpuks oli mu isa sunnitud mulle järele saatma ühe
+kodulinna arsti, kellel õnnestus kuidagimoodi mind
+koju tagasi toimetada ning jäin voodisse umbes kaheks
+
+       DOKTOR BOBI PAINAJALIK UNENÄGU                 175
+kuuks, enne kui julgesin nina välja pista. Veetsin kodu-
+linnas veel paar kuud ja sõitsin siis tagasi, et oma prak-
+sist jätkata. Olin juhtunust, arsti sõndest või ilmselt
+mõlemast sedavõrd kohutatud, et ma ei võtnud kordagi
+napsi, kuni riik kehtestas kuiva seaduse.
+   Kui alkoholikeeluseadus oli vastu võetud, tundsin
+end päris kindlalt. Teadsin, et igaüks katsub vastavalt
+rahakotile osta mõne pudeli või kastitäie kangemat
+kraami ja varsti on alkohol müügilt kadunud. Järeli-
+kult ei olnud suurt vahet, kas ma nüüd võtan natuke
+napsi või mitte. Tollal ei osanud ma aimatagi, et valitsus
+muudab meile, arstidele, alkoholi peaaegu piiramatus
+koguses kättesaadavaks. Samuti ei teadnud ma midagi
+puskariajajatest, kes nüüd lagedale ilmusid. Algul jõin
+mõõdukalt, ent kulus suhteliselt vähe aega, et langeda
+taas vanade harjumuste küüsi, mis varem nii katastroo-
+filiselt olid lõppenud.
+   Paari järgmise aastaga kujunesid mul välja kaks selge­
+piirilist hirmu. Esiteks hirm, et ma ei saa magada ja tei-
+seks kartus, et mul alkohol otsa lõpeb. Kuna ma polnud
+varakas mees, siis andsin endale aru, et kui ma ei suuda
+raha teenimiseks piisavalt kaine olla, jään ilma alkoho-
+lita. Seetõttu ei võtnud ma enamasti hommikust napsi,
+mille järele tundsin hirmsat tungi, vaid tuupisin end
+värinate vaigistamiseks rahusteid täis, mis mind kohuta-
+valt ära kurnas. Vahel andsin hommikusele napsi­tungile
+järele, ent kui nii juhtus, läks vaid mõni tund ja olin
+täiesti võimetu tööd tegema. See omakorda vähendas
+šansse, et mul õnnestub õhtul alkoholi koju kaasa smu-
+geldada, mis omakorda tähendas voodis vähkremist
+öösel ja talumatuid värinaid hommikul. Järgneva viie-
+teistkümne aasta jooksul jätkus mul vähemalt niipalju
+
+176       ANONÜÜMSED ALKOHOOLIKUD
+mõistust, et ma vindisena nägu haiglasse ei näidanud
+ja ainult harva patsiente vastu võtsin. Mõnikord varja-
+sin end mõnes klubis, mille liige ma olin, ja mõnedel
+puhkudel tavatsesin end vale nime all mõnda hotelli
+möllida. Kuid tavaliselt leidsid sõbrad mu siiski üles ja
+kui nad olid lubanud, et ei hakka mind noomima, läksin
+koju tagasi.
+   Kui mu naine kavatses pärastlõunal välja minna, han-
+kisin suure alkoholitagavara, tõin selle salaja koju ning
+peitsin pudelid söekasti, pesukorvi, uksepiida ja keldri
+põiktalade peale või kiviplaatide vahele. Kasutasin sel-
+leks ka vanu kohvreid ja riidekirste, vana konservi­kasti
+ja isegi tuhaämbrit. Tualeti veepaaki ei kasutanud ma
+kordagi, sest see näis liiga lihtne. Hiljem sain teada,
+et mu naine kontrollis seda kohta pidevalt. Tavaliselt
+pistsin väikse alkoholipudeli karusnahkse vooderdisega
+kindasse ja viskasin selle tagaukse trepile, kui talvepäe-
+vad olid juba piisavalt pimedad. Mu puskariajaja peitis
+alkoholi tagatrepi juurde, kust sain selle sobival hetkel
+ära tuua. Vahel tõin alkoholi koju taskutes, kuid neid
+kontrolliti sageli ja see muutus liiga riskantseks. Vahel
+kallasin alkoholi ümber sajamilliliitristesse pudelitesse
+ja pistsin neid mitu tükki sokisääre vahele. Kasutasin
+seda meetodit edukalt kuni päevani, mil me naisega
+„Puksiirlaev Annie” etendusele Wallace Beeryt vaatama
+läksime, mispeale mu püksisääre- ja sokikavalus ilmsiks
+tuli!
+   Ma ei hakka raiskama trükiruumi, et pajatada kõigist
+minu haigla- ja sanatooriumikogemustest.
+   Nende aastate jooksul hakkasid sõbrad meid suure-
+mal või vähemal määral vältima. Meid ei tahetud külla
+kutsuda, sest ma oleksin kindla peale nina täis tõmma-
+nud ja samal põhjusel ei julgenud ka mu naine kedagi
+
+       DOKTOR BOBI PAINAJALIK UNENÄGU                   177
+meile kutsuda. Mu unetusefoobia nõudis, et ma end igal
+õhtul purju jooksin, kuid selleks, et järgmiseks õhtuks
+alkoholi juurde saada, pidin ma päeval vähemalt kella
+neljani kaine püsima. Väikeste eranditega kestis selline
+elu seitseteist aastat. See oli tõepoolest üks kohutav
+painajalik unenägu – kogu see rahateenimine, alko-
+holi muretsemine, selle salaja koju toimetamine, purju
+joomine, hommikused vabinad, suured rahustiportsud
+selleks, et suuta raha juurde teenida ja nii ad nauseam.
+Tihti lubasin ma oma naisele, sõpradele ja lastele, et
+rohkem ma ei joo. Nendest lubadustest piisas harva, et
+kasvõi sellekssamaks päevaks kaineks jääda, ehkki luba-
+dusi andes olin ma alati väga siiras.
+   Neile, kes kalduvad kõikvõimalikke eksperimente
+korraldama, mainiksin ka oma nn eksperimenti õllega.
+Kui õlu taas müügile tuli, arvasin ma, et nüüd on minu
+mure murtud. Võisin seda juua nii palju kui tahtsin. See
+oli ohutu, ega siis õllest keegi purju jää. Nii täitsingi ma
+oma hea abikaasa nõusolekul terve keldri õlle­varudega.
+Ei läinud kuigi kaua, kui ma jõin päevas ära üle kasti
+õlut. Kahe kuuga võtsin ma kaalus ligi neliteist kilo
+juurde, nägin välja nagu põrsas ja kannatasin õhupuu-
+duse käes. Siis torkas mulle pähe mõte, et kui inimene
+haiseb õllest, ei suuda keegi öelda, kas ta on peale õlle
+veel midagi joonud ja ma hakkasin oma õllesse kangeid
+napse segama. Mõistagi olid tagajärjed halvad ja see tegi
+mu õlleeksperimendile lõpu.
+   Umbes selle eksperimendiga samal ajal sattusin ini-
+meste hulka, kes võlusid mind oma näilise tasakaalu,
+tervise ja õnnelikkusega. Nad rääkisid vabalt ja vähi-
+magi piinlikkuseta, mida mina kunagi ei suutnud, näisid
+end kõigis olukordades väga vabalt tundvat ning paistsid
+ka väga hea tervise juures olevat. Veelgi enam – nad
+
+178       ANONÜÜMSED ALKOHOOLIKUD
+tundusid olevat õnnelikud. Mina tundsin alailma koh-
+metust ja ebamugavust, tervis oli viimase piiri peal ja
+olin üdini õnnetu. Tajusin, et neil oli midagi, mida mul
+ei olnud, kuid mis võiks mullegi kasuks tulla. Avastasin,
+et see oli kuidagi seotud vaimsusega, mis mulle eriti
+ei meeldinud, kuid ma mõtlesin, et ega see mul tükki
+ka küljest ära ei võta. Arutlesin selle üle pikalt ja põh-
+jalikult tervelt kaks ja pool aastat, kuid jõin end sellele
+vaatamata igal õhtul purju. Lugesin kõike, mida kätte
+sain ja rääkisin kõigiga, kes minu arvates võisid asjast
+midagi teada.
+   Mu naine hakkas asja vastu suurt huvi tundma ja see
+innustas mindki, kuigi ma ei tunnetanud kordagi, et see
+võiks lahendada minu alkoholiprobleemi. Ma ei mõista,
+kuidas mu naisel küll õnnestus oma usku ja vaprust kõigi
+nende aastate jooksul säilitada, kuid nii see oli. Kui ta ei
+oleks seda suutnud, siis olen veendunud, et ma oleksin
+kindlasti juba ammu surnud. Millegipärast paistab just
+meil, alkohoolikutel, olevat eriline anne leida endale
+abikaasad maailma parimate naiste seast. Miks peavad
+nemad taluma neid kannatusi, mida me neile põhjus-
+tame, seda ei oska ma seletada.
+   Umbes sel ajajärgul tuli ühel laupäeva pärastlõunal
+mu naisele külla keegi naisterahvas, kes soovis, et ma
+läheksin õhtul tema poole, kohtuma tema sõbraga, kes
+saaks mind ehk aidata. See oli emadepäeva eelne päev,
+olin purjuspäi koju jõudnud, kaenlas suur lillepott, mille
+ma keset lauda panin, seejärel otsejoones teisele kor-
+rusele kobisin ja voodisse vajusin. Järgmisel päeval tuli
+too naine uuesti. Tahtes viisakas olla, ütlesin ma väga
+nadist enesetundest hoolimata: „Eks lähme siis,” ning
+pigistasin oma naiselt välja lubaduse, et me ei jää kaue-
+maks kui veerand tunniks.
+
+       DOKTOR BOBI PAINAJALIK UNENÄGU                   179
+   Astusime tolle naisterahva majja täpselt kell viis ja
+kell näitas veerand kahtteist õhtul, kui me lahkusime.
+Mul oli selle mehega ka hiljem paar lühemat jutuaja-
+mist ja ma jätsin joomise paugupealt maha. See kuiv
+periood kestis umbes kolm nädalat. Siis sõitsin ma
+Atlantic Citysse, et ühe riikliku ühingu liikmena osaleda
+mitmepäevasel koosolekul. Jõin ära kogu rongis leiduva
+viski ja ostsin teel hotelli veel mitu head pudelit. See
+oli pühapäeval. Võtsin end tol õhtul purju, esmaspäe-
+val püsisin kainena kuni lõuna­söögi lõpuni ja jõin end
+siis jälle täis. Jõin baaris nii palju kui mu sündsustunne
+lubas ning läksin siis oma tuppa, et õhtule punkt panna.
+Teisipäeval alustasin juba hommikul ning lõunaks olin
+paras poiss. Soovimata end häbistada, registreerisin ma
+end hotellist välja. Teel jaama ostsin veel alkoholi lisaks.
+Rongi tuli mõni aeg oodata. Sealtpeale ei mäleta ma
+midagi, kuni ärkamiseni ühe sõbra pool mu kodulinna
+lähedal. Need head inimesed teatasid juhtunust mu
+naisele, kes saatis mulle järele mu vastse sõbra. Ta tuligi,
+viis mu koju, pani voodisse, andis mulle õhtul veel paar
+napsi ja järgmiseks hommikuks pudeli õlut.
+   See oli 10. juunil 1935 ning need napsid jäid mu vii-
+masteks. Neid ridu kirjutades on sellest möödunud juba
+neli aastat.
+   Teil võib loomulikult tekkida küsimus: „Mida tegi
+või ütles see mees erinevat kõigest, mida olid öelnud
+või teinud teised inimesed?” Meenutagem, et ma olin
+tublisti lugenud ja vahetanud arvamusi kõigiga, kellest
+ma teadsin või arvasin, et nad alkoholismist midagi jaga-
+vad. Kuid tema oli mees, kes oli kogenud aastatepikkust
+hirmsal kombel joomist, kes oli läbi elanud kõik, mis
+ühele joodikule võib osaks saada, kuid kes oli tervene-
+nud samade meetodite abil, mida minagi olin püüdnud
+
+180       ANONÜÜMSED ALKOHOOLIKUD
+rakendada ehk teisisõnu – vaimse lähenemise kaudu.
+Tema tutvustas mulle põhjalikult alkoholismi olemust ja
+kahtlemata oli sellest abi. Kaugelt tähtsam aga on asja-
+olu, et tema oli esimene inimene, kes teadis oma isikliku
+kogemuse põhjal täpselt, mida ta alkoholismi kohta ütles.
+Teiste sõnadega – ta kõneles minu keeles. Tema teadis
+kõiki vastuseid ja mõistagi polnud need mitte raamatu-
+test hangitud.
+   Oli suurim õnnistus vabaneda minu peal lasunud nee-
+dusest. Mu tervis on korras, olen suutnud taastada aus-
+tuse enda vastu ja uuesti pälvinud ka kolleegide austuse.
+Mu kodune elu on ideaalne ning mu töö edeneb nii hästi,
+kui see praegusel ebakindlal ajal üldse olla võib.
+   Pühendan palju aega sellele, et anda neile, kes seda
+tahavad ja hädasti vajavad, edasi kõike, mida ma ise olen
+õppinud. Teen seda neljal põhjusel:
+     1. Kohusetundest.
+     2. See valmistab mulle rõõmu.
+     3. Sest niiviisi tasun ma võlga selle mehe ees, kes
+         kulutas oma aega, et sõnumit minuni tuua.
+     4. Sest seda tehes kindlustan ma iga kord end jälle
+         natuke rohkem võimalike libastumiste vastu.
+   Erinevalt enamikust meie liikmetest ei saanud ma
+esimesel kahel ja poolel kainusaastal alkoholitungist
+kuigivõrd jagu. See jälitas mind peaaegu pidevalt.
+Kuid kordagi pole ma olnud sellele himule järeleand-
+mise äärel. Ärritusin kohutavalt, nähes sõpru joomas
+ja teades, et mina seda ei tohi, kuid ma harjutasin end
+mõttega, et kuigi mul oli kunagi olnud samasugune voli,
+olin ma seda nii koledal kombel kuritarvitanud, et see
+oli minult ära võetud. Nii et pole siin kurta midagi. Lõp-
+pude lõpuks pole mind ju keegi kunagi pikali löönud ja
+vägisi alkoholi kõrist alla kallanud.
+
+       DOKTOR BOBI PAINAJALIK UNENÄGU                181
+  Kui sa arvad, et oled ateist, agnostik, skeptik või sa
+tunned mingit muud intellektuaalset uhkust, mis takis-
+tab sul seda raamatut omaks võtmast, siis tunnen sulle
+kaasa. Kui sa pead end endiselt küllalt tugevaks, et üksi
+seda mängu võita, siis on see su oma asi. Ent kui sa tõe-
+poolest tahad joomise jäädavalt maha jätta ning tunned,
+et vajad abi, siis teame me, et võime sulle vastuse pak-
+kuda. See ei vea sind kunagi alt, isegi kui sa haarad
+sellest kinni kasvõi poolega sellest agarusest, mida sa
+varem ilmutasid järjekordse napsi hankimisel.
+  Sinu Taevane Isa ei vea sind iial alt!

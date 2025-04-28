@@ -1,0 +1,394 @@
+(7)        MEES, KES SELJATAS HIRMU
+  Ta veetis kaheksateist aastat põgenedes ja leidis siis,
+et põgeneda pole tarvis. Niisiis pani ta aluse AA-le
+Detroitis.
+
+
+K       aheksateist aastat valitses minu elu ühe
+        hirm, sellest ajast peale, kui olin kahekümne ühe
+aastane. Kolmekümneseks saades olin avastanud, et
+alkohol võtab hirmu ära – mõneks ajaks. Lõpuks oli mul
+ühe probleemi asemel kaks: hirm ja alkohol.
+   Olen pärit heast perekonnast. Usun, et sotsioloogid
+nimetaksid seda kõrgemaks keskklassiks. Kahekümne
+esimeseks eluaastaks olin veetnud kuus aastat välis­
+riikides, rääkisin vabalt kolme keelt ja olin käinud kaks
+aastat kolledžis. Perekonna majanduslik mõõn sundis
+mind kahekümneselt tööle minema. Olles täiesti veen-
+dunud, et mind saadab edu, astusin ärimaailma. Selline
+mõtteviis oli mulle lapsepõlvest sisse juurutatud ning
+teismeeas näitasin märkimisväärset algatusvõimet ja
+loovust raha teenimisel. Minu mäletamist mööda puu-
+dusid mul igasugused ebatavalised hirmud. Puhkus
+koolist ja töölt tähendas minu jaoks reisimist – ja ma
+reisisin rõõmuga. Esimesel kolledžijärgsel aastal käisin
+ma pidevalt kohtingutel ja lõputult tantsu­pidudel, bal-
+lidel ja õhtusöökidel.
+   Ühtäkki see kõik muutus. Kogesin laastavat närvi-
+vapustust. Kolm kuud voodis. Veel kolm kuud viibisin
+kodus, olles suurema osa ajast voodis. Mind kurnasid
+kõik sõprade külaskäigud, mis kestsid üle veerand tunni.
+Täielik tervisekontroll ühes parimas haiglas ei paljasta-
+
+                          246
+
+              MEES, KES SELJATAS HIRMU                 247
+nud midagi. Kuulsin esimest korda väljendit, mida ma
+hakkasin hirmsasti põlgama: "Orgaaniliselt ei ole midagi
+valesti." Võib-olla oleks abi olnud psühhiaatriast, kuid
+psühhiaatrid polnud veel Kesk-Läände jõudnud.
+   Saabus kevad. Ma läksin oma esimesele jalutuskäi-
+gule. Poole kvartali kaugusel majast püüdsin nurga
+taha keerata. Mind halvas hirm, kuid kohe, kui kodu
+poole tagasi pöördusin, see halvav hirm kadus. Sealt
+algas lõputu jada selliseid kogemusi. Rääkisin sellest
+murest oma perearstile – mõistvale mehele, kes kulutas
+minu aitamisele tundide kaupa oma aega. Ta ütles, et
+ma pean tingimata kogu kvartali läbi kõndima, põhjus-
+tagu see mu peas kui tahes suurt agooniat. Ma järgisin
+tema juhiseid. Kui jõudsin kohani, kust oleksin võinud
+lõigata läbi sõbra aja kohe koju, tundsin peaaegu ületa-
+matutu soovi seda teha, kuid tegin kogu teekonna siiski
+läbi. Tõenäoliselt suudavad vaid mõned selle loo lugejad
+oma isiklike kogemuste põhjal samastuda selle elevuse
+ja saavutusrõõmuga, mida tundsin pärast selle näiliselt
+lihtsa ülesande sooritamist.
+   Ma ei hakka üksikasjalikult peatuma kõigil neil asja-
+del, mis tõid mind tagasi tavapärase elu juurde – esi-
+mene lühike trammisõit, kasutatud jalgratta ostmine,
+mis võimaldas mul avardada oma elu kitsast perimeet-
+rit, esimene sõit kesklinna. Sain lihtsa osalise tööajaga
+töö väikese naabruskonna trükikoja trükiste müüjana.
+See laiendas mu tegevuste ringi. Aasta hiljem sain osta
+Model T auto ja võtta vastu parema töökoha ühes kesk-
+linna trükikojas. Sellest ja järjekordsest töökohast trüki-
+kojas sain ma viisakalt sule sappa. Mul lihtsalt ei olnud
+särtsu teha külma müügitööd. Suundusin tööle kinnis-
+vara vahendamise ja haldamise valdkonda. Avastasin
+
+248       ANONÜÜMSED ALKOHOOLIKUD
+kiiresti, et kokteilid pärastlõunal ja napsid õhtul leeven-
+davad hästi päevaseid pingeid. See õnnelik töö ja alko-
+holi kooslus kestis viis aastat. Loomulikult tappis viimane
+lõppkokkuvõttes esimese, kuid sellest lähemalt hiljem.
+   Kolmekümneselt see kõik muutus. Mõlemad mu
+vanemad surid samal aastal, jättes minu kui ülehoo-
+litsetud ja pisut ebaküpse mehe üksi. Kolisin ühte
+„poissmeeste-elamusse”. Kõik sealsed mehed veetsid
+laupäeva õhtuid juues ja lõbutsedes. Minu joomis­
+muster muutus nende omast väga erinevaks. Mul tek-
+kisid rasked, pingelised peavalud, eriti kuklapiirkonnas.
+Alkohol leevendas neid. Lõpuks avastasin, et alkohol
+ravib kõike. Hakkasin samuti nautima neid laupäeva­
+õhtuseid pidusid. Jäin argipäevaõhtutel pärast teisi üles
+ja jõin end magama. Alkoholist oli saanud ühelt poolt
+kark ja teiselt poolt vahend elust põgenemiseks.
+   Järgnevad üheksa aastat olid nii kogu riigis majan-
+duslikult, kui minu isiklikus elus depressiooniaastad.
+Ma abiellusin meeleheitest võrsunud vaprusega ja
+alkoholist kannustatuna ühe noore kauni neiuga. Meie
+abielu kestis neli aastat. Vähemalt kolm neist aastatest
+pidid mu naise jaoks olema elav põrgu, sest ta oli sun-
+nitud pealt vaatama, kuidas mehel, keda ta armastas,
+lagunesid mõistus, moraal ja rahaline seis. Poja sünd ei
+aidanud kuidagi seda allakäigu­spiraali peatada. Kui ta
+lõpuks koos lapsega minema läks, lukustasin end majja
+ja olin kuu aega juua täis.
+   Järgmised kaks aastat olid lihtsalt üks pikk ja veniv
+protsess, kus viski joomine pikkamööda töö tegemist
+välja suretas. Lõpuks olin kodutu, töötu, rahatu ja
+sihitu, olles ebameeldivaks külaliseks lähedase sõbra
+juures, kelle pere oli linnast ära. Igapäevases udus
+
+             MEES, KES SELJATAS HIRMU                   249
+kummitas mind mõte (ja selliseid päevi oli selle mehe
+kodus kaheksateist või üheksateist): „Kuhu ma lähen,
+kui ta pere koju tuleb?” Kui nende tagasipöördumise
+päev peaaegu kätte jõudis ja enesetapp oli ainus lahen-
+dus, mis mu peas terendas, läksin ühel õhtul Ralphi
+tuppa ja rääkisin talle tõtt. Olles jõukas mees, oleks ta
+võinud teha seda, mida paljud mehed sellises olukorras
+teevad. Ta oleks võinud anda mulle viiskümmend dol-
+larit ja öelda, et ma peaksin end kokku võtma ja uuesti
+alustama. Olen viimase kuueteistkümne aasta jooksul
+palju kordi Jumalat tänanud, et see on täpselt see, mida
+ta ei teinud!
+   Selle asemel pani ta end riidesse, viis mind välja, ostis
+mulle kolm või neli topeltnapsi ja pani mu voodisse.
+Järgmisel päeval delegeeris ta mind ühele abielu­paarile,
+kes polnud küll alkohoolikud, kuid tundsid dr Bobi ja
+olid valmis mind Akronisse sõidutama ning mind tema
+hoole alla andma. Nende ainus tingimus oli see, et ma
+pidin selle otsuse ise langetama. Millise otsuse? Vali-
+kud oli piiratud. Kas suunduda põhjapoole tühja männi-
+metsa ja ennast maha lasta või minna lõunasse lootuses,
+et kamp võõraid inimesi mind mu joomis­probleemiga
+aitab. Noh, enesetapp oli viimane õlekõrs ja ma polnud
+seda veel tõmmanud. Niisiis sõidutasid need kaks Head
+Samariitlast mind juba järgmisel päeval Akronisse ja
+andsid mind doktor Bobi ja tollase pisikese Akroni
+rühma hoolde.
+   Haiglavoodis lebades tulid mind vaatama selgete
+silmade, rõõmsate nägude ja kindla ning eesmärgi­
+pärase ilmega mehed, kes jutustasid mulle oma lugu-
+sid. Mõningaid neist lugudest oli raske uskuda, kuid
+polnud vaja olla ajugeenius tajumaks, et neil on midagi,
+
+250       ANONÜÜMSED ALKOHOOLIKUD
+mida ma võiksin kasutada. Kuidas ma suudaksin seda
+vastu võtta? Nad ütlesid, et see on lihtne ja kirjeldasid
+mulle oma sõnadega tervenemise ja igapäevaelu prog-
+rammi, mida tunneme tänapäeval AA Kaheteistkümne
+Sammuna. Dr Bob rääkis põhjalikult, kuidas palve oli
+ta ikka ja jälle vabastanud peaaegu võitmatust sund-
+mõttest juua. Ta ise oli veendunud ja veenis ka mind,
+et minust suurem Jõud võib mind elus ette tulevates
+kriisides aidata ja et vahend selle Jõuga suhtlemiseks
+on lihtne palve. Siin oli pikk, jõuline, kõrgharidusega
+jänki, kes rääkis Jumalast ja palvest täiesti vabalt. Kui
+tema ja need teised inimesed sellega hakkama said, siis
+suudan seda ka mina.
+   Haiglast välja saades, kutsuti mind dr Bobi ja tema
+kalli naise Anne juurde elama. Mind haaras ootamatult
+ja kontrollimatult kunagine halvav paanika. Haigla oli
+tundunud nii turvaline. Nüüd olin võõras majas, võõras
+linnas ja mind valdas hirm. Lukustasin end oma tuppa
+ja see hakkas tiirlema. Valitsesid paanika, segadus ja
+kaos. Sellest keerisest kerkisid pinnale vaid kaks aru-
+saadavat mõtet: esiteks tähendaks joomine kodutust ja
+surma, teiseks ei saanud ma enam hirmu leevendada
+koju minekuga, nagu ma varasemalt sellises olukorras
+olin teinud, sest mul polnud enam kodu. Ma ei suuda
+meenutada kui kaua sellega aega läks, aga lõpuks taipa-
+sin − proovi palvet. Sul pole midagi kaotada ja võib-olla
+Jumal aitab sind – ainult võib-olla. Kuna mul polnud
+kedagi teist, kelle poole pöörduda, olin nõus kahtlevalt
+Talle võimaluse andma. Esimest korda kolmekümne
+aasta jooksul laskusin põlvili. Palve, mille ma laususin,
+oli lihtne. See kõlas umbes nii: „Jumal, kaheksateist
+aastat ei ole ma selle probleemiga toime tulnud. Palun
+lase mul see sinu hooleks anda”.
+
+            MEES, KES SELJATAS HIRMU                  251
+   Koheselt langes minu peale tohutu rahu, millesse
+oli segunenud vaikne jõud. Heitsin voodisse ja maga-
+sin nagu laps. Tund aega hiljem ärkasin uude maailma.
+Miski polnud muutunud ja ometi oli kõik teistmoodi.
+Loor oli langenud mu silmadelt ja ma nägin elu õigest
+vaatenurgast. Olin püüdnud olla omaenda väikese maa-
+ilma keskmeks, samas kui Jumal oli tohutu universumi
+keskpunkt, milles mina võisin olla küll oluline, kuid väga
+väike osakene.
+   Minu ellu tagasi tulemisest on nüüd möödas juba üle
+kuueteistkümne aasta. Ma ei ole sellest ajast peale til-
+kagi joonud. Juba ainuüksi see on ime. See oli vaid esi-
+mene imede seeriast, mida olen üksteise järel kogenud,
+tänu Kaheteistkümne Sammu põhimõtete rakendami-
+sele oma igapäevases elus. Sooviksin teile visandada
+tipphetked sellest kuusteist aastat kestnud aeglasest,
+kuid kindlast ja rahuldustpakkuvavast arengust.
+   Kehv tervis ja täielik rahapuudus sundisid mind jääma
+dr Bobi ja Anne juurde peaaegu aastaks. Oleks võimatu
+libiseda üle sellest aastast, rääkimata oma armastusest
+ja võlgnevusest nende imelise inimese vastu, kes nüüd-
+seks on meie hulgast lahkunud. Nemad ja nende lapsed
+lasid mul end tunda, nagu oleksin osa sellest perest.
+Selle pere ja sageli Akronit väisava Bill W eeskuju ligi-
+meste aitamises olid mulle suureks eeskujuks ja sütita-
+sid minus soovi neid jäljendada. Sisemiselt mässasin tol
+aastal mõnikord selle vastu, mida tajusin ajaraiskami-
+sena ja selle üle, et pidin olema koormaks neile headele
+inimestele, kelle vahendid olid piiratud. Enne, kui mul
+avanes reaalne võimalus anda, pidin omandama teise,
+sama olulise õppetunni – kuidas armulikult vastu võtta.
+   Esimestel kuudel Akronis olin üsna kindel, et ma
+ei taha enam kunagi oma kodulinna näha. Seal oleks
+
+252      ANONÜÜMSED ALKOHOOLIKUD
+mind tabanud liiga palju majanduslikke ja sotsiaalseid
+probleeme. Tahtsin alustada kusagil mujal puhtalt
+lehelt. Pärast kuue kuu pikkust kainust nägin olukorda
+teises valguses. Pidin Detroiti tagasi pöörduma, mitte
+ainult seal tekitatud segadusega silmitsi seismiseks,
+vaid ka seetõttu, et saaksin seal AA-le kõige rohkem
+kasu tuua. 1939. aasta kevadel sõitis Bill tööasjus
+Detroiti ja tegi vahepeatuse Akronis. Haarasin kinni
+võimalusest temaga kaasa minna. Veetsime seal koos
+kaks päeva, enne kui ta tagasi New Yorki sõitis. Sõbrad
+lubasid mul jääda nii kauaks, kui soovisin. Peatusin
+nende juures kolm nädalat ja kasutasin osa sellest ajast
+selleks, et hüvitada mitmeid asju, milleks mul varem
+võimalusi ei olnud.
+  Ülejäänud aja pühendasin AA ettevalmistustööle.
+Otsisin „küpseid” kandidaate ja tundsin, et üksikute
+baaris käivate alkohoolikute taga ajamine ei vii mind
+kuhugi. Seega veetsin suure osa oma ajast kohtudes
+inimestega, kes loogiliselt puutuksid alkohoolikutega
+kokku – arstid, vaimulikud, advokaadid ja tööstuste
+personali­inimesed. Lisaks rääkisin AA-st igale sõbrale,
+kes kuulata tahtis – lõunal, õhtusöögil, tänavanurgal.
+Üks arst andis mulle vihje esimese potentsiaalse kan-
+didaadi kohta. Kohtusin temaga ja saatsin ta rongiga
+Akronisse, taskus pint viskit, et tal poleks kiusatust
+Toledos maha minna! Mitte miski ei ole tänini võrdne
+selle esimese juhtumi põnevusega.
+  Need kolm nädalat kurnasid mind täiesti ära ja ma
+pidin naasma Akronisse, et veel kolm kuud puhata.
+Seal olles saadeti meile Detroitist veel kaks või kolm
+sularahahuvilist (nagu dr Bob neid nimetas – ilmselt
+seetõttu, et neil ei olnud raha). Kui ma lõpuks Detroiti
+tagasi pöördusin, et leida tööd ja õppida ise hakkama
+
+            MEES, KES SELJATAS HIRMU                  253
+saama, oli pall vaikselt veerema hakanud. Ometi kulus
+veel kuus kuud tööd ja pettumusi, enne kui kolmest
+mehest koosnev rühm minu üürikorteri magamistoas
+oma esimesele AA koosolekule kogunes.
+   See kõlab lihtsalt, aga mul tuli ületada takistusi
+ja kahtlusi. Mäletan hästi ühte heitlust, mis mul oli
+endaga peagi pärast naasmist. See kõlas umbes nii. Kui
+ma hakkan avalikult rääkima oma alkoholismist, võib
+see takistada mul hea töö leidmist. Kuid mis siis, kui
+kasvõi ainult üks inimene sureb sellepärast, et ma ise-
+katel põhjustel suu kinni hoidsin? Ei. Ma pidin täitma
+Jumala tahtmist, mitte enda oma. Tema tee oli minu
+ees selgelt nähtav ja pidin lõpetama õigustuste otsimise,
+justkui oleks minu jaoks võimalikud ka kõrvalteed. Ma
+ei saanud loota, et säilitaksin selle, mille olin saavuta-
+nud, kui seda teistele ära ei jaga.
+   Majandussurutis kestis endiselt ja töökohti nappis.
+Minu tervis oli ikka veel ebakindel. Niisiis lõin
+endale töökoha, müües naiste pudukaupu ja meeste
+eritellimus­särke. See andis mulle vabaduse teha AA
+tööd ja kahe või kolme päeva kaupa puhata, kui olin
+jätkamiseks liiga kurnatud. Rohkem kui üks kord tõusin
+ma hommikul üles vaid rahaga, millest piisas kohviks ja
+röstsaiaks ning bussipiletiks, et esimesele kohtumisele
+sõita. Ei tee müüki – ei saa sööki. Selle esimese aasta
+jooksul õnnestus mul siiski ots-otsaga kokku tulla ja väl-
+tida tagasipöördumist oma vana harjumuse juurde, kus
+ma raha teenimise asemel laenu võtsin. Juba ainuüksi
+see oli suur samm edasi.
+   Esimese kolme kuu jooksul korraldasin kõik need
+tegevused ilma autota, sõltudes täielikult bussidest ja
+trammidest – mina, kel pidi auto alati käepärast olema.
+Mina, kes ma ei olnud kunagi elus kõnet pidanud ja kes
+
+254       ANONÜÜMSED ALKOHOOLIKUD
+ma oleksin sellest mõttest haigeks jäänud, astusin eri-
+nevates linnaosades Rotary klubide ees üles ja rääkisin
+Anonüümsetest Alkohoolikutest. Kantuna soovist tee-
+nida AA-d, osalesin tõenäoliselt esimeses raadiosaates
+AA-st, elades üle mikrofonihirmu ja tundes end peale
+seda sooritust nagu miljon dollarit. Ma elasin üle nädal
+aega hirmu, sest olin nõustunud kõnelema alkohooli-
+kutest kinnipeetavate grupile ühes meie osariigi vaimu-
+haiglas. Autasu oli seal sama – rõõm tehtud tööst. Kas
+ma pean teile ütlema, kes sellest kõigest kõige rohkem
+võitis?
+   Aasta möödudes pärast minu Detroiti naasmist oli
+AA-l juba välja kujunenud umbes tosinast liikmest koos-
+nev väike rühm, ja minulgi oli välja kujunenud tagasi­
+hoidlik, kuid kindel töökoht, kus ma pakkusin enda
+keemilise puhastuse teenust. Olin iseenda ülemus.
+Kulus viis aastat AA-elu ja mu tervis paranes märkimis-
+väärselt, enne kui võtsin vastu täiskohaga kontoritöö,
+kus minu ülemus oli keegi teine.
+   See kontoritöö seadis mind silmitsi probleemiga, mil-
+lest ma olin kogu oma täiskasvanuelu elu jooksul kõrvale
+hiilinud, nimelt väljaõppe puudumisega. Sedakorda
+võtsin ma selles suhtes midagi ette. Panin end kirja
+kaug­õppekooli, kus õpetati ainult raamatupidamist.
+Tänu sellele erialasele väljaõppele ja vaba­kutselisele
+äriharidusele elukoolis suutsin ligikaudu kaks aastat
+hiljem avada enda raamatupidamis­büroo. Seitse aastat
+tööd selles valdkonnas lõi võimaluse ühendada jõud ühe
+oma kliendiga, kaaslasega AA-st. Me täiendame teine-
+teist suurepäraselt, sest tema on sündinud müügimees
+ja mina eelistan rahandust ja juhtimist. Lõpuks ometi
+tegin ma tööd, mida olin alati teha tahtnud, kuid milleks
+
+            MEES, KES SELJATAS HIRMU                  255
+mul ei ole kunagi olnud piisavalt kannatust ja emot-
+sionaalset stabiilsust, et ka vastav väljaõpe läbida. AA
+programm näitas mulle, kuidas tulla maa peale tagasi,
+alustada nullist ja end üles töötada. Ka see kujutas
+endast minu jaoks suurt muutust, sest minevikus olin
+harjunud alustama tipust juhi või pearaamatupidajana
+ja lõpetama sellega, et šerif hingab mulle kuklasse.
+   Nii palju minu tööelust. Ilmselt olin oma hirmudest
+piisaval määral üle saanud, et mõelda äriedust. Jumala
+abiga olin võimeline üks päev korraga kandma ärilisi
+kohustusi, mille võtmisest poleks ma veel mõned aas-
+taid tagasi unistanudki. Mis aga sai minu sotsiaalsest
+elust? Mis sai nendest hirmudest, mis kunagi halvasid
+mind sedavõrd, et ma pooleldi erakuks muutusin? Mis
+sai minu hirmust reisimise ees?
+   Oleks imeline, kui ma saaksin teile öelda, et minu
+usaldus Jumala vastu ja igapäevane Kaheteistkümne
+Sammu rakendamine on hirmu täielikult eemaldanud.
+See ei oleks aga tõde. Kõige täpsem vastus, mis ma
+teile anda võin, on järgmine: hirm ei ole enam kunagi
+valitsenud mu elu alates sellest päevast 1938. aasta sep-
+tembris, mil ma leidsin, et minust suurem Jõud suudab
+mitte ainult taastada mu terve mõtlemise, vaid ka hoida
+mind kainena ja mu meeled selged. Mitte kunagi kuue-
+teistkümne aasta jooksul ei ole ma hirmu tõttu millestki
+kõrvale hoidnud. Ma olen eluga silmitsi seisnud, selle
+asemel, et elu eest põgeneda.
+   Mõned asjad, mida hirm mind varem teha takistas,
+muudavad mind nende tegemise ootuses ikka veel när-
+viliseks, kuid härjal sarvist haarates, kaob närvilisus ja
+suudan seda nautida. Viimastel aastatel on mul olnud
+aega ja raha, et vahetevahel reisida. Päev või kaks enne
+
+256       ANONÜÜMSED ALKOHOOLIKUD
+starti kipun küll üsna ärevusse minema, kuid ma teen
+siiski algust ja kui ma kord pihta hakkan, siis kõik sujub.
+   Kas ma olen nende aastate jooksul kunagi juua taht-
+nud? Vaid ühel korral vaevas mind peaaegu alistamatu
+sundmõte haarata üks jook. Kummalisel kombel olid
+asjaolud ja ümbrus meeldivad. Olin kaunilt kaetud õhtu-
+söögilaua taga, igati õnnelikus meeleolus. Olles olnud
+AA-s juba aasta, oli joomine viimane asi, mis mul mõt-
+teis mõlkus. Minu ette lauale oli asetatud klaas šerrit.
+Mind haaras peaaegu taltsutamatu kihk selle järele
+käsi sirutada. Sulgesin silmad ja palusin abi. Vähem kui
+viieteist sekundiga see tunne kadus. On olnud mitmeid
+kordi, mil olen joogi võtmise peale mõelnud. Sellise
+mõtlemise algatas tavaliselt mälestuste heietamine oma
+noorusaja meeldivatest joomistest. AA elu alguses õppi-
+sin, et ma ei saa selliseid lemmiklooma hellitamise sar-
+naseid mõtteid lubada, sest sellest lemmikloomast võib
+sirguda koletis. Selle asemel asendan ma kiiresti need
+värvikad stseenid oma viimaste joomiste õudustega.
+   Umbes kakskümmend aastat tagasi keerasin vussi
+oma ainsa abielu. Seega polnud selles midagi kummalist,
+et ma pärast AA-ga liitumist palju aastaid igasugustest
+tõsiseltvõetavatest abielumõtetest hoidusin. Võrreldes
+äritegevusega oli see midagi, mis nõudis isegi rohke-
+mat tahet vastutust võtta ja suuremat koostöö- ning
+kompromissivalmidust. Siiski tundsin ilmselt sügaval
+sisimas, et isekalt poissmeheelu elamine on poolik elu.
+Üksinda elades jäetakse oma elust välja küllaltki palju
+kurbust, kuid samas ka rõõmu. Igal juhul oli viimane
+suur samm täisväärtusliku elu suunas mul veel ees. Nii-
+siis sain ma endale kuus kuud tagasi valmis perekonna,
+kuhu kuuluvad üks võluv naine, neli täiskasvanud last,
+
+            MEES, KES SELJATAS HIRMU                 257
+kellele olen pühendunud, ja kolm lapselast. Kuna ma
+olen alkohoolik, siis ei saa ma unistadagi sellest, et ma
+midagi poolikult teeksin! Minu abikaasa, kes on samuti
+AA-lane, oli olnud üheksa aastat lesk ja mina olin olnud
+kaheksateist aastat vallaline. Kohanemine on sellistes
+oludes raske ja võtab aega, kuid me mõlemad tunneme,
+et see on kahtlemata seda väärt. Me mõlemad sõltume
+Jumalast ja Anonüümsete Alkohoolikute programmi
+rakendamisest, et see ühine ettevõtmine õnnestuks.
+   Kahtlemata on veel liiga vara öelda, kui edukas ma
+tulevikus abikaasana olen. Küll aga tunnen, et see, et
+ma lõpuks kasvasin punkti, kus ma üldse suutsin vastu
+minna sellisele väljakutsele, on tipphetk selle mehe
+loos, kes kaheksateist aastat elu eest põgenes.
+
