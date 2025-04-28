@@ -1,0 +1,2 @@
+# Leppimine oli lahendus
+

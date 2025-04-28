@@ -1,0 +1,2 @@
+# Võitja võtab kõik
+
