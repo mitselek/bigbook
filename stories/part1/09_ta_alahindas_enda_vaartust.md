@@ -1,4 +1,29 @@
-(9)          TA ALAHINDAS ENDA VÄÄRTUST                   259
+     TA ALAHINDAS ENDA VÄÄRTUST
+  *Ometi leidis ta, et on olemas Kõrgem Jõud, kes uskus
+temasse rohkem kui ta ise. Nii sündis AA Chicagos.*
+
+K     asvasin üles Ohio osariigis ühes Akroni lähedal
+      asuvas väikelinnas, kus elu kulges sarnaselt iga
+teise keskmise väikelinna omaga. Olin väga huvitatud
+spordist ning tänu sellele ja vanemate mõjule ei joonud
+ega suitsetanud ma ei põhikoolis ega keskkoolis.
+  Kõik see muutus, kui asusin kolledžisse õppima. Pidin
+kohanema uue seltskonna ja kaaslastega ning tundus,
+et joomine ja suitsetamine on mõistlikud tegevused.
+Kolledžis ja mitu aastat pärast seda jõin normaalselt,
+piirdudes nädala­vahetustega.
+  Pärast koolist lahkumist asusin tööle Akronisse ja
+elasin vanemate juures. Kodune elu avaldas taas piiravat
+mõju. Arvestasin vanemate tunnetega ja varjasin joomist
+nende eest. See jätkus kuni mu kahekümneseitsmenda
+eluaastani. Siis hakkasin reisima, minu tööpiirkonnaks
+said Ameerika Ühendriigid ja Kanada. Kuna mul oli nii
+palju vabadust ning piiramatu kuluarve, hakkasin peagi
+igal õhtul jooma, lollitades end, et see kõik kuulub töö
+juurde. Nüüd tean, et 60 protsenti ajast jõin ma üksi,
+mitte koos klientidega.
+
+          TA ALAHINDAS ENDA VÄÄRTUST                   259
    1930. aastal kolisin Chicagosse. Varsti pärast seda,
 suuresti majandussurutise tõttu, avastasin, et mul on
 palju vaba aega ja et väike hommikune jook aitab. 1932.
