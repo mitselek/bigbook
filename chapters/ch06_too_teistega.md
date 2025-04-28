@@ -12,11 +12,17 @@ Meie endi taastumine tugevneb, kui jagame oma kogemust, jõudu ja lootust teiste
 
 Minu elu ei paranenud ka põgenedes. Järgneva kolmeteistkümne aasta jooksul õppisin vaid pideva ümberkolimise peent kunsti ja kartsin iga peegelpilti. Elu ei saanud enam niiviisi jätkuda.
 
-### 3. Sponsor ja juhendamine (lk ...)
+### 3. Sponsor ja juhendamine (lk 523–525)
 
-> PDF-ist kopeeritud lõigud sponsorluse rollist ja nõuannetest sponsoritele.
+> Sponsor on kogenud AA liige, kes on juba läbinud need sammud, mida uuel tulijal soovitakse selgitada. Ta jagab oma isiklikku kogemust, vastab küsimustele ja näitab eeskuju, kuidas sammud igapäevaelus ellu viia.
 
-// ... asendada ...
+Sponsorina tegutsemine eeldab:
+
+- Ausust ja avatud suhtlemist.
+- Regulaarset kohtumist, et koos sammude kallal töötada.
+- Teadmisi programmist ja selle põhimõtetest.
+
+Tegutsedes juhina ja sõbrana, aitab sponsor uuel tulijal vältida levinumaid lõkse ja toetab teda raskeimatel hetkedel.
 
 ### 4. Koosolekute juhtimine ja kogukonna loomine (lk ...)
 
