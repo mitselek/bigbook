@@ -3,7 +3,7 @@
 kaelsuse ja saatus viis selle müügimehe Philadelphiasse
 AA-d käivitama.
 
-8.     jaanuar 1938 – see oli minu põhi. Asukohaks
+<not-a-list/>8.     jaanuar 1938 – see oli minu põhi. Asukohaks
        Washington. Viimane tõeline karussell oli alanud
 päev enne jõule ja ma olin nende neljateistkümne päeva
 jooksul tõesti palju korda saatnud. Esmalt oli mu uus
