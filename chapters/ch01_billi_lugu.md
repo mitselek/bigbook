@@ -1,4 +1,4 @@
-# Peatükk 1: Billi lugu
+# Peatükk 1: Billi lugu (lk 1)
 
 Sõjapalavik hõõgus Uus-Inglismaa linnas, kuhu meid värskeid ja noori äsja Plattsburgist saabunud ohvitsere määrati, ning me olime meelitatud, kui esimesed sealsed linnaelanikud meid oma kodudesse viisid, tekitades meis kangelase tunde. Siin oli armastust, aplause ja sõda; ülevad hetked vaheldumas pöörase lustiga. Viimaks olin minagi osa elust ja keset seda elevust avastasin ma alkoholi. Unustasin oma lähedaste karmid hoiatused ja alkoholiga seotud eelarvamused. Tuli aeg ookeani taha seilata. Olin väga üksildane ja pöördusin taas alkoholi poole.
 

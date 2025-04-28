@@ -1,4 +1,4 @@
-# Peatükk 5: Kuidas see toimib
+# Peatükk 5: Kuidas see töötab (lk 58)
 
 Oleme harva näinud inimest, kes on meie teed põhjalikult järgides ebaõnnestunud. Ei tervene need, kes ei suuda või ei taha sellele lihtsale programmile täielikult pühenduda. Tavaliselt on need mehed ja naised, kes loomult ei suuda iseenda vastu ausad olla. Selliseid õnnetuid leidub. See pole nende süü – näib, et nad on sellistena sündinud. Kuna nad ei suuda omandada ega arendada eluviisi, mis nõuab jäägitut ausust, on nende eduvõimalused keskmisest madalamad. On ka selliseid, kes kannatavad tõsiste emotsionaalsete ja psüühiliste häirete all, kuid paljud neist tervenevad, kui nad suudavad olla ausad.
 

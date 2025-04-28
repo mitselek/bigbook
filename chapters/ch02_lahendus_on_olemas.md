@@ -1,4 +1,4 @@
-# Peatükk 2: Lahendus on olemas
+# Peatükk 2: Lahendus on olemas (lk 17)
 
 Meie, anonüümsete alkohoolikute liikmed, teame tuhandeid mehi ja naisi, kes olid kunagi niisama lootusetud kui Bill. Peaaegu kõik nad on tervenenud. Nad on lahendanud oma joomisprob­leemi.
 

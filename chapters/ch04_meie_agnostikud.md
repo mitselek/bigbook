@@ -1,4 +1,4 @@
-# Peatükk 4: Meie, agnostikud
+# Peatükk 4: Meie, agnostikud (lk 44)
 
 Meie eelmistes peatükkides saite te mõningase ettekujutuse alkoholismist. Me loodame, et oleme selgeks teinud erinevuse alkohooliku ja mittealkohooliku vahel. Kui te olete otsustanud, et soovite omada seda, mis meil on, ja olete valmis astuma meetmeid, mis selle saavutamiseni viivad, siis on teil juba alanud sammud teatud hoiakute omandamiseks. Koos nendega on teil valmidus rajada uut elu.
 
