@@ -1,2 +1,212 @@
-# AA õpetas teda kainust kontrollima
+(15)
+AA ÕPETAS TEDA KAINUST
+KONTROLLIMA
+„Kui jumal tahab, siis me… ei pea ehk enam kunagi
+tegelema joomisega, kuid me peame tegelema kainusega
+iga päev.”
 
+K
+
+ui olin juba mõnda aega aja AAs olnud, ütles
+mulle üks vanem liige midagi, mis on minu elu
+mõjutanud sellest ajast peale. „AA ei õpeta meid joomist kontrollima,” ütles ta. „See õpetab meid kainust
+kontrollima.”
+Teadsin vist alati, et minu joomist sai kontrollida
+ainult joomist maha jättes. Pärast mu esimest jooki –
+pisikest klaasi šerrit, mille isa mulle aastavahetuse tähistamiseks andis, kui olin kolmteist – läksin joovastusest
+ja elevusest uimasena voodisse ning palvetasin, et ma
+rohkem ei jooks!
+Kuid ma tegin seda siiski, kolledžiikka jõudes. Palju
+hiljem, kui olin jõudnud täieliku alkoholismini, manitsesid inimesed, et peaksin lõpetama. Nagu enamik teisi
+alkohoolikuid, keda tundnud olen, lõpetasin minagi erinevatel kordadel joomise – ühel korral omal käel kümneks kuuks ja vahetevahel haiglaravil viibides. Joomise
+lõpetamine pole suur trikk; kaineks jäämine on trikk.
+Et seda teha, tulin ma AA-sse kainuse kontrollimist
+õppima – seda ma kohe alguse ei suutnud. Seetõttu jõin
+edasi.
+Mind kasvatati üles Kansases, armastavate vanemate ainsa lapsena – nemad jõid ainult seltskondlikult.
+Me kolisime tihti. Tegelikult vahetasin keskkoolini
+553
+
+554
+
+ANONÜÜMSED ALKOHOOLIKUD
+
+igal aastal kooli. Igas kohas olin mina see uus poiss –
+kõhnake, häbelik laps –, keda pandi proovile ja peksti.
+Niipea kui hakkasin tundma end omaks võetuna, kolisime taas mujale.
+Keskkooli jõudes olin viieline. Kolledžis olin auõpilane ja minust sai aastaraamatu toimetaja. Müüsin oma
+esimese artikli riiklikule ajakirjale, olles veel üliõpilane.
+Ma hakkasin napsutama ka õpilaspidudel ja noorte õllejoomingutel.
+Kraad käes, suundusin New Yorki, et seal kirjutamisega karjääri teha. Maandusin heal töökohal hinnatud
+väljaandes ning tegin kaastöid teistelegi ajakirjadele.
+Mind peeti “imelapseks” ja hakkasin ennast sellisena
+nägema. Mul tekkis harjumus käia pärast tööd vanemate kolleegidega baarides. Kahekümne kahe aastaselt
+oli minust saanud igapäevane jooja.
+Siis liitusin mereväega ja mulle anti lipniku auaste, et
+kirjutada admiralidele kõnesid. Hiljem läksin merele
+ja teenisin hävitaja-eskordil suurtükiväeohvitserina,
+saavutades lõpuks kaptenleitnandi auastme. Jäin kahel
+korral joomisega vahele ja teisel korral sain oma esimese distsiplinaarkaristuse.
+Viimasel teenistusaastal mereväes abiellusin armsa
+ja särtsaka tüdrukuga, kellele meeldis juua. Meie kurameerimine toimus peamiselt baarides ja öölokaalides,
+kui mu laev New Yorgis peatus . Mesinädalatel hoidsime jääga šampust voodi kõrval nii ööl kui päeval.
+Muster oli välja kujunenud. Kahekümne üheksa aastasena oli mul joomise tõttu raske eluga toime tulla.
+Mind piinasid neurootilised hirmud ja aeg-ajalt esines
+kontrollimatuid värinaid. Lugesin eneseabiraamatuid.
+Pöördusin innuga religiooni poole. Loobusin kangemast
+
+KAINUST KONTROLLIMA
+
+555
+
+kraamist ning hakkasin veini jooma. Tüdinesin selle
+magusast maitsest ning otsustasin õlle kasuks. Kuna see
+polnud küllalt kange, lisasin sortsu viina – ning langesin
+kohe tagasi varasemast suuremasse jamasse. Mängides
+külalistele baarmeni, valasin omale salaja jooke juurde.
+Otsides leevendust kohutavatele pohmellidele, avastasin hommikuse peaparanduse.
+Paljulubav algus imelapsena hääbus ja minu karjäär
+läks allamäge. Kuigi minu ambitsioonid ei olnud veel
+täielikult kustunud, hakkasid nad nüüd fantaseerimise
+vormi võtma. Mu väärtushinnangud moondusid. Kandsin kalleid riideid, baarmenid teadsid enne tellimist,
+mida mulle valada, tundsin parima laua saamiseks peakelnerit, mängisin kõrgetele panustele Gin Rummyt
+jõelaeva mänguri muretusega – pidasin neid elu püsiväärtusteks.
+Minu ellu tungisid hämming, hirm ja vimm. Minu
+oskus valetada teistele ja petta iseennast kasvas iga
+võetud joogiga. Tõepoolest, pidin nüüd jooma, et elada,
+ja tulla toime igapäevaelu nõudmistega. Kui pettusin või
+olin frustreeritud – mida juhtus aina sagedamini – oli
+lahenduseks joomine. Olin alati kriitika suhtes ülitundlik ja nüüd veel eriti. Kui mind kritiseeriti või noomiti,
+pakkus pudel mulle pelgupaika ja leevendust.
+Kui seisin silmitsi erilise väljakutsega või ees ootas
+seltskondlik üritus – nagu oluline tööalane ettekanne või
+õhtusöök – pidin mõnest õllest julgustust saama. Läksin
+sageli liiale ning käitusin halvasti hetkedel, kui pidin
+olema parimas vormis! Näiteks mu naise vanemate kuldpulmade ajal toimus meie kodus suguvõsakokkutulek.
+Vaatamata oma naise palvetele võtta rahulikult, jõudsin
+koju kehvas seisus. Mäletan, kuidas olin tiibklaveri alla
+
+556
+
+ANONÜÜMSED ALKOHOOLIKUD
+
+peitu pugenud ja mind sealt, jook käes, välja tiriti, et
+alandatuna oma tuppa luku taha panna.
+Üle kõige piinlesin sisimas, sest minu sooritused ja
+saavutused elus ei vastanud iseendale seatud ootustele.
+Pidin seda valu alkoholiga tuimestama. Muidugi, mida
+rohkem jõin, seda kättesaamatumaks kujunesid minu
+unistused ja seda kehvemaks muutus minu sooritus,
+ning see lõhe üha suurenes. Vajadus juua läks sellest
+veelgi hullemaks.
+Neljakümneselt tekkis mu õllekõhus suur mügarik
+ja ma kartsin, et see on kasvaja. Arst teatas aga, et see
+on laienenud maks ja ütles, et pean joomise lõpetama.
+Nii ma tegin. Sain ree peale ilma välise abita ja ilma
+eriliste raskusteta – välja arvatud see, et ma ei nautinud
+elu ilma joomiseta. Pidin hakkama saama igapäevaelu
+nõudmistega lohutuse, tuimestuse ja karguta. Ja see ei
+meeldinud mulle.
+Seega, kui mu maks kümne kuu möödudes taastus,
+jätkasin joomist. Esialgu tähtpäeva puhul võetud napsiga. Napsitamine sagenes, kuid ikka veel kontrollitud
+vahedega. Varsti oli joomine sama hull, kui varem – päev
+otsa ja iga päev. Kuid ma püüdsin seda meeleheitlikult
+kontrollida. Sellest oli saanud saladus, sest kõik teadsid,
+et ma ei peaks jooma. Selle asemel, et juua uhketes baarides või klubides, pidin kandma kohvris viinapudelit,
+põikama avalikesse tualettidesse ja rüüpama värinate
+saatel soskust, et mitte kokku variseda.
+Järgneva kahe aasta jooksul halvenes mu tervis kiiresti. Minu maksa laienemisest kujunes maksatsirroos.
+Oksendasin igal hommikul. Ma ei suutnud süüa. Mul
+esinesid sageli mäluaugud. Ninast jooksis palju verd.
+Seletamatud verevalumid ilmusid mu kehale. Jäin nii
+nõrgaks, et suutsin vaevu ringi liikuda.
+
+KAINUST KONTROLLIMA
+
+557
+
+Tööandja andis üksteise järel hoiatusi. Lapsed vältisid
+mind. Ärgates keset ööd higiselt ja hirmunult värisedes, kuulsin abikaasat enda kõrval voodis nuuksumas.
+Mu arst hoiatas mind, et sedasi jätkates ootavad ees
+sisemine verejooks ja surm. Nüüd polnud aga mingit
+valikut. Pidin jooma.
+Lõpuks juhtus see, mille eest arst oli mind hoiatanud.
+Chicagos konverentsil olles pummeldasin ööpäevaringselt. Ühtäkki hakkasin oksendama ja kaotasin päraku
+kaudu suurel hulgal verd. Tundes end nüüd lootusetuna, pidasin paremaks oma naise, laste ja kõigi teiste
+jaoks, kui lihtsalt ära sureksin. Järsku tõsteti mind kanderaamile ja sõidutati kiirabiga kummalisse haiglasse.
+Ärkasin järgmisel päeval, mõlema käe küljes voolikud.
+Nädalaga hakkasin end piisavalt hästi tundma, et koju
+minna. Arstid hoiatasid, et kui ma veel jooma peaksin,
+võib see jääda viimaseks korraks. Arvasin, et olin õppetunni kätte saanud. Olin omadega ikka veel segaduses
+ning endiselt võimetu hakkama saama igapäevase eluga
+ilma abita. Kahe kuuga langesin taas pudelisse.
+Järgmise poolaasta jooksul kogesin veel kahte verejooksu, mille imekombel üle elasin. Iga kord läksin
+tagasi jooma – smugeldasin viina isegi haiglasse, kui
+vereülekanne oli ära tehtud. Lõpuks teatas mu arst, et
+ta ei saa enam minu eest vastutada ja saatis mu samas
+majas töötava psühhiaatri juurde. Jumala armust juhtus
+selleks arstiks olema, doktor Harry Tiebout, psühhiaater, kes tõenäoliselt teadis alkoholismi kohta rohkem,
+kui keegi teine maailmas. Sel ajal tegutses ta mittealkohoolikust usaldusisikuna AA Üldteeninduskogus.
+Kadunud doktor Tiebout oli see, kes veenis mind
+otsima abi AA-st. Sain tugiisiku ja hakkasin koosolekutel
+käima, aga jätkasin sel ajal joomist. Mõne päeva pärast
+
+558
+
+ANONÜÜMSED ALKOHOOLIKUD
+
+avastasin ennast võõrutuselt kainestustalus. Seal olles
+lugesin Suurt Raamatut ja ajakirja Grapevine ning alustasin aeglast teekonda tagasi tervise ja mõistuse juurde
+läbi AA tervenemisprogrammi.
+Kui kainetest päevadest said kained kuud ja aastad,
+hakkas minu eksistentsi kunagistest varemetest esile
+kerkima uus ja ilus elu. Suhe minu ja mu naise vahel
+taastus armastuse ja õnnelikkuse juurde, mida me ei
+olnud tundnud isegi enne seda, kui mu alkoholism ägestus. (Enam ei nuta mu naine öösiti.) Meie laste suureks
+sirgumise ajal oli neil olemas isa, kui nad teda enim
+vajasid. Minu usaldusväärsuse taastudes edutas firma
+mind kiiresti. Tervise taastudes sai minust agar jooksja,
+purjetaja ja suusamees.
+AA andis mulle kõik need asjad ja palju enamatki.
+Enamgi veel, see õpetas mind kainust kontrollima.
+Olen õppinud inimestega suhtlema; enne AA-d ei
+suutnud ma seda ilma alkoholita mugavalt teha. Olen
+õppinud hakkama saama pettumuste ja probleemidega,
+mis oleks mind varem kohe pudeli juurde viinud. Olen
+hakanud mõistma, et selle mängu mõte ei seisne joomise järele jätmises, vaid kaine püsimises. Alkohoolikud võivad joomise järele jätta igasugustes kohtades ja
+kõikvõimalikel viisidel, kuid Anonüümsed Alkohoolikud näitab teed, kuidas kaine püsida.
+Kui Jumal tahab, siis me, AA liikmed, ei pea ehk
+enam kunagi tegelema joomisega, kuid me peame
+kainusega tegelema iga päev. Kuidas me seda teeme?
+Õppides - töötades Kaheteist Sammuga ning jagades
+koosolekutel, kuidas toime tulla probleemidega, mille
+lahendamiseks pöördusime joovas elus käraka poole.
+
+KAINUST KONTROLLIMA
+
+559
+
+Näiteks öeldakse AAs, et me ei saa lubada omale
+vimma ja enesehaletsust, seega õpime hoiduma nendest
+kasvama kippuvatest vaimsetest hoiakutest. Sarnaselt
+vabaneme süütundest ja kahetsusest, “visates oma peast
+prügi välja” läbi meie tervenemisprogrammi Neljanda
+ja Viienda Sammu. Õpime tasakaalustama emotsionaalseid kõikumisi, mis põhjustasid jamasid nii kõrghetkede
+kui ka madalseisude ajal.
+Meid õpetatakse tegema vahet oma tahtmistel (mida
+kunagi ei rahuldatud) ja vajadustel (mis alati täidetakse). Me heidame maha mineviku koorma ja ärevuse
+tuleviku ees, hakates elama olevikus, üks päev korraga.
+Meile antakse “meelerahu leppida asjadega, mida me
+ei saa muuta” – ja me ei vihasta enam nii äkiliselt, ega
+ole kriitika suhtes nii tundlikud
+Mis peamine, me loobume fantaseerimisest ja
+võtame omaks reaalsuse. Mida enam ma jõin, seda
+rohkem ma fantaseerisin. Ma kujutlesin, kuidas maksan
+kätte solvumiste ja tõrjumiste eest. Oma vaimusilmas
+mängisin korduvalt läbi stseene, kuidas mind maagilisel
+kombel tõsteti baarist joogiklaasi tagant ning ülendati
+silmapilkselt võimsale ja prestiižsele positsioonile. Ma
+elasin unistuste maailmas. Hellalt juhtis AA mind oma
+fantaasiamaailmast selleni, et saan tegelikkuse avasüli
+vastu võtta. Avastasin, et see on ilus! Viimaks olin ma
+rahus iseendaga. Teistega ka. Ja Jumalaga.

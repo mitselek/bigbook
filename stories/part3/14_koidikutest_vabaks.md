@@ -1,2 +1,279 @@
-# Köidikutest vabaks
+(14)
+KÖIDIKUTEST VABAKS
+See noorena liitunud AA-lane usub, et tema tõsine
+joomine oli sügavamate isiklike puuduste tagajärg. Ta
+jutustab alljärgnevalt, kuidas ta vabastati.
 
+M
+
+ind jooma viinud mõtteviisi moonutused, said
+alguse palju aastaid enne oma esimese joogi
+võtmist, kuna mina olen üks nendest, kelle minevik
+tõestab ilmekalt, et minu joomine oli „sügavama probleemi sümptom.”
+Läbi püüdluste jõuda „põhjuste ja tingimusteni” olen
+veendunud, et minu tundeeluhaigus on minuga olnud
+niikaua kui ma mäletan. Ma ei reageerinud kunagi
+ühelegi emotsionaalsele olukorrale normaalselt.
+Tõenäoliselt ütleksid arstid, et minu alkoholismi
+põhjused on peidus minuga lapsepõlves juhtunud
+asjades. Olen kindel, et neil on mingis osas õigus, aga
+AA on mulle õpetanud, et ma olen see, kes ma olen,
+just sellepärast, kuidas ma reageerisin neile asjadele,
+mis minuga lapsena juhtusid. Minu jaoks on veelgi olulisem aga see, et AA on mind õpetanud läbi selle lihtsa
+programmi kogema võimalikku muutust reaktsiooni­
+mustris, võimaldades mul tõepoolest „leida tasakaalu
+häda ja viletsuse ning meele​rahu vahel.”
+Olen ainus laps ja kui olin seitsme aastane, läksid mu
+vanemad väga järsult lahku. Ilma igasuguse selgituseta
+viidi mind mu Florida kodust vanavanemate juurde
+Kesk-Läänes. Mu ema asus ühte lähedalasuvasse linna
+tööle ja mu alkohoolikust isa, läks lihtsalt minema.
+Vanavanemad olid minu jaoks võõrad ja mäletan, et
+tundsin üksildust, hirmu ja valu.
+544
+
+KÖIDIKUTEST VABAKS
+
+545
+
+Aja jooksul tegin järelduse, et tundsin valu armastu­
+sest vanemate vastu ja leidsin seetõttu, et kui ma enam
+kunagi kedagi ega midagi ei armastaks, siis ei saaks ma
+ka iialgi haiget. Minu loomuse osaks sai eemaldumine
+kõigest ja kõigist, kellesse hakkasin kiinduma.
+Kasvasin üles uskudes, et igaüks peab olema täielikult
+iseseisev ega tohiks kunagi teise inimese peale loota.
+Arvasin, et elu on suhteliselt lihtne asi; sa pead lihtsalt
+elu jaoks plaani koostama selle põhjal, mida sa tahtsid ja
+seejärel vajasid lihtsalt julgust selle elluviimiseks.
+Hilises teismeeas sain teadlikuks tunnetest, millega
+ma polnud arvestanud: rahutus, ärevus, hirm ja ebakindlus. Ainus turvatunne, millest ma üldse midagi
+teadsin, oli majanduslik kindlustunne ja ma otsustasin, et kõik need sissetungijad haihtuksid koheselt, kui
+mul oleks palju raha. Lahendus paistis olevat lihtne.
+Külmalt kalkuleerides võtsin nõuks abielluda rikka
+mehega ja seda ma tegingi. Ainus, mis selle tagajärjel
+muutus, oli minu ümbrus ja õige pea sai mulle selgeks,
+et mul võivad olla samad ebamugavad tunded nii piiramatu pangakontoga kui ka töötava tütarlapse palgaga. Mul oli sellesse punkti jõudnuna võimatu välja
+öelda: „Võibolla on mu filosoofial midagi viga” ja võimatu olnuks öelda: „Võibolla on minuga midagi valesti.”
+Polnud raske ennast veenda, et minu kurbuses oli süüdi
+mees, kellega abiellusin, ning aasta lõpus me lahutasime.
+Abiellusin ja lahutasin uuesti veel enne kahekümne
+kolmeseks saamist, seekord kuulsa bändiliid­riga –
+mehega, keda paljud naised ihaldasid. Arvasin, et see
+upitaks mu ego, tunneksin end tahetuna ning minus
+tekiks turvatunne ja leevenduks minu hirmud, kuid minu
+sees ei muutunud taaskord midagi.
+
+546
+
+ANONÜÜMSED ALKOHOOLIKUD
+
+Oluline oli kõige selle juures ainult see, et ma olin
+kahekümne kolme aastaselt sama haige, kui olin kolme­
+kümne kolme aastasena AA-sse tulles. Aga toona ei
+olnud mul ilmselgelt kuhugi minna, kuna mul ei olnud
+joomisega probleeme. Olnuks ma suuteline oma psühhiaatrile selgitama seda tühisust, üksildust ja sihitust,
+mis tulenesid teise lahutusega kaasnevast sügavast isiklikust ebaõnnestumise tundest, kahtlen sügavalt, kas
+hea arst oleks suutnud mind veenda, et mu peamine
+probleem on vaimne nälg. Aga AA on mulle näidanud,
+et selles peitus tõde. Kui oleksin tol ajal pöördunud kirikusse, siis ei oleks nad kindlati suutnud mind veenda,
+et minu haigus on minu sees, ega selgitada, miks enese­
+analüüs on minu jaoks ellu jäämiseks oluline, nagu AA
+on mulle õpetanud. Seega mul ei olnud kuhugi minna.
+Või nii see toona näis.
+Kui ma jooma õppisin, ei kartnud ma enam kedagi
+ega midagi. Juba algusest peale tundus, et alkoholi abil
+oli mul võimalik põgeneda oma isiklikku väikesesse
+maailma, kus keegi ei saanud mulle liiga teha. Asjade
+loomulik kulg nägi ette, et kui ma lõpuks armusin, siis
+armusin alkohoolikusse ja järgneva kümne aasta jooksul
+kujunes minus ülima kiirusega välja see, mida ma uskusin olevat lootusetu alkoholism.
+Sel ajal oli meie riik sõjas. Minu abikaasa oli õige pea
+mundris ja üks esimeste seas, kes läkitati mere taha.
+Minu suhtumine sellesse oli mitmeski mõttes sarnane
+sellele, kuidas ma reageerisin, kui mu vanemad mind
+seitsmeaastaselt maha jätsid. Nähtavasti olin füüsiliselt
+kasvanud tavapärase kiirusega ja omandanud nendel
+aastatel keskmisel hulgal intellektuaalseid teadmisi, aga
+emotsionaalset küpsemist ei olnud minuga üldse toimunud. Mõistan nüüd, et minu arengu oli selles etapis pea-
+
+HILINE ALGUS
+
+547
+
+tanud kinnisidee iseendast ja minu enesekesksus kasvas
+nii suureks, et oli võimatu kohanduda millegi välisega,
+mis ei allunud minu kontrollile. Kahlasin enesehaletsuses ja vimmapidamises ning ainsad inimesed, kes toetasid
+säärast suhtumist ja kes mind mõistsid, olid inimesed,
+keda kohtasin baarides ja kes jõid nagu mina. Enda eest
+põgenemine muutus üha tähtsamaks, kuna see kahetsus,
+häbi ja alandus, mida ma kainena tundsin, oli talumatu.
+Ainus viis elada oli õigustada iga kainet hetke ja juua end
+täielikku unustusse nii tihti kui võimalik.
+Lõpuks mu abikaasa naases, kuid peagi mõistsime, et
+meie abielu ei saanud jätkuda. Olin endale valetamises
+nii osav, et uskusin end olevat justkui sõja üle elanud
+oodates selle mehe naasmist, ja koos vimma ja enese­
+haletsuse kasvuga, süvenes ka minu alkoholiprobleem.
+Viimasel kolmel joomisaastal jõin tööl. Kui see kogus
+tahtejõudu, mille suunasin töö ajal joomise kontrollimisele, oleks olnud suunatud asjalikesse kanalitesse, oleks
+minust võinud saada president, ja selle tahtejõu andis
+mulle teadmine, et tööpäeva lõppedes saan ennast
+unustusse juua. Sisemiselt olin aga surmani hirmul,
+kuna teadsin, et see aeg saabub (ja ei saanud olla liiga
+kaugel), kui ma ei suuda enam seda töökohta hoida.
+Võibolla ei suudaks ma ühtegi töökohta hoida, või siis
+(see oli mu suurim hirm) oleks mul ükskõik, kas mul on
+töö või ei ole. Teadsin, et ei ole vahet, kust ma alustan,
+aga paratamatu lõpp on rentslis. Ainus reaalsus, millega
+suutsin silmitsi seista, tänu selle sunniviisilisele kordumisele, oli see, et ma pidin jooma; ma ei teadnud, et
+maailmas on midagi, mida selle vastu ette võtta saaks.
+Umbes sel ajal kohtusin mehega, kellel oli kolm ilma
+emata last, ja see paistis olevat lahendus minu probleemile. Ma ei olnud ise last saanud ja see oli korduvalt
+
+548
+
+ANONÜÜMSED ALKOHOOLIKUD
+
+olnud rahuldavaks ettekäändeks minu joomistele.
+Mulle tundus loogiline, et kui ma abielluks selle mehega
+ja hakkaksin vastutama nende laste eest, hoiaksid nad
+mind kainena. Niisiis abiellusin uuesti. Sellest sündis
+tähelepanek, mille üks mu AA sõpradest lausus, kui programmiga liitudes oma loo rääkisin, programm oli mulle
+loomuomane, kuna mul oli alati olnud huvi inimkonna
+vastu − lihtsalt võttes seda üks mees korraga.
+Lapsed hoidsid mind kainena ligi kolm pagana nädalat ja siis läksin oma (annaks Jumal) viimasesse tsüklisse.
+Olen kuulnud mitmeid kordi AA-s öeldavat: „Iga alkohooliku elus on ainult üks hea joomine ja see on see, mis
+ta AA-sse toob,” ning ma usun seda. Olin kuuskümmend
+päeva järjest ööpäevaringselt purjus ja mul oligi kavatsus
+end surnuks juua. Sattusin sel perioodil teist korda joobes
+juhtimise pärast vangi. Olin ainus inimene, keda tean
+olevat vangis istunud ja usun, et on tähelepanuväärne,
+et teine kord oli vähem alandav kui esimene.
+Viimases lootusetuses pöördus mu pere abi saamiseks arsti poole ja tema soovitas AA-d. Inimesed, kes
+minu juurde tulid teadsid koheselt, et ma ei ole üldse
+sellises seisundis, kus mulle hakata programmist rääkida. Mind pandi sanatooriumisse selginema, et ma
+saaksin selle üle ise kaine peaga otsustada. Siin tõdesin
+esimest korda, et tegeva alkohoolikuna ei ole mul mingeid õigusi. Kui olen purjus võib ühiskond teha minuga,
+mida iganes ja ma ei saa selles suhtes sõrmegi liigutada,
+kuna loobun oma õigustest kohe, kui minust saab oht
+mulle endale ja inimetele minu ümber. Sügava häbitundega sugenes teadmine, et olin elanud ilma igasuguse sotsiaalse kohusetundeta ja ma ei teadnud midagi
+moraalsest vastutusest oma kaasinimeste ees.
+
+HILINE ALGUS
+
+549
+
+Osalesin oma esimesel AA koosolekul kaheksa aastat
+tagasi ja võin sügava tänutundega öelda, et ma pole
+sellest ajast peale joonud ega tarvita rahusteid või narkootikume, sest see programm tähendab minu jaoks
+täielikku kainust. Ma ei pea enam reaalsuse eest põgenema. Üks võimsamaid asju, mida AA on mulle õpetanud on see, et reaalsusel on kaks poolt; enne programmi
+olin näinud ainult selle sünget külge, nüüd aga oli mul
+võimalus õppida tundma ka selle meeldivat külge.
+Alguses rääkisid mulle tuge pakkunud AA liikmed,
+et ma ei leia mitte üksnes moodust, kuidas elada ilma
+joomata, vaid leian mooduse, kuidas elada ilma juua
+tahtmata, kui ma teen neid lihtsaid asju. Nad ütlesid,
+et kui ma tahan teada, kuidas see programm töötab, siis
+tuleb vaid võtta ingliskeelne sõna HOW („kuidas”), kus
+—„H” tähendab ausust (honesty), „O” tähendab avatud
+meelt (open-mindedness), ja „W” tähendab valmisolekut (willingness); neid nimetab meie Suur Raamat tervenemise põhialusteks. Nad soovitasid, et ma õpiksin
+tundma AA raamatut ja astuksin need Kaksteist Sammu
+nagu raamatus kirjeldatud, kuna nende arvamus oli, et
+rakendades neid põhimõtteid oma igapäevaelus, saame
+kaineks ja püsime kainetena. Ma usun seda ja ühtlasi
+leian, et ei ole võimalik kasutada neid põhimõtteid oma
+parima äranägemise järgi üks päev korraga ja ikka juua,
+kuna minu meelest need kaks asja ei ühildu.
+Mul ei olnud raske tunnistada, et ma olin alkoholi
+ees jõuetu ja nõustusin kindlasti, et mu elu oli muutnud
+juhitamatuks. Piisas vaid tagasi vaatamisest, nägemaks
+suurt kontrasti aastate eest koostatud plaanide ja tegelikult juhtunu vahel, mõistmaks, et ma ei suutnud oma
+elu juhtida ei purjus ega kaine peaga. AA õpetas mulle,
+
+550
+
+ANONÜÜMSED ALKOHOOLIKUD
+
+et alguse tegemiseks piisas valmisolekust uskuda. See
+on minu puhul paika pidanud ja ühtlasi ei olnud midagi
+vaielda „taastada terve mõtlemise” üle, kuna mu teod
+enne AA-d, olgu ma purjus või kaine, ei olnud omased
+tervelt mõtlevale inimesele. Soov olla enda vastu aus,
+tegi möödapääsmatuks taipamise, et mu mõtlemine
+oli irratsionaalne. See pidi nii olema, kuna ma ei oleks
+saanud muidu oma meeletut käitumist õigustada. Mind
+on aidanud sõnaraamatu seletus, mis ütleb: „Ratsionaliseerimine tähendab anda sotsiaalselt vastuvõetav
+põhjendus sotsiaalselt vastuvõetamatule käitumisele ja
+sotsiaalselt vastuvõetamatu käitumine on hullumeelsuse üks vorme.”
+AA on andnud mulle minu eesmärkide suhtes
+meelrahu, ja võimaluse teenida Jumalat ja minu ümber
+olevaid inimesi ning minu hinges on tänu nendele raudsetele põhimõtetele rahu ja need põhimõtted võimaldavad minu eesmärkide täitumise.
+AA on mulle õpetanud, et saan meelerahu samal
+määral nagu mina viin meelerahu teiste inimeste
+eludesse ja see on õpetanud mulle hoiatuse tõelist
+tähendust: ”Õnnelikud olete teie, kes te neid asjad teate
+ja neid ka teete.” Ainsad probleemid, mis mind nüüd
+vaevad on need, mille loon ise, kui lasen oma isekusel
+vohada.
+Mul on programmiga liitumisest alates olnud mitmeid vaimseid kogemusi, mõnda ei osanud ma kohe ära
+tunda, kuna olen aeglane õppija ja nad esinevad erineval
+kujul. Üks seevastu oli nii silmapaistev, et soovin seda
+jagada igal võimalusel lootuses, et see aidab kedagi teist,
+nagu see aitas mind. Nagu juba eelnevalt mainisin, olid
+enesehaletsus ja vimmapidamine minu pidevad kaas-
+
+HILINE ALGUS
+
+551
+
+lased ja minu inventuur nägi välja nagu kolmekümne
+kolme aasta pikkune päevik, sest paistis nagu peaksin
+vimma kõigi suhtes, keda kunagi tundnud olin. Sammudes soovitatud „ravile allusid” koheselt kõik peale
+ühe, aga see üks oli probleemiks.
+Seda ühte vimma kandsin ma juba kakskümmend viis
+aastat oma ema peale. Ma olin seda toitnud, kasvatanud
+ja hellitanud nagu väikest last ja see oli muutunud minu
+jaoks sama loomulikuks kui hingamine. See oli andnud
+ettekäände minu kesisele haridusele, abielude purunemisele, isiklikele ebaõnnestumistele, ebaadekvaatsusele ja otse loomulikult alkoholismile. Ja kuigi ma
+tõsimeeli uskusin, et olen valmis rahu tegema, siis nüüd
+tean, et tegelikult tõrkusin sellest lahti laskmast.
+Kuid ühel hommikul mõistsin, et pean sellest vabanema, kuna minu surmaotsuse edasilükkamise aeg
+hakkas lõppema ja sellest lahti saamata joon ennast
+purju − ja ma ei tahtnud enam ennast purju juua. Sel
+hommikul palvetades palusin Jumalalt, et ta näitaks
+mulle mõne viisi sellest vimmast vabanemiseks. Päeva
+peale tõi üks mu sõber mõned ajakirjad, mis tuli viia
+mulle huvipakkuvasse haigla rühma. Sirvisin need läbi.
+Ühes pealkirjas, oli loosung, mis viitas tuntud vaimuliku
+artiklile ja seal jäi mulle silma sõna vimm.
+Ta ütles midagi sellist, et: „Kui sa kannad vimma,
+millest soovid vabaneda ja palvetad selle inimese või
+asja eest, kelle peale vimma kannad, siis vabaned sellest.
+Kui sa oma palves palud kõiki endale soovitud asju ka
+sellele, kelle või mille peale vimma kannad, saad vabaks.
+Palu neile tervist, majanduslikku õitsengut, õnne ja sa
+saad vabaks. Isegi kui sa neile seda tegelikult ei soovi
+ja su palved on kõigest sõnad ja sa ei ole siiras, tee seda
+
+552
+
+ANONÜÜMSED ALKOHOOLIKUD
+
+ikkagi. Tee seda kaks nädalat iga päev ja sa näed, et oled
+hakanudki seda tõesti mõtlema ja neile soovima ning
+mõistad, et seal kus sa varem tundsid kibestumist ja
+vimma ning viha, tunned nüüd kaastundlikku mõistmist
+ja armastust.”
+See töötas siis ja on töötanud mitmeid kordi peale
+seda, ja see töötab iga kord, kui olen valmis seda tööd
+tegema. Vahel pean kõigepealt paluma valmisolekut,
+aga ka see saabub alati. Ja kuna see töötab minu puhul,
+siis töötab see meie kõigi puhul. Nagu veel üks suurmees on öelnud: „Ainus vabadus, mida inimene kunagi
+kogeda saab, on teha seda, mida ta peaks tegema, kuna
+ta tahab seda teha.”
+See võimas kogemus, mis vabastas mu viha köidiku­
+test ja asendas selle armastusega, on järjekordne kinnitus minu jaoks kindlale tõele: saan Anonüümsetes
+Alkohoolikutes kõik, mis vajan − ja kõik, mida vajan,
+ma saan. Ja kui ma saan, mis ma vajan, siis pean alati
+tõdema, et just seda ma ka alati tahtsin.

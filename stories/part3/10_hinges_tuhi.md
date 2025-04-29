@@ -1,2 +1,313 @@
-# Hinges tühi
+(10)
+HINGES TÜHI
+See naine puutus üles kasvades AA-ga palju kokku
+ning teadis kõiki vastuseid − välja arvatud küsimustes,
+mis puudutasid tema enda elu.
 
+E
+
+lasin oma elu „käitudes, nagu” − teisisõnu käitudes, nagu mulle oleksid vastused juba teada
+(hoidusin koolis õpetajatele küsimuste esitamisest, sest
+nad ei tohtinud aru saada, et ma ei teagi vastust), või käitudes, nagu mind lihtsalt ei huvita. Alati näis, et kõigil
+teistel on elu­juhised juba eos olemas ja mind polnud
+parasjagu kohal, kui Jumal neid laiali jagas. Minu meelest teadsid inimesed nagu iseenesest, kuidas midagi
+teha, või lihtsalt ei teadnudki. Sa kas oskad klaverit mängida või ei oska. Sa kas oled hea pallimängija või ei ole.
+Mul pole aimugi, kuidas mul tekkis selline suhtumine, et peab kõike teadma, aga mu elus kehtis see lausa
+reeglina ning see äärepealt tappis mu. Mõte sellest, et
+inimene peab endale eesmärgi seadma, nägema selle
+saavutamiseks vaeva ning seeläbi tulemusteni jõuab,
+oli mulle täielikult võõras. Sa kas „teadsid” või mitte, ja
+kui ei teadnud, siis ei tohtinud seda välja näidata − see
+jätaks ju halva mulje. Ma ei tulnud kunagi selle pealegi,
+et inimesed on kõige hea saavutamiseks tõsiselt tööd
+teinud. Tasapisi muutus selline hoiak põlguseks inimeste
+suhtes, kellel tõepoolest vastused olemas olid − muidugi
+mõista kipub alkohoolik ülalt alla vaatama inimestele, kes
+elus läbi on löönud!
+Mu isa liitus Anonüümsete Alkohoolikutega, kui olin
+seitsmeaastane. Lapsena istusin sageli reedeõhtuti lahtistel AA koosolekutel, sest meil ei olnud lapsehoidja
+palkamiseks raha (mind võis näha AAs toanurgas istu512
+
+HINGES TÜHI
+
+513
+
+mas ja raamatut lugemas). Millist mõju see mulle lapsena avaldas? Ma teadsin, et alkohoolikuks olemine
+tähendas, et rohkem juua ei tohtinud ja pidi käima
+AA−s. Alustades enda joomiskarjääri, üritasin seega
+vältida enda nime seostamist A−tähega sõnaga. Muidu
+oleks mulle kodus kohe koosolekute nimekiri nina alla
+topitud. Pealegi teadsin, et AA on koht, kus vanamehed kohvi lürbivad, suitsetavad ja sõõrikuid mugivad
+− olin seal olnud. (Nüüd meenutades olen kindel, et
+need „vanad mehed” olid vaevu 30−aastased.) AA oli
+mu jaoks välistatud. See oleks tähendanud mitte joomist. Ja kui ma jõin, mu elu muutus.
+Esimest korda jõin end purju viieteistaastaselt. Ma
+oskan öelda, kus ma olin, kellega ma koos olin ja mis mul
+seljas oli. See oli mu jaoks oluline päev. Juba üheainsa
+aastaga oleks minust võinud saada teismeliste alkoholi­
+ravi reklaamnägu. Mu hinded kukkusid kolinal, sõprade
+ring muutus, sõitsin ühe auto sodiks, mu välimus läks
+allamäge ning mind kõrvaldati koolist. (Hiljem kaineks
+saades imestasin, miks vanemad mind ravile ei saatnud.
+Siis meenus mulle, et kui olin teismeline, polnud noorte
+sõltuvusravikeskusi veel olemaski. Kusjuures, mul on
+siiani alles keraamikat, mida isa valmistas psühhiaatriahaiglas, sest sel ajal kui tema jõi, ei olnud üldse ravikeskusi). Noorena juues oli mul aga alati varrukast võtta
+lubadus olla tublim, rohkem pingutada, end kätte võtta,
+oma potentsiaali täita. Potentsiaal − vot see on ühe alustava alkohooliku needus!
+Kuidagi õnnestus mul siiski kool lõpetada ja edasi kolledžisse minna, kust langesin peagi välja. Ma ei jõudnud
+tundidessegi. Tagasi vaadates olen sellele leidnud kaks
+põhjust. Esiteks, kui kellelgi teisel tundi polnud, jõlkusin hoopis temaga kaasas. Tahtsin kogu aeg hoopis
+
+514
+
+ANONÜÜMSED ALKOHOOLIKUD
+
+sõpradega olla. Kartsin, et minuta aega veetes võivad
+nad hakata arutlema, miks me üldse temaga tegemist
+teeme? Nad võisid taibata, et neil ongi ilma minuta
+toredam. Ja siis nad võivad seda teistelegi öelda, kes
+ütlevad omakorda teistele, ja ma jääksingi üksi.
+Teiseks, sotsiaalne vestlus oli oskus, mida mina kunagi
+ära ei õppinud. Kellegagi tuttavaks saades tundsin end
+täiesti saamatuna. Kui tutvustasin end sõnadega „Tere,
+mu nimi on —”, järgnes kurdistav vaikus, nagu oleks
+teine mõelnud, et mis siis? Kuidas üldse inimesed vestelda oskasid? Kuidas see käis, et nad kohtusid ja hakkasid omavahel rääkima, nagu oleksid teineteist aastaid
+tundnud? Minu jaoks oli see järjekordne asi, mida ei
+tohtinud mitte teada. Seega jätkasin lihtsalt joomist.
+Kui ma jõin, siis ei omanud see tähtsust.
+Siinkohal on oluline märkida, et ma tõesti armastasin joomist. See paiskas mind elu keskpunkti. Olin
+sotsiaalne jooja − napsutamine tegi mind ülimalt seltsivaks. Mulle ei meeldinud eriti teiste naistega juua;
+panin tina suurte poistega. Mulle mahtus palju alkoholi
+sisse, ja kui avastasin, et olen kibe käsi ka piljardis, sain
+kohalikes kõrtsis päris popiks. Vahepeal oli mul lausa
+oma mootorratas. Lugedes Suurest Raamatust „Billi
+lugu”, kus ta räägib „pärale jõudmisest”, teadsin nende
+sõnade tähendust.
+Neljateist aasta jooksul viis joomine mind kohtadesse,
+kuhu ma minnagi ei plaaninud. Esmalt kolisin lõunasse,
+kuna kodulinn oli probleem. (Kuulsin kord üht tüüpi
+AA koosolekul lausumas, et lausa kolme−nelja osariigi
+piiril võiks seista silt: „See osariik ka ei kõlba!”) Tegin
+asju, mida naised teevad. Mu esimene abielu polnud
+muud kui viis aastat kestnud üheöösuhe − ma ei suutnud tunnistada, et see oli viga. Saanud kaks last, tahtsin
+
+HINGES TÜHI
+
+515
+
+ühtäkki tema juurest ära, aga lahkumine tähendaks vastutuse võtmist. Jõin, kuni ta mu lihtsalt välja viskas. Siis
+oli see tema süü, et meie abielu karidele jooksis.
+Kord enne koju tagasi kolimist jäin joomise pärast
+väga olulisest töökohast ilma. Nõnda läksin esimest
+korda Anonüümsete Alkohoolikute koosolekule ja ütlesin: „Ma olen alkohoolik.” Väiksena isaga koosolekutel
+kaasas käies olin öelnud: „Tulin isaga.” Helistasin talle
+ning teatasin, et läksin koosolekule. Nädalaga saabus
+mulle isalt postiga karp, kus sees olid raamat „Anonüümsed alkohoolikud”, tema spiiker−salvestus AA
+koosolekult, mõned mediteerimise raamatud, raamat
+„Kaksteist sammu ja kaksteist traditsiooni” ning veel
+mõned asjad. Ma arvan, et ta oli oodanud päeva, mil
+olen valmis.
+Olles lahutanud, kolisin koju tagasi. Vähem kui aastaga olin vahi all laste elu ohtu seadmise eest. Olin
+oma magavad lapsed üksinda koju jätnud ja jooma
+läinud. Jäin ilma hooldusõigusest ja nad anti mu ema
+hoole alla. Mina aga alustasin ravikeskustes käimist.
+Jutt jooksis mul libedalt. Olin ju üles sirgudes palju
+aega AA ruumides veetnud. Just minul palusid nõustajad rääkida teiste naistega, kes kartsid ravi nimel lastest
+eemal olla. Oskasin lausa terve kõne pidada: „Me ei saa
+olla head emad, kui me ei ole kained.” Probleem oli
+selles, et sisimas tundsin kergendust, et lapsed pidid
+hoopis mu emaga elama. Lapsevanemaks olemine oli
+mulle liiga raske. Aga ma ei saanud seda inimestele tunnistada − nad oleks muidu mind halvaks emaks pidanud.
+Ja ma olingi halb ema. Lausa kohutav ema. Ma küll ei
+peksnud lapsi, ja muidugi kinnitasin neile, et armastan
+neid. Aga sõnum, mis lapsed minult said oli: „Jah, ma
+armastan teid, aga minge nüüd ära.” Nad pidid minuga
+
+516
+
+ANONÜÜMSED ALKOHOOLIKUD
+
+elades end täiesti nähtamatuna tundma. Mul polnud
+neile emotsionaalselt midagi anda. Nad tahtsid muudkui mu tähelepanu ja armastust, aga alkoholism röövis
+minult oskuse seda neile anda. Ma olin hinges tühi.
+Kui ravil olin, suri mu isa ja ma pärisin temalt peaaegu piisavalt raha, et ennast surnuks juua. Sain kaks
+ja pool aastat juua täpselt nii, nagu soovisin. Kindlasti
+jõudsin tänu sellele ka siia kiiremini.
+Enne lõppu elasin pööningukorteris; raha oli ammu
+otsas. See oli külmal ja kõledal novembri­kuul. Kell pool
+kuus ärgates oli väljas hall. Kas kell oli pool kuus hommikul või õhtul? Ma ei saanud aru. Vaatasin aknast välja,
+jälgisin inimesi. Kas nad suunduvad tööle? Või tulevad
+koju? Läksin tagasi magama. Taas ärgates oli väljas kas
+valge või pime. Silmi avades oleks kui tunnid möödunud, kuid kell näitas kolmveerand kuus. Oli hall. Ma
+olin siis 28−aastane.
+Laskusin lõpuks põlvili ja palusin Jumalalt abi. Ma
+ei suutnud oma elu sedasi jätkata. Olin selles korteris
+elanud augustist saati ja polnud isegi asju lahti pakkinud.
+Ma ei pesnud end. Ma ei suutnud telefonile vastata. Ma
+ei suutnud nädalavahetustel lapsi vaatama minna. Niisiis palvetasin. Miski sundis mind ühte kasti kaevuma,
+kust leidsin isa poolt saadetud Suure Raamatu. (Soovitan alati inimestel osta kõvade kaantega versioon −
+millegipärast on neid raskem minema visata). Lugesin
+uuesti „Billi lugu”. Seekord sain sellest aru. Suhestusin
+nüüd temaga. Magasin, hoides raamatut, nagu kaisu­
+karu. Ärgates tundsin üle mitme kuu ennast esimest
+korda puhanuna. Ja ma ei tahtnud juua.
+Mulle meeldiks väga siinkohal öelda, et olen sellest
+hetkest saati kaine püsinud, aga nii see ei läinud. Ma ei
+
+HINGES TÜHI
+
+517
+
+tahtnud tol päeval juua, kuid ma ei teinud midagi, mis
+mind selle vastu kindlustaks. Vaadake, usun, et saame
+Jumalalt rohkem kui üheainsa „armuliku hetke” − aga
+meie asi on sellest hetkest kinni haarata ja vastavalt
+tegutseda. Ma kuulasin seda häält, mis ütles: „Võid ju
+samahästi juua. Sa tead, et sa teed seda nagunii jälle.”
+Järgmistel päevadel oma lemmikurkas käies, ümberritsesid mind inimesed, kes rääkisid kaineks saamisest.
+Isegi baarmen tahtis joomise lõpetada. Kutt, kellega piljardit mängisin, rääkis plaanist AA−sse tagasi minna.
+Keegi mu kõrval baarileti ääres rääkis kuidas ta oli olnud
+kohalikus AA klubimajas. Ma jätsingi joomise (enam−
+vähem) mõneks kuuks, kuid siis algas mu viimane tsükkel.
+Kuna pärast kaks nädalat kestnud joomist ei rääkinud minuga enam keegi, sõitsin tagasi lõunasse, kus
+nad kõik mind kindlasti juba igatsesid. Paraadi minu
+auks ei korraldatud. Inimesed vaevu mäletasid mind ja
+nädala lõpuks oli raha otsas. Ei saanud isegi lennupiletit koju broneerida. Taskus oli vähem kui dollar ning
+mind vaevas üks neist pohmellidest. Teadsin, et kui
+prooviksin istuda lennujaama baaris piisavalt kaua,
+et keegi mulle joogi välja teeks, oleks mu kavatsus
+liiga ilmselge, ja mu uhkus ei taluks mõtetki sellest, et
+mul palutakse sealt lahkuda. Kaalusin põgusalt mõne
+pisema vanaproua röövimist ja tema käekoti varastamist, aga teadsin, et valiksin kindlasti sellise, kes on
+veel heas vormis.
+Olnuks mul dollar rohkem, ei pruugiks ma täna kaine
+olla. Juues oli mul alati plaan, aga tänu Jumala armule
+olid plaanid otsas. Mul polnud enam ainsatki ideed.
+Helistasin emale, selgitasin, kus ma olen ja palusin tal
+
+518
+
+ANONÜÜMSED ALKOHOOLIKUD
+
+mind koju lennutada. Hiljem ta tunnistas, et ta poleks
+seda peaaegu teinud, kuid ta kartis, et nad ei näe mind
+enam kunagi.
+Ta kupatas mind kohalikku võõrutusravikeskusesse
+öeldes, et võin minna sisse või mitte, aga temal on
+minust kõrini. Olin omapead. Võõrutusravil anti sama
+signaal. Arvasin, et nad peaksid mind edasi saatma
+taastus­ravikeskusse − mõte kuu aega sooja toidu söömisest ja puhkamisest oli väga ahvatlev −, kuid nad ütlesid,
+et tean juba niigi, mida seal õpetama hakatakse, võiksin pihta hakata ning jätta voodikoha kellelegi, kes seda
+tõesti vajab. Sellest ajast saati olen kaine olnud. Olin
+lõpuks vastutav omaenese tervenemise eest. Vastutus
+tähendas tegutsemist. Varem oli mu lemmikmänguks
+olnud teha kellegi teise asjaks see, et minu töö saaks
+tehtud. See mäng oli läbi.
+Ma ei uskunud, et kolmekümneaastaseks elan. Selleks hetkeks olin 29,5 aastat vana ning ei ilmutanud
+lähiajal suremise märke. Teadsin südames, et tegelikult jään elama nii juues kui kainena, ja ükskõik, kui
+paha seis on, saab see alati hullemaks minna. Mõned
+inimesed saavad kaineks, sest nad kardavad surra. Ma
+teadsin, et jään ellu ja see oli kordades hirmutavam.
+Olin alla andnud.
+Esimesel võõrutusravi järgsel õhtul suundusin koosolekule, kus üks naine rääkis, et alkoholism oli ta viinud
+punkti, kus ta ei tahtnud enam tööl käia ega oma tütre
+eest hoolitseda, vaid ainult juua. Ma ei suutnud oma
+kõrvu uskuda! See olin mina! Temast sai mu esimene
+tugiisik ja ma tulin tagasi.
+Teisel õhtul istusin toolil, mida nüüd nimetan „uustulnuka−tooliks” − teises reas, seina ääres (kui istud kõige
+tagumises reas, saadakse kohe aru, et oled uus, ja kui
+
+HINGES TÜHI
+
+519
+
+istud esireas, pead äkki kellegagi rääkima). Kui saabus
+aeg koosoleku lõpus kätest kinni hoida ja palvetada, ei
+olnud ühel pool mind vajalikku kätt. Mäletan end mõtlemas: „Ma ei sobitu siia kunagi” ning pead norgu laskmas. Tundsin, et mul võeti käest kinni – keegi eesreast
+oli vaevunud veenduma, et ring oleks täielik. Ma ei tea
+siiani, kes see oli, aga tänu sellele inimese tulin järgmisel
+õhtul tagasi – see inimene päästis mu elu. Ja ma hakkasin
+tagasi tulema.
+Sealses klubimajas oli lõunane Suure Raamatu koosolek, ja käisin seal iga päev. Mitte selleks, et kaineks
+saada, olgu märgitud, ja kindlasti mitte selleks, et saada
+raamatust rohkem teada. Mõtlesin hoopis sedasi: Suurt
+Raamatut tuleb iga päev lugeda ja seal rühmas lugesid
+liikmed vaheldumisi terve peatüki ette nii et see peaks
+ju arvesse minema, eks? See omakorda võttis pool tundi,
+nii et oli vähem tõenäoline, et mind kutsutaks rääkima.
+Ja see rühm oli lõuna ajal, mis jättis õhtud vabaks. Mõtlesin kõik selle oma terava alkohooliku mõistusega välja!
+Õnneks läks mul meelest, et tulemuste eest hoolitseb Jumal. Ma tegutsesin lõpuks ja motiivid ei omanud
+tähtsust. Arvasin, et töötan seal rühmas Suure Raamatu
+ühe korra kaanest kaaneni läbi, siis „lõpetan” ja jätkan
+arutelukoosolekutel, kuid selles rühmas naerdi palju ja
+seetõttu jätkasin käimist. Ma polnud sellist tüüpi inimene, kes esimest korda koosolekule minnes lausub:
+„Jumal tänatud, olen jõudnud koju.” Ma isegi otseselt
+ei tahtnud seda, mis neil oli, aga ma ei tahtnud ka enam
+seda, mis minul oli − ja see oli alandlik algus, mida ma
+vajasin.
+Kuna Suure Raamatu koosolekud toimusid mugavalt lõunal, tähendas, et käisin päevas kahel koos­olekul;
+mul polnud õhtuti nagunii muud teha. Hakkasin seal
+
+520
+
+ANONÜÜMSED ALKOHOOLIKUD
+
+märkama liikmeid, kes olid juba mitu aastat kained
+olnud − omaenda laiskusest olin sattunud ühte patta
+kõige aktiivsemate inimestega Anonüümsetes Alkohoolikutes. Sain teada, et inimestel, kes korrapäraselt käisid
+Suure Raamatu koosolekutel, oli kombeks mitte ainult
+raamatut lugeda, vaid ka teha, mida seal soovitatakse.
+Olnud kaks nädalat kaine, suri ühe liikme üheksa−
+aastane tütar joobes juhi tõttu, ja juba kolm päeva
+hiljem rääkis ta koosolekul, kuidas ta pidi uskuma, et
+see ei olnud asjata. Et võib−olla innustab see vähemalt
+ühte alkohoolikut kaineks saama. Lahkusin sel päeval
+endamisi arutledes, mis oleks saanud, kui see oleks juhtunud minu enda lastega või minuga? Mida nad minust
+mäletaksid? Mind läbis tunne (nüüd tean, et see oli
+tänutunne) ning taipasin, et ma võin oma lastele kohe
+helistada ja öelda, et ma armastan neid. Et ma ilmun
+välja, kui olen lubanud seda teha. Et ma hakkan neile
+antud sõna pidama. Ja isegi, kui peaksingi alati olema
+„ema, kes tuleb ainult nädalavahetustel”, siis saab
+minust hea nädalavahetuse ema. Mul tekkis võimalus
+viia suhe lastega uuele tasandile, mis seisab Jumala
+ja Anonüümsete Alkohoolikute vundamendil, selle
+asemel, et püüda alati minevikku heaks teha. Aasta
+hiljem suutsin sellele mehele jagada, et võib−olla see
+ei olnudki juhtunud põhjuseta, sest tol päeval muutus
+minu elu.
+Pärast ühe kuu möödumist olin korralikult Anonüümsetes Alkohoolikutes kanda kinnitanud. Jätkasin
+ikka tagasi tulemist. Võimatu oleks loetleda kõiki imelisi
+asju, mis on juhtunud AA−s oldud aastate jooksul. Mu
+lapsed olid neli ja kuus aastat vanad, kui ma kaineks sain,
+nemadki on AA−s „üles kasvanud”. Võtsin neid endaga
+lahtistele koosolekutele kaasa ja sealsed inimesed pakku-
+
+HINGES TÜHI
+
+521
+
+sid neile seda, mida mina alguses ei suutnud − armastust
+ja tähelepanu. Aegamööda sai neist jälle osa minu elust
+ning nüüd on mul taas oma laste hooldusõigus.
+Teistkordselt abiellusin juba Anonüümsetes Alkohoolikutes olles, mehega, kes usub AA−sse nagu minagi. (Ma
+teadsin, et oleme teinud hea alguse, kui ta ei vihastanudki
+selle peale, et läksin ükskord temaga kokku saamise
+asemel Kaheteistkümnenda Sammu tööd tegema.) Leppisime kokku, et tähtsuse järjekorras oleme teineteise
+jaoks kolmandal kohal, kohe Jumala ja Anonüümsete
+Alkohoolikute järel. Ta on mu partner ja parim sõber.
+Oleme kumbki tugiisikuks mitmele inimesele ning
+meie kodu on täidetud armastuse ja naeruga. Meie telefon heliseb pidevalt. Jagame omavahel ühise lahenduse
+rõõmu.
+Meil on olnud raskeid aegu. Meie poeg kuulub mu
+pere AA liikmete kolmandasse põlvkonda. Pärast seda,
+kui ta neljateistaastaselt enesetapukatse sooritas, leidsime, et temagi on alkohoolik. Ta on käinud AA−s ühe
+aasta ning edasist on raske ennustada, kuid me usaldame Anonüümseid Alkohoolikuid, isegi neil päevadel, kui me oma poega ei usalda. Meie tütar on ilus ja
+enesekindel teismeline, kes on leidnud oma tee Jumalani ilma joomata. Ta on Anonüümsete Alkohoolikute
+armastuse ja usu vili.
+Mul on endiselt tugiisik ja kodurühm. Ma olen Anonüümsete Alkohoolikute hinnatud liige. Õppisin olema
+hea AA liige, jälgides teisi AA liikmeid ja nende tegusid. Ma sain teada, kuidas toimib hea abielu, jälgides
+heas abielus olijaid ja tehes mida nemad teevad. Ma
+õppisin olema lapsevanem, jälgides häid lapsevanemaid
+ja tehes, mida nad teevad. Ja mul on lõpuks vabadus
+uskuda, et ei pea kõike teadma.

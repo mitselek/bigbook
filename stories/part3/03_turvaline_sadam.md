@@ -1,2 +1,188 @@
 # Turvaline sadam
 
+                      (3)
+               TURVALINE SADAM
+  See AA-lane taipas, et tõelise mina leidmise protsess
+algas teadmisest, kes ta olla ei taha.
+
+V     angla. Milline imeline elu see on. Siin ma olen,
+      istun kongis ja ootan, et mu veepott keema läheks,
+et saaksin teha tassi lahustuvat kohvi ja meenutada
+minevikku. Mõtiskledes oma praeguse olukorra üle,
+pean nentima tõsiasja, et olen juba neljandat aastat van-
+gistuses. Mõnedel hommikutel ärgates, loodan endiselt,
+et see kõik oleks lihtsalt üks halb unenägu.
+   Ma ei kasvanud üles kodus, kus oleks alkoholi tar-
+vitatud, aga kui ma kolmeteistkümneaastaselt esimest
+korda jõin, siis teadsin, et kordan seda. Kuigi mind kas-
+vatati kodus, kus moraalsed standardid olid kõrged, ei
+sisendanud see mingit hirmu tagajärgede ees, mis kaas-
+nesid kui võtsin lonksu alkoholi. Mõnikord jalgrattaga
+naabruskonnas ringi sõites, luurasin ühe täiskasvanu
+järel, kes oma aias õlut jõi. Kui teadsin, et teda kodus ei
+ole, tulin hiljem tagasi, murdsin ta majja sisse ja varas-
+tasin külmutus­kapist seda kuldset ­jooki.
+   Mäletan liiga hästi hommikut, mil mina ja üks teine
+tüüp varastasime mu isa krediitkaardi ja pikapi, et põge-
+neda Californiasse ning hakata filmistaarideks. Meil oli
+üks püstol, millega saime poode röövida, kui oli aeg oma
+õlle-, sularaha- ja suitsuvarusid täiendada. Kuid veel
+enne esimese reisipäeva lõppu teatasin oma sõbrale, et
+ma ei saa edasi minna ja pean koju naasema. Teadsin,
+
+                           452
+                  TURVALINE SADAM                       453
+et selleks ajaks on mu ema ja isa juba murest murtud.
+Mu sõber keeldus tagasi tulemast, seega lasin ta autost
+välja; ma ei näinud teda enam kunagi. Mu vanemad
+võisid näha minu käitumises tõsist teismeea mässu, kuid
+neil polnud aimugi, et selle taga oli haigus nimega alko-
+holism.
+   Kuueteistkümneaastaselt sain osalise ajaga töö koha-
+liku raadiojaama diskorina. Asjatundjad märkasid, et
+mul on selle ameti peale annet nii, et tulin keskkoolist
+ära ja ja hakkasin täiskohaga plaate keerutama. Joomine
+ja pidutsemine käisid selle ametiga käsikäes. Peatselt
+kujunes välja muster, mis kestis palju aastaid. Kui mu
+tööandjad märkasid minu alkoholismi ja see hakkas
+tööd segama, lahkusin ametist ja asusin tööle mõnes
+teises ringhäälingufirmas.
+   Mulle meenub päev kui tegin ühte keskpäevasaadet
+ja tundsin, et ei suuda enam ühte minutitki ilma joogita
+olla. Panin ühe plaadi mängima ja jalutasin vaikselt ning
+märkamatult raadiojaamast välja. Sõitsin alkoholipoodi
+ja ostsin pudeli viskit, läksin tagasi autosse, panin raadio
+mängima ja hakkasin jooma. Istudes seal ja kuulates
+laulu laulu järel, lõppes ükshetk album ja ainus mida
+kuulda võis oli plaadimängija nõela kraapimine. Lõpuks
+taipas keegi raadiojaamas, et mind ei olnud enam stuu-
+dios ja pani uue plaadi mängima.
+   Minu raadios töötatud aastate jooksul, olin aeg-ajalt
+tormipüüdja. Minu töö oli radari informatsiooni põhjal
+järgneda tormidele ja märgata tornaadosid, rahet, üle-
+ujutusi ja tormiga seotud ohte või kahjustusi. Seejärel
+kasutasin autos olevat mobiiltelefoni, et teha raadiosse
+otseülekandeid kui tormi jälitasin. Ühel ööl oli torm
+eriti pöörane. Meie kuulajaskond oli suurem kui kunagi
+454       ANONÜÜMSED ALKOHOOLIKUD
+varem ja mina tegin oma otseülekannet, mis kõlas nagu
+ma oleksin sõjatsoonis eesrindel.
+   Järgmisel päeval tunnustas üks ajaleht meie raadio-
+jaama kena artikliga, mis kirjeldas meie professionaalset
+tööd ilma kajastamisel. Mida keegi ei teadnud oli see,
+et need „professionaalsed” tormireportaažid olid ette
+kantud minu turvaliselt tagahoovi terassilt ning iga vis-
+ki-koola klaasitäie järel minu improvisatsioon paranes.
+   Aegajalt töötasin reporterina ja tegin kohapeal üle-
+kandeid mitmetest uudislugudest. Jõin töö juures regu-
+laarselt ja olin sageli umbjoobes kui tulid kutsed minna
+kajastama joobes juhtimisega seotud liiklusõnnetusi.
+Seal ma olin, ühes käes mikrofon, teises plasku, hüpates
+uudistebussi ja kihutades sündmuspaigale sama purjus-
+või isegi rohkem täis kui see, kes õnnetuse põhjustas.
+Oli vältimatu, et ühel päeval põhjustan oma joomise
+tõttu ise raske liiklusõnnetuse, ning selle asemel et ise
+uudiseid kajastada, saab minust uudis.
+   Olin mitmel korral eadusega pahuksis – trahvide
+maksmata jätmine, avalik joove, kaklemine ja joobes
+juhtimine. Aga miski pole võrreldav selle korraga, kui
+politsei kutsus mind ülekuulamisele seoses ühe mõr-
+vaga. Olin eelneval ööl joonud ja sattunud ohtlikku
+vahejuhtumisse. Teadsin, et ma ei olnud toime pannud
+mõrva, aga ometi oli minust saanud peamise kahtlus-
+alusena. Peale ühte või kahte tundi küsitlemist selgitati
+välja, et mina ei olnud seda kuritegu toime pannud ja
+mul lubati minna. Siiski oli see piisav, et panna mind
+asjade üle järele mõtlema.
+   Läksin koju ja helistasin ühele sõbrale, keda olin
+nädala eest näinud kaubanduskeskuses. Ma ei olnud
+temaga paar aastat rääkinud, aga märkasin kui teist-
+                  TURVALINE SADAM                      455
+moodi ta välja nägi ja käitus. Meie vestluse käigus mainis
+ta mulle, et ta ei ole rohkem kui aasta joonud. Ta mainis
+mulle sõprade rühma, kes aitasid tal kainena püsida. Ma
+valetasin talle ja väitsin, et ka mina ei olnud mõnda aega
+joonud. Arvan, et ta ei jäänud mind uskuma, aga ta andis
+mulle oma numbri ja julgustas mind endale helistama,
+juhuks kui ma tahaksin tema sõpradega kohtuda. Kui
+olin piisavalt julgust kogunud ja talle helistasin, tunnis-
+tasin oma joomisprobleemi ja soovi lõpetada. Ta korjas
+mu peale ja viis mind mu esimesele AA koosolekule.
+Anonüümsetes Alkohoolikutes teadsin, et olen leidnud
+ohutu sadama. Järgneva nelja ja poole aastal jooksul lan-
+gesin kategooriasse, mida AA kõnepruugis tuntakse kui
+„kroonilisised kukkujad.” Suutsin kokku kraapida tubli
+kuus kuud kainust, siis hankisin tähistamiseks pudeli.
+   Tegin kõiki neid asju, mida mul soovitati mitte teha.
+Esimesel AA aastal võtsin vastu suuri otsuseid nagu
+näiteks, abiellusin, üürisin võimalikult kalli korteri, ei
+töötanud tugiisikuga, vältisin samme, töllerdasin oma
+vanade joomasemudega endistes kohtades, ja koos-
+olekutel rääkisin rohkem kui kuulasin. Lühidalt, ma ei
+andnud AA imele võimalustki. Minu haigus süvenes ja
+minust sai püsikunde võõrutushaiglates, intensiivravi
+osakondades ja ravikeskustes. Lõplik hullumeelsus oli
+väga lähedal ja surmaväravad juba paistsid.
+   On ütlus, et alkohoolikul läheb kas kõri kinni, kongi
+uks kinni või kirstu kaas kinni. Kuna ma ei olnud siiralt
+valmis tegema neid asju, mis kõri kinni paneks, pidin
+teiste valikutega silmitsi seisma. Ma ei kujutanud ette,
+et see võib nii kiiresti juhtuda.
+   Oli ilus septembri nädalavahetus just enne tööpüha.
+Otsustasin osta kasti õlut ja pudeli veini. Õhtu edenedes
+456       ANONÜÜMSED ALKOHOOLIKUD
+jõin õlle ja veini peale viskit, jäin mäluauku, panin täis
+peaga toime kuriteo, mind arreteeriti ja kõigest kümne
+päeva jooksul mõisteti süüdi ja määrati kahekümneks
+aastaks vangi. Tundub, et alkohoolne surm tuleb pal-
+juski samamoodi: ma joon, ma langen mäluauku ja ma
+suren. Vähemalt vanglas olles antakse mulle veel üks
+võimalus elada.
+   On võimatu kirjeldada pealesunnitud alandlikkust,
+mida üks vangi pistetud alkohoolik tunneb. Ehkki väärin
+vangis istumist, oli see kohutav trauma. Ainus julgustus
+ja lootus, mille suutsin leida oli isiklike kogemuslugude
+lugemisest räbaldunud Suurest Raamatust, mille leid-
+sin oma kongist. Siis ühel päeval, kuulsin midagi, mis
+oli muusika minu kõrvadele. Üks vangivalvur teatas, et
+kabelis toimub AA koosolek. Kui ma koosolekule sisse
+astusin, võtsin koha sisse toolide ringis, kus leidsin taas
+ohutu sadama.
+   Kui ma seda lugu kirjutan, on möödunud kolm ja
+pool aastat sellest koosolekust kabelis. Olen kolinud
+suuremasse vanglaosakonda ja jäänud väga aktiivseks
+Anonüümsete Alkohoolikute hämmastavas program-
+mis. AA on minu elus nii palju asju korda saatnud. See
+on andnud mulle vaimse tervise ja üleüldise tasakaalu­
+tunde. Nüüd, olles valmis kuulama ja soovitusi vastu
+võtma, olen avastanud, et tõelise mina leidmise prot-
+sess algas teadmisest, kes ma olla ei taha. Ja kuigi
+alkoholismi­tõbi minu sees on nagu gravitatsioon, mis
+tahab mind alla tõmmata, on AA ja Kaksteist Sammu
+nagu jõud, mis lennuki õhku tõstab: See toimib ainult
+sel juhul, kui piloot teeb õigeid asju, et see toimima
+panna. Niisiis, olles programmiga tööd teinud, olen ma
+emotsionaalselt ja intellektuaalselt kasvanud. Mitte
+                 TURVALINE SADAM                      457
+ainult pole ma Jumalaga rahu teinud, minu sees on ka
+Jumala rahu aktiivse Jumalateadlikkuse kaudu. Lisaks
+alkoholismist tervenemisele olen saanud terviklikuks
+inimeseks – kehalt, vaimult, hingelt.
+   Minuga on üks „Jumala-asi” teise järel juhtunud, sel-
+lest ajast peale, kui alistusin AA põhimõtetele. Mind
+süüdi mõistnud kohtuametnikud ühes minu kuriteo
+ohvritega on kõik otsustanud toetada minu enneaeg-
+set vabanemist vanglast. Kokkusattumus? Ma arvan,
+et mitte. Olen saanud kirju oma endistelt tööandjatelt,
+kes on kuulnud minu kainusest ja pakkunud mulle taas
+võimalust raadios töötada. Need on lihtsalt näited sel-
+lest, kuidas Jumal teeb minu heaks seda, milleks ma ise
+suuteline ei olnud.
+   Ühe kohustuse, mille ma olen endale võtnud, vastu-
+tasuks Jumala armu eest, on koheselt hakata aktiivselt
+osalema paranduskomitee töös kui mind välja lastakse.
+AA sõnumi toomine tagasi vanglatesse on mulle ja minu
+kainusele täna äärmiselt oluline.
+   Kogemuse põhjal olen aru saanud, et ma ei saa minna
+tagasi ja teha täiesti uut algust. Kuid läbi AA saan alus-
+tada praegusest ja luua täiesti uue lõpu.
