@@ -6,8 +6,10 @@ theme: minima
 
 # Navigatsiooni seaded
 header_pages:
+  - index.md
   - TOC.md
   - front_matter/eessonad.md
+  - peatykid/index.md
   - kogemuslood/cover.md
   - lisad/lisad.md
 
