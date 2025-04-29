@@ -1,6 +1,6 @@
 # KUNINGRIIGI VÕTMED
 
-See elutark naine aitas käivitada AA Chicagos ja andis seega oma võtmed paljudele edasi.
+>*See elutark naine aitas käivitada AA Chicagos ja andis seega oma võtmed paljudele edasi.*
 
 Veidi rohkem, kui viisteist aastat tagasi, leidsin end abituna täieliku hävingu suunas liikumas, milleni viis pikk rida laastavaid ja õnnetuid kogemusi. Mul polnud jõudu muuta oma elu kulgu. Ma ei osanud kellelegi selgitada, kuidas olin sellesse traagilisse tupikusse sattunud. Olin kolmekümne kolme aastane ja mu elu oli läbi. Olin sattunud väljapääsmatusse alkoholi- ja rahustite rattasse, ning teadvusel olemine oli muutunud talumatuks.
 

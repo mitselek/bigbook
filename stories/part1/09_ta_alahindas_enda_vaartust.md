@@ -1,6 +1,6 @@
 # TA ALAHINDAS ENDA VÄÄRTUST
 
-  *Ometi leidis ta, et on olemas Kõrgem Jõud, kes uskus temasse rohkem kui ta ise. Nii sündis AA Chicagos.*
+>*Ometi leidis ta, et on olemas Kõrgem Jõud, kes uskus temasse rohkem kui ta ise. Nii sündis AA Chicagos.*
 
 Kasvasin üles Ohio osariigis ühes Akroni lähedal asuvas väikelinnas, kus elu kulges sarnaselt iga teise keskmise väikelinna omaga. Olin väga huvitatud spordist ning tänu sellele ja vanemate mõjule ei joonud ega suitsetanud ma ei põhikoolis ega keskkoolis.
 

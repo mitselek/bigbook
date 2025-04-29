@@ -1,6 +1,6 @@
 # MEIE SÕBER LÕUNAST
 
-Üks AA teerajajatest, pastori poeg ja farmer lõunast küsis: "Kes olen mina ütlema, et Jumalat pole olemas?"
+>*Üks AA teerajajatest, pastori poeg ja farmer lõunast küsis: "Kes olen mina ütlema, et Jumalat pole olemas?"*
 
 Mu isa on nelipühipastor ja töö viib teda mööda halbu teid kulgevatele pikkadele sõitudele. Tema koguduses on vähe liikmeid, kuid sõpru on tal palju, sest tema jaoks pole rassil, usutunnistusel ega sotsiaalsel staatusel vahet. Ei lähe kaua aega, enne kui ta hakkabki kogudusi pidi oma vana käruga ringi sõitma. Nii tema kui vana Maud on koju jõudmise üle rõõmsad. Sõit oli pikk ja külm, kuid ta oli tänulik kuumade telliste eest, mille keegi hooliv inimene talle jalgade soojendamiseks andis. Peagi on õhtusöök laual. Isa lausub söögipalve, mis venitab minu rünnakut tatrapannkookide ja vorstide kallale.
 

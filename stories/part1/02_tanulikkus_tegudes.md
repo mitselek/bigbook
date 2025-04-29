@@ -1,6 +1,6 @@
 # TÄNULIKKUS TEGUDES
 
-Dave B lugu, kes oli 1944. aastal üks Kanada AA asutajatest.
+>*Dave B lugu, kes oli 1944. aastal üks Kanada AA asutajatest.*
 
 Ma usun, et oleks hea jutustada lugu oma elust. See annab mulle võimaluse meeles pidada, et pean olema tänulik Jumalale ja neile Anonüümsete Alkohoolikute liikmetele, kes teadsid AA-st enne mind. Oma loo jutustamine tuletab mulle meelde, et ma võin sattuda tagasi sinna, kus olin, kui ma ei mäleta neid imelisi asju, mis mulle on antud või kui unustan, et Jumal on teejuht, kes mind sellel rajal hoiab.
 

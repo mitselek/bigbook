@@ -1,6 +1,6 @@
 # KA NAISED ON HAIGED
 
-Kuigi sel naisal oli elus rohkesti võimalusi, oleks alkohol äärepealt ta elu lõpetanud. Ühe esimese AA liikmena levitas ta sõnumit naiste seas meie tegevuse alguspäevil.
+>*Kuigi sel naisal oli elus rohkesti võimalusi, oleks alkohol äärepealt ta elu lõpetanud. Ühe esimese AA liikmena levitas ta sõnumit naiste seas meie tegevuse alguspäevil.*
 
 Millest ma rääkisingi... Kuulsin justnagu deliiriumis kusagilt kaugelt oma häält – hüüdmas kedagi „Dorothyks", arutamas temaga riidepoodide, töökohtade üle..., sõnad muutusid selgemaks..., lähemale jõudes kohutas mind hääle kõla..., ja korraga seal ma olingi, rääkimas ei tea millest kellegagi, keda ma polnud varem kunagi kohanud. Vakatasin. Kus ma olin?
 

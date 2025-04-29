@@ -1,6 +1,6 @@
 # NÕIARING
 
-Kuidas see lõpuks murdis ühe lõunaosariiklase kangekaelsuse ja saatus viis selle müügimehe Philadelphiasse AA-d käivitama.
+>*Kuidas see lõpuks murdis ühe lõunaosariiklase kangekaelsuse ja saatus viis selle müügimehe Philadelphiasse AA-d käivitama.*
 
 <not-a-list/>8. jaanuar 1938 – see oli minu põhi. Asukohaks Washington. Viimane tõeline karussell oli alanud päev enne jõule ja ma olin nende neljateistkümne päeva jooksul tõesti palju korda saatnud. Esmalt oli mu uus naine koos kottide, asjade ja mööbliga välja kolinud; seejärel oli korteriomanik mind tühjast korterist välja tõstnud ja lõpuks olin kaotanud järjekordse töökoha. Pärast paari päeva dollarihotellides ja ühte ööbimist kartseris maandusin lõpuks ema ukse taga – värisedes, mitmepäevase habemega ja nagu tavaliselt, rahatu. Paljud neist asjadest olid minuga juba varemgi juhtunud, kuid seekord olid need kõik kokku langenud. Minu jaoks oli see Lõpp.
 

@@ -1,6 +1,6 @@
 JIMI LUGU
 
-See arst, AA esimese mustanahaliste rühma varajasi liikmeid, räägib kuidas vabadus saabus oma rahva seas töötades.
+>*See arst, AA esimese mustanahaliste rühma varajasi liikmeid, räägib kuidas vabadus saabus oma rahva seas töötades.*
 
 Sündisin ühes Virginia osariigi väikelinnas tavalisest usklikus perekonnas. Minu mustanahaline isa töötas maakohas arstina. Mäletan, et kui ma veel väike olin, riietas ema mind samamoodi nagu mu kahte õdegi ning ma kandsin kuni kuueaastaseks saamiseni lokke. Siis läksin ma kooli ja sain lokkidest lahti. Kuid avastasin, et juba toona valdasid mind hirmud ja sisemised takistused. Me elasime baptistide kirikust vaid paari maja kaugusel ning ma mäletan, et kui seal matusetalitust peeti, pärisin ma emalt sageli, kas see inimene oli olnud halb või hea ning kas ta pääseb taevasse või läheb põrgu. Olin siis umbes kuuene.
 

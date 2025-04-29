@@ -1,10 +1,8 @@
 # DOKTOR BOBI PAINAJALIK UNENÄGU
 
-Anonüümsete Alkohoolikute asutajaliige. Meie Ühingu sündi tähistab tema pideva kainuse esimene päev – 10. juuni 1935.
-
-1950-ndaks aastaks, mil ta suri, oli ta AA sõnumi edasi andnud rohkem kui 5000-le alkohoolikust mehele ja naisele ning kõigile neile osutas ta ka meditsiinilist abi ilma tasu peale mõtlemata.
-
-Selles imetlusväärses tegevuses oli talle suureks abiks üks meie Sõpruskonna suurimaid sõpru õde Ignatia Ohio osariigi Akroni linna St Thomase haiglast.
+>*Anonüümsete Alkohoolikute asutajaliige. Meie Ühingu sündi tähistab tema pideva kainuse esimene päev – 10. juuni 1935.*  
+*1950-ndaks aastaks, mil ta suri, oli ta AA sõnumi edasi andnud rohkem kui 5000-le alkohoolikust mehele ja naisele ning kõigile neile osutas ta ka meditsiinilist abi ilma tasu peale mõtlemata.*  
+*Selles imetlusväärses tegevuses oli talle suureks abiks üks meie Sõpruskonna suurimaid sõpru õde Ignatia Ohio osariigi Akroni linna St Thomase haiglast.*
 
 Sündisin väikeses, umbes 7000 elanikuga külakeses Uus-Inglismaal. Sealsed käitumisreeglid olid minu mäletamist mööda keskmisest rangemad. Ümbruskonnas müüdi õlut ja muud kangemat kraami ainult riiklikus alkoholipoes, kust võis hankida pool liitrit napsi, kui õnnestus sealset ülemust veenda, et seda tõepoolest vaja läheb. Vastavate tõendite puudumisel pidi ootusrikas ostja tühjade kätega lahkuma, saamata piiskagi seda jooki, mida ma hiljem hakkasin pidama imerohuks kõigi inimlike hädade vastu. Meeste peale, kes lasksid endale Bostonist või New Yorgist kiirrongiga alkoholi tuua, vaatas enamik korralikke linnaelanikke umbusaldava ja sallimatu pilguga. Linnakeses oli arvukalt kirikuid ja koole, kus ma alustasin oma varajast haridusteed.
 

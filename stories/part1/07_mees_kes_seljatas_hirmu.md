@@ -1,6 +1,6 @@
 # MEES, KES SELJATAS HIRMU
 
-Ta veetis kaheksateist aastat põgenedes ja leidis siis, et põgeneda pole tarvis. Niisiis pani ta aluse AA-le Detroitis.
+>*Ta veetis kaheksateist aastat põgenedes ja leidis siis, et põgeneda pole tarvis. Niisiis pani ta aluse AA-le Detroitis.*
 
 Kaheksateist aastat valitses minu elu üks hirm, sellest ajast peale, kui olin kahekümne ühe aastane. Kolmekümneseks saades olin avastanud, et alkohol võtab hirmu ära – mõneks ajaks. Lõpuks oli mul ühe probleemi asemel kaks: hirm ja alkohol.
 

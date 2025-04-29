@@ -1,6 +1,6 @@
 # ANONÜÜMNE ALKOHOOLIK NUMBER KOLM
 
-Maailma esimese AA rühma, Akroni rühma nr 1 teerajaja. Ta säilitas endas usu. Seeläbi on nii tema kui väga paljud teised leidnud uue elu.
+>*Maailma esimese AA rühma, Akroni rühma nr 1 teerajaja. Ta säilitas endas usu. Seeläbi on nii tema kui väga paljud teised leidnud uue elu.*
 
 Sündisin Carlyle'i maakonnas ühes Kentucky farmis viielapselises perekonnas. Minu vanemad olid heal järjel ja nende abielu õnnelik. Abikaasa oli mul pärit Kentuckyst ning asus koos minuga elama Akronisse, kus ma lõpetasin Akroni Õigusteaduste Kooli.
 
