@@ -1,0 +1,32 @@
+<div class="chapter-nav">
+  {% assign all_pages = site.pages | sort: 'nav_order' %}
+  {% assign current_page_index = 0 %}
+  {% assign current_section = page.url | split: "/" | first %}
+  {% assign section_pages = "" | split: ',' %}
+  
+  {% for p in all_pages %}
+    {% assign section = p.url | split: "/" | first %}
+    {% if section == current_section and p.nav_order %}
+      {% assign section_pages = section_pages | push: p %}
+      {% if p.url == page.url %}
+        {% assign current_page_index = forloop.index0 %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  <div class="chapter-nav-links">
+    {% if current_page_index > 0 %}
+      {% assign prev_index = current_page_index | minus: 1 %}
+      {% assign prev_page = section_pages[prev_index] %}
+      <a href="{{ site.baseurl }}{{ prev_page.url }}" class="prev">« {{ prev_page.title }}</a>
+    {% endif %}
+    
+    <a href="{{ site.baseurl }}/{{ current_section }}" class="home">Tagasi ülevaatesse</a>
+    
+    {% assign next_index = current_page_index | plus: 1 %}
+    {% if next_index < section_pages.size %}
+      {% assign next_page = section_pages[next_index] %}
+      <a href="{{ site.baseurl }}{{ next_page.url }}" class="next">{{ next_page.title }} »</a>
+    {% endif %}
+  </div>
+</div>

@@ -11,14 +11,26 @@ header_pages:
   - kogemuslood/cover.md
   - lisad/lisad.md
 
+# Oma CSS-i lisamine
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# URL struktuur
+permalink: /:title/
+
+# Collections seadistamine
+collections:
+  peatykid:
+    output: true
+  kogemuslood:
+    output: true
+
 # Üldised seaded
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-
-# URL struktuur
-permalink: /:title/
 
 # Pluginad
 plugins:
