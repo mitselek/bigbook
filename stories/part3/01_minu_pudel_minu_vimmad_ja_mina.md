@@ -1,4 +1,4 @@
-# Minu pudel, minu vimmad ja mina
+# (01) MINU PUDEL, MINU VIMMAD JA MINA
 
 > *Kogenud lapsepõlvetraumat ja saanud agulijoodikuks, leidis see hulgus lõpuks Kõrgema Jõu, mis tõi talle kainuse ja andis tagasi ammu kaotatud perekonna.*
 
