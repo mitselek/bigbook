@@ -1,218 +1,43 @@
-(8)
-NÄGEMUS TERVENEMISEST
-Vilets palve aitas sellel mikmaki indiaanlasel luua
-kestva sideme Kõrgema Jõuga.
+# NÄGEMUS TERVENEMISEST
 
-P
+> *Vilets palve aitas sellel mikmaki indiaanlasel luua kestva sideme Kõrgema Jõuga.*
 
-idasin end teistsuguseks, sest olen indiaanlane.” Kuulsin seda väidet oma esimestel AA koosolekutel paljudelt pärismaalastelt. Selle peale kehitasin
-ma kõigest õlgu ja mõtlesin omaette: „Teie peate ennast
-teistsuguseks, aga mis veel siis minust rääkida? Mina
-olen ju punapäine indiaanlane.”
-Ma kasvasin üles ühes Kanada reservaadis. Noorena
-olin ma uhke mikmaki indiaanlane. Mu perel oli kõvade
-kõride, vägivaldsete ja karmikoeliste tegelaste maine
-ja ma tundsin selle üle uhkust. Mulle räägiti, et minu
-vanaisa oli meie kogukonna pealik, aga pidi ühe mehe
-tulistamise pärast vangi minnes kohast loobuma. Meie
-peres oli vangis istumine peaaegu nagu aumärk, või nii
-see mulle vähemalt näis. Ma mäletan, kuidas väikese
-poisina õllekasti peal seisin (õlut leidus meil kodus alati
-palju) ja endale ütlesin: „Mõne aasta pärast olen ma just
-nii pikk.”
-Vahel sattusin aga nägema isa raevuhooge ning värisesin alati hirmust. Vandusin, et ei muutu iial temasuguseks. Ma ei osanud aga näha, et alkohol ja raevuhood
-olid omavahel seotud.
-Pidasin end alati teistsuguseks. Soovisin tihti, et mul
-oleks sarnaselt sõpradele mustad juuksed. Meie kodus
-räägiti mikmaki keelt, mina keeldusin seda aga rääkimast. Terve mu pere rääkis mikmaki keeles, aga kui
-mind kõnetati, vastasin ma inglise keeles. Arvasin, et ei
-494
+Pidasin end teistsuguseks, sest olen indiaanlane." Kuulsin seda väidet oma esimestel AA koosolekutel paljudelt pärismaalastelt. Selle peale kehitasin ma kõigest õlgu ja mõtlesin omaette: „Teie peate ennast teistsuguseks, aga mis veel siis minust rääkida? Mina olen ju punapäine indiaanlane."
 
-NÄGEMUS TERVENEMISEST
+Ma kasvasin üles ühes Kanada reservaadis. Noorena olin ma uhke mikmaki indiaanlane. Mu perel oli kõvade kõride, vägivaldsete ja karmikoeliste tegelaste maine ja ma tundsin selle üle uhkust. Mulle räägiti, et minu vanaisa oli meie kogukonna pealik, aga pidi ühe mehe tulistamise pärast vangi minnes kohast loobuma. Meie peres oli vangis istumine peaaegu nagu aumärk, või nii see mulle vähemalt näis. Ma mäletan, kuidas väikese poisina õllekasti peal seisin (õlut leidus meil kodus alati palju) ja endale ütlesin: „Mõne aasta pärast olen ma just nii pikk."
 
-495
+Vahel sattusin aga nägema isa raevuhooge ning värisesin alati hirmust. Vandusin, et ei muutu iial temasuguseks. Ma ei osanud aga näha, et alkohol ja raevuhood olid omavahel seotud.
 
-osanud mikmaki keelt vanematega sama hästi rääkida.
-Seega otsustasin seda üldse mitte rääkida.
-Olin esimest korda alkoholi juues kümneaastane.
-Näppasin vana-aastaõhtul vanemate tagant kaks klaasi­
-täit viina. Ei saa just öelda, et see oleks mulle mõjunud eelduslikul moel. Ma oksendasin kohutavalt ja sain
-kõhulahtisuse. Järgmisel päeval valdas mind meeletu
-hirm, et vanemad saavad kõigest teada. Sain tänu sellele
-mõneks ajaks õppetunni kätte.
-Kui ma paar aastat hiljem põhikoolis käisin, hankisime
-paari sõbraga salaalkoholimüüjalt endale pudelitäie
-rummi. Ma jäin korralikult purju, ja see oli suurepärane
-tunne. Mäletan, et tundsin täielikku vabadust. Ma jõin
-järgmised viisteist aastat. Joomisest sai minu elu suur
-osa ja ma pidasin seda normaalseks. Siis tulid vägivald,
-kaklemine, seaduserikkumised ja „kõva mehe” kuvand.
-Pere oli minu üle uhke. Mõned sugulased julgustasid
-mind lausa samamoodi jätkama.
-Ma voorisin aastate kaupa noortevanglatest sisse ja
-välja. Pärast kaheksateistkümnendat sünnipäeva ootas
-mind juba maakonnavangla. Tundsin end koju tulles
-alati, nagu hõljuksin, sest sõbrad ja sugulased hakkasid minust vanglas istumise ja meheks saamise tõttu
-rohkem lugu pidama.
-Kui ma kodust 800 kilomeetri kaugusel alaealiste
-kinni­pidamisasutuses viibisin, sain ma teada, et mu ema
-oli vähki suremas. Mul lubati koju minna, et saaksin
-temaga koos olla. Ühel õhtul palusid pereliikmed, et ma
-emaga koju jääksin ja talle ravimeid annaksin. Ma olin
-juba paar jooki võtnud ja olin ootusärevil, millal saan
-juba sõpradega välja pidutsema minna. Olin siiski vastu­
-meelselt nõus jääma. Mind tabas enesehaletsushoog,
+Pidasin end alati teistsuguseks. Soovisin tihti, et mul oleks sarnaselt sõpradele mustad juuksed. Meie kodus räägiti mikmaki keelt, mina keeldusin seda aga rääkimast. Terve mu pere rääkis mikmaki keeles, aga kui mind kõnetati, vastasin ma inglise keeles. Arvasin, et ei osanud mikmaki keelt vanematega sama hästi rääkida. Seega otsustasin seda üldse mitte rääkida.
 
-496
+Olin esimest korda alkoholi juues kümneaastane. Näppasin vana-aastaõhtul vanemate tagant kaks klaasitäit viina. Ei saa just öelda, et see oleks mulle mõjunud eelduslikul moel. Ma oksendasin kohutavalt ja sain kõhulahtisuse. Järgmisel päeval valdas mind meeletu hirm, et vanemad saavad kõigest teada. Sain tänu sellele mõneks ajaks õppetunni kätte.
 
-ANONÜÜMSED ALKOHOOLIKUD
+Kui ma paar aastat hiljem põhikoolis käisin, hankisime paari sõbraga salaalkoholimüüjalt endale pudelitäie rummi. Ma jäin korralikult purju, ja see oli suurepärane tunne. Mäletan, et tundsin täielikku vabadust. Ma jõin järgmised viisteist aastat. Joomisest sai minu elu suur osa ja ma pidasin seda normaalseks. Siis tulid vägivald, kaklemine, seaduserikkumised ja „kõva mehe" kuvand. Pere oli minu üle uhke. Mõned sugulased julgustasid mind lausa samamoodi jätkama.
 
-suutsin mõelda vaid sellele, kui lõbus mul välja minnes
-olla võinuks. Muutusin emaga äärmiselt kannatamatuks
-ja kui ta rohtu võtmast keeldus, toppisin selle talle peaaegu sunniviisiliselt suhu; seejärel läksin välja sõpradega
-pidutsema. Ärkasin järgmisel hommikul kodust umbes
-160 kilomeetri kaugusel maakonnavanglas. Olin üritanud kuhugi sisse murda ja politseinikele vahele jäänud.
-Mu ema suri täpselt selsamal õhtul, kui ma vangis
-istusin. Mind lubati välja tema matusele, ja ma mäletan
-ikka veel, kui üksildasena ma end isegi teiste pereliikmetega koos olles tundsin. Tundsin häbi ja kahetsust, isegi
-aastaid hiljem uskusin end olevat mingil põhjusel ema
-surma eest vastutav. See intsident jäi mind aastateks
-painama. Alkohol võttis selle tunde mingiks perioodiks
-ära, ent kahetsustunne tuli ikka ja alati tagasi. Üritasin
-endale lohutuseks öelda, et minu eluviis oli osa nii minu
-kui ka paljude mu pereliikmete saatusest, kuis see ei
-võtnud ära kahetsustunnet.
-Mäletan vaid üht head asja, mis sel ajaperioodil
-juhtus. Kui ema surivoodil lamas, rääkisin ma temaga
-mikmaki keeles. Ta nägi nii õnnelik välja ja ütles mulle,
-kui ilusalt minu mikmakikeelne jutt tema jaoks kõlas.
-See mälestus on minu jaoks väga kallis.
-Kohtasin üht noort tüdrukut ja mulle sündis poeg.
-Uhkusest pakatades panin ma talle enda järgi nime.
-Mõnda aega jõin ma vähem. Ühel päeval lubasin ma
-pojale, et viin ta „järgmisel päeval” kinno. Mõtlesin seda
-täiesti siiralt ning ootasin kinnominekut suure elevusega. Võtsin sel õhtul ühe joogi, mis ei jäänud muidugi
-kaugeltki viimaseks. Mul oli järgmisel päeval pohmell
-ja ehkki ma olin lubanud poja pärastlõunal kinno viia,
-võtsin ma peaparanduseks veel ühe joogi. See jook ei
-jäänud taas viimaseks. Õigustasin tol päeval joomist sel-
+Ma voorisin aastate kaupa noortevanglatest sisse ja välja. Pärast kaheksateistkümnendat sünnipäeva ootas mind juba maakonnavangla. Tundsin end koju tulles alati, nagu hõljuksin, sest sõbrad ja sugulased hakkasid minust vanglas istumise ja meheks saamise tõttu rohkem lugu pidama.
 
-NÄGEMUS TERVENEMISEST
+Kui ma kodust 800 kilomeetri kaugusel alaealiste kinnipidamisasutuses viibisin, sain ma teada, et mu ema oli vähki suremas. Mul lubati koju minna, et saaksin temaga koos olla. Ühel õhtul palusid pereliikmed, et ma emaga koju jääksin ja talle ravimeid annaksin. Ma olin juba paar jooki võtnud ja olin ootusärevil, millal saan juba sõpradega välja pidutsema minna. Olin siiski vastumeelselt nõus jääma. Mind tabas enesehaletsushoog, suutsin mõelda vaid sellele, kui lõbus mul välja minnes olla võinuks. Muutusin emaga äärmiselt kannatamatuks ja kui ta rohtu võtmast keeldus, toppisin selle talle peaaegu sunniviisiliselt suhu; seejärel läksin välja sõpradega pidutsema. Ärkasin järgmisel hommikul kodust umbes 160 kilomeetri kaugusel maakonnavanglas. Olin üritanud kuhugi sisse murda ja politseinikele vahele jäänud.
 
-497
+Mu ema suri täpselt selsamal õhtul, kui ma vangis istusin. Mind lubati välja tema matusele, ja ma mäletan ikka veel, kui üksildasena ma end isegi teiste pereliikmetega koos olles tundsin. Tundsin häbi ja kahetsust, isegi aastaid hiljem uskusin end olevat mingil põhjusel ema surma eest vastutav. See intsident jäi mind aastateks painama. Alkohol võttis selle tunde mingiks perioodiks ära, ent kahetsustunne tuli ikka ja alati tagasi. Üritasin endale lohutuseks öelda, et minu eluviis oli osa nii minu kui ka paljude mu pereliikmete saatusest, kuis see ei võtnud ära kahetsustunnet.
 
-lega, et mu poeg oli niikuinii liiga noor ja talle ei jääks
-filmist niikuinii midagi meelde jäänud. Järgmisel päeval
-valdasid mind süümepiinad ja kahetsus. Tundsin, et ei
-kõlba kuhugi. Vaatasin pojale otsa, ent kuulsin vaid
-seda, millise elevusega ta kinnominekust rääkis. Ma ei
-suutnud midagi öelda, sest seda filmi ei näidatud enam.
-Jätsin poja ema talle kõike selgitama.
-Järgmised paar aastat elasin ma isaga oma vanas
-kodus, sest tüdruk oli mu maha jätnud ja poja endaga
-kaasa võtnud. Minu joomine läks veel hullemaks, nagu
-ka mu süü-, kahetsus- ja hirmutunne. Mind viidi vedelikupuuduse tõttu haiglasse, mind tabas kergekujuline
-insult, veetsin nädala psühhiaatriaosakonnas. Lisaks
-esines mul veel mitmeid alkoholi tarbimisest tingitud
-krambihooge. Kaotasin pere ja sõprade usalduse. Nad
-ei saanud enam milleski minu peale loota. Loobusin
-mõneks ajaks joomisest, ent hakkasin alati uuesti jooma.
-Suudan hästi samastuda sellega, mida meie kaasa­
-sutaja Bill W ütleb Suures Raamatus neljandal leheküljel: „Juues tuli tagasi vana metsik sihikindlus võita.”
-Võtaksin joogi, ja siis teaksin, et kõik saab jälle korda.
-Kavatsesin end kokku võtta. Kõik pidi kohe-kohe muutuma – küll te kõik näete! Seda ei juhtunud; miski ei
-muutunud. Ma üritasin nii mitmel moel seda mängu
-võita; käisin kirikus ja andsin tõotuse; käisin indiaanlaste
-higitelgis; sain jälle millegagi hakkama, et mind ometi
-vangi pandaks; vandusin, et hoian kangest alkoholist
-eemale. Miski ei toiminud. Siis tulid juba tabletid, et
-värinad lõpeks ja saada vähemalt mõneks ajaks kärakast
-eemal.
-Ühel õhtul toimus minu kodus pidu, mille käigus tekkinud vaidlus viis kakluseni, nagu ikka üldiselt juhtuma
-kippus. Üks minu vendadest pussitas mind noaga selga
+Mäletan vaid üht head asja, mis sel ajaperioodil juhtus. Kui ema surivoodil lamas, rääkisin ma temaga mikmaki keeles. Ta nägi nii õnnelik välja ja ütles mulle, kui ilusalt minu mikmakikeelne jutt tema jaoks kõlas. See mälestus on minu jaoks väga kallis.
 
-498
+Kohtasin üht noort tüdrukut ja mulle sündis poeg. Uhkusest pakatades panin ma talle enda järgi nime. Mõnda aega jõin ma vähem. Ühel päeval lubasin ma pojale, et viin ta „järgmisel päeval" kinno. Mõtlesin seda täiesti siiralt ning ootasin kinnominekut suure elevusega. Võtsin sel õhtul ühe joogi, mis ei jäänud muidugi kaugeltki viimaseks. Mul oli järgmisel päeval pohmell ja ehkki ma olin lubanud poja pärastlõunal kinno viia, võtsin ma peaparanduseks veel ühe joogi. See jook ei jäänud taas viimaseks. Õigustasin tol päeval joomist sellega, et mu poeg oli niikuinii liiga noor ja talle ei jääks filmist niikuinii midagi meelde jäänud. Järgmisel päeval valdasid mind süümepiinad ja kahetsus. Tundsin, et ei kõlba kuhugi. Vaatasin pojale otsa, ent kuulsin vaid seda, millise elevusega ta kinnominekust rääkis. Ma ei suutnud midagi öelda, sest seda filmi ei näidatud enam. Jätsin poja ema talle kõike selgitama.
 
-ANONÜÜMSED ALKOHOOLIKUD
+Järgmised paar aastat elasin ma isaga oma vanas kodus, sest tüdruk oli mu maha jätnud ja poja endaga kaasa võtnud. Minu joomine läks veel hullemaks, nagu ka mu süü-, kahetsus- ja hirmutunne. Mind viidi vedelikupuuduse tõttu haiglasse, mind tabas kergekujuline insult, veetsin nädala psühhiaatriaosakonnas. Lisaks esines mul veel mitmeid alkoholi tarbimisest tingitud krambihooge. Kaotasin pere ja sõprade usalduse. Nad ei saanud enam milleski minu peale loota. Loobusin mõneks ajaks joomisest, ent hakkasin alati uuesti jooma.
 
-ja ma langesin teadvusetult põrandale. Tulin teadvusele
-haiglas. Mulle öeldi, et mul oli üks kops kokku langenud
-ja et mulle pandi kopsu meditsiiniline toru. Järgmisel
-päeval külastasid mind sõbrad, kes tõid mulle pudeli
-kanget alkoholi. Mul oli see uhkus ikka veel alles. Olin
-ikka veel kõva mees. Lamasin voodis, meditsiinilised
-torud kopsu tühjendamas, suitsetasin sigarette ja jõin
-alkoholi. Ja siis oli mul veel kunagi hiljem AA-sse jõudes
-jultumust Teises Sammus kahelda ning juurelda selle
-üle, „miks on vaja taastada minu terve mõtlemine.”
-Ma võin käsi südamel öelda, et enne Anonüümsete
-Alkohoolikutega liitumist ei toiminud minu jaoks ükski
-lahendus. Sattusin lõpuks sõltuvusravikeskusesse ja
-hakkasin pärast kahekümne kaheksa päeva pikkuse
-programmi läbimist regulaarselt AA koosolekutel osalema. Sõltuvusravikeskuses tutvustati mulle Anonüümsete Alkohoolikute Suurt Saamatut. Ma lahkusin sealt
-teadmisega, et minu ainsaks lootuseks olid Kaksteist
-Sammu.
-Mulle räägiti, et AA on vaimne programm ja et mul
-pidi kindlasti olema mingi Kõrgem Jõud. Ma ei teadnud
-Jumalast ega Kõrgematest Jõududest midagi ja üritasin
-endale mõne sellise leida. Esmalt arvasin ma, et peaksin indiaani päritolu tõttu praktiseerima indiaanlaste
-traditsioonilist usku. Siis mõtlesin aga, et peaksin ehk
-minema reservaadi kirikusse. Siis uskusin ma, et kui
-ma piisaval hulgal AA koosolekutel käin ja seal lihtsalt
-istun, tabab mind ilmutus ja ma tervenen täielikult.
-Ühel päeval küsis üks liige minu käest, kas ma usun, et
-Kõrgem Jõud on päriselt olemas. Ma uskusin tõepoolest, et mingit sorti Jumal olemas on. Ta ütles mulle,
-et sellest piisab. Ta lisas, et uskumise ja koosolekutel
+Suudan hästi samastuda sellega, mida meie kaasasutaja Bill W ütleb Suures Raamatus neljandal leheküljel: „Juues tuli tagasi vana metsik sihikindlus võita." Võtaksin joogi, ja siis teaksin, et kõik saab jälle korda. Kavatsesin end kokku võtta. Kõik pidi kohe-kohe muutuma – küll te kõik näete! Seda ei juhtunud; miski ei muutunud. Ma üritasin nii mitmel moel seda mängu võita; käisin kirikus ja andsin tõotuse; käisin indiaanlaste higitelgis; sain jälle millegagi hakkama, et mind ometi vangi pandaks; vandusin, et hoian kangest alkoholist eemale. Miski ei toiminud. Siis tulid juba tabletid, et värinad lõpeks ja saada vähemalt mõneks ajaks kärakast eemal.
 
-NÄGEMUS TERVENEMISEST
+Ühel õhtul toimus minu kodus pidu, mille käigus tekkinud vaidlus viis kakluseni, nagu ikka üldiselt juhtuma kippus. Üks minu vendadest pussitas mind noaga selga ja ma langesin teadvusetult põrandale. Tulin teadvusele haiglas. Mulle öeldi, et mul oli üks kops kokku langenud ja et mulle pandi kopsu meditsiiniline toru. Järgmisel päeval külastasid mind sõbrad, kes tõid mulle pudeli kanget alkoholi. Mul oli see uhkus ikka veel alles. Olin ikka veel kõva mees. Lamasin voodis, meditsiinilised torud kopsu tühjendamas, suitsetasin sigarette ja jõin alkoholi. Ja siis oli mul veel kunagi hiljem AA-sse jõudes jultumust Teises Sammus kahelda ning juurelda selle üle, „miks on vaja taastada minu terve mõtlemine."
 
-499
+Ma võin käsi südamel öelda, et enne Anonüümsete Alkohoolikutega liitumist ei toiminud minu jaoks ükski lahendus. Sattusin lõpuks sõltuvusravikeskusesse ja hakkasin pärast kahekümne kaheksa päeva pikkuse programmi läbimist regulaarselt AA koosolekutel osalema. Sõltuvusravikeskuses tutvustati mulle Anonüümsete Alkohoolikute Suurt Saamatut. Ma lahkusin sealt teadmisega, et minu ainsaks lootuseks olid Kaksteist Sammu.
 
-osalemise toel leian ma vastavalt oma enda arusaamisele Kõrgema Jõu. Täna olen ma selle nõuande eest
-äärmiselt tänulik.
-Pärast kolme AA-s veedetud kuud tulin ma ühel
-õhtul peale koosolekut koju ning kuulsin kõrvalukse
-tagant muusikat ja valjuhäälset naeru. Sellel peol olid
-ka mõned minu joomasõbrad ja ma lihtsalt teadsin sisimas, et satun ise ka kuidagi sinna. Ma ei tahtnud juua,
-ja ometi tõmbas pidu justkui magnetina mind enda
-poole. Teisele poole tänavat telefoniputkasse joostes olin täidetud hirmuga. Helistasin oma tugiisikule,
-aga ta ei võtnud vastu. Koju tormates tabas mind juba
-paanika. Läksin magamistuppa ja istusin voodi äärele.
-Vaatasin üles ja laususin järgnevad sõnad: „Noh, semu,
-küllap oleme siin ainult kahekesi.” Uskuge või mitte,
-aga see töötas. Need lihtsad sõnad toimisid. Midagi
-juhtus: tasapisi tuli minusse rahu ja ärevus kadus, siis
-heitsin ma pikali ja uinusin. Magasin tol ööl hästi, see
-oli esimest korda üle pika aja, kui hästi magada sain. See
-vilets Jumalale esitatud palve töötas. Olin aus ja soovisin
-siiralt Jumala abi. Teadsin sellest päevast alates, et olin
-Kõrgema Jõu leidnud ja Ta aitab mind ka edaspidi.
-Järgmise paari kuu jooksul hakkas mu elu vaikselt
-muutuma, kui töötasin programmi Esimese Sammu
-kallal. Kuulasin spiikreid ja alustasin ühe vanema liikme
-abil Suure Raamatu õppimise rühmaga. Mikmaki folklooris räägitakse tillukestest inimestest nimega bugalademujs. Nad elavad mägedes, ent hiilivad tihti meie
-kodudesse meile vempe viskama, tavaliselt teevad nad
-seda öösiti, et me neid ei näeks. Kui ma märkasin, et
-Suure Saamatu neljas peatükk „Meie, agnostikud” oli
-hakanud muutuma, ütlesin AA liikmetele, et meie fol-
+Mulle räägiti, et AA on vaimne programm ja et mul pidi kindlasti olema mingi Kõrgem Jõud. Ma ei teadnud Jumalast ega Kõrgematest Jõududest midagi ja üritasin endale mõne sellise leida. Esmalt arvasin ma, et peaksin indiaani päritolu tõttu praktiseerima indiaanlaste traditsioonilist usku. Siis mõtlesin aga, et peaksin ehk minema reservaadi kirikusse. Siis uskusin ma, et kui ma piisaval hulgal AA koosolekutel käin ja seal lihtsalt istun, tabab mind ilmutus ja ma tervenen täielikult. Ühel päeval küsis üks liige minu käest, kas ma usun, et Kõrgem Jõud on päriselt olemas. Ma uskusin tõepoolest, et mingit sorti Jumal olemas on. Ta ütles mulle, et sellest piisab. Ta lisas, et uskumise ja koosolekutel osalemise toel leian ma vastavalt oma enda arusaamisele Kõrgema Jõu. Täna olen ma selle nõuande eest äärmiselt tänulik.
 
-500
+Pärast kolme AA-s veedetud kuud tulin ma ühel õhtul peale koosolekut koju ning kuulsin kõrvalukse tagant muusikat ja valjuhäälset naeru. Sellel peol olid ka mõned minu joomasõbrad ja ma lihtsalt teadsin sisimas, et satun ise ka kuidagi sinna. Ma ei tahtnud juua, ja ometi tõmbas pidu justkui magnetina mind enda poole. Teisele poole tänavat telefoniputkasse joostes olin täidetud hirmuga. Helistasin oma tugiisikule, aga ta ei võtnud vastu. Koju tormates tabas mind juba paanika. Läksin magamistuppa ja istusin voodi äärele. Vaatasin üles ja laususin järgnevad sõnad: „Noh, semu, küllap oleme siin ainult kahekesi." Uskuge või mitte, aga see töötas. Need lihtsad sõnad toimisid. Midagi juhtus: tasapisi tuli minusse rahu ja ärevus kadus, siis heitsin ma pikali ja uinusin. Magasin tol ööl hästi, see oli esimest korda üle pika aja, kui hästi magada sain. See vilets Jumalale esitatud palve töötas. Olin aus ja soovisin siiralt Jumala abi. Teadsin sellest päevast alates, et olin Kõrgema Jõu leidnud ja Ta aitab mind ka edaspidi.
 
-ANONÜÜMSED ALKOHOOLIKUD
+Järgmise paari kuu jooksul hakkas mu elu vaikselt muutuma, kui töötasin programmi Esimese Sammu kallal. Kuulasin spiikreid ja alustasin ühe vanema liikme abil Suure Raamatu õppimise rühmaga. Mikmaki folklooris räägitakse tillukestest inimestest nimega bugalademujs. Nad elavad mägedes, ent hiilivad tihti meie kodudesse meile vempe viskama, tavaliselt teevad nad seda öösiti, et me neid ei näeks. Kui ma märkasin, et Suure Saamatu neljas peatükk „Meie, agnostikud" oli hakanud muutuma, ütlesin AA liikmetele, et meie folkloori tillukesed inimesed viskavad minu Suure Raamatuga vempe. Ja teate – nad teevad seda praeguseni.
 
-kloori tillukesed inimesed viskavad minu Suure Raamatuga vempe. Ja teate – nad teevad seda praeguseni.
-Mõistan nüüd, et minu peamiseks mureks peaks
-olema see vaimne tõbi ja mida rohkem mul usku on,
-seda vähem esineb minu elus probleeme. Täna on mul
-rohkem usku kui eales varem. Usu kasvades kahanevad
-minu hirmud.
-Aastaid vanglates, haiglates ja psühhiaatriaosakonnas istunud tüübile, kes ei suutnud mitte mingil moel
-joomist lõpetada, leidus vaid üks vastus: Anonüümsed
-Alkohoolikud ja Kaksteist Sammu. Mul vedas tohutult,
-et mind õiges suunas juhiti. Minu elus leidis aset drastiline muudatus. Loodan, et saan varsti tähistada oma
-kestva kainuse teist aastapäeva. Minu elu on kahe aastaga täielikult muutunud. Täna olen ma tugiisik teistele.
-Ma mõistan, mida tähendab sõna kaastunne, ja suudan
-seda tõeliselt tunda. Töötan hetkel Kaheksanda Sammu
-kallal ja olen vankumatult kindel, et minu ellu tuleb
-õnne aina juurde „mööda Õnneliku Saatuse Maanteed
-rühkides.”
+Mõistan nüüd, et minu peamiseks mureks peaks olema see vaimne tõbi ja mida rohkem mul usku on, seda vähem esineb minu elus probleeme. Täna on mul rohkem usku kui eales varem. Usu kasvades kahanevad minu hirmud.
+
+Aastaid vanglates, haiglates ja psühhiaatriaosakonnas istunud tüübile, kes ei suutnud mitte mingil moel joomist lõpetada, leidus vaid üks vastus: Anonüümsed Alkohoolikud ja Kaksteist Sammu. Mul vedas tohutult, et mind õiges suunas juhiti. Minu elus leidis aset drastiline muudatus. Loodan, et saan varsti tähistada oma kestva kainuse teist aastapäeva. Minu elu on kahe aastaga täielikult muutunud. Täna olen ma tugiisik teistele. Ma mõistan, mida tähendab sõna kaastunne, ja suudan seda tõeliselt tunda. Töötan hetkel Kaheksanda Sammu kallal ja olen vankumatult kindel, et minu ellu tuleb õnne aina juurde „mööda Õnneliku Saatuse Maanteed rühkides."
