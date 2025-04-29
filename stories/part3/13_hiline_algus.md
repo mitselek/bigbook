@@ -1,276 +1,40 @@
-(13)
-HILINE ALGUS
-„On möödunud kümme aasta minu pensionile jäämisest ja seitse aastat AA-ga liitumisest. Nüüd võin tõesti
-öelda, et ma olen tänulik alkohoolik.”
+# HILINE ALGUS
 
-O
+> *„On möödunud kümme aasta minu pensionile jäämisest ja seitse aastat AA-ga liitumisest. Nüüd võin tõesti öelda, et ma olen tänulik alkohoolik.”*
 
-len seitsmekümne viie aastane alkohoolik. Viiskümmend viis aastat nendest seitsmekümne viiest
-olen elanud normaalset keskklassi elu. Alkoholil oli
-selles sama väike roll kui glasuuritud bataatidel – tore
-kui neid oli, aga puudust neist ei tuntud. Kodu, kus
-kasvasin, koosnes kahest armastavast lapsevanemast,
-ühest vanemast vennast, pidevast lemmikloomade läbivoolust, ratsutamisest ja sõpradest, kes olid alati teretulnud. Kodune distsipliin oli range, aga mitte üleliia, nagu
-kahekümnenda sajandi esimesel veerandil tavaks oli;
-kindlasti ei arva ma, et mind oleks kuidagi väärkoheldud. Käisin erakoolis ja hiljem ühes kesklääne kolledžis.
-Abiellusin, sain lapsed, käisin tööl, kogesin vanemate
-ja ühe lapse surmaga kaasnevat valu. Teadsin ka seda
-rõõmu, mida pakuvad tõelised sõbrad ja rahaline edu.
-Mulle meeldis hobustega ratsutada, ujuda, tennist mängida ja mu vaikseid õhtuid sisustasid lapsed, raamatud
-ja sõbrad.
-Mis juhtus minuga viiekümne viienda ja kuuskümne
-kolmanda eluaasta vahel? Mul ei ole õrna aimugi. Kas
-elu oli liiga suur? Kas mõni varjatud geen lõi ägedalt
-välja? Ma ei tea. Aga seda tean ma küll, et kuuekümne
-viieselt roomasin räpase tõugulaadse naisena, valmis
-tuhastama kõik, mille nimel olin pingutanud ja rüvetama kõik kallid suhted, mis mul olid. Tean ka seda, et
-läbi suurepäraste Jumala poolt juhitud sündmuste ja
-535
+Olen seitsmekümne viie aastane alkohoolik. Viiskümmend viis aastat nendest seitsmekümne viiest olen elanud normaalset keskklassi elu. Alkoholil oli selles sama väike roll kui glasuuritud bataatidel – tore kui neid oli, aga puudust neist ei tuntud. Kodu, kus kasvasin, koosnes kahest armastavast lapsevanemast, ühest vanemast vennast, pidevast lemmikloomade läbivoolust, ratsutamisest ja sõpradest, kes olid alati teretulnud. Kodune distsipliin oli range, aga mitte üleliia, nagu kahekümnenda sajandi esimesel veerandil tavaks oli; kindlasti ei arva ma, et mind oleks kuidagi väärkoheldud. Käisin erakoolis ja hiljem ühes kesklääne kolledžis. Abiellusin, sain lapsed, käisin tööl, kogesin vanemate ja ühe lapse surmaga kaasnevat valu. Teadsin ka seda rõõmu, mida pakuvad tõelised sõbrad ja rahaline edu. Mulle meeldis hobustega ratsutada, ujuda, tennist mängida ja mu vaikseid õhtuid sisustasid lapsed, raamatud ja sõbrad.
 
-536
+Mis juhtus minuga viiekümne viienda ja kuuskümne kolmanda eluaasta vahel? Mul ei ole õrna aimugi. Kas elu oli liiga suur? Kas mõni varjatud geen lõi ägedalt välja? Ma ei tea. Aga seda tean ma küll, et kuuekümne viieselt roomasin räpase tõugulaadse naisena, valmis tuhastama kõik, mille nimel olin pingutanud ja rüvetama kõik kallid suhted, mis mul olid. Tean ka seda, et läbi suurepäraste Jumala poolt juhitud sündmuste ja inimeste, juhatati mind ainsa võimaliku käitumisviisini, mis hoiab mind vaimselt terve, kaine, tegusa ja õnnelikuna.
 
-ANONÜÜMSED ALKOHOOLIKUD
+Ma olin kahekümnene, kui jõin oma esimese joogi ja ehkki mulle meeldis selle maitse, ei meeldinud mulle selle toime. Ma ei joonud uuesti enne kolmekümnendatesse jõudmist ja toona arvasin, et joomine teeb mu lahedaks ja väljapeetuks. Nendel varajastel aastatel, piisas mulle vaid paarist joogist ja tihtipeale kulus mul terve õhtu peale üks viski jääga. Kui ma olin kolmekümne viiene diagnoositi mu kaheteistkümne aastasel pojal ravimatu vähk ja mõne kuu pärast nõudis mu abikaasa lahutust. Järgneva viie aasta jooksul kui mu poeg veel elas, jõin väga harva ja mitte kunagi üksi. Piin, hirm, valu ja kurnatus ei teinud minust joodikut. Õnn avas selle ukse palju, palju hiljem.
 
-inimeste, juhatati mind ainsa võimaliku käitumisviisini,
-mis hoiab mind vaimselt terve, kaine, tegusa ja õnnelikuna.
-Ma olin kahekümnene, kui jõin oma esimese joogi
-ja ehkki mulle meeldis selle maitse, ei meeldinud
-mulle selle toime. Ma ei joonud uuesti enne kolmekümnendatesse jõudmist ja toona arvasin, et joomine
-teeb mu lahedaks ja väljapeetuks. Nendel varajastel
-aastatel, piisas mulle vaid paarist joogist ja tihtipeale
-kulus mul terve õhtu peale üks viski jääga. Kui ma olin
-kolmekümne viiene diagnoositi mu kaheteistkümne
-aastasel pojal ravimatu vähk ja mõne kuu pärast nõudis
-mu abikaasa lahutust. Järgneva viie aasta jooksul kui mu
-poeg veel elas, jõin väga harva ja mitte kunagi üksi. Piin,
-hirm, valu ja kurnatus ei teinud minust joodikut. Õnn
-avas selle ukse palju, palju hiljem.
-Neljakümnendate keskel hakkas mu huvi alkoholi
-järele hoogu koguma. Kuigi käisin endiselt tööl, olin
-ennast muust isoleerinud, et hoolitseda oma poja ja
-tema noorema õe eest, kes mõlemad vajasid erilist doosi
-stabiilsust, armastust ja turvatunnet. Peagi pärast oma
-poja surma, tegin teadliku otsuse astuda uuesti täiskasvanute maailma. Minu debüüt innustas mu joomist.
-Joomine ei olnud veel kinnisideeline, aga muutus üha
-enam minu igapäevase elu osaks. Ma ei kutsunud enam
-külalisi, ilma et ma oleks kokteile pakkunud ja osalesin harva kogunemistel, kus alkoholi ei pakutud. Peale
-mõnd huvitegevust, leidsin alati joomakaaslased, oli see
-siis peale koertekooli või pärast õlimaalikursust. Nelja­
-kümnendate eluaastate lõpus ei olnud minu jaoks ebatavaline õhtuti üksi juua, kuigi esines veel palju päevi,
-mil ma ei joonud üldse. Iga üritus oli sündmus, kus tuli
-liigselt tähistada ja järjest sagedamini tuli ette nädalava-
+Neljakümnendate keskel hakkas mu huvi alkoholi järele hoogu koguma. Kuigi käisin endiselt tööl, olin ennast muust isoleerinud, et hoolitseda oma poja ja tema noorema õe eest, kes mõlemad vajasid erilist doosi stabiilsust, armastust ja turvatunnet. Peagi pärast oma poja surma, tegin teadliku otsuse astuda uuesti täiskasvanute maailma. Minu debüüt innustas mu joomist. Joomine ei olnud veel kinnisideeline, aga muutus üha enam minu igapäevase elu osaks. Ma ei kutsunud enam külalisi, ilma et ma oleks kokteile pakkunud ja osalesin harva kogunemistel, kus alkoholi ei pakutud. Peale mõnd huvitegevust, leidsin alati joomakaaslased, oli see siis peale koertekooli või pärast õlimaalikursust. Neljakümnendate eluaastate lõpus ei olnud minu jaoks ebatavaline õhtuti üksi juua, kuigi esines veel palju päevi, mil ma ei joonud üldse. Iga üritus oli sündmus, kus tuli liigselt tähistada ja järjest sagedamini tuli ette nädalavahetusi, mil jõin ennast pohmelli tekitavalt purju. Sellele vaatamata edutati mind tol ajal töö juures.
 
-HILINE ALGUS
+Ma olin neljakümne üheksa aastane, kui abiellusin oma teise abikaasaga. Aastaid varem keskkoolis käies ja paar aastat hiljem kolledžis olime käinud kohtamas, kuid siis tuli Teine maailmasõda ja viis meid lahku. Olime mõlemad mujal abiellunud, lahutanud ja kolmkümmend aastat hiljem kohtusime juhuse tahtel uuesti. Abielu esimest kümmet aastat täitsid: naer, jagamine ja imetlemine, millele lisandusid martiini ja viski jääga. Kuuekümnenendaks eluaastaks oleks igaüks, kes alkoholismist midagi jagab, teadnud, et mind ootavad ees suured probleemid. Rõõmsad plaanid muutusid nurisemiseks, algasid vaidlused ja toidud kõrbesid põhja. Vihatormid tuhisesid läbi meie kord õnne täis kodu. Olime ühel meelel, et joome liiga palju. Proovisime erinevaid tehnikaid, planeerida joomist graafiku alusel ja ainult nädalavahetustel joomise nippi. Mitte miski ei toiminud. Meie rahakott hakkas pitsitama. Mu abikaasa kaotas töö ja järgmised kaks piinavat aastat vaatasin pealt, kuidas ta alkoholismi kätte suri. Aga mina ei õppinud tema surmast midagi ja minu joomine süvenes ning ma toitsin oma kurbust pudeliga.
 
-537
+Minu varajasi kuuekümnendaid saatis igaõhtune joomine ning palusin ikka jälle ja jälle haiguslehte või isiklikel põhjustel vabastust. Elu oli täielik põrgu! Tööl värisesid mu käed tihti nii hullusti, et ma ei tahtnud dikteerida kirju, kuna peaksin neile pärast allkirja andma. Leidsin kõikvõimalikke vabandusi, et minna kellegagi „ärilõunale”, mis võimaldaks mul võtta joogi või paar. Minu alkoholismi süvenedes kasvas ka minu töölt puudumine ja kahanes minu tööviljakus. Kirjutasin katteta tšekke, pantisin hõbedat, leinasin ja jätkasin joomist.
 
-hetusi, mil jõin ennast pohmelli tekitavalt purju. Sellele
-vaatamata edutati mind tol ajal töö juures.
-Ma olin neljakümne üheksa aastane, kui abiellusin
-oma teise abikaasaga. Aastaid varem keskkoolis käies
-ja paar aastat hiljem kolledžis olime käinud kohtamas,
-kuid siis tuli Teine maailmasõda ja viis meid lahku.
-Olime mõlemad mujal abiellunud, lahutanud ja kolmkümmend aastat hiljem kohtusime juhuse tahtel uuesti.
-Abielu esimest kümmet aastat täitsid: naer, jagamine ja
-imetlemine, millele lisandusid martiini ja viski jääga.
-Kuuekümnenendaks eluaastaks oleks igaüks, kes alkoholismist midagi jagab, teadnud, et mind ootavad ees
-suured probleemid. Rõõmsad plaanid muutusid nurisemiseks, algasid vaidlused ja toidud kõrbesid põhja.
-Vihatormid tuhisesid läbi meie kord õnne täis kodu.
-Olime ühel meelel, et joome liiga palju. Proovisime
-erinevaid tehnikaid, planeerida joomist graafiku alusel
-ja ainult nädalavahetustel joomise nippi. Mitte miski
-ei toiminud. Meie rahakott hakkas pitsitama. Mu abikaasa kaotas töö ja järgmised kaks piinavat aastat vaatasin pealt, kuidas ta alkoholismi kätte suri. Aga mina ei
-õppinud tema surmast midagi ja minu joomine süvenes
-ning ma toitsin oma kurbust pudeliga.
-Minu varajasi kuuekümnendaid saatis igaõhtune
-joomine ning palusin ikka jälle ja jälle haiguslehte või
-isiklikel põhjustel vabastust. Elu oli täielik põrgu! Tööl
-värisesid mu käed tihti nii hullusti, et ma ei tahtnud dikteerida kirju, kuna peaksin neile pärast allkirja andma.
-Leidsin kõikvõimalikke vabandusi, et minna kellegagi
-„ärilõunale”, mis võimaldaks mul võtta joogi või paar.
-Minu alkoholismi süvenedes kasvas ka minu töölt puudumine ja kahanes minu tööviljakus. Kirjutasin katteta
-tšekke, pantisin hõbedat, leinasin ja jätkasin joomist.
+Helistasin lõpuks ühel külmal talvepäeval Anonüümsetesse Alkohoolikutesse ja samal õhtul viisid kaks naist mu koosolekule. Mäletan, et selle kahekümne viie minutilise autosõidu jooksul oli nii hea rääkida oma hirmudest ja värinatest, mäletan kui lahked nad olid, ilma minu enesehaletsust julgustamata. Mäletan, et mulle anti tass kohvi, mida suutsin vaevu käes hoida, kuulsin võimatuid lubadusi, mis täituksid, kui seoksin ennast selle võimatu pühendumisega. Ma tahtsin lõpetada joomist. Naised soovitasid, et ma läheksin järgmisel õhtul naiste kinnisele koosolekul ja seda ma ka tegin. Mõistagi võtsin enne väikese joogi ja kui tuli minu kord ennast tutvustada, siis väitsin, et mu aju ütleb mulle, et olen alkohoolik, aga ülejäänud keha ei usu seda. Järgneval ööl sadas lund ja ma jäin koju ning jõin. Sellega piirdus minu esimene katse AA-s.
 
-538
+Mõni kuu hiljem kutsusin oma tütre ja väimehe õhtusöögile, et tähistada tütre sünnipäeva. Nad leidsid mu elutoa põrandal lössivajunult ja täiesti teadvusetuna. Milline rusuv sünnipäevakingitus. Ei läinud palju veenmaks mind minema võõrutusprogrammi naabruskonna haiglas. Teadsin, et olen hädas; tundsin häbi ja südamevalu, kuna olin teinud tütrele nii palju haiget. Olnud seitse päeva võõrutusravil, saanud kaheksa nädalat abi väga healt psühholoogilt, olin kuiva ja kainena valmis maailmale uuesti otsa vaatama. Mu arst soovitas tungivalt, et ma läheksin lähedalasuvale AA koosolekule, aga mina ei tahtnud teda kuulata. Olin terve – ei vajanud rohkem abi.
 
-ANONÜÜMSED ALKOHOOLIKUD
+Pooleteise aasta pärast läksin pensionile. Nautisin oma uut vabadust ja andsin endale loa juua ainult väljas õhtustades. See toimis nii hästi, et tegin omale uue reegli: võin juua ühe kokteili enne õhtusööki ja ühe joogi pärast. Siis seadsin uue reegli, et võin kodus sõpradele alkoholi pakkuda. See oli muidugi reegel, mis viis mu tagasi hirmuäratavasse joomakeerisesse. Olin hullemas seisus kui varem. Minu enese kehtestatud põrgu oli minu enda kodus. Pesemata, päev-päeva järel samades ööriietes, kartes telefoni, uksekella ja pimedust. Kui kell näitas kuute, polnud mul aimugi, kas on hommik või õhtu. Päevad vurasid üksteise järel piinavas udus. Roomasin voodisse, ärgates jõin peale ja istusin hirmust värisedes peagi saabuva tundmatu tragöödia ootuses. Mäletan, kuidas ma halisesin, sest ei suutnud kohvi teha, istusin kägaras nurgas ja planeerisin, kuidas sooritada enesetappu ilma segadust tekitamata. Oleksin ehk proovinudki, aga kartsin, et keegi ei leia mind, enne kui ma haisema hakkan.
 
-Helistasin lõpuks ühel külmal talvepäeval Anonüümsetesse Alkohoolikutesse ja samal õhtul viisid kaks naist
-mu koosolekule. Mäletan, et selle kahekümne viie
-minutilise autosõidu jooksul oli nii hea rääkida oma hirmudest ja värinatest, mäletan kui lahked nad olid, ilma
-minu enesehaletsust julgustamata. Mäletan, et mulle
-anti tass kohvi, mida suutsin vaevu käes hoida, kuulsin
-võimatuid lubadusi, mis täituksid, kui seoksin ennast
-selle võimatu pühendumisega. Ma tahtsin lõpetada joomist. Naised soovitasid, et ma läheksin järgmisel õhtul
-naiste kinnisele koosolekul ja seda ma ka tegin. Mõistagi
-võtsin enne väikese joogi ja kui tuli minu kord ennast
-tutvustada, siis väitsin, et mu aju ütleb mulle, et olen
-alkohoolik, aga ülejäänud keha ei usu seda. Järgneval
-ööl sadas lund ja ma jäin koju ning jõin. Sellega piirdus
-minu esimene katse AA-s.
-Mõni kuu hiljem kutsusin oma tütre ja väimehe õhtusöögile, et tähistada tütre sünnipäeva. Nad leidsid mu
-elutoa põrandal lössivajunult ja täiesti teadvusetuna.
-Milline rusuv sünnipäevakingitus. Ei läinud palju veenmaks mind minema võõrutusprogrammi naabruskonna
-haiglas. Teadsin, et olen hädas; tundsin häbi ja südame­
-valu, kuna olin teinud tütrele nii palju haiget. Olnud
-seitse päeva võõrutusravil, saanud kaheksa nädalat abi
-väga healt psühholoogilt, olin kuiva ja kainena valmis
-maailmale uuesti otsa vaatama. Mu arst soovitas tungivalt, et ma läheksin lähedalasuvale AA koosolekule, aga
-mina ei tahtnud teda kuulata. Olin terve – ei vajanud
-rohkem abi.
-Pooleteise aasta pärast läksin pensionile. Nautisin oma uut vabadust ja andsin endale loa juua ainult
-väljas õhtustades. See toimis nii hästi, et tegin omale
+Taaskord tuli tütar mind päästma ja ma läksin uuesti haigla võõrutusprogrammi. Seekord olin seal kümme päeva. Sel korral oli võimalik haiglas AA koosolekutel käia. Mind liigutas siiralt tõsiasi, et neid koosolekuid juhatas noor mees kipsis jala ja karkudega, veel enam see, kui taipasin, et ta tuli vabatahtlikult. Enne haiglast välja saamist, sain kahel korral loa käia väljas AA koosolekul.
 
-HILINE ALGUS
+Teised on väitnud, et nad võtsid AA programmi omaks suure õhinaga. Erinevalt neist ei tahtnud ma nendesse ruumidesse tulla ega tundnud end seal nagu kodus. Küll aga ei olnud mul teist valikut. Olin ära kasutanud kõik õlekõrred ja jõudnud alati järjekordse ebaõnnestumiseni. Olin kuuekümne üheksa aastane. Mul ei olnud ei aega ega tervist, mida raisata. Ma ei joonud kuus kuud, käisin koosolekutel ja lugesin vahel Suurt Raamatut. Läksin koosolekutele täpselt õigeks ajaks, istusin vaikselt ja lahkusin sedamaid kui koosolek lõppes. Ma ei olnud mingil moel osa rühmast. Mulle ei avaldanud muljet need ütlused ja ma ei uskunud kuuldud sõnumit. Siis, ühel päeval kutsuti mind jagama ning ma plahvatasin. Teatasin et ma ei ole mitte mingit pidi „tänulik alkohoolik” et ma vihkan oma seisundit, ma ei naudi koosolekuid ja ma ei tundnud lahkudes end värskena. Ma ei leidnud kergendust ega tundnud, et kasvan selles Sõpruskonnas.
 
-539
+Minu tervenemine algas selle sõnavõtu ülbusest. Üks naine tuli peale koosolekut minu juurde ja lausus, et ma olen kohe „jooma minemas.” Ta pakkus, et võib aidata mul leida tugiisiku ja viis mu kokku täpselt sellise inimesega nagu ma vajasin. Sellel naisel oli üheksateist aastat kainust ja rikkalikult kogemusi teiste alkohoolikute aitamise ja juhendamisega läbi AA sammude. Ei saa kuidagi väita, et hüppasin suurima heameelega programmi. Puiklesin, kandsin vimma ja keeldusin leppimast iga eesootava sammuga. Iga uus idee paistis mulle väljakutsena ja tundsin oma tugiisiku vastu vimma, kuna mulle tundus, et ta püüdis mind lolliks teha. Läks aastaid, enne kui taipasin, et ma tundsin vimma nende muutuste vastu, mida programm mul teha palus, mitte oma tugiisiku vastu.
 
-uue reegli: võin juua ühe kokteili enne õhtusööki ja ühe
-joogi pärast. Siis seadsin uue reegli, et võin kodus sõpradele alkoholi pakkuda. See oli muidugi reegel, mis
-viis mu tagasi hirmuäratavasse joomakeerisesse. Olin
-hullemas seisus kui varem. Minu enese kehtestatud
-põrgu oli minu enda kodus. Pesemata, päev-päeva järel
-samades ööriietes, kartes telefoni, uksekella ja pimedust. Kui kell näitas kuute, polnud mul aimugi, kas on
-hommik või õhtu. Päevad vurasid üksteise järel piinavas
-udus. Roomasin voodisse, ärgates jõin peale ja istusin
-hirmust värisedes peagi saabuva tundmatu tragöödia
-ootuses. Mäletan, kuidas ma halisesin, sest ei suutnud
-kohvi teha, istusin kägaras nurgas ja planeerisin, kuidas
-sooritada enesetappu ilma segadust tekitamata. Oleksin
-ehk proovinudki, aga kartsin, et keegi ei leia mind, enne
-kui ma haisema hakkan.
-Taaskord tuli tütar mind päästma ja ma läksin uuesti
-haigla võõrutusprogrammi. Seekord olin seal kümme
-päeva. Sel korral oli võimalik haiglas AA koosolekutel
-käia. Mind liigutas siiralt tõsiasi, et neid koosolekuid
-juhatas noor mees kipsis jala ja karkudega, veel enam
-see, kui taipasin, et ta tuli vabatahtlikult. Enne haiglast
-välja saamist, sain kahel korral loa käia väljas AA koosolekul.
-Teised on väitnud, et nad võtsid AA programmi
-omaks suure õhinaga. Erinevalt neist ei tahtnud ma
-nendesse ruumidesse tulla ega tundnud end seal nagu
-kodus. Küll aga ei olnud mul teist valikut. Olin ära
-kasutanud kõik õlekõrred ja jõudnud alati järjekordse
-ebaõnnestumiseni. Olin kuuekümne üheksa aastane.
-Mul ei olnud ei aega ega tervist, mida raisata. Ma ei
-joonud kuus kuud, käisin koosolekutel ja lugesin vahel
+Tingimusteta armastusest tuleneva kannatlikkusega aitas ta mul esmalt tunnistada, et ma olen jõuetu alkoholi ees; et teised enne mind on sellest haigusest võitu saanud. Et peab olema mingi meist suurema abi allikas ja et koos oleme me kaev, millest igaüks saab jõudu ammutada. Sellest punktist edasi ei olnud enam nii raske jõuda taipamiseni, et on olemas Jõud, mis on meist suurem ja selle teadmisega leidsin ma suuna oma isikliku Kõrgema Jõu juurde. Sellele vaimsele vundamendile hakkasin rajama uut elu.
 
-540
+Kolmas Samm oli minu jaoks kõige raskem. Aga selle sooritanuna, avastasin, et ma suudan ülejäänud sammudega silmitsi seista või need lahti harutada, kui pean meeles lõdvestuda, usaldada programmi ja rakendada seda sammu, selle asemel et sellega võidelda. Kõrgema Jõu vastu võtmine ei muutnud mu trotslikku suhtumist täielikult. See lihtsalt muutis juhistele allumise mõistuspärasemaks ja vastuvõetavamaks käitumisviisiks. Iga sammu juures pidin taaskord möönma, et ma ei suuda oma joomist kontrollida. Mul tuli aru saada, et Anonüümsete Alkohoolikute sammud olid aidanud teisi ja võiksid aidata ka mind. Mul tuli mõista, et kui ma tõesti soovin kaineks jääda, siis mul oleks targem need sammud ära teha, meeldib see mulle või mitte. Lõpuks taipasin, et iga kord kui sattusin raskustesse, oli põhjus selles, et ma seisan muutustele vastu.
 
-ANONÜÜMSED ALKOHOOLIKUD
+Minu mentor pidi mulle meenutama, et AA ei ole lihtsalt üks projekt. AA pakub mulle võimalust parandada oma elukvaliteeti. Ma jõudsin äratundmisele, et sügavam ja avaram kogemus on mind alati ootamas. Mäletan, et oma kasvutee alguses tänasin oma tugiisikut nende arvukate tundide eest, mis ta minule oli loovutanud. Ta küsis: „Kas sa ei arva, et teed ühel päeval seda sama kellegi teise heaks?” Mina vastasin: „Ma ei vastuta enam kunagi kellegi ega millegi eest.” See, et ma keeldusin programmi edasi andmast, lükkas edasi minu võimalust teenida mistahes moel ja seetõttu viibis ka minu kasvuprotsessi. Olin valmis teenima rühma sekretärina alles peale kahe aasta möödumist. Läks neli aastat, enne kui olin valmis kellelegi tugiisikuks olema. Täna tunnen ma siirast tänulikkust, et mind on lubatud mitme naise eludesse. Minu enda arusaamised on avardunud ja süvenenud tänu sellele mõjule, mis nemad minu ellu toovad. Kui mina ja uustulnuk uurime igat sammu, siis nii mina kui tema saame uusi taipamisi ja avastame sellel kainuse juveelil uusi tahke. Tunnen nüüd uhkust, et olen osa sellest Sõpruskonnast, mis juhatas mulle kätte raja üles ja põrgust välja. Nüüd olen innukas jagama oma kogemust nagu teised on jaganud oma kogemust minuga.
 
-Suurt Raamatut. Läksin koosolekutele täpselt õigeks
-ajaks, istusin vaikselt ja lahkusin sedamaid kui koosolek
-lõppes. Ma ei olnud mingil moel osa rühmast. Mulle ei
-avaldanud muljet need ütlused ja ma ei uskunud kuuldud sõnumit. Siis, ühel päeval kutsuti mind jagama ning
-ma plahvatasin. Teatasin et ma ei ole mitte mingit pidi
-„tänulik alkohoolik” et ma vihkan oma seisundit, ma ei
-naudi koosolekuid ja ma ei tundnud lahkudes end värskena. Ma ei leidnud kergendust ega tundnud, et kasvan
-selles Sõpruskonnas.
-Minu tervenemine algas selle sõnavõtu ülbusest. Üks
-naine tuli peale koosolekut minu juurde ja lausus, et ma
-olen kohe „jooma minemas.” Ta pakkus, et võib aidata
-mul leida tugiisiku ja viis mu kokku täpselt sellise inimesega nagu ma vajasin. Sellel naisel oli üheksateist aastat
-kainust ja rikkalikult kogemusi teiste alkohoolikute
-aitamise ja juhendamisega läbi AA sammude. Ei saa
-kuidagi väita, et hüppasin suurima heameelega programmi. Puiklesin, kandsin vimma ja keeldusin leppimast iga eesootava sammuga. Iga uus idee paistis mulle
-väljakutsena ja tundsin oma tugiisiku vastu vimma, kuna
-mulle tundus, et ta püüdis mind lolliks teha. Läks aastaid, enne kui taipasin, et ma tundsin vimma nende
-muutuste vastu, mida programm mul teha palus, mitte
-oma tugiisiku vastu.
-Tingimusteta armastusest tuleneva kannatlikkusega aitas ta mul esmalt tunnistada, et ma olen jõuetu
-alkoholi ees; et teised enne mind on sellest haigusest
-võitu saanud. Et peab olema mingi meist suurema abi
-allikas ja et koos oleme me kaev, millest igaüks saab
-jõudu ammutada. Sellest punktist edasi ei olnud enam
-nii raske jõuda taipamiseni, et on olemas Jõud, mis on
+Väikesed imed pakuvad uusi võimalusi just sel hetkel, kui vajan muutust ja kasvu. Uued sõbrad on näidanud mulle peidetud tõdesid nendes ütlustes, mis paistsid mulle kunagi nii tühjadena. Sallivuse ja leppimise õppetunnid on mulle näidanud, kuidas vaadata sügavamale, et leida abi ja tarkust, mis sageli peituvad pealispinna all. Kogu minu kainus ja areng, mõistuslikult, emotsionaalselt ja vaimselt, sõltuvad minu valmidusest kuulata, mõista ja muutuda.
 
-HILINE ALGUS
+da oma programmis vaimset sügavust. Olin võtnud vastu selle, mis mulle õpetati, aga ma ei olnud läinud otsima seda isiklikku kasvu, mida nägin teistes. Otsisin inimesi, kes võtsid programmi kaasa oma ellu, koju, tööle ja puhkehetkele, ning leidsin nad. Nende juhtimisel, nii õpetuse kui ka eeskuju kaudu, leian igapäevast põnevust, mis on oluline minu isiklikuks arenguks ja ühenduse hoidmiseks minu Kõrgema Jõuga.
+Lähenesin Anonüümsetele Alkohoolikutele hirmu ja kõhklustega. Siis, ajendatuna hirmust selle ees, mis jäi mu selja taha, astusin väikseid ettevaatlike samme sellel uuel teel. Kui leidsin, et pinnas on kindel, hakkasin iga väikese sammuga järjest rohkem usaldama. Enesekindlus kasvas, usk Kõrgemasse Jõudu suurenes ja ma hakkasin märkama valgust, mille olemasolust ma varem teadlikki ei olnud. Miski minus muutus ja võttis vastu uue jõu, arusaamise, sallivuse ja armastuse allika. See isekas ja tõrjuv naine, kes kuulutas, et „ei vastuta iial kellegi, ega millegi eest”, leiab nüüd siirast soojust lihtsalt kättesaadav olemisest. Minu jaoks on see privileeg, kui saan teist joodikut aidata.mnendatesse jõudmist ja toona arvasin, et joomine
 
-541
-
-meist suurem ja selle teadmisega leidsin ma suuna oma
-isikliku Kõrgema Jõu juurde. Sellele vaimsele vundamendile hakkasin rajama uut elu.
-Kolmas Samm oli minu jaoks kõige raskem. Aga selle
-sooritanuna, avastasin, et ma suudan ülejäänud sammudega silmitsi seista või need lahti harutada, kui pean
-meeles lõdvestuda, usaldada programmi ja rakendada
-seda sammu, selle asemel et sellega võidelda. Kõrgema
-Jõu vastu võtmine ei muutnud mu trotslikku suhtumist
-täielikult. See lihtsalt muutis juhistele allumise mõistus­
-pärasemaks ja vastuvõetavamaks käitumisviisiks. Iga
-sammu juures pidin taaskord möönma, et ma ei suuda
-oma joomist kontrollida. Mul tuli aru saada, et Anonüümsete Alkohoolikute sammud olid aidanud teisi
-ja võiksid aidata ka mind. Mul tuli mõista, et kui ma
-tõesti soovin kaineks jääda, siis mul oleks targem need
-sammud ära teha, meeldib see mulle või mitte. Lõpuks
-taipasin, et iga kord kui sattusin raskustesse, oli põhjus
-selles, et ma seisan muutustele vastu.
-Minu mentor pidi mulle meenutama, et AA ei ole
-lihtsalt üks projekt. AA pakub mulle võimalust parandada oma elukvaliteeti. Ma jõudsin äratundmisele, et
-sügavam ja avaram kogemus on mind alati ootamas.
-Mäletan, et oma kasvutee alguses tänasin oma tugiisikut nende arvukate tundide eest, mis ta minule oli loovutanud. Ta küsis: „Kas sa ei arva, et teed ühel päeval
-seda sama kellegi teise heaks?” Mina vastasin: „Ma ei
-vastuta enam kunagi kellegi ega millegi eest.” See, et ma
-keeldusin programmi edasi andmast, lükkas edasi minu
-võimalust teenida mistahes moel ja seetõttu viibis ka
-minu kasvuprotsessi. Olin valmis teenima rühma sekretärina alles peale kahe aasta möödumist. Läks neli
-
-542
-
-ANONÜÜMSED ALKOHOOLIKUD
-
-aastat, enne kui olin valmis kellelegi tugiisikuks olema.
-Täna tunnen ma siirast tänulikkust, et mind on lubatud
-mitme naise eludesse. Minu enda arusaamised on avardunud ja süvenenud tänu sellele mõjule, mis nemad
-minu ellu toovad. Kui mina ja uustulnuk uurime igat
-sammu, siis nii mina kui tema saame uusi taipamisi ja
-avastame sellel kainuse juveelil uusi tahke. Tunnen
-nüüd uhkust, et olen osa sellest Sõpruskonnast, mis
-juhatas mulle kätte raja üles ja põrgust välja. Nüüd olen
-innukas jagama oma kogemust nagu teised on jaganud
-oma kogemust minuga.
-Väikesed imed pakuvad uusi võimalusi just sel hetkel,
-kui vajan muutust ja kasvu. Uued sõbrad on näidanud
-mulle peidetud tõdesid nendes ütlustes, mis paistsid
-mulle kunagi nii tühjadena. Sallivuse ja leppimise õppetunnid on mulle näidanud, kuidas vaadata sügavamale,
-et leida abi ja tarkust, mis sageli peituvad pealispinna
-all. Kogu minu kainus ja areng, mõistuslikult, emotsionaalselt ja vaimselt, sõltuvad minu valmidusest kuulata,
-mõista ja muutuda.
-Taipasin viiendal aastal oma igaaastast isikliku inventuuri tehes, et mul ei olnud õnnestunud arendada oma
-programmis vaimset sügavust. Olin võtnud vastu selle,
-mis mulle õpetati, aga ma ei olnud läinud otsima seda
-isiklikku kasvu, mida nägin teistes. Otsisin inimesi, kes
-võtsid programmi kaasa oma ellu, koju, tööle ja puhkehetkele, ning leidsin nad. Nende juhtimisel, nii õpetuse
-kui ka eeskuju kaudu, leian igapäevast põnevust, mis on
-oluline minu isiklikuks arenguks ja ühenduse hoidmiseks minu Kõrgema Jõuga.
-Lähenesin Anonüümsetele Alkohoolikutele hirmu
-ja kõhklustega. Siis, ajendatuna hirmust selle ees, mis
-
-HILINE ALGUS
-
-543
-
-jäi mu selja taha, astusin väikseid ettevaatlike samme
-sellel uuel teel. Kui leidsin, et pinnas on kindel, hakkasin iga väikese sammuga järjest rohkem usaldama.
-Enesekindlus kasvas, usk Kõrgemasse Jõudu suurenes
-ja ma hakkasin märkama valgust, mille olemasolust ma
-varem teadlikki ei olnud. Miski minus muutus ja võttis
-vastu uue jõu, arusaamise, sallivuse ja armastuse allika.
-See isekas ja tõrjuv naine, kes kuulutas, et „ei vastuta
-iial kellegi, ega millegi eest”, leiab nüüd siirast soojust
-lihtsalt kättesaadav olemisest. Minu jaoks on see privileeg, kui saan teist joodikut aidata.
-On möödunud kümme aasta minu pensionile jäämisest ja seitse aastat AA-ga liitumisest. Nüüd võin tõesti
-öelda, et ma olen tänulik alkohoolik. Poleks minust
-saanud joodikut, oleksin järjekordne kaine, aga kurb
-statistika. Seitsmekümne viieselt oleksin olnud üksildane kasutu vana naine, kes vaatab telekat ja tikib
-üksi kodus ilma sõpradeta ja upub järjest sügavamale
-vanaduse depressiooni. Aga praegu on AA täitnud mu
-päevad naeru, sõprade, arengu ja väärtustundega, mis
-põhineb sihikindla tegutsemissel. Minu usk ja side oma
-Kõrgema Jõuga särab eredamalt, kui oleksin osanud
-arvata. Need lubadused, mis arvasin olevat võimatud on
-nüüd tugev jõud minu elus. Mul on vabadus südamest
-naerda, vabadus usaldada ja olla usaldatud, vabadus
-anda abi ja võtta abi vastu. Olen vaba häbist ja kahetsusest, vaba õppima, arenema ja töötama. Astusin maha
-sellelt üksildaselt, hirmutavalt ja valulikult kiirrongilt,
-mis kihutas läbi põrgu. Võtsin kingitusena vastu turvalisema ja õnnelikuma tee läbi elu.
+On möödunud kümme aasta minu pensionile jäämisest ja seitse aastat AA-ga liitumisest. Nüüd võin tõesti öelda, et ma olen tänulik alkohoolik. Poleks minust saanud joodikut, oleksin järjekordne kaine, aga kurb statistika. Seitsmekümne viieselt oleksin olnud üksildane kasutu vana naine, kes vaatab telekat ja tikib üksi kodus ilma sõpradeta ja upub järjest sügavamale vanaduse depressiooni. Aga praegu on AA täitnud mu päevad naeru, sõprade, arengu ja väärtustundega, mis põhineb sihikindla tegutsemissel. Minu usk ja side oma Kõrgema Jõuga särab eredamalt, kui oleksin osanud arvata. Need lubadused, mis arvasin olevat võimatud on nüüd tugev jõud minu elus. Mul on vabadus südamest naerda, vabadus usaldada ja olla usaldatud, vabadus anda abi ja võtta abi vastu. Olen vaba häbist ja kahetsusest, vaba õppima, arenema ja töötama. Astusin maha sellelt üksildaselt, hirmutavalt ja valulikult kiirrongilt, mis kihutas läbi põrgu. Võtsin kingitusena vastu turvalisema ja õnnelikuma tee läbi elu.le
