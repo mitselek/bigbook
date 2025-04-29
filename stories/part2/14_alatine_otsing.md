@@ -1,333 +1,57 @@
-                      (14)
-                ALATINE OTSING
-   See advokaat proovis psühhiaatreid, biotagasiside
-teraapiat, lõdvestusharjutusi ja mitmeid muid teh-
-nikaid, et oma joomist kontrolli alla saada. Ta leidis
-lõpuks lahenduse ainulaadselt kohandatud AA Kahe-
-teistkümnes Sammus.
+# Alatine otsing
 
-K       ui alustasin värske kriminaalõiguse advokaa-
-        dina praktiseerimist oli meie advokaadibüroos
-viis inimest. Minu lemmikadvokaat oli ekstsentriline,
-sasitud, metsiku pilguga iiri õigusprofessor, kes oli sõl-
-tuvalt vaatenurgast, kas geenius või hull, puhastades
-pidevalt musta küünega oma piipukambrit ja haarates
-igal võimalusel vodka-martiini järele. Siis oli meil veel
-üks uus, kuid maailmast väsinud kohtuvaidluste advo-
-kaat, kes rääkis lõputuid lugusid oma kunagisest elust
-valge veini ja Bouillabaisse supiga Vahemere päikese
-all, juhtides oma ekspordiäri Rivieras. Miks ta küll jättis
-sellise ideaalse, veinirohke töö päikselises kliimas, et
-aastaid juurakoolis rassida? See ei mahtunud mulle
-pähe. Siis oli seal veel üks suur südamlik karumõmm,
-tänaseks kohtunik, kes tegeles rohkem teiste kuulamise
-ja abistamisega kui kriminaalõigusega. Sellisesse konto-
-risse maandusime meie: paar kõike-teadvaid, kiiresti
-tegutsevaid kuid mitte liiga kogenud noori advokaate –
-mina ja mu abikaasa.
-   Tosina aasta jooksul surid kolm neist viiest palju­
-lubavast advokaadist oma karjääri tipul alkoholismi
-tõttu. Kohtuhärra oli ja jäi alati kaineks kohtunikuks.
-Minust sai kuidagi tahtmatult ja isegi juues ettevõtte
+> *See advokaat proovis psühhiaatreid, biotagasiside teraapiat, lõdvestusharjutusi ja mitmeid muid tehnikaid, et oma joomist kontrolli alla saada. Ta leidis lõpuks lahenduse ainulaadselt kohandatud AA Kaheteistkümnes Sammus.*
 
-                           388
-                  ALATINE OTSING                     389
-jurist ja õnneks hiljem ka Anonüümsete Alkohoolikute
-liige. Professori neerud ütlesid liigsest martinitamisest
-üles; ekspordiga tegelenud advokaat jätkas joomist,
-kuni suri vaatamata maksa siirdamisele; kui mina olin
-kümme aastat kaine olnud jättis mu endine abikaasa elu
-tulekahjus, mis tema sõnul pidi olema viimane joomine
-enne uuesti AA-sse minemist. Olen käinud liiga palju-
-del enneaegsetel matustel, mille põhjustajaks on meie
-hea sõber alkohol.
-   Kohtusime ning abiellusime abikaasaga õigustea-
-duskonnas õppides – alkoholi, säravate tulede ja palju­
-tõotavuse romantilises udus. Paistsime välja sellega,
-et olime ainus abielupaar meie kursusel. Töötasime ja
-pidutsesime kõvasti, matkasime, telkisime ja suusata-
-sime, korraldasime oma peentele sõpradele vägevaid
-pidusid ja uhkustasime sellega, et suutsime püsida
-eemal narkootikumidest. Tegelikult oli see hirm, mis
-hoidis mind narkootikumidest eemal – hirm, et kui
-mind süüdistataks ebaseaduslike narkootikumide oma-
-mises, siis ei võetaks mind advokatuuri liikmeks. Veelgi
-olulisem oli see, et minu parim sõber oli suurepärane,
-võimas alkohol ja ma armastasin seda.
-   Kuni nelja-aastaseks saamiseni elasin ma ühe kõrtsi
-ülemisel korrusel, kus nägin mitmeid joodikuid ringi
-kakerdamas. Minu ema töötas sugulaste juures, kes
-elasid samuti kõrtsi kohal, ja minu eest hoolitses see,
-kellel parajasti aega oli. Hoolimata minu palvetest,
-abiellus ema vägivaldse mehega ja me kolisime ära,
-elama elu, mille kõrval mu elu kõrtsis paistis väga
-püha. Jooksin pidevalt kodust ära kõrtsi tagasi, kuni
-selle lammutamiseni. Vaatan siiani heldusega selle
-koha fotosid.
-390       ANONÜÜMSED ALKOHOOLIKUD
-   Mu esimene purjusolek oli neljateistaastaselt, see
-lõppes väikese politsei visiidiga koju. Kaheksateisaas-
-taseks saades olin juba igapäevane jooja, ja kahekümne
-ühe aastaselt toimus minu esimene terve aasta kestnud
-jooming Prantsusmaal, mida ma kutsusin pehmendavalt
-oma õppeaastaks välismaal. Naasin koju väga põdura ja
-joobnuna. Paar kuud hiljem läksin ühel õhtul Šoti viski
-pudeliga voodisse ja otsustasin, et astun õigusteadus-
-konda. Kui sul on probleeme, proovi midagi veel kee-
-rulisemat, et „neile näidata.” Selline oli minu filosoofia.
-Sellest piisas, et mind jooma ajada.
-   Õigusteaduskonnas õppides jõime üliõpilaspubides
-palju õlut, väideldes selle üle, kas kividel on hing ja mil-
-line on kohtuprotsessi olemus, justkui nendel teemadel
-poleks kunagi varem arutletud. Noorte advokaatidena
-töötasime mina ja mu abikaasa hommikuti innukalt
-kontoris, et kaitsta julgelt abivajajaid. Lõuna oli aeg,
-mis kätkes endas alatist otsingut parima martini leidmi-
-seks – tavaliselt kulus neid kaks või kolm, et harutada
-lahti sõlm, mis minu kõhus püsivalt pinget tekitas. (Ma
-ei teadnud, et see esindas hirmu ja et ma ei olnudki
-kartmatu kaitsja). Pärastlõunad olid täis loomingulist
-juriidilist argumentatsiooni kohtus. Kui kohtuistung
-lõppes varakult, jõudsime võib-olla kontorisse tagasi,
-või siis mitte.
-   Õhtuti jõime parimas seltskonnas: advokaadid, kir-
-janikud, meediainimesed, kes kõik konkureerisid, et
-pajatada parimaid lugusid, mis muidugi muutusid joo-
-budes ja kella edenedes aina naljakamaks. Kui ma jõin,
-haihtus hirm ja ma muutusin sõnaosavaks ja ilmselt
-väga, väga naljakaks – või nii nad toona väitsid. Aastaid
-hiljem jõin nii palju, et ma polnud enam naljakas. Kuid
-                   ALATINE OTSING                     391
-tol ajal tundusid joogid, lood ja kamraadlus sama ime-
-lised kui minu vaimukus. Koju magama saime ühe või
-kahe paiku öösel ja järgmisel hommikul olime varakult
-jalul, et kõike uuesti alustada. Nooruse meelekindlus ja
-vastu­pidavus muutsid meid alistamatuks.
-   Paraku lagunes meie abielu selleks ajaks koost, kui
-tundus, et oleks aeg luua perekond ja alustada „päris
-elu.” Olin siis kahekümne kaheksa aastane, keset lahu-
-tust, jõin pidevalt ning käisin kolm korda nädalas psüh-
-hiaatri juures, püüdes lahendada oma probleemi, mis
-iganes see ka polnud.
-   Arvasin, et mul on osa vastusest käes, kui komistasin
-juhuslikult ühe kontrollitud joomise programmi otsa,
-mille algtingimuseks oli kohustus olla kuu aega kaine,
-kududes igal õhtul rida-realt hiigelsuurt vaipa, sageli
-hiliste öötundideni välja. „Veel üks rida!” korrutasin ma
-hambad ristis ja vägisi mitte juues endale. Minu kainus-
-periood aitas mul saada parema töökoha ärimaailmas,
-eemal kõigist neist kõvasti joovatest kriminaalõiguse
-advokaatidest, ning uue kolmekorruselise, nelja maga-
-mistoaga maja. Just selle, mida iga üksi elav naine vajab!
-See aitas ka loobuda psühhiaatrist. Ühtlasi suutsin selle
-kainusperioodi jooksul teha lõpparve haige suhtega, kus
-taaselustus minu lapsepõlves kogetud vägivald.
-   Uskumatul kombel ei seostanud ma oma elu para-
-nenud juhitavust selle lühikese kainusperioodi jook-
-sul kuidagi napsi puudumisega. Pikemas perspektiivis
-polnud see oluline, sest kahjuks hakkasin end jälle täis
-jooma. Mäletan, et olin täiesti haaratud sellest esimesest
-veini­klaasist, mille võisin juua päeval, kui mu juhendaja
-teatas, et olen valmis hakkama kontrollitult jooma. Mul
-hakkas suu sisuliselt vett jooksma.
-392       ANONÜÜMSED ALKOHOOLIKUD
-   Pärast paljusid pummelunge, proovisin kõike, mida
-leida suutsin: rohkem teraapiat, erinevaid psühhiaatreid
-(alati pidi järgmine minu probleemi lahendama), bio-
-tagasisidet, lõdvestusharjutusi, Antabus'i, palju enese­
-abiraamatuid Freudist Jungini ning kõiki moodsaid
-võtteid, mida avaldati või õpetati. Kõik see oli muidugi
-asjata, sest ma lõpetasin alati purjus peaga.
-   Tuli päev, mil ma mõistsin, et ei saa end enam hom-
-mikul tööle lohistada ja kulutada iga päev pool energiat
-selle varjamisele, et olen vaevu funktsioneeriv joodik.
-Ma läksin koju ja jõin end pildituks, ärkasin keset ööd
-hirmunult, kuulasin raadiot ja langesin ülemaailmse
-telefoniga helistasmise sõltuvusse, lõpuks uinusin koidu
-ajal, just nii, et äratuskella peale ärgata ja kogu ring läks
-uuesti käima. Lõpetasin kõik olulisemad suhted, koh-
-tusin sõpradega järjest vähem ja panin punkti enami-
-kel sotsiaalsetel üritustel käimisele, kuna ma ei saanud
-kunagi kindel olla, kas olen kaine. Suurema osa ajast
-lihtsalt töötasin ja läksin koju jooma — ja joomine
-hakkas üha rohkem tööd varjutama.
-   Ühel päeval olin lõuna paiku nii suures pohmellis,
-et helistasin sõbrale ja tönnisin pisut. „Olen proovinud
-kõike, aga miski ei toimi,” kaeblesin ma, loetledes arste
-ja erinevaid mittetoiminud ravimeetodeid. Mulle ei
-meenunud, et kolmteist aastat varem, olles kahekümne
-ühe aastane, käisin paaril Anonüümsete Alkohoolikute
-koosolekul pärast seda, kui olin ühel hommikul ärganud
-teadmata, kus ma olen. Olin just astunud õigusteadus-
-konda ja pidevalt hirmul, nii et läksin hirmu vaigistami-
-seks joomingule, mis muutis asja ainult hullemaks. Mul
-pole aimugi, mis mind toona AA-sse minema ajendas.
-Koosolekutel polnud noori inimesi ja kõik imestasid
-                   ALATINE OTSING                      393
-pidevalt, kui noor ja värske ma välja näen. (Kolmteist
-aastat hiljem AAsse tagasi tulles, ei öelnud seda enam
-keegi.)
-   Mu sõber pakkus, et võtaksime ühendust tuttava
-mehega, kes oli Anonüümsete Alkohoolikute liige, ja
-ma nõustusin talle helistama. „Võib-olla võiks tema
-sulle helistada,” ütles ta abivalmilt ja seal peitus võti,
-sest selleks õhtuks olin juba täiesti korras ja ei vaja-
-nud peale ühe või kahe joogi mingit välist abi. Kuid
-ta jätkas mulle pidevalt helistamist ja peale käimist, et
-ma läheksin koosolekule. Kui ta ütles, et käib kolm või
-neli korda nädalas AA koosolekutel, mõtlesin, et vaene
-mees, tal pole midagi paremat teha. Milline igav elu tal
-peab olema, kui ta jookseb AA koosolekute vahet ja ei
-saa midagi juua! Tõesti igav: ei mingit vastu seina põr-
-kumist, treppidest alla kukkumist, regulaarseid visiite
-traumapunkti, ega kadunud autosid ja nii edasi.
-   Minu esimene AA koosolek pärast pausi oli eba­
-tavaliselt kuumal juuniõhtul, kuid kiriku keldris ei
-olnud midagi jahutavat juua. Suits oleks võinud hobuse
-lämmatada (tänapäeval on olukord palju parem) ja üks
-säravate silmadega fanaatiline naine seletas mulle innu-
-kalt, et seal on mingi tähtis raamat, mille ma peaksin
-soetama. Arvates, et nad reklaamivad raamatut lihtsalt
-selleks, et neil on raha vaja, laususin kindlalt: „Ma annan
-teile raha, aga ma ei taha teie raamatut!”. See võtab üld-
-joontes kokku minu suhtumise ja seletab, miks ma järg-
-nevatel kuudel joomist jätkasin, hoolimata sellest, et ma
-oma maise keha iga paari päeva tagant koos­olekutele
-vedasin. Vahtisin oma köögikapis olevat suurt viina­
-pudelit ja ütlesin: „Sa ei saa mind kätte!” Aga ometi ta
-sai; kaotasin alati lahingu ja lõpetasin täis peaga.
-394       ANONÜÜMSED ALKOHOOLIKUD
-   Minu viimane pohmell oli reedel enne pikka suvist
-nädalavahetust. Olin päev läbi vaevelnud, tundes end
-väikese ja lootusetuna, varjates käte värisemist, kui pidin
-dokumente allkirjastama, ja pingutasin meeleheitlikult,
-et koosolekutel sõnu selgelt välja hääldada. Sel reede
-õhtul, pärast piinavalt pikka tööpäeva, lohisesin tühjal
-tänaval, mõeldes, et peale minu oli kogu maailmal sellel
-pikal nädalavahetusel kuhugi minna ja veel enam, neil
-kõigil on keegi, kellega minna.
-   Esimene erinevus selle õhtu ja kõigi teiste vahel oli
-see, et ma ei läinud sirgelt baari, et end alkoholi upu-
-tada, ega koju koos oma tavalise tohutu nädalavahetuse
-napsivaruga. Selle asemel läksin spordiklubisse ujuma,
-kus ma kummalisel kombel samuti ei joonud. Mul oli
-nii tohutu pohmell, et loobusin katsetest ujuda, selle
-asemel mähkisin end hommikumantlisse ning istusin
-kaks tundi pimedas riietusruumi puhketoa nurgas,
-tundes meeletut enesehaletsust.
-   Ma ei tea, mis nende kahe tunni jooksul juhtus, kuid
-kella kaheksa paiku kargasin püsti, hüppasin riietesse
-ja kihutasin koosolekule, kuhu mul polnud eelnevalt
-kavatsustki minna. See oli natuke nagu pauk nähta-
-matu haamriga pähe ja pöördeline muutus ajus, sest
-see koosolek tundus olevat täiesti erinev võrreldes
-viimase korraga, kui olin seal käinud. Inimesed nägid
-välja elujõulised, sel õhtul ei märganud ma varem kohal
-käinud veidrikke ja välja pandud raamatud näisid päri-
-selt huvitavad. Ostsin raamatu Anonüümsed Alkohoo-
-likud, kuulasin tähelepanelikult ja läksin esimest korda
-pärast nende inimestega kohvi jooma, ja kuulasin veel.
-   Sel hilisõhtul kodus olles tundsin samas toas, millegi
-kohalolekut, kuigi ma elasin üksi. Teadsin järgmisel
-hommikul, et ma ei pea jooma. Sel õhtul läksin Sammu-
-                  ALATINE OTSING                     395
-koosolekule, kus arutleti Teise Sammu üle: „Jõudsime
-arusaamisele, et mingi meist suurem jõud võib taastada
-meie terve mõtlemise”, ja ma rääkisin tõesti Jumalast,
-kes oli mind hüljanud, kui olin väga väike, väga hirmul
-ja väga haavatud. Järgnevatel nädalatel ja kuudel tegin
-kõike, mida mulle soovitati. Käisin iga päev koosole-
-kutel, lugesin raamatuid ja muud kirjandust ning leid-
-sin tugiisiku, kes soovitas mul hommikuti võtta vaikne
-hetk, proovida palvetada ja mediteerida või vähemalt
-paar minutit paigal istuda enne kui kihutan igapäeva­
-toimetustesse. Kuna olin võtnud intellektuaalselt nõuks
-põhimõtte, mitte halvustada midagi enne sellega tutvu-
-mist, püüdsin hoida avatud meelt, ükskõik mida keegi
-ütles ja kui rumalaks ma seda pidasin. See päästis ilm-
-selt minu elu.
-   Liitusin kesklinna rühmaga, mis kogunes kohe pärast
-tööd kell 17.15 minu kontori lähedal. (Ma ei oleks kahek-
-sani vastu pidanud.) Peagi hakkasin teenima. Mulle anti
-rühma kassa, rühma korralduskoosolekute märkmed
-ja mitmesugused muud juhised ning paluti teha kõik
-vajalik, et koosolekud töös hoida. Tegin seda tööd üsna
-pikka aega. Samuti algatasin regulaarsed rühma tee-
-ninduskoosolekud ja leidsin innuka uustulnuka, kellele
-ma lõpuks laekuriameti ja paberimajanduse üle andsin.
-   Alguses oli mul palju probleeme, kuid ükskõik, mil-
-line mu mure ka polnud, öeldi mulle korduvalt, et
-peaksin püüdlema suurema vaimse arengu suunas, mis
-mind ei huvitanud. Samuti öeldi mulle, et minu ees-
-märk siin maa peal on olla maksimaalselt kasulik Juma-
-lale ja inimestele minu ümber, ja ka see ei huvitanud
-mind kuigi­võrd. Siiski ei öelnud ma midagi, kuulasin ja
-käisin jätkuvalt koosolekutel, enamasti Sammukoosole-
-kutel, kus kuulsin inimesi kõnelemas sellest, kuidas nad
-396       ANONÜÜMSED ALKOHOOLIKUD
-Samme kasutavad, rääkimas Suurest Raamatust, meie
-isekusest ja teiste aitamisest. Mõnikord arvasin, et nad
-on napakad, need koosolekud; tihti tundsin, et need on
-igavad, kuid ma kuulasin edasi ja püüdsin suhestuda.
-   Varsti pärast seda, kui üks mu sõber purjuspäi kiirteel
-vales suunas sõites surma sai, rääkis üks veoautojuht, et
-teeb purjus peaga pikamaavedusid. Tundsin õõvastust
-ja eemaletõukavust, kuni tegin pausi ja meenutasin, et
-sõitsin ju autoga kui ma ei suutnud jalgel püsida. Kui
-mu sõber hukkus, ütlesid mu AA- sõbrad: „Ära joo! Ära
-mõtle! Käi koosolekutel!” Ma läksin koosolekule, kus
-ma nutsin ja kiristasin hambaid, kuid ma ei joonud.
-   Hakkasin suhtuma AA-sse sama kompulsiivselt nagu
-joomisse, mis oli vajalik, sest mulle öeldi, et peaksin
-koosolekutel veetma sama palju aega, kui olin kulutanud
-joomisele. Käisin igal võimalikul AA koosviibimisel ja
-olin AA-st läbi imbunud. Kuulasin AA kogemus­lugude
-kassette. Lugesin korduvalt AA kirjandust, kihistades
-hiliste õhtutundideni naeru raamatu Dr. Bob and the
-Good Oldtimers saatel. Registreerusin Loners-Interna-
-tionalist kirjarühmaga, ning jagasin kirjasõnas inimes-
-tele, kes kohale tulla ei saanud teavet koosolekutelt,
-millel osalenud olin. See aitas mul kuuldut meelde jätta
-ja minu jagamine toetas omakorda kedagi teist. Üks-
-kord kirjutasin mehele, kes sai minu kirja samal päeval,
-kui ta oli autoõnnetuses kellegi surnuks sõitnud, selline
-asi muudab kahtlemata inimese väga-väga januseks.
-   Kuigi alkohol ei ole enam osa minu elust ja mul ei ole
-enam sundi juua, võib mulle ikkagi palju aastaid hiljem
-meenuda, kuidas hea jook maitses ja mida see minuga
-tegi, alates erksatest alkohooliku maitsemeeltest kuni
-surisevate varbaotsteni. Nagu mu tugiisik tavatses rõhu-
-tada, on sellised mõtted nagu punased lipud, mis näi-
-                   ALATINE OTSING                     397
-tavad mulle, et midagi on valesti ja ma olen sirutunud
-üle enda kainuse piiride. On aeg pöörduda tagasi AA
-põhitõdede juurde ja vaadata, mis vajab muutmist. See
-eriline suhe alkoholiga on alati olemas ja ootab, et mind
-jälle võrgutada. Olen kaitstud, kuni jätkan aktiivse AA
-liikmena.
-   Kõige raskem asi, millega ma pidin kainena toime
-tulema, oli minu enda viha ja lapsepõlves läbi elatud
-vägivald. Olin andestanud asjaosalistele nii palju kui
-suutsin, kuid mõistus ei paista kunagi unustavat. Olin
-võtnud aastaid tänulikult vastu välist abi, sest mulle
-öeldi, et mu joomine oli vaid sügavamate probleemide
-sümptom. Kuid vaatamata paljude spetsialistide abile
-tean, et ma ei oleks kunagi taastunud vägivallast ja alko-
-holismist ilma ainulaadselt minusugustele inimestele
-kohandatud AA Kaheteistkümne Sammuta.
-   Sama oluline on minu jaoks uskuda, et tervenesin
-tänu Kõrgema Jõu armule, hoolimata sellest, et olin
-väga vihane ega tahtnud Anonüümsetesse Alkohooli-
-kutesse jõudes Jumalaga mingit tegemist teha. Tegeli-
-kult ei olnud mul vaja Jumalat otsida. Mul oli vaja ainult
-avatud meelt ja ta leidis mind ise.
-   Kui ma olin viis aastat kaine, kohtasin AA-s üht meest,
-kes oli samuti viis aastat kaine olnud. Ta ütles, et minu
-peas olevad kivid sobivad kenasti tema peas olevatesse
-aukudesse. Täna on meil tütar, kes pole kunagi näinud
-oma vanemaid joomas ja kes näeb, kuidas nad püüa-
-vad Anonüümsetes Alkohoolikutes teisi aidata. Meil on
-kena kodu ja kaine pereelu kogukonnas, kus on palju
-AA sõpru ja koosolekuid. Sellest esimesest AA koos-
-olekust on möödas pikk, pikk tee ja palju paremaks ei
-saakski enam minna.
+Kui alustasin värske kriminaalõiguse advokaadina praktiseerimist oli meie advokaadibüroos viis inimest. Minu lemmikadvokaat oli ekstsentriline, sasitud, metsiku pilguga iiri õigusprofessor, kes oli sõltuvalt vaatenurgast, kas geenius või hull, puhastades pidevalt musta küünega oma piipukambrit ja haarates igal võimalusel vodka-martiini järele. Siis oli meil veel üks uus, kuid maailmast väsinud kohtuvaidluste advokaat, kes rääkis lõputuid lugusid oma kunagisest elust valge veini ja Bouillabaisse supiga Vahemere päikese all, juhtides oma ekspordiäri Rivieras. Miks ta küll jättis sellise ideaalse, veinirohke töö päikselises kliimas, et aastaid juurakoolis rassida? See ei mahtunud mulle pähe. Siis oli seal veel üks suur südamlik karumõmm, tänaseks kohtunik, kes tegeles rohkem teiste kuulamise ja abistamisega kui kriminaalõigusega. Sellisesse kontorisse maandusime meie: paar kõike-teadvaid, kiiresti tegutsevaid kuid mitte liiga kogenud noori advokaate – mina ja mu abikaasa.
+
+Tosina aasta jooksul surid kolm neist viiest palju­lubavast advokaadist oma karjääri tipul alkoholismi tõttu. Kohtuhärra oli ja jäi alati kaineks kohtunikuks. Minust sai kuidagi tahtmatult ja isegi juues ettevõtte jurist ja õnneks hiljem ka Anonüümsete Alkohoolikute liige. Professori neerud ütlesid liigsest martinitamisest üles; ekspordiga tegelenud advokaat jätkas joomist, kuni suri vaatamata maksa siirdamisele; kui mina olin kümme aastat kaine olnud jättis mu endine abikaasa elu tulekahjus, mis tema sõnul pidi olema viimane joomine enne uuesti AA-sse minemist. Olen käinud liiga paljudel enneaegsetel matustel, mille põhjustajaks on meie hea sõber alkohol.
+
+Kohtusime ning abiellusime abikaasaga õigustea­duskonnas õppides – alkoholi, säravate tulede ja palju­tõotavuse romantilises udus. Paistsime välja sellega, et olime ainus abielupaar meie kursusel. Töötasime ja pidutsesime kõvasti, matkasime, telkisime ja suusata­sime, korraldasime oma peentele sõpradele vägevaid pidusid ja uhkustasime sellega, et suutsime püsida eemal narkootikumidest. Tegelikult oli see hirm, mis hoidis mind narkootikumidest eemal – hirm, et kui mind süüdistataks ebaseaduslike narkootikumide oma­mises, siis ei võetaks mind advokatuuri liikmeks. Veelgi olulisem oli see, et minu parim sõber oli suurepärane, võimas alkohol ja ma armastasin seda.
+
+Kuni nelja-aastaseks saamiseni elasin ma ühe kõrtsi ülemisel korrusel, kus nägin mitmeid joodikuid ringi kakerdamas. Minu ema töötas sugulaste juures, kes elasid samuti kõrtsi kohal, ja minu eest hoolitses see, kellel parajasti aega oli. Hoolimata minu palvetest, abiellus ema vägivaldse mehega ja me kolisime ära, elama elu, mille kõrval mu elu kõrtsis paistis väga püha. Jooksin pidevalt kodust ära kõrtsi tagasi, kuni selle lammutamiseni. Vaatan siiani heldusega selle koha fotosid.
+
+Mu esimene purjusolek oli neljateistaastaselt, see lõppes väikese politsei visiidiga koju. Kaheksateisaastaseks saades olin juba igapäevane jooja, ja kahekümne ühe aastaselt toimus minu esimene terve aasta kestnud jooming Prantsusmaal, mida ma kutsusin pehmendavalt oma õppeaastaks välismaal. Naasin koju väga põdura ja joobnuna. Paar kuud hiljem läksin ühel õhtul Šoti viski pudeliga voodisse ja otsustasin, et astun õigusteadus­konda. Kui sul on probleeme, proovi midagi veel kee­rulisemat, et „neile näidata." Selline oli minu filosoofia. Sellest piisas, et mind jooma ajada.
+
+Õigusteaduskonnas õppides jõime üliõpilaspubides palju õlut, väideldes selle üle, kas kividel on hing ja mil­line on kohtuprotsessi olemus, justkui nendel teemadel poleks kunagi varem arutletud. Noorte advokaatidena töötasime mina ja mu abikaasa hommikuti innukalt kontoris, et kaitsta julgelt abivajajaid. Lõuna oli aeg, mis kätkes endas alatist otsingut parima martini leidmi­seks – tavaliselt kulus neid kaks või kolm, et harutada lahti sõlm, mis minu kõhus püsivalt pinget tekitas. (Ma ei teadnud, et see esindas hirmu ja et ma ei olnudki kartmatu kaitsja). Pärastlõunad olid täis loomingulist juriidilist argumentatsiooni kohtus. Kui kohtuistung lõppes varakult, jõudsime võib-olla kontorisse tagasi, või siis mitte.
+
+Õhtuti jõime parimas seltskonnas: advokaadid, kir­janikud, meediainimesed, kes kõik konkureerisid, et pajatada parimaid lugusid, mis muidugi muutusid joo­budes ja kella edenedes aina naljakamaks. Kui ma jõin, haihtus hirm ja ma muutusin sõnaosavaks ja ilmselt väga, väga naljakaks – või nii nad toona väitsid. Aastaid hiljem jõin nii palju, et ma polnud enam naljakas. Kuid tol ajal tundusid joogid, lood ja kamraadlus sama ime­lised kui minu vaimukus. Koju magama saime ühe või kahe paiku öösel ja järgmisel hommikul olime varakult jalul, et kõike uuesti alustada. Nooruse meelekindlus ja vastu­pidavus muutsid meid alistamatuks.
+
+Paraku lagunes meie abielu selleks ajaks koost, kui tundus, et oleks aeg luua perekond ja alustada „päris elu." Olin siis kahekümne kaheksa aastane, keset lahu­tust, jõin pidevalt ning käisin kolm korda nädalas psüh­hiaatri juures, püüdes lahendada oma probleemi, mis iganes see ka polnud.
+
+Arvasin, et mul on osa vastusest käes, kui komistasin juhuslikult ühe kontrollitud joomise programmi otsa, mille algtingimuseks oli kohustus olla kuu aega kaine, kududes igal õhtul rida-realt hiigelsuurt vaipa, sageli hiliste öötundideni välja. „Veel üks rida!" korrutasin ma hambad ristis ja vägisi mitte juues endale. Minu kainus­periood aitas mul saada parema töökoha ärimaailmas, eemal kõigist neist kõvasti joovatest kriminaalõiguse advokaatidest, ning uue kolmekorruselise, nelja maga­mistoaga maja. Just selle, mida iga üksi elav naine vajab! See aitas ka loobuda psühhiaatrist. Ühtlasi suutsin selle kainusperioodi jooksul teha lõpparve haige suhtega, kus taaselustus minu lapsepõlves kogetud vägivald.
+
+Uskumatul kombel ei seostanud ma oma elu para­nenud juhitavust selle lühikese kainusperioodi jook­sul kuidagi napsi puudumisega. Pikemas perspektiivis polnud see oluline, sest kahjuks hakkasin end jälle täis jooma. Mäletan, et olin täiesti haaratud sellest esimesest veini­klaasist, mille võisin juua päeval, kui mu juhendaja teatas, et olen valmis hakkama kontrollitult jooma. Mul hakkas suu sisuliselt vett jooksma.
+
+Pärast paljusid pummelunge, proovisin kõike, mida leida suutsin: rohkem teraapiat, erinevaid psühhiaatreid (alati pidi järgmine minu probleemi lahendama), bio­tagasisidet, lõdvestusharjutusi, Antabus'i, palju enese­abiraamatuid Freudist Jungini ning kõiki moodsaid võtteid, mida avaldati või õpetati. Kõik see oli muidugi asjata, sest ma lõpetasin alati purjus peaga.
+
+Tuli päev, mil ma mõistsin, et ei saa end enam hom­mikul tööle lohistada ja kulutada iga päev pool energiat selle varjamisele, et olen vaevu funktsioneeriv joodik. Ma läksin koju ja jõin end pildituks, ärkasin keset ööd hirmunult, kuulasin raadiot ja langesin ülemaailmse telefoniga helistasmise sõltuvusse, lõpuks uinusin koidu ajal, just nii, et äratuskella peale ärgata ja kogu ring läks uuesti käima. Lõpetasin kõik olulisemad suhted, koh­tusin sõpradega järjest vähem ja panin punkti enami­kel sotsiaalsetel üritustel käimisele, kuna ma ei saanud kunagi kindel olla, kas olen kaine. Suurema osa ajast lihtsalt töötasin ja läksin koju jooma — ja joomine hakkas üha rohkem tööd varjutama.
+
+Ühel päeval olin lõuna paiku nii suures pohmellis, et helistasin sõbrale ja tönnisin pisut. „Olen proovinud kõike, aga miski ei toimi," kaeblesin ma, loetledes arste ja erinevaid mittetoiminud ravimeetodeid. Mulle ei meenunud, et kolmteist aastat varem, olles kahekümne ühe aastane, käisin paaril Anonüümsete Alkohoolikute koosolekul pärast seda, kui olin ühel hommikul ärganud teadmata, kus ma olen. Olin just astunud õigusteadus­konda ja pidevalt hirmul, nii et läksin hirmu vaigistami­seks joomingule, mis muutis asja ainult hullemaks. Mul pole aimugi, mis mind toona AA-sse minema ajendas. Koosolekutel polnud noori inimesi ja kõik imestasid pidevalt, kui noor ja värske ma välja näen. (Kolmteist aastat hiljem AAsse tagasi tulles, ei öelnud seda enam keegi.)
+
+Mu sõber pakkus, et võtaksime ühendust tuttava mehega, kes oli Anonüümsete Alkohoolikute liige, ja ma nõustusin talle helistama. „Võib-olla võiks tema sulle helistada," ütles ta abivalmilt ja seal peitus võti, sest selleks õhtuks olin juba täiesti korras ja ei vaja­nud peale ühe või kahe joogi mingit välist abi. Kuid ta jätkas mulle pidevalt helistamist ja peale käimist, et ma läheksin koosolekule. Kui ta ütles, et käib kolm või neli korda nädalas AA koosolekutel, mõtlesin, et vaene mees, tal pole midagi paremat teha. Milline igav elu tal peab olema, kui ta jookseb AA koosolekute vahet ja ei saa midagi juua! Tõesti igav: ei mingit vastu seina põr­kumist, treppidest alla kukkumist, regulaarseid visiite traumapunkti, ega kadunud autosid ja nii edasi.
+
+Minu esimene AA koosolek pärast pausi oli eba­tavaliselt kuumal juuniõhtul, kuid kiriku keldris ei olnud midagi jahutavat juua. Suits oleks võinud hobuse lämmatada (tänapäeval on olukord palju parem) ja üks säravate silmadega fanaatiline naine seletas mulle innu­kalt, et seal on mingi tähtis raamat, mille ma peaksin soetama. Arvates, et nad reklaamivad raamatut lihtsalt selleks, et neil on raha vaja, laususin kindlalt: „Ma annan teile raha, aga ma ei taha teie raamatut!". See võtab üld­joontes kokku minu suhtumise ja seletab, miks ma järg­nevatel kuudel joomist jätkasin, hoolimata sellest, et ma oma maise keha iga paari päeva tagant koos­olekutele vedasin. Vahtisin oma köögikapis olevat suurt viina­pudelit ja ütlesin: „Sa ei saa mind kätte!" Aga ometi ta sai; kaotasin alati lahingu ja lõpetasin täis peaga.
+
+Minu viimane pohmell oli reedel enne pikka suvist nädalavahetust. Olin päev läbi vaevelnud, tundes end väikese ja lootusetuna, varjates käte värisemist, kui pidin dokumente allkirjastama, ja pingutasin meeleheitlikult, et koosolekutel sõnu selgelt välja hääldada. Sel reede õhtul, pärast piinavalt pikka tööpäeva, lohisesin tühjal tänaval, mõeldes, et peale minu oli kogu maailmal sellel pikal nädalavahetusel kuhugi minna ja veel enam, neil kõigil on keegi, kellega minna.
+
+Esimene erinevus selle õhtu ja kõigi teiste vahel oli see, et ma ei läinud sirgelt baari, et end alkoholi upu­tada, ega koju koos oma tavalise tohutu nädalavahetuse napsivaruga. Selle asemel läksin spordiklubisse ujuma, kus ma kummalisel kombel samuti ei joonud. Mul oli nii tohutu pohmell, et loobusin katsetest ujuda, selle asemel mähkisin end hommikumantlisse ning istusin kaks tundi pimedas riietusruumi puhketoa nurgas, tundes meeletut enesehaletsust.
+
+Ma ei tea, mis nende kahe tunni jooksul juhtus, kuid kella kaheksa paiku kargasin püsti, hüppasin riietesse ja kihutasin koosolekule, kuhu mul polnud eelnevalt kavatsustki minna. See oli natuke nagu pauk nähta­matu haamriga pähe ja pöördeline muutus ajus, sest see koosolek tundus olevat täiesti erinev võrreldes viimase korraga, kui olin seal käinud. Inimesed nägid välja elujõulised, sel õhtul ei märganud ma varem kohal käinud veidrikke ja välja pandud raamatud näisid päri­selt huvitavad. Ostsin raamatu Anonüümsed Alkohoo­likud, kuulasin tähelepanelikult ja läksin esimest korda pärast nende inimestega kohvi jooma, ja kuulasin veel.
+
+Sel hilisõhtul kodus olles tundsin samas toas, millegi kohalolekut, kuigi ma elasin üksi. Teadsin järgmisel hommikul, et ma ei pea jooma. Sel õhtul läksin Sammu­koosolekule, kus arutleti Teise Sammu üle: „Jõudsime arusaamisele, et mingi meist suurem jõud võib taastada meie terve mõtlemise", ja ma rääkisin tõesti Jumalast, kes oli mind hüljanud, kui olin väga väike, väga hirmul ja väga haavatud. Järgnevatel nädalatel ja kuudel tegin kõike, mida mulle soovitati. Käisin iga päev koosole­kutel, lugesin raamatuid ja muud kirjandust ning leid­sin tugiisiku, kes soovitas mul hommikuti võtta vaikne hetk, proovida palvetada ja mediteerida või vähemalt paar minutit paigal istuda enne kui kihutan igapäeva­toimetustesse. Kuna olin võtnud intellektuaalselt nõuks põhimõtte, mitte halvustada midagi enne sellega tutvu­mist, püüdsin hoida avatud meelt, ükskõik mida keegi ütles ja kui rumalaks ma seda pidasin. See päästis ilm­selt minu elu.
+
+Liitusin kesklinna rühmaga, mis kogunes kohe pärast tööd kell 17.15 minu kontori lähedal. (Ma ei oleks kahek­sani vastu pidanud.) Peagi hakkasin teenima. Mulle anti rühma kassa, rühma korralduskoosolekute märkmed ja mitmesugused muud juhised ning paluti teha kõik vajalik, et koosolekud töös hoida. Tegin seda tööd üsna pikka aega. Samuti algatasin regulaarsed rühma tee­ninduskoosolekud ja leidsin innuka uustulnuka, kellele ma lõpuks laekuriameti ja paberimajanduse üle andsin.
+
+Alguses oli mul palju probleeme, kuid ükskõik, mil­line mu mure ka polnud, öeldi mulle korduvalt, et peaksin püüdlema suurema vaimse arengu suunas, mis mind ei huvitanud. Samuti öeldi mulle, et minu ees­märk siin maa peal on olla maksimaalselt kasulik Juma­lale ja inimestele minu ümber, ja ka see ei huvitanud mind kuigi­võrd. Siiski ei öelnud ma midagi, kuulasin ja käisin jätkuvalt koosolekutel, enamasti Sammukoosole­kutel, kus kuulsin inimesi kõnelemas sellest, kuidas nad Samme kasutavad, rääkimas Suurest Raamatust, meie isekusest ja teiste aitamisest. Mõnikord arvasin, et nad on napakad, need koosolekud; tihti tundsin, et need on igavad, kuid ma kuulasin edasi ja püüdsin suhestuda.
+
+Varsti pärast seda, kui üks mu sõber purjuspäi kiirteel vales suunas sõites surma sai, rääkis üks veoautojuht, et teeb purjus peaga pikamaavedusid. Tundsin õõvastust ja eemaletõukavust, kuni tegin pausi ja meenutasin, et sõitsin ju autoga kui ma ei suutnud jalgel püsida. Kui mu sõber hukkus, ütlesid mu AA- sõbrad: „Ära joo! Ära mõtle! Käi koosolekutel!" Ma läksin koosolekule, kus ma nutsin ja kiristasin hambaid, kuid ma ei joonud.
+
+Hakkasin suhtuma AA-sse sama kompulsiivselt nagu joomisse, mis oli vajalik, sest mulle öeldi, et peaksin koosolekutel veetma sama palju aega, kui olin kulutanud joomisele. Käisin igal võimalikul AA koosviibimisel ja olin AA-st läbi imbunud. Kuulasin AA kogemus­lugude kassette. Lugesin korduvalt AA kirjandust, kihistades hiliste õhtutundideni naeru raamatu Dr. Bob and the Good Oldtimers saatel. Registreerusin Loners-Interna­tionalist kirjarühmaga, ning jagasin kirjasõnas inimes­tele, kes kohale tulla ei saanud teavet koosolekutelt, millel osalenud olin. See aitas mul kuuldut meelde jätta ja minu jagamine toetas omakorda kedagi teist. Üks­kord kirjutasin mehele, kes sai minu kirja samal päeval, kui ta oli autoõnnetuses kellegi surnuks sõitnud, selline asi muudab kahtlemata inimese väga-väga januseks.
+
+Kuigi alkohol ei ole enam osa minu elust ja mul ei ole enam sundi juua, võib mulle ikkagi palju aastaid hiljem meenuda, kuidas hea jook maitses ja mida see minuga tegi, alates erksatest alkohooliku maitsemeeltest kuni surisevate varbaotsteni. Nagu mu tugiisik tavatses rõhu­tada, on sellised mõtted nagu punased lipud, mis näi­tavad mulle, et midagi on valesti ja ma olen sirutunud üle enda kainuse piiride. On aeg pöörduda tagasi AA põhitõdede juurde ja vaadata, mis vajab muutmist. See eriline suhe alkoholiga on alati olemas ja ootab, et mind jälle võrgutada. Olen kaitstud, kuni jätkan aktiivse AA liikmena.
+
+Kõige raskem asi, millega ma pidin kainena toime tulema, oli minu enda viha ja lapsepõlves läbi elatud vägivald. Olin andestanud asjaosalistele nii palju kui suutsin, kuid mõistus ei paista kunagi unustavat. Olin võtnud aastaid tänulikult vastu välist abi, sest mulle öeldi, et mu joomine oli vaid sügavamate probleemide sümptom. Kuid vaatamata paljude spetsialistide abile tean, et ma ei oleks kunagi taastunud vägivallast ja alko­holismist ilma ainulaadselt minusugustele inimestele kohandatud AA Kaheteistkümne Sammuta.
+
+Sama oluline on minu jaoks uskuda, et tervenesin tänu Kõrgema Jõu armule, hoolimata sellest, et olin väga vihane ega tahtnud Anonüümsetesse Alkohooli­kutesse jõudes Jumalaga mingit tegemist teha. Tegeli­kult ei olnud mul vaja Jumalat otsida. Mul oli vaja ainult avatud meelt ja ta leidis mind ise.
+
+Kui ma olin viis aastat kaine, kohtasin AA-s üht meest, kes oli samuti viis aastat kaine olnud. Ta ütles, et minu peas olevad kivid sobivad kenasti tema peas olevatesse aukudesse. Täna on meil tütar, kes pole kunagi näinud oma vanemaid joomas ja kes näeb, kuidas nad püüa­vad Anonüümsetes Alkohoolikutes teisi aidata. Meil on kena kodu ja kaine pereelu kogukonnas, kus on palju AA sõpru ja koosolekuid. Sellest esimesest AA koos­olekust on möödas pikk, pikk tee ja palju paremaks ei saakski enam minna.

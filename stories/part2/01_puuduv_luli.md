@@ -1,6 +1,6 @@
 # PUUDUV LÜLI
 
-  *Ta pidas oma õnnetuse põhjuseks kõike, välja arvatud alkoholi.*
+> *Ta pidas oma õnnetuse põhjuseks kõike, välja arvatud alkoholi.*
 
 Kui olin kaheksa või üheksa aastat vana, muutus elu järsku väga keeruliseks. Hakkasid tekkima tunded, mida ma ei mõistnud. Mu ellu hiilis depressioon, sest hakkasin end isegi rahvarohketes ruumides üksinda tundma. Tegelikult ei näinud ma elus eriti mõtet. Raske on öelda, mis selle kõik vallandas ja tuua välja üks asjaolu või sündmus, mis kõike igaveseks muutis. Fakt on see, et olin varakult õnnetu.
 

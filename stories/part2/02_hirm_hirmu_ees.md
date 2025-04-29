@@ -1,6 +1,6 @@
 # HIRM HIRMU EES
 
-  *See naine oli ettevaatlik. Ta otsustas, ega lase kunagi oma joomist käest. Ja ta ei võtaks kunagi, mitte kunagi seda hommikust jooki!*
+> *See naine oli ettevaatlik. Ta otsustas, ega lase kunagi oma joomist käest. Ja ta ei võtaks kunagi, mitte kunagi seda hommikust jooki!*
 
 Ma ei arvanud, et olen alkohoolik. Ma arvasin, et minu probleem oli selles, et olin kakskümmend seitse aastat olnud joodikuga abielus. Ja kui mu abikaasa leidis AA, tulin koos temaga teisele koosolekule. Mulle tundus, et see oli tema jaoks imeline, lihtsalt imeline. Aga minule mitte. Siis läksin ma veel ühele koosolekule ja leidsin jätkuvalt, et see oli imeline – tema, aga mitte minu jaoks.
 

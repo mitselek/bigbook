@@ -1,6 +1,6 @@
 # ARST, RAVI ISEENNAST!
 
-  *Elukutselt psühhiaater ja kirurg, eksles see mees seni, kuni ta ükskord mõistis, et Suur Ravitseja pole mitte tema, vaid Jumal.*
+> *Elukutselt psühhiaater ja kirurg, eksles see mees seni, kuni ta ükskord mõistis, et Suur Ravitseja pole mitte tema, vaid Jumal.*
 
 Olen arst ja oman tegevusluba ühes lääneosariigis. Olen ka alkohoolik. Teistest alkohoolikutest erinen ma ehk kahes suhtes. Esiteks kuuleme me kõik AA koosolekutel inimestest, kes on kõigest ilma jäänud, vanglas istunud, perekonna ja sissetuleku kaotanud. Minuga pole midagi sellist juhtunud. Ma polnud kunagi rentslis. Viimasel jooma-aastal teenisin ma rohkem kui kunagi varem terves elus. Mu naine ei vihjanud kordagi, et ta võiks mu maha jätta. Olin edukas kõiges, millele ma algkoolist alates käe külge panin. Olin algkoolis õpilasesinduse president. Keskkooli vanemas astmes olin ma igal aastal oma klassi president ja viimasel aastal samuti kogu õpilaskonna president. Ka ülikoolis olin ma kõigil aastatel oma kursuse vanem ja kogu üliõpilaskonna president. Mind valiti kui meest, keda kõige tõenäolisemalt saadab edu. Sama kordus ka meditsiinikoolis. Ma olen rohkemate arstiühingute ja auseltside liige kui minust kümme ja kakskümmend aastat vanemad mehed.
 

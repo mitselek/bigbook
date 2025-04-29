@@ -1,6 +1,6 @@
 # KODUPERENAINE, KES JÕI KODUS
 
-  *Ta peitis oma pudelid riidekorvidesse ja riidekapi sahtlitesse. AA-s avastas ta, et ei ole midagi kaotanud, küll aga leidnud kõik.*
+> *Ta peitis oma pudelid riidekorvidesse ja riidekapi sahtlitesse. AA-s avastas ta, et ei ole midagi kaotanud, küll aga leidnud kõik.*
 
 Juhtumisi räägib minu lugu ühte kindlat tüüpi naisest: sellisest, kes kodus joob. Ma pidin kodus olema, sest mul oli kaks beebit. Kui alkohol minu üle võimust võttis, olid minu baariks köök, elutuba, magamistuba, tagumine vannituba ja kaks pesukappi.
 

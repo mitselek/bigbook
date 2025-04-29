@@ -1,342 +1,69 @@
-                          (8)
-     SEST MA OLEN ALKOHOOLIK
-  See jooja leidis viimaks ometi vastuse oma piinavale
-küsimusele: „Miks?”
+# Sest ma olen alkohoolik
 
-K      üllap olen ma alati enda olemuse vastu huvi
-       tundnud. Lapsena mõtlesin ma maal eraldatuna
-elades välja lugusid ning leiutasin endale kujuteldavaid
-kaaslaseid, kellega mängida. Hiljem suurde linna koli-
-nuna ja lastest ümbritsetuna tundsin ma end teistest
-eraldatuna, justkui väljaheidetuna. Ja ehkki ma õppisin
-kasvades kultuurinorme järgima, tundsin end sügaval
-sisimas siiski teistsugusena.
-   Alkohol aitas. Või nii ma vähemalt arvasin, kuni olin
-näinud rõhuvat kolmekümneaastast varju, mida see mu
-elule heitis. Ma avastasin joomise enda jaoks kolled-
-žis. Ma ei joonud küll alguses tihti (mul polnud selleks
-võimalust), ent kui ma juba jooma hakkasin, jõin ma
-nii kaua, kuni mu ümber veel alkoholi leidus. See oli
-refleks. Ma ei mäleta, et mulle selle maitse meeldinuks,
-aga mulle meeldis selle ellu äratav mõju. Alkohol andis
-mulle ka kohtingute ja pidude üleelamiseks vajaliku
-rääkimisvõime. See tõi mind välja august, mida enda
-sees tundsin, ja langetas seina, mille olin loonud enda
-ja mistahes minus ebamugavust tekitava inimese või
-olukorra vahele.
-   Kümme aastat väldanud kolledži- ja magistriõpingute
-ning nende vahele jäänud töötamise jooksul jõin ma
-korrapäraselt. Nii oli mul lihtne end sotsiaalseks nap-
-sitajaks pidada. Tagasi vaadates näen, et alkohol aitas
-mul luua endast haritud suurlinna naise kuvandi. See
-kahandas minu tunnet, nagu oleksin ma mahajäänud
-                          338
-            SEST MA OLEN ALKOHOOLIK                    339
-maaplika. Õppisin vanemate aastakäikude veinide kohta
-ja valisin neid suure hoolega gurmeeroogade kõrvale.
-Õppisin vastavalt sündmusele kokteile tegema. Õppi-
-sin, kuidas lisada martiinikokteili pisim tilgake kuiva
-vermutit. Samal ajal kasvas aga minu alkoholitaluvus.
-Joomise algusaegadel hakkas mul paha või ma mines-
-tasin, ent aja möödudes suutsin ma nähtavate mõjude
-avaldumiseta taluda aina suuremaid alkoholikoguseid.
-Seda muidugi järgmise hommiku pohmellini.
-   Pealispinna varjus paistis tõeline elu minu jaoks kätte­
-saamatus kauguses olevat. Ma tahtsin end täiskasvanuks
-pidada, ent tundsin sisimas ennast väikese ja abituna,
-nagu ma oleksin vaevu olemas. Vaatasin oma sõpru –
-meeldivaid, huvitavaid, häid inimesi – ning üritasin end
-nende kaudu määratleda. Kui nad nägid minus midagi,
-mis neid minu seltskonda meelitas, pidi mul ju ometi
-olema midagi pakkuda. Kuid nende armastus minu vastu
-ei asendanud enesearmastust, see ei täitnud tühjust minu
-sees.
-   Nii jätkasin ma fantaasiamaailmas elamist, ja nüüd
-andis alkohol minu unistustele hoogu. Ma tegin suuri
-avastusi. Võitsin Nobeli preemia nii meditsiinis kui ka
-kirjanduses. Alati unistasin ma aga millestki muust, mil-
-lestki kaugemale jäävast, ning tegin ennast otsides läbi
-mitu geograafilist ravikuuri. Mulle pakuti Pariisis tööd
-ja ma haarasin sellest võimalusest kohe kinni. Pakkisin
-kohvri kokku, jätsin korteri poiss-sõbrale ja asusin teele,
-peas keerlemas mõte, et leian viimaks ometi tõelise
-kodu ja tõelise enda.
-   Hakkasin iga päev jooma, õigustades seda ratsio-
-naalse argumendiga, et Prantsusmaal tulebki ju söögi
-kõrvale veini juua. Pärast õhtusööki ja veini ootasid juba
-muidugi liköörid. Minu päevikud ja kirjad annavad tun-
-                           339
-340      ANONÜÜMSED ALKOHOOLIKUD
-nistust minu õhtu jooksul aina halvenevast käekirjast.
-Kirjutades jõin ma muudkui edasi. Prantsusmaal muu-
-tusin ka esmakordselt alkoholist sõltuvaks. Pärast tööd
-Alliance Française’i tundidesse minnes võtsin ma tee
-peal bistroost kohalejõudmiseks vajaliku julguse leid-
-miseks klaasikese konjakit. Minu joomisvajadus oli võim-
-sam piinlikkustundest, mida põhjustas naisena 1950.
-aastatel üksinda joomine. Ühe puhkuse käigus külasta-
-sin ma Šotimaal sõpru, reisides läbi Inglismaa ja Walesi
-maapiirkondade. Sõpradele kingiks ostetud konjaki- ja
-benedtiktiinipudelid jõin ma ammu enne kohalejõud-
-mist väikestes hotellitubades tühjaks. Kuni neid jagus,
-suutsin pubidest eemale hoida.
-   Euroopa polnud kujunenud minu elu parandavaks
-muutuseks. Nii alustasin ma taas läänes. Cambridge’is
-tõotasin ma esimest korda vähem juua. Ma andsin tosin
-aastat samu vanu uusaastalubadusi, samal ajal muutusid
-mu joomine ja elu aina hullemaks. Alkohol oli minust
-enda orja teinud. Ma olin selle köidikuis, ehkki kinni-
-tasin endale ikka veel, et joomine oli nauditav ja minu
-enda valik.
-   Varsti algasid mäluaugud. Minu ellu tekkis mälust
-pühitud tundidepikkuseid tühimikke. Esimene
-mäluauk leidis aset pärast minu korraldatud pidu-
-likku õhtusööki. Ma ärkasin järgmisel päeval, ilma et
-mäletanuksin külalistega hüvastijätmist ja magamami-
-nekut. Ma tuhnisin niidiotsi otsides korteri läbi. Laua
-peal olid kuhjades laiali magustoidutaldrikud ja kohvi-
-tassid. Pudelid olid tühjad, klaasid niisamuti. (Mul oli
-kombeks kõigile allesjäänud jookidele lõpp peale teha.)
-Minu viimane mälestus oli õhtusöögilt. Sõime me üldse
-õhtusöögi lõpuni? Ent taldrikud olid ju laual. Kartsin
-hirmsalt, et olin hakkama saanud millegi kohutavaga,
-            SEST MA OLEN ALKOHOOLIK                    341
-kuni sõbrad mulle helistades teatasid, et olid õhtut nau-
-tinud.
-   Üks kord purjetasime me Guadaloupe’ist ühele pisi-
-kesele saarele piknikkut pidama. Me ujusime kaldalt
-laevale. Pärast lõunasööki, mille käigus sai joodud oht-
-ralt veini, olin ma koos ühe prantsuse suusainstrukto-
-riga. Ta rääkis trobikonna väikeste poistega, kes olid
-teel koolist koju. Ta üritas neile troopilise saare ela-
-nikele selgitada, mida lumi endast kujutab. Mäletan,
-kuidas nad itsitasid. Järgmisel hetkel olin ma äkitselt
-tagasi ja kõndisin söögisaali poole. Tuli välja, et olin
-enne seda jõudnud laevale ujuda, sadamasse purje-
-tada ja siis ühe bussiloguga teisele poole saart sõita.
-Mul polnud nende tundide jooksul toimunust mitte
-sekunditki meeles.
-   Mäluaugud sagenesid, üheskoos nende sagenemi-
-sega kasvas ka minu hirm. Telefoniarvetelt selgus, et
-olin öösiti hilja kaugetesse kohtadesse helistanud. Sain
-telefoninumbrite järgi aru, kellele helistanud olin, ent
-mida ma küll rääkinud olin? Mõnel hommikul ärkasin
-ma üles, kõrval võõras, kes oli mind eelmise õhtu peolt
-koju toonud. Sellised vahejuhtumid rususid mind, ent
-ma ei suutnud lõpetada joomist neid põhjustas. See
-hävitas minu viimased eneseaustuse riismed, mis mul
-enda arvates veel olla võisid. Ma ei suutnud joomist ega
-oma elu kontrollida.
-   Mul oli tarvis juua igale poole minnes: teatrisse,
-peole, kohtingule, hiljem juba töölegi. Lahkusin korte-
-rist, lukustasin ukse ja läksin trepist alla. Siis pöörasin
-aga ümber ja läksin tagasi tuppa veel üht jooki võtma,
-et ikka planeeritud paika kohale jõuda. Mul oli tarvis
-juua ka kõige tegemiseks: kirjutamiseks, kokkamiseks,
-koristamiseks, seinte värvimiseks, vanniminekuks.
-342        ANONÜÜMSED ALKOHOOLIKUD
-   Ära vajudes ja varakult voodisse varisedes ärkasin ma
-juba kella neljast või viiest ja jõin päeva alustuseks Iiri
-kohvi. Avastasin, et pohmelli leevendamiseks oli õlu
-apelsinimahlast kordades etem. Kartuses, et kolleegid
-või õpilased võivad tööl mu hingeõhku tunda, hoidsin ma
-ettevaatlikult vahemaad. Kui ma liiga hilja ärkasin ja vaid
-kohvist kindlust saanuna laborisse tormasin, värisesid mu
-käed nii kõvasti, et katsete läbiviimise jaoks vajalike ainete
-kaalumine milligrammi täpsusel oli lihtsalt ilmvõimatu.
-Kui ma mõne teise alkohoolikuga lõunasöögile läksin,
-ei pruukinudki me tol päeval enam tagasi tööle jõuda.
-   Kuidagi õnnestus mul siiski töökoht ja suurem osa sõp-
-radest alles hoida. Minu sõbrad olid kõigest sotsiaalsed
-napsitajad, kes käisid mulle peale, et ma vähem jooksin.
-See nõu ajas mind ainult vihale, ent sügaval sisimas olin
-enda pärast mures. Ma küsisin oma psühholoogilt, vahel
-lausa õlut käes hoides, kas ma peaksin joomise lõpetama.
-Tema vastus oli alati, et meie ülesandeks oli välja selgi-
-tada minu joomise põhjus. Olin seda juba üritanud, ent
-ei suutnud seda põhjust iial välja selgitada. Vastuse sain
-alles AA-s: sest ma olen alkohoolik.
-   Joomist piirata üritades ei hoidnud ma enam alkoholi
-kodus. Ma jõin mitu korda kõik kodus olnud alkoholi
-ära ja otsustasin enam mitte seda juurde osta. Nii pidin
-ma töölt koju minnes või õhtul väljas käies vaatama, kas
-mul õnnestub pudeli ostmiseks vajalik summa kokku
-kraapida. Viinapoode leidus peaaegu igas kvartalis ja ma
-käisin neis vaheldumisi, et ükski müüja teada ei saaks,
-kui palju ma tegelikult jõin. Kui viinapoed pühapäeviti
-suletud olid, pidin ma toime tulema toidupoest ostetud
-õlle või kange siidriga.
-   Õudused muudkui kuhjusid. Sisemised õudused.
-Kõrvalt vaadates tundus, et pidasin enam-vähem vastu,
-            SEST MA OLEN ALKOHOOLIK                    343
-ent sügaval sisimas närbusin ma päevade möödudes
-aina enam. Minu sees oli palju hirme, millele ma nime
-anda ei osanud, ent mis viisid mind närvivapustuse
-ääreni. Minu suurim hirm oli, et ma olen alkohoolik.
-Ma polnud kindel, mida see täpselt tähendaks. Teadsin
-vaid seda, et võin lõpetada New Yorkis Bowery tänaval,
-kus olin näinud lakardeid tänavapervel kerra tõmma-
-nuna lamamas. Andsin järjekordse uusaastalubaduse.
-Ma kavatsesin joomise täielikult lõpetada, kuni suut-
-nuksin seda jälle taltsutada, ja kui see juhtub, ütlesin ma
-endale, on mulle taas vein ning õlu lubatud.
-   Elasin esimese päeva värisevate käte ja kehaga ning
-lõhkuva peaga üle, kuni olin lõpuks üpriski turvaliselt
-alkoholivabas korteris voodis pikali. Kuidagi õnnestus
-mul veel paar päeva üle elada, ehkki võõrutusnähud
-mõjusid ängistavalt. Hoolimata sellest, et mul õnnestus
-tol perioodil kaineks jääda, pole mul mingit kahtlust,
-et AA-d leidmata oleks see lubadus sarnaselt kõigile
-varasematele purunenud.
-   Ma ei käinud enam selle psühholoogi juures, kes ei
-suutnud minu joomise põhjust välja selgitada. Vana-
-aasta­õhtul läksin ma oma uue psühholoogi koju peole.
-Paar päeva hiljem ütles psühholoog mulle teraapia­
-rühmas: „Sa jood veel rohkem, kui arvata oskasin. Sa
-oled alkohoolik. Ma arvan, et sa peaksid joomise lõpe-
-tama ning arsti juurde ja AA-sse minema.”
-   Olin oma lubadusest kolm päeva kinni pidanud ja
-protesteerisin, et ma pole alkohoolik. See oli minu vii-
-mane eitus.
-   Ta soovitas mul vastupidist öelda. „Ma olen alko-
-hoolik.” Ma laususin seda sosinal, ent see kõlas õigesti.
-Olen seda sellest ajast saati tuhandeid kordi öelnud,
-ja nüüd juba tänutundega. See, mida tol õhtul kõige
-344       ANONÜÜMSED ALKOHOOLIKUD
-rohkem tunnistada kartsin, päästis mind lõpuks köidi-
-kuist vabaks.
-   Psühholoog palus mul sealsamas helistada meie
-teraapiarühma liikmele, ühele alkoholismiga tegeleva
-haigla personali kuuluvale arstile. Ma lubasin talle helis-
-tada järgmisel päeval.
-   „Helista talle kohe.” Psühholoog ulatas mulle telefoni.
-   Kui ma tema käest küsisin, kas ma ikka olen alkohoo-
-lik, vastas ta, et minu joomist näinuna peab ta seda täiesti
-võimalikuks. Ta soovitas mul rääkida tema ülemusega.
-Hirmust värisedes määrasin ma endale vastuvõtuaja ja
-pidasin sellest kinni. Ta rääkis mulle alkoholismi sümp-
-tomitest. Mul olid need kõik. Ta andis mulle nimekirja
-AA koosolekutest ja soovitas eraldi üht neist.
-   Ma käisin sel koosolekul. See oli väike naisterühm.
-Olin hirmul ja kannatasin võõrutusnähtude käes. Keegi
-teretas mind ja ma laususin pomisedes oma nime. Keegi
-tõi mulle tassi kohvi. Inimesed jagasid minuga oma
-telefoninumbreid ja käisid mulle peale, et ma kindlasti
-helistaksin, et ma tõstaksin pitsi asemel hoopis telefoni-
-toru hargilt. Nad olid soojad ja sõbralikud. Nad ütlesid,
-et ma ikka tagasi tuleksin.
-   Ja tulingi. Ma istusin nädalate kaupa ruumide tagu-
-mistes otsades. Olin vagusi, kui teised oma kogemus-
-test, jõust ja lootusest rääkisid. Kuulasin nende lugusid
-ja leidsin nii palju kattuvusi, mitte küll kõigis tegudes,
-ent häbitundes ja lootusetuses. Õppisin, et alkoholism
-pole patt, vaid haigus. See võttis minult ära süütunde.
-Õppisin, et ei peagi joomisest igaveseks loobuma. Ma
-ei tohtinud kõigest võtta seda esimest jooki. Ainult üks
-päev, isegi üks tund korraga. Selleks olin ma küll võime-
-line. Nendes ruumides naerdi ja valati vahel ka pisaraid.
-Üks oli aga kindel, armastust võis sealt alati leida, ja kui
-             SEST MA OLEN ALKOHOOLIK                       345
-ma suutsin lõpuks armastuse endasse lasta, aitas see
-mul terveneda.
-   Ma lugesin selle haiguse kohta kõike, mis mulle kätte
-sattus. Loetu vastas suure täpsusega minu elus juhtunule
-ning ennustas, mil viisil ma joomist jätkates sureksin. Mul
-oli ligipääs heale meditsiiniraamatukogule, ent mõne aja
-järel taipasin, et haigusega seotud geneetikast ja keemiast
-polnud mulle alkohoolikuna mingit tolku. Mul oli tarvis
-teada vaid seda, mis aitaks mul kaineks saada ja terve-
-neda. Selle kohta sain ma õppida AA-s.
-   Mind oli õnnistatud võimalusega elada linnas, kus toi-
-musid koosolekud alatasa, nii päeval kui ööl. Seal olin ma
-kaitstud. Ja just seal, oma korterist kõigest paari kvartali
-kaugusel, leidsin ma viimaks ometi selle tõelise enda,
-keda otsides ma tuhandeid kilomeetreid rännanud olin.
-Mind esmalt judisema ajanud seintel rippuvad laused
-hakkasid mulle lõpuks muljet avaldama. Need olid tõed,
-mille järgi sain ma elada: „Üks päev korraga.” „Tasa ja
-targu.” „Hoia asjad lihtsana.” „Ela ise ja lase teistel elada.”
-„Lase lahti ja las Jumal juhtib.” „Meele­rahupalve.”
-   Pühendumine ja teenimine olid tervenemise osad.
-Mulle öeldi, et saamiseks tuleb kõigepealt ise anda.
-Alguses tegin kohvi ja vastasin hiljem rühmadevaheli-
-ses büroos õhtuses vahetuses kõnedele. Käisin tegemas
-Kaheteistkümnenda Sammu tööd, rääkisin koosolekutel
-ja teenisin oma rühma esindajana. Vähehaaval hakkasin
-ma avanema. Esialgu hoidsin ust paokil, olles valmis
-seda kinni lööma vähimagi hirmu korral . Ent ka minu
-hirmud vaibusid. Ma avastasin, et suudan rühmas kohal
-olla ja avada end kõiksugustele inimestele, tänu ühisele
-vundamendile, mis meid kõiki koos hoiab. Siis hakkasin
-ma vaikselt tavaellu naasma, seda jõudu endaga kaasas
-kandes.
-346       ANONÜÜMSED ALKOHOOLIKUD
-   Avastasin, et suutsin nüüd paljusid asju joomata teha.
-Ma suutsin kirjutada, telefonile vastata, väljas söömas
-ja pidudel käia, armatseda, elada üle nii päevad kui ka
-õhtud. Öösiti ma magasin ning järgmisel päeval tõusin
-taas üles, valmis uut päeva alustama. Olin hämmastu-
-nud ja uhke, et olin nädal aega joomata vastu pidanud.
-Siis täitus juba kuu. Ja äkitselt olin ma elanud terve aasta
-kainelt, läbides sünnipäeva, jõulude, probleemide ja
-õnnestumiste sasipuntra, millest moodustubki elu.
-   Tervenesin füüsiliselt ja tundsin end hästi, minu
-meeled muutusid taas endiseks. Hakkasin kuulma tuule
-käes värisevate lehtede õrna häält, tundma näol lume-
-helveste puudutust ja nägema värskeid kevadlehti.
-   Siis hakkas tervenema ka minu tundeelu. Ma hakka-
-sin kogema tundeid, mida olin juba nii ammu endasse
-peitnud, et need olid kärbuma hakanud. Mõnda aega
-hõljusin ma sellel roosal pilvel. Siis valasin ma aga aasta
-otsa pisaraid ja olin seejärel veel aasta otsa lausa raevus.
-Mu tunded tulid tagasi ja hakkasid siis vaikselt vaibudes
-üha mõistlikumat kuju võtma.
-   Mis kõige tähtsam, ma tervenesin ka vaimselt.
-Sammud viisid mind sellele teerajale. Ma olin tunnis-
-tanud, et olen alkoholi ees jõuetu ja et mu elu oli muu-
-tunud juhitamatuks. See aitas mul üle ukseläve astuda.
-Siis jõudsin arusaamisele, et minust suurem Jõud suudab
-taastada minu terve mõtlemise. Ja lõpuks otsustasin
-anda oma tahte ja elu jumala hoolde, nii nagu mina teda
-mõistsin. Aastaid varem olin ma otsingute käigus uurinud
-hulganisti erinevaid religioone ja need kõik sinnapaika
-jätnud, sest neis jutlustati patriarhaalsest Jumalast, kuhu
-ma naisena ei sobitunud. Mulle öeldi, et Anonüümsete
-Alkohoolikute programm on vaimne, mitte religioosne.
-Isegi pimedusaastate jooksul jäi mu hinge mingi vaimne
-säde alles. See aitas mul AA-sse jõudmiseni ellu jääda.
-            SEST MA OLEN ALKOHOOLIK                     347
-Programmi hoole all hakkas see osa minus kasvama ja
-arenema, kuni täitis lõpuks tühimiku, mida olin nii kaua
-enda sees tundnud. Liikusin samm sammu järel vaimse
-ärkamise poole. Samm sammu järel klaarisin minevikuga
-arved ja liikusin olevikuga edasi.
-   AA on nüüd minu kodu. AA rühmi leidub kõikjal.
-Käin koosolekutel nii kodumaal kui ka teistes riikides
-reisides. Võtan kõiki AA-lasi pereliikmetena selle tõttu,
-mida jagame. Oma kahekümne kaheksandal kainusaas-
-tal seda teksti kirjutades vaatan hämmastusega ajas
-tagasi ja meenutan seda naist, pigem isegi last, kes ma siis
-olin. Uskumatu, kui kaugele välja ma sellest põhjatust
-sügavikust roninud olen. Anonüümsed Alkohoolikud
-on võimaldanud mul eluplaanide fantaseerimise asemel
-neid teostama hakata, üks päev korraga. Minu esimene
-kolimine, mis polnud lihtsalt geograafililise ravi eesmär-
-gil, viis mind linnast maale. Loobusin teadlase­karjäärist
-ja minust sai hoopis aednik. Avastasin, et olen lesbi ja
-armastan naisi. Tegutsen oma pikaaegse unistuse kallal,
-nimelt kirjutan ilukirjandust, mida ka avaldatakse. Aga
-need on kõigest asjad, millega ma tegelen, minu kaine
-elu erinevad osad. Kõige hinnalisem avastus on see, kes
-ma tegelikult olen – sarnaselt oleme kõik palju enamat
-kui lihtsalt ego või väljamõeldud kujutelmad.
-   Mind pikka aega painanud tunne, et olen teistsu-
-gune, haihtus kui märkasin niite, mis meid kõiki omava-
-hel seovad. Lugusid ja tundeid jagades avaldasid mulle
-kõige enam muljet need kohad milles oleme samasu-
-gused. Erinevused on kõigest ilusad kaunistused pea-
-lispinnal. Need on nagu erinevat värvi kostüümid, ja ma
-naudin neid. Ent nüüd torkavad mulle silma, millised
-me inimestena üldiselt tavalistes olukordades oleme.
-Ma hakkasin nägema, et me kõik oleme tõesti ühtsed,
-ja ma ei tunne end enam üksinda.
+> *See jooja leidis viimaks ometi vastuse oma piinavale küsimusele: „Miks?"*
+
+Küllap olen ma alati enda olemuse vastu huvi tundnud. Lapsena mõtlesin ma maal eraldatuna elades välja lugusid ning leiutasin endale kujuteldavaid kaaslaseid, kellega mängida. Hiljem suurde linna kolinuna ja lastest ümbritsetuna tundsin ma end teistest eraldatuna, justkui väljaheidetuna. Ja ehkki ma õppisin kasvades kultuurinorme järgima, tundsin end sügaval sisimas siiski teistsugusena.
+
+Alkohol aitas. Või nii ma vähemalt arvasin, kuni olin näinud rõhuvat kolmekümneaastast varju, mida see mu elule heitis. Ma avastasin joomise enda jaoks kolledžis. Ma ei joonud küll alguses tihti (mul polnud selleks võimalust), ent kui ma juba jooma hakkasin, jõin ma nii kaua, kuni mu ümber veel alkoholi leidus. See oli refleks. Ma ei mäleta, et mulle selle maitse meeldinuks, aga mulle meeldis selle ellu äratav mõju. Alkohol andis mulle ka kohtingute ja pidude üleelamiseks vajaliku rääkimisvõime. See tõi mind välja august, mida enda sees tundsin, ja langetas seina, mille olin loonud enda ja mistahes minus ebamugavust tekitava inimese või olukorra vahele.
+
+Kümme aastat väldanud kolledži- ja magistriõpingute ning nende vahele jäänud töötamise jooksul jõin ma korrapäraselt. Nii oli mul lihtne end sotsiaalseks napsitajaks pidada. Tagasi vaadates näen, et alkohol aitas mul luua endast haritud suurlinna naise kuvandi. See kahandas minu tunnet, nagu oleksin ma mahajäänud maaplika. Õppisin vanemate aastakäikude veinide kohta ja valisin neid suure hoolega gurmeeroogade kõrvale. Õppisin vastavalt sündmusele kokteile tegema. Õppisin, kuidas lisada martiinikokteili pisim tilgake kuiva vermutit. Samal ajal kasvas aga minu alkoholitaluvus. Joomise algusaegadel hakkas mul paha või ma minestasin, ent aja möödudes suutsin ma nähtavate mõjude avaldumiseta taluda aina suuremaid alkoholikoguseid. Seda muidugi järgmise hommiku pohmellini.
+
+Pealispinna varjus paistis tõeline elu minu jaoks kättesaamatus kauguses olevat. Ma tahtsin end täiskasvanuks pidada, ent tundsin sisimas ennast väikese ja abituna, nagu ma oleksin vaevu olemas. Vaatasin oma sõpru – meeldivaid, huvitavaid, häid inimesi – ning üritasin end nende kaudu määratleda. Kui nad nägid minus midagi, mis neid minu seltskonda meelitas, pidi mul ju ometi olema midagi pakkuda. Kuid nende armastus minu vastu ei asendanud enesearmastust, see ei täitnud tühjust minu sees.
+
+Nii jätkasin ma fantaasiamaailmas elamist, ja nüüd andis alkohol minu unistustele hoogu. Ma tegin suuri avastusi. Võitsin Nobeli preemia nii meditsiinis kui ka kirjanduses. Alati unistasin ma aga millestki muust, millestki kaugemale jäävast, ning tegin ennast otsides läbi mitu geograafilist ravikuuri. Mulle pakuti Pariisis tööd ja ma haarasin sellest võimalusest kohe kinni. Pakkisin kohvri kokku, jätsin korteri poiss-sõbrale ja asusin teele, peas keerlemas mõte, et leian viimaks ometi tõelise kodu ja tõelise enda.
+
+Hakkasin iga päev jooma, õigustades seda ratsionaalse argumendiga, et Prantsusmaal tulebki ju söögi kõrvale veini juua. Pärast õhtusööki ja veini ootasid juba muidugi liköörid. Minu päevikud ja kirjad annavad tunnistust minu õhtu jooksul aina halvenevast käekirjast. Kirjutades jõin ma muudkui edasi. Prantsusmaal muutusin ka esmakordselt alkoholist sõltuvaks. Pärast tööd Alliance Française'i tundidesse minnes võtsin ma tee peal bistroost kohalejõudmiseks vajaliku julguse leidmiseks klaasikese konjakit. Minu joomisvajadus oli võimsam piinlikkustundest, mida põhjustas naisena 1950. aastatel üksinda joomine. Ühe puhkuse käigus külatasin ma Šotimaal sõpru, reisides läbi Inglismaa ja Walesi maapiirkondade. Sõpradele kingiks ostetud konjaki- ja benediktiinipudelid jõin ma ammu enne kohalejõudmist väikestes hotellitubades tühjaks. Kuni neid jagus, suutsin pubidest eemale hoida.
+
+Euroopa polnud kujunenud minu elu parandavaks muutuseks. Nii alustasin ma taas läänes. Cambridge'is tõotasin ma esimest korda vähem juua. Ma andsin tosin aastat samu vanu uusaastalubadusi, samal ajal muutusid mu joomine ja elu aina hullemaks. Alkohol oli minust enda orja teinud. Ma olin selle köidikuis, ehkki kinnitasin endale ikka veel, et joomine oli nauditav ja minu enda valik.
+
+Varsti algasid mäluaugud. Minu ellu tekkis mälust pühitud tundidepikkuseid tühimikke. Esimene mäluauk leidis aset pärast minu korraldatud pidulikku õhtusööki. Ma ärkasin järgmisel päeval, ilma et mäletanuksin külalistega hüvastijätmist ja magamaminekut. Ma tuhnisin niidiotsi otsides korteri läbi. Laua peal olid kuhjades laiali magustoidutaldrikud ja kohvitassid. Pudelid olid tühjad, klaasid niisamuti. (Mul oli kombeks kõigile allesjäänud jookidele lõpp peale teha.) Minu viimane mälestus oli õhtusöögilt. Sõime me üldse õhtusöögi lõpuni? Ent taldrikud olid ju laual. Kartsin hirmsasti, et olin hakkama saanud millegi kohutavaga, kuni sõbrad mulle helistades teatasid, et olid õhtut nautinud.
+
+Üks kord purjetasime me Guadaloupe'ist ühele pisikesele saarele piknikkut pidama. Me ujusime kaldalt laevale. Pärast lõunasööki, mille käigus sai joodud ohtralt veini, olin ma koos ühe prantsuse suusainstruktoriga. Ta rääkis trobikonna väikeste poistega, kes olid teel koolist koju. Ta üritas neile troopilise saare elanikele selgitada, mida lumi endast kujutab. Mäletan, kuidas nad itsitasid. Järgmisel hetkel olin ma äkitselt tagasi ja kõndisin söögisaali poole. Tuli välja, et olin enne seda jõudnud laevale ujuda, sadamasse purjetada ja siis ühe bussiloguga teisele poole saart sõita. Mul polnud nende tundide jooksul toimunust mitte sekunditki meeles.
+
+Mäluaugud sagenesid, üheskoos nende sagenemisega kasvas ka minu hirm. Telefoniarvetelt selgus, et olin öösiti hilja kaugetesse kohtadesse helistanud. Sain telefoninumbrite järgi aru, kellele helistanud olin, ent mida ma küll rääkinud olin? Mõnel hommikul ärkasin ma üles, kõrval võõras, kes oli mind eelmise õhtu peolt koju toonud. Sellised vahejuhtumid rususid mind, ent ma ei suutnud lõpetada joomist neid põhjustas. See hävitas minu viimased eneseaustuse riismed, mis mul enda arvates veel olla võisid. Ma ei suutnud joomist ega oma elu kontrollida.
+
+Mul oli tarvis juua igale poole minnes: teatrisse, peole, kohtingule, hiljem juba töölegi. Lahkusin korterist, lukustasin ukse ja läksin trepist alla. Siis pöörasin aga ümber ja läksin tagasi tuppa veel üht jooki võtma, et ikka planeeritud paika kohale jõuda. Mul oli tarvis juua ka kõige tegemiseks: kirjutamiseks, kokkamiseks, koristamiseks, seinte värvimiseks, vanniminekuks.
+
+Ära vajudes ja varakult voodisse varisedes ärkasin ma juba kella neljast või viiest ja jõin päeva alustuseks Iiri kohvi. Avastasin, et pohmelli leevendamiseks oli õlu apelsinimahlast kordades etem. Kartuses, et kolleegid või õpilased võivad tööl mu hingeõhku tunda, hoidsin ma ettevaatlikult vahemaad. Kui ma liiga hilja ärkasin ja vaid kohvist kindlust saanuna laborisse tormasin, värisesid mu käed nii kõvasti, et katsete läbiviimise jaoks vajalike ainete kaalumine milligrammi täpsusel oli lihtsalt ilmvõimatu. Kui ma mõne teise alkohoolikuga lõunasöögile läksin, ei pruukinudki me tol päeval enam tagasi tööle jõuda.
+
+Kuidagi õnnestus mul siiski töökoht ja suurem osa sõpradest alles hoida. Minu sõbrad olid kõigest sotsiaalsed napsitajad, kes käisid mulle peale, et ma vähem jooksin. See nõu ajas mind ainult vihale, ent sügaval sisimas olin enda pärast mures. Ma küsisin oma psühholoogilt, vahel lausa õlut käes hoides, kas ma peaksin joomise lõpetama. Tema vastus oli alati, et meie ülesandeks oli välja selgitada minu joomise põhjus. Olin seda juba üritanud, ent ei suutnud seda põhjust iial välja selgitada. Vastuse sain alles AA-s: sest ma olen alkohoolik.
+
+Joomist piirata üritades ei hoidnud ma enam alkoholi kodus. Ma jõin mitu korda kõik kodus olnud alkoholi ära ja otsustasin enam mitte seda juurde osta. Nii pidin ma töölt koju minnes või õhtul väljas käies vaatama, kas mul õnnestub pudeli ostmiseks vajalik summa kokku kraapida. Viinapoode leidus peaaegu igas kvartalis ja ma käisin neis vaheldumisi, et ükski müüja teada ei saaks, kui palju ma tegelikult jõin. Kui viinapoed pühapäeviti suletud olid, pidin ma toime tulema toidupoest ostetud õlle või kange siidriga.
+
+Õudused muudkui kuhjusid. Sisemised õudused. Kõrvalt vaadates tundus, et pidasin enam-vähem vastu, ent sügaval sisimas närbusin ma päevade möödudes aina enam. Minu sees oli palju hirme, millele ma nime anda ei osanud, ent mis viisid mind närvivapustuse ääreni. Minu suurim hirm oli, et ma olen alkohoolik. Ma polnud kindel, mida see täpselt tähendaks. Teadsin vaid seda, et võin lõpetada New Yorkis Bowery tänaval, kus olin näinud lakardeid tänavapervel kerra tõmmatuna lamamas. Andsin järjekordse uusaastalubaduse. Ma kavatsesin joomise täielikult lõpetada, kuni suutnuksin seda jälle taltsutada, ja kui see juhtub, ütlesin ma endale, on mulle taas vein ning õlu lubatud.
+
+Elasin esimese päeva värisevate käte ja kehaga ning lõhkuva peaga üle, kuni olin lõpuks üpriski turvaliselt alkoholivabas korteris voodis pikali. Kuidagi õnnestus mul veel paar päeva üle elada, ehkki võõrutusnähud mõjusid ängistavalt. Hoolimata sellest, et mul õnnestus tol perioodil kaineks jääda, pole mul mingit kahtlust, et AA-d leidmata oleks see lubadus sarnaselt kõigile varasematele purunenud.
+
+Ma ei käinud enam selle psühholoogi juures, kes ei suutnud minu joomise põhjust välja selgitada. Vana-aasta­õhtul läksin ma oma uue psühholoogi koju peole. Paar päeva hiljem ütles psühholoog mulle teraapia­rühmas: „Sa jood veel rohkem, kui arvata oskasin. Sa oled alkohoolik. Ma arvan, et sa peaksid joomise lõpetama ning arsti juurde ja AA-sse minema."
+
+Olin oma lubadusest kolm päeva kinni pidanud ja protesteerisin, et ma pole alkohoolik. See oli minu viimane eitus.
+
+Ta soovitas mul vastupidist öelda. „Ma olen alkohoolik." Ma laususin seda sosinal, ent see kõlas õigesti. Olen seda sellest ajast saati tuhandeid kordi öelnud, ja nüüd juba tänutundega. See, mida tol õhtul kõige rohkem tunnistada kartsin, päästis mind lõpuks köidikuist vabaks.
+
+Psühholoog palus mul sealsamas helistada meie teraapiarühma liikmele, ühele alkoholismiga tegeleva haigla personali kuuluvale arstile. Ma lubasin talle helistada järgmisel päeval.
+
+„Helista talle kohe." Psühholoog ulatas mulle telefoni.
+
+Kui ma tema käest küsisin, kas ma ikka olen alkohoolik, vastas ta, et minu joomist näinuna peab ta seda täiesti võimalikuks. Ta soovitas mul rääkida tema ülemusega. Hirmust värisedes määrasin ma endale vastuvõtuaja ja pidasin sellest kinni. Ta rääkis mulle alkoholismi sümptomitest. Mul olid need kõik. Ta andis mulle nimekirja AA koosolekutest ja soovitas eraldi üht neist.
+
+Ma käisin sel koosolekul. See oli väike naisterühm. Olin hirmul ja kannatasin võõrutusnähtude käes. Keegi teretas mind ja ma laususin pomisedes oma nime. Keegi tõi mulle tassi kohvi. Inimesed jagasid minuga oma telefoninumbreid ja käisid mulle peale, et ma kindlasti helistaksin, et ma tõstaksin pitsi asemel hoopis telefonitoru hargilt. Nad olid soojad ja sõbralikud. Nad ütlesid, et ma ikka tagasi tuleksin.
+
+Ja tulingi. Ma istusin nädalate kaupa ruumide tagumistes otsades. Olin vagusi, kui teised oma kogemustest, jõust ja lootusest rääkisid. Kuulasin nende lugusid ja leidsin nii palju kattuvusi, mitte küll kõigis tegudes, ent häbitundes ja lootusetuses. Õppisin, et alkoholism pole patt, vaid haigus. See võttis minult ära süütunde. Õppisin, et ei peagi joomisest igaveseks loobuma. Ma ei tohtinud kõigest võtta seda esimest jooki. Ainult üks päev, isegi üks tund korraga. Selleks olin ma küll võimeline. Nendes ruumides naerdi ja valati vahel ka pisaraid. Üks oli aga kindel, armastust võis sealt alati leida, ja kui ma suutsin lõpuks armastuse endasse lasta, aitas see mul terveneda.
+
+Ma lugesin selle haiguse kohta kõike, mis mulle kätte sattus. Loetu vastas suure täpsusega minu elus juhtunule ning ennustas, mil viisil ma joomist jätkates sureksin. Mul oli ligipääs heale meditsiiniraamatukogule, ent mõne aja järel taipasin, et haigusega seotud geneetikast ja keemiast polnud mulle alkohoolikuna mingit tolku. Mul oli tarvis teada vaid seda, mis aitaks mul kaineks saada ja terveneda. Selle kohta sain ma õppida AA-s.
+
+Mind oli õnnistatud võimalusega elada linnas, kus toimusid koosolekud alatasa, nii päeval kui ööl. Seal olin ma kaitstud. Ja just seal, oma korterist kõigest paari kvartali kaugusel, leidsin ma viimaks ometi selle tõelise enda, keda otsides ma tuhandeid kilomeetreid rännanud olin. Mind esmalt judisema ajanud seintel rippuvad laused hakkasid mulle lõpuks muljet avaldama. Need olid tõed, mille järgi sain ma elada: „Üks päev korraga." „Tasa ja targu." „Hoia asjad lihtsana." „Ela ise ja lase teistel elada." „Lase lahti ja las Jumal juhtib." „Meele­rahupalve."
+
+Pühendumine ja teenimine olid tervenemise osad. Mulle öeldi, et saamiseks tuleb kõigepealt ise anda. Alguses tegin kohvi ja vastasin hiljem rühmadevaheli­ses büroos õhtuses vahetuses kõnedele. Käisin tegemas Kaheteistkümnenda Sammu tööd, rääkisin koosolekutel ja teenisin oma rühma esindajana. Vähehaaval hakkasin ma avanema. Esialgu hoidsin ust paokil, olles valmis seda kinni lööma vähimagi hirmu korral. Ent ka minu hirmud vaibusid. Ma avastasin, et suudan rühmas kohal olla ja avada end kõiksugustele inimestele, tänu ühisele vundamendile, mis meid kõiki koos hoiab. Siis hakkasin ma vaikselt tavaellu naasma, seda jõudu endaga kaasas kandes.
+
+Avastasin, et suutsin nüüd paljusid asju joomata teha. Ma suutsin kirjutada, telefonile vastata, väljas söömas ja pidudel käia, armatseda, elada üle nii päevad kui ka õhtud. Öösiti ma magasin ning järgmisel päeval tõusin taas üles, valmis uut päeva alustama. Olin hämmastunud ja uhke, et olin nädal aega joomata vastu pidanud. Siis täitus juba kuu. Ja äkitselt olin ma elanud terve aasta kainelt, läbides sünnipäeva, jõulude, probleemide ja õnnestumiste sasipuntra, millest moodustubki elu.
+
+Tervenesin füüsiliselt ja tundsin end hästi, minu meeled muutusid taas endiseks. Hakkasin kuulma tuule käes värisevate lehtede õrna häält, tundma näol lumehelve­ste puudutust ja nägema värskeid kevadlehti.
+
+Siis hakkas tervenema ka minu tundeelu. Ma hakkasin kogema tundeid, mida olin juba nii ammu endasse peitnud, et need olid kärbuma hakanud. Mõnda aega hõljusin ma sellel roosal pilvel. Siis valasin ma aga aasta otsa pisaraid ja olin seejärel veel aasta otsa lausa raevus. Mu tunded tulid tagasi ja hakkasid siis vaikselt vaibudes üha mõistlikumat kuju võtma.
+
+Mis kõige tähtsam, ma tervenesin ka vaimselt. Sammud viisid mind sellele teerajale. Ma olin tunnistanud, et olen alkoholi ees jõuetu ja et mu elu oli muutunud juhitamatuks. See aitas mul üle ukseläve astuda. Siis jõudsin arusaamisele, et minust suurem Jõud suudab taastada minu terve mõtlemise. Ja lõpuks otsustasin anda oma tahte ja elu jumala hoolde, nii nagu mina teda mõistsin. Aastaid varem olin ma otsingute käigus uurinud hulganisti erinevaid religioone ja need kõik sinnapaika jätnud, sest neis jutlustati patriarhaalsest Jumalast, kuhu ma naisena ei sobitunud. Mulle öeldi, et Anonüümsete Alkohoolikute programm on vaimne, mitte religioosne. Isegi pimedusaastate jooksul jäi mu hinge mingi vaimne säde alles. See aitas mul AA-sse jõudmiseni ellu jääda. Programmi hoole all hakkas see osa minus kasvama ja arenema, kuni täitis lõpuks tühimiku, mida olin nii kaua enda sees tundnud. Liikusin samm sammu järel vaimse ärkamise poole. Samm sammu järel klaarisin minevikuga arved ja liikusin olevikuga edasi.
+
+AA on nüüd minu kodu. AA rühmi leidub kõikjal. Käin koosolekutel nii kodumaal kui ka teistes riikides reisides. Võtan kõiki AA-lasi pereliikmetena selle tõttu, mida jagame. Oma kahekümne kaheksandal kainusaastal seda teksti kirjutades vaatan hämmastusega ajas tagasi ja meenutan seda naist, pigem isegi last, kes ma siis olin. Uskumatu, kui kaugele välja ma sellest põhjatust sügavikust roninud olen. Anonüümsed Alkohoolikud on võimaldanud mul eluplaanide fantaseerimise asemel neid teostama hakata, üks päev korraga. Minu esimene kolimine, mis polnud lihtsalt geograafililise ravi eesmärgil, viis mind linnast maale. Loobusin teadlasekarjäärist ja minust sai hoopis aednik. Avastasin, et olen lesbi ja armastan naisi. Tegutsen oma pikaaegse unistuse kallal, nimelt kirjutan ilukirjandust, mida ka avaldatakse. Aga need on kõigest asjad, millega ma tegelen, minu kaine elu erinevad osad. Kõige hinnalisem avastus on see, kes ma tegelikult olen – sarnaselt oleme kõik palju enamat kui lihtsalt ego või väljamõeldud kujutelmad.
+
+Mind pikka aega painanud tunne, et olen teistsugune, haihtus kui märkasin niite, mis meid kõiki omavahel seovad. Lugusid ja tundeid jagades avaldasid mulle kõige enam muljet need kohad milles oleme samasugused. Erinevused on kõigest ilusad kaunistused pealispinnal. Need on nagu erinevat värvi kostüümid, ja ma naudin neid. Ent nüüd torkavad mulle silma, millised me inimestena üldiselt tavalistes olukordades oleme. Ma hakkasin nägema, et me kõik oleme tõesti ühtsed, ja ma ei tunne end enam üksinda.

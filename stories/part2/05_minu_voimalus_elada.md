@@ -1,6 +1,6 @@
 # MINU VÕIMALUS ELADA
 
-  *AA andis sellele teismelisele tüdrukule tööriistad, millega välja ronida oma meeleheite süngest kuristikust.*
+> *AA andis sellele teismelisele tüdrukule tööriistad, millega välja ronida oma meeleheite süngest kuristikust.*
 
 Astusin sisse Anonüümsete Alkohoolikute uksest seitsmeteistaastasena, ise täidetud vastuoludega. Pealtnäha olin ma klassikaline mässumeelne teismeline, kellel jagus küllalt iseloomu. Seesmiselt olin ma aga suitsiidne ja katki. Minu kõnnakus väljendus enesekindlusest, mida ma tegelikult ei tundnud. Minu riietus oli omane karmile tänavalapsele, kellega ei tahaks jamada. Sisimas aga värisesin hirmust, et keegi võib läbi minu müüride tegelikku mind näha.
 

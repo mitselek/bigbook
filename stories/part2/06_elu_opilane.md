@@ -1,97 +1,60 @@
 # Elu õpilane
 
-  Ta oli veendunud, et tema probleemiks ei ole alkohol,
-vaid elu.
+> *Kodus vanematega elades püüdis ta kasutada tahte­jõudu, et saada võitu joomatungist. Alles siis, kui ta kohtas teist alkohoolikut ja läks AA koosolekule, kin­nistus ta kainus.*
 
-M      inu lugu algab nagu paljud teisedki. Ma ei
-       mäleta aega, mil ma ei oleks tundnud end
-teistsugusena. Ma ei tundnud end kunagi mugavalt
-oma nahas. Ma ei tundnud end kunagi piisavalt hea,
-piisavalt targa ega piisavalt ilusana. Ma ei tundnud
-end kunagi piisavana.
-   Ma kasvasin üles armastavas kodus. Mu vanemad
-olid ja on siiani abielus. Mul on kaks vanemat venda.
-Meil oli alati katus pea kohal ja toit laual. Ma ei saa
-öelda, et oleksin kogenud mingit traumat, mis oleks
-mind joomiseni viinud. Ma lihtsalt tundsin end alati
-ebamugavalt.
-   Mäletan, et olin umbes kaheteistaastane, kui hakkasin
-esimest korda mõtlema, et minuga on midagi valesti.
-Ma ei suutnud kunagi olla mina ise. Ma olin alati see,
-keda teised tahtsid, et ma oleksin. Ma olin kameeleon.
-Ma võisin olla ükskõik kes, aga ma ei teadnud kunagi,
-kes ma tegelikult olen.
-   Umbes samal ajal hakkasin ma ka esimest korda
-jooma. Mäletan, et olin sõbra juures ja me jõime ära
-tema vanemate viinakapi sisu. Ma ei mäleta sellest
-õhtust palju, aga mäletan, et tundsin end esimest korda
-elus mugavalt. Ma ei tundnud end enam teistsugusena.
-Ma tundsin end osana millestki. Ma tundsin end lõpuks
-normaalsena.
-   Sellest hetkest alates hakkasin ma jooma iga kord, kui
-mul selleks võimalus avanes. Ma jõin, et tunda end
-mugavalt. Ma jõin, et tunda end normaalsena. Ma jõin,
-et põgeneda iseenda eest.
-   Keskkoolis muutus mu joomine hullemaks. Ma jõin
-peaaegu iga päev. Ma jõin enne kooli, kooli ajal ja
-pärast kooli. Ma jõin nädalavahetustel ja nädala sees.
-Ma jõin üksi ja koos teistega. Ma jõin, et tähistada, ja
-ma jõin, et leinata. Ma jõin igal võimalikul põhjusel ja
-ilma põhjuseta.
-   Ma hakkasin ka teisi aineid tarvitama. Ma suitsetasin
-kanepit ja proovisin erinevaid tablette. Ma tegin kõike,
-et põgeneda reaalsusest. Ma ei tahtnud tunda midagi.
-Ma tahtsin lihtsalt tuim olla.
-   Hoolimata oma joomisest ja narkootikumide tarvita-
-misest õnnestus mul keskkool lõpetada. Ma ei tea,
-kuidas ma seda tegin, aga ma tegin seda. Ma läksin
-isegi kolledžisse, aga see ei kestnud kaua. Ma kukkusin
-esimesel semestril välja. Ma ei suutnud keskenduda
-õppimisele. Ma tahtsin ainult pidutseda.
-   Pärast kolledžist väljakukkumist kolisin tagasi
-koju. Mu vanemad olid minu pärast väga mures. Nad
-püüdsid mind aidata, aga ma ei lasknud neil. Ma arvasin,
-et tean kõike paremini. Ma arvasin, et mul ei ole
-probleemi. Ma arvasin, et kõik teised on probleem.
-   Jätkasin joomist ja narkootikumide tarvitamist. Mu
-elu muutus üha kaootilisemaks. Ma kaotasin töökohti.
-Ma kaotasin sõpru. Ma kaotasin iseennast.
-   Ühel hetkel jõudsin põhja. Ma olin kaotanud kõik.
-Mul ei olnud enam kuhugi minna. Ma olin üksi ja
-hirmul. Ma ei teadnud, mida teha.
-   Siis kuulsin ma Anonüümsetest Alkohoolikutest. Ma
-ei teadnud sellest programmist midagi, aga olin valmis
-proovima mida iganes. Ma olin meeleheitel.
-   Läksin oma esimesele AA koosolekule. Ma olin
-närvis ja hirmul. Ma ei teadnud, mida oodata. Aga
-kui ma ruumi sisenesin, tundsin ma kohe midagi
-teistsugust. Ma tundsin lootust.
-   Ma kuulasin inimesi rääkimas oma lugusid. Ma
-samastusin nendega. Ma ei tundnud end enam üksi.
-Ma teadsin, et olen leidnud koha, kuhu ma kuulun.
-   Hakkasin käima koosolekutel regulaarselt. Ma sain
-tugiisiku. Ma hakkasin samme tegema. Ma hakkasin
-aeglaselt, aga kindlalt paranema.
-   Tee ei ole olnud lihtne. On olnud tõuse ja mõõnu.
-On olnud aegu, mil olen tahtnud alla anda. Aga ma ei
-ole seda teinud. Ma olen jätkanud võitlust. Ma olen
-jätkanud paranemist.
-   Täna olen ma kaine. Ma olen olnud kaine juba mitu
-aastat. Ma olen tänulik AA eest. Ma olen tänulik oma
-tugiisiku eest. Ma olen tänulik oma Kõrgema Jõu eest.
-   Ma olen õppinud nii palju iseenda kohta. Ma olen
-õppinud, et ma ei ole halb inimene, kes üritab heaks
-saada. Ma olen haige inimene, kes üritab terveks saada.
-Ma olen õppinud, et ma ei pea olema täiuslik. Ma pean
-lihtsalt olema aus.
-   Ma olen õppinud, et ma ei pea kõike üksi tegema. Ma
-võin paluda abi. Ma võin toetuda teistele. Ma võin
-lubada end armastada.
-   Ma olen õppinud, et elu ei pea olema võitlus. Elu
-võib olla seiklus. Elu võib olla rõõmus. Elu võib olla
-täis armastust ja naeru.
-   Ma olen ikka veel elu õpilane. Ma õpin iga päev
-midagi uut. Ma kasvan iga päev natuke rohkem. Ma
-olen tänulik selle võimaluse eest. Ma olen tänulik elu
-eest.
+Hakkasin jooma 18-aastaselt, tänapäevaste stan­dardite kohta võrdlemisi hilja. Kui alustanud olin, tabas alkoholism kui haigus mind tõsiselt ning kaotatud aeg sai kohe tasa tehtud. Kui olin mõne aasta joonud ja tõsiselt imestama hakanud, kas mul võib alko­holiga probleem olla, lugesin üht "Kas oled alkohoolik?" stiilis küsitlust. Enda kergenduseks avastasin, et mitte ükski punkt ei käinud minu kohta. Ma ei olnud kaota­nud tööd, abikaasat, lapsi ega ühtegi omandit alkoholi pärast. Tõdemus, et joomine ei olnud lasknud mul üldse neid asju saada, tekkis mul alles AAsse jõudes.
+
+Ma ei saa ühegi alkoholisõõmu eest süüdistada oma kasvatust. Mu vanemad olid armastavad ja toetavad ning on abielus 35 aastat. Keegi teine mu peres ei joo alko­hoolselt ega käitu nagu alkohoolik. Vaatamata kõigile võimalustele, mis mul kasvades olid, kujunes minust millegipärast selline täiskasvanud naine, kes on surmani hirmunud ümbritseva maailma ees. Olin erakordselt ebakindel, olgugi et seda hoolikalt varjasin. Olin või­metu tulema toime oma emotsioonidega ning nendest aru saama. Tundsin alati, et teised inimesed saavad asja­dest aru ning teavad, mida tuleb teha. Minu elu tundus ainsana selline, millele polnud manuaali kaasa antud.
+
+Avastanud alkoholi, hakkas kõik muutuma. Võtsin esi­mese joogi esimesel õhtul kolledžis. Läksin õpilaspeole, millesarnaseid tuli veel palju ette. Mind ei huvitanud õlu, nii et proovisin juua süütuna näivat punši. Mulle selgitati, et sinna on veidi piiritust lisatud. Ma ei mäleta koguseid ja minu mälestused ülejäänud õhtust on hägu­sed, aga mäletan seda: kui ma jõin, siis mul oli hea olla. Sain aru. Kõik tundus loogiline. Sain tantsida, rääkida ja nautida enda nahas olemist. Ma oleks nagu olnud lõpetamata pusle, millest on üks tükk puudu ning juues asetus viimane tükk sujuvalt paigale.
+
+Koju jõudmist ma ei mäleta. Ärkasin järgmisel hom­mikul riietes ning meigiga. Mul oli süda paha, kuid mul õnnestus ronida duši alla ning valmistuda esimesteks tundideks kolledžis. Terve tunni jooksul vaatasin pro­fessorit anuvate silmadega, et ta meid varem ära lubaks. Aga ta ei lasknud meid enne kella ära. Kui see helises, tormasin ma naiste tualetis esimesse kabiini ning oksen­dasin kõik välja.
+
+Haiguse hullumeelsus oli juba hakanud endast märku andma. Mäletan, et mõtlesin kabiinis oksendades, kui fantastiline see oli. Elu tundus suurepärane, olin vii­maks leidnud vastuse – alkohol! Jah, pingutasin eelmi­sel õhtul üle, kuid see oli kõik minu jaoks uus. Pidin lihtsalt joomise ära õppima ja siis võis minuga kõik hästi olla.
+
+Üritasin „õigesti juua" järgmised kaheksa aastat. Areng oli erakordne. Mu joomiskarjääris ei ole ühtegi perioodi, kui ma oleks sotsiaalselt joonud. Ma ei joonud end kunagi vastu tahtmist purju − aga tahtsin alati. Ma ei saa olla alkohoolik. Olin liiga noor. Minu probleem oli minu elu. Minu probleemiks olid teised ained. Kui ma saaksin lihtsalt elu korda, siis saaksin normaalselt juua.
+
+Mulle määrati teise aasta esimesel semestril katse­aeg (keskkoolis olin alati olnud aunimekirjas) mispeale vahetasin lihtsalt eriala. Minu elu õpilaslinnakus keer­les pidutsemise, joomise ja meeste ümber. Ümbritsesin end inimestega, kes jõid samamoodi nagu mina. Kuigi mitmed inimesed olid juba väljendanud muret mu joo­mise pärast, ratsionaliseerisin oma käitumist sellega, et tegin lihtsalt sama, mida iga teine kuumavereline kol­ledžiõpilane.
+
+Kuidagi õnnestus mul kool lõpetada, aga kui suurem osa mu sõpru leidsid omale head töökohad ning lõpe­tasid äkitselt joomise, näis et mina jäin õpilaslinnakusse kinni. Olin otsustanud, et minagi hakkan korralikuks ja joon mõistuspäraselt, kuid ärritaval kombel avastasin, et ma polnud selleks võimeline.
+
+Läksin masendavale müügitööle, mille eest ei maks­tud peaaegu midagi, nii et jätkasin vanematega elamist. Jäin sellele tööle kaheks aastaks ühel põhjusel – sain juua vähese vahelesegamisega. Mu tavaline muster tähendas 0,75l pudeli viski ostmist millalgi kohtumiste vahel ning selle pudeli autoistme alla jätmist. Kui ma õhtul koju jõudsin, jõin pool pudelit teleka ees ära ning vaatasin saadete kordusi, kuni kustusin. Tegin sedasi igal õhtul omaette peaaegu kaks aastat. Minust oli saanud igapäevane üksinda jooja ning hakkasin muu­tuma pisut närviliseks.
+
+Mu käitumine sel ajal oli alkohoolikule tüüpiline: peitsin kodus igale poole pudeleid; võtsin oma vane­mate varust vahel lonksu, kui mul alkohol otsa sai; vis­kasin pudeleid ära sellise täpsusega, et nad koti sees ei kõlksuks; panin oma vanemate viina- ja džinnipudeli­tesse vett ja nii edasi. Mul tekkis ka harjumus lindistada oma lemmiksaadete kordusi, sest mul läks alati pilt eest, enne kui need lõppesid.
+
+Umbes sel ajal oli eetris telefilm "Mu nimi on Bill W", mis rääkis AA asutajast. Uudishimust hakkasin seda koos viski- ja toonikupudeliga vaatama. Kui Bill võttis ühes stseenis plasku välja, et enne äia külastamist jul­gust koguda, siis ohatasin kergendusest. „Oh, mul ei olegi asjad nii hullud," mõtlesin endamisi. Siis jõin end pildituks. Filmist ma enamat ei mäleta.
+
+Mu vanemad olid täiesti nõutud. Ma ei liikunud elus kuskile ning käitusin ärritunult ning vaenulikult. Kuna neil puudus alkoholismiga kogemus, ei osanud nad ette kujutada, mis minuga toimub või mida selles osas tegema peaks. Mina ka ei teadnud. Teadsin, et joon liiga palju ja mu elu on masendav, aga ei seostanud neid asju kunagi. Vanemad tegid ettepaneku, mis tundus neile loogiline: nad pakkusid, et aitavad mind rahaliselt, kui tahan jälle kooli minna. Kuna minu silmis polnud teist pääseteed, haarasin võimalusest kinni.
+
+Mul läks kaks aastat, et lõpetada kool 1200 km kaugu­sel kodust. Võin ausalt öeldes, et tean, miks räägitakse geograafilisest ravist. Üheksaks kuuks õnnestus mul joo­misega tugevalt piiri pidada. Jõin ikka peaaegu iga päev, aga mitte tavapäraseid koguseid. Mul ei läinud sageli piltki eest. Olin võimeline keskenduma esimesel aastal koolitööle ja leidsin omale uusi sõpru. Siiski on geograa­filine ravi ainult ajutine. Minu oma kestis vähem kui aasta. Umbes kümne kuu möödudes hakkasin langema tagasi oma vanadesse mustritesse. Aegamööda hakkasin jooma täpselt sama suuri viski­koguseid nagu koduski ning jõin end pidevalt uuesti pildituks. Mu hinded läksid halvemaks ning sõbrad hakkasid imestama. Mul tekkis isegi jälle harjumus saadete kordusi vaatata. Olin võtnud kodus salvestatud videokassetid kooli kaasa.
+
+Õnneks õnnestus mul kool lõpetada, aga ma ei olnud kuhugi edasi jõudnud. Pärast kooli lõpetamist naasin vanemate juurde, sest mul ei olnud õnnestunud tööd leida. Olin tagasi. Olin uuesti vanas magamistoas ning jätkasin harjumust juua igal õhtul kuni kustumiseni, ja see muutus aina hullemaks. Alustasin joomist päeva jooksul üha varem ja varem ning jõin aina suuremaid koguseid alkoholi. Mul polnud tööd ega sõpru, nägin ainult oma vanemaid.
+
+Selleks hetkeks olin endast täiesti väljas. Kas ma polnud siis teinud kõike, mida minult oodati? Kas ma ei olnud mitte kolledžit magistrikraadiga lõpetanud? Ma polnud istunud vangis, ühtegi autot sodiks sõitnud ega pahandustesse sattunud, nagu tõeline alkohoolik. Kui ma veel tööl käisin ei jäänud mul joomise pärast ühtegi päeva vahele. Mul ei tekkinud võlgu ning ma ei väärkohelnud abikaasasid ega lapsi. Muidugi ma jõin palju, kuid mul ei olnud probleemi. Kuidas neid oleks saanud tekkida, kui ma isegi ei teinud ühtegi asja, mis tõestavad inimese alkohoolikuks olemist? Milles siis häda oli? Tahtsin lihtsalt normaalset töökohta, et võik­sin olla iseseisev ja töökas. Ma ei mõistnud, miks elu ei võinud mulle lihtsalt vastu tulla.
+
+Tegin vanemate heaks kodus juhutöid, et enda tuba välja teenida, kuni sain tööd kohaliku ettevõtja juures. See töökoht ei pakkunud erilisi võimalusi elus edasi jõudmiseks ning palk polnud suurem asi, kuid vähemalt sain vanemate juurest lahkuda ning see esitas mitme­suguseid väljakutseid. Sel ajal käis mul tõsine lahing, et oma joomist kontrolli all hoida. Teadsin, et kui ühe napsu võtan, kaotan täielikult kontrolli ja joon end pil­dituks. Üritasin siiski ühe päeva kaupa enda alkoholi kinnis­ideed taltsutada.
+
+Ühel päeval pärast tööd ostsin kaks liitrit viskit ning jõin rohkem kui kolmandiku sellest vähem kui nelja tunni jooksul samal õhtul. Mul oli järgmisel päeval mee­letult paha, aga suutsin ikkagi tööle minna. Kui tagasi koju jõudsin, istusin oma vanemate diivanil ja teadsin, ma teadsin, et teen selle pudeli jälle lahti, olgugi et mul oli eelmisest õhtust ikka väga halb. Teadsin ka, et ei taha tegelikult juua. Seal diivanil istudes jõudis mulle pärale, et uskumus „Võiksin lõpetada, kui tahan, aga ma liht­salt ei taha," sedapuhku ei kehtinud, sest mul polnud soovi tol hetkel juua. Siiski ma tõusin järsku diivanilt ja valasin endale joogi. Tagasi diivanile istudes hakkasin ma nutma. Mu eitamine oli murtud; arvan, et sel õhtul leidsin oma põhja, aga ma ei teadnud seda tol hetkel. Arvasin lihtsalt, et olen hull. Ma jõin pudeli tühjaks.
+
+Kuus kuud hiljem saatis boss mu Californiasse mes­sile. Vihkasin messe, kuid mulle meeldis reisida, nii et ma läksin. Olin reisi pärast äärmiselt närviline, sest mu ülemusele meeldis pidu panna ning kutsusime ühe endavanuse tüübi Hawaiilt endaga kaasa. Sel hetkel oli mul õnnestunud 31 päeva joomata olla ning ma kartsin paaniliselt, et annan kiusatusele järele, mis tekib, kui olla kõik hinnas reisil, võimalustest tulvil linnas koos kahe peoloomaga. Mul oli olnud raske 31 päeva kuival olla, kinnisidee saatis mind iga päev.
+
+Jõudsin reedel hilja kohale ning suutsin õhtul mitte jooma hakata. Järgmisel hommikul messil pakuti mulle kingitust, mis muutis mu elu. Meie Hawaii müügimees oli pinges. Ma arvasin, et ta oli pettunud, sest tal ei olnud õnnestunud ühe paari tellimust saada, kellega ta just suhtles. Läksin teda lohutama. Ta ütles, et tema tujul pole selle paariga mingit pistmist. Ta ütles, et oli samal nädalal ilma jäänud tüdruksõbrast, kukkunud koolist välja, kaotanud oma korteri ning töökoha. Ta lisas: „Ma olen alkohoolik. Olin poolteist aastat kaine, aga eelmisel nädalal uuesti jõin. Olen selle tõttu omadega sassis."
+
+Sel hetkel kuulsin enda peas üht sõna. Sõna oli „nüüd". Ma teadsin, et see tähendab: „Ütle midagi nüüd!"
+
+Enda hämmastuseks lausisin sõnad: „Mike, ma olen vist ka." Mike'i tuju muutus hetkega. Nüüd mõistan, et temas tekkis lootus. Hakkasime rääkima. Muuhulgas ütlesin talle, et ma ei olnud kuu aega joonud, kuid ei käinud AAs. Kui ta küsis, miks AAd vältisin, siis vas­tasin, et ma polnud enda meelest põhja jõudnud. Ta ei hakanudki naerma, vaid kostis: „Põhi tuleb siis, kui kaevamise lõpetad." Ta viis mind mu esimesele kolmele AA koosolekule.
+
+Teisel koosolekul tekkis mul kindlameelne soov kai­neks jääda. Kohal oli umbes 35 inimest, aga ruum oli väike, nii et koosolek tundus meeletult rahvarohke. Kuna ma olin võõrast linnast, tõusin püsti ning tutvus­tasin end, kui koosoleku juhataja mul seda teha palus. Hiljem paluti mul sel koosolekul oma lugu rääkida. Tõusin ning jalutasin hädavaevu mikrofoni ja kõne­puldi ette – ma polnud kunagi elus nii närvis olnud. Aga mul õnnestus rääkida muretult ja ma kirjeldasin kõiki sündmusi, mis olid eelnenud sellele koosolekule jõudmisele.
+
+Kui rääkisin, vaatasin ruumis ringi. Mis veelgi täht­sam, vaatasin teiste ruumis viibivate inimeste nägusid ning märkasin. Märkasin mõistmist, kaastunnet, armas­tust. Täna olen veendunud, et sel hetkel nägin oma Kõrgemat Jõudu esimest korda nendes nägudes. Olles seal kõnepuldis, jõudis mulle pärale: seda ma olingi terve elu otsinud. See oli vastus, siinsamas minu ees. Mind tabas kirjeldamatu kergendus. Teadsin, et võitlus on läbi.
+
+Ikka veel kergenduse ja lootuse lummuses, meenus mulle selsamal õhtul kolledži kempsus veedetud pärat­lõuna, kui ma olin nii veendunud, et olin alkoholi näol vastuse leidnud. Nägin nüüd selgelt, et see oli olnud vale. Minu jaoks ongi see alkoholi kohta parim kirjeldus: see on vale, kuri, salakaval vale. Ajasin seda valet pikka pikka aega taga. Isegi siis, kui oli ilmselge, et ma seisan elus paigal ning tapan end selle käigus. Sel AA koosole­kul teiste nägusid vaadates taipasin viimaks tõde.
+
+Kodulinna tagasi jõudes pühendasin ennast AA'le. Käisin 90 päeva jooksul 90 koosolekul, sain omale tugi­isiku ning liitusin kodurühmaga. Tegin kõike, mida mul teha soovitati. Valmistasin kohvi, võtsin kohustusi ja teenisin. Kihutasin varase kainuse ameerika mägedel ning iga sekund oli seda väärt, et jõuda sinna, kus olen praegu.
+
+Mu tervenemise jaoks on väga oluline õppida ja Sammude kallal töötada. Sammukoosolekutel käin siiani vähemalt kaks korda nädalas. Mul on tugiisik, kes juhendab mind läbi Sammude õrnalt, kuid mõjusalt – samasuguse kindlameelsusega, mida loodan jäljendada kahe naisega, kellele mina olen tugiisikuks. Lubadused on hakanud mu jaoks täide minema ja palju tööd on veel teha.
+
+Peaaegu võimatu kirjeldada, kui palju programm on mulle andnud, isegi nende kuue lühikese aasta jook­sul. Pean juba viis aastat ennast ise üleval, mul on oma korter ning plaanin järgmisel aastal maja osta. Mul on hea töökoht paljutõotava tulevikuga ning minu sisse­tulek on kainuse ajal 150% tõusnud.
+
+Aga just nagu alkoholism ei eelda alati materiaal­seid kaotusi, ei ole materiaalsed võidud kainuse õiged mõõdu­puud. Tõeline tasu ei ole materiaalne. Mul on nüüd sõbrad, sest ma tean, kuidas olla sõber, ja ma oskan väärtuslikke sõprussuhteid hoida ning julgus­tada. Selle asemel, et olla pikale veninud üheöösuhe­ntes nendega, keda nimetasin peigmeesteks, on mu elus eriline kaaslane, kellega olen peaaegu viis aastat suhtes olnud. Ja mis kõige tähtsam, ma tean, kes ma olen. Tean oma eesmärke, unistusi, väärtusi ja piire, ning oskan neid kaitsta, hoida ja ellu viia. Need on kainuse tõeli­sed viljad, mida olen alati otsinud. Olen tänulik, et mu Kõrgem Jõud sekkus, et aidata mul jõuda tõeni. Palve­tan iga päev, et ma sellele kunagi selga ei keeraks. Tulin AA'sse, et lõpetada joomine; vastu sain oma elu.
 
