@@ -25,4 +25,4 @@ See on Anonüümsete Alkohoolikute põhitekst, tuntud ka kui "Big Book".
 
 ---
 
-*"Me olime täiesti võimetud alkoholiga hakkama saama. Mitte keegi inimlikest jõududest ei saanud meid alkoholismist vabastada. Aga Jumal võib ja tahab seda. Kui ta leida."*
+> *"Me olime täiesti võimetud alkoholiga hakkama saama. Mitte keegi inimlikest jõududest ei saanud meid alkoholismist vabastada. Aga Jumal võib ja tahab seda. Kui ta leida."*
