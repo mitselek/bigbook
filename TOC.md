@@ -2,85 +2,86 @@
 
 ## Eessõnad
 
-- Eessõna - xi
-- Eessõna esimesele väljaandele - xiii
-- Eessõna teisele väljaandele - xv
-- Eessõna kolmandale väljaandele - xxii
-- Eessõna neljandale väljaandele - xxiii
+- Eessõna
+- Eessõna esimesele väljaandele
+- Eessõna teisele väljaandele
+- Eessõna kolmandale väljaandele
+- Eessõna neljandale väljaandele
+- Arsti arvamus
 
 ## Peatükid
 
-1. Billi lugu - 1
-2. Lahendus on olemas - 17
-3. Alkoholismist lähemalt - 30
-4. Meie, agnostikud - 44
-5. Kuidas see töötab - 58
-6. Tegutsema - 72
-7. Töö teistega - 89
-8. Naistele - 104
-9. Perekond hiljem - 122
-10. Tööandjatele - 136
-11. Tulevikupilt teie jaoks - 151
+1. Billi lugu
+2. Lahendus on olemas
+3. Alkoholismist lähemalt
+4. Meie, agnostikud
+5. Kuidas see töötab
+6. Tegutsema
+7. Töö teistega
+8. Naistele
+9. Perekond hiljem
+10. Tööandjatele
+11. Tulevikupilt teie jaoks
 
 ## Isiklikud kogemuslood
 
 ### I OSA: AA teerajajad
 
-- Doktor Bobi painajalik unenägu - 171
-- Anonüümne alkohoolik number kolm - 182
-- Tänulikkus tegudes - 193
-- Ka naised on haiged - 200
-- Meie sõber lõunast - 208
-- Nõiaring - 219
-- Jimi lugu - 232
-- Mees, kes seljatas hirmu - 246
-- Ta alahindas enda väärtust - 258
-- Kuningriigi võtmed - 268
+1. Doktor Bobi painajalik unenägu
+2. Anonüümne alkohoolik number kolm
+3. Tänulikkus tegudes
+4. Ka naised on haiged
+5. Meie sõber lõunast
+6. Nõiaring
+7. Jimi lugu
+8. Mees, kes seljatas hirmu
+9. Ta alahindas enda väärtust
+10. Kuningriigi võtmed
 
 ### II OSA: Nad lõpetasid aegsasti
 
-- Puuduv lüli - 281
-- Hirm hirmu ees - 289
-- Koduperenaine, kes jõi kodus - 295
-- Arst, ravi iseennast! - 301
-- Minu võimalus elada - 309
-- Elu õpilane - 319
-- Eitamise jõe ületamine - 328
-- Sest ma olen alkohoolik - 338
-- Oleks võinud ka hullemini minna - 348
-- Köis - 359
-- Tunnetest üle ujutatud - 369
-- Võitja võtab kõik - 375
-- Mina, alkohoolik? - 382
-- Alatine otsing - 388
-- Joodik nagu sinagi - 398
-- Leppimine oli lahendus - 407
-- Võimaluste aken - 421
+1. Puuduv lüli
+2. Hirm hirmu ees
+3. Koduperenaine, kes jõi kodus
+4. Arst, ravi iseennast!
+5. Minu võimalus elada
+6. Elu õpilane
+7. Eitamise jõe ületamine
+8. Sest ma olen alkohoolik
+9. Oleks võinud ka hullemini minna
+10. Köis
+11. Tunnetest üle ujutatud
+12. Võitja võtab kõik
+13. Mina, alkohoolik?
+14. Alatine otsing
+15. Joodik nagu sinagi
+16. Leppimine oli lahendus
+17. Võimaluste aken
 
 ### III OSA: Nad kaotasid peaaegu kõik
 
-- Minu pudel, minu vimmad ja mina - 437
-- Ta elas vaid selleks, et juua - 446
-- Turvaline sadam - 452
-- Kuulates tuult - 458
-- Topelt õnnistatud - 470
-- Ehitades uut elu - 476
-- Liikvel - 486
-- Nägemus tervenemisest - 494
-- Rentsli bravuur - 501
-- Hinges tühi - 512
-- Maapinnale toodud - 522
-- Veel üks võimalus - 531
-- Hiline algus - 535
-- Köidikutest vabaks - 544
-- AA õpetas teda kainust kontrollima - 553
+1. Minu pudel, minu vimmad ja mina
+2. Ta elas vaid selleks, et juua
+3. Turvaline sadam
+4. Kuulates tuult
+5. Topelt õnnistatud
+6. Ehitades uut elu
+7. Liikvel
+8. Nägemus tervenemisest
+9. Rentsli bravuur
+10. Hinges tühi
+11. Maapinnale toodud
+12. Veel üks võimalus
+13. Hiline algus
+14. Köidikutest vabaks
+15. AA õpetas teda kainust kontrollima
 
 ## Lisad
 
-- I: AA Traditsioonid - 561
-- II: Vaimne kogemus - 567
-- III: Meditsiiniline vaade AA-le - 569
-- IV: Lasker Award - 571
-- V: Religioosne vaade AA-le - 572
-- VI: Kuidas AAga ühendust võtta - 573
-- VII: Kaksteist Kontseptsiooni - 574
+- I: AA Traditsioonid
+- II: Vaimne kogemus
+- III: Meditsiiniline vaade AA-le
+- IV: Lasker Award
+- V: Religioosne vaade AA-le
+- VI: Kuidas AAga ühendust võtta
+- VII: Kaksteist Kontseptsiooni
