@@ -1,0 +1,27 @@
+# Jekyll konfiguratsioon GitHub Pages'i jaoks
+title: Anonüümsed Alkohoolikud
+description: Alcoholics Anonymous "Big Book" Eesti keeles, neljas väljaanne
+lang: et
+theme: minima
+
+# Navigatsiooni seaded
+header_pages:
+  - TOC.md
+  - front_matter/eessonad.md
+  - kogemuslood/cover.md
+  - lisad/lisad.md
+
+# Üldised seaded
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# URL struktuur
+permalink: /:title/
+
+# Pluginad
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
