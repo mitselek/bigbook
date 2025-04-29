@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Ta alahindas enda väärtust"
+permalink: /kogemuslood/i-osa/ta-alahindas-enda-vaartust/
+nav_order: 10
+parent: "I osa: Teerajajad"
+---
+
 # TA ALAHINDAS ENDA VÄÄRTUST
 
 >*Ometi leidis ta, et on olemas Kõrgem Jõud, kes uskus temasse rohkem kui ta ise. Nii sündis AA Chicagos.*
@@ -8,7 +16,7 @@ Kõik see muutus, kui asusin kolledžisse õppima. Pidin kohanema uue seltskonna
 
 Pärast koolist lahkumist asusin tööle Akronisse ja elasin vanemate juures. Kodune elu avaldas taas piiravat mõju. Arvestasin vanemate tunnetega ja varjasin joomist nende eest. See jätkus kuni mu kahekümneseitsmenda eluaastani. Siis hakkasin reisima, minu tööpiirkonnaks said Ameerika Ühendriigid ja Kanada. Kuna mul oli nii palju vabadust ning piiramatu kuluarve, hakkasin peagi igal õhtul jooma, lollitades end, et see kõik kuulub töö juurde. Nüüd tean, et 60 protsenti ajast jõin ma üksi, mitte koos klientidega.
 
-<not-a-list/>1930. aastal kolisin Chicagosse. Varsti pärast seda, suuresti majandussurutise tõttu, avastasin, et mul on palju vaba aega ja et väike hommikune jook aitab. 1932. aastaks jõin juba kaks, kolm päeva jutti. Samal aastal sai mu naisel minu joomisest kodus täiesti villand ja ta helistas mu isale Akronis, et too mulle järele tuleks. Ta palus minuga midagi ette võtta, sest tema ei suutnud. Ma olin talle tülgastav.
+1930. aastal kolisin Chicagosse. Varsti pärast seda, suuresti majandussurutise tõttu, avastasin, et mul on palju vaba aega ja et väike hommikune jook aitab. 1932. aastaks jõin juba kaks, kolm päeva jutti. Samal aastal sai mu naisel minu joomisest kodus täiesti villand ja ta helistas mu isale Akronis, et too mulle järele tuleks. Ta palus minuga midagi ette võtta, sest tema ei suutnud. Ma olin talle tülgastav.
 
 See oli algus viieaastasele edasi-tagasi pendeldamisele minu Chicago kodu ja Akroni vahel, et kaineks saada. Sel perioodil muutusid joomingud järjest sagedasemaks ja kestsid kauem. Kord tuli isa koguni Floridasse, et aidata mul kaineks saada, kui hotelli juhataja talle helistas ja ütles, et kui isa tahab mind veel elusana näha, peaks ta kiiresti kohale tulema. Mu naine ei suutnud mõista, miks ma isa jaoks kaineks saan, aga tema jaoks mitte. Nad said kokku ja isa selgitas talle, et ta lihtsalt võttis mul püksid, kingad ja raha ära, et ma ei saaks alkoholi osta ja ma lihtsalt pidin kaineks saama.
 

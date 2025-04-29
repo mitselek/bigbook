@@ -103,6 +103,9 @@ Raamat on konverteeritud hierarhiliseks kogumiks markdown-faile, mis on organise
      ```
 
    - Ühilda failinimed URL-sõbralikuks (asenda täpitähed, tühikud jne)
+   - **URL kokkulepe:** Kasutada sõnavahedena sidekriipse (`-`) mitte alakriipse (`_`), 
+     näiteks `/peatykid/billi-lugu/` mitte `/peatykid/billi_lugu/`. See järgib veebistandardeid, 
+     parandab SEO-d ja on linkidena visuaalselt selgem.
 
 4. **Lokaliseerimine ja kohandamine**
    - Lisa eesti keele tugi (vajadusel loo kohandatud lokalisatsiooni fail)

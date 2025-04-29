@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Meie sõber lõunast"
+permalink: /kogemuslood/i-osa/meie-sober-lounast/
+nav_order: 5
+parent: "I osa: Teerajajad"
+---
+
 # MEIE SÕBER LÕUNAST
 
 >*Üks AA teerajajatest, pastori poeg ja farmer lõunast küsis: "Kes olen mina ütlema, et Jumalat pole olemas?"*

@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Tänulikkus tegudes"
+permalink: /kogemuslood/i-osa/tanulikkus-tegudes/
+nav_order: 3
+parent: "I osa: Teerajajad"
+---
+
 # TÄNULIKKUS TEGUDES
 
 >*Dave B lugu, kes oli 1944. aastal üks Kanada AA asutajatest.*

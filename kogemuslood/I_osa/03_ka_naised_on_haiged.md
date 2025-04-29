@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Ka naised on haiged"
+permalink: /kogemuslood/i-osa/ka-naised-on-haiged/
+nav_order: 4
+parent: "I osa: Teerajajad"
+---
+
 # KA NAISED ON HAIGED
 
 >*Kuigi sel naisal oli elus rohkesti võimalusi, oleks alkohol äärepealt ta elu lõpetanud. Ühe esimese AA liikmena levitas ta sõnumit naiste seas meie tegevuse alguspäevil.*

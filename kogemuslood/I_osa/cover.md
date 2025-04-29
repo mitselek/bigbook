@@ -2,7 +2,9 @@
 layout: page
 title: "I osa: Teerajajad"
 permalink: /kogemuslood/i-osa/
-nav_order: 20
+nav_order: 1
+parent: "Kogemuslood"
+has_children: true
 ---
 
 # I OSA

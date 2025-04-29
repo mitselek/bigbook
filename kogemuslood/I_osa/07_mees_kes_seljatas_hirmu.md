@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Mees, kes seljatas hirmu"
+permalink: /kogemuslood/i-osa/mees-kes-seljatas-hirmu/
+nav_order: 8
+parent: "I osa: Teerajajad"
+---
+
 # MEES, KES SELJATAS HIRMU
 
 >*Ta veetis kaheksateist aastat põgenedes ja leidis siis, et põgeneda pole tarvis. Niisiis pani ta aluse AA-le Detroitis.*

@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Kuningriigi võtmed"
+permalink: /kogemuslood/i-osa/kuningriigi-votmed/
+nav_order: 9
+parent: "I osa: Teerajajad"
+---
+
 # KUNINGRIIGI VÕTMED
 
 >*See elutark naine aitas käivitada AA Chicagos ja andis seega oma võtmed paljudele edasi.*

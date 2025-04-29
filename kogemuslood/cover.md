@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Isiklikud kogemuslood"
+title: "Kogemuslood"
 permalink: /kogemuslood/
-nav_order: 3
+nav_order: 15
 ---
 
 # ISIKLIKUD KOGEMUSLOOD

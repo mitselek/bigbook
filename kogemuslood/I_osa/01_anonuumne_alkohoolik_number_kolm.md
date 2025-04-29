@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Anonüümne alkohoolik number kolm"
+permalink: /kogemuslood/i-osa/anonuumne-alkohoolik-number-kolm/
+nav_order: 2
+parent: "I osa: Teerajajad"
+---
+
 # ANONÜÜMNE ALKOHOOLIK NUMBER KOLM
 
 >*Maailma esimese AA rühma, Akroni rühma nr 1 teerajaja. Ta säilitas endas usu. Seeläbi on nii tema kui väga paljud teised leidnud uue elu.*

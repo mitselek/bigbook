@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Nõiaring"
+permalink: /kogemuslood/i-osa/noiaring/
+nav_order: 6
+parent: "I osa: Teerajajad"
+---
+
 # NÕIARING
 
 >*Kuidas see lõpuks murdis ühe lõunaosariiklase kangekaelsuse ja saatus viis selle müügimehe Philadelphiasse AA-d käivitama.*

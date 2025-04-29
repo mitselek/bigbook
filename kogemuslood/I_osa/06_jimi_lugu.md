@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Jimi lugu"
+permalink: /kogemuslood/i-osa/jimi-lugu/
+nav_order: 7
+parent: "I osa: Teerajajad"
+---
+
 JIMI LUGU
 
 >*See arst, AA esimese mustanahaliste rühma varajasi liikmeid, räägib kuidas vabadus saabus oma rahva seas töötades.*

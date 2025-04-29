@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Doktor Bobi painajalik unenägu"
+permalink: /kogemuslood/i-osa/doktor-bobi-painajalik-unenagu/
+nav_order: 1
+parent: "I osa: Teerajajad"
+---
+
 # DOKTOR BOBI PAINAJALIK UNENÄGU
 
 >*Anonüümsete Alkohoolikute asutajaliige. Meie Ühingu sündi tähistab tema pideva kainuse esimene päev – 10. juuni 1935.*  
