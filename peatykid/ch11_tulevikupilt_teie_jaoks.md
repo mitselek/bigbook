@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Peatükk 11: Tulevikupilt teie jaoks"
+permalink: /peatykid/tulevikupilt-teie-jaoks/
+nav_order: 11
+---
+
 # Peatükk 11: Tulevikupilt teie jaoks
 
 Enamiku normaalsete inimeste jaoks tähendab joomine peomeeleolu, sõprust ja elavat kujutlusvõimet.

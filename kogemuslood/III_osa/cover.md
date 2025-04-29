@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "III OSA - Nad kaotasid peaaegu kõik"
-permalink: /kogemuslood/III_osa/
-nav_order: 3
+title: "III osa: Kaotasid peaaegu kõik"
+permalink: /kogemuslood/iii-osa/
+nav_order: 22
 ---
 
 # III OSA

@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Peatükk 7: Töö teistega"
+permalink: /peatykid/too-teistega/
+nav_order: 7
+---
+
 # Peatükk 7: Töö teistega (lk 89)
 
 Praktiline kogemus näitab, et miski ei taga immuunsust joomise vastu nii hästi kui innukas töö teiste alkohoolikutega. See aitab, kui miski muu ei toimi. Meie kaheteistkümnes soovitus on selline: kandke seda sõnumit edasi teiste alkohoolikuteteni! Teie saate aidata seal, kus keegi teine seda ei suuda. Teie suudate võita nende usalduse, kui see teistel ebaõnnestub. Pidage meeles, et nad on väga haiged.

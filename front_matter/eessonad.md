@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Eessõnad"
+title: "Eessõna"
 permalink: /front_matter/eessonad/
-nav_order: 2
+nav_order: 1
 ---
 
 # Eessõnad

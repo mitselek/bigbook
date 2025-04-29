@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Peatükk 6: Tegutsema"
+permalink: /peatykid/tegutsema/
+nav_order: 6
+---
+
 # Peatükk 6: Tegutsema (lk 76)
 
 Kui isiklik inventuur on tehtud, siis mida sellega edasi teha? Oleme püüdnud omandada uut hoiakut, uut suhet meie Loojaga ja avastada takistusi oma teel. Oleme tunnistanud teatud puudusi; oleme laias laastus kindlaks teinud, milles on probleem; oleme pannud sõrme peale oma nõrkadele kohtadele isiklikus inventuuris. Nüüd saavad need peagi kõrvaldatud. See nõuab meiepoolset tegutsemist, mis lõpuleviiduna tähendab, et oleme tunnistanud Jumalale, iseendale ja teisele inimesele oma vigade tõelist olemust. Mis juhatab meid eelmises peatükis mainitud tervenemisprogrammi Viienda Sammu juurde.

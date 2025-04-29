@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Peatükk 9: Perekond hiljem"
+permalink: /peatykid/perekond-hiljem/
+nav_order: 9
+---
+
 # Peatükk 9: Perekond hiljem
 
 Meie naisliikmed on alkohoolikute abikaasadele soovitanud mõningaid hoiakuid, mida võtta terveneva mehe suhtes. Võib-olla jäi neist mulje, nagu tuleks mees vati sisse mässida ja pjedestaalile asetada. Õnnestunud kohanemine eeldab vastupidist. Kõik perekonnaliikmed peaksid ühinema sallivuse, mõistva suhtumise ja armastuse pinnal. Sellega kaasneb enesekahandamine. Alkohoolikul, tema naisel, lastel, äiadel ja ämmadel on nähtavasti kujunenud kindel ettekujutus perekonna suhtumisest temasse. Igaüks on huvitatud, et tema soovidega arvestatakse. Meie arvates on nii, et mida rohkem üks perekonnaliige nõuab teistelt endale kuuletumist, seda rohkem vimma põhjustab see teistes perekonnaliikmetes. See põhjustab lahkhelisid ja õnnetu olemist.

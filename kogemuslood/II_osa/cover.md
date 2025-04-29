@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "II OSA - Nad lõpetasid aegsasti"
-permalink: /kogemuslood/II_osa/
-nav_order: 2
+title: "II osa: Lõpetasid õigel ajal"
+permalink: /kogemuslood/ii-osa/
+nav_order: 21
 ---
 
 # II OSA

@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Peatükk 10: Tööandjatele"
+permalink: /peatykid/tooandjatele/
+nav_order: 10
+---
+
 # Peatükk 10: Tööandjatele (lk 137)
 
 Paljude tänapäeva tööandjate seast meenub meile üks meie liige, kes on lõviosa oma elust veetnud suuräri maailmas. Ta on tööle võtnud ja vallandanud sadu inimesi. Tema teab, milline paistab alkohoolik tööandja pilgu läbi. Tema järgnevad vaated võiksid olla ärimeestele üle kogu maailma erakordselt kasulikud. Kuid laskem tal endal rääkida:

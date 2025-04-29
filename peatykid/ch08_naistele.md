@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Peatükk 8: Naistele"
+permalink: /peatykid/naistele/
+nav_order: 8
+---
+
 # Peatükk 8: Naistele*
 
 Meie raamat on siiani üksikute eranditega rääkinud meestest. Kuid öeldu kehtib samahästi ka naiste kohta. Meie tegutsemine joovate naiste heaks on hoogustumas. Kõik tõendid viitavad sellele, et naiste tervis taastub sama hästi kui meeste oma, kui nad meie soovitusi järgivad.
