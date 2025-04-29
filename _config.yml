@@ -3,6 +3,7 @@ title: Anonüümsed Alkohoolikud
 description: Alcoholics Anonymous "Big Book" Eesti keeles, neljas väljaanne
 lang: et
 theme: minima
+baseurl: "/bigbook"  # URL-i alamkataloog, kus leht paikneb GitHub Pages'is
 
 # Navigatsiooni seaded
 header_pages:

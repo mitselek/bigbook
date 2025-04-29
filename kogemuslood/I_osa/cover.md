@@ -19,13 +19,13 @@ Tänapäeval võib leida sadu AA liikmeid, kellel ei ole esinenud tagasilangust 
 
 ## Kogemuslood
 
-1. [Doktor Bobi painajalik unenägu](./00_doktor_bobi_painajalik_unenagu/)
-2. [Anonüümne alkohoolik number kolm](./01_anonuumne_alkohoolik_number_kolm/)
-3. [Tänulikkus tegudes](./02_tanulikkus_tegudes/)
-4. [Ka naised on haiged](./03_ka_naised_on_haiged/)
-5. [Meie sõber lõunast](./04_meie_sober_lounast/)
-6. [Nõiaring](./05_noiaring/)
-7. [Jimi lugu](./06_jimi_lugu/)
-8. [Mees, kes seljatas hirmu](./07_mees_kes_seljatas_hirmu/)
-9. [Kuningriigi võtmed](./08_kuningriigi_votmed/)
-10. [Ta alahindas enda väärtust](./09_ta_alahindas_enda_vaartust/)
+1. [Doktor Bobi painajalik unenägu]({{ site.baseurl }}/kogemuslood/i-osa/doktor-bobi-painajalik-unenagu/)
+2. [Anonüümne alkohoolik number kolm]({{ site.baseurl }}/kogemuslood/i-osa/anonuumne-alkohoolik-number-kolm/)
+3. [Tänulikkus tegudes]({{ site.baseurl }}/kogemuslood/i-osa/tanulikkus-tegudes/)
+4. [Ka naised on haiged]({{ site.baseurl }}/kogemuslood/i-osa/ka-naised-on-haiged/)
+5. [Meie sõber lõunast]({{ site.baseurl }}/kogemuslood/i-osa/meie-sober-lounast/)
+6. [Nõiaring]({{ site.baseurl }}/kogemuslood/i-osa/noiaring/)
+7. [Jimi lugu]({{ site.baseurl }}/kogemuslood/i-osa/jimi-lugu/)
+8. [Mees, kes seljatas hirmu]({{ site.baseurl }}/kogemuslood/i-osa/mees-kes-seljatas-hirmu/)
+9. [Kuningriigi võtmed]({{ site.baseurl }}/kogemuslood/i-osa/kuningriigi-votmed/)
+10. [Ta alahindas enda väärtust]({{ site.baseurl }}/kogemuslood/i-osa/ta-alahindas-enda-vaartust/)
