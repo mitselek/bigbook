@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Leppimine oli lahendus"
+permalink: /kogemuslood/ii-osa/leppimine-oli-lahendus/
+nav_order: 16
+parent: "II osa: Nad lõpetasid poole peal"
+---
+
 # Leppimine oli lahendus
 
 > *See arst arvas, et ta ei ole sõltuvuses – ta lihtsalt kirjutas oma arvukate tõbede jaoks välja meditsiiniliselt näidustatud ravimeid. Leppimine oli tema võti vabanemiseks.*

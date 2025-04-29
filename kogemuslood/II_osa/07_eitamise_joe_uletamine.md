@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Eitamise jõe ületamine"
+permalink: /kogemuslood/ii-osa/eitamise-joe-uletamine/
+nav_order: 7
+parent: "II osa: Nad lõpetasid poole peal"
+---
+
 # Eitamise jõe ületamine
 
 > *Ta jõi, et põgeneda, et unustada, iseenesele elu korvamiseks. Tõusmine põhjast oli lausa valutu.*

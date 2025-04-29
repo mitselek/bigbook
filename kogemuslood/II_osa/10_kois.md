@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Köis"
+permalink: /kogemuslood/ii-osa/kois/
+nav_order: 10
+parent: "II osa: Nad lõpetasid poole peal"
+---
+
 # Köielkõnd
 
 > *Alkohoolikust geimehe üksildane näitemäng kahe maailma vahel kõikudes lõppes, kui ta viimaks AA-sse sattus.*

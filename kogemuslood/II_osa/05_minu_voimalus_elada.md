@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Minu võimalus elada"
+permalink: /kogemuslood/ii-osa/minu-voimalus-elada/
+nav_order: 5
+parent: "II osa: Nad lõpetasid poole peal"
+---
+
 # MINU VÕIMALUS ELADA
 
 > *AA andis sellele teismelisele tüdrukule tööriistad, millega välja ronida oma meeleheite süngest kuristikust.*

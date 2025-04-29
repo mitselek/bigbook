@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Tunnetest üle ujutatud"
+permalink: /kogemuslood/ii-osa/tunnetest-ule-ujutatud/
+nav_order: 11
+parent: "II osa: Nad lõpetasid poole peal"
+---
+
 # (11) TUNNETEST ÜLE UJUTATUD
 
 > *Kui tamm tema ja Jumala vahelt minema uhuti, jõudis see end agnostikuks nimetav inimene Kolmanda Sammuni.*

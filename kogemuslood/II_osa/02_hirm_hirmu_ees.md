@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Hirm hirmu ees"
+permalink: /kogemuslood/ii-osa/hirm-hirmu-ees/
+nav_order: 2
+parent: "II osa: Nad lõpetasid poole peal"
+---
+
 # HIRM HIRMU EES
 
 > *See naine oli ettevaatlik. Ta otsustas, ega lase kunagi oma joomist käest. Ja ta ei võtaks kunagi, mitte kunagi seda hommikust jooki!*

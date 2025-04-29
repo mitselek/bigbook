@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Puuduv lüli"
+permalink: /kogemuslood/ii-osa/puuduv-luli/
+nav_order: 1
+parent: "II osa: Nad lõpetasid poole peal"
+---
+
 # PUUDUV LÜLI
 
 > *Ta pidas oma õnnetuse põhjuseks kõike, välja arvatud alkoholi.*

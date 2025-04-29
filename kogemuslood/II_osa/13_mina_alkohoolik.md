@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Mina, alkohoolik"
+permalink: /kogemuslood/ii-osa/mina-alkohoolik/
+nav_order: 13
+parent: "II osa: Nad lõpetasid poole peal"
+---
+
 # Mina, alkohoolik?
 
 > *Alkohol pitsitas seda kirjameest üsna kõvasti – kuid ta pääses üsna tervena.*

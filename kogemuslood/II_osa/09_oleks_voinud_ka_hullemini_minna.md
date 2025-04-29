@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Oleks võinud ka hullemini minna"
+permalink: /kogemuslood/ii-osa/oleks-voinud-ka-hullemini-minna/
+nav_order: 9
+parent: "II osa: Nad lõpetasid poole peal"
+---
+
 # (9) OLEKS VÕINUD KA KEHVEMINI MINNA
 
 > *Alkohol oli ähvardav pilv selle pankuri helges taevas. Haruldase ettenägelikkusega mõistis ta, et sellest võib vallanduda keeristorm.*

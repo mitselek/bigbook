@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Arst, ravi iseennast"
+permalink: /kogemuslood/ii-osa/arst-ravi-iseennast/
+nav_order: 4
+parent: "II osa: Nad lõpetasid poole peal"
+---
+
 # ARST, RAVI ISEENNAST!
 
 > *Elukutselt psühhiaater ja kirurg, eksles see mees seni, kuni ta ükskord mõistis, et Suur Ravitseja pole mitte tema, vaid Jumal.*

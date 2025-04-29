@@ -1,8 +1,10 @@
 ---
 layout: page
-title: "II osa: Lõpetasid õigel ajal"
+title: "II osa: Nad lõpetasid poole peal"
 permalink: /kogemuslood/ii-osa/
-nav_order: 21
+nav_order: 2
+parent: "Kogemuslood"
+has_children: true
 ---
 
 # II OSA

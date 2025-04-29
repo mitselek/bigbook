@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Võitja võtab kõik"
+permalink: /kogemuslood/ii-osa/voitja-votab-koik/
+nav_order: 12
+parent: "II osa: Nad lõpetasid poole peal"
+---
+
 # (12) VÕITJA VÕTAB KÕIK
 
 > *Peaaegu pimedana, kuid mitte enam üksi olles leidis ta viisi jääda kaineks, luua perekond ja anda oma elu Jumala hoolde.*

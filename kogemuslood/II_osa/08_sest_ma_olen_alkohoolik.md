@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Sest ma olen alkohoolik"
+permalink: /kogemuslood/ii-osa/sest-ma-olen-alkohoolik/
+nav_order: 8
+parent: "II osa: Nad lõpetasid poole peal"
+---
+
 # Sest ma olen alkohoolik
 
 > *See jooja leidis viimaks ometi vastuse oma piinavale küsimusele: „Miks?"*

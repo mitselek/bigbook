@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Alatine otsing"
+permalink: /kogemuslood/ii-osa/alatine-otsing/
+nav_order: 14
+parent: "II osa: Nad lõpetasid poole peal"
+---
+
 # Alatine otsing
 
 > *See advokaat proovis psühhiaatreid, biotagasiside teraapiat, lõdvestusharjutusi ja mitmeid muid tehnikaid, et oma joomist kontrolli alla saada. Ta leidis lõpuks lahenduse ainulaadselt kohandatud AA Kaheteistkümnes Sammus.*

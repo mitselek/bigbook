@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Elu õpilane"
+permalink: /kogemuslood/ii-osa/elu-opilane/
+nav_order: 6
+parent: "II osa: Nad lõpetasid poole peal"
+---
+
 # Elu õpilane
 
 > *Kodus vanematega elades püüdis ta kasutada tahte­jõudu, et saada võitu joomatungist. Alles siis, kui ta kohtas teist alkohoolikut ja läks AA koosolekule, kin­nistus ta kainus.*

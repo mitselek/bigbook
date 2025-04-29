@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Võimaluste aken"
+permalink: /kogemuslood/ii-osa/voimaluste-aken/
+nav_order: 17
+parent: "II osa: Nad lõpetasid poole peal"
+---
+
 # (17) VÕIMALUSE AKEN
 
 > *See noor alkohoolik astus läbi teise korruse akna ning maandus AAs.*

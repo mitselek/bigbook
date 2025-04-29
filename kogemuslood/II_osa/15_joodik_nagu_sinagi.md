@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Joodik nagu sinagi"
+permalink: /kogemuslood/ii-osa/joodik-nagu-sinagi/
+nav_order: 15
+parent: "II osa: Nad lõpetasid poole peal"
+---
+
 # Joodik nagu sinagi
 
 > *Mida rohkem ta koosolekutel kuulas, seda rohkem mõistis ta omaenda joomise ajalugu.*
