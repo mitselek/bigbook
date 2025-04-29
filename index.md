@@ -13,15 +13,35 @@ See on Anonüümsete Alkohoolikute põhitekst, tuntud ka kui "Big Book".
 
 ### Sisukord
 
-* [Täielik sisukord](TOC.md)
+* [Täielik sisukord](/TOC/)
 
 ### Põhiosad
 
-* [Eessõnad](front_matter/eessonad.md)
-* [Peatükk 1: Billi lugu](peatykid/ch01_billi_lugu.md)
-* [Peatükk 2: Lahendus on olemas](peatykid/ch02_lahendus_on_olemas.md)
-* [Isiklikud kogemuslood](kogemuslood/cover.md)
-* [Lisad](lisad/lisad.md)
+* [Eessõnad](/front_matter/eessonad/)
+
+### Peatükid
+
+1. [Billi lugu](/peatykid/billi-lugu/)
+2. [Lahendus on olemas](/peatykid/lahendus-on-olemas/)
+3. [Alkoholismist lähemalt](/peatykid/alkoholismist-lahemalt/)
+4. [Meie, agnostikud](/peatykid/meie-agnostikud/)
+5. [Kuidas see töötab](/peatykid/kuidas-see-toimib/)
+6. [Tegutsema](/peatykid/tegutsema/)
+7. [Töö teistega](/peatykid/too-teistega/)
+8. [Naistele](/peatykid/naistele/)
+9. [Perekond hiljem](/peatykid/perekond-hiljem/)
+10. [Tööandjatele](/peatykid/tooandjatele/)
+11. [Tulevikupilt teie jaoks](/peatykid/tulevikupilt-teie-jaoks/)
+
+### Isiklikud kogemuslood
+
+* [I osa - AA Teerajajad](/kogemuslood/i-osa/)
+* [II osa - Nad lõpetasid aegsasti](/kogemuslood/ii-osa/)
+* [III osa - Nad kaotasid peaaegu kõik](/kogemuslood/iii-osa/)
+
+### Lisad
+
+* [Kõik lisad](/lisad/lisad/)
 
 ---
 
