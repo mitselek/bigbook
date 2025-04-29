@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Isiklikud kogemuslood"
+permalink: /kogemuslood/
+nav_order: 3
+---
+
 # ISIKLIKUD KOGEMUSLOOD
 
 Kuidas nelikümmend kaks alkohoolikut tervenesid oma tõvest. Alustades AA kaasasutaja „doktor Bobi" loost, on järgnevalt esitatud isiklikud kogemuslood kolmes alajaotuses.
