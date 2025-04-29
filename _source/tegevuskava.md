@@ -34,17 +34,18 @@ Raamat on konverteeritud hierarhiliseks kogumiks markdown-faile, mis on organise
 
 ### 4. Põhipeatükid (11 peatükki)
 
-- Iga peatükk eraldi markdown-failina chapters/ kaustas
+- Iga peatükk eraldi markdown-failina peatykid/ kaustas
 - Peatükk 1: Billi lugu
 - Peatükk 2: Lahendus on olemas
-- Kuni peatükk 11: Tulevikupilt teie jaoks
+- ...
+- .. peatükk 11: Tulevikupilt teie jaoks
 
 ### 5. Isiklikud kogemuslood
 
-- Organiseeritud stories/ kaustas, jagatud kolmeks osaks:
-- **I osa**: AA teerajajad (stories/part1/ kaustas)
-- **II osa**: Nad lõpetasid aegsasti (stories/part2/ kaustas)
-- **III osa**: Nad kaotasid peaaegu kõik (stories/part3/ kaustas)
+- Organiseeritud kogemuslood/ kaustas, jagatud kolmeks osaks:
+- **I osa**: AA teerajajad (kogemuslood/I_osa/ kaustas)
+- **II osa**: Nad lõpetasid aegsasti (kogemuslood/II_osa/ kaustas)
+- **III osa**: Nad kaotasid peaaegu kõik (kogemuslood/III_osa/ kaustas)
 - Iga lugu eraldi markdown-failina
 
 ### 6. Lisad
