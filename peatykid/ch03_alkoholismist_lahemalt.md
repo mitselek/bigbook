@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Peatükk 3: Alkoholismist lähemalt"
+permalink: /peatykid/alkoholismist-lahemalt/
+nav_order: 3
+---
+
 # Peatükk 3: Alkoholismist lähemalt (lk 30)
 
 Mismoodi me saame siis aidata oma lugejail kindlaks teha, kas nad kuuluvad meie hulka? Katsest alkoholist mõneks ajaks loobuda on kindlasti kasu, kuid me usume, et võime alkoholismi ohvritele ja võib-olla isegi meedikutele pakkuda midagi enamat. Seepärast kirjeldame järgnevalt mõningaid taas jooma hakkamisele eelnevaid meeleseisundeid, sest ilmselgelt peitub just siin probleemi tuum.

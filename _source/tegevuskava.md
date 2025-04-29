@@ -92,6 +92,7 @@ Raamat on konverteeritud hierarhiliseks kogumiks markdown-faile, mis on organise
 
 3. **Failide ettevalmistamine**
    - Lisa YAML frontmatter igasse Markdown-faili navigatsiooni jaoks:
+
      ```yaml
      ---
      layout: page
@@ -100,6 +101,7 @@ Raamat on konverteeritud hierarhiliseks kogumiks markdown-faile, mis on organise
      nav_order: 1
      ---
      ```
+
    - Ühilda failinimed URL-sõbralikuks (asenda täpitähed, tühikud jne)
 
 4. **Lokaliseerimine ja kohandamine**
@@ -134,7 +136,7 @@ Raamat on konverteeritud hierarhiliseks kogumiks markdown-faile, mis on organise
    - Lisa lehekülje alumisse ossa navigatsioonilülid
 
 4. **Välimus ja funktsionaalsus**
-   - Lisa kohandatud päis ja jalus (_Footer.md, _Header.md)
+   - Lisa kohandatud päis ja jalus (\_Footer.md, \_Header.md)
    - Lisa CSS kohandused (kui Wiki toetab)
 
 ## Erilised kaalutlused

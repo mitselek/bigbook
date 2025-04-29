@@ -1,3 +1,10 @@
+---
+layout: page
+title: "I OSA - AA Teerajajad"
+permalink: /kogemuslood/I_osa/
+nav_order: 1
+---
+
 # I OSA
 
 ## AA TEERAJAJAD

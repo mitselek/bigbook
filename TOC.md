@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Sisukord"
+permalink: /TOC/
+nav_order: 1
+---
+
 # Sisukord
 
 ## Eessõnad

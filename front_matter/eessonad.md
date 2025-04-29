@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Eessõnad"
+permalink: /front_matter/eessonad/
+nav_order: 2
+---
+
 # Eessõnad
 
 ## Eessõna

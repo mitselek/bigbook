@@ -1,3 +1,10 @@
+---
+layout: page
+title: "III OSA - Nad kaotasid peaaegu kõik"
+permalink: /kogemuslood/III_osa/
+nav_order: 3
+---
+
 # III OSA
 
 ## NAD KAOTASID PEAAEGU KÕIK

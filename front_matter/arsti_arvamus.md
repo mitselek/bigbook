@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Arsti arvamus"
+permalink: /front_matter/arsti_arvamus/
+nav_order: 3
+---
+
 # Arsti arvamus
 
 Meie, Anonüümsete Alkohoolikute liikmed, usume, et lugejale pakub huvi meditsiiniline hinnang käesolevas raamatus esitatud tervenemiskavale. Just arstid, kel on kogemust meie liikmete kannatustega ja kes on olnud meie tervenemise tunnistajateks, peavad avaldama oma veenva arvamuse. Tuntud tohter, ülemaaliselt silmapaistva alkoholismi ja narkomaania probleemidele spetsialiseerunud haigla peaarst, saatis Anonüümsetele Alkohoolikutele järgmise kirja:

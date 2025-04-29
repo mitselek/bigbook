@@ -1,3 +1,10 @@
+---
+layout: page
+title: "II OSA - Nad lõpetasid aegsasti"
+permalink: /kogemuslood/II_osa/
+nav_order: 2
+---
+
 # II OSA
 
 ## NAD LÕPETASID AEGSASTI
