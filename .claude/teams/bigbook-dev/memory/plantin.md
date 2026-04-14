@@ -41,12 +41,56 @@
 
 **[DONE]** Commit 4 (this commit) rewrites team config: `common-prompt.md` and `design-spec.md` fully rewritten to reflect the inverted boundary, all `app/` prefixes purged from prompts, `_sass/` fact error removed, `JEKYLL_CROSSOVER` renamed to `LEGACY_OVERRIDE`, runtime-fetch and editor-auth sections added, `roster.json` `workDir` removed, and this memory entry appended.
 
-**[WIP]** PO requested GitHub auth PoC on the scaffolding page. This is out of scope for the current workdir restructure plan and will land in commit 5 as a separate change. Needs: a registered GitHub OAuth App with PKCE enabled, redirect URI pointing at `https://mitselek.github.io/bigbook/auth/callback/`, and the public client ID from the PO.
+**[DONE]** PO requested GitHub auth PoC on the scaffolding page. Landed end-to-end in commits 5 and 6 (see "Session 2 wrap — auth PoC" below).
 
 **[DEFERRED]** `legacy-guard` lefthook pre-commit hook (blocks staged diffs under `legacy/` unless `LEGACY_OVERRIDE=1`). Hit a shell-escaping issue when running the multi-step guard through lefthook -> sh -c on Windows Git Bash (`staged: -c: line N: syntax error: unexpected end of file`). Until it is restored, treat `legacy/` as off-limits by convention. Options to revisit: (1) move logic to `scripts/legacy-guard.sh` and invoke via `bash scripts/legacy-guard.sh`, (2) use `bash -c` explicitly, (3) implement as a GitHub Actions check.
 
 **[DEFERRED]** `WORKFLOW.md` and `docs/spec.md`. The new product spec will be written during the product brainstorm that follows this restructure.
 
-**[NEXT]** Commit 5 = GitHub auth PoC (per PO request). Then: product brainstorm.
+**[NEXT]** After the auth PoC: product brainstorm.
+
+(*BB:Plantin*)
+
+## 2026-04-14 — Session 2 wrap — auth PoC landed, prepping for clear
+
+**[DONE]** End-to-end production-shaped GitHub auth PoC is live on `https://mitselek.github.io/bigbook/`. Sign in → redirect to github.com → authorize → callback → CF Worker exchange → `/user` fetch → avatar + username render on the landing page. PO verified the full round-trip manually.
+
+**[FACTS for next session]**
+
+- **GitHub App name:** `bigbook-dev` (installed on `mitselek/bigbook`, "Expire user authorization tokens" enabled, Contents read+write permission, OAuth during installation enabled).
+- **GitHub App Client ID:** `Iv23lipPWHpw0QWj8lYF` (public, hardcoded in `src/lib/auth/config.ts`).
+- **GitHub App Client Secret:** **NOT recorded in any durable location**. It was pasted in chat once and uploaded to the Cloudflare Worker via `wrangler secret put`. It lives only in Cloudflare's secret store from here on. **Rotate it at the first opportunity in the next session** (GitHub App settings → Generate a new client secret → `wrangler secret put GITHUB_CLIENT_SECRET` via stdin pipe to overwrite).
+- **Cloudflare Worker:** `https://bigbook-auth-proxy.mihkel-putrinsh.workers.dev`. Source under `worker/` (not part of the Pages deploy). Deployed via `cd worker && npx wrangler deploy`. Holds the `GITHUB_CLIENT_SECRET` env secret. Two endpoints: `POST /exchange` and `POST /refresh`. CORS allowlist: `https://mitselek.github.io`.
+- **Commits 5 and 6:**
+  - `1d87d02` feat(auth): scaffold GitHub App PKCE PoC with Cloudflare Worker token proxy (worker/ + src/lib/auth/ + callback page + landing UI wiring, placeholder CLIENT_ID and WORKER_URL)
+  - `29e8a1d` feat(auth): wire real GitHub App Client ID + Cloudflare Worker URL
+
+**[LESSONS]** (worth writing up into the auth ADR later)
+
+1. **GitHub's `/login/oauth/access_token` has no CORS.** Browsers cannot POST to it. This is a deliberate GitHub policy, not an oversight. Applies to both web-flow and device-flow token exchange, and also to the refresh-token endpoint. Any browser-based auth flow for GitHub (OAuth App or GitHub App) requires a backend for the token exchange step.
+2. **PKCE on GitHub Apps does not eliminate `client_secret`.** GitHub Apps accept `code_challenge` + `code_verifier` on the authorize step as extra protection, but the token exchange endpoint still requires `client_secret` regardless. PKCE is defense-in-depth, not a secret substitute.
+3. **Device-flow refresh tokens do not require `client_secret` on refresh** (per docs), but this is moot given lesson 1 — CORS still blocks the endpoint from a browser.
+4. **The minimum-viable backend for the token exchange is ~170 lines of Cloudflare Worker code.** Free tier, stateless, aligns with the organization's standard stack per the parent `CLAUDE.md`. The `worker/` subdirectory is a sibling service to the Astro app, not part of the Pages deploy — deployed separately via `wrangler deploy`.
+5. **Wrangler on Git Bash (Windows) silently falls back to non-interactive mode.** Prompts for secrets and confirmations are skipped — you get a "Success" message with an empty-string default value. Workaround: use stdin pipe (`printf '%s' 'secret' | npx wrangler secret put NAME`) or the Cloudflare dashboard for sensitive inputs.
+6. **Astro 5 strict TS + `noUncheckedIndexedAccess` + `exactOptionalPropertyTypes`** require care around DOM API return values. `document.getElementById` returns `HTMLElement | null`; the callback and landing pages use explicit casts (`as HTMLButtonElement | null`) and null guards on every reference.
+
+**[TOKEN lifecycle]** (confirmed working end-to-end)
+
+- Access token: 8 hours, in-memory only (`src/lib/auth/token-store.ts`). Gone on reload.
+- Refresh token: 6 months, rotating, `localStorage` key `bigbook.auth.refresh`. Rotates on every refresh.
+- Silent refresh triggered by: (a) stale in-memory access token on page load, (b) 401 response from `api.github.com/user`.
+
+**[FOLLOW-UPS for next session]** (in rough priority order)
+
+1. **Rotate the leaked client secret** (security cleanup, blast-radius reduction).
+2. **Write the real auth ADR** at `docs/decisions/0001-auth.md`. The PoC *is* the production shape, minus the ADR artefact. Capture what was ruled out (pure static, device flow) and why (lessons 1-3 above).
+3. **Restore the `legacy-guard` lefthook hook** — move logic to `scripts/legacy-guard.sh` and invoke via `bash` (option 1 from the earlier deferral). Small, self-contained.
+4. **Node 20 deprecation warnings** on GH Actions (`actions/checkout@v4`, `actions/setup-node@v4`, `actions/upload-artifact@v4`, `actions/configure-pages@v5`). GitHub is forcing Node 24 in June 2026. Upstream action versions for Node 24 not yet available at time of session 2; recheck in a month or two.
+5. **`npm audit` reports 10 moderate-severity advisories** in the fresh Astro scaffold. Triage separately.
+6. **Chat history cleared at end of session 2.** Next session starts without the chat context of how we got here. This scratchpad + the plan file at `~/.claude/plans/sparkling-gliding-knuth.md` + commits 0dcfa0f..29e8a1d are the full record.
+
+**[NEXT SESSION ENTRY POINT]** Product brainstorm. The entire workdir + deploy + auth infrastructure is now in place. The question that opens session 3 is: *"what does the bilingual reader actually look like, feel like, and do?"* No code to write before that conversation happens — the next session should start with the brainstorming skill, not with implementation.
+
+**[UNADDRESSED from session start]** The PO asked at the top of session 2 for "higher-level workdir decisions, then brainstorm a product." The workdir decisions turned into a full plan + four-commit restructure, then the auth PoC was added on top. The product brainstorm is still the unsatisfied ask — pick it up first thing in session 3.
 
 (*BB:Plantin*)
