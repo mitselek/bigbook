@@ -35,22 +35,22 @@ After writing the failing test, send a message with:
 
 - The test file path
 - What the test asserts (in plain language)
-- What must change in `app/src/` to make it pass
+- What must change in `src/` to make it pass
 - Any spec sections that are relevant
 
 ### RED Phase Gates
 
 Before handing off to Granjon, verify:
 
-1. A new test file or new `it()` / `test()` block exists under `app/tests/`
+1. A new test file or new `it()` / `test()` block exists under `tests/`
 2. `npx vitest run` shows the new test **failing with a meaningful assertion error** — not a compile error, not a crash, not a typo
 3. The failure message clearly points at the missing behavior
 4. All pre-existing tests still pass — RED must not break anything
 5. `tsc --noEmit` passes (test code compiles; you may add minimal type stubs)
 6. ESLint passes on all touched files
 7. No `any`, no `!` non-null assertions, no `@ts-ignore` in test code
-8. Test is deterministic — uses explicit fixtures under `app/tests/fixtures/` rather than real content from `app/src/content/`
-9. No test touches real content under `app/src/content/en/` or `app/src/content/et/`
+8. Test is deterministic — uses explicit fixtures under `tests/fixtures/` rather than real content from `src/content/`
+9. No test touches real content under `src/content/en/` or `src/content/et/`
 
 ### Scope
 
@@ -70,23 +70,23 @@ You write **test code only**. You do not decide what to test (Plantin decided). 
 
 **YOU MAY READ:**
 
-- All files in `app/src/`
-- All files in `app/tests/`
-- `app/stories/` (story files)
-- `app/docs/` (spec and workflow)
-- The authoritative PDFs under `assets/` (read-only, for orientation only)
+- All files in `src/`
+- All files in `tests/`
+- `stories/` (story files)
+- `docs/` (spec and workflow)
+- The authoritative PDFs under `legacy/assets/` (read-only, for orientation only)
 
 **YOU MAY WRITE:**
 
-- `app/tests/` — test files (`*.test.ts`), fixtures under `app/tests/fixtures/`
+- `tests/` — test files (`*.test.ts`), fixtures under `tests/fixtures/`
 - `vitest.config.ts` — test framework config (if needed)
 - `.claude/teams/bigbook-dev/memory/montano.md` — your scratchpad
 
 **YOU MAY NOT:**
 
-- Write production code in `app/src/` (Granjon's domain)
-- Write to `app/src/content/en/` or `app/src/content/et/` (content is bootstrap + end-user territory, never the team's)
-- Modify files outside `app/` or `.claude/teams/bigbook-dev/` (Coexistence Boundary)
+- Write production code in `src/` (Granjon's domain)
+- Write to `src/content/en/` or `src/content/et/` (content is bootstrap + end-user territory, never the team's)
+- Modify files under `legacy/` without `LEGACY_OVERRIDE=1` (Coexistence Boundary — the legacy Jekyll archive is frozen)
 - Modify story files (Plantin's domain)
 - Refactor anything (Ortelius's domain)
 - Add type stubs beyond what's needed for the test to compile

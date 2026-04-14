@@ -11,8 +11,8 @@
 
 The bigbook repository already hosts an Estonian-only static edition of AA's "Big Book" as a Jekyll site deployed to GitHub Pages under `/bigbook/`. The content is currently spread across markdown files in `peatykid/` (chapters), `kogemuslood/` (personal stories), `lisad/` (appendices), and `front_matter/`. A contributor named Kylli has landed two authoritative PDFs on branch `kylli-patch-1`:
 
-- `assets/AA-BigBook-4th-Edition.pdf` — the English source, 5.6 MB
-- `assets/BIGBOOK EST PRINT + crop marks.pdf` — the Estonian print version, 2.7 MB
+- `legacy/assets/AA-BigBook-4th-Edition.pdf` — the English source, 5.6 MB (moved to `legacy/assets/` in the 2026-04-14 coexistence inversion; originally landed in `assets/` on branch `kylli-patch-1`)
+- `legacy/assets/BIGBOOK EST PRINT + crop marks.pdf` — the Estonian print version, 2.7 MB (same move)
 
 The PDFs are the new source of truth. The existing Jekyll markdown was transcribed by hand over many commits; the English source was never part of the site at all.
 
@@ -23,7 +23,7 @@ The PO wants a new, minimalistic web application with the following shape:
 3. **Comments visible only to logged-in users.** Anonymous visitors cannot see or write comments. Logged-in visitors can see and write.
 4. **Visual edit markers.** Any paragraph that diverges from the last reconciled-to-PDF baseline renders with a pink background, signalling "community revision."
 
-The app must live inside the existing bigbook repository as a subdirectory (e.g. `app/`) and deploy independently from the Jekyll site, so the current `/bigbook/` GH Pages output remains untouched. Two products sharing one git history.
+The app and the legacy Jekyll site share the bigbook repository. The 2026-04-14 coexistence inversion moved the Jekyll site into `legacy/` as a frozen read-only archive and gave the repo root to the new Astro app. A single GitHub Actions workflow at `.github/workflows/build-and-deploy.yml` builds both products and deploys them to one GitHub Pages site — Astro at `https://mitselek.github.io/bigbook/` and the Jekyll archive at `https://mitselek.github.io/bigbook/legacy/`. Two products sharing one git history, but with the dev team's write surface clearly anchored at the repo root and `legacy/` strictly off-limits.
 
 **Out of scope for this team:**
 
@@ -178,7 +178,7 @@ No two agents write simultaneously. No merge conflicts possible.
 
 ### Content Bootstrap (out-of-band)
 
-Content bootstrap — populating `app/src/content/en/` and `app/src/content/et/` from the authoritative PDFs — runs **outside** the XP pipeline. Plantin spawns one-shot anonymous subagents with a tightly-scoped extraction task, validates their output against the alignment invariant, and commits the result with `CONTENT_BOOTSTRAP=1` set in the commit environment. The dev team members (Montano, Granjon, Ortelius) do not write content and do not invoke bootstrap subagents. Ongoing alignment maintenance after user edits is the end user's responsibility, not anyone on this team.
+Content bootstrap — populating `src/content/en/` and `src/content/et/` from the authoritative PDFs — runs **outside** the XP pipeline. Plantin spawns one-shot anonymous subagents with a tightly-scoped extraction task, validates their output against the alignment invariant, and commits the result with `CONTENT_BOOTSTRAP=1` set in the commit environment. The dev team members (Montano, Granjon, Ortelius) do not write content and do not invoke bootstrap subagents. Ongoing alignment maintenance after user edits is the end user's responsibility, not anyone on this team.
 
 ## 4. Scope Restrictions
 
@@ -186,16 +186,16 @@ Content bootstrap — populating `app/src/content/en/` and `app/src/content/et/`
 
 | Domain | Write-lock holder | Notes |
 |---|---|---|
-| `app/stories/` | Plantin (Lead) | Story files and task list |
-| `app/tests/` | Montano (RED) | Test files, fixtures |
-| `app/src/` production code | Granjon (GREEN) → Ortelius (PURPLE) | Sequential handoff |
-| `app/src/content/` | **Neither** | Populated by bootstrap subagents (initial) and end users (ongoing). Test fixtures live under `app/tests/fixtures/`. |
-| `app/docs/` | Plantin (Lead) | Design decisions, workflow, ADRs |
-| Everything outside `app/` | **Off-limits** | Coexistence Boundary — Jekyll site is a neighboring product. Any cross-over requires explicit PO approval. |
+| `stories/` | Plantin (Lead) | Story files and task list |
+| `tests/` | Montano (RED) | Test files, fixtures |
+| `src/` production code | Granjon (GREEN) → Ortelius (PURPLE) | Sequential handoff |
+| `src/content/` | **Neither** | Populated by bootstrap subagents (initial) and end users (ongoing). Test fixtures live under `tests/fixtures/`. |
+| `docs/` | Plantin (Lead) | Design decisions, workflow, ADRs |
+| `legacy/` | **Off-limits** | Coexistence Boundary — the legacy Jekyll archive is frozen. Any staged diff under `legacy/` requires `LEGACY_OVERRIDE=1` plus explicit PO approval recorded in the commit body. |
 
 ### Access Matrix
 
-| Agent | `app/src/` | `app/src/content/` | `app/tests/` | `app/stories/` | `app/docs/` | Outside `app/` |
+| Agent | `src/` | `src/content/` | `tests/` | `stories/` | `docs/` | `legacy/` |
 |---|---|---|---|---|---|---|
 | Plantin (lead) | read + review | read + bootstrap only | read + review | read + write | read + write | read + review |
 | Montano (RED) | read | read | read + write | read | read | read only |
@@ -204,7 +204,7 @@ Content bootstrap — populating `app/src/content/en/` and `app/src/content/et/`
 
 ## 5. Quality Gates
 
-### Layer 1 — Phase gates (per `app/docs/WORKFLOW.md`)
+### Layer 1 — Phase gates (per `docs/WORKFLOW.md`)
 
 Enforced by the agent performing the phase and verified by the next agent.
 
@@ -214,15 +214,15 @@ Enforced by the agent performing the phase and verified by the next agent.
 2. `eslint` — zero warnings
 3. `prettier --check` — formatting clean
 4. Architecture: no `components/` or `pages/` imports from `lib/`; no `pages/` imports from `components/`
-5. Content guard: no staged diffs under `app/src/content/` unless `CONTENT_BOOTSTRAP=1` (reserved for Plantin's one-shot bootstrap subagents)
+5. Content guard: no staged diffs under `src/content/` unless `CONTENT_BOOTSTRAP=1` (reserved for Plantin's one-shot bootstrap subagents)
 6. Type hygiene: no `any`, no `!`, no `@ts-ignore`
-7. Boundary guard: no staged diffs outside `app/` or `.claude/teams/bigbook-dev/` unless `JEKYLL_CROSSOVER=1` with PO approval recorded in the commit body
+7. Boundary guard: no staged diffs under `legacy/` unless `LEGACY_OVERRIDE=1` is set in the commit environment with PO approval recorded in the commit body (currently a known follow-up — the `legacy-guard` lefthook hook is deferred; treat `legacy/` as off-limits by convention until the hook is restored)
 
 **`vitest run` is NOT a per-commit gate** — RED commits must contain failing tests by design.
 
 ### Layer 3 — Story acceptance
 
-`npm run typecheck`, `npm run lint`, `npm run format:check`, `npm run test`, `npm run test:coverage`, and `npm run build` must all pass before PO accepts a story. Coverage thresholds for `app/src/lib/`: ≥ 90% lines/functions/statements, ≥ 85% branches.
+`npm run typecheck`, `npm run lint`, `npm run format:check`, `npm run test`, `npm run test:coverage`, and `npm run build` must all pass before PO accepts a story. Coverage thresholds for `src/lib/`: ≥ 90% lines/functions/statements, ≥ 85% branches.
 
 ## 6. Coordination Boundaries
 
@@ -242,7 +242,7 @@ Enforced by the agent performing the phase and verified by the next agent.
 
 ### Coexistence Boundary
 
-The bigbook repository contains two independent products that share a git history: the existing Jekyll site (top-level content directories and `_config.yml`) and the bilingual reader web app (everything under `app/`). The team works **exclusively** inside `app/` and `.claude/teams/bigbook-dev/`. Any change that would alter the Jekyll site's rendered output requires explicit PO approval through Plantin, recorded in the commit body with `JEKYLL_CROSSOVER=1`. This is a Layer 2 gate and is never relaxed without PO sign-off.
+The bigbook repository contains two independent products that share a git history: the new Astro bilingual reader app at the repo root (`src/`, `tests/`, `stories/`, `docs/`, `public/`, `.github/`, and root config files) and the frozen legacy Jekyll archive under `legacy/`. The team works **exclusively** at the repo root; `legacy/` is off-limits. Any staged diff under `legacy/` requires `LEGACY_OVERRIDE=1` set in the commit environment with PO approval recorded in the commit body. This is a Layer 2 gate and is never relaxed without PO sign-off. (The `legacy-guard` lefthook hook that would enforce this automatically is currently a known follow-up — see `lefthook.yml` TODO. Until it is restored, treat `legacy/` as off-limits by convention.)
 
 ## 7. Communication Protocol
 
@@ -265,7 +265,7 @@ On shutdown:
 On startup:
 
 1. Read scratchpad
-2. Read `app/docs/WORKFLOW.md` and `app/docs/spec.md`
+2. Read `docs/WORKFLOW.md` and `docs/spec.md`
 3. Report to Plantin
 
 (*FR:Celes*)

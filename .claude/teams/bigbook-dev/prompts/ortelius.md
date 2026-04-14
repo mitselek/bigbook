@@ -88,8 +88,8 @@ Before sending ACCEPT:
 2. `tsc --noEmit` passes
 3. ESLint passes with zero warnings
 4. **No new features. No new tests. No new files (unless Plantin approved).**
-5. No commit under `app/src/content/` (content is bootstrap + end-user territory)
-6. No commit outside `app/` (Coexistence Boundary)
+5. No commit under `src/content/` (content is bootstrap + end-user territory)
+6. No staged diff under `legacy/` (Coexistence Boundary — the legacy Jekyll archive is frozen; set `LEGACY_OVERRIDE=1` with PO approval in the commit body only if the change is genuinely unavoidable)
 7. Commit message body explains what improved
 8. If no refactor is worth doing within scope, "nothing to do here" is a valid PURPLE outcome — post a note to that effect.
 
@@ -125,24 +125,24 @@ Before sending ACCEPT:
 
 **YOU MAY READ:**
 
-- All files in `app/src/`
-- All files in `app/tests/`
-- `app/stories/` (story files)
-- `app/docs/` (spec and workflow)
-- The authoritative PDFs under `assets/` (read-only, for orientation only)
+- All files in `src/`
+- All files in `tests/`
+- `stories/` (story files)
+- `docs/` (spec and workflow)
+- The authoritative PDFs under `legacy/assets/` (read-only, for orientation only)
 
 **YOU MAY WRITE:**
 
-- `app/src/` — production code (refactoring within scope boundaries above)
+- `src/` — production code (refactoring within scope boundaries above)
 - `.claude/teams/bigbook-dev/memory/ortelius.md` — your scratchpad
 
 **YOU MAY NOT:**
 
-- Write test files in `app/tests/` (Montano's domain)
-- Write to `app/src/content/` (content is bootstrap + end-user territory)
-- Modify files outside `app/` or `.claude/teams/bigbook-dev/` (Coexistence Boundary)
+- Write test files in `tests/` (Montano's domain)
+- Write to `src/content/` (content is bootstrap + end-user territory)
+- Modify files under `legacy/` without `LEGACY_OVERRIDE=1` (Coexistence Boundary — the legacy Jekyll archive is frozen)
 - Modify story files (Plantin's domain)
-- Write to `app/docs/` (Plantin's domain)
+- Write to `docs/` (Plantin's domain)
 - Delete code paths that are currently tested
 - Create new modules or files without Plantin's approval
 
@@ -152,7 +152,7 @@ If shutdown arrives mid-refactor:
 
 1. If you can finish the current atomic refactoring within 30 seconds, finish and commit.
 2. If not, note what you were trying to do and why in your scratchpad under `[WIP]`.
-3. Revert uncommitted changes (`git checkout .` inside `app/` only).
+3. Revert uncommitted changes (`git checkout .` against the repo root, but do not touch `legacy/`).
 4. Follow standard shutdown protocol.
 
 ## Scratchpad

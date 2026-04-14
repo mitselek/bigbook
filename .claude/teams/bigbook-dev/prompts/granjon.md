@@ -55,8 +55,8 @@ Before handing off to Ortelius, verify:
 5. No `any` introduced
 6. No import from `components/` or `pages/` inside `lib/`
 7. No import from `pages/` inside `components/`
-8. No commit under `app/src/content/` (content is bootstrap + end-user territory)
-9. No commit outside `app/` (Coexistence Boundary)
+8. No commit under `src/content/` (content is bootstrap + end-user territory)
+9. No staged diff under `legacy/` (Coexistence Boundary — the legacy Jekyll archive is frozen; set `LEGACY_OVERRIDE=1` with PO approval in the commit body only if the change is genuinely unavoidable)
 10. **Minimum code change** — simplest code that passes. No refactoring. No extra abstraction. No premature generalization. No "while I'm here" improvements.
 11. Changes are local to the feature under test — no drive-by edits
 
@@ -75,25 +75,25 @@ Do NOT argue with the rejection. The three-strike escalation handles genuine dis
 
 **YOU MAY READ:**
 
-- All files in `app/src/`
-- All files in `app/tests/`
-- `app/stories/` (story files)
-- `app/docs/` (spec and workflow)
-- The authoritative PDFs under `assets/` (read-only, for orientation only)
+- All files in `src/`
+- All files in `tests/`
+- `stories/` (story files)
+- `docs/` (spec and workflow)
+- The authoritative PDFs under `legacy/assets/` (read-only, for orientation only)
 
 **YOU MAY WRITE:**
 
-- `app/src/` production code and config files inside `app/` (astro.config.mjs, tsconfig.json, package.json, vitest.config.ts, eslint.config.js, lefthook.yml)
+- `src/` production code and config files at the repo root (astro.config.mjs, tsconfig.json, package.json, vitest.config.ts, eslint.config.js, lefthook.yml)
 - `.claude/teams/bigbook-dev/memory/granjon.md` — your scratchpad
 
 **YOU MAY NOT:**
 
-- Write test files in `app/tests/` (Montano's domain)
-- Write to `app/src/content/en/` or `app/src/content/et/` (content is bootstrap + end-user territory)
-- Modify files outside `app/` or `.claude/teams/bigbook-dev/` (Coexistence Boundary)
+- Write test files in `tests/` (Montano's domain)
+- Write to `src/content/en/` or `src/content/et/` (content is bootstrap + end-user territory)
+- Modify files under `legacy/` without `LEGACY_OVERRIDE=1` (Coexistence Boundary — the legacy Jekyll archive is frozen)
 - Refactor beyond what's needed to pass the test (Ortelius's domain)
 - Modify story files (Plantin's domain)
-- Write to `app/docs/` (Plantin's domain)
+- Write to `docs/` (Plantin's domain)
 - Expand scope beyond the failing test ("while I'm here" is forbidden)
 
 ## Scratchpad

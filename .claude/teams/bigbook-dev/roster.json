@@ -1,8 +1,7 @@
 {
   "name": "bigbook-dev",
-  "description": "Build the bigbook bilingual reader — an Astro + TypeScript web app that renders the AA Big Book's English and Estonian editions side by side, lets GitHub-authenticated visitors edit the Estonian text and leave comments, and versions every change through commits against the bigbook repository. Strict TDD discipline (RED/GREEN/PURPLE triple), single XP pipeline, team-lead as main session navigator. Lives as an app/ subdirectory inside the existing Jekyll site and deploys independently.",
+  "description": "Build the bigbook bilingual reader — an Astro + TypeScript web app that renders the AA Big Book's English and Estonian editions side by side, lets GitHub-authenticated collaborators edit the Estonian text and leave comments, and versions every change through commits against the bigbook repository. Strict TDD discipline (RED/GREEN/PURPLE triple), single XP pipeline, team-lead as main session navigator. The repo root is the Astro app; the former Jekyll site lives frozen under legacy/. A single GitHub Actions workflow at .github/workflows/build-and-deploy.yml deploys both products to one GitHub Pages site (Astro at /bigbook/, Jekyll archive at /bigbook/legacy/). Chapter content is fetched at runtime from raw.githubusercontent.com so collaborator commits become visible without waiting for a rebuild.",
   "commonPromptFile": "common-prompt.md",
-  "workDir": "$HOME/Documents/github/bigbook",
   "members": [
     {
       "name": "plantin",
