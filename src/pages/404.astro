@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+---
+
+<BaseLayout title="bigbook — page not found">
+  <Fragment slot="head">
+    <meta http-equiv="refresh" content="5; url=/bigbook/legacy/" />
+  </Fragment>
+  <main>
+    <h1>This page has moved</h1>
+    <p>
+      The bigbook repository has been restructured. The Estonian-only Jekyll edition is now
+      preserved at
+      <a href="/bigbook/legacy/">/bigbook/legacy/</a>.
+    </p>
+    <p>
+      Pre-restructure URLs under <code>/peatykid/</code>, <code>/kogemuslood/</code>,
+      <code>/lisad/</code>, <code>/front_matter/</code>, <code>/TOC/</code>, and
+      <code>/BIGBOOK/</code> are automatically redirected to their archive counterparts.
+    </p>
+    <p id="redirect-notice" style="display: none;">Redirecting you to the archive&hellip;</p>
+    <p>
+      If you are not redirected automatically within a few seconds, follow
+      <a href="/bigbook/legacy/">this link to the archive</a>.
+    </p>
+  </main>
+  <script>
+    ;(function () {
+      const legacyPrefixes =
+        /^\/bigbook\/(peatykid|kogemuslood|lisad|front_matter|TOC|BIGBOOK)(\/.*)?$/
+      const path = window.location.pathname
+      if (legacyPrefixes.test(path)) {
+        const legacyPath = path.replace(/^\/bigbook\//, '/bigbook/legacy/')
+        const target = legacyPath + window.location.search + window.location.hash
+        const notice = document.getElementById('redirect-notice')
+        if (notice) {
+          notice.style.display = 'block'
+        }
+        window.location.replace(target)
+      }
+    })()
+  </script>
+</BaseLayout>

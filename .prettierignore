@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.astro/
+_pages/
+legacy/
+package-lock.json
+
+# Team config — human-authored docs for the AI team, not code.
+# The .claude/ content is rewritten in commit 4 of the restructure and
+# generally not prettier-friendly (agent prompts use their own prose style).
+.claude/
+
+# Tmux harness layout — hand-tuned; formatting would risk breaking the harness.
+.tmux-layout.yaml
