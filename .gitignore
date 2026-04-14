@@ -1,1 +1,14 @@
+# Node / Astro
+node_modules/
+dist/
+.astro/
+
+# GH Actions assemble output (local dry-run artifact path)
+_pages/
+
+# Jekyll build output (legacy subdir, dry-run)
+legacy/_site/
+legacy/.jekyll-cache/
+
+# Extracted-text working area
 # extracted_text
