@@ -1,0 +1,32 @@
+# tmux-layout template — flat imperative split list.
+# Copied to <workdir>/.tmux-layout.yaml on first run of tmux-<project>.
+#
+# Schema:
+#   initial:  (required)  name of the first pane (exists before any split)
+#   splits:   (optional)  ordered list; each entry = one `tmux split-window` call
+#     from:             existing pane to split
+#     right: | below:   new pane's NAME + direction (pick one)
+#     size:             new pane's % of the pane being split
+#   panes:    (required)  map from pane name to config (may be empty {})
+#     label:        (optional)  shown in pane border
+#     command:      (optional)  run on pane start
+#     send_after:   (optional)  sent ~2s after command (e.g. jumpstart prompt)
+#   focus:    (optional)  pane to focus at session start
+#
+# Validation: unknown `from`, duplicate pane names, panes used in splits but
+# missing from `panes:`, panes in `panes:` but never created — all fail loudly.
+
+initial: plantin
+
+splits:
+  - { from: plantin,  right: montano,    size: 50% }
+  - { from: montano,   below: granjon,  size: 66% }
+  - { from: granjon, below: ortelius, size: 50% }
+
+panes:
+  plantin:   { command: "claude --dangerously-skip-permissions --continue", send_after: hello }
+  montano:    { label: RED }
+  granjon:  { label: GREEN }
+  ortelius: { label: PURPLE }
+
+focus: plantin
