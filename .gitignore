@@ -10,5 +10,10 @@ _pages/
 legacy/_site/
 legacy/.jekyll-cache/
 
+# Cloudflare Worker (sibling service in worker/)
+worker/node_modules/
+worker/.wrangler/
+worker/.dev.vars
+
 # Extracted-text working area
 # extracted_text

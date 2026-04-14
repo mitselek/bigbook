@@ -3,6 +3,7 @@ dist/
 .astro/
 _pages/
 legacy/
+worker/
 package-lock.json
 
 # Team config — human-authored docs for the AI team, not code.

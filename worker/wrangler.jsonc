@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "bigbook-auth-proxy",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-04-01",
+  "compatibility_flags": [],
+  "vars": {
+    "ALLOWED_ORIGIN": "https://mitselek.github.io"
+  },
+  "observability": {
+    "enabled": true
+  }
+}

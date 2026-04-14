@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'
+---
+
+<BaseLayout title="bigbook — signing in">
+  <main>
+    <h1>Signing in&hellip;</h1>
+    <p id="status">Exchanging your GitHub authorization code for an access token&hellip;</p>
+    <p id="error" style="display: none; color: #b91c1c"></p>
+    <p id="retry" style="display: none">
+      <a href="/bigbook/">Back to bigbook</a>
+    </p>
+  </main>
+  <script>
+    import { completeAuth } from '../../lib/auth/github-app'
+
+    const params = new URLSearchParams(window.location.search)
+    const code = params.get('code')
+    const state = params.get('state')
+
+    const statusEl = document.getElementById('status')
+    const errorEl = document.getElementById('error')
+    const retryEl = document.getElementById('retry')
+
+    function showError(message: string): void {
+      if (statusEl) {
+        statusEl.style.display = 'none'
+      }
+      if (errorEl) {
+        errorEl.style.display = 'block'
+        errorEl.textContent = message
+      }
+      if (retryEl) {
+        retryEl.style.display = 'block'
+      }
+    }
+
+    async function run(): Promise<void> {
+      if (!code) {
+        showError('Missing authorization code in callback URL.')
+        return
+      }
+      if (!state) {
+        showError('Missing state parameter in callback URL.')
+        return
+      }
+      const result = await completeAuth(code, state)
+      if (result.ok) {
+        window.location.href = '/bigbook/'
+      } else {
+        showError(`Sign-in failed: ${result.error}`)
+      }
+    }
+
+    run().catch((err: unknown) => {
+      const message = err instanceof Error ? err.message : String(err)
+      showError(`Unexpected error: ${message}`)
+    })
+  </script>
+</BaseLayout>

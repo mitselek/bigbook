@@ -4,7 +4,7 @@ import astro from 'eslint-plugin-astro'
 
 export default [
   {
-    ignores: ['legacy/**', 'dist/**', '.astro/**', '_pages/**', 'node_modules/**'],
+    ignores: ['legacy/**', 'dist/**', '.astro/**', '_pages/**', 'node_modules/**', 'worker/**'],
   },
   js.configs.recommended,
   ...tseslint.configs.recommended,
