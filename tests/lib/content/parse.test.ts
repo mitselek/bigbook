@@ -152,4 +152,32 @@ lang: de
       expect((err as ParseError).category).toBe('frontmatter_malformed')
     }
   })
+
+  it('throws when frontmatter is missing the title field', () => {
+    const input = `---
+chapter: ch05
+lang: et
+---
+`
+    expect(() => parse(input)).toThrow(ParseError)
+    try {
+      parse(input)
+    } catch (err) {
+      expect((err as ParseError).category).toBe('frontmatter_malformed')
+    }
+  })
+
+  it('throws when frontmatter is missing the lang field', () => {
+    const input = `---
+chapter: ch05
+title: Kuidas see toimib
+---
+`
+    expect(() => parse(input)).toThrow(ParseError)
+    try {
+      parse(input)
+    } catch (err) {
+      expect((err as ParseError).category).toBe('frontmatter_malformed')
+    }
+  })
 })
