@@ -32,4 +32,26 @@ Kuidas see toimib
     expect(result.paragraphs.size).toBe(1)
     expect(result.paragraphs.get('ch05-title')).toBe('Kuidas see toimib')
   })
+
+  it('parses multiple paragraphs preserving order', () => {
+    const input = `---
+chapter: ch05
+title: Kuidas see toimib
+lang: et
+---
+
+::para[ch05-title]
+Kuidas see toimib
+
+::para[ch05-p001]
+Oleme harva näinud inimest.
+
+::para[ch05-p002]
+Meie lood avaldavad üldjoontes.
+`
+    const result = parse(input)
+    expect([...result.paragraphs.keys()]).toEqual(['ch05-title', 'ch05-p001', 'ch05-p002'])
+    expect(result.paragraphs.get('ch05-p001')).toBe('Oleme harva näinud inimest.')
+    expect(result.paragraphs.get('ch05-p002')).toBe('Meie lood avaldavad üldjoontes.')
+  })
 })
