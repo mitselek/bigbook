@@ -123,4 +123,33 @@ text
       expect((err as ParseError).category).toBe('directive_malformed')
     }
   })
+
+  it('throws when frontmatter is missing the chapter field', () => {
+    const input = `---
+title: Kuidas see toimib
+lang: et
+---
+`
+    expect(() => parse(input)).toThrow(ParseError)
+    try {
+      parse(input)
+    } catch (err) {
+      expect((err as ParseError).category).toBe('frontmatter_malformed')
+    }
+  })
+
+  it('throws when lang is not en or et', () => {
+    const input = `---
+chapter: ch05
+title: Kuidas see toimib
+lang: de
+---
+`
+    expect(() => parse(input)).toThrow(ParseError)
+    try {
+      parse(input)
+    } catch (err) {
+      expect((err as ParseError).category).toBe('frontmatter_malformed')
+    }
+  })
 })
