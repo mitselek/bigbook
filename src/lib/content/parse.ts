@@ -51,11 +51,21 @@ function parseFrontmatter(block: string): ChapterFrontmatter {
     if (key === undefined || val === undefined) continue
     entries.set(key, val.trim())
   }
-  const chapter = entries.get('chapter') ?? ''
-  const title = entries.get('title') ?? ''
-  const lang = entries.get('lang') ?? ''
+  const chapter = entries.get('chapter')
+  const title = entries.get('title')
+  const lang = entries.get('lang')
+
+  if (!chapter) {
+    throw new ParseError('frontmatter_malformed', 'frontmatter is missing required field: chapter')
+  }
+  if (!title) {
+    throw new ParseError('frontmatter_malformed', 'frontmatter is missing required field: title')
+  }
   if (lang !== 'en' && lang !== 'et') {
-    throw new ParseError('frontmatter_malformed', `lang must be 'en' or 'et', got '${lang}'`)
+    throw new ParseError(
+      'frontmatter_malformed',
+      `frontmatter.lang must be 'en' or 'et', got '${lang ?? '(missing)'}'`,
+    )
   }
   return { chapter, title, lang }
 }
