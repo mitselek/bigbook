@@ -61,6 +61,7 @@ function parseFrontmatter(block: string): ChapterFrontmatter {
 }
 
 const DIRECTIVE_RE = /^::para\[([^\]]+)\]$/
+const DIRECTIVE_PREFIX_RE = /^::para\[/
 
 function parseBody(body: string): Map<string, string> {
   const paragraphs = new Map<string, string>()
@@ -74,16 +75,25 @@ function parseBody(body: string): Map<string, string> {
     }
   }
 
-  for (const line of lines) {
+  lines.forEach((line, index) => {
     const directive = line.match(DIRECTIVE_RE)
     if (directive) {
       flush()
       currentId = directive[1] ?? null
       currentLines = []
-    } else if (currentId !== null) {
+      return
+    }
+    if (DIRECTIVE_PREFIX_RE.test(line)) {
+      throw new ParseError(
+        'directive_malformed',
+        `malformed ::para[] directive: ${JSON.stringify(line)}`,
+        index + 1,
+      )
+    }
+    if (currentId !== null) {
       currentLines.push(line)
     }
-  }
+  })
   flush()
 
   return paragraphs
