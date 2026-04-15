@@ -21,4 +21,18 @@ describe('diffCurrentVsBaseline()', () => {
     })
     expect(diffCurrentVsBaseline(current, baseline)).toEqual(new Set())
   })
+
+  it('detects a single paragraph whose text has changed', () => {
+    const current = chapter({
+      'ch05-title': 'Kuidas see toimib',
+      'ch05-p001': 'EDITED: Oleme harva näinud inimest.',
+      'ch05-p002': 'Meie lood avaldavad üldjoontes.',
+    })
+    const baseline = chapter({
+      'ch05-title': 'Kuidas see toimib',
+      'ch05-p001': 'Oleme harva näinud inimest.',
+      'ch05-p002': 'Meie lood avaldavad üldjoontes.',
+    })
+    expect(diffCurrentVsBaseline(current, baseline)).toEqual(new Set(['ch05-p001']))
+  })
 })
