@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { parse } from '../../../src/lib/content/parse'
+import { parse, ParseError } from '../../../src/lib/content/parse'
 
 describe('parse()', () => {
   it('parses a file with only frontmatter', () => {
@@ -73,5 +73,18 @@ Need, kes ei parane, on inimesed, kes ei saa või ei taha.
         'kui ta oleks põhjalikult järginud meie teed.\n' +
         'Need, kes ei parane, on inimesed, kes ei saa või ei taha.',
     )
+  })
+
+  it('throws ParseError when frontmatter is missing', () => {
+    const input = `::para[ch05-title]
+Kuidas see toimib
+`
+    expect(() => parse(input)).toThrow(ParseError)
+    try {
+      parse(input)
+    } catch (err) {
+      expect(err).toBeInstanceOf(ParseError)
+      expect((err as ParseError).category).toBe('frontmatter_missing')
+    }
   })
 })
