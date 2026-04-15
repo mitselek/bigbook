@@ -32,7 +32,9 @@ export function parse(content: string): ParsedChapter {
   if (!match) {
     throw new ParseError('frontmatter_missing', 'file must begin with a YAML frontmatter block')
   }
+  /* v8 ignore next */
   const frontmatterBlock = match[1] ?? ''
+  /* v8 ignore next */
   const body = match[2] ?? ''
   const frontmatter = parseFrontmatter(frontmatterBlock)
   return {
@@ -48,6 +50,7 @@ function parseFrontmatter(block: string): ChapterFrontmatter {
     if (!m) continue
     const key = m[1]
     const val = m[2]
+    /* v8 ignore next */
     if (key === undefined || val === undefined) continue
     entries.set(key, val.trim())
   }
@@ -89,6 +92,7 @@ function parseBody(body: string): Map<string, string> {
     const directive = line.match(DIRECTIVE_RE)
     if (directive) {
       flush()
+      /* v8 ignore next */
       currentId = directive[1] ?? null
       currentLines = []
       return
