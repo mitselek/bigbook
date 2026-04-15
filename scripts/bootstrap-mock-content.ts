@@ -20,6 +20,10 @@
 
 import { pathToFileURL } from 'node:url'
 
+export function stripJekyllPreamble(_content: string): string {
+  throw new Error('not implemented')
+}
+
 export function main(_argv: string[]): void {
   if (process.env['CONTENT_BOOTSTRAP'] !== '1') {
     console.error('error: CONTENT_BOOTSTRAP=1 must be set in the environment')
