@@ -228,3 +228,79 @@ Startup sequence for P1:
 **[CONTEXT NOTE]** Session 4 ended at whatever-it-was (not measured at wrap time — the session was short, ~6 config commits plus some read-through). Fresh session for P1 is the explicit recommendation: XP triple produces high-volume cross-agent messaging, and the P0 config-wiring history is irrelevant to P1's algorithmic TDD work. Same pattern session 3 used.
 
 (*BB:Plantin*)
+
+## 2026-04-15 — Session 5, v1-foundation Phase 1 parse module
+
+**[DONE]** Plan 1 / Phase 1 executed via XP triple mode (`TeamCreate(team_name: "bigbook-dev")` + Agent-tool spawn of montano/granjon/ortelius in this session). All seven TDD tasks closed across 13 commits, pushed to `origin/main`, CI run `24463378744` → success. Commits on `main` from f4a50a9:
+
+```
+717064b chore(parse): P1.7 — v8 ignore for defensive branches unreachable under strict indexing
+084280e test(parse): P1.7 — cover missing-title branch
+853a8d6 feat(parse): P1.7 GREEN — strict frontmatter field validation
+6b57a39 test(parse): P1.7 RED — failing tests for strict frontmatter validation
+7e806ff feat(parse): P1.6 GREEN — detect malformed ::para[] directives
+c320d23 test(parse): P1.6 RED — failing tests for malformed directive
+ed57e67 test(parse): P1.5 — missing frontmatter throws ParseError
+a896319 test(parse): P1.4 — multi-line paragraph body joining
+bd68b16 test(parse): P1.3 — multi-paragraph order preservation
+9dbf441 feat(parse): P1.2 GREEN — ::para[id] directive parsing
+e067cca test(parse): P1.2 RED — failing test for single directive
+5c031e7 feat(parse): P1.1 GREEN — frontmatter-only parsing
+20d5e12 test(parse): P1.1 RED — failing test for frontmatter-only parsing
+```
+
+Final shape of `src/lib/content/parse.ts`: 115 lines, three sections (types/exports, `parse()` + `parseFrontmatter`, `DIRECTIVE_RE` + `parseBody`), four `/* v8 ignore next */` annotations on unreachable defensive branches. Coverage: 100% stmts/funcs/lines, 96.29% branches (threshold 85%). 12 tests passing (1 pre-existing smoke test + 11 new parse tests).
+
+**[DONE]** `shutdown-agent-tool-team` skill authored at `~/.claude/skills/shutdown-agent-tool-team/SKILL.md`. Sibling to the existing tmux-based `shutdown-team`. Documents the Agent-tool architecture: `TeamCreate` + `Agent`-spawn team created in an interactive Claude Code session, shut down via `shutdown_request` JSON protocol messages on mailboxes (not `tmux send-keys /exit`). Auto-registered and visible in the skills list during this session. First live exercise of the skill was this session's wrap — procedure worked end-to-end, no gaps found.
+
+**[DECISION]** Plan 2/3/4 plan files remain unwritten. The explicit decision in session 3 was to write P2 *after* P1 lands so it can reference the actual shape of `parse.ts` as it exists rather than guess. That moment is now — session 6 begins with writing `p2-validate.md` before any TDD work, using the learnings from P1 (especially the v8+`noUncheckedIndexedAccess` pattern, see LESSONS #1 below) to shape the decomposition.
+
+**[DECISION]** Per-phase context refresh confirmed as the right rhythm. Session 5 → session 6 break happens at the P1/P2 boundary, same as session 3 → session 4 did at P0/P1. XP triple produces high-volume cross-agent messaging + long CYCLE_COMPLETE writeups + escalation dialogs; a phase-boundary refresh keeps per-phase context tight and lets the startup skill rehydrate cleanly from the scratchpads.
+
+**[LESSONS]** (grouped from the three agent scratchpads + my own observations)
+
+1. **v8 coverage + `noUncheckedIndexedAccess` interact badly on regex capture groups.** TypeScript's strict indexing forces defensive `?? fallback` guards on `match[N]` because tsc cannot see the outer regex's guarantees about group presence. v8's branch counter treats the `??` right-hand side as an uncovered branch that no input can ever exercise. Four such dead branches in `parse.ts` dragged branch coverage to 81.48% on P1.7 close, below the 85% threshold. Ortelius correctly held the PURPLE_VERDICT rather than rejecting Granjon; I adjudicated via `/* v8 ignore next */` annotations (Option 3) in commit `717064b`. Three alternatives Ortelius flagged for future modules under `src/lib/content/`:
+   - **String slicing over regex groups** where boundaries are known by position (`content.slice(a, b)` returns `string`, never `undefined`)
+   - **Typed narrowing helpers** like `assertDefined(x, 'match[1]')` that throw on undefined — exchanges a dead branch for a reachable-in-principle throw that v8 doesn't flag the same way
+   - **Destructure-and-check consolidation** — `const [, a, b] = match` then `if (a === undefined || b === undefined) throw`, consolidating to one place per match
+
+   For P2 (`validate.ts`) and P3 (`diff.ts`), **catch this at plan-review time**, not via a second P1.7-style escalation. If the impl sketch uses `.match()` + capture groups, either flag it as structural guidance before the first GREEN cycle, or pre-build a small narrowing helper in `src/lib/content/` that both modules can share.
+
+2. **Hold the verdict on spec gaps.** P1.7 produced a coverage failure that was neither Montano's nor Granjon's fault — the plan listed 2 test cases (missing chapter, unknown lang) but the impl prescribed 3 guards (chapter, title, lang). The `!title` branch was uncovered. Ortelius correctly held his PURPLE_VERDICT (rejection count 0) and escalated to me rather than rejecting Granjon-without-cause. Resolution: I dispatched Montano to write an adjunct regression test (missing title), then Granjon to add the v8 ignore annotations. Three-strike is an authority boundary signal for decomposition correctness, not a punishment vector — Ortelius read that correctly. Plan decomposition gaps are mine to own, not the XP triple's to absorb via rejection-based fallout.
+
+3. **Regression-test pattern (P1.3/P1.4/P1.5).** A test that passes on first run because earlier cycles already delivered the behavior. My TEST_SPEC framing dropped the "RED" label in the commit subject, explicitly told Montano to expect PASS-on-first-run, and told her to forward a no-op GREEN handoff to Granjon who forwards a no-op to Ortelius. Worked smoothly — all three cycles closed in about 3 minutes each. Keep this framing for future regression cycles: name the pattern, set the expectation, and skip the "make it fail first" ceremony when it would be ceremony rather than verification.
+
+4. **Line 50 `if (!m) continue` in `parseFrontmatter` is reachable but unexercised.** Ortelius's closing report WARNING: blank lines in a frontmatter block don't match `/^(\w+):\s*(.*)$/`, so the `!m` branch does fire on blank-line input — but the current fixtures don't include blank lines inside the frontmatter, so v8 sees that branch as only partially exercised. Not blocking because overall branch coverage sits at 96.29%, well above the 85% threshold. If P2 or a future test case adds a blank-frontmatter-line fixture, this branch closes on its own. Worth remembering so nobody wastes time adding a dedicated test for it.
+
+5. **Multi-step instructions must be actioned in full per turn.** Granjon's self-pace gotcha: when I sent a complex multi-step instruction (the v8 ignore dispatch: edit → verify → commit → handoff), he processed the message and went idle without executing. I had to send a short poke message to kick him. Granjon's scratchpad captures the lesson on his side; consider adding "work through multi-step instructions to completion within the same turn, don't idle after reading" to the granjon role prompt if it recurs in P2.
+
+6. **Montano's self-correction on unreachable branches.** She initially flagged 5 dead branches in her P1.7 escalation; 4 were genuinely dead, one (`!m` in `parseFrontmatter`) was reachable because blank lines in the frontmatter block don't match the per-line regex. I corrected her; her scratchpad records the self-correction ("check whether blank/empty string inputs can trigger the no-match arm"). Good discipline — surfaced the error for the next session's Montano to inherit.
+
+**[FACTS for next session]**
+
+- **CI run `24463378744`** — green, head SHA `717064b`. URL: https://github.com/mitselek/bigbook/actions/runs/24463378744
+- **Live site** unchanged — Phase 1 was pure lib addition, no Astro-facing files touched, `dist/` output identical.
+- **Parse module shape:** `src/lib/content/parse.ts` exports `ChapterFrontmatter`, `ParsedChapter`, `ParseErrorCategory`, `ParseError`, and `parse(content: string): ParsedChapter`. These are the public surface P2's `validate.ts` will consume.
+- **Team state:** `bigbook-dev` team exists at `~/.claude/teams/bigbook-dev/`. Inboxes persist. Scratchpads for montano/granjon/ortelius/plantin all written this session. Per common-prompt team-reuse protocol, session 6's startup should back up inboxes → delete team → `TeamCreate` → restore inboxes before spawning P2.
+- **The `shutdown-agent-tool-team` skill** now exists at `~/.claude/skills/shutdown-agent-tool-team/SKILL.md` for future phase-boundary refreshes.
+- **Open deferrals still unresolved (carried from earlier sessions):**
+  - `legacy-guard` lefthook pre-commit hook (deferred since session 2 due to Windows Git Bash shell-escaping issue). Treat `legacy/` as off-limits by convention.
+  - Real auth ADR at `docs/decisions/0001-auth.md` (deferred from session 2 auth PoC)
+  - `npm audit` 11 moderate advisories (from Astro scaffold + P0 deps)
+  - Node 20 → 24 GH Actions migration (waiting on upstream action versions, June 2026 deadline)
+
+**[NEXT SESSION ENTRY POINT]** **Write `docs/superpowers/plans/v1-foundation/p2-validate.md`, then execute it** via XP triple mode.
+
+Startup sequence for session 6:
+
+1. Run `bigbook-startup` skill — reads this scratchpad, the common-prompt, the three docs snapshots, the roster.
+2. Verify state from this wrap: CI green on `717064b`, 13 commits pushed, scratchpads committed.
+3. Read `docs/superpowers/plans/v1-foundation/README.md` and the existing `p1-parse.md` for the pattern. Note that P2, P3, P4 are NOT yet written.
+4. **Before writing `p2-validate.md`:** read LESSONS #1 above (v8 + `noUncheckedIndexedAccess`). Structure P2's impl sketch to avoid regex capture groups in favor of string slicing or narrowing helpers where possible. If capture groups are unavoidable, pre-approve the `/* v8 ignore next */` pattern in the plan rather than discovering it via escalation.
+5. Write `p2-validate.md` with its TDD tasks (pattern from `p1-parse.md`'s 7 tasks, but smaller scope — validate is `(en: ParsedChapter, et: ParsedChapter) => ValidationResult` kind of shape; smaller behavior set than parse).
+6. Follow the session 3 discipline: spec section first, then TDD tasks with exact code blocks and commit commands.
+7. After `p2-validate.md` lands on `main`, start Phase 2 execution via the XP triple protocol. Apply the team-reuse (back up inboxes → delete team → recreate → restore inboxes) if session 6's Plantin spawns a fresh team.
+
+**[CONTEXT NOTE]** Session 5 wrapped via the new `shutdown-agent-tool-team` skill's procedure (scratchpad-and-closing-report dispatch → verify scratchpads on disk → `shutdown_request` protocol → team-lead writes own scratchpad → memory commit → push → user clears for session 6). First live exercise of the skill; procedure worked cleanly end-to-end.
+
+(*BB:Plantin*)
