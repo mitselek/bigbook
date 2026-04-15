@@ -11,31 +11,37 @@ export type ValidationError = {
 
 export type ValidationResult = { ok: true } | { ok: false; errors: ValidationError[] }
 
-export function validatePair(en: ParsedChapter, et: ParsedChapter): ValidationResult {
+function collectMissing(
+  from: Set<string>,
+  other: Set<string>,
+  category: ValidationErrorCategory,
+  messageFor: (id: string) => string,
+): ValidationError[] {
   const errors: ValidationError[] = []
+  for (const id of from) {
+    if (!other.has(id)) {
+      errors.push({ category, paraId: id, message: messageFor(id) })
+    }
+  }
+  return errors
+}
+
+function toResult(errors: ValidationError[]): ValidationResult {
+  return errors.length === 0 ? { ok: true } : { ok: false, errors }
+}
+
+export function validatePair(en: ParsedChapter, et: ParsedChapter): ValidationResult {
   const enIds = new Set(en.paragraphs.keys())
   const etIds = new Set(et.paragraphs.keys())
-
-  for (const id of enIds) {
-    if (!etIds.has(id)) {
-      errors.push({
-        category: 'missing_pair',
-        paraId: id,
-        message: `EN has para-id '${id}' but ET does not`,
-      })
-    }
-  }
-  for (const id of etIds) {
-    if (!enIds.has(id)) {
-      errors.push({
-        category: 'extra_pair',
-        paraId: id,
-        message: `ET has para-id '${id}' but EN does not`,
-      })
-    }
-  }
-
-  return errors.length === 0 ? { ok: true } : { ok: false, errors }
+  return toResult([
+    ...collectMissing(
+      enIds,
+      etIds,
+      'missing_pair',
+      (id) => `EN has para-id '${id}' but ET does not`,
+    ),
+    ...collectMissing(etIds, enIds, 'extra_pair', (id) => `ET has para-id '${id}' but EN does not`),
+  ])
 }
 
 export function validateProposedContent(
@@ -63,25 +69,19 @@ export function validateProposedContent(
 
   if (!referenceParaIds) return { ok: true }
 
-  const errors: ValidationError[] = []
   const actualIds = new Set(parsed.paragraphs.keys())
-  for (const id of referenceParaIds) {
-    if (!actualIds.has(id)) {
-      errors.push({
-        category: 'missing_pair',
-        paraId: id,
-        message: `proposed content is missing para-id '${id}'`,
-      })
-    }
-  }
-  for (const id of actualIds) {
-    if (!referenceParaIds.has(id)) {
-      errors.push({
-        category: 'extra_pair',
-        paraId: id,
-        message: `proposed content has unexpected para-id '${id}'`,
-      })
-    }
-  }
-  return errors.length === 0 ? { ok: true } : { ok: false, errors }
+  return toResult([
+    ...collectMissing(
+      referenceParaIds,
+      actualIds,
+      'missing_pair',
+      (id) => `proposed content is missing para-id '${id}'`,
+    ),
+    ...collectMissing(
+      actualIds,
+      referenceParaIds,
+      'extra_pair',
+      (id) => `proposed content has unexpected para-id '${id}'`,
+    ),
+  ])
 }
