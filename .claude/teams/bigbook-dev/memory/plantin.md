@@ -158,14 +158,16 @@
 - `npm audit` triage (10 moderate advisories from Astro scaffold)
 - Node 20 → 24 GH Actions migration (waiting on upstream action versions)
 
-**[NEXT SESSION ENTRY POINT]** **Execute v1-foundation Phase 0** — task #7. Two execution choices per the writing-plans skill:
+**[NEXT SESSION ENTRY POINT]** **Execute v1-foundation Phase 0** — task #7.
 
-1. **Subagent-driven** (recommended) — fresh subagent per task, two-stage review between. Use `superpowers:subagent-driven-development`.
-2. **Inline** — execute tasks in the main session with checkpoints. Use `superpowers:executing-plans`.
+**Execution mode per phase is decided and documented** at [`docs/superpowers/plans/v1-foundation/README.md`](../../../docs/superpowers/plans/v1-foundation/README.md#execution-mode-per-phase). Summary:
 
-P0 is config-only (no TDD), so inline execution might feel cleaner for that phase specifically — six small commits in sequence. P1 onwards is TDD-heavy and benefits from subagent isolation.
+- **P0, P5, P6 → inline** via `superpowers:executing-plans`. Pure config / orchestration; no TDD cycle to gain from.
+- **P1, P2, P3, P4 → XP triple** (Montano RED → Granjon GREEN → Ortelius PURPLE) via `TeamCreate(team_name: "bigbook-dev")` and the roster prompts at `.claude/teams/bigbook-dev/prompts/<name>.md`. Real TDD code; this is what the team config exists for.
 
-The plan file at `docs/superpowers/plans/v1-foundation/p0-infrastructure.md` has every command, every code block, every commit message — an executor needs nothing else. Issue #7 holds the high-level task list; the plan file holds the per-step instructions.
+The third pattern, generic anonymous subagents (`superpowers:subagent-driven-development`), was considered and rejected — when the team has named XP roles in the roster, the canonical pattern is to use them. Read the README's "Execution mode per phase" section for the full table and reasoning before executing.
+
+The plan file at `docs/superpowers/plans/v1-foundation/p0-infrastructure.md` has every command, every code block, every commit message — an executor (or Plantin running inline) needs nothing else. Issue #7 holds the high-level task list; the plan file holds the per-step instructions.
 
 **[CONTEXT NOTE]** Session 3 ended at ~54% context used (mostly the long plan-writing dialogue). PO suggested handover-via-scratchpad and a fresh session for execution. This entry IS that handover; no separate tmp file needed.
 

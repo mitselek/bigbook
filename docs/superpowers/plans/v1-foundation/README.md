@@ -88,6 +88,37 @@ Each phase is its own plan file under this directory. Phases are executed in ord
 
 All seven phase files now exist. Each phase is reviewed before the next executes; execution remains sequential.
 
+## Execution mode per phase
+
+Three execution patterns are available to this project, and the right one differs by phase. The decision below was made at the end of session 3 and applies to v1-foundation; later milestones may revisit it as we learn from running these.
+
+| Pattern                                                           | When it fits                                                                        | Cost                                                                                                                                                            |
+| ----------------------------------------------------------------- | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Inline** (`superpowers:executing-plans`)                        | Pure config / orchestration; no TDD cycle to gain from.                             | Burns main-session (Plantin's) context per task.                                                                                                                |
+| **Generic subagents** (`superpowers:subagent-driven-development`) | Independent tasks where character/role doesn't matter. Anonymous, two-stage review. | One subagent per task; main session stays light but agents have no team membership.                                                                             |
+| **XP triple** (canonical for this team)                           | Real TDD code with red/green/refactor discipline. Matches design-spec §3.7 intent.  | Highest ceremony — `TeamCreate` + Montano/Granjon/Ortelius spawned via roster prompts; Plantin coordinates per-AC handoffs and PURPLE three-strike escalations. |
+
+**Per-phase assignment:**
+
+| Phase                     | Mode      | Reason                                                                                                                                         |
+| ------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **P0 — Infrastructure**   | Inline    | Pure config wiring; no behavior to TDD. Six small commits in sequence.                                                                         |
+| **P1 — Parse module**     | XP triple | Real TDD work; parser logic is the first place the discipline pays off.                                                                        |
+| **P2 — Validate module**  | XP triple | Real TDD work; the shared validator's correctness is load-bearing for three downstream callers.                                                |
+| **P3 — Diff module**      | XP triple | Small but TDD-shaped; consistent with P1/P2 cadence.                                                                                           |
+| **P4 — Bootstrap script** | XP triple | Pure helpers are TDD; the orchestrator (`main()`) is run once in P6 and not unit-tested.                                                       |
+| **P5 — Pre-commit hooks** | Inline    | Mostly shell scripts + one Node hook; the Node hook has its own Vitest suite under `tests/scripts/`. The wiring into `lefthook.yml` is config. |
+| **P6 — Land the content** | Inline    | Plantin runs the bootstrap script locally with a real Claude API key, then commits. Not a TDD cycle.                                           |
+
+**XP triple logistics** (per `common-prompt.md` Team Reuse section):
+
+1. Plantin checks for `~/.claude/teams/bigbook-dev/`. If present, back up inboxes → delete → `TeamCreate(team_name: "bigbook-dev")` → restore inboxes.
+2. Spawn Montano / Granjon / Ortelius using their roster prompts at `.claude/teams/bigbook-dev/prompts/<name>.md`, with `run_in_background: true`, `name`, and `team_name` set.
+3. Plantin assigns one acceptance criterion (= one TDD task from the plan file) at a time. The XP cycle is RED (Montano writes failing test) → GREEN (Granjon makes it pass) → PURPLE (Ortelius refactors), with Plantin reviewing handoffs and handling three-strike escalations.
+4. When the phase completes, agents shut down per the `shutdown` skill, scratchpads commit.
+
+**Why P0 is not XP triple:** P0 has no failing test to write — it's `npm install` + config edits. RED-style "write a test that asserts the new dep is installed" is theatre. Inline keeps it honest.
+
 ---
 
 (_BB:Plantin_)
