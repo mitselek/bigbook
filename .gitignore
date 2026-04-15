@@ -17,3 +17,6 @@ worker/.dev.vars
 
 # Extracted-text working area
 # extracted_text
+
+# Superpowers brainstorming visual companion (mockup HTML, server state)
+.superpowers/
