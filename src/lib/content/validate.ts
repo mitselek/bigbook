@@ -1,3 +1,4 @@
+import { parse, ParseError } from './parse'
 import type { ParsedChapter } from './parse'
 
 export type ValidationErrorCategory = 'missing_pair' | 'extra_pair' | 'parse_error'
@@ -41,7 +42,46 @@ export function validateProposedContent(
   proposedContent: string,
   referenceParaIds?: Set<string>,
 ): ValidationResult {
-  void proposedContent
-  void referenceParaIds
-  throw new Error('not implemented')
+  let parsed: ParsedChapter
+  try {
+    parsed = parse(proposedContent)
+  } catch (err) {
+    if (err instanceof ParseError) {
+      return {
+        ok: false,
+        errors: [
+          {
+            category: 'parse_error',
+            paraId: '',
+            message: `${err.category}: ${err.message}`,
+          },
+        ],
+      }
+    }
+    throw err
+  }
+
+  if (!referenceParaIds) return { ok: true }
+
+  const errors: ValidationError[] = []
+  const actualIds = new Set(parsed.paragraphs.keys())
+  for (const id of referenceParaIds) {
+    if (!actualIds.has(id)) {
+      errors.push({
+        category: 'missing_pair',
+        paraId: id,
+        message: `proposed content is missing para-id '${id}'`,
+      })
+    }
+  }
+  for (const id of actualIds) {
+    if (!referenceParaIds.has(id)) {
+      errors.push({
+        category: 'extra_pair',
+        paraId: id,
+        message: `proposed content has unexpected para-id '${id}'`,
+      })
+    }
+  }
+  return errors.length === 0 ? { ok: true } : { ok: false, errors }
 }
