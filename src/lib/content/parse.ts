@@ -33,10 +33,11 @@ export function parse(content: string): ParsedChapter {
     throw new ParseError('frontmatter_missing', 'file must begin with a YAML frontmatter block')
   }
   const frontmatterBlock = match[1] ?? ''
+  const body = match[2] ?? ''
   const frontmatter = parseFrontmatter(frontmatterBlock)
   return {
     frontmatter,
-    paragraphs: new Map(),
+    paragraphs: parseBody(body),
   }
 }
 
@@ -57,4 +58,33 @@ function parseFrontmatter(block: string): ChapterFrontmatter {
     throw new ParseError('frontmatter_malformed', `lang must be 'en' or 'et', got '${lang}'`)
   }
   return { chapter, title, lang }
+}
+
+const DIRECTIVE_RE = /^::para\[([^\]]+)\]$/
+
+function parseBody(body: string): Map<string, string> {
+  const paragraphs = new Map<string, string>()
+  const lines = body.split('\n')
+  let currentId: string | null = null
+  let currentLines: string[] = []
+
+  const flush = () => {
+    if (currentId !== null) {
+      paragraphs.set(currentId, currentLines.join('\n').trim())
+    }
+  }
+
+  for (const line of lines) {
+    const directive = line.match(DIRECTIVE_RE)
+    if (directive) {
+      flush()
+      currentId = directive[1] ?? null
+      currentLines = []
+    } else if (currentId !== null) {
+      currentLines.push(line)
+    }
+  }
+  flush()
+
+  return paragraphs
 }
