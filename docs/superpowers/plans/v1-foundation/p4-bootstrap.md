@@ -100,6 +100,8 @@ New file `scripts/bootstrap-mock-content.ts`:
  * in two commits (content + baseline-config) per Phase 6.
  */
 
+import { pathToFileURL } from 'node:url'
+
 export function main(_argv: string[]): void {
   if (process.env['CONTENT_BOOTSTRAP'] !== '1') {
     console.error('error: CONTENT_BOOTSTRAP=1 must be set in the environment')
@@ -112,9 +114,11 @@ export function main(_argv: string[]): void {
   console.log('bootstrap: not yet implemented — see P4.2 onward')
 }
 
-// Only run main() when this file is executed directly, not when imported for tests.
+// Only run main() when this file is executed directly, not when imported.
+// pathToFileURL handles Windows (file:///C:/...) vs POSIX (file:///home/...)
+// differences that a manual `file://` concat gets wrong on Windows.
 const invokedPath = process.argv[1]
-if (invokedPath !== undefined && import.meta.url === `file://${invokedPath.replace(/\\/g, '/')}`) {
+if (invokedPath !== undefined && import.meta.url === pathToFileURL(invokedPath).href) {
   main(process.argv.slice(2))
 }
 ```

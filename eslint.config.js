@@ -13,6 +13,17 @@ export default [
   ...astro.configs['flat/jsx-a11y-recommended'],
   ...svelte.configs['flat/recommended'],
 
+  // Honor the leading-underscore convention for intentionally-unused params
+  // and locals — standard TypeScript-ESLint practice.
+  {
+    rules: {
+      '@typescript-eslint/no-unused-vars': [
+        'error',
+        { argsIgnorePattern: '^_', varsIgnorePattern: '^_', caughtErrorsIgnorePattern: '^_' },
+      ],
+    },
+  },
+
   // Architecture boundary: components/ must not import from pages/.
   {
     files: ['src/components/**/*.{ts,tsx,astro,svelte}'],
