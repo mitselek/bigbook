@@ -1,0 +1,20 @@
+# Enforce LF line endings for all text files Prettier touches.
+# Prevents CRLF drift on Windows Git Bash hosts where core.autocrlf=true
+# silently flips LF-normalized files back to CRLF on `git stash pop`,
+# which then trips the prettier pre-commit hook (endOfLine: "lf") and
+# blocks otherwise-clean commits. Flagged by Ortelius during P2.3
+# PURPLE refactor (e329678); adding this file is a one-time fix.
+
+*.ts       text eol=lf
+*.tsx      text eol=lf
+*.js       text eol=lf
+*.mjs      text eol=lf
+*.cjs      text eol=lf
+*.json     text eol=lf
+*.md       text eol=lf
+*.yml      text eol=lf
+*.yaml     text eol=lf
+*.astro    text eol=lf
+*.svelte   text eol=lf
+*.html     text eol=lf
+*.css      text eol=lf
