@@ -13,3 +13,30 @@
 [PHASE 2 PREP] Phase 2 is `validate.ts` — the Hard Invariant checker. It takes two `ParsedChapter` objects (EN + ET) and verifies every `para-id` in EN has exactly one counterpart in ET and vice versa. Tests will live in `tests/lib/content/validate.test.ts`. The pattern will be TDD with real failing tests (not regression-only). Expect Plantin to dispatch the first TEST_SPEC for validate at the start of session 6.
 
 (*BB:Montano*)
+
+## 2026-04-15 — Session 6, v1-foundation Phase 2 + Phase 3
+
+[PIPELINE SERIALIZATION] Every cycle — even regression-only ones — must flow RED → GREEN (no-op) → PURPLE (no-op) → back to team-lead. Do NOT report directly to Plantin after a regression commit. Granjon and Ortelius need the handoff chain to know which ACs have closed; bypassing it leaves them stale. The P2.2 mistake: sent the regression commit + "standing by for P2.3" directly to team-lead without notifying Granjon or Ortelius. Plantin corrected mid-turn. Fixed retroactively by sending a no-op DM to Granjon. From P2.4 onward the full chain was followed correctly.
+
+[REGRESSION CYCLE PROCEDURE]
+1. Add test(s) inside the existing `describe` block — verbatim from the plan's Step 1.
+2. Run `npx vitest run` — confirm all pass on first run.
+3. Commit with subject that has **no RED label**: e.g. `test(validate): lock in missing_pair, extra_pair, and both`. Use the plan's exact Step 3 commit body. Include `Part of #3` + `(*BB:Montano*)`.
+4. Send Granjon a message: "regression-only cycle, no-op GREEN. All N tests pass. No src/ change needed. Please confirm tests pass and forward no-op GREEN_HANDOFF to Ortelius."
+5. Wait for Ortelius CYCLE_COMPLETE before accepting next TEST_SPEC (no compressed pipelines).
+
+This procedure was applied cleanly for P2.2 (after correction), P2.4, P3.2, P3.3.
+
+[MODULE-SCAFFOLD CYCLE PATTERN] Used three times this session: P2.1 (`validate.ts` new module, commit `800a4c1`), P2.3 (`validateProposedContent` new export on existing `validate.ts`, commit `90348f4`), P3.1 (`diff.ts` new module, commit `55b215f`). Pattern: when a test imports a not-yet-existing export, land a minimum type-stub in `src/lib/content/` in the **same RED commit** so tsc resolves the import and ESLint/prettier hooks pass. Stub signature must match exactly what the test imports. Body: `void param1 / void param2 / throw new Error('not implemented')` (the `void` silences the `@typescript-eslint/no-unused-vars` rule; underscore prefixing does not reliably work with this rule). This is an authorized cross-role scaffold touch — precedent `20d5e12` from P1.1. Granjon replaces the body in GREEN.
+
+[STRICT INDEXING ON TEST ASSERTIONS] `result.errors[0].category` is a TS18048 error under `noUncheckedIndexedAccess` because array indexing returns `T | undefined`. Resolution used throughout P2: use `toMatchObject` on the array element instead of accessing `.category` directly:
+```ts
+expect(result.errors[0]).toMatchObject({ category: 'missing_pair', paraId: 'ch05-p002' })
+```
+This avoids the type error because `toMatchObject` accepts `unknown`. Alternative: add `expect(result.errors[0]).toBeDefined()` as a guard before the direct property access. `toMatchObject` is preferred — it's also more expressive and catches both property values in one assertion.
+
+[MAP_GET_TYPE] `Map.get()` always returns `T | undefined` regardless of `noUncheckedIndexedAccess`. That flag only affects array/tuple `[]` indexing. When tests work with `ParsedChapter.paragraphs.get(id)`, the `| undefined` is genuine contract behavior — the `baselineText === undefined` branch in `diff.ts` is a real exercisable path (tested in P3.3's "ignores para-ids present only in current" case), not a v8-ignorable dead branch like the regex capture group `??` branches from P1.7.
+
+[PHASE 4 PREP] Phase 4 is the bootstrap script (`scripts/bootstrap-mock-content.mjs`). It scrapes legacy ET markdown, calls Claude API for EN translation, emits `src/content/{et,en}/*.md` files and `manifest.ts` / `baseline-config.ts`. Tests live in `tests/scripts/`. XP triple applies to the pure helpers; the orchestrator `main()` is run once in P6 and is not unit-tested.
+
+(*BB:Montano*)
