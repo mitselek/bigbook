@@ -1,6 +1,7 @@
 import js from '@eslint/js'
 import tseslint from 'typescript-eslint'
 import astro from 'eslint-plugin-astro'
+import svelte from 'eslint-plugin-svelte'
 
 export default [
   {
@@ -9,10 +10,12 @@ export default [
   js.configs.recommended,
   ...tseslint.configs.recommended,
   ...astro.configs.recommended,
+  ...astro.configs['flat/jsx-a11y-recommended'],
+  ...svelte.configs['flat/recommended'],
 
   // Architecture boundary: components/ must not import from pages/.
   {
-    files: ['src/components/**/*.{ts,tsx,astro}'],
+    files: ['src/components/**/*.{ts,tsx,astro,svelte}'],
     rules: {
       'no-restricted-imports': [
         'error',
@@ -47,6 +50,10 @@ export default [
             {
               group: ['astro:*'],
               message: 'lib/ must not import from the Astro runtime (keep lib/ headless).',
+            },
+            {
+              group: ['svelte', 'svelte/*'],
+              message: 'lib/ must not import from Svelte (keep lib/ headless).',
             },
           ],
         },
