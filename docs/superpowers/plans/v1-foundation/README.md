@@ -76,17 +76,17 @@ bigbook/
 
 Each phase is its own plan file under this directory. Phases are executed in order; each is reviewed before the next is written.
 
-| Phase                     | File                                             | Purpose                                                                                      | Status          |
-| ------------------------- | ------------------------------------------------ | -------------------------------------------------------------------------------------------- | --------------- |
-| **P0 — Infrastructure**   | [`p0-infrastructure.md`](./p0-infrastructure.md) | Install Svelte 5 + a11y plugins + Playwright + size-limit, wire configs, verify the dev loop | Written         |
-| **P1 — Parse module**     | [`p1-parse.md`](./p1-parse.md)                   | `src/lib/content/parse.ts` parses `::para[id]` directives + YAML frontmatter                 | Written         |
-| **P2 — Validate module**  | `p2-validate.md`                                 | `src/lib/content/validate.ts` enforces the Hard Invariant + structured errors                | Not yet written |
-| **P3 — Diff module**      | `p3-diff.md`                                     | `src/lib/content/diff.ts` returns diverged `para-id`s between current and baseline           | Not yet written |
-| **P4 — Bootstrap script** | `p4-bootstrap.md`                                | `scripts/bootstrap-mock-content.mjs` scrapes legacy, calls Claude, emits manifest            | Not yet written |
-| **P5 — Pre-commit hooks** | `p5-hooks.md`                                    | `legacy-guard` restored, `content-guard` new, `hard-invariant` new                           | Not yet written |
-| **P6 — Land the content** | `p6-land-content.md`                             | Run the bootstrap, commit A (content + manifest), commit B (baseline SHA constant)           | Not yet written |
+| Phase                     | File                                             | Purpose                                                                                      | Status  |
+| ------------------------- | ------------------------------------------------ | -------------------------------------------------------------------------------------------- | ------- |
+| **P0 — Infrastructure**   | [`p0-infrastructure.md`](./p0-infrastructure.md) | Install Svelte 5 + a11y plugins + Playwright + size-limit, wire configs, verify the dev loop | Written |
+| **P1 — Parse module**     | [`p1-parse.md`](./p1-parse.md)                   | `src/lib/content/parse.ts` parses `::para[id]` directives + YAML frontmatter                 | Written |
+| **P2 — Validate module**  | [`p2-validate.md`](./p2-validate.md)             | `src/lib/content/validate.ts` enforces the Hard Invariant + structured errors                | Written |
+| **P3 — Diff module**      | [`p3-diff.md`](./p3-diff.md)                     | `src/lib/content/diff.ts` returns diverged `para-id`s between current and baseline           | Written |
+| **P4 — Bootstrap script** | [`p4-bootstrap.md`](./p4-bootstrap.md)           | `scripts/bootstrap-mock-content.mjs` scrapes legacy, calls Claude, emits manifest            | Written |
+| **P5 — Pre-commit hooks** | [`p5-hooks.md`](./p5-hooks.md)                   | `legacy-guard` restored, `content-guard` new, `hard-invariant` new                           | Written |
+| **P6 — Land the content** | [`p6-land-content.md`](./p6-land-content.md)     | Run the bootstrap, commit A (content + manifest), commit B (baseline SHA constant)           | Written |
 
-Subsequent phase plans land one at a time after the previous is reviewed. This keeps per-file reviewable scope under ~800 lines and lets later phases reference concrete output from earlier ones instead of guessing.
+All seven phase files now exist. Each phase is reviewed before the next executes; execution remains sequential.
 
 ---
 
