@@ -87,4 +87,40 @@ Kuidas see toimib
       expect((err as ParseError).category).toBe('frontmatter_missing')
     }
   })
+
+  it('throws ParseError when a directive line is malformed', () => {
+    const input = `---
+chapter: ch05
+title: Kuidas see toimib
+lang: et
+---
+
+::para[ch05-p001
+Oleme harva näinud inimest.
+`
+    expect(() => parse(input)).toThrow(ParseError)
+    try {
+      parse(input)
+    } catch (err) {
+      expect((err as ParseError).category).toBe('directive_malformed')
+    }
+  })
+
+  it('throws ParseError when a directive has an empty id', () => {
+    const input = `---
+chapter: ch05
+title: Kuidas see toimib
+lang: et
+---
+
+::para[]
+text
+`
+    expect(() => parse(input)).toThrow(ParseError)
+    try {
+      parse(input)
+    } catch (err) {
+      expect((err as ParseError).category).toBe('directive_malformed')
+    }
+  })
 })
