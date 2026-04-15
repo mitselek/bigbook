@@ -20,8 +20,39 @@
 
 import { pathToFileURL } from 'node:url'
 
-export function stripJekyllPreamble(_content: string): string {
-  throw new Error('not implemented')
+/**
+ * Strip Jekyll-style preamble from a legacy markdown file:
+ * - Remove the leading YAML frontmatter block (between `---` fences).
+ * - Remove liquid expressions like `{{ site.url }}`.
+ * - Remove liquid tags like `{% include ... %}` or `{% for %}...{% endfor %}`.
+ * Returns the body with surrounding whitespace trimmed.
+ *
+ * The frontmatter strip uses string slicing (indexOf) rather than a regex
+ * capture group, which dodges the session-5 LESSON #1 trap: regex captures
+ * typed as `string | undefined` under `noUncheckedIndexedAccess` force
+ * defensive branches that v8 coverage flags as dead.
+ */
+export function stripJekyllPreamble(content: string): string {
+  let body = content
+
+  // Strip a leading YAML frontmatter block if present. `---\n` opens, a
+  // later `\n---\n` closes (we search from past the opener).
+  if (body.startsWith('---\n')) {
+    const endFence = body.indexOf('\n---\n', 4)
+    if (endFence !== -1) {
+      body = body.slice(endFence + 5)
+    }
+  }
+
+  // Strip {% ... %} tags including block tags with matching {% endfoo %}.
+  // Block removal first (greedy match between opener and its matching endtag).
+  body = body.replace(/\{%\s*(\w+)[\s\S]*?\{%\s*end\1\s*%\}/g, '')
+  // Then strip any remaining standalone {% ... %} tags (include, assign, etc.).
+  body = body.replace(/\{%[\s\S]*?%\}/g, '')
+  // Then strip {{ ... }} expressions.
+  body = body.replace(/\{\{[\s\S]*?\}\}/g, '')
+
+  return body.trim()
 }
 
 export function main(_argv: string[]): void {
