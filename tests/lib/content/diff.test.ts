@@ -35,4 +35,44 @@ describe('diffCurrentVsBaseline()', () => {
     })
     expect(diffCurrentVsBaseline(current, baseline)).toEqual(new Set(['ch05-p001']))
   })
+
+  it('detects multiple diverged paragraphs', () => {
+    const current = chapter({
+      'ch05-title': 'EDITED: Kuidas see toimib',
+      'ch05-p001': 'EDITED: Oleme harva näinud inimest.',
+      'ch05-p002': 'Meie lood avaldavad üldjoontes.',
+    })
+    const baseline = chapter({
+      'ch05-title': 'Kuidas see toimib',
+      'ch05-p001': 'Oleme harva näinud inimest.',
+      'ch05-p002': 'Meie lood avaldavad üldjoontes.',
+    })
+    expect(diffCurrentVsBaseline(current, baseline)).toEqual(new Set(['ch05-title', 'ch05-p001']))
+  })
+
+  it('ignores para-ids present only in current (permissive — validator catches this)', () => {
+    const current = chapter({
+      'ch05-title': 'Kuidas see toimib',
+      'ch05-p001': 'Oleme harva näinud inimest.',
+      'ch05-p999': 'A new paragraph.',
+    })
+    const baseline = chapter({
+      'ch05-title': 'Kuidas see toimib',
+      'ch05-p001': 'Oleme harva näinud inimest.',
+    })
+    expect(diffCurrentVsBaseline(current, baseline)).toEqual(new Set())
+  })
+
+  it('ignores para-ids present only in baseline (permissive)', () => {
+    const current = chapter({
+      'ch05-title': 'Kuidas see toimib',
+      'ch05-p001': 'Oleme harva näinud inimest.',
+    })
+    const baseline = chapter({
+      'ch05-title': 'Kuidas see toimib',
+      'ch05-p001': 'Oleme harva näinud inimest.',
+      'ch05-p999': 'A paragraph that existed in baseline but was removed.',
+    })
+    expect(diffCurrentVsBaseline(current, baseline)).toEqual(new Set())
+  })
 })
