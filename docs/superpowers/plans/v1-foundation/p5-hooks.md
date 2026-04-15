@@ -20,9 +20,11 @@ Each hook is a standalone shell or Node script under `scripts/`, so the lefthook
 
 - Create: `scripts/legacy-guard.sh`
 - Create: `scripts/content-guard.sh`
-- Create: `scripts/hard-invariant.mjs`
+- Create: `scripts/hard-invariant.ts`
 - Create: `tests/scripts/hard-invariant.test.ts`
 - Modify: `lefthook.yml`
+
+> **Script language note (added session 7):** scripts live at `scripts/**/*.ts` (not `.mjs`), run via `tsx`, and follow the same strict TypeScript discipline as `src/` (no `any`, no `!`, narrow at boundaries). `tsconfig.json` `include` covers `scripts/**/*`, so the typecheck and lint gates apply. When executing this phase inline, port the `.mjs` code blocks below to TS with explicit type annotations — same decision applied to `bootstrap-mock-content.ts` in P4.
 
 ---
 
@@ -212,7 +214,7 @@ New file content (near-identical shape to `legacy-guard.sh`):
 # CONTENT_BOOTSTRAP=1 is set.
 #
 # Rationale: src/content/ is populated by the one-shot bootstrap script
-# (scripts/bootstrap-mock-content.mjs) and by end users via the web app.
+# (scripts/bootstrap-mock-content.ts) and by end users via the web app.
 # The dev team never commits content directly. This hook catches
 # accidental dev-team commits that would clobber user data.
 #
@@ -330,7 +332,7 @@ EOF
 
 **Files:**
 
-- Create: `scripts/hard-invariant.mjs`
+- Create: `scripts/hard-invariant.ts`
 - Create: `tests/scripts/hard-invariant.test.ts`
 - Modify: `lefthook.yml`
 
@@ -340,7 +342,7 @@ New file `tests/scripts/hard-invariant.test.ts`:
 
 ```ts
 import { describe, expect, it } from 'vitest'
-import { checkStagedContent } from '../../scripts/hard-invariant.mjs'
+import { checkStagedContent } from '../../scripts/hard-invariant'
 
 describe('hard-invariant checkStagedContent()', () => {
   it('returns ok when staged files list is empty', async () => {
@@ -443,7 +445,7 @@ npx vitest run tests/scripts/hard-invariant.test.ts
 
 Expected: fail — module not yet exported.
 
-- [ ] **Step 3: Create `scripts/hard-invariant.mjs`**
+- [ ] **Step 3: Create `scripts/hard-invariant.ts`**
 
 New file:
 
@@ -537,7 +539,7 @@ Add below `content-guard`:
 
 ```yaml
 hard-invariant:
-  run: npx tsx scripts/hard-invariant.mjs {staged_files}
+  run: npx tsx scripts/hard-invariant.ts {staged_files}
 ```
 
 Full `pre-commit.commands` block after this edit:
@@ -551,7 +553,7 @@ pre-commit:
     content-guard:
       run: bash scripts/content-guard.sh {staged_files}
     hard-invariant:
-      run: npx tsx scripts/hard-invariant.mjs {staged_files}
+      run: npx tsx scripts/hard-invariant.ts {staged_files}
     typecheck:
       glob: '*.{ts,tsx,astro}'
       run: npx tsc --noEmit
@@ -566,7 +568,7 @@ pre-commit:
 - [ ] **Step 6: Commit**
 
 ```bash
-git add scripts/hard-invariant.mjs tests/scripts/hard-invariant.test.ts lefthook.yml
+git add scripts/hard-invariant.ts tests/scripts/hard-invariant.test.ts lefthook.yml
 git commit -m "$(cat <<'EOF'
 feat(lefthook): add hard-invariant pre-commit hook
 

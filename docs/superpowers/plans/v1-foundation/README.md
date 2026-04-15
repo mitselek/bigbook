@@ -29,7 +29,7 @@
 - `src/lib/content/parse.ts`, `validate.ts`, `diff.ts` — three pure modules, Vitest-covered at ≥90% lines/functions/statements and ≥85% branches
 - `src/lib/content/manifest.ts` and `src/lib/content/baseline-config.ts` — both emitted by the bootstrap script
 - `src/content/et/*.md` and `src/content/en/*.md` — mock content with `para-id` directives, passing the Hard Invariant
-- `scripts/bootstrap-mock-content.mjs` — one-shot, committed for future reference
+- `scripts/bootstrap-mock-content.ts` — one-shot, committed for future reference
 - `scripts/legacy-guard.sh` + `scripts/content-guard.sh` — pre-commit hook logic as shell scripts
 - `lefthook.yml` with `typecheck`, `eslint`, `prettier`, `legacy-guard`, `content-guard`, `hard-invariant` all active
 - `playwright.config.ts` — scaffold only (no tests yet)
@@ -53,7 +53,7 @@ bigbook/
 │   │       ├── manifest.ts          (emitted by bootstrap)
 │   │       └── baseline-config.ts   (emitted by bootstrap)
 ├── scripts/                         [new]
-│   ├── bootstrap-mock-content.mjs
+│   ├── bootstrap-mock-content.ts
 │   ├── legacy-guard.sh
 │   └── content-guard.sh
 ├── tests/
@@ -82,7 +82,7 @@ Each phase is its own plan file under this directory. Phases are executed in ord
 | **P1 — Parse module**     | [`p1-parse.md`](./p1-parse.md)                   | `src/lib/content/parse.ts` parses `::para[id]` directives + YAML frontmatter                 | Written |
 | **P2 — Validate module**  | [`p2-validate.md`](./p2-validate.md)             | `src/lib/content/validate.ts` enforces the Hard Invariant + structured errors                | Written |
 | **P3 — Diff module**      | [`p3-diff.md`](./p3-diff.md)                     | `src/lib/content/diff.ts` returns diverged `para-id`s between current and baseline           | Written |
-| **P4 — Bootstrap script** | [`p4-bootstrap.md`](./p4-bootstrap.md)           | `scripts/bootstrap-mock-content.mjs` scrapes legacy, calls Claude, emits manifest            | Written |
+| **P4 — Bootstrap script** | [`p4-bootstrap.md`](./p4-bootstrap.md)           | `scripts/bootstrap-mock-content.ts` scrapes legacy, calls Claude, emits manifest             | Written |
 | **P5 — Pre-commit hooks** | [`p5-hooks.md`](./p5-hooks.md)                   | `legacy-guard` restored, `content-guard` new, `hard-invariant` new                           | Written |
 | **P6 — Land the content** | [`p6-land-content.md`](./p6-land-content.md)     | Run the bootstrap, commit A (content + manifest), commit B (baseline SHA constant)           | Written |
 
@@ -106,7 +106,7 @@ Three execution patterns are available to this project, and the right one differ
 | **P1 — Parse module**     | XP triple | Real TDD work; parser logic is the first place the discipline pays off.                                                                        |
 | **P2 — Validate module**  | XP triple | Real TDD work; the shared validator's correctness is load-bearing for three downstream callers.                                                |
 | **P3 — Diff module**      | XP triple | Small but TDD-shaped; consistent with P1/P2 cadence.                                                                                           |
-| **P4 — Bootstrap script** | XP triple | Pure helpers are TDD; the orchestrator (`main()`) is run once in P6 and not unit-tested.                                                       |
+| **P4 — Bootstrap script** | Mixed     | P4.2–P4.6 (pure helpers) via XP triple; P4.1 (scaffold) and P4.7 (orchestrator) inline by Plantin. See "Why P4 is mixed" below.                |
 | **P5 — Pre-commit hooks** | Inline    | Mostly shell scripts + one Node hook; the Node hook has its own Vitest suite under `tests/scripts/`. The wiring into `lefthook.yml` is config. |
 | **P6 — Land the content** | Inline    | Plantin runs the bootstrap script locally with a real Claude API key, then commits. Not a TDD cycle.                                           |
 
@@ -118,6 +118,8 @@ Three execution patterns are available to this project, and the right one differ
 4. When the phase completes, agents shut down per the `shutdown` skill, scratchpads commit.
 
 **Why P0 is not XP triple:** P0 has no failing test to write — it's `npm install` + config edits. RED-style "write a test that asserts the new dep is installed" is theatre. Inline keeps it honest.
+
+**Why P4 is mixed:** P4.1 (install `tsx` + Anthropic SDK, scaffold a stub file with an env-var guard) is pure config wiring like P0 — no TDD cycle to gain from. P4.7's `main()` orchestrator (~130 lines of `fs` walk + sequential helper calls, exercised end-to-end during P6's live run) has no failing test to write — the plan file itself says _"this task does not add new unit tests."_ Running either through the XP triple is the same theatre P0 is inline to avoid. P4.2–P4.6 (five pure-helper functions: `stripJekyllPreamble`, `splitIntoParagraphs` + `assignParaIds`, `formatContentFile`, `translateWithClaude` with an injected fake client, `emitManifest`) remain XP triple — they are classic RED/GREEN/PURPLE shape and the core of P4's value.
 
 ---
 

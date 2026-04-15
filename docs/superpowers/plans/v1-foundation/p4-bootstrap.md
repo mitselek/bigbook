@@ -1,6 +1,6 @@
 # v1-foundation · Phase 4: Bootstrap script
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use `superpowers:subagent-driven-development` (recommended) or `superpowers:executing-plans` to implement this phase task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** MIXED EXECUTION MODE — see the README's "Execution mode per phase" table. P4.2–P4.6 (pure helpers) run via the XP triple (`TeamCreate(team_name: "bigbook-dev")` + Montano/Granjon/Ortelius). P4.1 (scaffold + stub file) and P4.7 (`main()` orchestrator) run inline by Plantin because neither has a failing test to write. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Plan overview:** [v1-foundation/README.md](./README.md)
 **Tracking issue:** [#3 — Epic: v1-foundation](https://github.com/mitselek/bigbook/issues/3)
@@ -8,9 +8,11 @@
 **Prerequisites:** [P3 — Diff module](./p3-diff.md) committed + pushed to `origin/main`
 **Commit convention:** every commit in this phase has `Part of #3` in the body.
 
-Build `scripts/bootstrap-mock-content.mjs` — a one-shot Node script that scrapes the legacy Jekyll Estonian markdown under `legacy/peatykid/`, `legacy/kogemuslood/`, `legacy/lisad/`, and `legacy/front_matter/`, strips Jekyll frontmatter + liquid tags, splits into paragraphs, assigns `para-id`s, writes the ET files under `src/content/et/`, calls the Claude API to translate each paragraph to English, writes the EN files under `src/content/en/`, validates the result against the Hard Invariant, and emits `src/lib/content/manifest.ts` (`src/lib/content/baseline-config.ts` is written in Phase 6 after the content commit lands).
+Build `scripts/bootstrap-mock-content.ts` — a one-shot Node script that scrapes the legacy Jekyll Estonian markdown under `legacy/peatykid/`, `legacy/kogemuslood/`, `legacy/lisad/`, and `legacy/front_matter/`, strips Jekyll frontmatter + liquid tags, splits into paragraphs, assigns `para-id`s, writes the ET files under `src/content/et/`, calls the Claude API to translate each paragraph to English, writes the EN files under `src/content/en/`, validates the result against the Hard Invariant, and emits `src/lib/content/manifest.ts` (`src/lib/content/baseline-config.ts` is written in Phase 6 after the content commit lands).
 
 **This phase builds the script only — it does not run it.** Phase 6 runs the script and commits the generated content. This separation lets us TDD the pure helper functions without needing network access to the Claude API or a clean `src/content/` tree.
+
+> **Language + scope note (session 7):** The script is **TypeScript** (`scripts/bootstrap-mock-content.ts`), not JavaScript (`.mjs`). `tsconfig.json` `include` covers `scripts/**/*`, so the typecheck and lint gates apply the same way they do to `src/lib/content/`. Code blocks below are written in TS with explicit type annotations. When implementing via the XP triple: under `noUncheckedIndexedAccess`, prefer **`for..of` over indexed loops**, **string slicing over regex capture groups**, and **destructure-and-check over `match[i]` access** — this is the session-5 LESSON #1 discipline from P1.7, applied preemptively so we don't re-derive it via escalation. P4 helpers are not in `coverage.include` (`vitest.config.ts` covers only `src/lib/content/`), so the 90%/85% gates don't apply — but the strict typecheck does.
 
 ## Design
 
@@ -29,27 +31,31 @@ The script is structured as a file of exported helper functions plus a `main()` 
 
 - `main(argv: string[])` — reads env vars, checks `CONTENT_BOOTSTRAP=1`, walks legacy/, invokes the helpers, writes files, runs `validatePair` from Phase 2 on each chapter.
 
-**Why `.mjs` not `.ts`?** Scripts are ad-hoc tooling; they don't need to participate in the app's type-checked tree, and avoiding a TS → JS build step for a one-shot keeps things simple. The script imports parse/validate from `src/lib/content/` via their compiled-to-JS equivalents at runtime (Node's native ESM resolution) — or, more simply, we dynamically import them from source using tsx/esbuild. We pick the simplest approach that works: run the script with `npx tsx scripts/bootstrap-mock-content.mjs` (wait — `.mjs` + tsx is a contradiction; let me reconcile this in P4.1 where we scaffold).
+**Why `.ts` (resolved session 7):** The script runs under `tsx` (no build step) and imports directly from `../src/lib/content/parse` and `../src/lib/content/validate`. Writing it as `.ts` with the repo's strict TypeScript config:
 
-**Why `.mjs` resolved:** keep the script as `.mjs` and import our validators via **dynamic import** of the TypeScript source files, which `tsx` (TypeScript execution wrapper for Node) handles cleanly. The script is invoked as `CONTENT_BOOTSTRAP=1 npx tsx scripts/bootstrap-mock-content.mjs`. `tsx` transparently compiles both `.mjs` and `.ts` imports on the fly.
+1. Puts the helpers under the same type discipline as `src/lib/content/` — catches the session-5 LESSON #1 regex-capture-group trap at plan-review time instead of via a P1.7-style escalation.
+2. Lets tests import from `../../scripts/bootstrap-mock-content` without `allowJs` (unset in our tsconfig) or the TS2307 resolution error a `.mjs` import would hit.
+3. Removes the `.mjs`-plus-tsx interop hedge the earlier draft worried about.
 
-Alternative if that's messy: rename the script to `.ts` and call it `scripts/bootstrap-mock-content.ts`. The spec says `.mjs` but the spec is advisory on file extensions. If tsx + mjs proves awkward during P4.1, switching to `.ts` is fine — update the plan and spec inline.
+`scripts/**/*` is in `tsconfig.json` `include` as of session 7, so the script participates in `tsc --noEmit` and in ESLint / Prettier. Type errors block commits the same way they do in `src/`.
 
 **Files touched in Phase 4:**
 
-- Create: `scripts/bootstrap-mock-content.mjs`
+- Create: `scripts/bootstrap-mock-content.ts`
 - Create: `tests/scripts/bootstrap-mock-content.test.ts`
 - Create: `tests/fixtures/legacy-sample.md` — a small fake Jekyll file for tests
-- Modify: `package.json` — add `"bootstrap:content": "CONTENT_BOOTSTRAP=1 tsx scripts/bootstrap-mock-content.mjs"` and install `tsx` + `@anthropic-ai/sdk`
+- Modify: `package.json` — add `"bootstrap:content": "CONTENT_BOOTSTRAP=1 tsx scripts/bootstrap-mock-content.ts"` and install `tsx` + `@anthropic-ai/sdk`
 
 ---
 
 ## Task P4.1: Install tsx + Anthropic SDK, scaffold script entry point
 
+> **Execution mode: Plantin-inline (not XP triple).** P4.1 is `npm install` + add an npm script + create a stub file with an env-guard. There is no failing test to write — same shape as P0 tasks. Plantin completes this before spawning the XP triple for P4.2–P4.6.
+
 **Files:**
 
 - Modify: `package.json`, `package-lock.json`
-- Create: `scripts/bootstrap-mock-content.mjs`
+- Create: `scripts/bootstrap-mock-content.ts`
 
 - [ ] **Step 1: Install dependencies**
 
@@ -66,14 +72,14 @@ npm install --save-dev tsx @anthropic-ai/sdk
 Edit `package.json` and add this line to the `scripts` block (between `e2e:all-browsers` and the closing brace):
 
 ```json
-    "bootstrap:content": "CONTENT_BOOTSTRAP=1 tsx scripts/bootstrap-mock-content.mjs"
+    "bootstrap:content": "CONTENT_BOOTSTRAP=1 tsx scripts/bootstrap-mock-content.ts"
 ```
 
 - [ ] **Step 3: Create the script entry point**
 
-New file `scripts/bootstrap-mock-content.mjs`:
+New file `scripts/bootstrap-mock-content.ts`:
 
-```js
+```ts
 #!/usr/bin/env node
 /**
  * One-shot bootstrap script for bigbook v1 mock content.
@@ -94,12 +100,12 @@ New file `scripts/bootstrap-mock-content.mjs`:
  * in two commits (content + baseline-config) per Phase 6.
  */
 
-export function main(_argv) {
-  if (process.env.CONTENT_BOOTSTRAP !== '1') {
+export function main(_argv: string[]): void {
+  if (process.env['CONTENT_BOOTSTRAP'] !== '1') {
     console.error('error: CONTENT_BOOTSTRAP=1 must be set in the environment')
     process.exit(1)
   }
-  if (!process.env.CLAUDE_API_KEY) {
+  if (process.env['CLAUDE_API_KEY'] === undefined || process.env['CLAUDE_API_KEY'] === '') {
     console.error('error: CLAUDE_API_KEY must be set in the environment')
     process.exit(1)
   }
@@ -107,7 +113,8 @@ export function main(_argv) {
 }
 
 // Only run main() when this file is executed directly, not when imported for tests.
-if (import.meta.url === `file://${process.argv[1].replace(/\\/g, '/')}`) {
+const invokedPath = process.argv[1]
+if (invokedPath !== undefined && import.meta.url === `file://${invokedPath.replace(/\\/g, '/')}`) {
   main(process.argv.slice(2))
 }
 ```
@@ -117,7 +124,7 @@ if (import.meta.url === `file://${process.argv[1].replace(/\\/g, '/')}`) {
 Run:
 
 ```bash
-CONTENT_BOOTSTRAP=1 CLAUDE_API_KEY=dummy npx tsx scripts/bootstrap-mock-content.mjs
+CONTENT_BOOTSTRAP=1 CLAUDE_API_KEY=dummy npx tsx scripts/bootstrap-mock-content.ts
 ```
 
 Expected: prints `bootstrap: not yet implemented — see P4.2 onward`, exits 0.
@@ -125,7 +132,7 @@ Expected: prints `bootstrap: not yet implemented — see P4.2 onward`, exits 0.
 Then verify the env checks:
 
 ```bash
-CONTENT_BOOTSTRAP=0 CLAUDE_API_KEY=dummy npx tsx scripts/bootstrap-mock-content.mjs
+CONTENT_BOOTSTRAP=0 CLAUDE_API_KEY=dummy npx tsx scripts/bootstrap-mock-content.ts
 ```
 
 Expected: prints the `CONTENT_BOOTSTRAP=1 must be set` error and exits non-zero.
@@ -133,13 +140,13 @@ Expected: prints the `CONTENT_BOOTSTRAP=1 must be set` error and exits non-zero.
 - [ ] **Step 5: Commit**
 
 ```bash
-git add package.json package-lock.json scripts/bootstrap-mock-content.mjs
+git add package.json package-lock.json scripts/bootstrap-mock-content.ts
 git commit -m "$(cat <<'EOF'
 feat(bootstrap): scaffold content bootstrap script
 
-Adds the entry point for scripts/bootstrap-mock-content.mjs with env
-var gating (CONTENT_BOOTSTRAP=1, CLAUDE_API_KEY). Installs tsx (for
-running .mjs+TS interop) and @anthropic-ai/sdk. Adds
+Adds the entry point for scripts/bootstrap-mock-content.ts with env
+var gating (CONTENT_BOOTSTRAP=1, CLAUDE_API_KEY). Installs tsx (to
+run TS scripts without a build step) and @anthropic-ai/sdk. Adds
 npm run bootstrap:content.
 
 No content logic yet — P4.2 starts the pure helper functions.
@@ -154,7 +161,7 @@ EOF
 
 **Files:**
 
-- Modify: `scripts/bootstrap-mock-content.mjs`
+- Modify: `scripts/bootstrap-mock-content.ts`
 - Create: `tests/scripts/bootstrap-mock-content.test.ts`
 
 - [ ] **Step 1: Create the failing test**
@@ -163,7 +170,7 @@ New file `tests/scripts/bootstrap-mock-content.test.ts`:
 
 ```ts
 import { describe, expect, it } from 'vitest'
-import { stripJekyllPreamble } from '../../scripts/bootstrap-mock-content.mjs'
+import { stripJekyllPreamble } from '../../scripts/bootstrap-mock-content'
 
 describe('stripJekyllPreamble()', () => {
   it('removes Jekyll YAML frontmatter', () => {
@@ -218,27 +225,35 @@ Expected: failures because `stripJekyllPreamble` is not yet exported.
 
 - [ ] **Step 3: Implement `stripJekyllPreamble`**
 
-Add to `scripts/bootstrap-mock-content.mjs`, above the `main` function:
+Add to `scripts/bootstrap-mock-content.ts`, above the `main` function:
 
-```js
+```ts
 /**
  * Strip Jekyll-style preamble from a legacy markdown file:
  * - Remove the leading YAML frontmatter block (between `---` fences).
  * - Remove liquid expressions like `{{ site.url }}`.
  * - Remove liquid tags like `{% include ... %}` or `{% for %}...{% endfor %}`.
  * Returns the body with surrounding whitespace trimmed.
+ *
+ * The frontmatter strip uses string slicing (indexOf) rather than a regex
+ * capture group, which dodges the session-5 LESSON #1 trap: regex captures
+ * typed as `string | undefined` under `noUncheckedIndexedAccess` force
+ * defensive branches that v8 coverage flags as dead.
  */
-export function stripJekyllPreamble(content) {
+export function stripJekyllPreamble(content: string): string {
   let body = content
 
-  // Strip leading YAML frontmatter block if present.
-  const frontmatterMatch = body.match(/^---\n[\s\S]*?\n---\n?/)
-  if (frontmatterMatch) {
-    body = body.slice(frontmatterMatch[0].length)
+  // Strip a leading YAML frontmatter block if present. `---\n` opens, a
+  // later `\n---\n` closes (we search from past the opener).
+  if (body.startsWith('---\n')) {
+    const endFence = body.indexOf('\n---\n', 4)
+    if (endFence !== -1) {
+      body = body.slice(endFence + 5)
+    }
   }
 
   // Strip {% ... %} tags including block tags with matching {% endfoo %}.
-  // Do block removal first (greedy match for anything between opener and its matching endtag).
+  // Block removal first (greedy match between opener and its matching endtag).
   body = body.replace(/\{%\s*(\w+)[\s\S]*?\{%\s*end\1\s*%\}/g, '')
   // Then strip any remaining standalone {% ... %} tags (include, assign, etc.).
   body = body.replace(/\{%[\s\S]*?%\}/g, '')
@@ -262,7 +277,7 @@ Expected: 4 tests passing.
 - [ ] **Step 5: Commit**
 
 ```bash
-git add scripts/bootstrap-mock-content.mjs tests/scripts/bootstrap-mock-content.test.ts
+git add scripts/bootstrap-mock-content.ts tests/scripts/bootstrap-mock-content.test.ts
 git commit -m "$(cat <<'EOF'
 feat(bootstrap): stripJekyllPreamble helper
 
@@ -280,7 +295,7 @@ EOF
 
 **Files:**
 
-- Modify: `scripts/bootstrap-mock-content.mjs`
+- Modify: `scripts/bootstrap-mock-content.ts`
 - Modify: `tests/scripts/bootstrap-mock-content.test.ts`
 
 - [ ] **Step 1: Add failing tests**
@@ -288,7 +303,7 @@ EOF
 Append to `tests/scripts/bootstrap-mock-content.test.ts`:
 
 ```ts
-import { splitIntoParagraphs, assignParaIds } from '../../scripts/bootstrap-mock-content.mjs'
+import { splitIntoParagraphs, assignParaIds } from '../../scripts/bootstrap-mock-content'
 
 describe('splitIntoParagraphs()', () => {
   it('splits on blank lines and trims', () => {
@@ -363,14 +378,19 @@ Expected: new tests fail — functions not yet exported.
 
 - [ ] **Step 3: Add the implementations**
 
-In `scripts/bootstrap-mock-content.mjs`, above `main`:
+In `scripts/bootstrap-mock-content.ts`, above `main`:
 
-```js
+```ts
+export interface IdentifiedParagraph {
+  id: string
+  text: string
+}
+
 /**
  * Split a stripped markdown body into paragraphs on blank-line boundaries.
  * Trims each paragraph. Drops empty chunks from consecutive blank lines.
  */
-export function splitIntoParagraphs(stripped) {
+export function splitIntoParagraphs(stripped: string): string[] {
   return stripped
     .split(/\n\s*\n/)
     .map((chunk) => chunk.trim())
@@ -381,18 +401,28 @@ export function splitIntoParagraphs(stripped) {
  * Assign para-ids of form `<slug>-title` (if titleAtTop) or `<slug>-p<nnn>`
  * with three-digit zero-padded ordinal. Ordinals start at 001 regardless
  * of whether the first paragraph is a title.
+ *
+ * Uses `for..of` rather than indexed iteration — under
+ * `noUncheckedIndexedAccess`, `paragraphs[i]` is `string | undefined`, but
+ * `for..of` yields `string` directly.
  */
-export function assignParaIds(paragraphs, chapterSlug, titleAtTop) {
-  const out = []
+export function assignParaIds(
+  paragraphs: string[],
+  chapterSlug: string,
+  titleAtTop: boolean,
+): IdentifiedParagraph[] {
+  const out: IdentifiedParagraph[] = []
   let ordinal = 1
-  for (let i = 0; i < paragraphs.length; i++) {
-    if (titleAtTop && i === 0) {
-      out.push({ id: `${chapterSlug}-title`, text: paragraphs[i] })
-      continue
+  let isFirst = true
+  for (const text of paragraphs) {
+    if (titleAtTop && isFirst) {
+      out.push({ id: `${chapterSlug}-title`, text })
+    } else {
+      const paddedOrdinal = String(ordinal).padStart(3, '0')
+      out.push({ id: `${chapterSlug}-p${paddedOrdinal}`, text })
+      ordinal++
     }
-    const paddedOrdinal = String(ordinal).padStart(3, '0')
-    out.push({ id: `${chapterSlug}-p${paddedOrdinal}`, text: paragraphs[i] })
-    ordinal++
+    isFirst = false
   }
   return out
 }
@@ -411,7 +441,7 @@ Expected: all 10 tests passing.
 - [ ] **Step 5: Commit**
 
 ```bash
-git add scripts/bootstrap-mock-content.mjs tests/scripts/bootstrap-mock-content.test.ts
+git add scripts/bootstrap-mock-content.ts tests/scripts/bootstrap-mock-content.test.ts
 git commit -m "$(cat <<'EOF'
 feat(bootstrap): splitIntoParagraphs + assignParaIds helpers
 
@@ -431,7 +461,7 @@ Renders the `::para[]`-directive format that `parse.ts` reads.
 
 **Files:**
 
-- Modify: `scripts/bootstrap-mock-content.mjs`
+- Modify: `scripts/bootstrap-mock-content.ts`
 - Modify: `tests/scripts/bootstrap-mock-content.test.ts`
 
 - [ ] **Step 1: Add the failing test**
@@ -439,7 +469,7 @@ Renders the `::para[]`-directive format that `parse.ts` reads.
 Append:
 
 ```ts
-import { formatContentFile } from '../../scripts/bootstrap-mock-content.mjs'
+import { formatContentFile } from '../../scripts/bootstrap-mock-content'
 
 describe('formatContentFile()', () => {
   it('produces a file that parse() can round-trip', () => {
@@ -510,9 +540,15 @@ Expected: tests fail — function not yet exported.
 
 - [ ] **Step 4: Implement `formatContentFile`**
 
-In `scripts/bootstrap-mock-content.mjs`:
+In `scripts/bootstrap-mock-content.ts`:
 
-```js
+```ts
+export interface ContentFrontmatter {
+  chapter: string
+  title: string
+  lang: 'en' | 'et'
+}
+
 /**
  * Render a ParsedChapter-shaped input to the ::para[]-directive format
  * that src/lib/content/parse.ts reads. Produces:
@@ -530,8 +566,11 @@ In `scripts/bootstrap-mock-content.mjs`:
  *   <text2>
  *   ...
  */
-export function formatContentFile(frontmatter, paragraphs) {
-  const lines = [
+export function formatContentFile(
+  frontmatter: ContentFrontmatter,
+  paragraphs: IdentifiedParagraph[],
+): string {
+  const lines: string[] = [
     '---',
     `chapter: ${frontmatter.chapter}`,
     `title: ${frontmatter.title}`,
@@ -561,7 +600,7 @@ Expected: all tests green. The round-trip test is especially important — it ve
 - [ ] **Step 6: Commit**
 
 ```bash
-git add scripts/bootstrap-mock-content.mjs tests/scripts/bootstrap-mock-content.test.ts
+git add scripts/bootstrap-mock-content.ts tests/scripts/bootstrap-mock-content.test.ts
 git commit -m "$(cat <<'EOF'
 feat(bootstrap): formatContentFile + round-trip with parse()
 
@@ -579,7 +618,7 @@ EOF
 
 **Files:**
 
-- Modify: `scripts/bootstrap-mock-content.mjs`
+- Modify: `scripts/bootstrap-mock-content.ts`
 - Modify: `tests/scripts/bootstrap-mock-content.test.ts`
 
 - [ ] **Step 1: Add the failing test**
@@ -587,7 +626,7 @@ EOF
 Append:
 
 ```ts
-import { translateWithClaude } from '../../scripts/bootstrap-mock-content.mjs'
+import { translateWithClaude } from '../../scripts/bootstrap-mock-content'
 
 describe('translateWithClaude()', () => {
   it('calls the client with a translation prompt and returns the response text', async () => {
@@ -628,16 +667,23 @@ Expected: failure — function not exported.
 
 - [ ] **Step 3: Implement `translateWithClaude` with the Anthropic SDK bridge**
 
-In `scripts/bootstrap-mock-content.mjs`:
+In `scripts/bootstrap-mock-content.ts`:
 
-```js
+```ts
+export interface ClaudeClient {
+  complete(prompt: string): Promise<string>
+}
+
 /**
  * Translate a single Estonian paragraph to English using the Claude API.
  *
  * The `client` parameter is an object with `.complete(prompt): Promise<string>`.
  * A real client is built by `buildRealClaudeClient()` below; tests inject a fake.
  */
-export async function translateWithClaude(estonianText, client) {
+export async function translateWithClaude(
+  estonianText: string,
+  client: ClaudeClient,
+): Promise<string> {
   const prompt = `Translate the following Estonian text to English. Preserve the meaning exactly. Return only the translated English text, no commentary, no quotation marks.
 
 Estonian: ${estonianText}
@@ -650,21 +696,29 @@ English:`
 /**
  * Build a real Claude client using the Anthropic SDK. Returns an object
  * compatible with translateWithClaude's `client` parameter.
+ *
+ * The `message.content[0]` access is guarded — under
+ * `noUncheckedIndexedAccess` it is `ContentBlock | undefined` and we
+ * need an explicit narrowing before reading `.type`/`.text`.
  */
-export function buildRealClaudeClient() {
-  // Lazy import so tests that don't use the real client don't pay the cost.
+export function buildRealClaudeClient(): ClaudeClient {
   return {
-    complete: async (prompt) => {
+    complete: async (prompt: string): Promise<string> => {
+      // Lazy import so tests that don't use the real client don't pay the cost.
       const { default: Anthropic } = await import('@anthropic-ai/sdk')
-      const client = new Anthropic({ apiKey: process.env.CLAUDE_API_KEY })
+      const apiKey = process.env['CLAUDE_API_KEY']
+      if (apiKey === undefined || apiKey === '') {
+        throw new Error('CLAUDE_API_KEY not set in environment')
+      }
+      const client = new Anthropic({ apiKey })
       const message = await client.messages.create({
         model: 'claude-opus-4-6',
         max_tokens: 4096,
         messages: [{ role: 'user', content: prompt }],
       })
       const block = message.content[0]
-      if (block.type !== 'text') {
-        throw new Error(`unexpected Claude response block type: ${block.type}`)
+      if (block === undefined || block.type !== 'text') {
+        throw new Error(`unexpected Claude response: ${block?.type ?? 'empty content array'}`)
       }
       return block.text
     },
@@ -685,7 +739,7 @@ Expected: all tests passing. The real client is not exercised by tests — it's 
 - [ ] **Step 5: Commit**
 
 ```bash
-git add scripts/bootstrap-mock-content.mjs tests/scripts/bootstrap-mock-content.test.ts
+git add scripts/bootstrap-mock-content.ts tests/scripts/bootstrap-mock-content.test.ts
 git commit -m "$(cat <<'EOF'
 feat(bootstrap): translateWithClaude + injectable Claude client
 
@@ -704,7 +758,7 @@ EOF
 
 **Files:**
 
-- Modify: `scripts/bootstrap-mock-content.mjs`
+- Modify: `scripts/bootstrap-mock-content.ts`
 - Modify: `tests/scripts/bootstrap-mock-content.test.ts`
 
 - [ ] **Step 1: Add the failing test**
@@ -712,7 +766,7 @@ EOF
 Append:
 
 ```ts
-import { emitManifest } from '../../scripts/bootstrap-mock-content.mjs'
+import { emitManifest } from '../../scripts/bootstrap-mock-content'
 
 describe('emitManifest()', () => {
   it('emits valid TypeScript source with chapters and para-ids', () => {
@@ -745,18 +799,24 @@ describe('emitManifest()', () => {
 
 - [ ] **Step 2: Implement `emitManifest`**
 
-In `scripts/bootstrap-mock-content.mjs`:
+In `scripts/bootstrap-mock-content.ts`:
 
-```js
+```ts
+export interface ManifestChapter {
+  slug: string
+  title: { en: string; et: string }
+  paraIds: string[]
+}
+
 /**
  * Emit the contents of src/lib/content/manifest.ts as a TypeScript string.
  * Produces a typed list of chapters with para-ids and bilingual titles.
  * Row height estimates are exported as constants for src/lib/reader to
  * consume when rendering the skeleton.
  */
-export function emitManifest(chapters) {
-  const lines = [
-    '// Generated by scripts/bootstrap-mock-content.mjs — do not edit by hand.',
+export function emitManifest(chapters: ManifestChapter[]): string {
+  const lines: string[] = [
+    '// Generated by scripts/bootstrap-mock-content.ts — do not edit by hand.',
     '// Regenerate with: CONTENT_BOOTSTRAP=1 npm run bootstrap:content',
     '',
     'export type ChapterManifest = {',
@@ -802,7 +862,7 @@ Expected: all tests passing.
 - [ ] **Step 4: Commit**
 
 ```bash
-git add scripts/bootstrap-mock-content.mjs tests/scripts/bootstrap-mock-content.test.ts
+git add scripts/bootstrap-mock-content.ts tests/scripts/bootstrap-mock-content.test.ts
 git commit -m "$(cat <<'EOF'
 feat(bootstrap): emitManifest helper
 
@@ -818,47 +878,54 @@ EOF
 
 ## Task P4.7: main() orchestrator
 
+> **Execution mode: Plantin-inline (not XP triple).** P4.7 has no failing test to write — `main()` is ~130 lines of `fs` walk + sequential helper calls, exercised end-to-end during Phase 6's live run, not in unit tests. Running it through the triple is the same RED-style theatre P0 and P4.1 are inline to avoid. Plantin runs this after the triple closes P4.2–P4.6 and commits the orchestrator as a single Plantin-inline commit.
+
 Tie the helpers together. `main()` reads legacy markdown directories, runs each file through the pipeline, writes outputs, calls `validatePair` from Phase 2 on each chapter, emits the manifest. Failures are surfaced as a non-zero exit code.
 
 **Files:**
 
-- Modify: `scripts/bootstrap-mock-content.mjs`
+- Modify: `scripts/bootstrap-mock-content.ts`
 
 This task does **not** add new unit tests — `main()` is the orchestrator and is exercised end-to-end during Phase 6's run, not in a test. The pure helpers are already fully tested in P4.2-P4.6.
 
-- [ ] **Step 1: Implement `main()` in `scripts/bootstrap-mock-content.mjs`**
+- [ ] **Step 1: Implement `main()` in `scripts/bootstrap-mock-content.ts`**
 
 Replace the current `main` function with:
 
-```js
+```ts
 import { promises as fs } from 'node:fs'
 import { join, basename, extname, dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { parse as parseContent } from '../src/lib/content/parse.ts'
-import { validatePair } from '../src/lib/content/validate.ts'
+import { parse as parseContent } from '../src/lib/content/parse'
+import { validatePair } from '../src/lib/content/validate'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 const REPO_ROOT = resolve(__dirname, '..')
 
-const LEGACY_DIRS = ['legacy/peatykid', 'legacy/kogemuslood', 'legacy/lisad', 'legacy/front_matter']
+const LEGACY_DIRS = [
+  'legacy/peatykid',
+  'legacy/kogemuslood',
+  'legacy/lisad',
+  'legacy/front_matter',
+] as const
 
-export async function main(_argv) {
-  if (process.env.CONTENT_BOOTSTRAP !== '1') {
+export async function main(_argv: string[]): Promise<void> {
+  if (process.env['CONTENT_BOOTSTRAP'] !== '1') {
     console.error('error: CONTENT_BOOTSTRAP=1 must be set in the environment')
     process.exit(1)
   }
-  if (!process.env.CLAUDE_API_KEY) {
+  if (process.env['CLAUDE_API_KEY'] === undefined || process.env['CLAUDE_API_KEY'] === '') {
     console.error('error: CLAUDE_API_KEY must be set in the environment')
     process.exit(1)
   }
 
   const client = buildRealClaudeClient()
-  const chapters = []
+  const chapters: ManifestChapter[] = []
 
   for (const relDir of LEGACY_DIRS) {
     const absDir = join(REPO_ROOT, relDir)
-    const entries = await fs.readdir(absDir).catch(() => [])
+    const entries = await fs.readdir(absDir).catch((): string[] => [])
     for (const entry of entries) {
       if (extname(entry) !== '.md') continue
       const absPath = join(absDir, entry)
@@ -868,23 +935,28 @@ export async function main(_argv) {
 
       const stripped = stripJekyllPreamble(raw)
       const paragraphTexts = splitIntoParagraphs(stripped)
-      if (paragraphTexts.length === 0) {
+      // Narrow the first paragraph before passing to looksLikeTitle — under
+      // noUncheckedIndexedAccess, paragraphTexts[0] is string | undefined.
+      const firstText = paragraphTexts[0]
+      if (firstText === undefined) {
         console.warn(`  skip: ${entry} has no paragraphs after stripping`)
         continue
       }
 
-      const titleAtTop = looksLikeTitle(paragraphTexts[0])
+      const titleAtTop = looksLikeTitle(firstText)
       const etParagraphs = assignParaIds(paragraphTexts, slug, titleAtTop)
 
       // Translate each Estonian paragraph to English, preserving para-ids.
-      const enParagraphs = []
+      const enParagraphs: IdentifiedParagraph[] = []
       for (const { id, text } of etParagraphs) {
         const en = await translateWithClaude(text, client)
         enParagraphs.push({ id, text: en })
       }
 
-      const etTitle = titleAtTop ? etParagraphs[0].text : slug
-      const enTitle = titleAtTop ? enParagraphs[0].text : slug
+      // Titles: if titleAtTop, the first paragraph IS the title; narrow it
+      // again because TS doesn't carry through that etParagraphs is non-empty.
+      const etTitle = titleAtTop ? (etParagraphs[0]?.text ?? slug) : slug
+      const enTitle = titleAtTop ? (enParagraphs[0]?.text ?? slug) : slug
 
       const etContent = formatContentFile(
         { chapter: slug, title: etTitle, lang: 'et' },
@@ -937,7 +1009,7 @@ export async function main(_argv) {
  * Slugify a legacy filename stem into a chapter slug.
  * Lowercase, Estonian/English diacritics folded, non-alphanumeric → dashes.
  */
-function slugify(stem) {
+function slugify(stem: string): string {
   return stem
     .toLowerCase()
     .normalize('NFD')
@@ -951,19 +1023,19 @@ function slugify(stem) {
  * Heuristic: a paragraph looks like a title if it's short (< 80 chars)
  * and doesn't end with sentence punctuation.
  */
-function looksLikeTitle(paragraph) {
+function looksLikeTitle(paragraph: string): boolean {
   return paragraph.length < 80 && !/[.!?]$/.test(paragraph.trim())
 }
 ```
 
-Note: the imports at the top of the script now include relative paths to the TypeScript source files. `tsx` compiles these on the fly when invoked via `npx tsx scripts/bootstrap-mock-content.mjs`.
+Note: the imports at the top import from `../src/lib/content/parse` and `../src/lib/content/validate` **without** a `.ts` extension — that's the TS convention (no `allowImportingTsExtensions` in our tsconfig). `tsx` resolves the `.ts` files at runtime when invoked via `npx tsx scripts/bootstrap-mock-content.ts`, and `tsc --noEmit` resolves them via the package's module resolution.
 
 - [ ] **Step 2: Verify the script still type-runs (even though main() is not being invoked yet)**
 
 Run:
 
 ```bash
-CONTENT_BOOTSTRAP=0 npx tsx scripts/bootstrap-mock-content.mjs
+CONTENT_BOOTSTRAP=0 npx tsx scripts/bootstrap-mock-content.ts
 ```
 
 Expected: the CONTENT_BOOTSTRAP guard fires immediately with the error message; the script never reaches the legacy-directory walk.
@@ -979,7 +1051,7 @@ Expected: all tests still green. The orchestrator is not exercised by tests; the
 - [ ] **Step 3: Commit**
 
 ```bash
-git add scripts/bootstrap-mock-content.mjs
+git add scripts/bootstrap-mock-content.ts
 git commit -m "$(cat <<'EOF'
 feat(bootstrap): main() orchestrator
 

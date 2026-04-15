@@ -4,6 +4,6 @@
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true
   },
-  "include": ["src/**/*", "tests/**/*", ".astro/types.d.ts"],
+  "include": ["src/**/*", "tests/**/*", "scripts/**/*", ".astro/types.d.ts"],
   "exclude": ["dist", "node_modules", "legacy", "_pages", ".astro"]
 }
