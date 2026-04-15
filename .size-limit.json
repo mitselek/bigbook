@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Astro JS bundles (gzipped)",
+    "path": "dist/_astro/*.js",
+    "limit": "150 kB"
+  },
+  {
+    "name": "Root index.html (raw)",
+    "path": "dist/index.html",
+    "gzip": false,
+    "limit": "200 kB"
+  }
+]
