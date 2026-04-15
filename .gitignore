@@ -20,3 +20,11 @@ worker/.dev.vars
 
 # Superpowers brainstorming visual companion (mockup HTML, server state)
 .superpowers/
+
+# Playwright
+playwright-report/
+test-results/
+playwright/.cache/
+
+# Vitest coverage report
+coverage/
