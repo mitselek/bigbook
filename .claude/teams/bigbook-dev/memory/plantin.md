@@ -59,7 +59,7 @@
 
 - **GitHub App name:** `bigbook-dev` (installed on `mitselek/bigbook`, "Expire user authorization tokens" enabled, Contents read+write permission, OAuth during installation enabled).
 - **GitHub App Client ID:** `Iv23lipPWHpw0QWj8lYF` (public, hardcoded in `src/lib/auth/config.ts`).
-- **GitHub App Client Secret:** **NOT recorded in any durable location**. It was pasted in chat once and uploaded to the Cloudflare Worker via `wrangler secret put`. It lives only in Cloudflare's secret store from here on. **Rotate it at the first opportunity in the next session** (GitHub App settings → Generate a new client secret → `wrangler secret put GITHUB_CLIENT_SECRET` via stdin pipe to overwrite).
+- **GitHub App Client Secret:** Lives only as `GITHUB_CLIENT_SECRET` in the Cloudflare Worker's secret store (set via `wrangler secret put`). Not recorded anywhere else by design.
 - **Cloudflare Worker:** `https://bigbook-auth-proxy.mihkel-putrinsh.workers.dev`. Source under `worker/` (not part of the Pages deploy). Deployed via `cd worker && npx wrangler deploy`. Holds the `GITHUB_CLIENT_SECRET` env secret. Two endpoints: `POST /exchange` and `POST /refresh`. CORS allowlist: `https://mitselek.github.io`.
 - **Commits 5 and 6:**
   - `1d87d02` feat(auth): scaffold GitHub App PKCE PoC with Cloudflare Worker token proxy (worker/ + src/lib/auth/ + callback page + landing UI wiring, placeholder CLIENT_ID and WORKER_URL)
@@ -82,12 +82,11 @@
 
 **[FOLLOW-UPS for next session]** (in rough priority order)
 
-1. **Rotate the leaked client secret** (security cleanup, blast-radius reduction).
-2. **Write the real auth ADR** at `docs/decisions/0001-auth.md`. The PoC *is* the production shape, minus the ADR artefact. Capture what was ruled out (pure static, device flow) and why (lessons 1-3 above).
-3. **Restore the `legacy-guard` lefthook hook** — move logic to `scripts/legacy-guard.sh` and invoke via `bash` (option 1 from the earlier deferral). Small, self-contained.
-4. **Node 20 deprecation warnings** on GH Actions (`actions/checkout@v4`, `actions/setup-node@v4`, `actions/upload-artifact@v4`, `actions/configure-pages@v5`). GitHub is forcing Node 24 in June 2026. Upstream action versions for Node 24 not yet available at time of session 2; recheck in a month or two.
-5. **`npm audit` reports 10 moderate-severity advisories** in the fresh Astro scaffold. Triage separately.
-6. **Chat history cleared at end of session 2.** Next session starts without the chat context of how we got here. This scratchpad + the plan file at `~/.claude/plans/sparkling-gliding-knuth.md` + commits 0dcfa0f..29e8a1d are the full record.
+1. **Write the real auth ADR** at `docs/decisions/0001-auth.md`. The PoC *is* the production shape, minus the ADR artefact. Capture what was ruled out (pure static, device flow) and why (lessons 1-3 above).
+2. **Restore the `legacy-guard` lefthook hook** — move logic to `scripts/legacy-guard.sh` and invoke via `bash` (option 1 from the earlier deferral). Small, self-contained.
+3. **Node 20 deprecation warnings** on GH Actions (`actions/checkout@v4`, `actions/setup-node@v4`, `actions/upload-artifact@v4`, `actions/configure-pages@v5`). GitHub is forcing Node 24 in June 2026. Upstream action versions for Node 24 not yet available at time of session 2; recheck in a month or two.
+4. **`npm audit` reports 10 moderate-severity advisories** in the fresh Astro scaffold. Triage separately.
+5. **Chat history cleared at end of session 2.** Next session starts without the chat context of how we got here. This scratchpad + the plan file at `~/.claude/plans/sparkling-gliding-knuth.md` + commits 0dcfa0f..29e8a1d are the full record.
 
 **[NEXT SESSION ENTRY POINT]** Product brainstorm. The entire workdir + deploy + auth infrastructure is now in place. The question that opens session 3 is: *"what does the bilingual reader actually look like, feel like, and do?"* No code to write before that conversation happens — the next session should start with the brainstorming skill, not with implementation.
 
@@ -96,8 +95,6 @@
 (*BB:Plantin*)
 
 ## 2026-04-15 — Session 3, full brainstorm → spec → plan landed
-
-**[DONE]** PO confirmed at session start that the leaked client secret from session 2 was rotated. (Acknowledged but not verified on my end — trusting PO's word.)
 
 **[DONE]** Product brainstorm completed via the `superpowers:brainstorming` skill with the visual companion (browser-based mockups, accepted by PO). Twelve question rounds covering audience, reading unit, alignment, mobile, navigation, edit UX, comments, MVP scope, divergence semantics, content pipeline, rebuild semantics, and quality gates. Each decision logged inline in the conversation as it was made.
 
