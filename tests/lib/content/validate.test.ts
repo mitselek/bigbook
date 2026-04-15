@@ -108,4 +108,69 @@ no frontmatter
     expect(result.errors).toHaveLength(1)
     expect(result.errors[0]).toMatchObject({ category: 'parse_error' })
   })
+
+  it('reports missing_pair when a reference id is missing from the proposed content', () => {
+    const proposed = `---
+chapter: ch05
+title: Kuidas see toimib
+lang: et
+---
+
+::para[ch05-title]
+Kuidas see toimib
+`
+    const referenceIds = new Set(['ch05-title', 'ch05-p001'])
+    const result = validateProposedContent(proposed, referenceIds)
+    expect(result.ok).toBe(false)
+    if (result.ok) return
+    expect(result.errors).toHaveLength(1)
+    expect(result.errors[0]).toMatchObject({
+      category: 'missing_pair',
+      paraId: 'ch05-p001',
+    })
+  })
+
+  it('reports extra_pair when the proposed content adds a new para-id', () => {
+    const proposed = `---
+chapter: ch05
+title: Kuidas see toimib
+lang: et
+---
+
+::para[ch05-title]
+Kuidas see toimib
+
+::para[ch05-p001]
+Oleme.
+
+::para[ch05-p002]
+Meie.
+`
+    const referenceIds = new Set(['ch05-title', 'ch05-p001'])
+    const result = validateProposedContent(proposed, referenceIds)
+    expect(result.ok).toBe(false)
+    if (result.ok) return
+    expect(result.errors).toHaveLength(1)
+    expect(result.errors[0]).toMatchObject({
+      category: 'extra_pair',
+      paraId: 'ch05-p002',
+    })
+  })
+
+  it('returns ok when the proposed content matches the reference id set exactly', () => {
+    const proposed = `---
+chapter: ch05
+title: Kuidas see toimib
+lang: et
+---
+
+::para[ch05-title]
+Edited title
+
+::para[ch05-p001]
+Edited paragraph.
+`
+    const referenceIds = new Set(['ch05-title', 'ch05-p001'])
+    expect(validateProposedContent(proposed, referenceIds)).toEqual({ ok: true })
+  })
 })
