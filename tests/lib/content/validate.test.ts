@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { validatePair } from '../../../src/lib/content/validate'
+import { validatePair, validateProposedContent } from '../../../src/lib/content/validate'
 import type { ParsedChapter } from '../../../src/lib/content/parse'
 
 function chapter(lang: 'en' | 'et', paragraphs: Record<string, string>): ParsedChapter {
@@ -76,5 +76,36 @@ describe('validatePair()', () => {
     if (result.ok) return
     const categories = result.errors.map((e) => e.category).sort()
     expect(categories).toEqual(['extra_pair', 'missing_pair'])
+  })
+})
+
+describe('validateProposedContent()', () => {
+  const validContent = `---
+chapter: ch05
+title: Kuidas see toimib
+lang: et
+---
+
+::para[ch05-title]
+Kuidas see toimib
+
+::para[ch05-p001]
+Oleme harva näinud inimest.
+`
+
+  it('returns ok when the content parses and no reference set is given', () => {
+    const result = validateProposedContent(validContent)
+    expect(result).toEqual({ ok: true })
+  })
+
+  it('wraps ParseError into ValidationResult with category parse_error', () => {
+    const malformed = `::para[ch05-p001]
+no frontmatter
+`
+    const result = validateProposedContent(malformed)
+    expect(result.ok).toBe(false)
+    if (result.ok) return
+    expect(result.errors).toHaveLength(1)
+    expect(result.errors[0]).toMatchObject({ category: 'parse_error' })
   })
 })

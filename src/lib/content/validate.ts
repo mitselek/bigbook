@@ -36,3 +36,12 @@ export function validatePair(en: ParsedChapter, et: ParsedChapter): ValidationRe
 
   return errors.length === 0 ? { ok: true } : { ok: false, errors }
 }
+
+export function validateProposedContent(
+  proposedContent: string,
+  referenceParaIds?: Set<string>,
+): ValidationResult {
+  void proposedContent
+  void referenceParaIds
+  throw new Error('not implemented')
+}
