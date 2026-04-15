@@ -17,4 +17,19 @@ lang: et
     })
     expect(result.paragraphs.size).toBe(0)
   })
+
+  it('parses a file with one paragraph directive', () => {
+    const input = `---
+chapter: ch05
+title: Kuidas see toimib
+lang: et
+---
+
+::para[ch05-title]
+Kuidas see toimib
+`
+    const result = parse(input)
+    expect(result.paragraphs.size).toBe(1)
+    expect(result.paragraphs.get('ch05-title')).toBe('Kuidas see toimib')
+  })
 })
