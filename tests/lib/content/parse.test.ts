@@ -54,4 +54,24 @@ Meie lood avaldavad üldjoontes.
     expect(result.paragraphs.get('ch05-p001')).toBe('Oleme harva näinud inimest.')
     expect(result.paragraphs.get('ch05-p002')).toBe('Meie lood avaldavad üldjoontes.')
   })
+
+  it('joins multi-line paragraph bodies with a single newline', () => {
+    const input = `---
+chapter: ch05
+title: Kuidas see toimib
+lang: et
+---
+
+::para[ch05-p001]
+Oleme harva näinud inimest, kes oleks läbi kukkunud,
+kui ta oleks põhjalikult järginud meie teed.
+Need, kes ei parane, on inimesed, kes ei saa või ei taha.
+`
+    const result = parse(input)
+    expect(result.paragraphs.get('ch05-p001')).toBe(
+      'Oleme harva näinud inimest, kes oleks läbi kukkunud,\n' +
+        'kui ta oleks põhjalikult järginud meie teed.\n' +
+        'Need, kes ei parane, on inimesed, kes ei saa või ei taha.',
+    )
+  })
 })
