@@ -105,11 +105,55 @@ export interface ClaudeClient {
   complete(prompt: string): Promise<string>
 }
 
+/**
+ * Translate a single Estonian paragraph to English using the Claude API.
+ *
+ * The `client` parameter is an object with `.complete(prompt): Promise<string>`.
+ * A real client is built by `buildRealClaudeClient()` below; tests inject a fake.
+ */
 export async function translateWithClaude(
-  _estonianText: string,
-  _client: ClaudeClient,
+  estonianText: string,
+  client: ClaudeClient,
 ): Promise<string> {
-  throw new Error('not implemented')
+  const prompt = `Translate the following Estonian text to English. Preserve the meaning exactly. Return only the translated English text, no commentary, no quotation marks.
+
+Estonian: ${estonianText}
+
+English:`
+  const response = await client.complete(prompt)
+  return response.trim()
+}
+
+/**
+ * Build a real Claude client using the Anthropic SDK. Returns an object
+ * compatible with translateWithClaude's `client` parameter.
+ *
+ * The `message.content[0]` access is guarded — under
+ * `noUncheckedIndexedAccess` it is `ContentBlock | undefined` and we
+ * need an explicit narrowing before reading `.type`/`.text`.
+ */
+export function buildRealClaudeClient(): ClaudeClient {
+  return {
+    complete: async (prompt: string): Promise<string> => {
+      // Lazy import so tests that don't use the real client don't pay the cost.
+      const { default: Anthropic } = await import('@anthropic-ai/sdk')
+      const apiKey = process.env['CLAUDE_API_KEY']
+      if (apiKey === undefined || apiKey === '') {
+        throw new Error('CLAUDE_API_KEY not set in environment')
+      }
+      const client = new Anthropic({ apiKey })
+      const message = await client.messages.create({
+        model: 'claude-opus-4-6',
+        max_tokens: 4096,
+        messages: [{ role: 'user', content: prompt }],
+      })
+      const block = message.content[0]
+      if (block === undefined || block.type !== 'text') {
+        throw new Error(`unexpected Claude response: ${block?.type ?? 'empty content array'}`)
+      }
+      return block.text
+    },
+  }
 }
 
 export interface ContentFrontmatter {
