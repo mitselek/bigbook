@@ -199,6 +199,16 @@ export function formatContentFile(
   return lines.join('\n')
 }
 
+export interface ManifestChapter {
+  slug: string
+  title: { en: string; et: string }
+  paraIds: string[]
+}
+
+export function emitManifest(_chapters: ManifestChapter[]): string {
+  throw new Error('not implemented')
+}
+
 export function main(_argv: string[]): void {
   if (process.env['CONTENT_BOOTSTRAP'] !== '1') {
     console.error('error: CONTENT_BOOTSTRAP=1 must be set in the environment')

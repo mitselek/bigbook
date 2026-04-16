@@ -5,6 +5,7 @@ import {
   assignParaIds,
   formatContentFile,
   translateWithClaude,
+  emitManifest,
 } from '../../scripts/bootstrap-mock-content'
 import { parse } from '../../src/lib/content/parse'
 
@@ -171,5 +172,33 @@ describe('translateWithClaude()', () => {
     }
     const result = await translateWithClaude('Input.', fakeClient)
     expect(result).toBe('Trimmed.')
+  })
+})
+
+describe('emitManifest()', () => {
+  it('emits valid TypeScript source with chapters and para-ids', () => {
+    const chapters = [
+      {
+        slug: 'ch05',
+        title: { en: 'How It Works', et: 'Kuidas see toimib' },
+        paraIds: ['ch05-title', 'ch05-p001', 'ch05-p002'],
+      },
+      {
+        slug: 'ch06',
+        title: { en: 'Into Action', et: 'Tegutsemisse' },
+        paraIds: ['ch06-title', 'ch06-p001'],
+      },
+    ]
+    const output = emitManifest(chapters)
+
+    expect(output).toContain('export type ChapterManifest = {')
+    expect(output).toContain("slug: 'ch05'")
+    expect(output).toContain("en: 'How It Works'")
+    expect(output).toContain("et: 'Kuidas see toimib'")
+    expect(output).toContain("'ch05-title'")
+    expect(output).toContain("'ch05-p001'")
+    expect(output).toContain("'ch06-p001'")
+    expect(output).toContain('ESTIMATED_HEIGHT_TITLE')
+    expect(output).toContain('ESTIMATED_HEIGHT_BODY')
   })
 })
