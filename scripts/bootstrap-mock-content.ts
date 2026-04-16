@@ -107,11 +107,41 @@ export interface ContentFrontmatter {
   lang: 'en' | 'et'
 }
 
+/**
+ * Render a ParsedChapter-shaped input to the ::para[]-directive format
+ * that src/lib/content/parse.ts reads. Produces:
+ *
+ *   ---
+ *   chapter: <chapter>
+ *   title: <title>
+ *   lang: <lang>
+ *   ---
+ *
+ *   ::para[<id1>]
+ *   <text1>
+ *
+ *   ::para[<id2>]
+ *   <text2>
+ *   ...
+ */
 export function formatContentFile(
-  _frontmatter: ContentFrontmatter,
-  _paragraphs: IdentifiedParagraph[],
+  frontmatter: ContentFrontmatter,
+  paragraphs: IdentifiedParagraph[],
 ): string {
-  throw new Error('not implemented')
+  const lines: string[] = [
+    '---',
+    `chapter: ${frontmatter.chapter}`,
+    `title: ${frontmatter.title}`,
+    `lang: ${frontmatter.lang}`,
+    '---',
+    '',
+  ]
+  for (const { id, text } of paragraphs) {
+    lines.push(`::para[${id}]`)
+    lines.push(text)
+    lines.push('')
+  }
+  return lines.join('\n')
 }
 
 export function main(_argv: string[]): void {
