@@ -26,6 +26,8 @@ Each hook is a standalone shell or Node script under `scripts/`, so the lefthook
 
 > **Script language note (added session 7):** scripts live at `scripts/**/*.ts` (not `.mjs`), run via `tsx`, and follow the same strict TypeScript discipline as `src/` (no `any`, no `!`, narrow at boundaries). `tsconfig.json` `include` covers `scripts/**/*`, so the typecheck and lint gates apply. When executing this phase inline, port the `.mjs` code blocks below to TS with explicit type annotations — same decision applied to `bootstrap-mock-content.ts` in P4.
 
+> **Session-8 pre-execution refresh:** P5.3 Step 3's code block was fully ported JS → TS with explicit types (`ReadFile`, `Result` discriminated union), narrowing guards on `process.argv[1]`, the regex-capture group, and `catch (err)` (`err instanceof Error` check), extensionless imports (`../src/lib/content/parse`), and the `pathToFileURL(invokedPath).href` entry-point pattern that session 7 proved necessary on Windows Git Bash. The original code block used the broken two-slash `file://${process.argv[1]}` idiom; the P4 fix is mirrored here. Also fixed a minor comment typo in P5.2 Step 3 (`parse-invariance` → `hard-invariant`).
+
 ---
 
 ## Task P5.1: Restore legacy-guard as a shell script
@@ -301,7 +303,7 @@ git add src/content/et/test.md
 # Expect content-guard to block
 lefthook run pre-commit || echo "blocked as expected"
 
-# With the override, should pass (but other hooks like parse-invariance may
+# With the override, should pass (but other hooks like hard-invariant may
 # trip — that's fine, we're only testing content-guard here)
 CONTENT_BOOTSTRAP=1 lefthook run pre-commit --commands content-guard
 
@@ -449,7 +451,7 @@ Expected: fail — module not yet exported.
 
 New file:
 
-```js
+```ts
 #!/usr/bin/env node
 /**
  * hard-invariant pre-commit hook.
@@ -462,35 +464,42 @@ New file:
  */
 
 import { promises as fs } from 'node:fs'
-import { join, basename, extname, dirname, resolve } from 'node:path'
-import { fileURLToPath } from 'node:url'
-import { parse } from '../src/lib/content/parse.ts'
-import { validatePair } from '../src/lib/content/validate.ts'
+import { dirname, join, resolve } from 'node:path'
+import { fileURLToPath, pathToFileURL } from 'node:url'
+import { parse } from '../src/lib/content/parse'
+import { validatePair } from '../src/lib/content/validate'
 
-const __filename = fileURLToPath(import.meta.url)
-const REPO_ROOT = resolve(dirname(__filename), '..')
+const SCRIPT_FILE = fileURLToPath(import.meta.url)
+const REPO_ROOT = resolve(dirname(SCRIPT_FILE), '..')
+
+type ReadFile = (path: string) => Promise<string>
+type Result = { ok: true } | { ok: false; violations: string[] }
 
 /**
- * Core logic, extracted for testability. The `readFile` parameter is
- * async and defaults to fs.readFile with the repo root prepended.
+ * Core logic, extracted for testability. `readFile` defaults to
+ * fs.readFile rooted at the repo; tests inject a fake.
  */
-export async function checkStagedContent(stagedFiles, readFile) {
-  const read = readFile ?? (async (path) => fs.readFile(join(REPO_ROOT, path), 'utf8'))
+export async function checkStagedContent(
+  stagedFiles: string[],
+  readFile?: ReadFile,
+): Promise<Result> {
+  const read: ReadFile = readFile ?? ((path) => fs.readFile(join(REPO_ROOT, path), 'utf8'))
 
   // Find chapter slugs that have staged content (on either side).
-  const touchedChapters = new Set()
+  const touchedChapters = new Set<string>()
   for (const file of stagedFiles) {
-    const match = file.match(/^src\/content\/(en|et)\/(.+)\.md$/)
-    if (match) {
-      touchedChapters.add(match[2])
-    }
+    const match = file.match(/^src\/content\/(?:en|et)\/(.+)\.md$/)
+    if (match === null) continue
+    const [, slug] = match
+    if (slug === undefined) continue
+    touchedChapters.add(slug)
   }
 
   if (touchedChapters.size === 0) {
     return { ok: true }
   }
 
-  const violations = []
+  const violations: string[] = []
   for (const slug of touchedChapters) {
     try {
       const enContent = await read(`src/content/en/${slug}.md`)
@@ -505,23 +514,30 @@ export async function checkStagedContent(stagedFiles, readFile) {
           console.error(`  - [${err.category}] ${err.paraId}: ${err.message}`)
         }
       }
-    } catch (err) {
+    } catch (err: unknown) {
       violations.push(slug)
-      console.error(`hard-invariant: error reading/parsing '${slug}': ${err.message}`)
+      const message = err instanceof Error ? err.message : String(err)
+      console.error(`hard-invariant: error reading/parsing '${slug}': ${message}`)
     }
   }
 
   return violations.length === 0 ? { ok: true } : { ok: false, violations }
 }
 
-async function main() {
-  const stagedFiles = process.argv.slice(2)
+async function main(stagedFiles: string[]): Promise<void> {
   const result = await checkStagedContent(stagedFiles)
   process.exit(result.ok ? 0 : 1)
 }
 
-if (import.meta.url === `file://${process.argv[1].replace(/\\/g, '/')}`) {
-  main()
+// pathToFileURL handles Windows (file:///C:/...) vs POSIX (file:///home/...)
+// — see P4 for the same pattern.
+const invokedPath = process.argv[1]
+if (invokedPath !== undefined && import.meta.url === pathToFileURL(invokedPath).href) {
+  main(process.argv.slice(2)).catch((err: unknown) => {
+    const message = err instanceof Error ? err.message : String(err)
+    console.error(`hard-invariant: ${message}`)
+    process.exit(1)
+  })
 }
 ```
 
