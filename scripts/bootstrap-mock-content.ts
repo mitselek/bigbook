@@ -101,6 +101,17 @@ export function assignParaIds(
   return out
 }
 
+export interface ClaudeClient {
+  complete(prompt: string): Promise<string>
+}
+
+export async function translateWithClaude(
+  _estonianText: string,
+  _client: ClaudeClient,
+): Promise<string> {
+  throw new Error('not implemented')
+}
+
 export interface ContentFrontmatter {
   chapter: string
   title: string

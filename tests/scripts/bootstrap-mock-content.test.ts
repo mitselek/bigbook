@@ -4,6 +4,7 @@ import {
   splitIntoParagraphs,
   assignParaIds,
   formatContentFile,
+  translateWithClaude,
 } from '../../scripts/bootstrap-mock-content'
 import { parse } from '../../src/lib/content/parse'
 
@@ -144,5 +145,31 @@ describe('formatContentFile() + parse() round-trip', () => {
     expect(parsed.frontmatter.lang).toBe('et')
     expect(parsed.paragraphs.get('ch05-title')).toBe('Kuidas see toimib')
     expect(parsed.paragraphs.get('ch05-p001')).toBe('Oleme harva näinud inimest.')
+  })
+})
+
+describe('translateWithClaude()', () => {
+  it('calls the client with a translation prompt and returns the response text', async () => {
+    const calls: string[] = []
+    const fakeClient = {
+      complete: async (prompt: string) => {
+        calls.push(prompt)
+        return 'Rarely have we seen a person fail.'
+      },
+    }
+    const result = await translateWithClaude('Oleme harva näinud inimest.', fakeClient)
+    expect(result).toBe('Rarely have we seen a person fail.')
+    expect(calls).toHaveLength(1)
+    expect(calls[0]).toContain('Estonian')
+    expect(calls[0]).toContain('English')
+    expect(calls[0]).toContain('Oleme harva näinud inimest.')
+  })
+
+  it('trims whitespace from the client response', async () => {
+    const fakeClient = {
+      complete: async () => '  Trimmed.  \n',
+    }
+    const result = await translateWithClaude('Input.', fakeClient)
+    expect(result).toBe('Trimmed.')
   })
 })
