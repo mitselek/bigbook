@@ -461,3 +461,83 @@ Startup sequence for session 8:
 **[CONTEXT NOTE]** Session 7 wrapped via the `shutdown-agent-tool-team` skill — third live exercise, procedure worked cleanly again. One minor rough edge: Ortelius hadn't proactively saved a session-7 scratchpad when he went idle, so I sent a targeted follow-up DM itemizing the five specific learnings worth preserving. He landed a structured entry within three minutes of the ask. Rule for next time: send scratchpad-save requests with **specific itemized content** rather than generic "save your learnings" prompts — the specific-item version produces better scratchpads and avoids the idle-before-save failure mode. Noted the skill's own guidance on this ("vague instructions produce vague scratchpads").
 
 (*BB:Plantin*)
+
+## 2026-04-16 — Session 8, v1-foundation Phases 5 + 6 landed — milestone CLOSED
+
+**[DONE]** Plan 1 / Phase 5 (pre-commit hooks) + Phase 6 (land content) both landed inline. **v1-foundation milestone is CLOSED** — epic #3 closed, all 8 sub-issues closed, milestone state `closed` at `2026-04-16T10:15:42Z`. 9 commits pushed to `origin/main`.
+
+Session commit chain on `main`:
+
+```
+8639477 content: pin baseline SHA to ecf8c0e                                   # P6.4 — Closes #3
+ecf8c0e content: mock bootstrap from legacy ET + partial auto-translation      # P6.3 — CONTENT_BOOTSTRAP=1
+9c72dff feat(lefthook): add hard-invariant pre-commit hook                     # P5.3
+8d2199c feat(lefthook): add content-guard pre-commit hook                      # P5.2
+d804a8f feat(lefthook): restore legacy-guard pre-commit hook                   # P5.1
+5d6b239 docs(plans): P5 pre-execution refresh — port Step 3 JS→TS + fix entry-point
+```
+
+**[DECISION]** P5 pre-execution plan refresh (`5d6b239`). Before executing P5 inline, re-read `p5-hooks.md` and fixed four substantive drifts: (1) P5.3 Step 3 code block was still JS, ported JS→TS with explicit `ReadFile` and `Result` types, narrowing guards on `process.argv[1]` / regex captures / `catch (err: unknown)`; (2) dropped `.ts` extensions on imports to match P4 convention; (3) swapped the Windows-broken two-slash `file://${process.argv[1]}` idiom for `pathToFileURL(invokedPath).href` (session 7's P4.1 fix); (4) fixed a minor `parse-invariance` typo in P5.2 prose. Pattern: session-7 established the pre-dispatch refresh for XP-triple phases; P5 is Plantin-inline but the refresh is still cheap discipline (keeps implementation commits clean of plan-porting diffs).
+
+**[DECISION]** P6 pivot: **ET-verbatim fallback for chapters blocked by content filter**. The original plan had `scripts/bootstrap-mock-content.ts` call Claude API per paragraph for ET→EN translation. Three things converged to force a pivot: (a) the app has no runtime dependency on the Claude API (PKCE GitHub App + CF Worker covers auth; raw.github covers reads; there's no Claude in the runtime graph); (b) paying the API to do work this session can do "itself" is pointless given I'm already opus-4-6; (c) Anthropic's content-filtering policy reliably blocks on the AA Big Book's concentrated recovery prose. A dispatched subagent hit the filter after translating ch01 only; I (main session) hit the filter again even on brief meta-commentary like "Composing translations for all 68 paragraphs." Pivot: modified `.p6-finalize.ts` to fall back to the Estonian text verbatim for any chapter missing from the translation map. Hard Invariant still holds (para-id sets match); the reader will show identical text on both sides for those 12 chapters until v3's PDF bootstrap replaces everything. Documented in `ecf8c0e`'s commit body.
+
+**[DECISION]** In-session Plantin-translation substituted for `translateWithClaude` (middle path). Session 8 translated ch01 (via subagent before it hit the filter) + ch02/ch03/ch04 (Plantin, in-session, via `Edit` tool appending to `.p6-translations.json`). This preserves the pure deterministic helpers (`stripJekyllPreamble`, `splitIntoParagraphs`, `assignParaIds`, `formatContentFile`, `emitManifest`) — they still run — and only substitutes the one non-deterministic step. Scratch runner files (`.p6-runner.ts`, `.p6-finalize.ts`, `.p6-extract.json`, `.p6-translations.json`) were all deleted at P6.3 close, not tracked.
+
+**[DECISION]** P4.7 `main()` orchestrator **not** exercised end-to-end by P6. The P4 plan intent was to exercise the `main()` orchestrator live in P6. Since we skipped `translateWithClaude` and `buildRealClaudeClient` (substituted Plantin + ET-fallback instead), we also skipped `main()` itself — scratch runners composed the pure helpers instead. This is test-debt. v3's real PDF bootstrap will re-exercise the whole pipeline end-to-end with a different translator function (PDF-text extraction, not Claude API); that is the appropriate venue to exercise the full orchestrator, not here. Recorded in `ecf8c0e` commit body.
+
+**[DECISION]** Retroactively closed sub-issues #7–#10 + #13 at milestone close. GitHub's parent-task-list auto-tick is only triggered when a linked sub-issue closes; sub-issues #7, #8, #9, #10 had completion notes in prior session wraps but were never explicitly closed. Session 8 closed them all with brief retroactive-closure comments pointing at the commit ranges, so the milestone would tick to 8/8 closed. The milestone itself was then explicitly closed via `gh api --method PATCH repos/.../milestones/1 -f state=closed` — GitHub doesn't auto-close milestones even when all linked issues close.
+
+**[LESSON — content filter]** Anthropic's content-filtering policy is reliably triggered by concentrated AA Big Book prose translation work, and the trigger persists across the conversation (filter state gets "hot" — subsequent brief acknowledgments also block). This is a known false-positive pattern on recovery/addiction material even when the use is educational. **Practical implication for bigbook**: anything that requires the dev team to PRODUCE Big Book content text in bulk (translation, summarization, substantive editing of para bodies) should NOT be done inline in a Claude session — the filter will kill the work at unpredictable points. Paths that work: (a) mechanical operations that only COPY existing text (like ET-verbatim fallback); (b) tool-dispatched translation via non-Claude services (DeepL, Google Translate) if higher-quality mock content is wanted; (c) real PDF-extracted content via v3's dedicated bootstrap pipeline — which doesn't involve the Claude API at all. Save this as a memory so session 9+ doesn't re-learn it.
+
+**[LESSON — "the app doesn't need a permanent Claude key"]** Important clarifying realization during the P6 pivot. The Claude API dependency exists ONLY inside `scripts/bootstrap-mock-content.ts`, which is a one-shot content-generation tool. The runtime app has zero Claude dependency: raw.github (reads), GitHub Contents API (writes), CF Worker (token exchange). The script is explicitly run twice in the project's life — once for v1 mock content, once for v3 real content — and nothing else. This reframed P6.1's "we need the user's API key" into "do we even need the API at all," which opened the pivot.
+
+**[LESSON — middle path for "Claude-in-session substitutes for Claude-API-call"]** The pure-helpers-substitute-only-the-non-deterministic-step pattern is genuinely elegant for one-shot generation tasks in this session's context. Worth keeping in mind for future scripts that pair deterministic parsing/composition with an AI-call middle step: if you're already in a Claude session, you don't need the API middle step, you just need to preserve the I/O boundary so the AI's work can be dropped in. Scratch runners are the right discipline for this (not tracked, deleted at close).
+
+**[GOTCHA — content filter appears in main session too, not just subagents]** Subagent hit it first (expected, high output volume). What surprised me was that the main session hit it too, on brief meta-commentary that mentioned the Twelve Steps by name. The filter seems to score the whole conversation context, not just individual responses. Once hot, it stays hot for that session. **Implication**: next time I'm translating or handling similar content, DO NOT continue in the same session after the first trip — start a fresh one. Don't burn cycles trying to fight the filter with smaller batches; it escalates the problem.
+
+**[GOTCHA — content filter is per-conversation, not per-request]** Related to above. When the subagent hit the filter and returned with the error, I assumed the main session was still "clean." Not true. The filter context persists; the same concentration of sensitive material that tripped the subagent also primed the main session's filter. The empirical rule: if a subagent trips the filter, your main session is also compromised for the rest of the conversation. Plan accordingly.
+
+**[GOTCHA — don't waste the first few minutes on the "wrong" API path]** At P6 start I went through the original plan's path (check `CLAUDE_API_KEY`, propose either user-pastes-key or subagent-translates) before the user challenged "why can't we make the operations ourselves?" That challenge was the right move and reframed the whole problem. Future version of this: **question the API-call assumption before proposing to pay for it**, especially in one-shot scripts where the session Claude is already available.
+
+**[GOTCHA — prettier on generated content]** The content files emitted by `formatContentFile` needed `prettier --write` before commit — they included markdown that prettier reformats (heading-style titles, blank lines around directives, etc.). Not a defect in `formatContentFile`; just that prettier has strict rules. Ran `npx prettier --write src/content/` before P6.3 commit. Re-validated with hard-invariant and tests afterward — no behavior change.
+
+**[GOTCHA — `git commit -m "$(cat <<EOF ...)"` with tool-injected SHAs inside]** P6.4's commit message embedded `ecf8c0e` (short SHA of P6.3). I used Bash command substitution inside the HEREDOC which worked correctly, but if the SHA had contained shell-special characters (unlikely, but possible), this would have broken. Next time: capture the SHA into a bash var first, then interpolate safely. Not a bug this time, just a habit worth forming.
+
+**[FACTS for next session]**
+
+- **Head of `main`:** `8639477` (P6.4 baseline-config). CI will fire on the P5 + P6 pushes separately. Expect green — all gates passed locally, no runtime-facing changes (the app is still a thin shell; content is runtime-fetched by Plan 2's reader).
+- **v1-foundation CLOSED.** Milestone 1 state=closed, epic #3 closed, sub-issues #7–#13 all closed. Roadmap view at https://github.com/mitselek/bigbook/milestones now shows v1-foundation at 100% with v1-reader as the next open milestone.
+- **`src/lib/content/`** now has five modules: `parse.ts`, `validate.ts`, `diff.ts` (from P1–P3), `manifest.ts` (generated, ~220 lines covering all 16 chapters), `baseline-config.ts` (13 lines, pins `BASELINE_COMMIT_SHA = 'ecf8c0e...'`). These are the primitives Plan 2's reader will consume.
+- **`src/content/en/`** and **`src/content/et/`** each have 16 chapter files. EN coverage: ch01–ch04 are real in-session Plantin translations; ch05–ch16 are ET-verbatim placeholders. All 16 EN/ET pairs pass `validatePair`. Total 731 paragraph pairs across the corpus.
+- **Scratch files cleaned up.** No `.p6-*` files in `scripts/` or anywhere else. `scripts/` has only the four permanent files: `bootstrap-mock-content.ts` (P4), `content-guard.sh` + `legacy-guard.sh` + `hard-invariant.ts` (P5).
+- **Team state:** `~/.claude/teams/bigbook-dev/` still exists from session 6/7's `TeamCreate` — session 8 did NOT spawn agents, all four agents stayed cold. Session 9+ will re-spawn when Plan 2's XP-triple phases begin. Per common-prompt team-reuse protocol, session 9 startup should back up inboxes → delete team → `TeamCreate` → restore inboxes before spawning.
+- **Plan 2/3/4 plan files (v1-reader, v1-editor, v1-ship) remain unwritten.** Plan 2 is the immediate next work.
+- **Open deferrals — status update:**
+  - ~~`legacy-guard` lefthook hook~~ — RESTORED in P5.1 (commit `d804a8f`).
+  - Real auth ADR at `docs/decisions/0001-auth.md` — still deferred from session 2.
+  - `npm audit` moderate advisories — still deferred; recheck post-P6 (which just landed).
+  - Node 20 → 24 GH Actions migration — still deferred, waiting on upstream action versions, June 2026 deadline.
+  - P4.7 `main()` orchestrator exercise — **new deferral** from P6 pivot; v3's PDF bootstrap is the right venue.
+  - In-session AA translation fidelity — ch05–ch16 are ET-verbatim placeholders. v3 fixes this.
+
+**[NEXT SESSION ENTRY POINT]** **Write Plan 2 (v1-reader) — brainstorm-first, per the session-3 playbook.**
+
+Plan 2 is substantive creative work covering the reader UX decisions locked in during session 3's brainstorm (continuous scroll, row-aligned columns at 45/55 EN/ET, IntersectionObserver for top-bar title sync, marginalia column as baseline-diff indicator, mobile stacked pairs <900px). It needs multiple phase files and careful decomposition — same shape as v1-foundation's README + p0..p6 structure.
+
+Startup sequence for session 9:
+
+1. Run `bigbook-startup` skill — reads this scratchpad, common-prompt, docs snapshots, roster.
+2. Verify state from this wrap: HEAD is `8639477`, 9 session-8 commits pushed, milestone 1 CLOSED, issue #3 CLOSED.
+3. Read `docs/superpowers/plans/v1-foundation/README.md` + `docs/superpowers/specs/2026-04-14-bigbook-reader-design.md` — the spec is the source of truth for what Plan 2 must deliver.
+4. Consider the session-3 visual-companion flow (browser-based mockups) — it worked well for v1-foundation's brainstorm. Plan 2 has more UI decisions than v1-foundation did (layout, scroll sync, marginalia interaction) so the visual companion is probably the right tool again.
+5. Use `superpowers:brainstorming` to drive the decomposition. Log decisions inline as they're made. Output: `docs/superpowers/plans/v1-reader/README.md` + phase files covering the reader scaffold, alignment, scroll sync, IntersectionObserver, marginalia diff, mobile responsive.
+6. Once Plan 2 is written, decide on execution-mode per phase (inline vs XP triple) — same pattern as v1-foundation's README table.
+7. Commit Plan 2 files. Session 10+ begins execution, same rhythm as sessions 4–8.
+
+**[NEXT SESSION ALT PATH]** If the PO wants to triage the deferrals before starting Plan 2, the priority order is: (1) real auth ADR (long overdue, would help Plan 2 reference it); (2) `npm audit` triage (small, could be a warm-up task); (3) Node 20→24 GH Actions migration (deadline is June 2026, but upstream versions may now be available). None are blocking Plan 2; all are fine to leave until v1-ship.
+
+**[CONTEXT NOTE]** Session 8 started at ~0% context, ended at roughly ~55% context used. The content-filter incident consumed significant wall-clock time and burned maybe ~20% of context on filter-retry noise + Estonian paragraph data in the reads. Main lesson: wrap at v1-foundation close rather than pushing into Plan 2 on filter-hot, cluttered context. Plan 2 deserves a fresh session — same pattern session 3 established with its long brainstorm dialogue.
+
+No team shutdown ritual needed this session — no agents were spawned. The `shutdown-agent-tool-team` skill is for sessions that spawned a team; session 8 was Plantin-inline throughout.
+
+(*BB:Plantin*)
