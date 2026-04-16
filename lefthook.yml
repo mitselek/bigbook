@@ -3,6 +3,8 @@ pre-commit:
   commands:
     legacy-guard:
       run: bash scripts/legacy-guard.sh {staged_files}
+    content-guard:
+      run: bash scripts/content-guard.sh {staged_files}
     typecheck:
       glob: '*.{ts,tsx,astro}'
       run: npx tsc --noEmit
