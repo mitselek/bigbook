@@ -1,16 +1,8 @@
 pre-commit:
   parallel: false
   commands:
-    # TODO: legacy-guard hook to block staged diffs under legacy/ unless
-    # LEGACY_OVERRIDE=1 is set in the commit body. Deferred after hitting
-    # a shell-escaping issue when running a multi-step guard through
-    # lefthook -> sh -c on Windows Git Bash (staged: -c: line N: syntax
-    # error: unexpected end of file). Options to revisit:
-    #   1. Move the guard to scripts/legacy-guard.sh and invoke via
-    #      `run: bash scripts/legacy-guard.sh`.
-    #   2. Keep it as a local hook but invoke via `bash -c` explicitly.
-    #   3. Implement as a GitHub Actions check instead of a local hook.
-    # Until then, treat legacy/ as off-limits by convention, not by hook.
+    legacy-guard:
+      run: bash scripts/legacy-guard.sh {staged_files}
     typecheck:
       glob: '*.{ts,tsx,astro}'
       run: npx tsc --noEmit
