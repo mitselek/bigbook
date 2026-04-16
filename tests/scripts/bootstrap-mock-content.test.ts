@@ -201,4 +201,26 @@ describe('emitManifest()', () => {
     expect(output).toContain('ESTIMATED_HEIGHT_TITLE')
     expect(output).toContain('ESTIMATED_HEIGHT_BODY')
   })
+
+  it('emits valid TS single-quoted strings for titles containing apostrophes or backslashes', () => {
+    const chapters = [
+      {
+        slug: 'bill',
+        title: { en: "Bill's Story", et: 'Billi lugu' },
+        paraIds: ['bill-title', 'bill-p001'],
+      },
+      {
+        slug: 'escape',
+        title: { en: 'Back\\slash', et: 'Kurakaldkriips' },
+        paraIds: ['escape-title'],
+      },
+    ]
+    const output = emitManifest(chapters)
+    // Apostrophe must be escaped as \' inside the single-quoted literal.
+    expect(output).toContain("en: 'Bill\\'s Story'")
+    // Backslash must be escaped as \\ inside the single-quoted literal.
+    expect(output).toContain("en: 'Back\\\\slash'")
+    // Estonian side (clean) passes through as-is.
+    expect(output).toContain("et: 'Billi lugu'")
+  })
 })
