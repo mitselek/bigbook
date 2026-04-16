@@ -18,7 +18,21 @@
  * in two commits (content + baseline-config) per Phase 6.
  */
 
-import { pathToFileURL } from 'node:url'
+import { promises as fs } from 'node:fs'
+import { basename, dirname, extname, join, resolve } from 'node:path'
+import { fileURLToPath, pathToFileURL } from 'node:url'
+import { parse as parseContent } from '../src/lib/content/parse'
+import { validatePair } from '../src/lib/content/validate'
+
+const SCRIPT_FILE = fileURLToPath(import.meta.url)
+const REPO_ROOT = resolve(dirname(SCRIPT_FILE), '..')
+
+const LEGACY_DIRS = [
+  'legacy/peatykid',
+  'legacy/kogemuslood',
+  'legacy/lisad',
+  'legacy/front_matter',
+] as const
 
 /**
  * Strip Jekyll-style preamble from a legacy markdown file:
@@ -247,7 +261,41 @@ export function emitManifest(chapters: ManifestChapter[]): string {
   return lines.join('\n')
 }
 
-export function main(_argv: string[]): void {
+/**
+ * Slugify a legacy filename stem into a chapter slug.
+ * Lowercase, Estonian/English diacritics folded, non-alphanumeric → dashes,
+ * clipped to 20 chars (matches the `<slug>-p001` shape the reader expects).
+ */
+function slugify(stem: string): string {
+  return stem
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 20)
+}
+
+/**
+ * Heuristic: a paragraph looks like a title if it's short (< 80 chars)
+ * and doesn't end with sentence-ending punctuation.
+ */
+function looksLikeTitle(paragraph: string): boolean {
+  return paragraph.length < 80 && !/[.!?]$/.test(paragraph.trim())
+}
+
+/**
+ * One-shot orchestrator. Walks LEGACY_DIRS, pipes each .md file through the
+ * helpers, translates ET → EN via Claude, writes both sides under
+ * src/content/{et,en}/, validates each pair, and emits
+ * src/lib/content/manifest.ts.
+ *
+ * Not unit-tested by design — Phase 6 exercises it end-to-end. The pure
+ * helpers it composes (stripJekyllPreamble, splitIntoParagraphs,
+ * assignParaIds, translateWithClaude, formatContentFile, emitManifest) are
+ * fully covered in tests/scripts/bootstrap-mock-content.test.ts.
+ */
+export async function main(_argv: string[]): Promise<void> {
   if (process.env['CONTENT_BOOTSTRAP'] !== '1') {
     console.error('error: CONTENT_BOOTSTRAP=1 must be set in the environment')
     process.exit(1)
@@ -256,7 +304,89 @@ export function main(_argv: string[]): void {
     console.error('error: CLAUDE_API_KEY must be set in the environment')
     process.exit(1)
   }
-  console.log('bootstrap: not yet implemented — see P4.2 onward')
+
+  const client = buildRealClaudeClient()
+  const chapters: ManifestChapter[] = []
+
+  for (const relDir of LEGACY_DIRS) {
+    const absDir = join(REPO_ROOT, relDir)
+    const entries = await fs.readdir(absDir).catch((): string[] => [])
+    for (const entry of entries) {
+      if (extname(entry) !== '.md') continue
+      const absPath = join(absDir, entry)
+      const slug = slugify(basename(entry, '.md'))
+      const raw = await fs.readFile(absPath, 'utf8')
+      console.log(`processing ${relDir}/${entry} → ${slug}`)
+
+      const stripped = stripJekyllPreamble(raw)
+      const paragraphTexts = splitIntoParagraphs(stripped)
+      const firstText = paragraphTexts[0]
+      if (firstText === undefined) {
+        console.warn(`  skip: ${entry} has no paragraphs after stripping`)
+        continue
+      }
+
+      const titleAtTop = looksLikeTitle(firstText)
+      const etParagraphs = assignParaIds(paragraphTexts, slug, titleAtTop)
+
+      // Translate each Estonian paragraph to English, preserving para-ids.
+      const enParagraphs: IdentifiedParagraph[] = []
+      for (const { id, text } of etParagraphs) {
+        const en = await translateWithClaude(text, client)
+        enParagraphs.push({ id, text: en })
+      }
+
+      // Titles: if titleAtTop, the first paragraph IS the title. The
+      // optional-chain fallback satisfies noUncheckedIndexedAccess even
+      // though we just populated the arrays.
+      const etTitle = titleAtTop ? (etParagraphs[0]?.text ?? slug) : slug
+      const enTitle = titleAtTop ? (enParagraphs[0]?.text ?? slug) : slug
+
+      const etContent = formatContentFile(
+        { chapter: slug, title: etTitle, lang: 'et' },
+        etParagraphs,
+      )
+      const enContent = formatContentFile(
+        { chapter: slug, title: enTitle, lang: 'en' },
+        enParagraphs,
+      )
+
+      // Validate the pair before writing. A violation aborts the whole run
+      // with exit code 2 so the script never emits broken content.
+      const etParsed = parseContent(etContent)
+      const enParsed = parseContent(enContent)
+      const validation = validatePair(enParsed, etParsed)
+      if (!validation.ok) {
+        console.error(`  invariant violation on ${slug}:`)
+        for (const err of validation.errors) {
+          console.error(`    - [${err.category}] ${err.paraId}: ${err.message}`)
+        }
+        process.exit(2)
+      }
+
+      const etOut = join(REPO_ROOT, 'src/content/et', `${slug}.md`)
+      const enOut = join(REPO_ROOT, 'src/content/en', `${slug}.md`)
+      await fs.mkdir(dirname(etOut), { recursive: true })
+      await fs.mkdir(dirname(enOut), { recursive: true })
+      await fs.writeFile(etOut, etContent, 'utf8')
+      await fs.writeFile(enOut, enContent, 'utf8')
+      console.log(`  wrote ${etOut}`)
+      console.log(`  wrote ${enOut}`)
+
+      chapters.push({
+        slug,
+        title: { en: enTitle, et: etTitle },
+        paraIds: etParagraphs.map((p) => p.id),
+      })
+    }
+  }
+
+  const manifest = emitManifest(chapters)
+  const manifestPath = join(REPO_ROOT, 'src/lib/content/manifest.ts')
+  await fs.mkdir(dirname(manifestPath), { recursive: true })
+  await fs.writeFile(manifestPath, manifest, 'utf8')
+  console.log(`wrote ${manifestPath}`)
+  console.log(`processed ${chapters.length} chapters`)
 }
 
 // Only run main() when this file is executed directly, not when imported.
@@ -264,5 +394,8 @@ export function main(_argv: string[]): void {
 // differences that a manual `file://` concat gets wrong on Windows.
 const invokedPath = process.argv[1]
 if (invokedPath !== undefined && import.meta.url === pathToFileURL(invokedPath).href) {
-  main(process.argv.slice(2))
+  main(process.argv.slice(2)).catch((err: unknown) => {
+    console.error('bootstrap failed:', err)
+    process.exit(1)
+  })
 }

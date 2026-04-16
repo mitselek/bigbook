@@ -892,7 +892,7 @@ Tie the helpers together. `main()` reads legacy markdown directories, runs each 
 
 This task does **not** add new unit tests — `main()` is the orchestrator and is exercised end-to-end during Phase 6's run, not in a test. The pure helpers are already fully tested in P4.2-P4.6.
 
-- [ ] **Step 1: Implement `main()` in `scripts/bootstrap-mock-content.ts`**
+- [x] **Step 1: Implement `main()` in `scripts/bootstrap-mock-content.ts`**
 
 Replace the current `main` function with:
 
@@ -1034,7 +1034,7 @@ function looksLikeTitle(paragraph: string): boolean {
 
 Note: the imports at the top import from `../src/lib/content/parse` and `../src/lib/content/validate` **without** a `.ts` extension — that's the TS convention (no `allowImportingTsExtensions` in our tsconfig). `tsx` resolves the `.ts` files at runtime when invoked via `npx tsx scripts/bootstrap-mock-content.ts`, and `tsc --noEmit` resolves them via the package's module resolution.
 
-- [ ] **Step 2: Verify the script still type-runs (even though main() is not being invoked yet)**
+- [x] **Step 2: Verify the script still type-runs (even though main() is not being invoked yet)**
 
 Run:
 
@@ -1052,7 +1052,7 @@ npm run test
 
 Expected: all tests still green. The orchestrator is not exercised by tests; the helpers remain covered.
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git add scripts/bootstrap-mock-content.ts
@@ -1077,13 +1077,13 @@ EOF
 
 ## Phase 4 exit check
 
-- [ ] **`npm run test` green** (parse + validate + diff + bootstrap helpers all passing)
-- [ ] **`npm run test:coverage` green** (src/lib/content ≥ 90%; scripts/ is not under the coverage include)
-- [ ] **`npm run typecheck` green**
-- [ ] **`npm run lint` green**
-- [ ] **`npm run format:check` green**
-- [ ] **The script runs cleanly with the env-gate error when `CONTENT_BOOTSTRAP=0`**
-- [ ] **Push to `origin/main`**
+- [x] **`npm run test` green** (parse + validate + diff + bootstrap helpers all passing)
+- [x] **`npm run test:coverage` green** (src/lib/content ≥ 90%; scripts/ is not under the coverage include)
+- [x] **`npm run typecheck` green**
+- [x] **`npm run lint` green**
+- [x] **`npm run format:check` green**
+- [x] **The script runs cleanly with the env-gate error when `CONTENT_BOOTSTRAP=0`**
+- [x] **Push to `origin/main`**
 
 The script is fully built but has not been _run_ against real legacy content. Phase 6 runs it.
 
