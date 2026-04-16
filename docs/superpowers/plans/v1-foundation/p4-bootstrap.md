@@ -57,7 +57,7 @@ The script is structured as a file of exported helper functions plus a `main()` 
 - Modify: `package.json`, `package-lock.json`
 - Create: `scripts/bootstrap-mock-content.ts`
 
-- [ ] **Step 1: Install dependencies**
+- [x] **Step 1: Install dependencies**
 
 Run:
 
@@ -67,7 +67,7 @@ npm install --save-dev tsx @anthropic-ai/sdk
 
 `tsx` is a TypeScript-aware Node runner. `@anthropic-ai/sdk` is Anthropic's official SDK for the Claude API. Both are dev-only; the built Astro site does not ship them.
 
-- [ ] **Step 2: Add an npm script**
+- [x] **Step 2: Add an npm script**
 
 Edit `package.json` and add this line to the `scripts` block (between `e2e:all-browsers` and the closing brace):
 
@@ -75,7 +75,7 @@ Edit `package.json` and add this line to the `scripts` block (between `e2e:all-b
     "bootstrap:content": "CONTENT_BOOTSTRAP=1 tsx scripts/bootstrap-mock-content.ts"
 ```
 
-- [ ] **Step 3: Create the script entry point**
+- [x] **Step 3: Create the script entry point**
 
 New file `scripts/bootstrap-mock-content.ts`:
 
@@ -123,7 +123,7 @@ if (invokedPath !== undefined && import.meta.url === pathToFileURL(invokedPath).
 }
 ```
 
-- [ ] **Step 4: Verify the scaffold runs**
+- [x] **Step 4: Verify the scaffold runs**
 
 Run:
 
@@ -141,7 +141,7 @@ CONTENT_BOOTSTRAP=0 CLAUDE_API_KEY=dummy npx tsx scripts/bootstrap-mock-content.
 
 Expected: prints the `CONTENT_BOOTSTRAP=1 must be set` error and exits non-zero.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add package.json package-lock.json scripts/bootstrap-mock-content.ts
@@ -168,7 +168,7 @@ EOF
 - Modify: `scripts/bootstrap-mock-content.ts`
 - Create: `tests/scripts/bootstrap-mock-content.test.ts`
 
-- [ ] **Step 1: Create the failing test**
+- [x] **Step 1: Create the failing test**
 
 New file `tests/scripts/bootstrap-mock-content.test.ts`:
 
@@ -217,7 +217,7 @@ Also update `vitest.config.ts` to include `tests/scripts/` in the test glob. Edi
 
 This already matches — no change needed. The existing glob covers `tests/scripts/*.test.ts` automatically.
 
-- [ ] **Step 2: Run the tests and verify they fail**
+- [x] **Step 2: Run the tests and verify they fail**
 
 Run:
 
@@ -227,7 +227,7 @@ npx vitest run tests/scripts/bootstrap-mock-content.test.ts
 
 Expected: failures because `stripJekyllPreamble` is not yet exported.
 
-- [ ] **Step 3: Implement `stripJekyllPreamble`**
+- [x] **Step 3: Implement `stripJekyllPreamble`**
 
 Add to `scripts/bootstrap-mock-content.ts`, above the `main` function:
 
@@ -268,7 +268,7 @@ export function stripJekyllPreamble(content: string): string {
 }
 ```
 
-- [ ] **Step 4: Run tests and verify green**
+- [x] **Step 4: Run tests and verify green**
 
 Run:
 
@@ -278,7 +278,7 @@ npx vitest run tests/scripts/bootstrap-mock-content.test.ts
 
 Expected: 4 tests passing.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add scripts/bootstrap-mock-content.ts tests/scripts/bootstrap-mock-content.test.ts
@@ -302,7 +302,7 @@ EOF
 - Modify: `scripts/bootstrap-mock-content.ts`
 - Modify: `tests/scripts/bootstrap-mock-content.test.ts`
 
-- [ ] **Step 1: Add failing tests**
+- [x] **Step 1: Add failing tests**
 
 Append to `tests/scripts/bootstrap-mock-content.test.ts`:
 
@@ -370,7 +370,7 @@ describe('assignParaIds()', () => {
 })
 ```
 
-- [ ] **Step 2: Run and verify they fail**
+- [x] **Step 2: Run and verify they fail**
 
 Run:
 
@@ -380,7 +380,7 @@ npx vitest run tests/scripts/bootstrap-mock-content.test.ts
 
 Expected: new tests fail — functions not yet exported.
 
-- [ ] **Step 3: Add the implementations**
+- [x] **Step 3: Add the implementations**
 
 In `scripts/bootstrap-mock-content.ts`, above `main`:
 
@@ -432,7 +432,7 @@ export function assignParaIds(
 }
 ```
 
-- [ ] **Step 4: Run tests and verify green**
+- [x] **Step 4: Run tests and verify green**
 
 Run:
 
@@ -442,7 +442,7 @@ npx vitest run tests/scripts/bootstrap-mock-content.test.ts
 
 Expected: all 10 tests passing.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add scripts/bootstrap-mock-content.ts tests/scripts/bootstrap-mock-content.test.ts
@@ -468,7 +468,7 @@ Renders the `::para[]`-directive format that `parse.ts` reads.
 - Modify: `scripts/bootstrap-mock-content.ts`
 - Modify: `tests/scripts/bootstrap-mock-content.test.ts`
 
-- [ ] **Step 1: Add the failing test**
+- [x] **Step 1: Add the failing test**
 
 Append:
 
@@ -506,7 +506,7 @@ avaldavad üldjoontes.
 })
 ```
 
-- [ ] **Step 2: Verify the output round-trips through `parse()`**
+- [x] **Step 2: Verify the output round-trips through `parse()`**
 
 Also add a test that the formatted output parses correctly via the Phase 1 parser:
 
@@ -532,7 +532,7 @@ describe('formatContentFile() + parse() round-trip', () => {
 })
 ```
 
-- [ ] **Step 3: Run and verify both fail**
+- [x] **Step 3: Run and verify both fail**
 
 Run:
 
@@ -542,7 +542,7 @@ npx vitest run tests/scripts/bootstrap-mock-content.test.ts -t formatContentFile
 
 Expected: tests fail — function not yet exported.
 
-- [ ] **Step 4: Implement `formatContentFile`**
+- [x] **Step 4: Implement `formatContentFile`**
 
 In `scripts/bootstrap-mock-content.ts`:
 
@@ -591,7 +591,7 @@ export function formatContentFile(
 }
 ```
 
-- [ ] **Step 5: Run tests and verify green**
+- [x] **Step 5: Run tests and verify green**
 
 Run:
 
@@ -601,7 +601,7 @@ npx vitest run tests/scripts/bootstrap-mock-content.test.ts
 
 Expected: all tests green. The round-trip test is especially important — it verifies that `formatContentFile` produces a file `parse()` can consume, closing the loop between Phase 1 and Phase 4.
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add scripts/bootstrap-mock-content.ts tests/scripts/bootstrap-mock-content.test.ts
@@ -625,7 +625,7 @@ EOF
 - Modify: `scripts/bootstrap-mock-content.ts`
 - Modify: `tests/scripts/bootstrap-mock-content.test.ts`
 
-- [ ] **Step 1: Add the failing test**
+- [x] **Step 1: Add the failing test**
 
 Append:
 
@@ -659,7 +659,7 @@ describe('translateWithClaude()', () => {
 })
 ```
 
-- [ ] **Step 2: Run and verify it fails**
+- [x] **Step 2: Run and verify it fails**
 
 Run:
 
@@ -669,7 +669,7 @@ npx vitest run tests/scripts/bootstrap-mock-content.test.ts -t translateWithClau
 
 Expected: failure — function not exported.
 
-- [ ] **Step 3: Implement `translateWithClaude` with the Anthropic SDK bridge**
+- [x] **Step 3: Implement `translateWithClaude` with the Anthropic SDK bridge**
 
 In `scripts/bootstrap-mock-content.ts`:
 
@@ -730,7 +730,7 @@ export function buildRealClaudeClient(): ClaudeClient {
 }
 ```
 
-- [ ] **Step 4: Run tests and verify**
+- [x] **Step 4: Run tests and verify**
 
 Run:
 
@@ -740,7 +740,7 @@ npx vitest run tests/scripts/bootstrap-mock-content.test.ts
 
 Expected: all tests passing. The real client is not exercised by tests — it's only called during the actual Phase 6 run.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add scripts/bootstrap-mock-content.ts tests/scripts/bootstrap-mock-content.test.ts
@@ -765,7 +765,7 @@ EOF
 - Modify: `scripts/bootstrap-mock-content.ts`
 - Modify: `tests/scripts/bootstrap-mock-content.test.ts`
 
-- [ ] **Step 1: Add the failing test**
+- [x] **Step 1: Add the failing test**
 
 Append:
 
@@ -801,7 +801,7 @@ describe('emitManifest()', () => {
 })
 ```
 
-- [ ] **Step 2: Implement `emitManifest`**
+- [x] **Step 2: Implement `emitManifest`**
 
 In `scripts/bootstrap-mock-content.ts`:
 
@@ -853,7 +853,7 @@ export function emitManifest(chapters: ManifestChapter[]): string {
 }
 ```
 
-- [ ] **Step 3: Run tests and verify green**
+- [x] **Step 3: Run tests and verify green**
 
 Run:
 
@@ -863,7 +863,7 @@ npx vitest run tests/scripts/bootstrap-mock-content.test.ts
 
 Expected: all tests passing.
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add scripts/bootstrap-mock-content.ts tests/scripts/bootstrap-mock-content.test.ts

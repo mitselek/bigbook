@@ -205,6 +205,10 @@ export interface ManifestChapter {
   paraIds: string[]
 }
 
+function tsStringLit(s: string): string {
+  return `'${s.replace(/\\/g, '\\\\').replace(/'/g, "\\'")}'`
+}
+
 /**
  * Emit the contents of src/lib/content/manifest.ts as a TypeScript string.
  * Produces a typed list of chapters with para-ids and bilingual titles.
@@ -229,11 +233,11 @@ export function emitManifest(chapters: ManifestChapter[]): string {
   ]
   for (const ch of chapters) {
     lines.push('  {')
-    lines.push(`    slug: '${ch.slug}',`)
-    lines.push(`    title: { en: '${ch.title.en}', et: '${ch.title.et}' },`)
+    lines.push(`    slug: ${tsStringLit(ch.slug)},`)
+    lines.push(`    title: { en: ${tsStringLit(ch.title.en)}, et: ${tsStringLit(ch.title.et)} },`)
     lines.push('    paraIds: [')
     for (const id of ch.paraIds) {
-      lines.push(`      '${id}',`)
+      lines.push(`      ${tsStringLit(id)},`)
     }
     lines.push('    ],')
     lines.push('  },')
