@@ -27,4 +27,16 @@
 
 [RECORD] **Clean GREEN record for session 6.** Seven ACs across Phase 2 (P2.1–P2.4) and Phase 3 (P3.1–P3.3): zero PURPLE rejections, zero three-strike escalations. Only one PURPLE commit this session was Ortelius's `e329678` (extracting `collectMissing`/`toResult` helpers post-P2.3) — structural refactoring on working GREEN code, not a rejection. No-op GREEN cycles (P2.2, P2.4, P3.2, P3.3) were all correctly identified: implementation from the prior AC already handled the regression tests. Baseline for P4: if Phase 4's bootstrap script character produces PURPLE rejections, compare against this clean baseline to judge whether the issue is GREEN quality or plan decomposition.
 
+## 2026-04-16 — Session 7, v1-foundation Phase 4 bootstrap helpers (P4.2–P4.6b)
+
+[RECORD] **Clean GREEN record for session 7.** Six ACs across P4.2–P4.6 plus the P4.6b adjunct: zero PURPLE rejections, zero three-strike escalations. All five helpers (`stripJekyllPreamble`, `splitIntoParagraphs`+`assignParaIds`, `formatContentFile`, `translateWithClaude`+`buildRealClaudeClient`, `emitManifest`) plus the `tsStringLit` escape fix landed with no structural issues. HEAD `d1b86a2`, 42/42 tests green.
+
+[LEARNED] **Plan spec and test assertions can diverge — defer to the test.** In P4.6, the plan sketch used `JSON.stringify()` for title strings (produces double-quoted output), but the test asserted single-quoted form. The test is the specification; the sketch is illustrative. When they conflict, implement to pass the test and document the discrepancy honestly in the GREEN_HANDOFF for Ortelius/Plantin to judge.
+
+[LEARNED] **`tsStringLit` escape order matters: backslash first, then apostrophe.** Reversing the order would double-escape backslashes that the apostrophe step produces. Pattern: `s.replace(/\\/g, '\\\\').replace(/'/g, "\\'")`. Apply this to any future code-emission helper in `scripts/`.
+
+[LEARNED] **`npm run format:check` runs against all tracked files, not just staged ones.** Lefthook's `prettier` hook runs staged-only and is the gate that blocks commits. The `format:check` npm script is broader. Pre-existing dirt in `docs/` files (Plantin's domain) will surface there but not block GREEN commits. When `format:check` fails but the file is in `docs/`, flag it in the handoff as pre-existing and confirm via `npx prettier --check <my-file>` that my file is clean.
+
+[GOTCHA] **Montano's RED commits may be on HEAD already — always `git log` before reading the file.** In P4.5 and P4.6, the stub was in a commit that had already landed when the handoff arrived. Checking the file directly after getting the handoff can show a stale read if the file was modified between when I last read it and when Montano's commit arrived. Always confirm with `git log` and `git show <sha>` to find the exact stub location.
+
 (*BB:Granjon*)

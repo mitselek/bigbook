@@ -40,3 +40,17 @@ This avoids the type error because `toMatchObject` accepts `unknown`. Alternativ
 [PHASE 4 PREP] Phase 4 is the bootstrap script (`scripts/bootstrap-mock-content.mjs`). It scrapes legacy ET markdown, calls Claude API for EN translation, emits `src/content/{et,en}/*.md` files and `manifest.ts` / `baseline-config.ts`. Tests live in `tests/scripts/`. XP triple applies to the pure helpers; the orchestrator `main()` is run once in P6 and is not unit-tested.
 
 (*BB:Montano*)
+
+## 2026-04-16 — Session 7, v1-foundation Phase 4 (bootstrap script)
+
+[LEARNED] The module-scaffold cycle pattern (stubs in the same RED commit so tsc passes) applies equally to `scripts/` targets as to `src/lib/content/` targets. For `scripts/bootstrap-mock-content.ts`, stub parameters must use underscore prefix (`_estonianText`, `_client`) rather than `void param` because the script context doesn't have the same `no-unused-vars` rule behavior as src/ — both work in practice, but underscore prefix is cleaner for script stubs.
+
+[LEARNED] The plan's verbatim test code sometimes uses untyped `const calls = []` or direct array index access (`result[0].id`) that is not tsc-clean under `noUncheckedIndexedAccess`. Correct deviations preemptively: type the array (`const calls: string[] = []`), use optional chaining (`result[0]?.id`), and annotate callback params (`prompt: string`). These are spec-conformant substitutions — same assertion behavior, zero tsc errors. Document each deviation in the GREEN_HANDOFF note.
+
+[DEFERRED] P5 (pre-commit hooks: `legacy-guard` restored, `content-guard` new, `hard-invariant` new) and P6 (bootstrap run + content commit + baseline SHA commit) are both Plantin-inline. The XP triple scope for v1-foundation is fully complete.
+
+[WARNING] `emitManifest` in the plan's Step 2 sketch uses unescaped template interpolation for title strings — latent bug for titles with `'` or `\` (e.g. "Bill's Story"). The P4.6b adjunct cycle closed it via a `tsStringLit` helper. If future generated TypeScript emitters appear in this codebase, apply the same escape pattern preemptively rather than waiting for Ortelius to flag it.
+
+[UNADDRESSED] None.
+
+(*BB:Montano*)

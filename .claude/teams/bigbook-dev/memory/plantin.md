@@ -384,3 +384,80 @@ Startup sequence for session 7:
 **[CONTEXT NOTE]** Session 6 wrapped via the `shutdown-agent-tool-team` skill's procedure — second live exercise since the skill was authored in session 5. Procedure worked cleanly end-to-end again: scratchpad-and-closing-report dispatch → verify scratchpads on disk (all three modified, sizes 5213/6517/16207 bytes) → `shutdown_request` protocol → three `shutdown_approved` responses → team-lead writes own scratchpad → memory commit → push → user clears for session 7. No gaps found.
 
 (*BB:Plantin*)
+
+## 2026-04-16 — Session 7, v1-foundation Phase 4 landed
+
+**[DONE]** Plan 1 / Phase 4 executed **mixed-mode** (P4.1 and P4.7 Plantin-inline, P4.2–P4.6 + P4.6b adjunct via XP triple). 15 commits pushed to `origin/main`. Final HEAD: `736ab59`. Phase-exit gates all green.
+
+Session commit chain on `main`:
+
+```
+736ab59 feat(bootstrap): P4.7 main() orchestrator (Plantin-inline)
+d1b86a2 fix(bootstrap): escape apostrophes and backslashes in emitManifest   # P4.6b GREEN
+64b5e23 test(bootstrap): P4.6b RED — emitManifest must escape apostrophes and backslashes
+af7dcac feat(bootstrap): emitManifest helper                                   # P4.6 GREEN
+ef4d0b1 test(bootstrap): P4.6 RED — failing test for emitManifest
+d22f9d5 feat(bootstrap): translateWithClaude + injectable Claude client        # P4.5 GREEN
+1a0b951 test(bootstrap): P4.5 RED — failing tests for translateWithClaude
+b5d4c97 feat(bootstrap): formatContentFile + round-trip with parse()           # P4.4 GREEN
+5b6bacd test(bootstrap): P4.4 RED — failing tests for formatContentFile
+a6de381 feat(bootstrap): splitIntoParagraphs + assignParaIds helpers           # P4.3 GREEN
+014a320 test(bootstrap): P4.3 RED — failing tests for splitIntoParagraphs + assignParaIds
+fe6908a feat(bootstrap): stripJekyllPreamble helper                            # P4.2 GREEN
+7925bee test(bootstrap): P4.2 RED — failing tests for stripJekyllPreamble
+8bfa048 feat(bootstrap): P4.1 scaffold content bootstrap script (Plantin-inline)
+9fc379b docs(plans): P4 pre-dispatch refresh — scope split + script-is-TS decision
+```
+
+**[DECISION]** Plan-review refresh before dispatch (`9fc379b`): split P4 into mixed-mode execution. P4.1 (scaffold: `npm install tsx @anthropic-ai/sdk` + stub file + env guards) and P4.7 (`main()` orchestrator, ~130 lines of `fs` walk + sequential helper calls, exercised end-to-end in P6 not unit-tested) are **inline by Plantin** because neither has a failing test to write — same shape as P0. P4.2–P4.6 (five pure helpers) via XP triple. Documented the split in the README execution-mode table + a "Why P4 is mixed" note. Ortelius's session-6 scope flag was exactly right: the plan-level distinction between "pure helpers suitable for TDD" and "orchestrator exercised end-to-end" maps cleanly onto the execution-mode split.
+
+**[DECISION]** Scripts live at `scripts/**/*.ts` (not `.mjs`). `tsconfig.json` `include` now covers `scripts/**/*`, so `tsc --noEmit` + ESLint + Prettier all apply. Reasons (from `9fc379b` commit body): tests importing from `.mjs` would hit TS2307 at P4.2's first commit under our tsconfig (no `allowJs`); TS discipline on scripts preempts session-5 LESSON #1 (regex-capture-group traps); `tsx` runs `.ts` without a build step identical to how it would run `.mjs`, no runtime regression. Plan file code blocks rewritten JS → TS, `for..of` in place of indexed loops, string slicing in place of regex captures, narrowing guards on `process.argv[1]` / `message.content[0]` / `paragraphTexts[0]`. Also added `@typescript-eslint/no-unused-vars` with `argsIgnorePattern: '^_'` in `eslint.config.js` so `_argv`-style unused params lint-pass.
+
+**[DECISION]** P4.1 `pathToFileURL` over manual `file://` concat. The plan's original entry-point check `import.meta.url === \`file://${process.argv[1].replace(/\\/g, '/')}\`` produces `file://C:/...` on Windows while `import.meta.url` is `file:///C:/...` (three slashes). The canonical Node idiom `pathToFileURL(invokedPath).href` handles Windows vs POSIX cleanly. Landed in `8bfa048` along with a short doc comment explaining the Windows quirk for future readers.
+
+**[DECISION]** P4.6b adjunct cycle (Option 2 over Options 1 and 3). Ortelius correctly escalated a spec-gap at P4.6 close: Granjon's `emitManifest` used single-quote template literals (`'${ch.title.en}'`) that emit invalid TypeScript when a title contains `'`. AA Big Book chapter titles routinely include apostrophes ("Bill's Story", "Doctor's Opinion"). The plan's test suite didn't exercise apostrophe inputs and the plan's impl sketch (`JSON.stringify`) was Prettier-incompatible. Three options offered. Picked Option 2 (TDD-orthodox adjunct: Montano writes failing test with apostrophe input, Granjon adds escape helper, Ortelius verifies). Rationale: Option 1 (defer to P6) leaves a known latent bug in a committed script; Option 3 (let Ortelius silently refactor) crosses his PURPLE authority boundary for untested inputs. Option 2 closed in one cycle, zero rejections — `tsStringLit(s: string): string` private helper does `\\` → `\\\\` then `'` → `\'` then wraps in single quotes.
+
+**[DECISION]** Not landing a plan-file spec-gap correction commit. Ortelius flagged the P4.6 test+sketch inconsistency for plan-file record-keeping, and I considered a separate `docs(plans): ...` correction commit. Skipped for two reasons: (a) the plan file is advisory for execution, not load-bearing for the app — future regenerations would still discover the apostrophe case via the same escalation path, which is the right route for spec gaps; (b) the committed history already tells the story (P4.6b RED + fix commits explain the gap and the fix). If this plan is ever re-executed, Ortelius-equivalent will re-raise at P4.6 close — that's the right time for the question to be adjudicated again, not now from a different context.
+
+**[DECISION]** XP triple again at zero PURPLE commits, zero rejections, zero three-strike escalations across 6 cycles (P4.2, P4.3, P4.4, P4.5, P4.6, P4.6b). Same shape as Phase 3. The pattern: when plan-provided helpers are simple pure functions with verbatim code blocks and the RED tests stay tight, PURPLE's "nothing to do here" verdict is the default and the Ortelius-discipline "hold-then-refactor" rarely fires because there's no cross-helper duplication surface to hold on. Worth re-examining for Plan 2: if the plan keeps handing the triple verbatim-code-block implementations, the triple's value is mostly the RED discipline + gate verification, not the structural refactoring. The PURPLE role still earns its keep on the escalation judgment (P4.6b proves that), but the accept-without-touching pattern will keep recurring.
+
+**[GOTCHA]** `git add` scope bleed. My Python script ticked 30 plan-file checkboxes in the working tree but I didn't commit before dispatching the P4.6b TEST_SPEC. When Granjon committed his P4.6b GREEN fix, the uncommitted plan-file diff got swept into `d1b86a2` alongside his 10-line script change. Sent Ortelius a heads-up DM so his verdict would ignore the docs diff. Ortelius handled it cleanly (he would have anyway, once he saw the plan-file content was pure `- [ ]` → `- [x]` ticks). Rule for next session: **never leave uncommitted docs edits in the tree while agents are active** — they'll be picked up via `git add -A` or similar. Commit housekeeping immediately or stash it.
+
+**[GOTCHA]** Prettier keeps re-checking committed plan files. Twice this session (once on `9fc379b`, once on `736ab59`) a plan-file edit passed the `git add` stage but failed Prettier `--check` at pre-commit. Workaround: run `npx prettier --write <file>` then re-add, re-commit. Root cause: my inline edits bypass the editor's format-on-save, so table column widths and soft-wraps drift from Prettier's canonical shape. Low-friction fix — run `npx prettier --write` on any plan file I edit before staging. No behavior change, just a muscle-memory tweak.
+
+**[GOTCHA]** Regression-cycle ceremony matters even when the cycle is trivial. P4.2 through P4.6 each flowed through the full RED → GREEN → PURPLE chain, even though PURPLE had nothing to do. Skipping the PURPLE handoff for "obviously trivial" commits would have broken the pipeline serialization rule from session 6. The discipline cost is cheap (one no-op message), and it keeps everyone's mental model of "where we are in the cycle" synchronized. Worth preserving.
+
+**[FACTS for next session]**
+
+- **Head of `main`:** `736ab59` (P4.7 orchestrator). CI pending at session wrap but typecheck / lint / format:check / test (42/42) / coverage (98.78% lines / 95.91% branches) / build (zero warnings) / size all green locally. Expect CI green.
+- **Sub-issue #11 (P4) closed** with a detailed completion comment citing all seven commit SHAs. Parent epic #3's task list auto-ticks.
+- **Commits pushed this session:** 15 total. Plan refresh (1) + P4.1 scaffold (1) + XP triple 6 cycles (12) + P4.7 orchestrator (1) = 15. All on `main`.
+- **`scripts/bootstrap-mock-content.ts`** is 268 lines — six exported helpers (`stripJekyllPreamble`, `splitIntoParagraphs`, `assignParaIds`, `formatContentFile`, `translateWithClaude`, `buildRealClaudeClient`, `emitManifest`) plus the private `tsStringLit` escape helper and the `main()` orchestrator. Imports from `src/lib/content/parse` and `.../validate` (the Phase 1 + Phase 2 primitives).
+- **`tests/scripts/bootstrap-mock-content.test.ts`** is 16 tests covering every pure helper. `main()` is not unit-tested by design — exercised end-to-end by Phase 6's live run with a real Claude API key.
+- **`src/lib/content/`** still has three modules (`parse.ts`, `validate.ts`, `diff.ts`). `manifest.ts` and `baseline-config.ts` land in P6.
+- **`tsconfig.json` include** now covers `src/**/*`, `tests/**/*`, `scripts/**/*`, `.astro/types.d.ts`. Any future script goes in the typecheck gate by default.
+- **`eslint.config.js`** has a repo-wide `@typescript-eslint/no-unused-vars` rule with `argsIgnorePattern: '^_'`. Underscore-prefixed params lint-pass.
+- **Team state:** `~/.claude/teams/bigbook-dev/` exists from this session's `TeamCreate`. All three agent scratchpads updated this session (Montano session-7 entry, Granjon session-7 entry, Ortelius session-7 entry with a correction flag on my earlier `JSON.stringify` framing error). Memory commits pending this session-7 wrap.
+- **v1-foundation status:** P0 ✓, P1 ✓, P2 ✓, P3 ✓, P4 ✓. **Two phases remaining:** P5 (hooks, Plantin-inline) and P6 (land content, Plantin-inline). The XP-triple scope for v1-foundation is done — no more TEST_SPECs coming to Montano/Granjon/Ortelius this milestone.
+- **Open deferrals still unresolved (unchanged from session 6):**
+  - `legacy-guard` lefthook hook — restored in P5 via `scripts/legacy-guard.sh`.
+  - Real auth ADR at `docs/decisions/0001-auth.md`.
+  - `npm audit` moderate advisories (now 11+N from `tsx`/`@anthropic-ai/sdk` install; recheck post-P6).
+  - Node 20 → 24 GH Actions migration (June 2026 deadline).
+  - Plans 2/3/4 plan files (v1-reader, v1-editor, v1-ship — land after v1-foundation closes in P6).
+
+**[NEXT SESSION ENTRY POINT]** **Execute v1-foundation Phase 5 (pre-commit hooks) inline.**
+
+Startup sequence for session 8:
+
+1. Run `bigbook-startup` skill — reads this scratchpad, common-prompt, docs snapshots, roster.
+2. Verify state from this wrap: HEAD is `736ab59`, 15 session-7 commits pushed, all four scratchpads committed.
+3. Read `docs/superpowers/plans/v1-foundation/p5-hooks.md` end-to-end. 4 tasks: P5.1 restore `legacy-guard` (shell script that sidesteps the Windows Git Bash escaping bug from session 2), P5.2 add `content-guard`, P5.3 add `hard-invariant` as a Node hook with its own Vitest suite, P5.4 integration test. Note the session-7 language note at the top: scripts are `.ts` not `.mjs`, and the plan's `scripts/hard-invariant.mjs` references were renamed to `.ts` in session 7's plan refresh — code blocks still need porting JS → TS at execution time.
+4. **No XP triple.** P5 is Plantin-inline per the README execution-mode table. No `TeamCreate` needed at startup. Agents stay cold. Session 8 is a quiet one for Montano/Granjon/Ortelius — their next work is Plan 2 decomposition, which happens after v1-foundation closes in P6.
+5. Execute P5 inline via `superpowers:executing-plans`. Each task is a shell-script + lefthook.yml edit + test. One commit per task, pre-commit gates green.
+6. After P5 closes: execute P6 (land the content) inline. P6.1 runs the bootstrap script locally with the real `CLAUDE_API_KEY`, P6.3 commits the generated content + manifest with `CONTENT_BOOTSTRAP=1 git commit`, P6.4 writes `baseline-config.ts` pointing at P6.3's SHA. The final commit body uses `Closes #3`.
+7. After P6 closes: v1-foundation is done end-to-end. Milestone 1 closed. Then decomposition for Plan 2 (v1-reader) begins — which IS an XP-triple phase, so sessions 9+ bring the triple back.
+
+**[CONTEXT NOTE]** Session 7 wrapped via the `shutdown-agent-tool-team` skill — third live exercise, procedure worked cleanly again. One minor rough edge: Ortelius hadn't proactively saved a session-7 scratchpad when he went idle, so I sent a targeted follow-up DM itemizing the five specific learnings worth preserving. He landed a structured entry within three minutes of the ask. Rule for next time: send scratchpad-save requests with **specific itemized content** rather than generic "save your learnings" prompts — the specific-item version produces better scratchpads and avoids the idle-before-save failure mode. Noted the skill's own guidance on this ("vague instructions produce vague scratchpads").
+
+(*BB:Plantin*)
