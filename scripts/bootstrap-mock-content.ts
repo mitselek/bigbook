@@ -55,6 +55,23 @@ export function stripJekyllPreamble(content: string): string {
   return body.trim()
 }
 
+export interface IdentifiedParagraph {
+  id: string
+  text: string
+}
+
+export function splitIntoParagraphs(_stripped: string): string[] {
+  throw new Error('not implemented')
+}
+
+export function assignParaIds(
+  _paragraphs: string[],
+  _chapterSlug: string,
+  _titleAtTop: boolean,
+): IdentifiedParagraph[] {
+  throw new Error('not implemented')
+}
+
 export function main(_argv: string[]): void {
   if (process.env['CONTENT_BOOTSTRAP'] !== '1') {
     console.error('error: CONTENT_BOOTSTRAP=1 must be set in the environment')
