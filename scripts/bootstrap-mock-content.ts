@@ -60,16 +60,45 @@ export interface IdentifiedParagraph {
   text: string
 }
 
-export function splitIntoParagraphs(_stripped: string): string[] {
-  throw new Error('not implemented')
+/**
+ * Split a stripped markdown body into paragraphs on blank-line boundaries.
+ * Trims each paragraph. Drops empty chunks from consecutive blank lines.
+ */
+export function splitIntoParagraphs(stripped: string): string[] {
+  return stripped
+    .split(/\n\s*\n/)
+    .map((chunk) => chunk.trim())
+    .filter((chunk) => chunk.length > 0)
 }
 
+/**
+ * Assign para-ids of form `<slug>-title` (if titleAtTop) or `<slug>-p<nnn>`
+ * with three-digit zero-padded ordinal. Ordinals start at 001 regardless
+ * of whether the first paragraph is a title.
+ *
+ * Uses `for..of` rather than indexed iteration — under
+ * `noUncheckedIndexedAccess`, `paragraphs[i]` is `string | undefined`, but
+ * `for..of` yields `string` directly.
+ */
 export function assignParaIds(
-  _paragraphs: string[],
-  _chapterSlug: string,
-  _titleAtTop: boolean,
+  paragraphs: string[],
+  chapterSlug: string,
+  titleAtTop: boolean,
 ): IdentifiedParagraph[] {
-  throw new Error('not implemented')
+  const out: IdentifiedParagraph[] = []
+  let ordinal = 1
+  let isFirst = true
+  for (const text of paragraphs) {
+    if (titleAtTop && isFirst) {
+      out.push({ id: `${chapterSlug}-title`, text })
+    } else {
+      const paddedOrdinal = String(ordinal).padStart(3, '0')
+      out.push({ id: `${chapterSlug}-p${paddedOrdinal}`, text })
+      ordinal++
+    }
+    isFirst = false
+  }
+  return out
 }
 
 export function main(_argv: string[]): void {
