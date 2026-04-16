@@ -101,6 +101,19 @@ export function assignParaIds(
   return out
 }
 
+export interface ContentFrontmatter {
+  chapter: string
+  title: string
+  lang: 'en' | 'et'
+}
+
+export function formatContentFile(
+  _frontmatter: ContentFrontmatter,
+  _paragraphs: IdentifiedParagraph[],
+): string {
+  throw new Error('not implemented')
+}
+
 export function main(_argv: string[]): void {
   if (process.env['CONTENT_BOOTSTRAP'] !== '1') {
     console.error('error: CONTENT_BOOTSTRAP=1 must be set in the environment')

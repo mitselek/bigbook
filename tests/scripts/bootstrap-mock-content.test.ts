@@ -3,7 +3,9 @@ import {
   stripJekyllPreamble,
   splitIntoParagraphs,
   assignParaIds,
+  formatContentFile,
 } from '../../scripts/bootstrap-mock-content'
+import { parse } from '../../src/lib/content/parse'
 
 describe('stripJekyllPreamble()', () => {
   it('removes Jekyll YAML frontmatter', () => {
@@ -94,5 +96,53 @@ describe('assignParaIds()', () => {
     const result = assignParaIds(Array(12).fill('p'), 'ch05', false)
     expect(result[0]?.id).toBe('ch05-p001')
     expect(result[11]?.id).toBe('ch05-p012')
+  })
+})
+
+describe('formatContentFile()', () => {
+  it('produces a file that parse() can round-trip', () => {
+    const paragraphs = [
+      { id: 'ch05-title', text: 'Kuidas see toimib' },
+      { id: 'ch05-p001', text: 'Oleme harva näinud inimest.' },
+      { id: 'ch05-p002', text: 'Meie lood\navaldavad üldjoontes.' },
+    ]
+    const output = formatContentFile(
+      { chapter: 'ch05', title: 'Kuidas see toimib', lang: 'et' },
+      paragraphs,
+    )
+    expect(output).toBe(`---
+chapter: ch05
+title: Kuidas see toimib
+lang: et
+---
+
+::para[ch05-title]
+Kuidas see toimib
+
+::para[ch05-p001]
+Oleme harva näinud inimest.
+
+::para[ch05-p002]
+Meie lood
+avaldavad üldjoontes.
+`)
+  })
+})
+
+describe('formatContentFile() + parse() round-trip', () => {
+  it('formatContentFile output parses back to the same para-id map', () => {
+    const paragraphs = [
+      { id: 'ch05-title', text: 'Kuidas see toimib' },
+      { id: 'ch05-p001', text: 'Oleme harva näinud inimest.' },
+    ]
+    const content = formatContentFile(
+      { chapter: 'ch05', title: 'Kuidas see toimib', lang: 'et' },
+      paragraphs,
+    )
+    const parsed = parse(content)
+    expect(parsed.frontmatter.chapter).toBe('ch05')
+    expect(parsed.frontmatter.lang).toBe('et')
+    expect(parsed.paragraphs.get('ch05-title')).toBe('Kuidas see toimib')
+    expect(parsed.paragraphs.get('ch05-p001')).toBe('Oleme harva näinud inimest.')
   })
 })
