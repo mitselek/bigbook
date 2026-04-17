@@ -99,7 +99,9 @@ import { CHAPTERS } from '../lib/content/manifest'
       const target = document.getElementById(lastParaId)
       if (target) {
         requestAnimationFrame(() => {
-          target.scrollIntoView({ behavior: 'instant', block: 'start' })
+          const rect = target.getBoundingClientRect()
+          const top = window.scrollY + rect.top - window.innerHeight / 3
+          window.scrollTo({ top, behavior: 'instant' })
         })
       }
     }
