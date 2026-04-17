@@ -4,9 +4,8 @@
 
   interface Props {
     chapters: readonly ChapterManifest[]
-    onToggleToc: () => void
   }
-  let { chapters, onToggleToc }: Props = $props()
+  let { chapters }: Props = $props()
 
   let titleEn = $derived(getTitle('en'))
   let titleEt = $derived(getTitle('et'))
@@ -18,12 +17,16 @@
     if (!ch) return ''
     return ch.title[lang].replace(/^#\s*/, '')
   }
+
+  function toggleToc() {
+    readerState.tocOpen = !readerState.tocOpen
+  }
 </script>
 
-<button class="title-trigger" onclick={onToggleToc} aria-label="Open table of contents">
+<button class="title-trigger" onclick={toggleToc} aria-label="Open table of contents">
   {#if titleEn}
     <span class="title-en">{titleEn}</span>
-    <span class="title-sep">·</span>
+    <span class="title-sep">&middot;</span>
     <span class="title-et">{titleEt}</span>
   {/if}
 </button>

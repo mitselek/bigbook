@@ -9,7 +9,7 @@ import { CHAPTERS } from '../lib/content/manifest'
     <a href="/bigbook/" class="wordmark">bigbook</a>
   </div>
   <div class="top-bar-center" id="top-bar-title">
-    <TopBarClient client:load chapters={CHAPTERS} onToggleToc={() => {}} />
+    <TopBarClient client:load chapters={CHAPTERS} />
   </div>
   <div class="top-bar-right desktop-only">
     <button class="nav-arrow" id="prev-chapter" aria-label="Previous chapter">&#9664;</button>
@@ -30,7 +30,7 @@ import { CHAPTERS } from '../lib/content/manifest'
   </div>
 </div>
 
-<TocOverlay client:load chapters={CHAPTERS} isOpen={false} onSelect={() => {}} onClose={() => {}} />
+<TocOverlay client:load chapters={CHAPTERS} />
 
 <script>
   const burgerBtn = document.getElementById('burger-menu')

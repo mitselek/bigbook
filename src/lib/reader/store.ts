@@ -13,9 +13,11 @@ export type ChapterLoadState =
 
 export const readerState: {
   currentChapter: string
+  tocOpen: boolean
   chapterStates: Map<string, ChapterLoadState>
 } = {
   currentChapter: '',
+  tocOpen: false,
   chapterStates: new Map(),
 }
 
