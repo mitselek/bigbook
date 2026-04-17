@@ -21,6 +21,7 @@
   function select(slug: string) {
     onSelect?.(slug)
     close()
+    document.dispatchEvent(new CustomEvent('bigbook:force-load', { detail: { slug } }))
     const target = document.getElementById(`chapter-${slug}`)
     target?.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }

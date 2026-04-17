@@ -1,5 +1,6 @@
 <script lang="ts">
   import Marginalia from './Marginalia.svelte'
+  import { readerState } from '../lib/reader/store.svelte'
 
   interface Props {
     paraId: string
@@ -11,11 +12,14 @@
     chapterSlug: string
   }
   let { paraId, enText, etText, isTitle, isDiverged, baselineEtText, chapterSlug }: Props = $props()
+
+  let isFocused = $derived(readerState.focusedParagraph === paraId)
 </script>
 
 <div
   class="paragraph-row"
   class:paragraph-title={isTitle}
+  class:paragraph-focused={isFocused}
   id={paraId}
   aria-labelledby="{paraId}-en {paraId}-et"
 >
@@ -42,6 +46,10 @@
   }
   .paragraph-title {
     padding: 16px 20px;
+  }
+  .paragraph-focused {
+    border-left: 3px solid #8b7355;
+    padding-left: 17px;
   }
   .col-en {
     width: calc((100% - 140px) * 0.45);
@@ -86,6 +94,9 @@
       width: 100%;
       padding-left: 0;
       margin-top: 8px;
+    }
+    .paragraph-focused {
+      padding-left: 9px;
     }
     .lang-label {
       display: block;

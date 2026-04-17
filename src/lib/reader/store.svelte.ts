@@ -13,6 +13,7 @@ export type ChapterLoadState =
 
 export const readerState = $state({
   currentChapter: '',
+  focusedParagraph: '',
   tocOpen: false,
   chapterStates: new Map<string, ChapterLoadState>(),
 })

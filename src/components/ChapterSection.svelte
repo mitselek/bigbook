@@ -1,7 +1,13 @@
 <script lang="ts">
   import { onMount } from 'svelte'
   import ParagraphRow from './ParagraphRow.svelte'
-  import { fetchEn, fetchBaselineEt, fetchCurrentEt } from '../lib/content/fetch'
+  import {
+    fetchEn,
+    fetchBaselineEt,
+    fetchCurrentEt,
+    fetchCurrentEtBySha,
+  } from '../lib/content/fetch'
+  import { getChapterMeta, setChapterMeta } from '../lib/reader/idb'
   import { parse } from '../lib/content/parse'
   import { diffCurrentVsBaseline } from '../lib/content/diff'
   import { readerState } from '../lib/reader/store.svelte'
@@ -47,9 +53,18 @@
     }
     document.addEventListener('bigbook:refresh-chapters', onRefresh)
 
+    const onForceLoad = (e: Event) => {
+      const detail = (e as CustomEvent<{ slug: string }>).detail
+      if (detail.slug === slug && status === 'skeleton') {
+        load()
+      }
+    }
+    document.addEventListener('bigbook:force-load', onForceLoad)
+
     return () => {
       observer.disconnect()
       document.removeEventListener('bigbook:refresh-chapters', onRefresh)
+      document.removeEventListener('bigbook:force-load', onForceLoad)
     }
   })
 
@@ -57,10 +72,12 @@
     status = 'loading'
     readerState.chapterStates.set(slug, { status: 'loading' })
 
+    const cachedMeta = await getChapterMeta(slug)
+
     const [enResult, baselineResult, currentResult] = await Promise.all([
       fetchEn(slug),
       fetchBaselineEt(slug),
-      fetchCurrentEt(slug),
+      fetchCurrentEt(slug, { etag: cachedMeta?.etag }),
     ])
 
     if (!enResult.ok) {
@@ -83,17 +100,37 @@
     }
 
     const currentEtValue = currentResult.value
-    if (currentEtValue.status !== 'fetched') {
-      status = 'error'
-      errorMessage = 'Unexpected 304 on first fetch'
-      readerState.chapterStates.set(slug, { status: 'error', message: errorMessage })
-      return
+    let currentEtContent: string
+    let currentSha: string
+    let currentEtag: string
+
+    if (currentEtValue.status === 'unchanged') {
+      if (!cachedMeta) {
+        status = 'error'
+        errorMessage = 'Unexpected 304 without cached metadata'
+        readerState.chapterStates.set(slug, { status: 'error', message: errorMessage })
+        return
+      }
+      const shaResult = await fetchCurrentEtBySha(slug, cachedMeta.sha)
+      if (!shaResult.ok) {
+        status = 'error'
+        errorMessage = `SHA-pinned ET fetch failed: ${shaResult.error.message}`
+        readerState.chapterStates.set(slug, { status: 'error', message: errorMessage })
+        return
+      }
+      currentEtContent = shaResult.value
+      currentSha = cachedMeta.sha
+      currentEtag = cachedMeta.etag
+    } else {
+      currentEtContent = currentEtValue.content
+      currentSha = currentEtValue.sha
+      currentEtag = currentEtValue.etag
     }
 
     try {
       const enParsed = parse(enResult.value)
       const baselineParsed = parse(baselineResult.value)
-      const currentParsed = parse(currentEtValue.content)
+      const currentParsed = parse(currentEtContent)
       const diverged = diffCurrentVsBaseline(currentParsed, baselineParsed)
 
       paragraphs = paraIds.map((paraId) => {
@@ -117,10 +154,12 @@
         status: 'loaded',
         en: enResult.value,
         baselineEt: baselineResult.value,
-        currentEt: currentEtValue.content,
-        sha: currentEtValue.sha,
-        etag: currentEtValue.etag,
+        currentEt: currentEtContent,
+        sha: currentSha,
+        etag: currentEtag,
       })
+
+      setChapterMeta(slug, { sha: currentSha, etag: currentEtag })
     } catch (err) {
       status = 'error'
       errorMessage = err instanceof Error ? err.message : String(err)
