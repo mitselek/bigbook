@@ -3,6 +3,7 @@ import tseslint from 'typescript-eslint'
 import astro from 'eslint-plugin-astro'
 import svelte from 'eslint-plugin-svelte'
 import svelteParser from 'svelte-eslint-parser'
+import globals from 'globals'
 
 export default [
   {
@@ -18,6 +19,7 @@ export default [
   {
     files: ['**/*.svelte'],
     languageOptions: {
+      globals: globals.browser,
       parser: svelteParser,
       parserOptions: {
         parser: tseslint.parser,
