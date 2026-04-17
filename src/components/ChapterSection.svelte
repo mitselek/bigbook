@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { onMount } from 'svelte'
+  import { onMount, tick } from 'svelte'
   import ParagraphRow from './ParagraphRow.svelte'
   import {
     fetchEn,
@@ -11,7 +11,8 @@
   import { parse } from '../lib/content/parse'
   import { diffCurrentVsBaseline } from '../lib/content/diff'
   import { readerState } from '../lib/reader/store.svelte'
-  import { createPreloadObserver } from '../lib/reader/scroll-anchor'
+  import { createPreloadObserver, createFocusObserver } from '../lib/reader/scroll-anchor'
+  import { setLastParaId } from '../lib/reader/local-state'
   import { ESTIMATED_HEIGHT_TITLE, ESTIMATED_HEIGHT_BODY } from '../lib/content/manifest'
 
   interface Props {
@@ -166,6 +167,27 @@
       readerState.chapterStates.set(slug, { status: 'error', message: errorMessage })
     }
   }
+
+  let focusObserver: ReturnType<typeof createFocusObserver> | undefined
+
+  $effect(() => {
+    if (status === 'loaded' && sectionEl) {
+      tick().then(() => {
+        focusObserver?.disconnect()
+        focusObserver = createFocusObserver((paraId) => {
+          readerState.focusedParagraph = paraId
+          setLastParaId(paraId)
+        })
+        sectionEl?.querySelectorAll<HTMLElement>('.paragraph-row').forEach((el) => {
+          if (el.id) focusObserver?.observe(el, el.id)
+        })
+      })
+    }
+    return () => {
+      focusObserver?.disconnect()
+      focusObserver = undefined
+    }
+  })
 
   function retry() {
     status = 'skeleton'

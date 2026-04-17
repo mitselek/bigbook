@@ -47,14 +47,21 @@
   .paragraph-title {
     padding: 16px 20px;
   }
-  .paragraph-focused {
-    border-left: 3px solid #8b7355;
-    padding-left: 17px;
-  }
   .col-en {
+    position: relative;
     width: calc((100% - 140px) * 0.45);
     padding-right: 16px;
     border-right: 1px solid #e0ddd8;
+  }
+  .paragraph-focused > .col-en::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -3px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #c8c0b4;
   }
   .col-et {
     width: calc((100% - 140px) * 0.55);
@@ -96,7 +103,11 @@
       margin-top: 8px;
     }
     .paragraph-focused {
+      border-left: 3px solid #c8c0b4;
       padding-left: 9px;
+    }
+    .paragraph-focused > .col-en::after {
+      display: none;
     }
     .lang-label {
       display: block;

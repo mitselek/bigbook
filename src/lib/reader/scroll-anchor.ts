@@ -46,3 +46,11 @@ export function createTitleObserver(callback: CurrentChapterCallback): ScrollAnc
     if (entry.isIntersecting) callback(slug)
   })
 }
+
+export type FocusCallback = (paraId: string) => void
+
+export function createFocusObserver(callback: FocusCallback): ScrollAnchorController {
+  return makeSlugObserver('-33% 0px -67% 0px', (paraId, entry) => {
+    if (entry.isIntersecting) callback(paraId)
+  })
+}

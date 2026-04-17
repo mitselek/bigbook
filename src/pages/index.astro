@@ -37,7 +37,7 @@ import { CHAPTERS } from '../lib/content/manifest'
     import { beginAuth, currentUser, isSignedIn, signOut } from '../lib/auth/github-app'
     import { createTitleObserver } from '../lib/reader/scroll-anchor'
     import { readerState, initializeChapterStates } from '../lib/reader/store.svelte'
-    import { getLastParaId, setLastParaId } from '../lib/reader/local-state'
+    import { getLastParaId } from '../lib/reader/local-state'
     import { CHAPTERS } from '../lib/content/manifest'
 
     // Auth
@@ -103,34 +103,6 @@ import { CHAPTERS } from '../lib/content/manifest'
         })
       }
     }
-
-    // Track scroll position
-    let lastScrollUpdate = 0
-    const scrollObserver = new IntersectionObserver(
-      (entries) => {
-        const now = Date.now()
-        if (now - lastScrollUpdate < 500) return
-        for (const entry of entries) {
-          if (entry.isIntersecting && entry.target.id) {
-            readerState.focusedParagraph = entry.target.id
-            setLastParaId(entry.target.id)
-            lastScrollUpdate = now
-            break
-          }
-        }
-      },
-      { rootMargin: '0px 0px -90% 0px' },
-    )
-
-    requestAnimationFrame(() => {
-      document
-        .querySelectorAll(
-          '[id^="ch"], [id^="index"], [id^="cover"], [id^="lisad"], [id^="arsti"], [id^="eessonad"]',
-        )
-        .forEach((el) => {
-          if (el.id && !el.id.startsWith('chapter-')) scrollObserver.observe(el)
-        })
-    })
 
     // Nav arrows
     const prevBtn = document.getElementById('prev-chapter')
