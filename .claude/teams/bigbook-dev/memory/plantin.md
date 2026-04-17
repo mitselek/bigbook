@@ -12,17 +12,26 @@
 | 7 | v1-foundation P4 | `scripts/bootstrap-mock-content.ts` — 268 lines, 6 pure helpers + orchestrator. Mixed-mode (inline + XP triple). |
 | 8 | v1-foundation P5+P6 | Pre-commit hooks (legacy-guard restored, content-guard, hard-invariant). Mock content bootstrap (16 chapters, 731 para pairs). **v1-foundation CLOSED.** |
 | 9 | Plan 2 writing | v1-reader brainstorm (visual companion + 11 decisions) → spec → plan (8 phases, 38 tasks). No agents spawned. |
+| 10 | **v1-reader (full)** | All 8 phases (P0–P7) executed in one session. 49 commits, 89 unit/component tests + 4 Playwright E2E. **v1-reader CLOSED.** |
 
-## Current State (after session 9)
+## Current State (after session 10)
 
-- **Head of `main`:** `4ae6afb` (session 9 wrap). CI green. Pushed.
+- **Head of `main`:** `67ed9e1` (session 10 wrap). CI triggered. Pushed.
 - **v1-foundation:** CLOSED (milestone 1, epic #3, sub-issues #7–#13).
-- **v1-reader Plan 2:** Written and committed at `docs/superpowers/plans/v1-reader/`. NOT yet executed.
-- **v1-reader milestone + epic:** NOT yet created on GitHub. Create at session 10 start.
-- **`src/lib/content/`:** 5 modules — parse.ts, validate.ts, diff.ts, manifest.ts, baseline-config.ts (pinned to `ecf8c0e`).
+- **v1-reader:** CLOSED (milestone 2, epic #4, sub-issues #14–#21).
+- **`src/lib/content/`:** 6 modules — parse.ts, validate.ts, diff.ts, manifest.ts, baseline-config.ts, fetch.ts.
+- **`src/lib/reader/`:** 4 modules — scroll-anchor.ts, local-state.ts, store.ts, idb.ts.
+- **`src/components/`:** 7 components — TopBar.astro, TopBarClient.svelte, ChapterSection.svelte, ParagraphRow.svelte, Marginalia.svelte, TocOverlay.svelte, Footer.astro.
 - **`src/content/{en,et}/`:** 16 chapter pairs, 731 paragraphs. EN ch01–ch04 real translations; ch05–ch16 ET-verbatim placeholders.
-- **`src/components/`:** empty (`.gitkeep` only). Plan 2 populates it.
-- **Team state:** `~/.claude/teams/bigbook-dev/` exists from session 7. Agents stayed cold sessions 8–9.
+- **`tests/`:** 89 unit/component tests (12 test files), 4 Playwright E2E tests.
+- **Coverage:** `src/lib/` — 99.29% stmts, 95.45% branch, 100% funcs.
+- **Team state:** agents shut down at session 10 end.
+
+## Architecture Notes from Session 10
+
+- **Self-observing ChapterSection:** Astro's island hydration doesn't expose Svelte component methods on DOM elements. ChapterSection manages its own IntersectionObserver (via createPreloadObserver) instead of relying on external `requestLoad()` calls. Visibility-change refresh uses a custom DOM event (`bigbook:refresh-chapters`).
+- **prettier-plugin-svelte:** Installed mid-P3 when Ortelius flagged the formatting gap. `.svelte` files are now fully formatted by Prettier. The `.prettierrc.json` has a `"files": "*.svelte"` override with `"parser": "svelte"`.
+- **Coverage config:** `vitest.config.ts` coverage includes `src/lib/**/*.ts` (broadened from `src/lib/content/**` during P1 when Ortelius flagged the gap).
 
 ## Open Deferrals
 
@@ -31,6 +40,8 @@
 - Node 20 → 24 GH Actions migration (June 2026 deadline)
 - P4.7 `main()` orchestrator exercise (deferred to v3's PDF bootstrap)
 - ch05–ch16 ET-verbatim placeholders (v3 fixes via PDF extraction)
+- TOC overlay not wired to TopBarClient's onToggleToc (static `isOpen={false}` in TopBar.astro — needs a page-level Svelte store or custom event to toggle)
+- IndexedDB sha/etag persistence (idb.ts created but not wired into ChapterSection's fetch pipeline)
 
 ## Reference Files (extracted from earlier session narratives)
 
@@ -40,14 +51,11 @@
 
 ## Next Session Entry Point
 
-**Session 10: Execute v1-reader Phase 0 (fetch.ts) via XP triple.**
+**Session 11: v1-editor (Plan 3) or TOC/IDB wiring follow-ups.**
 
 1. Run `bigbook-startup` skill.
-2. Verify: HEAD `4ae6afb`, CI green, 4 session-9 commits pushed.
-3. **Create GitHub milestone + epic + sub-issues** for v1-reader (pattern from session 3: milestone "v1-reader", epic with task-list body linking sub-issues per phase).
-4. Read `docs/superpowers/plans/v1-reader/p0-fetch.md` — 5 TDD tasks.
-5. Team-reuse: back up inboxes → delete team → `TeamCreate` → restore inboxes.
-6. Spawn Montano / Granjon / Ortelius with roster prompts.
-7. Assign P0.1 to Montano as TEST_SPEC. Drive per wait-for-CYCLE_COMPLETE rule.
+2. Verify: HEAD `67ed9e1`, CI green, deployed site working at `https://mitselek.github.io/bigbook/`.
+3. Decide with PO: start v1-editor planning, or wire up remaining P5 follow-ups (TOC toggle, IndexedDB persistence).
+4. If v1-editor: brainstorm → spec → plan (same workflow as sessions 3 and 9).
 
 (*BB:Plantin*)
