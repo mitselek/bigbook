@@ -44,8 +44,13 @@ export async function fetchBaselineEt(chapter: string): Promise<FetchResult<stri
 }
 
 export async function fetchCurrentEt(
-  _chapter: string,
+  chapter: string,
   _opts?: { etag?: string; token?: string },
 ): Promise<FetchResult<CurrentEtResult>> {
-  throw new Error('not implemented')
+  const url = `https://api.github.com/repos/mitselek/bigbook/contents/src/content/et/${chapter}.md`
+  const response = await fetch(url)
+  const json = (await response.json()) as { sha: string; content: string; encoding: string }
+  const content = atob(json.content)
+  const etag = response.headers.get('etag') ?? ''
+  return { ok: true, value: { status: 'fetched', content, sha: json.sha, etag } }
 }
