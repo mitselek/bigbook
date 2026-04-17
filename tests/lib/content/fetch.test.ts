@@ -118,4 +118,39 @@ describe('fetchCurrentEt', () => {
     expect(url).toContain('api.github.com')
     expect(url).toContain('/contents/src/content/et/ch01-billi-lugu.md')
   })
+
+  it('sends If-None-Match and returns unchanged on 304', async () => {
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({
+        ok: false,
+        status: 304,
+        headers: new Headers(),
+      }),
+    )
+
+    const result = await fetchCurrentEt('ch01-billi-lugu', { etag: '"prev-etag"' })
+
+    expect(result).toEqual({ ok: true, value: { status: 'unchanged' } })
+    const [, init] = vi.mocked(fetch).mock.calls[0] as [string, RequestInit]
+    expect(init.headers).toEqual(expect.objectContaining({ 'If-None-Match': '"prev-etag"' }))
+  })
+
+  it('attaches Authorization header when token provided', async () => {
+    const markdown = '---\nchapter: ch01\n---\n'
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({
+        ok: true,
+        status: 200,
+        json: () => Promise.resolve({ sha: 'abc', content: btoa(markdown), encoding: 'base64' }),
+        headers: new Headers({ etag: '"e"' }),
+      }),
+    )
+
+    await fetchCurrentEt('ch01-billi-lugu', { token: 'gh_token_123' })
+
+    const [, init] = vi.mocked(fetch).mock.calls[0] as [string, RequestInit]
+    expect(init.headers).toEqual(expect.objectContaining({ Authorization: 'Bearer gh_token_123' }))
+  })
 })
