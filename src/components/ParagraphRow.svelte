@@ -1,4 +1,6 @@
 <script lang="ts">
+  import Marginalia from './Marginalia.svelte'
+
   interface Props {
     paraId: string
     enText: string
@@ -8,15 +10,7 @@
     baselineEtText?: string
     chapterSlug: string
   }
-  let {
-    paraId,
-    enText,
-    etText,
-    isTitle,
-    isDiverged: _isDiverged,
-    baselineEtText: _baselineEtText,
-    chapterSlug: _chapterSlug,
-  }: Props = $props()
+  let { paraId, enText, etText, isTitle, isDiverged, baselineEtText, chapterSlug }: Props = $props()
 </script>
 
 <div id={paraId}>
@@ -26,4 +20,7 @@
   <div>
     {#if isTitle}<h2>{etText}</h2>{:else}<p>{etText}</p>{/if}
   </div>
+  {#if isDiverged && baselineEtText}
+    <Marginalia baselineText={baselineEtText} {chapterSlug} />
+  {/if}
 </div>
