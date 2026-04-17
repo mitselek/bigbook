@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
-import { fetchEn, fetchBaselineEt } from '../../../src/lib/content/fetch'
+import { fetchEn, fetchBaselineEt, fetchCurrentEt } from '../../../src/lib/content/fetch'
 import { BASELINE_COMMIT_SHA } from '../../../src/lib/content/baseline-config'
 
 describe('fetchEn', () => {
@@ -77,5 +77,45 @@ describe('fetchBaselineEt', () => {
     expect(url).toContain('/src/content/et/ch01-billi-lugu.md')
     expect(url).toContain('raw.githubusercontent.com')
     expect(result).toEqual({ ok: true, value: mockMarkdown })
+  })
+})
+
+describe('fetchCurrentEt', () => {
+  beforeEach(() => {
+    vi.restoreAllMocks()
+  })
+
+  it('fetches from Contents API and decodes base64', async () => {
+    const markdown = '---\nchapter: ch01\n---\n::para[ch01-p001]\nTere'
+    const base64Content = btoa(markdown)
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({
+        ok: true,
+        status: 200,
+        json: () =>
+          Promise.resolve({
+            sha: 'abc123',
+            content: base64Content,
+            encoding: 'base64',
+          }),
+        headers: new Headers({ etag: '"etag-value"' }),
+      }),
+    )
+
+    const result = await fetchCurrentEt('ch01-billi-lugu')
+
+    expect(result).toEqual({
+      ok: true,
+      value: {
+        status: 'fetched',
+        content: markdown,
+        sha: 'abc123',
+        etag: '"etag-value"',
+      },
+    })
+    const url = vi.mocked(fetch).mock.calls[0]?.[0] as string
+    expect(url).toContain('api.github.com')
+    expect(url).toContain('/contents/src/content/et/ch01-billi-lugu.md')
   })
 })
