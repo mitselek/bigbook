@@ -28,8 +28,12 @@
     const map = new Map<string, Group>()
     for (const ch of chapters) {
       const label = groupLabel(ch.slug)
-      if (!map.has(label)) map.set(label, { label, items: [] })
-      map.get(label)!.items.push(ch)
+      let group = map.get(label)
+      if (!group) {
+        group = { label, items: [] }
+        map.set(label, group)
+      }
+      group.items.push(ch)
     }
     const order: Array<'Front matter' | 'Chapters' | 'Appendices'> = [
       'Front matter',
