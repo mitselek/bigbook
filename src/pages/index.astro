@@ -1,55 +1,58 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro'
+import TopBar from '../components/TopBar.astro'
+import Footer from '../components/Footer.astro'
+import { CHAPTERS, ESTIMATED_HEIGHT_TITLE, ESTIMATED_HEIGHT_BODY } from '../lib/content/manifest'
 ---
 
-<BaseLayout title="bigbook — bilingual reader (work in progress)">
-  <main>
-    <h1>bigbook &mdash; bilingual reader</h1>
-    <p>
-      A bilingual side-by-side reader of the AA Big Book (English / Estonian) is under construction
-      here. It will support GitHub-authenticated editing of the Estonian text, paragraph-level
-      comments visible to logged-in visitors, and GitHub-versioned commits for every edit.
-    </p>
-    <p>
-      In the meantime, the manually-transcribed Estonian-only Jekyll edition is preserved as a
-      read-only archive at
-      <a href="/bigbook/legacy/">/bigbook/legacy/</a>.
-    </p>
-
-    <section
-      aria-label="Sign in"
-      style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #e5e7eb;"
-    >
-      <h2>GitHub sign-in (proof of concept)</h2>
-      <div id="auth-status">Checking your session&hellip;</div>
-      <button id="signin-btn" type="button" style="display: none">Sign in with GitHub</button>
-      <div id="signedin-view" style="display: none; align-items: center; gap: 0.75rem">
-        <img id="avatar" alt="avatar" width="32" height="32" style="border-radius: 50%" />
-        <span>
-          Signed in as
-          <a id="profile-link" href="https://github.com/" target="_blank" rel="noopener noreferrer"
-            >@<span id="username"></span></a
-          >
-        </span>
-        <button id="signout-btn" type="button">Sign out</button>
+<BaseLayout title="Big Book — Bilingual Reader">
+  <TopBar>
+    <div slot="auth" id="auth-widget">
+      <button id="signin-btn" type="button" style="display: none; font-size: 12px;">
+        Sign in
+      </button>
+      <div id="signedin-view" style="display: none; align-items: center; gap: 6px;">
+        <img id="avatar" alt="avatar" width="24" height="24" style="border-radius: 50%;" />
+        <button id="signout-btn" type="button" style="font-size: 12px;">Sign out</button>
       </div>
-    </section>
+    </div>
+  </TopBar>
+
+  <main class="reader-body">
+    {
+      CHAPTERS.map((chapter) => (
+        <section
+          class="chapter-section"
+          id={`chapter-${chapter.slug}`}
+          data-chapter-slug={chapter.slug}
+        >
+          {chapter.paraIds.map((paraId) => (
+            <div
+              class={`skeleton-row ${paraId.endsWith('-title') ? 'skeleton-title' : 'skeleton-body'}`}
+              id={paraId}
+              style={`min-height: ${paraId.endsWith('-title') ? ESTIMATED_HEIGHT_TITLE : ESTIMATED_HEIGHT_BODY}px`}
+            >
+              <div class="skeleton-en" />
+              <div class="skeleton-et" />
+              <div class="skeleton-marginalia" />
+            </div>
+          ))}
+        </section>
+      ))
+    }
   </main>
+
+  <Footer />
+
   <script>
     import { beginAuth, currentUser, isSignedIn, signOut } from '../lib/auth/github-app'
 
-    const authStatusEl = document.getElementById('auth-status')
     const signinBtn = document.getElementById('signin-btn') as HTMLButtonElement | null
     const signedinView = document.getElementById('signedin-view') as HTMLDivElement | null
     const avatarImg = document.getElementById('avatar') as HTMLImageElement | null
-    const profileLink = document.getElementById('profile-link') as HTMLAnchorElement | null
-    const usernameEl = document.getElementById('username')
     const signoutBtn = document.getElementById('signout-btn') as HTMLButtonElement | null
 
     function showSigninButton(): void {
-      if (authStatusEl) {
-        authStatusEl.style.display = 'none'
-      }
       if (signinBtn) {
         signinBtn.style.display = 'inline-block'
       }
@@ -58,10 +61,7 @@ import BaseLayout from '../layouts/BaseLayout.astro'
       }
     }
 
-    function showSignedInView(user: { login: string; avatar_url: string; html_url: string }): void {
-      if (authStatusEl) {
-        authStatusEl.style.display = 'none'
-      }
+    function showSignedInView(user: { avatar_url: string }): void {
       if (signinBtn) {
         signinBtn.style.display = 'none'
       }
@@ -71,22 +71,10 @@ import BaseLayout from '../layouts/BaseLayout.astro'
       if (avatarImg) {
         avatarImg.src = user.avatar_url
       }
-      if (profileLink) {
-        profileLink.href = user.html_url
-      }
-      if (usernameEl) {
-        usernameEl.textContent = user.login
-      }
     }
 
     signinBtn?.addEventListener('click', () => {
-      beginAuth().catch((err: unknown) => {
-        const message = err instanceof Error ? err.message : String(err)
-        if (authStatusEl) {
-          authStatusEl.style.display = 'block'
-          authStatusEl.textContent = `Failed to begin sign-in: ${message}`
-        }
-      })
+      beginAuth().catch(() => {})
     })
 
     signoutBtn?.addEventListener('click', () => {
@@ -107,11 +95,35 @@ import BaseLayout from '../layouts/BaseLayout.astro'
       }
     }
 
-    init().catch((err: unknown) => {
-      const message = err instanceof Error ? err.message : String(err)
-      if (authStatusEl) {
-        authStatusEl.textContent = `Auth init failed: ${message}`
-      }
-    })
+    init().catch(() => {})
   </script>
 </BaseLayout>
+
+<style>
+  .reader-body {
+    background: #faf8f5;
+    font-family: Georgia, 'Times New Roman', serif;
+    padding: 0;
+  }
+  .skeleton-row {
+    display: flex;
+    border-bottom: 1px solid #eae7e2;
+    padding: 12px 20px;
+  }
+  .skeleton-title {
+    padding: 16px 20px;
+  }
+  .skeleton-en {
+    width: calc((100% - 140px) * 0.45);
+    padding-right: 16px;
+    border-right: 1px solid #e0ddd8;
+  }
+  .skeleton-et {
+    width: calc((100% - 140px) * 0.55);
+    padding-left: 16px;
+  }
+  .skeleton-marginalia {
+    width: 140px;
+    padding-left: 12px;
+  }
+</style>

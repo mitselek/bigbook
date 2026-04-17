@@ -1,0 +1,66 @@
+---
+// Static top bar. Center title is a placeholder until P5 wires
+// the reactive TopBarClient.svelte island.
+---
+
+<header class="top-bar">
+  <div class="top-bar-left">
+    <a href="/bigbook/" class="wordmark">bigbook</a>
+  </div>
+  <div class="top-bar-center" id="top-bar-title">
+    <span class="title-placeholder"></span>
+  </div>
+  <div class="top-bar-right">
+    <button class="nav-arrow" id="prev-chapter" aria-label="Previous chapter">&#9664;</button>
+    <button class="nav-arrow" id="next-chapter" aria-label="Next chapter">&#9654;</button>
+    <slot name="auth" />
+  </div>
+</header>
+
+<style>
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    padding: 0 16px;
+    background: #fff;
+    border-bottom: 1px solid #e0ddd8;
+    font-family: system-ui, sans-serif;
+    font-size: 13px;
+    color: #444;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .wordmark {
+    font-weight: 600;
+    font-size: 15px;
+    color: #222;
+    text-decoration: none;
+  }
+  .top-bar-center {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    cursor: pointer;
+    flex: 1;
+    padding: 0 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .top-bar-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .nav-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #888;
+    font-size: 14px;
+    padding: 4px;
+  }
+</style>
