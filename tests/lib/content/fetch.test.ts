@@ -153,4 +153,50 @@ describe('fetchCurrentEt', () => {
     const [, init] = vi.mocked(fetch).mock.calls[0] as [string, RequestInit]
     expect(init.headers).toEqual(expect.objectContaining({ Authorization: 'Bearer gh_token_123' }))
   })
+
+  it('returns not_found on 404', async () => {
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({
+        ok: false,
+        status: 404,
+        statusText: 'Not Found',
+        headers: new Headers(),
+      }),
+    )
+
+    const result = await fetchCurrentEt('nonexistent')
+    expect(result).toEqual({
+      ok: false,
+      error: { kind: 'not_found', message: expect.any(String), statusCode: 404 },
+    })
+  })
+
+  it('returns unexpected error on 403', async () => {
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({
+        ok: false,
+        status: 403,
+        statusText: 'Forbidden',
+        headers: new Headers(),
+      }),
+    )
+
+    const result = await fetchCurrentEt('ch01-billi-lugu')
+    expect(result).toEqual({
+      ok: false,
+      error: { kind: 'unexpected', message: expect.any(String), statusCode: 403 },
+    })
+  })
+
+  it('returns network error on fetch rejection', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockRejectedValue(new TypeError('Network error')))
+
+    const result = await fetchCurrentEt('ch01-billi-lugu')
+    expect(result).toEqual({
+      ok: false,
+      error: { kind: 'network', message: expect.any(String) },
+    })
+  })
 })
