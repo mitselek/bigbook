@@ -51,12 +51,29 @@ export async function fetchCurrentEt(
   const headers: Record<string, string> = {}
   if (opts?.etag !== undefined) headers['If-None-Match'] = opts.etag
   if (opts?.token !== undefined) headers['Authorization'] = `Bearer ${opts.token}`
-  const response = await fetch(url, { headers })
-  if (response.status === 304) {
-    return { ok: true, value: { status: 'unchanged' } }
+  try {
+    const response = await fetch(url, { headers })
+    if (response.status === 304) {
+      return { ok: true, value: { status: 'unchanged' } }
+    }
+    if (!response.ok) {
+      if (response.status === 404) {
+        return {
+          ok: false,
+          error: { kind: 'not_found', message: response.statusText, statusCode: 404 },
+        }
+      }
+      return {
+        ok: false,
+        error: { kind: 'unexpected', message: response.statusText, statusCode: response.status },
+      }
+    }
+    const json = (await response.json()) as { sha: string; content: string; encoding: string }
+    const content = atob(json.content)
+    const etag = response.headers.get('etag') ?? ''
+    return { ok: true, value: { status: 'fetched', content, sha: json.sha, etag } }
+  } catch (err) {
+    const message = err instanceof Error ? err.message : String(err)
+    return { ok: false, error: { kind: 'network', message } }
   }
-  const json = (await response.json()) as { sha: string; content: string; encoding: string }
-  const content = atob(json.content)
-  const etag = response.headers.get('etag') ?? ''
-  return { ok: true, value: { status: 'fetched', content, sha: json.sha, etag } }
 }
