@@ -11,7 +11,7 @@ pre-commit:
       glob: '*.{ts,tsx,astro}'
       run: npx tsc --noEmit
     eslint:
-      glob: '*.{ts,tsx,astro}'
+      glob: '*.{ts,tsx,astro,svelte}'
       run: npx eslint {staged_files}
     prettier:
       glob: '*.{ts,tsx,astro,md,json,yml,yaml}'

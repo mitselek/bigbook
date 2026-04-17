@@ -2,6 +2,7 @@ import js from '@eslint/js'
 import tseslint from 'typescript-eslint'
 import astro from 'eslint-plugin-astro'
 import svelte from 'eslint-plugin-svelte'
+import svelteParser from 'svelte-eslint-parser'
 
 export default [
   {
@@ -12,6 +13,17 @@ export default [
   ...astro.configs.recommended,
   ...astro.configs['flat/jsx-a11y-recommended'],
   ...svelte.configs['flat/recommended'],
+
+  // Wire typescript-eslint as the inner parser for <script lang="ts"> in .svelte files
+  {
+    files: ['**/*.svelte'],
+    languageOptions: {
+      parser: svelteParser,
+      parserOptions: {
+        parser: tseslint.parser,
+      },
+    },
+  },
 
   // Honor the leading-underscore convention for intentionally-unused params
   // and locals — standard TypeScript-ESLint practice.

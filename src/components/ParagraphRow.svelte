@@ -8,8 +8,11 @@
     baselineEtText?: string
     chapterSlug: string
   }
-  let { paraId, enText, etText, isTitle, isDiverged, baselineEtText, chapterSlug }: Props =
+  let { paraId, enText, etText, isTitle: _isTitle, isDiverged: _isDiverged, baselineEtText: _baselineEtText, chapterSlug: _chapterSlug }: Props =
     $props()
 </script>
 
-<div>stub</div>
+<div id={paraId}>
+  <div>{enText}</div>
+  <div>{etText}</div>
+</div>
