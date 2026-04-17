@@ -41,4 +41,23 @@ describe('ParagraphRow', () => {
     const headings = screen.queryAllByRole('heading')
     expect(headings.length).toBe(0)
   })
+
+  it('renders marginalia when diverged', () => {
+    render(ParagraphRow, {
+      props: {
+        ...defaultProps,
+        isDiverged: true,
+        baselineEtText: 'Original Estonian text here.',
+      },
+    })
+
+    expect(screen.getByText('originaal')).toBeInTheDocument()
+    expect(screen.getByText(/Original Estonian text/)).toBeInTheDocument()
+  })
+
+  it('does not render marginalia when not diverged', () => {
+    render(ParagraphRow, { props: defaultProps })
+
+    expect(screen.queryByText('originaal')).not.toBeInTheDocument()
+  })
 })
