@@ -87,9 +87,7 @@
     const [enResult, baselineResult, currentResult] = await Promise.all([
       fetchEn(slug),
       fetchBaselineEt(slug),
-      token !== undefined
-        ? fetchCurrentEt(slug, { token })
-        : fetchCurrentEtFromMain(slug),
+      token !== undefined ? fetchCurrentEt(slug, { token }) : fetchCurrentEtFromMain(slug),
     ])
 
     if (!enResult.ok) {
