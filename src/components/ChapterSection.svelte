@@ -5,6 +5,7 @@
   import { commitParagraphEdit } from '../lib/editor/commit'
   import { replaceParaText } from '../lib/content/serialize'
   import {
+    editorState,
     startSaving,
     commitSuccess,
     commitConflict,
@@ -169,6 +170,7 @@
   let focusObserver: ReturnType<typeof createFocusObserver> | undefined
 
   $effect(() => {
+    void editorState.editingParaId
     if (status === 'loaded' && sectionEl) {
       tick().then(() => {
         focusObserver?.disconnect()
