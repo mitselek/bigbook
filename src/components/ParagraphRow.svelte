@@ -12,7 +12,7 @@
     paraId,
     enText,
     etText,
-    isTitle: _isTitle,
+    isTitle,
     isDiverged: _isDiverged,
     baselineEtText: _baselineEtText,
     chapterSlug: _chapterSlug,
@@ -20,6 +20,6 @@
 </script>
 
 <div id={paraId}>
-  <div>{enText}</div>
-  <div>{etText}</div>
+  <div>{#if isTitle}<h2>{enText}</h2>{:else}<p>{enText}</p>{/if}</div>
+  <div>{#if isTitle}<h2>{etText}</h2>{:else}<p>{etText}</p>{/if}</div>
 </div>
