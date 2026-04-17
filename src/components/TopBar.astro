@@ -11,36 +11,12 @@ import { CHAPTERS } from '../lib/content/manifest'
   <div class="top-bar-center" id="top-bar-title">
     <TopBarClient client:load chapters={CHAPTERS} />
   </div>
-  <div class="top-bar-right desktop-only">
+  <div class="top-bar-right">
     <slot name="auth" />
-  </div>
-  <div class="top-bar-right mobile-only">
-    <button class="burger-btn" id="burger-menu" aria-label="Menu">&#9776;</button>
   </div>
 </header>
 
-<div class="burger-dropdown" id="burger-dropdown">
-  <div class="burger-auth">
-    <slot name="auth" />
-  </div>
-</div>
-
 <TocOverlay client:load chapters={CHAPTERS} />
-
-<script>
-  const burgerBtn = document.getElementById('burger-menu')
-  const dropdown = document.getElementById('burger-dropdown')
-
-  burgerBtn?.addEventListener('click', () => {
-    dropdown?.classList.toggle('open')
-  })
-
-  document.addEventListener('click', (e) => {
-    if (!burgerBtn?.contains(e.target as Node) && !dropdown?.contains(e.target as Node)) {
-      dropdown?.classList.remove('open')
-    }
-  })
-</script>
 
 <style>
   .top-bar {
@@ -80,45 +56,8 @@ import { CHAPTERS } from '../lib/content/manifest'
     align-items: center;
     gap: 12px;
   }
-  .mobile-only {
-    display: none;
-  }
-  .burger-btn {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    color: #444;
-    padding: 4px;
-  }
-  .burger-dropdown {
-    display: none;
-    position: absolute;
-    top: 40px;
-    right: 8px;
-    background: #fff;
-    border: 1px solid #e0ddd8;
-    border-radius: 4px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    z-index: 11;
-    padding: 8px 0;
-    font-family: system-ui, sans-serif;
-    font-size: 13px;
-  }
-  .burger-dropdown.open {
-    display: block;
-  }
-  .burger-auth {
-    padding: 8px 16px;
-  }
 
   @media (max-width: 899px) {
-    .desktop-only {
-      display: none;
-    }
-    .mobile-only {
-      display: flex;
-    }
     .top-bar-center {
       font-size: 11px;
     }
