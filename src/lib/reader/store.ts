@@ -19,6 +19,9 @@ export const readerState: {
   chapterStates: new Map(),
 }
 
-export function initializeChapterStates(_slugs: string[]): void {
-  throw new Error('not implemented')
+export function initializeChapterStates(slugs: string[]): void {
+  readerState.chapterStates.clear()
+  for (const slug of slugs) {
+    readerState.chapterStates.set(slug, { status: 'skeleton' })
+  }
 }
