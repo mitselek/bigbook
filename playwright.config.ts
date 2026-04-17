@@ -18,12 +18,12 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: [['html', { open: 'never' }], ['list']],
   use: {
-    baseURL: 'http://localhost:4321',
+    baseURL: 'http://localhost:4321/bigbook/',
     trace: 'on-first-retry',
   },
   webServer: {
     command: 'npm run preview',
-    url: 'http://localhost:4321',
+    url: 'http://localhost:4321/bigbook/',
     reuseExistingServer: !process.env.CI,
     timeout: 60_000,
   },

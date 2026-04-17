@@ -1,9 +1,11 @@
 <script lang="ts">
+  import { onMount } from 'svelte'
   import ParagraphRow from './ParagraphRow.svelte'
   import { fetchEn, fetchBaselineEt, fetchCurrentEt } from '../lib/content/fetch'
   import { parse } from '../lib/content/parse'
   import { diffCurrentVsBaseline } from '../lib/content/diff'
   import { readerState } from '../lib/reader/store'
+  import { createPreloadObserver } from '../lib/reader/scroll-anchor'
   import { ESTIMATED_HEIGHT_TITLE, ESTIMATED_HEIGHT_BODY } from '../lib/content/manifest'
 
   interface Props {
@@ -26,15 +28,28 @@
   let status: 'skeleton' | 'loading' | 'loaded' | 'error' = $state('skeleton')
   let errorMessage: string = $state('')
   let paragraphs: ParagraphData[] = $state([])
-  let loadRequested = $state(false)
+  let sectionEl: HTMLElement | undefined = $state(undefined)
 
-  export function requestLoad() {
-    loadRequested = true
-  }
+  onMount(() => {
+    if (!sectionEl) return
+    const observer = createPreloadObserver((observedSlug, isVisible) => {
+      if (observedSlug === slug && isVisible && status === 'skeleton') {
+        load()
+      }
+    })
+    observer.observe(sectionEl, slug)
 
-  $effect(() => {
-    if (loadRequested && status === 'skeleton') {
-      load()
+    const onRefresh = () => {
+      if (status === 'loaded') {
+        status = 'skeleton'
+        load()
+      }
+    }
+    document.addEventListener('bigbook:refresh-chapters', onRefresh)
+
+    return () => {
+      observer.disconnect()
+      document.removeEventListener('bigbook:refresh-chapters', onRefresh)
     }
   })
 
@@ -115,11 +130,12 @@
 
   function retry() {
     status = 'skeleton'
-    loadRequested = true
+    // Re-trigger on next tick
+    setTimeout(() => load(), 0)
   }
 </script>
 
-<section class="chapter-section" id="chapter-{slug}" data-chapter-slug={slug}>
+<section bind:this={sectionEl} class="chapter-section" id="chapter-{slug}" data-chapter-slug={slug}>
   {#if status === 'skeleton' || status === 'loading'}
     {#each paraIds as paraId}
       <div

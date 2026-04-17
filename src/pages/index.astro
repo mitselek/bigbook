@@ -35,7 +35,7 @@ import { CHAPTERS } from '../lib/content/manifest'
 
   <script>
     import { beginAuth, currentUser, isSignedIn, signOut } from '../lib/auth/github-app'
-    import { createPreloadObserver, createTitleObserver } from '../lib/reader/scroll-anchor'
+    import { createTitleObserver } from '../lib/reader/scroll-anchor'
     import { readerState, initializeChapterStates } from '../lib/reader/store'
     import { getLastParaId, setLastParaId } from '../lib/reader/local-state'
     import { CHAPTERS } from '../lib/content/manifest'
@@ -81,32 +81,15 @@ import { CHAPTERS } from '../lib/content/manifest'
     // Initialize reader state
     initializeChapterStates(CHAPTERS.map((c) => c.slug))
 
-    // Preload observer — trigger chapter load when within 1.5 viewports
-    const loadedSlugs = new Set<string>()
-    const preloadObserver = createPreloadObserver((slug, isVisible) => {
-      if (!isVisible || loadedSlugs.has(slug)) return
-      loadedSlugs.add(slug)
-      const section = document.querySelector(`[data-chapter-slug="${slug}"]`)
-      if (!section) return
-      const component = (
-        section as HTMLElement & { __svelte_component?: { requestLoad: () => void } }
-      ).__svelte_component
-      if (component?.requestLoad) component.requestLoad()
-    })
-
     // Title observer — update top bar title as chapters scroll
     const titleObserver = createTitleObserver((slug) => {
       readerState.currentChapter = slug
     })
 
-    // Observe all chapter sections
     requestAnimationFrame(() => {
       document.querySelectorAll('[data-chapter-slug]').forEach((el) => {
         const slug = (el as HTMLElement).dataset.chapterSlug
-        if (slug) {
-          preloadObserver.observe(el as HTMLElement, slug)
-          titleObserver.observe(el as HTMLElement, slug)
-        }
+        if (slug) titleObserver.observe(el as HTMLElement, slug)
       })
     })
 
@@ -180,7 +163,7 @@ import { CHAPTERS } from '../lib/content/manifest'
       }
     })
 
-    // Visibility-change refresh
+    // Visibility-change refresh — dispatches custom event, ChapterSections listen
     let lastHiddenAt = 0
     document.addEventListener('visibilitychange', () => {
       if (document.hidden) {
@@ -188,18 +171,8 @@ import { CHAPTERS } from '../lib/content/manifest'
         return
       }
       const hiddenMs = Date.now() - lastHiddenAt
-      if (hiddenMs < 120_000) return // < 2 minutes
-      // Re-fetch loaded chapters with conditional requests
-      for (const [slug, state] of readerState.chapterStates) {
-        if (state.status !== 'loaded') continue
-        loadedSlugs.delete(slug)
-        const section = document.querySelector(`[data-chapter-slug="${slug}"]`)
-        if (!section) continue
-        const component = (
-          section as HTMLElement & { __svelte_component?: { requestLoad: () => void } }
-        ).__svelte_component
-        if (component?.requestLoad) component.requestLoad()
-      }
+      if (hiddenMs < 120_000) return
+      document.dispatchEvent(new CustomEvent('bigbook:refresh-chapters'))
     })
   </script>
 </BaseLayout>
