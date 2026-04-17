@@ -9,10 +9,11 @@ import { CHAPTERS } from '../lib/content/manifest'
 <BaseLayout title="Big Book — Bilingual Reader">
   <TopBar>
     <div slot="auth" id="auth-widget">
-      <button id="signin-btn" type="button" style="display: none; font-size: 12px;">Sign in</button>
+      <button id="signin-btn" type="button" style="display: none; font-size: 12px;">Sisene</button>
       <div id="signedin-view" style="display: none; align-items: center; gap: 6px;">
-        <img id="avatar" alt="avatar" width="24" height="24" style="border-radius: 50%;" />
-        <button id="signout-btn" type="button" style="font-size: 12px;">Sign out</button>
+        <img id="avatar" alt="" width="24" height="24" style="display: none; border-radius: 50%;" />
+        <span id="login-text" style="display: none; font-size: 12px;"></span>
+        <button id="signout-btn" type="button" style="font-size: 12px;">Lahku</button>
       </div>
     </div>
   </TopBar>
@@ -44,17 +45,32 @@ import { CHAPTERS } from '../lib/content/manifest'
     const signinBtn = document.getElementById('signin-btn') as HTMLButtonElement | null
     const signedinView = document.getElementById('signedin-view') as HTMLDivElement | null
     const avatarImg = document.getElementById('avatar') as HTMLImageElement | null
+    const loginText = document.getElementById('login-text') as HTMLSpanElement | null
     const signoutBtn = document.getElementById('signout-btn') as HTMLButtonElement | null
 
     function showSigninButton(): void {
       if (signinBtn) signinBtn.style.display = 'inline-block'
       if (signedinView) signedinView.style.display = 'none'
+      if (avatarImg) avatarImg.style.display = 'none'
+      if (loginText) loginText.style.display = 'none'
     }
 
-    function showSignedInView(user: { avatar_url: string }): void {
+    function showSignedInView(user: { avatar_url: string; login: string }): void {
       if (signinBtn) signinBtn.style.display = 'none'
       if (signedinView) signedinView.style.display = 'flex'
-      if (avatarImg) avatarImg.src = user.avatar_url
+      if (user.avatar_url) {
+        if (avatarImg) {
+          avatarImg.src = user.avatar_url
+          avatarImg.style.display = 'inline-block'
+        }
+        if (loginText) loginText.style.display = 'none'
+      } else {
+        if (avatarImg) avatarImg.style.display = 'none'
+        if (loginText) {
+          loginText.textContent = user.login
+          loginText.style.display = 'inline'
+        }
+      }
     }
 
     signinBtn?.addEventListener('click', () => {

@@ -7,7 +7,6 @@
   }
   let { chapters }: Props = $props()
 
-  let titleEn = $derived(getTitle('en'))
   let titleEt = $derived(getTitle('et'))
 
   function getTitle(lang: 'en' | 'et'): string {
@@ -24,9 +23,7 @@
 </script>
 
 <button class="title-trigger" onclick={toggleToc} aria-label="Open table of contents">
-  {#if titleEn}
-    <span class="title-en">{titleEn}</span>
-    <span class="title-sep">&middot;</span>
+  {#if titleEt}
     <span class="title-et">{titleEt}</span>
   {/if}
 </button>
@@ -45,13 +42,6 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     max-width: 100%;
-  }
-  .title-sep {
-    margin: 0 6px;
-    color: #ccc;
-  }
-  .title-en {
-    color: #444;
   }
   .title-et {
     color: #888;

@@ -6,7 +6,10 @@ import { CHAPTERS } from '../lib/content/manifest'
 
 <header class="top-bar">
   <div class="top-bar-left">
-    <a href="/bigbook/" class="wordmark">bigbook</a>
+    <a href="/bigbook/" class="wordmark">
+      <span class="wordmark-full">bigbook</span>
+      <span class="wordmark-short">BB</span>
+    </a>
   </div>
   <div class="top-bar-center" id="top-bar-title">
     <TopBarClient client:load chapters={CHAPTERS} />
@@ -40,6 +43,9 @@ import { CHAPTERS } from '../lib/content/manifest'
     color: #222;
     text-decoration: none;
   }
+  .wordmark-short {
+    display: none;
+  }
   .top-bar-center {
     text-align: center;
     font-size: 12px;
@@ -60,6 +66,12 @@ import { CHAPTERS } from '../lib/content/manifest'
   @media (max-width: 899px) {
     .top-bar-center {
       font-size: 11px;
+    }
+    .wordmark-full {
+      display: none;
+    }
+    .wordmark-short {
+      display: inline;
     }
   }
 </style>
