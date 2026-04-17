@@ -7,7 +7,7 @@
     onSelect: (slug: string) => void
     onClose: () => void
   }
-  let { chapters, isOpen, onSelect, onClose: _onClose }: Props = $props()
+  let { chapters, isOpen, onSelect, onClose }: Props = $props()
 
   const FRONT_MATTER = new Set(['cover', 'eessonad', 'arsti-arvamus'])
   const APPENDICES = new Set(['lisad', 'index'])
@@ -45,12 +45,28 @@
 </script>
 
 {#if isOpen}
-  <div>
+  <div role="dialog">
+    <div
+      class="toc-backdrop"
+      role="presentation"
+      onclick={onClose}
+      onkeydown={(e) => {
+        if (e.key === 'Escape') onClose()
+      }}
+    ></div>
     {#each groups as group}
       <div>
         <h3>{group.label}</h3>
         {#each group.items as ch}
-          <button type="button" onclick={() => onSelect(ch.slug)}>
+          <button
+            type="button"
+            role="option"
+            aria-selected="false"
+            onclick={() => {
+              onSelect(ch.slug)
+              onClose()
+            }}
+          >
             <span>{stripHash(ch.title.en)}</span>
             <span>{stripHash(ch.title.et)}</span>
           </button>
