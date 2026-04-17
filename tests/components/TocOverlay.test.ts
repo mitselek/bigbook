@@ -89,4 +89,20 @@ describe('TocOverlay', () => {
 
     expect(onClose).toHaveBeenCalled()
   })
+
+  it('focuses the dialog on open', () => {
+    render(TocOverlay, { props: defaultProps })
+
+    const dialog = screen.getByRole('dialog')
+    expect(document.activeElement).toBe(dialog)
+  })
+
+  it('traps Tab within the overlay', async () => {
+    render(TocOverlay, { props: defaultProps })
+
+    const dialog = screen.getByRole('dialog')
+    await fireEvent.keyDown(dialog, { key: 'Tab' })
+
+    expect(dialog.contains(document.activeElement)).toBe(true)
+  })
 })
