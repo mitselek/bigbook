@@ -541,3 +541,73 @@ Startup sequence for session 9:
 No team shutdown ritual needed this session — no agents were spawned. The `shutdown-agent-tool-team` skill is for sessions that spawned a team; session 8 was Plantin-inline throughout.
 
 (*BB:Plantin*)
+
+## 2026-04-16/17 — Session 9, Plan 2 (v1-reader) spec + plan written
+
+**[DONE]** Product brainstorm for v1-reader completed via `superpowers:brainstorming` skill with visual companion (three browser-based mockups: reader layout, skeleton loading, mobile layout). 11 design decisions locked in across terminal Q&A and visual selection. Spec written, self-reviewed, PO-approved, committed.
+
+**[DONE]** Plan 2 written via `superpowers:writing-plans` skill. 8 phases, 38 tasks, committed at `docs/superpowers/plans/v1-reader/`. README + per-phase files, same structure as v1-foundation.
+
+Session commit chain on `main`:
+
+```
+9f7cac3 chore: track worker lockfile + gitignore local settings
+9e66c27 docs(plans): v1-reader Plan 2 — 8 phases, 38 tasks
+b2cbe07 docs(spec): v1-reader design — Plan 2 scope + brainstorm decisions
+```
+
+All three pushed to `origin/main`.
+
+**[DECISIONS — brainstorm]**
+
+| # | Decision | Choice |
+|---|---|---|
+| 1 | Scope split | Plan 2 = reader (read-only), Plan 3 = editor |
+| 2 | Auth UI | Include sign-in + avatar in Plan 2's top bar (session-2 code reused) |
+| 3 | Typography | System serif stack (`Georgia, 'Times New Roman', serif`), defer webfont |
+| 4 | Reader layout | 45/55 EN/ET + 140px marginalia, warm cream `#faf8f5` — approved as mocked |
+| 5 | Skeleton loading | Blank rows (quiet, book-like), no pulsing animation |
+| 6 | TOC dismiss | Toggle (click outside, Esc, or re-click center title) |
+| 7 | TOC grouping | Grouped: Front matter / Chapters / Appendices |
+| 8 | Mobile (<900px) | Stacked pairs with small "EN"/"ET" labels, burger menu |
+| 9 | Marginalia label | "originaal" (Estonian only, not bilingual) |
+| 10 | Fetch granularity | Per-chapter lazy via IntersectionObserver |
+| 11 | Marginalia expand | In Plan 2 (read-only feature, lazy commit metadata fetch) |
+
+**[DECISIONS — plan structure]**
+
+- **P0** fetch.ts (XP triple, 5 tasks) — `FetchResult<T>` discriminated union, `fetchEn`/`fetchBaselineEt`/`fetchCurrentEt`
+- **P1** reader utils (XP triple, 5 tasks) — `scroll-anchor.ts`, `local-state.ts`, `store.ts`
+- **P2** page skeleton (inline, 5 tasks) — TopBar.astro, Footer.astro, index.astro rewrite with blank skeleton rows
+- **P3** paragraph rendering (XP triple, 6 tasks) — `ParagraphRow.svelte` + `Marginalia.svelte` with component tests
+- **P4** TOC overlay (XP triple, 4 tasks) — `TocOverlay.svelte` with grouped display + keyboard nav + focus trap
+- **P5** runtime wiring (inline, 6 tasks) — `ChapterSection.svelte`, IO preload, TopBarClient reactive title, TOC wiring, IndexedDB, visibility-change refresh, return-visit scroll
+- **P6** mobile responsive (inline, 3 tasks) — <900px breakpoint CSS, stacked pairs, burger menu
+- **P7** E2E + verification (inline, 4 tasks) — Playwright, size-limit update, deploy check
+
+**[DEVIATION from spec]** Spec lists `Chapter.astro` as a static Astro component. Plan uses `ChapterSection.svelte` instead because it needs client-side state (fetch lifecycle: skeleton → loading → loaded → error). The static Astro wrapper was insufficient — a Svelte island is required for reactive state management. The spec's `Chapter.astro` name was aspirational; the plan's `ChapterSection.svelte` reflects the implementation reality. Also added `src/lib/reader/idb.ts` (IndexedDB wrapper) and `TopBarClient.svelte` (reactive title island) which were not in the spec's module list — both are implementation details discovered during plan decomposition.
+
+**[FACTS for next session]**
+
+- **Head of `main`:** `9f7cac3`. Three session-9 commits pushed.
+- **CI:** expect green — no runtime code changed, only docs + .gitignore + worker lockfile.
+- **v1-reader Plan 2** is fully written and committed. Ready for execution starting P0.
+- **v1-reader milestone + epic issue** NOT yet created on GitHub — the README says "TBD (Plantin creates after plan commit)." Session 10 should create the milestone + epic + sub-issues before execution, same pattern as session 3 did for v1-foundation.
+- **Team state:** `~/.claude/teams/bigbook-dev/` still exists from session 7. Per common-prompt team-reuse protocol, session 10 should back up inboxes → delete team → `TeamCreate` → restore inboxes before spawning for P0.
+- **No agents spawned this session.** Session 9 was Plantin-inline throughout (brainstorm + plan writing).
+- **Visual companion server** auto-stopped after inactivity. Mockup HTML files persist at `.superpowers/brainstorm/` (gitignored).
+- **Open deferrals unchanged from session 8** — auth ADR, npm audit, Node 20→24, P4.7 main() exercise, ch05–ch16 ET-verbatim placeholders.
+
+**[NEXT SESSION ENTRY POINT]** **Execute v1-reader Phase 0 (fetch.ts) via XP triple.**
+
+Startup sequence for session 10:
+
+1. Run `bigbook-startup` skill — reads this scratchpad, common-prompt, docs, roster.
+2. Verify state: HEAD is `9f7cac3`, 3 session-9 commits pushed, CI green.
+3. **Create GitHub milestone + epic + sub-issues** for v1-reader (same pattern as session 3 did for v1-foundation: milestone "v1-reader", epic issue with task-list body linking sub-issues #14–#21 one per phase, milestones 2 for v1-reader).
+4. Read `docs/superpowers/plans/v1-reader/p0-fetch.md` end-to-end. 5 TDD tasks.
+5. Team-reuse protocol: back up inboxes → delete team → `TeamCreate(team_name: "bigbook-dev")` → restore inboxes.
+6. Spawn Montano / Granjon / Ortelius with roster prompts. Each reads their own scratchpad (session 7 entries are the latest for all three — sessions 8 and 9 didn't spawn them).
+7. Assign P0.1 to Montano as TEST_SPEC. Drive the cycle per the wait-for-CYCLE_COMPLETE rule.
+
+(*BB:Plantin*)
