@@ -45,10 +45,16 @@ export async function fetchBaselineEt(chapter: string): Promise<FetchResult<stri
 
 export async function fetchCurrentEt(
   chapter: string,
-  _opts?: { etag?: string; token?: string },
+  opts?: { etag?: string; token?: string },
 ): Promise<FetchResult<CurrentEtResult>> {
   const url = `https://api.github.com/repos/mitselek/bigbook/contents/src/content/et/${chapter}.md`
-  const response = await fetch(url)
+  const headers: Record<string, string> = {}
+  if (opts?.etag !== undefined) headers['If-None-Match'] = opts.etag
+  if (opts?.token !== undefined) headers['Authorization'] = `Bearer ${opts.token}`
+  const response = await fetch(url, { headers })
+  if (response.status === 304) {
+    return { ok: true, value: { status: 'unchanged' } }
+  }
   const json = (await response.json()) as { sha: string; content: string; encoding: string }
   const content = atob(json.content)
   const etag = response.headers.get('etag') ?? ''
