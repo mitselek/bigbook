@@ -56,12 +56,13 @@
   .paragraph-focused > .col-en::after {
     content: '';
     position: absolute;
-    top: 0;
+    top: 50%;
     right: -3px;
     width: 5px;
     height: 5px;
     border-radius: 50%;
     background: #c8c0b4;
+    transform: translateY(-50%);
   }
   .col-et {
     width: calc((100% - 140px) * 0.55);
