@@ -12,8 +12,6 @@ import { CHAPTERS } from '../lib/content/manifest'
     <TopBarClient client:load chapters={CHAPTERS} />
   </div>
   <div class="top-bar-right desktop-only">
-    <button class="nav-arrow" id="prev-chapter" aria-label="Previous chapter">&#9664;</button>
-    <button class="nav-arrow" id="next-chapter" aria-label="Next chapter">&#9654;</button>
     <slot name="auth" />
   </div>
   <div class="top-bar-right mobile-only">
@@ -22,9 +20,6 @@ import { CHAPTERS } from '../lib/content/manifest'
 </header>
 
 <div class="burger-dropdown" id="burger-dropdown">
-  <button class="burger-item" id="burger-prev">&#9664; Previous chapter</button>
-  <button class="burger-item" id="burger-next">Next chapter &#9654;</button>
-  <hr />
   <div class="burger-auth">
     <slot name="auth" />
   </div>
@@ -44,15 +39,6 @@ import { CHAPTERS } from '../lib/content/manifest'
     if (!burgerBtn?.contains(e.target as Node) && !dropdown?.contains(e.target as Node)) {
       dropdown?.classList.remove('open')
     }
-  })
-
-  document.getElementById('burger-prev')?.addEventListener('click', () => {
-    document.getElementById('prev-chapter')?.click()
-    dropdown?.classList.remove('open')
-  })
-  document.getElementById('burger-next')?.addEventListener('click', () => {
-    document.getElementById('next-chapter')?.click()
-    dropdown?.classList.remove('open')
   })
 </script>
 
@@ -94,14 +80,6 @@ import { CHAPTERS } from '../lib/content/manifest'
     align-items: center;
     gap: 12px;
   }
-  .nav-arrow {
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: #888;
-    font-size: 14px;
-    padding: 4px;
-  }
   .mobile-only {
     display: none;
   }
@@ -129,24 +107,6 @@ import { CHAPTERS } from '../lib/content/manifest'
   }
   .burger-dropdown.open {
     display: block;
-  }
-  .burger-item {
-    display: block;
-    width: 100%;
-    text-align: left;
-    padding: 8px 16px;
-    border: none;
-    background: none;
-    cursor: pointer;
-    color: #444;
-  }
-  .burger-item:hover {
-    background: #f5f5f5;
-  }
-  .burger-dropdown hr {
-    border: none;
-    border-top: 1px solid #eee;
-    margin: 4px 0;
   }
   .burger-auth {
     padding: 8px 16px;

@@ -110,35 +110,37 @@ import { CHAPTERS } from '../lib/content/manifest'
       }
     }
 
-    // Nav arrows
-    const prevBtn = document.getElementById('prev-chapter')
-    const nextBtn = document.getElementById('next-chapter')
+    // Keyboard navigation: ← / → to move between chapters
     const slugs = CHAPTERS.map((c) => c.slug)
-
-    prevBtn?.addEventListener('click', () => {
-      const idx = slugs.indexOf(readerState.currentChapter)
-      if (idx > 0) {
-        const target = document.getElementById(`chapter-${slugs[idx - 1]}`)
-        target?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-      }
-    })
-
-    nextBtn?.addEventListener('click', () => {
-      const idx = slugs.indexOf(readerState.currentChapter)
-      if (idx >= 0 && idx < slugs.length - 1) {
-        const target = document.getElementById(`chapter-${slugs[idx + 1]}`)
-        target?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-      }
-    })
 
     // Keyboard shortcut: / to open TOC
     document.addEventListener('keydown', (e) => {
+      const target = e.target as HTMLElement
+      const inEditable =
+        target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable
+
       if (e.key === '/' && !e.ctrlKey && !e.metaKey) {
-        const target = e.target as HTMLElement
-        if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA') return
+        if (inEditable) return
         e.preventDefault()
         // TOC toggle is handled via custom event
         document.dispatchEvent(new CustomEvent('bigbook:toggle-toc'))
+      }
+
+      if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+        if (e.ctrlKey || e.metaKey || e.altKey || e.shiftKey) return
+        if (inEditable) return
+        const idx = slugs.indexOf(readerState.currentChapter)
+        if (e.key === 'ArrowLeft' && idx > 0) {
+          e.preventDefault()
+          document
+            .getElementById(`chapter-${slugs[idx - 1]}`)
+            ?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        } else if (e.key === 'ArrowRight' && idx >= 0 && idx < slugs.length - 1) {
+          e.preventDefault()
+          document
+            .getElementById(`chapter-${slugs[idx + 1]}`)
+            ?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        }
       }
     })
 
