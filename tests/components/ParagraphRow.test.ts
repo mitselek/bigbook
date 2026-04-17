@@ -60,4 +60,16 @@ describe('ParagraphRow', () => {
 
     expect(screen.queryByText('originaal')).not.toBeInTheDocument()
   })
+
+  it('pairs EN and ET with aria-labelledby', () => {
+    const { container } = render(ParagraphRow, { props: defaultProps })
+
+    const row = container.querySelector('#ch01-p001')
+    const enId = `${defaultProps.paraId}-en`
+    const etId = `${defaultProps.paraId}-et`
+
+    expect(container.querySelector(`#${enId}`)).not.toBeNull()
+    expect(container.querySelector(`#${etId}`)).not.toBeNull()
+    expect(row?.getAttribute('aria-labelledby')).toBe(`${enId} ${etId}`)
+  })
 })
