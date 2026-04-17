@@ -153,7 +153,7 @@ Ehk on see tüüpiline suhtumine. Meie, kes me kõik koos oleme ärimaailmaga p�
 Mõistagi viitab käesolev peatükk alkohoolikutele, haigetele, aru kaotanud inimestele. Meie sõbrast asepresident pidas silmas tavajoojat, ehk ühe õhtu joojat. Nende suhtes peab tema taktika kahtlemata paika, ent ta ei teinud vahet sellise inimese ja alkohooliku vahel.
 
 ::para[ch10-tooandjatele-p049]
-Ei pea eeldama, et alkohoolikust töötaja peale kulutatakse ülemäära palju aega ja tähelepanu. Tema suhtes ei pea kehtima eelisolukorda. Õige mees, selline, kes teveneb, ei tahagi midagi niisugust. Ta ei muutu pealetükkivaks. Kaugel sellest. Ta hakkab palehigis töötama ja tänab teid oma surmatunnini.
+Ei pea eeldama, et alkohoolikust töötaja peale kulutatakse ülemäära palju aega ja tähelepanu. Tema suhtes ei pea kehtima eelisolukorda. Õige mees, selline, kes terveneb, ei tahagi midagi niisugust. Ta ei muutu pealetükkivaks. Kaugel sellest. Ta hakkab palehigis töötama ja tänab teid oma surmatunnini.
 
 ::para[ch10-tooandjatele-p050]
 Praegu on mul väike firma. Mul on kaks alkohoolikust töötajat, kes teevad ära viie tavalise müügiagendi töö. Ja miks ka mitte? Neil on uus ellusuhtumine ja nad on pääsenud elavast surmast. Olen tundnud rõõmu igast hetkest, mis on kulunud nende jalule aitamiseks.”

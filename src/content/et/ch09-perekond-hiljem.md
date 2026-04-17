@@ -30,7 +30,7 @@ Isa teab, et ta on süüdi; tal võib rahaasjades järje peale saamiseks kuluda 
 Aeg-ajalt kummitavad perekonda mineviku varjud, sest peaaegu iga joodiku elu on täis seiklusi – naljakaid, alandavaid, häbiväärseid või traagilisi. Esimeseks reaktsiooniks on kõik luukered pimedasse kappi luku taha toppida. Perekonda võib olla vallanud mõte, et tuleviku õnn saab rajaneda ainult mineviku unustamisel.
 
 ::para[ch09-perekond-hiljem-p008]
-Henry Ford tegi kunagi targa tähelepaneku, et kogemus on elus ülim väärtus. See on õige ainult siis, kui minevikku püütakse tuleviku huvides hästi ära kasutada. Me kasvame sedamööda, kuidas oleme valmis oma vigadega silmitsi seisma ja neid parandama ning neid enda kasuks pöörama. Seega muutub alkohooliku minevik perekonnale peamiseks ja sageli peaagu ainsaks väärtuseks!
+Henry Ford tegi kunagi targa tähelepaneku, et kogemus on elus ülim väärtus. See on õige ainult siis, kui minevikku püütakse tuleviku huvides hästi ära kasutada. Me kasvame tänu oma valmisolekule vigadele otsa vaadata, neid parandada ja muuta need väärtuslikuks. Seega muutub alkohooliku minevik perekonnale peamiseks ja sageli peaaegu ainsaks väärtuseks!
 
 ::para[ch09-perekond-hiljem-p009]
 Valus minevik võib olla tohutult väärtuslik nende perekondade jaoks, kes ikka veel oma probleemiga maadlevad. Meie arvates võlgneb iga alkoholi küüsist pääsenud perekond midagi ka neile, kellel see veel ei ole õnnestunud, ning kui olukord nõuab, peab iga sellise perekonna liige olema rõõmuga valmis kunagised eksimused, kuitahes kahetsusväärsed need ka ei oleks, peidust välja tooma. Just kannatajatele näitamine, kuidas meie kunagi abi saime on see, tänu millele paistab meie elu praegu nii elamisväärne. Jääge kindlaks mõttele, et Jumala kätes on must minevik teie suurim varandus – elu ja õnne võti teiste inimeste jaoks. Selle abil hoiate neid surmast ja viletsusest eemal.
@@ -141,6 +141,6 @@ Loomulikult meie sõber eksis − eksis rängalt. Tal tuli seda valusalt tunnist
 Meil on siinkohal kolm väikest asjakohast juhtmõtet. Siin need on:
 
 ::para[ch09-perekond-hiljem-p045]
-Esmased asjad kõigepealt.
-Ela ise ja lase teistel elada.
-Tasa ja targu.
+_Esmased asjad kõigepealt._
+_Ela ise ja lase teistel elada._
+_Tasa ja targu._
