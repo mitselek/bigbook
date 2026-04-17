@@ -13,66 +13,78 @@
 | 8 | v1-foundation P5+P6 | Pre-commit hooks (legacy-guard restored, content-guard, hard-invariant). Mock content bootstrap (16 chapters, 731 para pairs). **v1-foundation CLOSED.** |
 | 9 | Plan 2 writing | v1-reader brainstorm (visual companion + 11 decisions) → spec → plan (8 phases, 38 tasks). No agents spawned. |
 | 10 | **v1-reader (full)** | All 8 phases (P0–P7) + 3 post-closure hotfixes. 52 commits, 89 unit/component tests + 4 Playwright E2E. **v1-reader CLOSED.** |
+| 11 | **v1-editor + polish** | Polish: reading position dot, TOC force-load, markdown rendering (marked), rate-limit fix, return-visit scroll. Editor: brainstorm → spec → plan → implementation (7 tasks via subagent-driven). ET content corrections ch05–ch11 from PDF. **116 tests.** |
 
-## Current State (after session 10)
+## Current State (after session 11)
 
-- **Head of `main`:** `7284ced`. CI green. Pushed. Deployed.
+- **Head of `main`:** `9fd7655`. CI green. Pushed. Deployed.
 - **v1-foundation:** CLOSED (milestone 1, epic #3, sub-issues #7–#13).
 - **v1-reader:** CLOSED (milestone 2, epic #4, sub-issues #14–#21).
+- **v1-editor:** FUNCTIONALLY COMPLETE — needs live testing, E2E tests, and PO acceptance.
 - **Live site:** `https://mitselek.github.io/bigbook/`
-- **`src/lib/content/`:** 6 modules — parse.ts, validate.ts, diff.ts, manifest.ts, baseline-config.ts, fetch.ts.
-- **`src/lib/reader/`:** 4 modules — scroll-anchor.ts, local-state.ts, **store.svelte.ts** (renamed from store.ts — uses `$state` rune for reactivity), idb.ts.
-- **`src/components/`:** 7 components — TopBar.astro, TopBarClient.svelte, ChapterSection.svelte, ParagraphRow.svelte, Marginalia.svelte, TocOverlay.svelte, Footer.astro.
-- **`src/content/{en,et}/`:** 16 chapter pairs, 731 paragraphs. EN ch01–ch04 real translations; ch05–ch16 ET-verbatim placeholders.
-- **`tests/`:** 89 unit/component tests (12 test files), 4 Playwright E2E tests.
-- **Coverage:** `src/lib/` — 99.29% stmts, 95.45% branch, 100% funcs.
-- **Team state:** agents shut down at session 10 end.
+- **`src/lib/content/`:** 7 modules — parse.ts, serialize.ts, validate.ts, diff.ts, manifest.ts, baseline-config.ts, fetch.ts.
+- **`src/lib/editor/`:** 2 modules — state.svelte.ts, commit.ts.
+- **`src/lib/reader/`:** 4 modules — scroll-anchor.ts, local-state.ts, store.svelte.ts, idb.ts.
+- **`src/lib/auth/`:** 5 modules — github-app.ts, token-store.ts, pkce.ts, state.ts, config.ts.
+- **`src/components/`:** 8 components — TopBar.astro, TopBarClient.svelte, ChapterSection.svelte, ParagraphRow.svelte, EditableRow.svelte, Marginalia.svelte, TocOverlay.svelte, Footer.astro.
+- **`src/content/{en,et}/`:** 16 chapter pairs, 731 paragraphs. EN ch01–ch04 real English; ch05–ch16 ET-verbatim placeholders. ET ch05–ch11 corrected against authoritative PDF.
+- **`tests/`:** 116 unit/component tests (16 test files), 4 Playwright E2E tests.
+- **Team state:** all subagents shut down.
 
-## Session 10 Post-Closure Hotfixes
+## Session 11 Work Summary
 
-Three bugs found during PO live testing after the v1-reader milestone was closed:
+### Polish (pre-editor)
+- **#22 Reading position dot:** 1/3-viewport observer, 5px dot on EN/ET separator, centered vertically. Focus observer lives in ChapterSection (not index.astro — fixes observer-on-replaced-DOM bug). Return-visit scroll places saved paragraph at 1/3 viewport.
+- **#23 IndexedDB:** Initially wired Contents API + etag caching, but hit rate limit (60 req/hr anon). Simplified: anonymous reads use raw.githubusercontent.com (unlimited). IndexedDB + Contents API reserved for authenticated users (5000 req/hr).
+- **#24 TOC force-load:** `bigbook:force-load` custom event from TocOverlay, ChapterSection listens and starts loading immediately.
+- **Markdown rendering:** Added `marked` library. ParagraphRow renders body paragraphs through `marked.parse()` inside `{@html}` (eslint-suppressed — git-repo content). Supports blockquotes, lists, tables, bold. CSS for `.prose` elements.
+- **Rate limit fix:** Dropped Contents API for all anonymous reads. `fetchCurrentEtFromMain()` for anonymous, `fetchCurrentEt()` with token for authenticated.
+- **Blob SHA lesson:** Contents API `sha` is a blob SHA, not a commit ref. Can't use it in raw.githubusercontent.com URLs.
 
-1. **UTF-8 decode** (`9c75098`): `atob()` decodes base64 to Latin-1, corrupting Estonian characters. Fix: `Uint8Array.from(atob(...), c => c.charCodeAt(0))` + `TextDecoder`. Affects `fetchCurrentEt` only — `fetchEn`/`fetchBaselineEt` use `response.text()` which decodes UTF-8 correctly.
-2. **TOC wiring** (`8b3fc36`): TocOverlay was rendered with static `isOpen={false}` and no-op callbacks. Fix: `readerState.tocOpen` in store drives open/close state; TopBarClient toggles it on click; TocOverlay reads it via `$derived`; also listens for `bigbook:toggle-toc` custom event (/ key).
-3. **Reactive store** (`7284ced`): `store.ts` was a plain object — Svelte 5's `$derived` can't track plain property changes. Fix: rename to `store.svelte.ts` and wrap in `$state()` rune. All imports updated.
+### Editor implementation
+- **Spec:** `docs/superpowers/specs/2026-04-17-v1-editor-design.md`
+- **Plan:** `docs/superpowers/plans/2026-04-17-v1-editor.md` (9 tasks, 7 phases)
+- **Execution:** Subagent-driven development — 7 implementer subagents (sonnet), all tasks completed.
+- **New modules:** serialize.ts (19 lines), editor/state.svelte.ts (~60 lines), editor/commit.ts (~60 lines), EditableRow.svelte (~180 lines)
+- **Modified:** ChapterSection.svelte (auth fetch + EditableRow wiring), store.svelte.ts (isAuthenticated), index.astro (auth state init)
+- **Tests:** 27 new tests across 4 test files
 
-**Lesson learned:** Astro's island architecture isolates component instances. Cross-island communication requires either (a) a shared `.svelte.ts` module with `$state` runes, or (b) custom DOM events. Plain JS objects don't trigger Svelte reactivity. And component methods (like `export function requestLoad()`) are NOT accessible from outside the island — use self-contained observers or events instead.
+### ET content corrections
+- **ch05–ch11** corrected against authoritative Estonian PDF by background subagent
+- ch05/ch06: heavy corrections (~110 total — different translation version)
+- ch07–ch11: moderate to minimal corrections
+- Structural note: ch05 contains content spanning PDF chapters 5+6; ch06 has duplicates from ch05
 
-## Architecture Notes
+## Open Items
 
-- **Self-observing ChapterSection:** Each ChapterSection manages its own IntersectionObserver (via createPreloadObserver) for lazy loading. Visibility-change refresh uses `bigbook:refresh-chapters` custom DOM event.
-- **Cross-island state:** `store.svelte.ts` with `$state()` rune is the only mechanism that works for reactive cross-island communication in Astro + Svelte 5.
-- **prettier-plugin-svelte:** Installed mid-P3. `.svelte` files fully formatted by Prettier.
-- **Coverage config:** `vitest.config.ts` includes both `src/lib/**/*.ts` and `src/lib/**/*.svelte.ts`.
+### Must-do before PO acceptance
+- [ ] **Live testing:** Sign in with GitHub, test the edit flow on the deployed site
+- [ ] **E2E tests:** Playwright tests for the editor flow (Task 8 deferred)
 
-## Open Issues
-
-- [#22](https://github.com/mitselek/bigbook/issues/22) — UX: current-paragraph reading position marker (future enhancement)
-- [#23](https://github.com/mitselek/bigbook/issues/23) — Wire IndexedDB sha/etag persistence into ChapterSection (perf — avoids re-fetching unchanged content)
-- [#24](https://github.com/mitselek/bigbook/issues/24) — TOC onSelect should force-load unloaded chapters (UX — selected chapter may be in skeleton state)
-
-## Open Deferrals (not filed)
-
+### Open deferrals
 - Real auth ADR at `docs/decisions/0001-auth.md` (deferred session 2)
 - `npm audit` moderate advisories (11+ from Astro scaffold + deps)
 - Node 20 → 24 GH Actions migration (June 2026 deadline)
-- ch05–ch16 ET-verbatim placeholders (v3 fixes via PDF extraction)
+- EN ch05–ch16 still ET-verbatim placeholders (PDF extraction subagents failed — need different approach)
+- Comments feature (deferred to v2 per editor spec)
+- ch05/ch06 structural mismatch with PDF chapter boundaries (missing content between p010-p011)
 
-## Reference Files
+## Session 11 Lessons
 
-- `ref-auth-infra.md` — GitHub App name/ID, Worker URL, token lifecycle, constraints
-- `ref-xp-process.md` — XP triple process rules
-- `ref-build-gotchas.md` — ESLint, size-limit, Prettier, Git/Windows, Astro 5 strict TS, Node/CI gotchas
+- **Contents API is wrong for anonymous reads.** 60 req/hr unauthenticated limit. All anonymous reads must go through raw.githubusercontent.com (unlimited).
+- **Blob SHA ≠ commit SHA.** The Contents API `sha` field is a blob SHA, not a commit ref.
+- **Save/restore position must use the same viewport anchor.** 1/3-viewport observer + 1/3-viewport scroll = stable position.
+- **IntersectionObserver on replaced DOM elements.** Observer must live in the component that owns the DOM lifecycle.
+- **PDF extraction via subagents is unreliable.** EN extraction subagents failed to produce output despite multiple attempts. The ET extractor (verification/correction against existing text) worked well. For EN extraction (greenfield text from PDF), a different approach is needed — possibly manual extraction or a dedicated script.
+- **Subagent-driven development works well for lib-layer tasks.** Tasks 1–4 (pure functions, clear specs) completed quickly with sonnet. Integration tasks (5, 7) also worked but needed more careful prompting.
 
 ## Next Session Entry Point
 
-**Session 11: PO decides direction.**
+**Session 12: PO decides direction.**
 
-1. Run `bigbook-startup` skill.
-2. Verify: HEAD `7284ced`, CI green, deployed site working.
-3. Options:
-   - **Quick wins:** Wire #23 (IndexedDB) + #24 (TOC force-load) — small inline fixes, no team needed.
-   - **v1-editor planning:** Brainstorm → spec → plan for milestone 3 (epic #5) — authenticated editing of Estonian paragraphs.
-   - **Polish:** #22 (reading position marker), CSS refinements, real content for ch05–ch16.
+1. Live-test the editor on the deployed site (sign in, edit a paragraph, verify commit)
+2. If working: write E2E tests, file GitHub milestone/issues for v1-editor
+3. If bugs: fix inline
+4. Then: decide next milestone — v2-comments, EN content extraction, or other
 
 (*BB:Plantin*)
