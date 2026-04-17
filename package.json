@@ -23,7 +23,8 @@
     "bootstrap:content": "CONTENT_BOOTSTRAP=1 tsx scripts/bootstrap-mock-content.ts"
   },
   "dependencies": {
-    "astro": "^5.0.0"
+    "astro": "^5.0.0",
+    "marked": "^18.0.1"
   },
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.89.0",

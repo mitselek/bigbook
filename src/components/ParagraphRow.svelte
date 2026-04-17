@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { marked } from 'marked'
   import Marginalia from './Marginalia.svelte'
   import { readerState } from '../lib/reader/store.svelte'
 
@@ -14,6 +15,11 @@
   let { paraId, enText, etText, isTitle, isDiverged, baselineEtText, chapterSlug }: Props = $props()
 
   let isFocused = $derived(readerState.focusedParagraph === paraId)
+
+  function renderMd(text: string): string {
+    const clean = text.replace(/<not-a-list\s*\/?>/g, '')
+    return marked.parse(clean, { async: false }) as string
+  }
 </script>
 
 <div
@@ -25,11 +31,13 @@
 >
   <div class="col-en" id="{paraId}-en">
     <span class="lang-label">EN</span>
-    {#if isTitle}<h2>{enText}</h2>{:else}<p>{enText}</p>{/if}
+    <!-- eslint-disable-next-line svelte/no-at-html-tags -- content from git repo, trusted -->
+    {#if isTitle}<h2>{enText}</h2>{:else}<div class="prose">{@html renderMd(enText)}</div>{/if}
   </div>
   <div class="col-et" id="{paraId}-et">
     <span class="lang-label">ET</span>
-    {#if isTitle}<h2>{etText}</h2>{:else}<p>{etText}</p>{/if}
+    <!-- eslint-disable-next-line svelte/no-at-html-tags -- content from git repo, trusted -->
+    {#if isTitle}<h2>{etText}</h2>{:else}<div class="prose">{@html renderMd(etText)}</div>{/if}
   </div>
   <div class="col-marginalia">
     {#if isDiverged && baselineEtText}
@@ -79,8 +87,46 @@
     margin: 0;
     font-size: 1.2em;
   }
-  p {
+  .prose :global(p) {
     margin: 0;
+  }
+  .prose :global(p + p) {
+    margin-top: 0.5em;
+  }
+  .prose :global(blockquote) {
+    margin: 0.5em 0;
+    padding-left: 1em;
+    border-left: 2px solid #d0cdc8;
+    color: #555;
+    font-style: italic;
+  }
+  .prose :global(ol),
+  .prose :global(ul) {
+    margin: 0.5em 0;
+    padding-left: 1.5em;
+  }
+  .prose :global(li) {
+    margin-bottom: 0.25em;
+  }
+  .prose :global(table) {
+    border-collapse: collapse;
+    margin: 0.5em 0;
+    font-size: 0.9em;
+    width: 100%;
+  }
+  .prose :global(th),
+  .prose :global(td) {
+    border: 1px solid #e0ddd8;
+    padding: 4px 8px;
+    text-align: left;
+    vertical-align: top;
+  }
+  .prose :global(th) {
+    background: #f5f3ef;
+    font-weight: 600;
+  }
+  .prose :global(strong) {
+    font-weight: 600;
   }
 
   @media (max-width: 899px) {
