@@ -8,8 +8,15 @@
     baselineEtText?: string
     chapterSlug: string
   }
-  let { paraId, enText, etText, isTitle: _isTitle, isDiverged: _isDiverged, baselineEtText: _baselineEtText, chapterSlug: _chapterSlug }: Props =
-    $props()
+  let {
+    paraId,
+    enText,
+    etText,
+    isTitle: _isTitle,
+    isDiverged: _isDiverged,
+    baselineEtText: _baselineEtText,
+    chapterSlug: _chapterSlug,
+  }: Props = $props()
 </script>
 
 <div id={paraId}>
