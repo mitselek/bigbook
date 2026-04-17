@@ -1,5 +1,7 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
-import { createPreloadObserver } from '../../../src/lib/reader/scroll-anchor'
+import { createPreloadObserver, createTitleObserver } from '../../../src/lib/reader/scroll-anchor'
+
+let mockObserverInstance: MockIntersectionObserver
 
 class MockIntersectionObserver {
   callback: IntersectionObserverCallback
@@ -31,20 +33,18 @@ class MockIntersectionObserver {
   }
 }
 
+beforeEach(() => {
+  mockObserverInstance = undefined as unknown as MockIntersectionObserver
+  vi.stubGlobal(
+    'IntersectionObserver',
+    vi.fn((cb: IntersectionObserverCallback) => {
+      mockObserverInstance = new MockIntersectionObserver(cb)
+      return mockObserverInstance
+    }),
+  )
+})
+
 describe('createPreloadObserver', () => {
-  let mockObserverInstance: MockIntersectionObserver
-
-  beforeEach(() => {
-    mockObserverInstance = undefined as unknown as MockIntersectionObserver
-    vi.stubGlobal(
-      'IntersectionObserver',
-      vi.fn((cb: IntersectionObserverCallback) => {
-        mockObserverInstance = new MockIntersectionObserver(cb)
-        return mockObserverInstance
-      }),
-    )
-  })
-
   it('calls callback with (slug, true) when element enters preload margin', () => {
     const callback = vi.fn()
     const controller = createPreloadObserver(callback)
@@ -74,5 +74,29 @@ describe('createPreloadObserver', () => {
     controller.disconnect()
 
     expect(mockObserverInstance.elements).toEqual([])
+  })
+})
+
+describe('createTitleObserver', () => {
+  it('calls callback with slug of intersecting title', () => {
+    const callback = vi.fn()
+    const controller = createTitleObserver(callback)
+    const el = document.createElement('h2')
+    controller.observe(el, 'ch03-alkoholismist-l')
+
+    mockObserverInstance.trigger([{ target: el, isIntersecting: true }])
+
+    expect(callback).toHaveBeenCalledWith('ch03-alkoholismist-l')
+  })
+
+  it('does not fire callback when title exits', () => {
+    const callback = vi.fn()
+    const controller = createTitleObserver(callback)
+    const el = document.createElement('h2')
+    controller.observe(el, 'ch03-alkoholismist-l')
+
+    mockObserverInstance.trigger([{ target: el, isIntersecting: false }])
+
+    expect(callback).not.toHaveBeenCalled()
   })
 })
