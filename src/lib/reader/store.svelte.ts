@@ -11,15 +11,11 @@ export type ChapterLoadState =
     }
   | { status: 'error'; message: string }
 
-export const readerState: {
-  currentChapter: string
-  tocOpen: boolean
-  chapterStates: Map<string, ChapterLoadState>
-} = {
+export const readerState = $state({
   currentChapter: '',
   tocOpen: false,
-  chapterStates: new Map(),
-}
+  chapterStates: new Map<string, ChapterLoadState>(),
+})
 
 export function initializeChapterStates(slugs: string[]): void {
   readerState.chapterStates.clear()

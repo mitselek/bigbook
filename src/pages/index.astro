@@ -36,7 +36,7 @@ import { CHAPTERS } from '../lib/content/manifest'
   <script>
     import { beginAuth, currentUser, isSignedIn, signOut } from '../lib/auth/github-app'
     import { createTitleObserver } from '../lib/reader/scroll-anchor'
-    import { readerState, initializeChapterStates } from '../lib/reader/store'
+    import { readerState, initializeChapterStates } from '../lib/reader/store.svelte'
     import { getLastParaId, setLastParaId } from '../lib/reader/local-state'
     import { CHAPTERS } from '../lib/content/manifest'
 

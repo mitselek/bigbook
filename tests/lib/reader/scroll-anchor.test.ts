@@ -103,7 +103,7 @@ describe('createTitleObserver', () => {
 
 describe('store initialization', () => {
   it('is importable and exports readerState shape', async () => {
-    const mod = await import('../../../src/lib/reader/store')
+    const mod = await import('../../../src/lib/reader/store.svelte')
     expect(mod.readerState).toBeDefined()
     expect(typeof mod.readerState.currentChapter).toBe('string')
     expect(mod.readerState.chapterStates).toBeInstanceOf(Map)
@@ -116,7 +116,8 @@ describe('initializeChapterStates', () => {
   })
 
   it('populates chapterStates with skeleton status for each slug', async () => {
-    const { readerState, initializeChapterStates } = await import('../../../src/lib/reader/store')
+    const { readerState, initializeChapterStates } =
+      await import('../../../src/lib/reader/store.svelte')
     initializeChapterStates(['ch01-billi-lugu', 'ch02-lahendus-on-ole'])
 
     expect(readerState.chapterStates.get('ch01-billi-lugu')).toEqual({

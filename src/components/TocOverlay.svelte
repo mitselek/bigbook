@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte'
   import type { ChapterManifest } from '../lib/content/manifest'
-  import { readerState } from '../lib/reader/store'
+  import { readerState } from '../lib/reader/store.svelte'
 
   interface Props {
     chapters: readonly ChapterManifest[]

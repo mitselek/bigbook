@@ -4,7 +4,7 @@
   import { fetchEn, fetchBaselineEt, fetchCurrentEt } from '../lib/content/fetch'
   import { parse } from '../lib/content/parse'
   import { diffCurrentVsBaseline } from '../lib/content/diff'
-  import { readerState } from '../lib/reader/store'
+  import { readerState } from '../lib/reader/store.svelte'
   import { createPreloadObserver } from '../lib/reader/scroll-anchor'
   import { ESTIMATED_HEIGHT_TITLE, ESTIMATED_HEIGHT_BODY } from '../lib/content/manifest'
 
