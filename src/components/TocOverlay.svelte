@@ -46,6 +46,11 @@
   const entries = $derived(groups.flatMap((g) => g.items))
 
   let focusedIndex = $state(-1)
+  let dialogEl = $state<HTMLElement | null>(null)
+
+  $effect(() => {
+    if (isOpen && dialogEl) dialogEl.focus()
+  })
 
   function handleKeydown(e: KeyboardEvent) {
     const len = entries.length
@@ -61,12 +66,23 @@
       }
     } else if (e.key === 'Escape') {
       onClose()
+    } else if (e.key === 'Tab' && dialogEl) {
+      e.preventDefault()
+      const focusable = Array.from(
+        dialogEl.querySelectorAll<HTMLElement>('button,[tabindex]'),
+      ).filter((el) => el !== dialogEl)
+      if (focusable.length === 0) return
+      const current = focusable.indexOf(document.activeElement as HTMLElement)
+      const next = e.shiftKey
+        ? (current - 1 + focusable.length) % focusable.length
+        : (current + 1) % focusable.length
+      focusable[next]?.focus()
     }
   }
 </script>
 
 {#if isOpen}
-  <div role="dialog" tabindex="-1" onkeydown={handleKeydown}>
+  <div role="dialog" tabindex="-1" bind:this={dialogEl} onkeydown={handleKeydown}>
     <div
       class="toc-backdrop"
       role="presentation"
