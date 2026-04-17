@@ -1,13 +1,7 @@
 <script lang="ts">
   import { onMount, tick } from 'svelte'
   import ParagraphRow from './ParagraphRow.svelte'
-  import {
-    fetchEn,
-    fetchBaselineEt,
-    fetchCurrentEt,
-    fetchCurrentEtFromMain,
-  } from '../lib/content/fetch'
-  import { getChapterMeta, setChapterMeta } from '../lib/reader/idb'
+  import { fetchEn, fetchBaselineEt, fetchCurrentEtFromMain } from '../lib/content/fetch'
   import { parse } from '../lib/content/parse'
   import { diffCurrentVsBaseline } from '../lib/content/diff'
   import { readerState } from '../lib/reader/store.svelte'
@@ -73,12 +67,10 @@
     status = 'loading'
     readerState.chapterStates.set(slug, { status: 'loading' })
 
-    const cachedMeta = await getChapterMeta(slug)
-
     const [enResult, baselineResult, currentResult] = await Promise.all([
       fetchEn(slug),
       fetchBaselineEt(slug),
-      fetchCurrentEt(slug, { etag: cachedMeta?.etag }),
+      fetchCurrentEtFromMain(slug),
     ])
 
     if (!enResult.ok) {
@@ -100,38 +92,10 @@
       return
     }
 
-    const currentEtValue = currentResult.value
-    let currentEtContent: string
-    let currentSha: string
-    let currentEtag: string
-
-    if (currentEtValue.status === 'unchanged') {
-      if (!cachedMeta) {
-        status = 'error'
-        errorMessage = 'Unexpected 304 without cached metadata'
-        readerState.chapterStates.set(slug, { status: 'error', message: errorMessage })
-        return
-      }
-      const mainResult = await fetchCurrentEtFromMain(slug)
-      if (!mainResult.ok) {
-        status = 'error'
-        errorMessage = `Current ET fetch failed: ${mainResult.error.message}`
-        readerState.chapterStates.set(slug, { status: 'error', message: errorMessage })
-        return
-      }
-      currentEtContent = mainResult.value
-      currentSha = cachedMeta.sha
-      currentEtag = cachedMeta.etag
-    } else {
-      currentEtContent = currentEtValue.content
-      currentSha = currentEtValue.sha
-      currentEtag = currentEtValue.etag
-    }
-
     try {
       const enParsed = parse(enResult.value)
       const baselineParsed = parse(baselineResult.value)
-      const currentParsed = parse(currentEtContent)
+      const currentParsed = parse(currentResult.value)
       const diverged = diffCurrentVsBaseline(currentParsed, baselineParsed)
 
       paragraphs = paraIds.map((paraId) => {
@@ -155,12 +119,10 @@
         status: 'loaded',
         en: enResult.value,
         baselineEt: baselineResult.value,
-        currentEt: currentEtContent,
-        sha: currentSha,
-        etag: currentEtag,
+        currentEt: currentResult.value,
+        sha: '',
+        etag: '',
       })
-
-      setChapterMeta(slug, { sha: currentSha, etag: currentEtag })
     } catch (err) {
       status = 'error'
       errorMessage = err instanceof Error ? err.message : String(err)
