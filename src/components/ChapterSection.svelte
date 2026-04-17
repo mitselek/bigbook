@@ -5,7 +5,7 @@
     fetchEn,
     fetchBaselineEt,
     fetchCurrentEt,
-    fetchCurrentEtBySha,
+    fetchCurrentEtFromMain,
   } from '../lib/content/fetch'
   import { getChapterMeta, setChapterMeta } from '../lib/reader/idb'
   import { parse } from '../lib/content/parse'
@@ -111,14 +111,14 @@
         readerState.chapterStates.set(slug, { status: 'error', message: errorMessage })
         return
       }
-      const shaResult = await fetchCurrentEtBySha(slug, cachedMeta.sha)
-      if (!shaResult.ok) {
+      const mainResult = await fetchCurrentEtFromMain(slug)
+      if (!mainResult.ok) {
         status = 'error'
-        errorMessage = `SHA-pinned ET fetch failed: ${shaResult.error.message}`
+        errorMessage = `Current ET fetch failed: ${mainResult.error.message}`
         readerState.chapterStates.set(slug, { status: 'error', message: errorMessage })
         return
       }
-      currentEtContent = shaResult.value
+      currentEtContent = mainResult.value
       currentSha = cachedMeta.sha
       currentEtag = cachedMeta.etag
     } else {

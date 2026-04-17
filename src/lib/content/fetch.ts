@@ -49,11 +49,8 @@ export async function fetchBaselineEt(chapter: string): Promise<FetchResult<stri
   return fetchRawGithub('et', chapter)
 }
 
-export async function fetchCurrentEtBySha(
-  chapter: string,
-  sha: string,
-): Promise<FetchResult<string>> {
-  const url = `https://raw.githubusercontent.com/mitselek/bigbook/${sha}/src/content/et/${chapter}.md`
+export async function fetchCurrentEtFromMain(chapter: string): Promise<FetchResult<string>> {
+  const url = `https://raw.githubusercontent.com/mitselek/bigbook/main/src/content/et/${chapter}.md`
   try {
     const response = await fetch(url)
     if (!response.ok) return httpErrorResult(response)
