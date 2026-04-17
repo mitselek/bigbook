@@ -1,5 +1,5 @@
-import { describe, it, expect } from 'vitest'
-import { render, screen } from '@testing-library/svelte'
+import { describe, it, expect, vi } from 'vitest'
+import { render, screen, fireEvent } from '@testing-library/svelte'
 import TocOverlay from '../../src/components/TocOverlay.svelte'
 import { CHAPTERS } from '../../src/lib/content/manifest'
 
@@ -31,5 +31,27 @@ describe('TocOverlay', () => {
     render(TocOverlay, { props: { ...defaultProps, isOpen: false } })
 
     expect(screen.queryByText('Front matter')).not.toBeInTheDocument()
+  })
+
+  it('calls onSelect and onClose when entry is clicked', async () => {
+    const onSelect = vi.fn()
+    const onClose = vi.fn()
+    render(TocOverlay, { props: { ...defaultProps, onSelect, onClose } })
+
+    const entry = screen.getByText(/Bill's Story/).closest('[role="option"]')!
+    await fireEvent.click(entry)
+
+    expect(onSelect).toHaveBeenCalledWith('ch01-billi-lugu')
+    expect(onClose).toHaveBeenCalled()
+  })
+
+  it('calls onClose when backdrop is clicked', async () => {
+    const onClose = vi.fn()
+    render(TocOverlay, { props: { ...defaultProps, onClose } })
+
+    const backdrop = screen.getByRole('dialog').querySelector('.toc-backdrop')!
+    await fireEvent.click(backdrop)
+
+    expect(onClose).toHaveBeenCalled()
   })
 })
