@@ -64,7 +64,8 @@ export async function fetchCurrentEt(
     }
     if (!response.ok) return httpErrorResult(response)
     const json = (await response.json()) as { sha: string; content: string; encoding: string }
-    const content = atob(json.content)
+    const bytes = Uint8Array.from(atob(json.content), (c) => c.charCodeAt(0))
+    const content = new TextDecoder().decode(bytes)
     const etag = response.headers.get('etag') ?? ''
     return { ok: true, value: { status: 'fetched', content, sha: json.sha, etag } }
   } catch (err) {
