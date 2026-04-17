@@ -25,4 +25,20 @@ describe('ParagraphRow', () => {
     const row = container.querySelector('#ch01-p001')
     expect(row).not.toBeNull()
   })
+
+  it('renders as heading when isTitle is true', () => {
+    render(ParagraphRow, {
+      props: { ...defaultProps, paraId: 'ch01-title', isTitle: true },
+    })
+
+    const headings = screen.getAllByRole('heading', { level: 2 })
+    expect(headings.length).toBe(2) // one EN, one ET
+  })
+
+  it('renders as paragraph when isTitle is false', () => {
+    render(ParagraphRow, { props: defaultProps })
+
+    const headings = screen.queryAllByRole('heading')
+    expect(headings.length).toBe(0)
+  })
 })
