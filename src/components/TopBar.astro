@@ -1,6 +1,7 @@
 ---
-// Static top bar. Center title is a placeholder until P5 wires
-// the reactive TopBarClient.svelte island.
+import TopBarClient from './TopBarClient.svelte'
+import TocOverlay from './TocOverlay.svelte'
+import { CHAPTERS } from '../lib/content/manifest'
 ---
 
 <header class="top-bar">
@@ -8,7 +9,7 @@
     <a href="/bigbook/" class="wordmark">bigbook</a>
   </div>
   <div class="top-bar-center" id="top-bar-title">
-    <span class="title-placeholder"></span>
+    <TopBarClient client:load chapters={CHAPTERS} onToggleToc={() => {}} />
   </div>
   <div class="top-bar-right">
     <button class="nav-arrow" id="prev-chapter" aria-label="Previous chapter">&#9664;</button>
@@ -16,6 +17,8 @@
     <slot name="auth" />
   </div>
 </header>
+
+<TocOverlay client:load chapters={CHAPTERS} isOpen={false} onSelect={() => {}} onClose={() => {}} />
 
 <style>
   .top-bar {

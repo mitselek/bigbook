@@ -2,15 +2,14 @@
 import BaseLayout from '../layouts/BaseLayout.astro'
 import TopBar from '../components/TopBar.astro'
 import Footer from '../components/Footer.astro'
-import { CHAPTERS, ESTIMATED_HEIGHT_TITLE, ESTIMATED_HEIGHT_BODY } from '../lib/content/manifest'
+import ChapterSection from '../components/ChapterSection.svelte'
+import { CHAPTERS } from '../lib/content/manifest'
 ---
 
 <BaseLayout title="Big Book — Bilingual Reader">
   <TopBar>
     <div slot="auth" id="auth-widget">
-      <button id="signin-btn" type="button" style="display: none; font-size: 12px;">
-        Sign in
-      </button>
+      <button id="signin-btn" type="button" style="display: none; font-size: 12px;">Sign in</button>
       <div id="signedin-view" style="display: none; align-items: center; gap: 6px;">
         <img id="avatar" alt="avatar" width="24" height="24" style="border-radius: 50%;" />
         <button id="signout-btn" type="button" style="font-size: 12px;">Sign out</button>
@@ -21,23 +20,13 @@ import { CHAPTERS, ESTIMATED_HEIGHT_TITLE, ESTIMATED_HEIGHT_BODY } from '../lib/
   <main class="reader-body">
     {
       CHAPTERS.map((chapter) => (
-        <section
-          class="chapter-section"
-          id={`chapter-${chapter.slug}`}
-          data-chapter-slug={chapter.slug}
-        >
-          {chapter.paraIds.map((paraId) => (
-            <div
-              class={`skeleton-row ${paraId.endsWith('-title') ? 'skeleton-title' : 'skeleton-body'}`}
-              id={paraId}
-              style={`min-height: ${paraId.endsWith('-title') ? ESTIMATED_HEIGHT_TITLE : ESTIMATED_HEIGHT_BODY}px`}
-            >
-              <div class="skeleton-en" />
-              <div class="skeleton-et" />
-              <div class="skeleton-marginalia" />
-            </div>
-          ))}
-        </section>
+        <ChapterSection
+          client:idle
+          slug={chapter.slug}
+          paraIds={chapter.paraIds}
+          titleEn={chapter.title.en}
+          titleEt={chapter.title.et}
+        />
       ))
     }
   </main>
@@ -46,31 +35,26 @@ import { CHAPTERS, ESTIMATED_HEIGHT_TITLE, ESTIMATED_HEIGHT_BODY } from '../lib/
 
   <script>
     import { beginAuth, currentUser, isSignedIn, signOut } from '../lib/auth/github-app'
+    import { createPreloadObserver, createTitleObserver } from '../lib/reader/scroll-anchor'
+    import { readerState, initializeChapterStates } from '../lib/reader/store'
+    import { getLastParaId, setLastParaId } from '../lib/reader/local-state'
+    import { CHAPTERS } from '../lib/content/manifest'
 
+    // Auth
     const signinBtn = document.getElementById('signin-btn') as HTMLButtonElement | null
     const signedinView = document.getElementById('signedin-view') as HTMLDivElement | null
     const avatarImg = document.getElementById('avatar') as HTMLImageElement | null
     const signoutBtn = document.getElementById('signout-btn') as HTMLButtonElement | null
 
     function showSigninButton(): void {
-      if (signinBtn) {
-        signinBtn.style.display = 'inline-block'
-      }
-      if (signedinView) {
-        signedinView.style.display = 'none'
-      }
+      if (signinBtn) signinBtn.style.display = 'inline-block'
+      if (signedinView) signedinView.style.display = 'none'
     }
 
     function showSignedInView(user: { avatar_url: string }): void {
-      if (signinBtn) {
-        signinBtn.style.display = 'none'
-      }
-      if (signedinView) {
-        signedinView.style.display = 'flex'
-      }
-      if (avatarImg) {
-        avatarImg.src = user.avatar_url
-      }
+      if (signinBtn) signinBtn.style.display = 'none'
+      if (signedinView) signedinView.style.display = 'flex'
+      if (avatarImg) avatarImg.src = user.avatar_url
     }
 
     signinBtn?.addEventListener('click', () => {
@@ -82,20 +66,141 @@ import { CHAPTERS, ESTIMATED_HEIGHT_TITLE, ESTIMATED_HEIGHT_BODY } from '../lib/
       showSigninButton()
     })
 
-    async function init(): Promise<void> {
+    async function initAuth(): Promise<void> {
       if (!isSignedIn()) {
         showSigninButton()
         return
       }
       const user = await currentUser()
-      if (user) {
-        showSignedInView(user)
-      } else {
-        showSigninButton()
+      if (user) showSignedInView(user)
+      else showSigninButton()
+    }
+
+    initAuth().catch(() => {})
+
+    // Initialize reader state
+    initializeChapterStates(CHAPTERS.map((c) => c.slug))
+
+    // Preload observer — trigger chapter load when within 1.5 viewports
+    const loadedSlugs = new Set<string>()
+    const preloadObserver = createPreloadObserver((slug, isVisible) => {
+      if (!isVisible || loadedSlugs.has(slug)) return
+      loadedSlugs.add(slug)
+      const section = document.querySelector(`[data-chapter-slug="${slug}"]`)
+      if (!section) return
+      const component = (
+        section as HTMLElement & { __svelte_component?: { requestLoad: () => void } }
+      ).__svelte_component
+      if (component?.requestLoad) component.requestLoad()
+    })
+
+    // Title observer — update top bar title as chapters scroll
+    const titleObserver = createTitleObserver((slug) => {
+      readerState.currentChapter = slug
+    })
+
+    // Observe all chapter sections
+    requestAnimationFrame(() => {
+      document.querySelectorAll('[data-chapter-slug]').forEach((el) => {
+        const slug = (el as HTMLElement).dataset.chapterSlug
+        if (slug) {
+          preloadObserver.observe(el as HTMLElement, slug)
+          titleObserver.observe(el as HTMLElement, slug)
+        }
+      })
+    })
+
+    // Return-visit scroll
+    const lastParaId = getLastParaId()
+    if (lastParaId) {
+      const target = document.getElementById(lastParaId)
+      if (target) {
+        requestAnimationFrame(() => {
+          target.scrollIntoView({ behavior: 'instant', block: 'start' })
+        })
       }
     }
 
-    init().catch(() => {})
+    // Track scroll position
+    let lastScrollUpdate = 0
+    const scrollObserver = new IntersectionObserver(
+      (entries) => {
+        const now = Date.now()
+        if (now - lastScrollUpdate < 500) return
+        for (const entry of entries) {
+          if (entry.isIntersecting && entry.target.id) {
+            setLastParaId(entry.target.id)
+            lastScrollUpdate = now
+            break
+          }
+        }
+      },
+      { rootMargin: '0px 0px -90% 0px' },
+    )
+
+    requestAnimationFrame(() => {
+      document
+        .querySelectorAll(
+          '[id^="ch"], [id^="index"], [id^="cover"], [id^="lisad"], [id^="arsti"], [id^="eessonad"]',
+        )
+        .forEach((el) => {
+          if (el.id && !el.id.startsWith('chapter-')) scrollObserver.observe(el)
+        })
+    })
+
+    // Nav arrows
+    const prevBtn = document.getElementById('prev-chapter')
+    const nextBtn = document.getElementById('next-chapter')
+    const slugs = CHAPTERS.map((c) => c.slug)
+
+    prevBtn?.addEventListener('click', () => {
+      const idx = slugs.indexOf(readerState.currentChapter)
+      if (idx > 0) {
+        const target = document.getElementById(`chapter-${slugs[idx - 1]}`)
+        target?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      }
+    })
+
+    nextBtn?.addEventListener('click', () => {
+      const idx = slugs.indexOf(readerState.currentChapter)
+      if (idx >= 0 && idx < slugs.length - 1) {
+        const target = document.getElementById(`chapter-${slugs[idx + 1]}`)
+        target?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      }
+    })
+
+    // Keyboard shortcut: / to open TOC
+    document.addEventListener('keydown', (e) => {
+      if (e.key === '/' && !e.ctrlKey && !e.metaKey) {
+        const target = e.target as HTMLElement
+        if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA') return
+        e.preventDefault()
+        // TOC toggle is handled via custom event
+        document.dispatchEvent(new CustomEvent('bigbook:toggle-toc'))
+      }
+    })
+
+    // Visibility-change refresh
+    let lastHiddenAt = 0
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) {
+        lastHiddenAt = Date.now()
+        return
+      }
+      const hiddenMs = Date.now() - lastHiddenAt
+      if (hiddenMs < 120_000) return // < 2 minutes
+      // Re-fetch loaded chapters with conditional requests
+      for (const [slug, state] of readerState.chapterStates) {
+        if (state.status !== 'loaded') continue
+        loadedSlugs.delete(slug)
+        const section = document.querySelector(`[data-chapter-slug="${slug}"]`)
+        if (!section) continue
+        const component = (
+          section as HTMLElement & { __svelte_component?: { requestLoad: () => void } }
+        ).__svelte_component
+        if (component?.requestLoad) component.requestLoad()
+      }
+    })
   </script>
 </BaseLayout>
 
@@ -104,26 +209,5 @@ import { CHAPTERS, ESTIMATED_HEIGHT_TITLE, ESTIMATED_HEIGHT_BODY } from '../lib/
     background: #faf8f5;
     font-family: Georgia, 'Times New Roman', serif;
     padding: 0;
-  }
-  .skeleton-row {
-    display: flex;
-    border-bottom: 1px solid #eae7e2;
-    padding: 12px 20px;
-  }
-  .skeleton-title {
-    padding: 16px 20px;
-  }
-  .skeleton-en {
-    width: calc((100% - 140px) * 0.45);
-    padding-right: 16px;
-    border-right: 1px solid #e0ddd8;
-  }
-  .skeleton-et {
-    width: calc((100% - 140px) * 0.55);
-    padding-left: 16px;
-  }
-  .skeleton-marginalia {
-    width: 140px;
-    padding-left: 12px;
   }
 </style>
