@@ -28,6 +28,7 @@
 </script>
 
 <div
+  class="marginalia"
   role="button"
   tabindex="0"
   onclick={toggle}
@@ -35,10 +36,51 @@
     if (e.key === 'Enter' || e.key === ' ') toggle()
   }}
 >
-  <span>originaal</span>
-  <span>{baselineText}</span>
+  <span class="label">originaal</span>
+  <span class="baseline-text">{baselineText}</span>
   {#if expanded && commitMeta}
-    <span>{commitMeta.name}</span>
-    <span>{commitMeta.date}</span>
+    <span class="meta">{commitMeta.name}</span>
+    <span class="meta">{commitMeta.date}</span>
   {/if}
 </div>
+
+<style>
+  .marginalia {
+    font-size: 11px;
+    color: #888;
+    cursor: pointer;
+  }
+  .label {
+    display: block;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #b08050;
+    margin-bottom: 4px;
+  }
+  .baseline-text {
+    display: block;
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  .meta {
+    display: block;
+    font-size: 10px;
+    color: #aaa;
+    margin-top: 4px;
+  }
+
+  @media (max-width: 899px) {
+    .marginalia {
+      background: #faf5ee;
+      border-left: 3px solid #d4a574;
+      margin: 0 12px 8px;
+      padding: 8px 12px;
+      border-radius: 2px;
+    }
+  }
+</style>

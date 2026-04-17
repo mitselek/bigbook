@@ -13,14 +13,88 @@
   let { paraId, enText, etText, isTitle, isDiverged, baselineEtText, chapterSlug }: Props = $props()
 </script>
 
-<div id={paraId} aria-labelledby="{paraId}-en {paraId}-et">
-  <div id="{paraId}-en">
+<div
+  class="paragraph-row"
+  class:paragraph-title={isTitle}
+  id={paraId}
+  aria-labelledby="{paraId}-en {paraId}-et"
+>
+  <div class="col-en" id="{paraId}-en">
+    <span class="lang-label">EN</span>
     {#if isTitle}<h2>{enText}</h2>{:else}<p>{enText}</p>{/if}
   </div>
-  <div id="{paraId}-et">
+  <div class="col-et" id="{paraId}-et">
+    <span class="lang-label">ET</span>
     {#if isTitle}<h2>{etText}</h2>{:else}<p>{etText}</p>{/if}
   </div>
-  {#if isDiverged && baselineEtText}
-    <Marginalia baselineText={baselineEtText} {chapterSlug} />
-  {/if}
+  <div class="col-marginalia">
+    {#if isDiverged && baselineEtText}
+      <Marginalia baselineText={baselineEtText} {chapterSlug} />
+    {/if}
+  </div>
 </div>
+
+<style>
+  .paragraph-row {
+    display: flex;
+    border-bottom: 1px solid #eae7e2;
+    padding: 12px 20px;
+  }
+  .paragraph-title {
+    padding: 16px 20px;
+  }
+  .col-en {
+    width: calc((100% - 140px) * 0.45);
+    padding-right: 16px;
+    border-right: 1px solid #e0ddd8;
+  }
+  .col-et {
+    width: calc((100% - 140px) * 0.55);
+    padding-left: 16px;
+  }
+  .col-marginalia {
+    width: 140px;
+    padding-left: 12px;
+  }
+  .lang-label {
+    display: none;
+  }
+  h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  p {
+    margin: 0;
+  }
+
+  @media (max-width: 899px) {
+    .paragraph-row {
+      flex-direction: column;
+      padding: 8px 12px;
+    }
+    .col-en,
+    .col-et {
+      width: 100%;
+      padding: 0;
+      border-right: none;
+    }
+    .col-et {
+      margin-top: 8px;
+      padding-left: 0;
+    }
+    .col-marginalia {
+      width: 100%;
+      padding-left: 0;
+      margin-top: 8px;
+    }
+    .lang-label {
+      display: block;
+      font-size: 9px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #aaa;
+      font-family: system-ui, sans-serif;
+      margin-bottom: 4px;
+    }
+  }
+</style>
