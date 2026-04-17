@@ -21,6 +21,8 @@
   )
   let isLocked = $derived(isOtherEditing && editorState.isDirty)
 
+  let editRowEl: HTMLDivElement | undefined = $state()
+
   function handleEdit() {
     if (editorState.editingParaId !== '' && !editorState.isDirty) {
       cancelEdit()
@@ -41,16 +43,53 @@
     onSave?.(paraId, editorState.currentText)
   }
 
-  function handleKeydown(e: KeyboardEvent) {
-    if (e.key === 'Escape' && !editorState.isDirty) {
+  $effect(() => {
+    if (!isEditing) return
+
+    function handleDocKeydown(e: KeyboardEvent) {
+      // Stale listener guard: another paragraph may have taken over editing
+      if (editorState.editingParaId !== paraId) return
+      if (e.key === 'Escape' && !editorState.isDirty) {
+        cancelEdit()
+      }
+    }
+
+    document.addEventListener('keydown', handleDocKeydown)
+
+    // Track whether the click listener has been armed so we can safely
+    // remove it even if the effect tears down before the microtask fires.
+    let clickListenerArmed = false
+    let removeClickListener: (() => void) | undefined
+
+    function handleDocClick(e: MouseEvent) {
+      // Stale listener guard: another paragraph may have taken over editing
+      if (editorState.editingParaId !== paraId) return
+      if (editorState.isDirty) return
+      if (editRowEl !== undefined && editRowEl.contains(e.target as Node)) return
       cancelEdit()
     }
-  }
+
+    clickListenerArmed = true
+    queueMicrotask(() => {
+      if (!clickListenerArmed) return // effect already cleaned up
+      document.addEventListener('click', handleDocClick)
+      removeClickListener = () => document.removeEventListener('click', handleDocClick)
+    })
+
+    return () => {
+      document.removeEventListener('keydown', handleDocKeydown)
+      // Disarm before the microtask fires (if still pending)
+      clickListenerArmed = false
+      if (removeClickListener !== undefined) {
+        removeClickListener()
+      }
+    }
+  })
 </script>
 
 <div class="editable-wrapper" class:editable-locked={isLocked}>
   {#if isEditing}
-    <div class="edit-row">
+    <div class="edit-row" bind:this={editRowEl}>
       <div class="col-en-ref">
         <span class="lang-label-ref">EN</span>
         {#if isTitle}<h2>{enText}</h2>{:else}<p>{enText}</p>{/if}
@@ -68,7 +107,6 @@
         <textarea
           value={editorState.currentText}
           oninput={handleInput}
-          onkeydown={handleKeydown}
           readonly={editorState.conflict}
           class:conflict-textarea={editorState.conflict}
           disabled={editorState.isSaving}

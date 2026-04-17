@@ -3,6 +3,11 @@ import { render, screen, fireEvent } from '@testing-library/svelte'
 import EditableRow from '../../src/components/EditableRow.svelte'
 import { resetEditor } from '../../src/lib/editor/state.svelte'
 
+// Helper: flush microtask queue (for queueMicrotask inside $effect)
+function flushMicrotasks(): Promise<void> {
+  return new Promise((resolve) => queueMicrotask(resolve))
+}
+
 const defaultProps = {
   paraId: 'ch01-p001',
   enText: 'We admitted we were powerless.',
@@ -100,5 +105,94 @@ describe('EditableRow', () => {
     await fireEvent.click(screen.getByText('Salvesta'))
 
     expect(onSave).toHaveBeenCalledWith('ch01-p001', 'Uus tekst.')
+  })
+
+  // --- New tests: document-level Escape and outside-click ---
+
+  it('Escape on document closes a clean editor', async () => {
+    render(EditableRow, { props: defaultProps })
+    await fireEvent.click(screen.getByTitle('Muuda seda lõiku'))
+    await flushMicrotasks()
+
+    await fireEvent.keyDown(document.body, { key: 'Escape' })
+
+    expect(screen.queryByRole('textbox')).not.toBeInTheDocument()
+  })
+
+  it('Escape on document is a no-op when editor is dirty', async () => {
+    render(EditableRow, { props: defaultProps })
+    await fireEvent.click(screen.getByTitle('Muuda seda lõiku'))
+    await flushMicrotasks()
+
+    const textarea = screen.getByRole('textbox')
+    await fireEvent.input(textarea, { target: { value: 'Muudetud tekst.' } })
+    await fireEvent.keyDown(document.body, { key: 'Escape' })
+
+    expect(screen.getByRole('textbox')).toBeInTheDocument()
+  })
+
+  it('click outside the edit-row closes a clean editor', async () => {
+    render(EditableRow, { props: defaultProps })
+    await fireEvent.click(screen.getByTitle('Muuda seda lõiku'))
+    await flushMicrotasks()
+
+    await fireEvent.click(document.body)
+
+    expect(screen.queryByRole('textbox')).not.toBeInTheDocument()
+  })
+
+  it('click outside is a no-op when editor is dirty', async () => {
+    render(EditableRow, { props: defaultProps })
+    await fireEvent.click(screen.getByTitle('Muuda seda lõiku'))
+    await flushMicrotasks()
+
+    const textarea = screen.getByRole('textbox')
+    await fireEvent.input(textarea, { target: { value: 'Muudetud tekst.' } })
+    await fireEvent.click(document.body)
+
+    expect(screen.getByRole('textbox')).toBeInTheDocument()
+  })
+
+  it('click inside the edit-row does NOT close the editor', async () => {
+    render(EditableRow, { props: defaultProps })
+    await fireEvent.click(screen.getByTitle('Muuda seda lõiku'))
+    await flushMicrotasks()
+
+    const textarea = screen.getByRole('textbox')
+    await fireEvent.click(textarea)
+
+    expect(screen.getByRole('textbox')).toBeInTheDocument()
+  })
+
+  it('switching pencil from paragraph A to B does not close B editor (race guard)', async () => {
+    const propsA = { ...defaultProps, paraId: 'ch01-p001' }
+    const propsB = { ...defaultProps, paraId: 'ch01-p002', etText: 'Teine lõik.' }
+
+    const container = document.createElement('div')
+    document.body.appendChild(container)
+
+    render(EditableRow, { props: propsA, target: container })
+    render(EditableRow, { props: propsB, target: container })
+
+    // Click pencil on A
+    const pencils = screen.getAllByTitle('Muuda seda lõiku')
+    const pencilA = pencils[0]
+    if (pencilA === undefined) throw new Error('No pencil for A')
+    await fireEvent.click(pencilA)
+    await flushMicrotasks()
+
+    // Click pencil on B (should cancel A then start B)
+    const pencilsAfterA = screen.getAllByTitle('Muuda seda lõiku')
+    const pencilB = pencilsAfterA[0]
+    if (pencilB === undefined) throw new Error('No pencil for B')
+    await fireEvent.click(pencilB)
+    await flushMicrotasks()
+
+    // B's editor should be open (textarea present with B's text)
+    const textarea = screen.getByRole('textbox')
+    expect(textarea).toBeInTheDocument()
+    expect((textarea as HTMLTextAreaElement).value).toBe('Teine lõik.')
+
+    container.remove()
   })
 })
