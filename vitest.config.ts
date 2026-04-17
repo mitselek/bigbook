@@ -18,7 +18,7 @@ export default defineConfig({
     setupFiles: ['tests/setup.ts'],
     coverage: {
       provider: 'v8',
-      include: ['src/lib/content/**/*.ts'],
+      include: ['src/lib/**/*.ts'],
       exclude: ['src/lib/content/manifest.ts', 'src/lib/content/baseline-config.ts'],
       thresholds: {
         lines: 90,
