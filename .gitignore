@@ -28,3 +28,6 @@ playwright/.cache/
 
 # Vitest coverage report
 coverage/
+
+# Claude Code local settings (machine-specific)
+.claude/settings.local.json
