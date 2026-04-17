@@ -12,26 +12,32 @@ export type FetchError = {
 
 export type FetchResult<T> = { ok: true; value: T } | { ok: false; error: FetchError }
 
+function httpErrorResult(response: Response): { ok: false; error: FetchError } {
+  if (response.status === 404) {
+    return {
+      ok: false,
+      error: { kind: 'not_found', message: response.statusText, statusCode: 404 },
+    }
+  }
+  return {
+    ok: false,
+    error: { kind: 'unexpected', message: response.statusText, statusCode: response.status },
+  }
+}
+
+function networkErrorResult(err: unknown): { ok: false; error: FetchError } {
+  const message = err instanceof Error ? err.message : String(err)
+  return { ok: false, error: { kind: 'network', message } }
+}
+
 async function fetchRawGithub(lang: 'en' | 'et', chapter: string): Promise<FetchResult<string>> {
   const url = `https://raw.githubusercontent.com/mitselek/bigbook/${BASELINE_COMMIT_SHA}/src/content/${lang}/${chapter}.md`
   try {
     const response = await fetch(url)
-    if (!response.ok) {
-      if (response.status === 404) {
-        return {
-          ok: false,
-          error: { kind: 'not_found', message: response.statusText, statusCode: 404 },
-        }
-      }
-      return {
-        ok: false,
-        error: { kind: 'unexpected', message: response.statusText, statusCode: response.status },
-      }
-    }
+    if (!response.ok) return httpErrorResult(response)
     return { ok: true, value: await response.text() }
   } catch (err) {
-    const message = err instanceof Error ? err.message : String(err)
-    return { ok: false, error: { kind: 'network', message } }
+    return networkErrorResult(err)
   }
 }
 
@@ -56,24 +62,12 @@ export async function fetchCurrentEt(
     if (response.status === 304) {
       return { ok: true, value: { status: 'unchanged' } }
     }
-    if (!response.ok) {
-      if (response.status === 404) {
-        return {
-          ok: false,
-          error: { kind: 'not_found', message: response.statusText, statusCode: 404 },
-        }
-      }
-      return {
-        ok: false,
-        error: { kind: 'unexpected', message: response.statusText, statusCode: response.status },
-      }
-    }
+    if (!response.ok) return httpErrorResult(response)
     const json = (await response.json()) as { sha: string; content: string; encoding: string }
     const content = atob(json.content)
     const etag = response.headers.get('etag') ?? ''
     return { ok: true, value: { status: 'fetched', content, sha: json.sha, etag } }
   } catch (err) {
-    const message = err instanceof Error ? err.message : String(err)
-    return { ok: false, error: { kind: 'network', message } }
+    return networkErrorResult(err)
   }
 }
