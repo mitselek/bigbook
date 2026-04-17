@@ -18,3 +18,7 @@ export const readerState: {
   currentChapter: '',
   chapterStates: new Map(),
 }
+
+export function initializeChapterStates(_slugs: string[]): void {
+  throw new Error('not implemented')
+}

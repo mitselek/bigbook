@@ -109,3 +109,22 @@ describe('store initialization', () => {
     expect(mod.readerState.chapterStates).toBeInstanceOf(Map)
   })
 })
+
+describe('initializeChapterStates', () => {
+  beforeEach(() => {
+    vi.resetModules()
+  })
+
+  it('populates chapterStates with skeleton status for each slug', async () => {
+    const { readerState, initializeChapterStates } = await import('../../../src/lib/reader/store')
+    initializeChapterStates(['ch01-billi-lugu', 'ch02-lahendus-on-ole'])
+
+    expect(readerState.chapterStates.get('ch01-billi-lugu')).toEqual({
+      status: 'skeleton',
+    })
+    expect(readerState.chapterStates.get('ch02-lahendus-on-ole')).toEqual({
+      status: 'skeleton',
+    })
+    expect(readerState.chapterStates.size).toBe(2)
+  })
+})
