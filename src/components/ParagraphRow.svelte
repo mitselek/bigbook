@@ -13,11 +13,11 @@
   let { paraId, enText, etText, isTitle, isDiverged, baselineEtText, chapterSlug }: Props = $props()
 </script>
 
-<div id={paraId}>
-  <div>
+<div id={paraId} aria-labelledby="{paraId}-en {paraId}-et">
+  <div id="{paraId}-en">
     {#if isTitle}<h2>{enText}</h2>{:else}<p>{enText}</p>{/if}
   </div>
-  <div>
+  <div id="{paraId}-et">
     {#if isTitle}<h2>{etText}</h2>{:else}<p>{etText}</p>{/if}
   </div>
   {#if isDiverged && baselineEtText}
