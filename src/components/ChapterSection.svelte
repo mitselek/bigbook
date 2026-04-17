@@ -1,6 +1,15 @@
 <script lang="ts">
   import { onMount, tick } from 'svelte'
   import ParagraphRow from './ParagraphRow.svelte'
+  import EditableRow from './EditableRow.svelte'
+  import { commitParagraphEdit } from '../lib/editor/commit'
+  import { replaceParaText } from '../lib/content/serialize'
+  import {
+    startSaving,
+    commitSuccess,
+    commitConflict,
+    commitError,
+  } from '../lib/editor/state.svelte'
   import {
     fetchEn,
     fetchBaselineEt,
@@ -185,6 +194,50 @@
     // Re-trigger on next tick
     setTimeout(() => load(), 0)
   }
+
+  async function handleSave(paraId: string, newText: string): Promise<void> {
+    const state = readerState.chapterStates.get(slug)
+    if (state?.status !== 'loaded') return
+
+    const token = getAccessToken()
+    if (!token) {
+      commitError('Palun logi uuesti sisse')
+      return
+    }
+
+    startSaving()
+
+    const result = await commitParagraphEdit({
+      slug,
+      paraId,
+      newText,
+      currentContent: state.currentEt,
+      sha: state.sha,
+      token,
+    })
+
+    if (result.ok) {
+      const newContent = replaceParaText(state.currentEt, paraId, newText)
+      readerState.chapterStates.set(slug, {
+        ...state,
+        currentEt: newContent,
+        sha: result.newSha,
+      })
+      const idx = paragraphs.findIndex((p) => p.paraId === paraId)
+      if (idx >= 0) {
+        paragraphs[idx] = { ...paragraphs[idx], etText: newText }
+      }
+      commitSuccess()
+    } else if (result.kind === 'conflict') {
+      commitConflict()
+    } else if (result.kind === 'auth_expired') {
+      commitError('Palun logi uuesti sisse')
+    } else if (result.kind === 'network') {
+      commitError('Võrguühendus puudub. Sinu muudatused on alles.')
+    } else {
+      commitError(`Viga: ${result.message}`)
+    }
+  }
 </script>
 
 <section bind:this={sectionEl} class="chapter-section" id="chapter-{slug}" data-chapter-slug={slug}>
@@ -212,15 +265,28 @@
     </div>
   {:else}
     {#each paragraphs as p}
-      <ParagraphRow
-        paraId={p.paraId}
-        enText={p.enText}
-        etText={p.etText}
-        isTitle={p.isTitle}
-        isDiverged={p.isDiverged}
-        baselineEtText={p.baselineEtText}
-        chapterSlug={slug}
-      />
+      {#if readerState.isAuthenticated}
+        <EditableRow
+          paraId={p.paraId}
+          enText={p.enText}
+          etText={p.etText}
+          isTitle={p.isTitle}
+          isDiverged={p.isDiverged}
+          baselineEtText={p.baselineEtText}
+          chapterSlug={slug}
+          onSave={handleSave}
+        />
+      {:else}
+        <ParagraphRow
+          paraId={p.paraId}
+          enText={p.enText}
+          etText={p.etText}
+          isTitle={p.isTitle}
+          isDiverged={p.isDiverged}
+          baselineEtText={p.baselineEtText}
+          chapterSlug={slug}
+        />
+      {/if}
     {/each}
   {/if}
 </section>
