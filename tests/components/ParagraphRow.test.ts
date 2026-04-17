@@ -72,4 +72,73 @@ describe('ParagraphRow', () => {
     expect(container.querySelector(`#${etId}`)).not.toBeNull()
     expect(row?.getAttribute('aria-labelledby')).toBe(`${enId} ${etId}`)
   })
+
+  describe('renderMd sentinel <not-a-list/>', () => {
+    it('renders year-start ET sentence as <p>, not <ol>', () => {
+      const { container } = render(ParagraphRow, {
+        props: {
+          ...defaultProps,
+          etText: '<not-a-list/>1929. aastal nakatusin golfipalavikku.',
+        },
+      })
+
+      const etCol = container.querySelector('#ch01-p001-et')
+      expect(etCol).not.toBeNull()
+      // Must contain a paragraph element
+      expect(etCol?.querySelector('p')).not.toBeNull()
+      // Must NOT contain an ordered list
+      expect(etCol?.querySelector('ol')).toBeNull()
+    })
+
+    it('renders year-start EN sentence as <p>, not <ol>', () => {
+      const { container } = render(ParagraphRow, {
+        props: {
+          ...defaultProps,
+          enText: '<not-a-list/>1929. I caught golf fever.',
+        },
+      })
+
+      const enCol = container.querySelector('#ch01-p001-en')
+      expect(enCol).not.toBeNull()
+      expect(enCol?.querySelector('p')).not.toBeNull()
+      expect(enCol?.querySelector('ol')).toBeNull()
+    })
+
+    it('does not leak the sentinel literal into the DOM', () => {
+      const { container } = render(ParagraphRow, {
+        props: {
+          ...defaultProps,
+          etText: '<not-a-list/>1929. aastal nakatusin golfipalavikku.',
+          enText: '<not-a-list/>1929. I caught golf fever.',
+        },
+      })
+
+      expect(container.innerHTML).not.toContain('<not-a-list')
+    })
+
+    it('renders plain sentences without sentinel unchanged', () => {
+      render(ParagraphRow, {
+        props: {
+          ...defaultProps,
+          enText: 'War fever ran high.',
+          etText: 'Sõjapalavik hõõgus.',
+        },
+      })
+
+      expect(screen.getByText('War fever ran high.')).toBeInTheDocument()
+      expect(screen.getByText('Sõjapalavik hõõgus.')).toBeInTheDocument()
+    })
+
+    it('strips orphan sentinel (no following digits) without leaking it', () => {
+      const { container } = render(ParagraphRow, {
+        props: {
+          ...defaultProps,
+          enText: '<not-a-list/>Some text without a year.',
+        },
+      })
+
+      expect(container.innerHTML).not.toContain('<not-a-list')
+      expect(container.innerHTML).not.toContain('not-a-list')
+    })
+  })
 })

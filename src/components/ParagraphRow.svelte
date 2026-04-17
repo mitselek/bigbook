@@ -17,7 +17,9 @@
   let isFocused = $derived(readerState.focusedParagraph === paraId)
 
   function renderMd(text: string): string {
-    const clean = text.replace(/<not-a-list\s*\/?>/g, '')
+    const clean = text
+      .replace(/<not-a-list\s*\/?>(\d+)\./g, '$1\\.')
+      .replace(/<not-a-list\s*\/?>/g, '')
     return marked.parse(clean, { async: false }) as string
   }
 </script>
