@@ -8,10 +8,28 @@ export type ScrollAnchorController = {
 export type CurrentChapterCallback = (slug: string) => void
 
 export function createPreloadObserver(
-  _callback: ChapterVisibilityCallback,
-  _rootMargin?: string,
+  callback: ChapterVisibilityCallback,
+  rootMargin?: string,
 ): ScrollAnchorController {
-  throw new Error('not implemented')
+  const slugMap = new Map<Element, string>()
+  const observer = new IntersectionObserver(
+    (entries) => {
+      for (const entry of entries) {
+        const slug = slugMap.get(entry.target)
+        if (slug !== undefined) callback(slug, entry.isIntersecting)
+      }
+    },
+    { rootMargin: rootMargin ?? '150% 0px' },
+  )
+  return {
+    observe(el: HTMLElement, slug: string) {
+      slugMap.set(el, slug)
+      observer.observe(el)
+    },
+    disconnect() {
+      observer.disconnect()
+    },
+  }
 }
 
 export function createTitleObserver(_callback: CurrentChapterCallback): ScrollAnchorController {
