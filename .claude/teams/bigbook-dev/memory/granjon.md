@@ -39,4 +39,14 @@
 
 [GOTCHA] **Montano's RED commits may be on HEAD already — always `git log` before reading the file.** In P4.5 and P4.6, the stub was in a commit that had already landed when the handoff arrived. Checking the file directly after getting the handoff can show a stale read if the file was modified between when I last read it and when Montano's commit arrived. Always confirm with `git log` and `git show <sha>` to find the exact stub location.
 
+## 2026-04-17 — Session 10, v1-reader Phase 0 fetch module (P0.1–P0.5)
+
+[RECORD] **Clean GREEN record for session 10.** Five ACs across P0.1–P0.5: zero PURPLE rejections, zero three-strike escalations. HEAD `e42b890` (Ortelius refactor). 56/56 tests green, all phase-exit gates pass.
+
+[LEARNED] **304 is `ok: false` per the Fetch API spec.** Only 200–299 responses have `ok: true`. Must check `response.status === 304` explicitly — not `!response.ok` — to detect not-modified. The 304 guard must come before `response.json()` to avoid calling json() on a body-less response.
+
+[LEARNED] **Plain `Record<string, string>` headers, not `Headers` instance, for Vitest `objectContaining` assertions.** Tests like `expect(init.headers).toEqual(expect.objectContaining({ 'If-None-Match': '...' }))` work against plain objects but fail against `Headers` instances. Build headers as `Record<string, string>` and pass as `fetch(url, { headers })`.
+
+[LEARNED] **Duplicated error-shape logic across functions is a reliable PURPLE refactor target.** When `fetchCurrentEt` and `fetchRawGithub` ended up with identical 3-branch error-shape logic, Ortelius extracted `httpErrorResult` + `networkErrorResult` helpers post-P0.5. Pattern: when two functions share identical error mapping, flag it explicitly in the GREEN_HANDOFF as a duplication candidate rather than pre-extracting (which is Ortelius's domain).
+
 (*BB:Granjon*)

@@ -54,3 +54,29 @@ This avoids the type error because `toMatchObject` accepts `unknown`. Alternativ
 [UNADDRESSED] None.
 
 (*BB:Montano*)
+
+## 2026-04-17 — Session 10, v1-reader Plan 2 (P3 + P4)
+
+[COMPLETED] All RED tasks for P3 (Paragraph rendering, issue #17) and P4 (TOC overlay, issue #18) committed this session.
+
+P3 commits:
+- P3.3 RED: `e0f8fca` — marginalia rendering (Marginalia.svelte stub created)
+- P3.4 RED: `a91ad30` — accessibility pairing (aria-labelledby, id attrs)
+- P3.5 RED: `c18c491` — Marginalia label and baseline text (regression, new test file)
+- P3.6 RED: `83e4aff` — expand/collapse + lazy metadata (fetch mock pattern)
+
+P4 commits:
+- P4.1 RED: `eb39e74` — TocOverlay grouped rendering (TocOverlay.svelte stub created)
+- P4.2 RED: `a6e4f78` — click select and dismiss
+- P4.3 RED: `ac444f9` — keyboard navigation (ArrowDown/Enter/Escape)
+- P4.4 RED: `182fa34` — focus trap and auto-focus (final P4 task)
+
+[LEARNED] Svelte 5 component tests with @testing-library/svelte require `resolve: { conditions: ['browser'] }` in vitest.config.ts (routes to client build, not SSR). Already applied from P3.1 — do not remove.
+
+[LEARNED] `vi.stubGlobal` / `vi.restoreAllMocks()` in beforeEach/afterEach is the correct cleanup pattern for fetch mocks across expand/collapse tests in the same describe block. Used in P3.6.
+
+[LEARNED] `role="option"` on entries and `role="dialog"` on the overlay container are the expected ARIA patterns for TocOverlay. Tests query by these roles; GREEN must implement them. `data-focused="true"` on the focused entry is the mechanism for keyboard nav state in tests.
+
+[CONTEXT] All P3 and P4 GREEN/PURPLE handoffs were sent to Granjon. Pipeline state at shutdown: P4.4 cycle in progress (182fa34 RED sent to Granjon). Plantin to run phase-exit gate after P4.4 CYCLE_COMPLETE.
+
+(*BB:Montano*)
