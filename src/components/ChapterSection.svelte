@@ -19,6 +19,7 @@
     type CurrentEtResult,
   } from '../lib/content/fetch'
   import { getAccessToken } from '../lib/auth/token-store'
+  import { signOut } from '../lib/auth/github-app'
   import { parse } from '../lib/content/parse'
   import { diffCurrentVsBaseline } from '../lib/content/diff'
   import { readerState } from '../lib/reader/store.svelte'
@@ -231,6 +232,8 @@
     } else if (result.kind === 'conflict') {
       commitConflict()
     } else if (result.kind === 'auth_expired') {
+      signOut()
+      readerState.isAuthenticated = false
       commitError('Palun logi uuesti sisse')
     } else if (result.kind === 'network') {
       commitError('Võrguühendus puudub. Sinu muudatused on alles.')

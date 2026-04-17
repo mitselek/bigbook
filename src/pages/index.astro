@@ -80,6 +80,7 @@ import { CHAPTERS } from '../lib/content/manifest'
     signoutBtn?.addEventListener('click', () => {
       signOut()
       showSigninButton()
+      readerState.isAuthenticated = false
     })
 
     async function initAuth(): Promise<void> {
