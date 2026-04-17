@@ -1,10 +1,17 @@
 const LAST_PARA_KEY = 'bigbook.lastParaId'
 
 export function getLastParaId(): string | null {
-  void LAST_PARA_KEY
-  throw new Error('not implemented')
+  try {
+    return localStorage.getItem(LAST_PARA_KEY)
+  } catch {
+    return null
+  }
 }
 
-export function setLastParaId(_paraId: string): void {
-  throw new Error('not implemented')
+export function setLastParaId(paraId: string): void {
+  try {
+    localStorage.setItem(LAST_PARA_KEY, paraId)
+  } catch {
+    // silently ignore storage errors (private mode, quota exceeded)
+  }
 }
