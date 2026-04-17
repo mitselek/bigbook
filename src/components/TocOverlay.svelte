@@ -7,10 +7,51 @@
     onSelect: (slug: string) => void
     onClose: () => void
   }
-  let {
-    chapters: _chapters,
-    isOpen: _isOpen,
-    onSelect: _onSelect,
-    onClose: _onClose,
-  }: Props = $props()
+  let { chapters, isOpen, onSelect, onClose: _onClose }: Props = $props()
+
+  const FRONT_MATTER = new Set(['cover', 'eessonad', 'arsti-arvamus'])
+  const APPENDICES = new Set(['lisad', 'index'])
+
+  function groupLabel(slug: string): 'Front matter' | 'Chapters' | 'Appendices' {
+    if (FRONT_MATTER.has(slug)) return 'Front matter'
+    if (APPENDICES.has(slug)) return 'Appendices'
+    return 'Chapters'
+  }
+
+  function stripHash(title: string): string {
+    return title.replace(/^#\s*/, '')
+  }
+
+  type Group = { label: 'Front matter' | 'Chapters' | 'Appendices'; items: ChapterManifest[] }
+
+  const groups = $derived.by(() => {
+    const map = new Map<string, Group>()
+    for (const ch of chapters) {
+      const label = groupLabel(ch.slug)
+      if (!map.has(label)) map.set(label, { label, items: [] })
+      map.get(label)!.items.push(ch)
+    }
+    const order: Array<'Front matter' | 'Chapters' | 'Appendices'> = [
+      'Front matter',
+      'Chapters',
+      'Appendices',
+    ]
+    return order.map((l) => map.get(l)).filter((g): g is Group => g !== undefined)
+  })
 </script>
+
+{#if isOpen}
+  <div>
+    {#each groups as group}
+      <div>
+        <h3>{group.label}</h3>
+        {#each group.items as ch}
+          <button type="button" onclick={() => onSelect(ch.slug)}>
+            <span>{stripHash(ch.title.en)}</span>
+            <span>{stripHash(ch.title.et)}</span>
+          </button>
+        {/each}
+      </div>
+    {/each}
+  </div>
+{/if}
