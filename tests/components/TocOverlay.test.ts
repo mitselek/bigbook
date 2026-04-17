@@ -54,4 +54,39 @@ describe('TocOverlay', () => {
 
     expect(onClose).toHaveBeenCalled()
   })
+
+  it('navigates entries with arrow keys', async () => {
+    render(TocOverlay, { props: defaultProps })
+
+    const dialog = screen.getByRole('dialog')
+
+    await fireEvent.keyDown(dialog, { key: 'ArrowDown' })
+    const entries = screen.getAllByRole('option')
+    expect(entries[0]).toHaveAttribute('data-focused', 'true')
+
+    await fireEvent.keyDown(dialog, { key: 'ArrowDown' })
+    expect(entries[0]).not.toHaveAttribute('data-focused', 'true')
+    expect(entries[1]).toHaveAttribute('data-focused', 'true')
+  })
+
+  it('selects focused entry on Enter', async () => {
+    const onSelect = vi.fn()
+    render(TocOverlay, { props: { ...defaultProps, onSelect } })
+
+    const dialog = screen.getByRole('dialog')
+    await fireEvent.keyDown(dialog, { key: 'ArrowDown' })
+    await fireEvent.keyDown(dialog, { key: 'Enter' })
+
+    expect(onSelect).toHaveBeenCalled()
+  })
+
+  it('closes on Escape', async () => {
+    const onClose = vi.fn()
+    render(TocOverlay, { props: { ...defaultProps, onClose } })
+
+    const dialog = screen.getByRole('dialog')
+    await fireEvent.keyDown(dialog, { key: 'Escape' })
+
+    expect(onClose).toHaveBeenCalled()
+  })
 })
