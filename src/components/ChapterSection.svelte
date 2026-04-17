@@ -1,7 +1,14 @@
 <script lang="ts">
   import { onMount, tick } from 'svelte'
   import ParagraphRow from './ParagraphRow.svelte'
-  import { fetchEn, fetchBaselineEt, fetchCurrentEtFromMain } from '../lib/content/fetch'
+  import {
+    fetchEn,
+    fetchBaselineEt,
+    fetchCurrentEtFromMain,
+    fetchCurrentEt,
+    type CurrentEtResult,
+  } from '../lib/content/fetch'
+  import { getAccessToken } from '../lib/auth/token-store'
   import { parse } from '../lib/content/parse'
   import { diffCurrentVsBaseline } from '../lib/content/diff'
   import { readerState } from '../lib/reader/store.svelte'
@@ -67,10 +74,13 @@
     status = 'loading'
     readerState.chapterStates.set(slug, { status: 'loading' })
 
+    const token = readerState.isAuthenticated ? (getAccessToken() ?? undefined) : undefined
     const [enResult, baselineResult, currentResult] = await Promise.all([
       fetchEn(slug),
       fetchBaselineEt(slug),
-      fetchCurrentEtFromMain(slug),
+      token !== undefined
+        ? fetchCurrentEt(slug, { token })
+        : fetchCurrentEtFromMain(slug),
     ])
 
     if (!enResult.ok) {
@@ -93,9 +103,28 @@
     }
 
     try {
+      let currentEtContent: string
+      let currentSha = ''
+      let currentEtag = ''
+
+      if (token !== undefined && currentResult.ok) {
+        const val = currentResult.value as CurrentEtResult
+        if (val.status === 'fetched') {
+          currentEtContent = val.content
+          currentSha = val.sha
+          currentEtag = val.etag
+        } else {
+          currentEtContent = ''
+        }
+      } else if (currentResult.ok) {
+        currentEtContent = currentResult.value as string
+      } else {
+        return
+      }
+
       const enParsed = parse(enResult.value)
       const baselineParsed = parse(baselineResult.value)
-      const currentParsed = parse(currentResult.value)
+      const currentParsed = parse(currentEtContent)
       const diverged = diffCurrentVsBaseline(currentParsed, baselineParsed)
 
       paragraphs = paraIds.map((paraId) => {
@@ -119,9 +148,9 @@
         status: 'loaded',
         en: enResult.value,
         baselineEt: baselineResult.value,
-        currentEt: currentResult.value,
-        sha: '',
-        etag: '',
+        currentEt: currentEtContent,
+        sha: currentSha,
+        etag: currentEtag,
       })
     } catch (err) {
       status = 'error'

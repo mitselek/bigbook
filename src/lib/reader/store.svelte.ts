@@ -15,6 +15,7 @@ export const readerState = $state({
   currentChapter: '',
   focusedParagraph: '',
   tocOpen: false,
+  isAuthenticated: false,
   chapterStates: new Map<string, ChapterLoadState>(),
 })
 

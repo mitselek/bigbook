@@ -76,7 +76,11 @@ import { CHAPTERS } from '../lib/content/manifest'
       else showSigninButton()
     }
 
-    initAuth().catch(() => {})
+    initAuth()
+      .then(() => {
+        readerState.isAuthenticated = isSignedIn()
+      })
+      .catch(() => {})
 
     // Initialize reader state
     initializeChapterStates(CHAPTERS.map((c) => c.slug))
