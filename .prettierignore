@@ -13,6 +13,3 @@ package-lock.json
 
 # Tmux harness layout — hand-tuned; formatting would risk breaking the harness.
 .tmux-layout.yaml
-
-# Svelte components — prettier-plugin-svelte not yet installed; excluded until P3 phase-exit.
-**/*.svelte

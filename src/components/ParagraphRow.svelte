@@ -20,6 +20,10 @@
 </script>
 
 <div id={paraId}>
-  <div>{#if isTitle}<h2>{enText}</h2>{:else}<p>{enText}</p>{/if}</div>
-  <div>{#if isTitle}<h2>{etText}</h2>{:else}<p>{etText}</p>{/if}</div>
+  <div>
+    {#if isTitle}<h2>{enText}</h2>{:else}<p>{enText}</p>{/if}
+  </div>
+  <div>
+    {#if isTitle}<h2>{etText}</h2>{:else}<p>{etText}</p>{/if}
+  </div>
 </div>
