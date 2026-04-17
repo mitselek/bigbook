@@ -42,10 +42,31 @@
     ]
     return order.map((l) => map.get(l)).filter((g): g is Group => g !== undefined)
   })
+
+  const entries = $derived(groups.flatMap((g) => g.items))
+
+  let focusedIndex = $state(-1)
+
+  function handleKeydown(e: KeyboardEvent) {
+    const len = entries.length
+    if (e.key === 'ArrowDown') {
+      focusedIndex = (focusedIndex + 1) % len
+    } else if (e.key === 'ArrowUp') {
+      focusedIndex = (focusedIndex - 1 + len) % len
+    } else if (e.key === 'Enter' && focusedIndex >= 0) {
+      const entry = entries[focusedIndex]
+      if (entry) {
+        onSelect(entry.slug)
+        onClose()
+      }
+    } else if (e.key === 'Escape') {
+      onClose()
+    }
+  }
 </script>
 
 {#if isOpen}
-  <div role="dialog">
+  <div role="dialog" tabindex="-1" onkeydown={handleKeydown}>
     <div
       class="toc-backdrop"
       role="presentation"
@@ -62,6 +83,7 @@
             type="button"
             role="option"
             aria-selected="false"
+            data-focused={entries.indexOf(ch) === focusedIndex ? 'true' : undefined}
             onclick={() => {
               onSelect(ch.slug)
               onClose()
