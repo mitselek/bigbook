@@ -100,3 +100,12 @@ describe('createTitleObserver', () => {
     expect(callback).not.toHaveBeenCalled()
   })
 })
+
+describe('store initialization', () => {
+  it('is importable and exports readerState shape', async () => {
+    const mod = await import('../../../src/lib/reader/store')
+    expect(mod.readerState).toBeDefined()
+    expect(typeof mod.readerState.currentChapter).toBe('string')
+    expect(mod.readerState.chapterStates).toBeInstanceOf(Map)
+  })
+})
