@@ -31,9 +31,9 @@ Canonical log lives in the conventions doc's "Evolution log" section. Summary of
 - [x] Wave 2 (2 sections): `ch08-to-wives`, `story-gratitude-in-action`
 - [x] Wave 3 (3 sections): `story-dr-bobs-nightmare`, `ch02-there-is-a-solution`, `appendix-i-the-aa-tradition`
 - [x] Wave 4 (5 sections): `ch11-a-vision-for-you`, `story-aa-number-three`, `preface`, `foreword-2nd-edition`, `doctors-opinion`
-- [ ] Wave 5 (8 sections)
+- [x] Wave 5 (8 sections): `ch03-more-about-alcoholism`, `ch04-we-agnostics`, `ch06-into-action`, `story-women-suffer-too`, `story-our-southern-friend`, `story-the-vicious-cycle`, `foreword-1st-edition`, `appendix-iii-the-medical-view-on-aa`
 - [ ] Wave 6 (13 sections)
 - [ ] Wave 7 (18 sections)
 - [ ] Wave 8 (18 sections)
 
-**Completed: 12 of 68 sections.**
+**Completed: 20 of 68 sections.**
