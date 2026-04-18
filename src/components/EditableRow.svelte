@@ -52,6 +52,12 @@
       if (e.key === 'Escape' && !editorState.isDirty) {
         cancelEdit()
       }
+      if (e.key === 'Enter' && (e.ctrlKey || e.metaKey) && !e.shiftKey && !e.altKey) {
+        if (!editorState.isDirty) return
+        if (editorState.isSaving) return
+        e.preventDefault()
+        onSave?.(paraId, editorState.currentText)
+      }
     }
 
     document.addEventListener('keydown', handleDocKeydown)

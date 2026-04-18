@@ -164,6 +164,72 @@ describe('EditableRow', () => {
     expect(screen.getByRole('textbox')).toBeInTheDocument()
   })
 
+  // --- New tests: Ctrl/Cmd+Enter commit shortcut ---
+
+  it('Ctrl+Enter when dirty calls onSave with (paraId, currentText)', async () => {
+    const onSave = vi.fn()
+    render(EditableRow, { props: { ...defaultProps, onSave } })
+    await fireEvent.click(screen.getByTitle('Muuda seda lõiku'))
+    await flushMicrotasks()
+
+    const textarea = screen.getByRole('textbox')
+    await fireEvent.input(textarea, { target: { value: 'Muudetud Ctrl+Enter.' } })
+    await fireEvent.keyDown(document.body, { key: 'Enter', ctrlKey: true })
+
+    expect(onSave).toHaveBeenCalledWith('ch01-p001', 'Muudetud Ctrl+Enter.')
+  })
+
+  it('Cmd+Enter (metaKey) when dirty calls onSave — macOS path', async () => {
+    const onSave = vi.fn()
+    render(EditableRow, { props: { ...defaultProps, onSave } })
+    await fireEvent.click(screen.getByTitle('Muuda seda lõiku'))
+    await flushMicrotasks()
+
+    const textarea = screen.getByRole('textbox')
+    await fireEvent.input(textarea, { target: { value: 'Muudetud Cmd+Enter.' } })
+    await fireEvent.keyDown(document.body, { key: 'Enter', metaKey: true })
+
+    expect(onSave).toHaveBeenCalledWith('ch01-p001', 'Muudetud Cmd+Enter.')
+  })
+
+  it('Ctrl+Enter on clean editor is a no-op (onSave not called)', async () => {
+    const onSave = vi.fn()
+    render(EditableRow, { props: { ...defaultProps, onSave } })
+    await fireEvent.click(screen.getByTitle('Muuda seda lõiku'))
+    await flushMicrotasks()
+
+    // Do NOT modify text — editor is clean (not dirty)
+    await fireEvent.keyDown(document.body, { key: 'Enter', ctrlKey: true })
+
+    expect(onSave).not.toHaveBeenCalled()
+  })
+
+  it('Shift+Ctrl+Enter is a no-op (modifier exclusion)', async () => {
+    const onSave = vi.fn()
+    render(EditableRow, { props: { ...defaultProps, onSave } })
+    await fireEvent.click(screen.getByTitle('Muuda seda lõiku'))
+    await flushMicrotasks()
+
+    const textarea = screen.getByRole('textbox')
+    await fireEvent.input(textarea, { target: { value: 'Muudetud tekst.' } })
+    await fireEvent.keyDown(document.body, { key: 'Enter', ctrlKey: true, shiftKey: true })
+
+    expect(onSave).not.toHaveBeenCalled()
+  })
+
+  it('plain Enter is a no-op (does not commit)', async () => {
+    const onSave = vi.fn()
+    render(EditableRow, { props: { ...defaultProps, onSave } })
+    await fireEvent.click(screen.getByTitle('Muuda seda lõiku'))
+    await flushMicrotasks()
+
+    const textarea = screen.getByRole('textbox')
+    await fireEvent.input(textarea, { target: { value: 'Muudetud tekst.' } })
+    await fireEvent.keyDown(document.body, { key: 'Enter' })
+
+    expect(onSave).not.toHaveBeenCalled()
+  })
+
   it('switching pencil from paragraph A to B does not close B editor (race guard)', async () => {
     const propsA = { ...defaultProps, paraId: 'ch01-p001' }
     const propsB = { ...defaultProps, paraId: 'ch01-p002', etText: 'Teine lõik.' }
