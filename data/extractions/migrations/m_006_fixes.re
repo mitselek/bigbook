@@ -87,7 +87,8 @@ s/^(MY CHANCE TO LIVE)$/[[heading]]\n\1/g
 s/^(IT MIGHT HAVE BEEN WORSE)$/[[heading]]\n\1/g
 # Story number markers
 s/^(\(\d+\))$/[[heading]]\n\1/g
-# Join consecutive headings into one
+# Join consecutive headings into one (remove extra [[heading]] tags first)
+s/\[\[heading\]\]\n\[\[heading\]\]/[[heading]]/g
 s/\[\[heading\]\]\n(.+)\n\[\[heading\]\]\n(.+)/[[heading]]\n\1 \2/g
 
 # === FOOTNOTES (broad pattern) ===
