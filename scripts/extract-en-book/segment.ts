@@ -29,12 +29,19 @@ export function segmentBlocks(text: string, ctx: SegmentContext): Block[] {
 
     if (!headingEmitted && lines.length >= 2 && normalizeForMatch(firstLine) === normalizedTitle) {
       // S2: heading + inline subtitle/body — split into heading + paragraph tail.
-      const headingId = `${ctx.sectionId}-p${String(ordinal).padStart(3, '0')}`
-      blocks.push({ id: headingId, kind: 'heading', text: firstLine, pdfPage: ctx.pdfPageStart })
+      blocks.push({
+        id: blockId(ctx.sectionId, ordinal),
+        kind: 'heading',
+        text: firstLine,
+        pdfPage: ctx.pdfPageStart,
+      })
       ordinal += 1
-      const tailText = lines.slice(1).join(' ')
-      const tailId = `${ctx.sectionId}-p${String(ordinal).padStart(3, '0')}`
-      blocks.push({ id: tailId, kind: 'paragraph', text: tailText, pdfPage: ctx.pdfPageStart })
+      blocks.push({
+        id: blockId(ctx.sectionId, ordinal),
+        kind: 'paragraph',
+        text: lines.slice(1).join(' '),
+        pdfPage: ctx.pdfPageStart,
+      })
       ordinal += 1
       headingEmitted = true
       continue
@@ -52,11 +59,19 @@ export function segmentBlocks(text: string, ctx: SegmentContext): Block[] {
       blockText = kind === 'verse' ? lines.join('\n') : collapsed
     }
 
-    const id = `${ctx.sectionId}-p${String(ordinal).padStart(3, '0')}`
-    blocks.push({ id, kind, text: blockText, pdfPage: ctx.pdfPageStart })
+    blocks.push({
+      id: blockId(ctx.sectionId, ordinal),
+      kind,
+      text: blockText,
+      pdfPage: ctx.pdfPageStart,
+    })
     ordinal += 1
   }
   return blocks
+}
+
+function blockId(sectionId: string, ordinal: number): string {
+  return `${sectionId}-p${String(ordinal).padStart(3, '0')}`
 }
 
 function mergeRomanHeading(groups: string[], normalizedTitle: string): string[] {
