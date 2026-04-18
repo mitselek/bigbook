@@ -118,15 +118,15 @@ Seed: 42 · Sections: 68
 
 - **`ch02-there-is-a-solution-p005`** (kind: paragraph, pdfPage 38)
 
-  > The tremendous fact for every one of us is that we have discovered a common solution. We have a way out on which we can absolutely agree, and upon which we can join in brotherly and harmonious action. This is the great news this book carries to those who suffer from alcoholism. Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 18
+  > The tremendous fact for every one of us is that we have discovered a common solution. We have a way out on which we can absolutely agree, and upon which we can join in brotherly and harmonious action. This is the great news this book carries to those who suffer from alcoholism.
 
-- **`ch02-there-is-a-solution-p015`** (kind: paragraph, pdfPage 38)
+- **`ch02-there-is-a-solution-p013`** (kind: paragraph, pdfPage 38)
 
-  > We have concluded to publish an anonymous volume setting forth the problem as we see it. We shall bring to the task our combined experience and knowledge. This should suggest a useful program for anyone concerned with a drinking problem.
+  > If we keep on the way we are going there is little doubt that much good will result, but the surface of the problem would hardly be scratched. Those of us who live in large cities are overcome by the reflection that close by hundreds are dropping into oblivion every day. Many could recover if they had the opportunity we have enjoyed. How then shall we present that which has been so freely given us?
 
-- **`ch02-there-is-a-solution-p062`** (kind: paragraph, pdfPage 38)
+- **`ch02-there-is-a-solution-p054`** (kind: paragraph, pdfPage 38)
 
-  > Some of our alcoholic readers may think they can do without spiritual help. Let us tell you the rest of the conversation our friend had with his doctor.
+  > The doctor said: “You have the mind of a chronic alcoholic. I have never seen one single case recover, where that state of mind existed to the extent that it does in you.’’ Our friend felt as though the gates of hell had closed on him with a clang.
 
 ## ch03-more-about-alcoholism — More About Alcoholism (p. 51)
 
@@ -162,123 +162,123 @@ Seed: 42 · Sections: 68
 
   > HOW IT WORKS
 
-- **`ch05-how-it-works-p016`** (kind: paragraph, pdfPage 79)
+- **`ch05-how-it-works-p013`** (kind: paragraph, pdfPage 79)
 
   > Selfishness—self-centeredness! That, we think, is the root of our troubles. Driven by a hundred forms of fear, self-delusion, self-seeking, and self-pity, we step on the toes of our fellows and they retaliate. Sometimes they hurt us, seemingly without provocation, but we invariably find that at some time in the past we have made decisions based on self which later placed us in a position to be hurt.
 
-- **`ch05-how-it-works-p023`** (kind: paragraph, pdfPage 79)
+- **`ch05-how-it-works-p018`** (kind: paragraph, pdfPage 79)
 
-  > Resentment is the “number one’’ offender. It destroys more alcoholics than anything else. From it stem all forms of spiritual disease, for we have been not only mentally and physically ill, we have been spiritually sick. When the spiritual malady is overcome, we straighten out mentally and physically. In dealing with resentments, we set them on paper. We listed people, institutions or principles with whom we were angry. We asked ourselves why we were angry. In most cases it was found that our self-esteem, our pocketbooks, our ambitions, our personal relationships Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 65
+  > Resentment is the “number one’’ offender. It destroys more alcoholics than anything else. From it stem all forms of spiritual disease, for we have been not only mentally and physically ill, we have been spiritually sick. When the spiritual malady is overcome, we straighten out mentally and physically. In dealing with resentments, we set them on paper. We listed people, institutions or principles with whom we were angry. We asked ourselves why we were angry. In most cases it was found that our self-esteem, our pocketbooks, our ambitions, our personal relationships (including sex) were hurt or threatened. So we were sore. We were “burned up.’’ On our grudge list we set opposite each name our injuries. Was it our self-esteem, our security, our ambitions, our personal, or sex relations, which had been interfered with? We were usually as definite as this example:
 
 ## ch06-into-action — Into Action (p. 93)
 
-- **`ch06-into-action-p003`** (kind: paragraph, pdfPage 93)
+- **`ch06-into-action-p002`** (kind: heading, pdfPage 93)
 
-  > H        aving made our personal inventory, what shall we do about it? We have been trying to get a new attitude, a new relationship with our Creator, and to discover the obstacles in our path. We have admitted certain defects; we have ascertained in a rough way what the trouble is; we have put our finger on the weak items in our personal inventory. Now these are about to be cast out. This requires action on our part, which, when completed, will mean that we have admitted to God, to ourselves, and to another human being, the exact nature of our defects. This brings us to the Fifth Step in the program of recovery mentioned in the preceding chapter.
+  > INTO ACTION
 
-- **`ch06-into-action-p025`** (kind: paragraph, pdfPage 93)
+- **`ch06-into-action-p017`** (kind: paragraph, pdfPage 93)
 
-  > wouldn’t care to have advertised. We doubt if, in this respect, alcoholics are fundamentally much worse than other people. But drinking does complicate sex relations in the home. After a few years with an alcoholic, a wife gets worn out, resentful and uncommunicative. How could she be anything else? The husband begins to feel lonely, sorry for himself. He commences to look around in the night clubs, or their equivalent, for something besides liquor. Perhaps he is having a secret and exciting affair with “the girl who understands.’’ In fairness we must say that she may understand, but what are we going to do about a thing like that? A man so involved often feels very remorseful at times, especially if he is married to a loyal and courageous girl who has literally gone through hell for him. Whatever the situation, we usually have to do something about it. If we are sure our wife does not know, should we tell her? Not always, we think. If she knows in a general way that we have been wild, should we tell her in detail? Undoubtedly we should admit our fault. She may insist on knowing all the particulars. She will want to know who the woman is and where she is. We feel we ought to say to her that we have no right to involve another person. We are sorry for what we have done and, God willing, it shall not be repeated. More than that we cannot do; we have no right to go further. Though there may be justifiable exceptions, and though we wish to lay down no rule of any sort, we have often found this the best course to take. Our design for living is not a one-way street. It is as good for the wife as for the husband. If we can Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 82
+  > After consulting with his wife and partner he came to the conclusion that it was better to take those risks than to stand before his Creator guilty of such ruinous slander. He saw that he had to place the outcome in God’s hands or he would soon start drinking again, and all would be lost anyhow. He attended church for the first time in many years. After the sermon, he quietly got up and made an explanation. His action met widespread approval, and today he is one of the most trusted citizens of his town. This all happened years ago.
 
-- **`ch06-into-action-p027`** (kind: paragraph, pdfPage 93)
+- **`ch06-into-action-p018`** (kind: paragraph, pdfPage 93)
 
-  > Perhaps there are some cases where the utmost frankness is demanded. No outsider can appraise such an intimate situation. It may be that both will decide that the way of good sense and loving kindness is to let by-gones be by-gones. Each might pray about it, having the other one’s happiness uppermost in mind. Keep it always in sight that we are dealing with that most terrible human emotion—jealousy. Good generalship may decide that the problem be attacked on the flank rather than risk a face-to-face combat.
+  > The chances are that we have domestic troubles. Perhaps we are mixed up with women in a fashion we wouldn’t care to have advertised. We doubt if, in this respect, alcoholics are fundamentally much worse than other people. But drinking does complicate sex relations in the home. After a few years with an alcoholic, a wife gets worn out, resentful and uncommunicative. How could she be anything else? The husband begins to feel lonely, sorry for himself. He commences to look around in the night clubs, or their equivalent, for something besides liquor. Perhaps he is having a secret and exciting affair with “the girl who understands.’’ In fairness we must say that she may understand, but what are we going to do about a thing like that? A man so involved often feels very remorseful at times, especially if he is married to a loyal and courageous girl who has literally gone through hell for him. Whatever the situation, we usually have to do something about it. If we are sure our wife does not know, should we tell her? Not always, we think. If she knows in a general way that we have been wild, should we tell her in detail? Undoubtedly we should admit our fault. She may insist on knowing all the particulars. She will want to know who the woman is and where she is. We feel we ought to say to her that we have no right to involve another person. We are sorry for what we have done and, God willing, it shall not be repeated. More than that we cannot do; we have no right to go further. Though there may be justifiable exceptions, and though we wish to lay down no rule of any sort, we have often found this the best course to take. Our design for living is not a one-way street. It is as good for the wife as for the husband. If we can forget, so can she. It is better, however, that one does not needlessly name a person upon whom she can vent jealousy.
 
 ## ch07-working-with-others — Working with Others (p. 110)
 
+- **`ch07-working-with-others-p015`** (kind: paragraph, pdfPage 110)
+
+  > See your man alone, if possible. At first engage in general conversation. After a while, turn the talk to some phase of drinking. Tell him enough about your drinking habits, symptoms, and experiences to encourage him to speak of himself. If he wishes to talk, let him do so. You will thus get a better idea of how you ought to proceed. If he is not communicative, give him a sketch of your drinking career up to the time you quit. But say nothing, for the moment, of how that was accomplished. If he is in a serious mood dwell on the troubles liquor has caused you, being careful not to moralize or lecture. If his mood is light, tell him humorous stories of your escapades. Get him to tell some of his.
+
 - **`ch07-working-with-others-p017`** (kind: paragraph, pdfPage 110)
 
-  > When he sees you know all about the drinking game, commence to describe yourself as an alcoholic. Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 92
+  > Tell him how baffled you were, how you finally learned that you were sick. Give him an account of the struggles you made to stop. Show him the mental twist which leads to the first drink of a spree. We suggest you do this as we have done it in the chapter on alcoholism. If he is alcoholic, he will understand you at once. He will match your mental inconsistencies with some of his own.
 
-- **`ch07-working-with-others-p019`** (kind: paragraph, pdfPage 110)
+- **`ch07-working-with-others-p044`** (kind: paragraph, pdfPage 110)
 
-  > If you are satisfied that he is a real alcoholic, begin to dwell on the hopeless feature of the malady. Show him, from your own experience, how the queer mental condition surrounding that first drink prevents normal functioning of the will power. Don’t, at this stage, refer to this book, unless he has seen it and wishes to discuss it. And be careful not to brand him as an alcoholic. Let him draw his own conclusion. If he sticks to the idea that he can still control his drinking, tell him that possibly he can—if he is not too alcoholic.
-
-- **`ch07-working-with-others-p050`** (kind: paragraph, pdfPage 110)
-
-  > Now, the domestic problem: There may be divorce, separation, or just strained relations. When your prospect has made such reparation as he can to his family, and has thoroughly explained to them the new principles by which he is living, he should proceed to put those principles into action at home. That is, if he is lucky enough to have a home. Though his family be at fault in many respects, he should not be concerned about that. He should concentrate on his own spiritual demonstration. Argument and fault-finding are to be avoided like the plague. In many homes this is a Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 99
+  > Burn the idea into the consciousness of every man that he can get well regardless of anyone. The only condition is that he trust in God and clean house.
 
 ## ch08-to-wives — To Wives (p. 125)
 
-- **`ch08-to-wives-p016`** (kind: paragraph, pdfPage 125)
+- **`ch08-to-wives-p011`** (kind: paragraph, pdfPage 125)
 
-  > Try not to condemn your alcoholic husband no matter what he says or does. He is just another very sick, unreasonable person. Treat him, when you can, as though he had pneumonia. When he angers you, remember that he is very ill.
+  > These are some of the questions which race through the mind of every woman who has an alcoholic husband. We hope this book has answered some of them. Perhaps your husband has been living in that strange world of alcoholism where everything is distorted and exaggerated. You can see that he really does love you with his better self. Of course, there is such a thing as incompatibility, but in nearly every instance the alcoholic only seems to be unloving and inconsiderate; it is usually because he is warped and sickened that he says and does these appalling things. Today most of our men are better husbands and fathers than ever before.
 
-- **`ch08-to-wives-p038`** (kind: paragraph, pdfPage 125)
+- **`ch08-to-wives-p027`** (kind: paragraph, pdfPage 125)
 
   > We have elsewhere remarked how much better life is when lived on a spiritual plane. If God can solve the age-old riddle of alcoholism, He can solve your problems too. We wives found that, like everybody else, we were afflicted with pride, self-pity, vanity and all the things which go to make up the self-centered person; and we were not above selfishness or dishonesty. As our husbands began to apply spiritual principles in their lives, we began to see the desirability of doing so too.
 
-- **`ch08-to-wives-p044`** (kind: paragraph, pdfPage 125)
+- **`ch08-to-wives-p031`** (kind: paragraph, pdfPage 125)
 
-  > Another feeling we are very likely to entertain is one of resentment that love and loyalty could not cure our husbands of alcoholism. We do not like the thought that the contents of a book or the work of another alcoholic has accomplished in a few weeks that for which we struggled for years. At such moments we forget that alcoholism is an illness over which we could not possibly have had any power. Your husband will Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 119
+  > We women carry with us a picture of the ideal man, the sort of chap we would like our husbands to be. It is the most natural thing in the world, once his liquor problem is solved, to feel that he will now measure up to that cherished vision. The chances are he will not for, like yourself, he is just beginning his development. Be patient.
 
 ## ch09-the-family-afterward — The Family Afterward (p. 143)
 
-- **`ch09-the-family-afterward-p008`** (kind: paragraph, pdfPage 143)
+- **`ch09-the-family-afterward-p006`** (kind: paragraph, pdfPage 143)
 
   > Henry Ford once made a wise remark to the effect that experience is the thing of supreme value in life. That is true only if one is willing to turn the past to good account. We grow by our willingness to face and rectify errors and convert them into assets. The alcoholic’s past thus becomes the principal asset of the family and frequently it is almost the only one!
 
-- **`ch09-the-family-afterward-p012`** (kind: paragraph, pdfPage 143)
+- **`ch09-the-family-afterward-p008`** (kind: paragraph, pdfPage 143)
 
-  > he may be so enthralled by his new life that he talks or thinks of little else. In either case certain family problems will arise. With these we have had experience galore.
+  > It is possible to dig up past misdeeds so they become a blight, a veritable plague. For example, we know of situations in which the alcoholic or his wife have had love affairs. In the first flush of spiritual experience they forgave each other and drew closer together. The miracle of reconciliation was at hand. Then, under one provocation or another, the aggrieved one would unearth the old affair and angrily cast its ashes about. A few of us have had these growing pains and they hurt a great deal. Husbands and wives have sometimes been obliged to separate for a time until new perspective, new victory over hurt pride could be rewon. In most cases, the alcoholic survived this ordeal without relapse, but not always. So we think that unless some good and useful purpose is to be served, past occurrences should not be discussed. We families of Alcoholics Anonymous keep few skeletons in the closet. Everyone knows about the others’ alcoholic troubles. This is a condition which, in ordinary life, would produce untold grief; there might be scandalous gossip, laughter at the expense of other people, and a tendency to take advantage of intimate information. Among us, these are rare occurrences. We do talk about each other a great deal, but we almost invariably temper such talk by a spirit of love and tolerance. Another principle we observe carefully is that we do not relate intimate experiences of another person unless we are sure he would approve. We find it better, when possible, to stick to our own stories. A man may criticize or laugh at himself and it will affect others favorably, but criticism or ridicule coming from another often produces the contrary effect. Members of a family should watch such matters carefully, for one careless, inconsiderate remark has been known to raise the very devil. We alcoholics are sensitive people. It takes some of us a long time to outgrow that serious handicap. Many alcoholics are enthusiasts. They run to extremes. At the beginning of recovery a man will take, as a rule, one of two directions. He may either plunge into a frantic attempt to get on his feet in business, or he may be so enthralled by his new life that he talks or thinks of little else. In either case certain family problems will arise. With these we have had experience galore.
 
-- **`ch09-the-family-afterward-p020`** (kind: paragraph, pdfPage 143)
+- **`ch09-the-family-afterward-p014`** (kind: paragraph, pdfPage 143)
 
-  > He is not so unbalanced as they might think. Many of us have experienced dad’s elation. We have indulged in spiritual intoxication. Like a gaunt prospector, belt drawn in over the last ounce of food, our pick struck gold. Joy at our release from a lifetime of Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 129
+  > He is not so unbalanced as they might think. Many of us have experienced dad’s elation. We have indulged in spiritual intoxication. Like a gaunt prospector, belt drawn in over the last ounce of food, our pick struck gold. Joy at our release from a lifetime of frustration knew no bounds. Father feels he has struck something better than gold. For a time he may try to hug the new treasure to himself. He may not see at once that he has barely scratched a limitless lode which will pay dividends only if he mines it for the rest of his life and insists on giving away the entire product. If the family cooperates, dad will soon see that he is suffering from a distortion of values. He will perceive that his spiritual growth is lopsided, that for an average man like himself, a spiritual life which does not include his family obligations may not be so perfect after all. If the family will appreciate that dad’s current behavior is but a phase of his development, all will be well. In the midst of an understanding and sympathetic family, these vagaries of dad’s spiritual infancy will quickly disappear. The opposite may happen should the family condemn and criticize. Dad may feel that for years his drinking has placed him on the wrong side of every argument, but that now he has become a superior person with God on his side. If the family persists in criticism, this fallacy may take a still greater hold on father. Instead of treating the family as he should, he may retreat further into himself and feel he has spiritual justification for so doing. Though the family does not fully agree with dad’s spiritual activities, they should let him have his head. Even if he displays a certain amount of neglect and irresponsibility towards the family, it is well to let him go as far as he likes in helping other alcoholics. During those first days of convalescence, this will do more to insure his sobriety than anything else. Though some of his manifestations are alarming and disagreeable, we think dad will be on a firmer foundation than the man who is placing business or professional success ahead of spiritual development. He will be less likely to drink again, and anything is preferable to that.
 
 ## ch10-to-employers — To Employers (p. 157)
 
-- **`ch10-to-employers-p006`** (kind: paragraph, pdfPage 157)
+- **`ch10-to-employers-p005`** (kind: paragraph, pdfPage 157)
 
-  > My secretary returned to say that it was not Mr.
+  > I was at one time assistant manager of a corporation department employing sixty-six hundred men. One day my secretary came in saying that Mr. B— insisted on speaking with me. I told her to say that I was not interested. I had warned him several times that he had but one more chance. Not long afterward he had called me from Hartford on two successive days, so drunk he could hardly speak. I told him he was through—finally and forever.
 
-- **`ch10-to-employers-p024`** (kind: paragraph, pdfPage 157)
+- **`ch10-to-employers-p020`** (kind: paragraph, pdfPage 157)
 
   > Can you discard the feeling that you are dealing only with habit, with stubbornness, or a weak will? If this presents difficulty, re-reading chapters two and three, where the alcoholic sickness is discussed at length might be worth while. You, as a business man, want to know the necessities before considering the result. If you concede that your employee is ill, can he be forgiven for what he has done in the past? Can his past absurdities be forgotten? Can it be appreciated that he has been a victim of crooked thinking, directly caused by the action of alcohol on his brain?
 
-- **`ch10-to-employers-p053`** (kind: paragraph, pdfPage 157)
+- **`ch10-to-employers-p044`** (kind: paragraph, pdfPage 157)
 
   > The greatest enemies of us alcoholics are resentment, jealousy, envy, frustration, and fear. Wherever men are gathered together in business there will be rivalries and, arising out of these, a certain amount of office politics. Sometimes we alcoholics have an idea that people are trying to pull us down. Often this is not so at all. But sometimes our drinking will be used politically.
 
 ## ch11-a-vision-for-you — A Vision For You (p. 172)
 
-- **`ch11-a-vision-for-you-p033`** (kind: paragraph, pdfPage 172)
+- **`ch11-a-vision-for-you-p024`** (kind: paragraph, pdfPage 172)
 
   > Outsiders became interested. One man and his wife placed their large home at the disposal of this strangely assorted crowd. This couple has since become so fascinated that they have dedicated their home to the work. Many a distracted wife has visited this house to find loving and understanding companionship among women who knew her problem, to hear from the lips of their husbands what had happened to them, to be advised how her own wayward mate might be hospitalized and approached when next he stumbled.
 
-- **`ch11-a-vision-for-you-p034`** (kind: paragraph, pdfPage 172)
+- **`ch11-a-vision-for-you-p025`** (kind: paragraph, pdfPage 172)
 
   > Many a man, yet dazed from his hospital experience, has stepped over the threshold of that home into freedom. Many an alcoholic who entered there came away with an answer. He succumbed to that gay crowd inside, who laughed at their own misfortunes and understood his. Impressed by those who visited him at the hospital, he capitulated entirely when, later, in an upper room of this house, he heard the story of some man whose experience closely tallied with his own. The expression on the faces of the women, that indefinable something in the eyes of the men, the stimulating and electric atmosphere of the place, conspired to let him know that here was haven at last.
 
-- **`ch11-a-vision-for-you-p045`** (kind: paragraph, pdfPage 172)
+- **`ch11-a-vision-for-you-p033`** (kind: paragraph, pdfPage 172)
 
-  > Our book is meant to be suggestive only. We realize we know only a little. God will constantly disclose more to you and to us. Ask Him in your morning meditation what you can do each day for the man who is still sick. The answers will come, if your own house is in order. But obviously you cannot transmit something you haven’t got. See to it that your relationship with Him is right, and great events will come to pass for you and countless others. This is the Great Fact for us.
+  > Abandon yourself to God as you understand God. Admit your faults to Him and to your fellows. Clear away the wreckage of your past. Give freely of what you find and join us. We shall be with you in the Fellowship of the Spirit, and you will surely meet some of us as you trudge the Road of Happy Destiny.
 
 ## story-dr-bobs-nightmare — Dr. Bob's Nightmare (p. 186)
 
-- **`story-dr-bobs-nightmare-p006`** (kind: paragraph, pdfPage 186)
+- **`story-dr-bobs-nightmare-p005`** (kind: paragraph, pdfPage 186)
 
-  > I    was born in a small New England village of about seven thousand souls. The general moral standard was, as I recall it, far above the average. No beer or liquor was sold in the neighborhood, except at the State liquor agency where perhaps one might procure a pint if he could convince the agent that he really needed it. Without this proof the expectant purchaser would be forced to depart empty handed with none of what I later came to believe was the great panacea for all human ills. Men who had liquor shipped in from Boston or New York by express were looked upon with great distrust and disfavor by most of the good townspeople. The town was well supplied with churches and schools in which I pursued my early educational activities.
+  > Sister Ignatia at St. Thomas Hospital in Akron, Ohio, one of the greatest friends our Fellowship will ever know.
 
-- **`story-dr-bobs-nightmare-p026`** (kind: paragraph, pdfPage 186)
+- **`story-dr-bobs-nightmare-p022`** (kind: paragraph, pdfPage 186)
 
-  > By this time I was beginning to pay very dearly physically and, in hope of relief, voluntarily incarcerated myself at least a dozen times in one of the Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 175
+  > When those two years were up, I opened an office downtown. I had some money, all the time in the world, and considerable stomach trouble. I soon discovered that a couple of drinks would alleviate my gastric distress, at least for a few hours at a time, so it was not at all difficult for me to return to my former excessive indulgence.
 
-- **`story-dr-bobs-nightmare-p056`** (kind: list-item, pdfPage 186)
+- **`story-dr-bobs-nightmare-p048`** (kind: paragraph, pdfPage 186)
 
-  > 4. Because every time I do it I take out a little more insurance for myself against a possible slip.
+  > Unlike most of our crowd, I did not get over my craving for liquor much during the first two and onehalf years of abstinence. It was almost always with me. But at no time have I been anywhere near yielding. I used to get terribly upset when I saw my friends drink and knew I could not, but I schooled myself to believe that though I once had the same privilege, I had abused it so frightfully that it was withdrawn. So it doesn’t behoove me to squawk about it for, after all, nobody ever had to throw me down and pour liquor down my throat.
 
 ## story-aa-number-three — A.A. Number Three (p. 197)
+
+- **`story-aa-number-three-p003`** (kind: paragraph, pdfPage 197)
+
+  > NUMBER THREE
 
 - **`story-aa-number-three-p004`** (kind: paragraph, pdfPage 197)
 
   > Pioneer member of Akron’s Group No. 1, the first A.A. group in the world. He kept the faith; therefore, he and countless others found a new life.
 
-- **`story-aa-number-three-p005`** (kind: paragraph, pdfPage 197)
-
-  > O      ne of five children, I was born on a Kentucky farm in Carlyle County. My parents were wellto-do people, and their marriage was a happy one. My wife, a Kentucky girl, came with me to Akron where I completed my course in law at the Akron Law School.
-
-- **`story-aa-number-three-p033`** (kind: paragraph, pdfPage 197)
+- **`story-aa-number-three-p024`** (kind: paragraph, pdfPage 197)
 
   > Of course, as time went on, I began to get my health back and began to be so I didn’t have to hide from people all the time—it’s just been wonderful. I still go to meetings, because I like to go. I meet the people that I like to talk to. Another reason that I go is that I’m still grateful for the good years that I’ve had. I’m so grateful for both the program and the people in it that I still want to go. And then probably the most wonderful thing that I have learned from the program—I’ve seen this in the A.A. Grapevine a lot of times, and I’ve had people say it to me personally, and I’ve heard people get up in meetings and say it—is this statement: “I came into A.A. solely for the purpose of sobriety, but it has been through A.A. that I have found God.”
 
@@ -288,11 +288,11 @@ Seed: 42 · Sections: 68
 
   > (2)
 
-- **`story-gratitude-in-action-p016`** (kind: paragraph, pdfPage 208)
+- **`story-gratitude-in-action-p014`** (kind: paragraph, pdfPage 208)
 
   > On Easter weekend 1944, I found myself in a jail cell in Montreal. By now, I was drinking to escape the horrible thoughts I had whenever I was sober enough to become aware of my situation. I was drinking to avoid seeing what I had become. The job I’d had for twenty years and the new car were long gone. I had undergone three stays in a psychiatric hospital. God knows I didn’t want to drink, yet to my great despair, I always returned to the infernal merry-go-round.
 
-- **`story-gratitude-in-action-p021`** (kind: paragraph, pdfPage 208)
+- **`story-gratitude-in-action-p019`** (kind: paragraph, pdfPage 208)
 
   > I decided to get in touch with them. I had much difficulty in reaching A.A. in New York, as A.A. wasn’t as well-known then. I finally spoke to a woman,
 
@@ -302,95 +302,95 @@ Seed: 42 · Sections: 68
 
   > Despite great opportunities, alcohol nearly ended her life. An early member, she spread the word among women in our pioneering period.
 
-- **`story-women-suffer-too-p023`** (kind: paragraph, pdfPage 215)
+- **`story-women-suffer-too-p019`** (kind: paragraph, pdfPage 215)
 
-  > I was having a serious mental breakdown. I wanted help, and I tried to cooperate. As the treatment progressed, I began to get a picture of myself, of the temperament that had caused me so much trouble.
+  > When I entered a sanitarium for prolonged and intensive psychiatric treatment, I was convinced that
 
-- **`story-women-suffer-too-p034`** (kind: paragraph, pdfPage 215)
+- **`story-women-suffer-too-p028`** (kind: paragraph, pdfPage 215)
 
-  > That was the beginning of a new life, a fuller life, a happier life than I had ever known or believed possible. I had found friends—understanding friends who often knew what I was thinking and feeling better than I knew myself—and who didn’t allow me to re- Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 207
+  > I went to a meeting to see for myself this group of freaks or bums who had done this thing. To go into a gathering of people was the sort of thing that all my life, from the time I left my private world of books and dreams to meet the real world of people and parties and jobs, had left me feeling an uncomfortable outsider, needing the warming stimulus of drinks to join in. I went trembling into a house in Brooklyn filled with strangers . . . and I found I had come home at last, to my own kind. There is another meaning for the Hebrew word that in the King James version of the Bible is translated “salvation.” It is: “to come home.” I had found my salvation. I wasn’t alone any more.
 
 ## story-our-southern-friend — Our Southern Friend (p. 223)
 
-- **`story-our-southern-friend-p013`** (kind: paragraph, pdfPage 223)
+- **`story-our-southern-friend-p011`** (kind: paragraph, pdfPage 223)
 
-  > Underweight! How I hate that word. Three attempts to enlist in the service, and three failures because of being skinny. True, I have recently recovered from pneumonia and have an alibi, but my friends are in the war or going, and I am not. I visit a friend who is awaiting orders. The atmosphere of “eat, drink, and be merry” prevails and I absorb it. I drink a lot every night. I can hold a lot now, more than the others.
+  > I leave the room, which the honor system allows. I go to my room. I pour out half a tumbler of grain alcohol and fill it with ginger ale. Now back to the exam. My pen moves rapidly. I know enough of the answers to get by. Good old John Barleycorn! He can be depended on. What a wonderful power he has over the mind! He has given me my diploma!
 
-- **`story-our-southern-friend-p033`** (kind: paragraph, pdfPage 223)
+- **`story-our-southern-friend-p027`** (kind: paragraph, pdfPage 223)
 
-  > and a few things that I had wanted to forget. I begin to see I am not the person I had thought myself, that I had judged myself by comparing myself to others and always to my own advantage. It is a shock. Then comes a thought that is like a voice. “Who are you to say there is no God?” It rings in my head; I can’t get rid of it. I get out of bed and go to the man’s room. He is reading. “I must ask you a question,” I say to the man. “How does prayer fit into this thing?” “Well,” he answers, “you’ve probably tried praying like I have. When you’ve been in a jam, you’ve said, ‘God, please do this or that,’ and if it turned out your way that was the last of it, and, if it didn’t, you’ve said ‘There isn’t any God’ or ‘He doesn’t do anything for me.’ Is that right?” “Yes,” I reply. “That isn’t the way,” he continued. “The thing I do is to say ‘God, here I am and here are all my troubles. I’ve made a mess of things and can’t do anything about it. You take me, and all my troubles, and do anything you want with me.’ Does that answer your question?” “Yes, it does,” I answer. I return to bed. It doesn’t make sense. Suddenly I feel a wave of utter hopelessness sweep over me. I am in the bottom of hell. And there, a tremendous hope is born. It might be true. I tumble out of bed onto my knees. I know not what I say. But slowly a great peace comes to me. I feel lifted up. I believe in God. I crawl back into bed and sleep like a child. Some men and women come to visit my friend of the night before. He invites me to meet them. They are a joyous crowd. I have never seen people that joyous Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 216
+  > “I’ll do anything,” I reply.
 
-- **`story-our-southern-friend-p043`** (kind: paragraph, pdfPage 223)
+- **`story-our-southern-friend-p035`** (kind: paragraph, pdfPage 223)
 
   > When I am through speaking, the whole idea has become absurd. Not a trace of fear is in me. I laugh at the insanity of it. We talk of other things. Strength has come from weakness.
 
 ## story-the-vicious-cycle — The Vicious Cycle (p. 234)
 
-- **`story-the-vicious-cycle-p005`** (kind: paragraph, pdfPage 234)
+- **`story-the-vicious-cycle-p003`** (kind: paragraph, pdfPage 234)
 
-  > Jackie to call on me. Had he come two or three days later, I think I would have thrown him out, but he hit when I was open for anything.
+  > How it finally broke a Southerner’s obstinacy and destined this salesman to start A.A. in Philadelphia.
 
-- **`story-the-vicious-cycle-p014`** (kind: paragraph, pdfPage 234)
+- **`story-the-vicious-cycle-p008`** (kind: paragraph, pdfPage 234)
 
-  > After the oil job blew up, I went back to Baltimore and Mother, my first wife having said a permanent goodbye. Then came a sales job with a national tire company. I reorganized their city sales policy and eighteen months later, when I was thirty, they offered me the branch managership. As part of this promotion, they sent me to their national convention in Atlantic City to tell the big wheels how I’d done it. At this time I was holding what drinking I did down to weekends, but I hadn’t had a drink at all in a month. I checked into my hotel room and then noticed a placard tucked under the glass on the bureau stating “There will be positively NO drinking at this convention,” signed by the president of the company. That did it! Who, me? The Big Shot? The only salesman invited to talk at the convention? The man who was going to take over one of their biggest branches come Monday? I’d show ’em who was boss! No one in that company saw me again—ten days later I wired my resignation.
+  > In the spring of 1917, in order to beat being fired from school, I became “patriotic” and joined the army. I am one of the lads who came out of the service with a lower rank than when I went in. I had been to OTC the previous summer, so I went into the army as a sergeant but I came out a private, and you really have to be unusual to do that. In the next two years, I washed more pans and peeled more potatoes than any other doughboy. In the army, I became a periodic alcoholic—the periods always coming whenever I could make the opportunity. However, I did manage to keep out of the guardhouse. My last bout in the army lasted from November 5 to 11, 1918. We heard by wireless on the fifth that the Armistice would be signed the next day (this was a premature report), so I had a couple of cognacs to celebrate; then I hopped a truck and went AWOL. My next conscious memory was in Bar le Duc, many miles from base. It was November 11, and bells were ringing and whistles blowing for the real Armistice. There I was, unshaven, clothes torn and dirty, with no recollection of wandering all over France but, of course, a hero to the local French. Back at camp, all was forgiven because it was the End, but in the light of what I have since learned, I know I was a confirmed alcoholic at nineteen. With the war over and back in Baltimore with the folks, I had several small jobs for three years, and then I went to work soliciting as one of the first ten employees of a new national finance company. What an opportunity I shot to pieces there! This company now does a volume of over three billion dollars annually. Three years later, at twenty-five, I opened and operated their Philadelphia office and was earning more than I ever have since. I was the fair-haired boy all right, but two years later I was blacklisted as an irresponsible drunk. It doesn’t take long. My next job was in sales promotion for an oil company in Mississippi, where I promptly became high man and got lots of pats on the back. Then I turned two company cars over in a short time and bingo—fired again. Oddly enough, the big shot who fired me from this company was one of the first men I met when I later joined the New York A.A. Group. He had also gone all the way through the wringer and had been dry two years when I saw him again.
 
-- **`story-the-vicious-cycle-p019`** (kind: paragraph, pdfPage 234)
+- **`story-the-vicious-cycle-p010`** (kind: paragraph, pdfPage 234)
 
-  > ful knowledge in places where matches are prohibited.) They, too, had taken a train to one town and had wakened hundreds of miles in the opposite direction, never knowing how they got there. The same old routines seemed to be common to us all. During that first weekend, I decided to stay in New York and take all they gave out with, except the “God stuff.” I knew they needed to straighten out their thinking and habits, but I was all right; I just drank too much. Just give me a good front and a couple of bucks, and I’d be right back in the big time. I’d been dry three weeks, had the wrinkles out, and had sobered up my sponsor all by myself! Bill and Hank had just taken over a small automobile polish company, and they offered me a job—ten dollars a week and keep at Hank’s house. We were all set to put DuPont out of business. At that time the group in New York was composed of about twelve men who were working on the principle of every drunk for himself; we had no real formula and no name. We would follow one man’s ideas for a while, decide he was wrong, and switch to another’s method. But we were staying sober as long as we kept and talked together. There was one meeting a week at Bill’s home in Brooklyn, and we all took turns there spouting off about how we had changed our lives overnight, how many drunks we had saved and straightened out, and last but not least, how God had touched each of us personally on the shoulder. Boy, what a circle of confused idealists! Yet we all had one really sincere purpose in our hearts, and that was not to drink. At our weekly meeting I was a menace to serenity those first few months, for I took Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 228
+  > As long as things were tough and the job a challenge, I could always manage to hold on pretty well, but as soon as I learned the combination, got the puzzle under control, and the boss to pat me on the back, I was gone again. Routine jobs bored me, but I would take on the toughest one I could find and work day and night until I had it under control; then it would become tedious, and I’d lose all interest in it. I could never be bothered with the follow-through and would invariably reward myself for my efforts with that “first” drink. After the tire job came the thirties, the Depression, and the downhill road. In the eight years before A.A. found me, I had over forty jobs—selling and traveling —one thing after another, and the same old routine. I’d work like mad for three or four weeks without a single drink, save my money, pay a few bills, and then “reward” myself with alcohol. Then I’d be broke again, hiding out in cheap hotels all over the country, having one-night jail stands here and there, and always that horrible feeling “What’s the use—nothing is worthwhile.” Every time I blacked out, and that was every time I drank, there was always that gnawing fear, “What did I do this time?” Once I found out. Many alcoholics have learned they can bring their bottle to a cheap movie theater and drink, sleep, wake up, and drink again in the darkness. I had repaired to one of these one morning with my jug, and, when I left late in the afternoon, I picked up a newspaper on the way home. Imagine my surprise when I read in a page-one “box” that I had been taken from the theater unconscious around noon that day, removed by ambulance to a hospital and stomach-pumped, and then released. Evidently I had gone right back to the movie with a bottle, stayed there several hours, and started home with no recollection of what had happened. The mental state of the sick alcoholic is beyond description. I had no resentments against individuals —the whole world was all wrong. My thoughts went round and round with, What’s it all about anyhow? People have wars and kill each other; they struggle and cut each other’s throats for success, and what does anyone get out of it? Haven’t I been successful, haven’t I accomplished extraordinary things in business? What do I get out of it? Everything’s all wrong and the hell with it. For the last two years of my drinking, I prayed during every drunk that I wouldn’t wake up again. Three months before I met Jackie, I had made my second feeble try at suicide.
 
 ## story-jims-story — Jim's Story (p. 247)
 
-- **`story-jims-story-p004`** (kind: paragraph, pdfPage 247)
+- **`story-jims-story-p003`** (kind: paragraph, pdfPage 247)
 
-  > I     was born in a little town in Virginia in an average religious home. My father, a Negro, was a country physician. I remember in my early youth my mother dressed me just as she did my two sisters, and I wore curls until I was six years of age. At that time I started school, and that’s how I got rid of the curls. I found that even then I had fears and inhibitions. We lived just a few doors from the First Baptist Church, and when they had funerals, I remember very often asking my mother whether the person was good or bad and whether they were going to heaven or hell. I was about six then.
+  > This physician, one of the earliest members of A.A.’s first black group, tells of how freedom came as he worked among his people.
 
-- **`story-jims-story-p026`** (kind: paragraph, pdfPage 247)
+- **`story-jims-story-p015`** (kind: paragraph, pdfPage 247)
 
-  > who she was, I remembered her right away. She didn’t say anything about A.A. or getting me a sponsor at that time, but she did ask about Vi, and I told her Vi was working and how she could locate her. It was around noon, a day or two later, when the telephone rang and it was Ella. She asked me if I would let someone come up and talk to me concerning a business deal. She never mentioned anything about my whiskey drinking because if she had I would have told her no right then. I asked her just what this deal was, but she wouldn’t say. She said, “He has something of interest, if you will see him.” I told her that I would. She asked me one other thing. She asked me if I would try to be sober if I possibly could. So I put forth some effort that day to try to stay sober if I could, though my sobriety was just a daze. About seven that evening my sponsor walked in, Charlie G. He didn’t seem too much at ease in the beginning. I guess I felt, and he sensed it, that I wanted him to hurry up and say what he had to say and get out. Anyhow, he started talking about himself. He started telling me how much trouble he had, and I said to myself, I wonder why this guy is telling me all his troubles. I have troubles of my own. Finally, he brought in the angle of whiskey. He continued to talk and I to listen. After he’d talked half an hour, I still wanted him to hurry up and get out so I could go and get some whiskey before the liquor store closed. But as he continued to talk, I realized that this was the first time I had met a person who had the same problems I did and who, I sincerely believe, understood me as an individual. I knew my wife didn’t, because I had been sincere in all my promises to her Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 244
+  > I’d been home about a week or ten days when one of my friends asked if I could repair one of his electrical outlets. Thinking only of two or three dollars to buy some whiskey, I did the job and that’s how I met Ella G., who was responsible for my coming into A.A. I went to this friend’s shop to repair his electrical outlet, and I noticed this lady. She continued to watch me, although she didn’t say anything. Finally she said, “Isn’t your name Jim S.?” I said, “Yes.” Then she told me who she was. She was Ella G. When I had known her years before, she was rather slender, but at this time she weighed as much as she does now, which is up around in the two hundreds or very close to it. I had not recognized her, but as soon as she said who she was, I remembered her right away. She didn’t say anything about A.A. or getting me a sponsor at that time, but she did ask about Vi, and I told her Vi was working and how she could locate her. It was around noon, a day or two later, when the telephone rang and it was Ella. She asked me if I would let someone come up and talk to me concerning a business deal. She never mentioned anything about my whiskey drinking because if she had I would have told her no right then. I asked her just what this deal was, but she wouldn’t say. She said, “He has something of interest, if you will see him.” I told her that I would. She asked me one other thing. She asked me if I would try to be sober if I possibly could. So I put forth some effort that day to try to stay sober if I could, though my sobriety was just a daze. About seven that evening my sponsor walked in, Charlie G. He didn’t seem too much at ease in the beginning. I guess I felt, and he sensed it, that I wanted him to hurry up and say what he had to say and get out. Anyhow, he started talking about himself. He started telling me how much trouble he had, and I said to myself, I wonder why this guy is telling me all his troubles. I have troubles of my own. Finally, he brought in the angle of whiskey. He continued to talk and I to listen. After he’d talked half an hour, I still wanted him to hurry up and get out so I could go and get some whiskey before the liquor store closed. But as he continued to talk, I realized that this was the first time I had met a person who had the same problems I did and who, I sincerely believe, understood me as an individual. I knew my wife didn’t, because I had been sincere in all my promises to her as well as to my mother and to my close friends, but the urge to take that drink was more powerful than anything else.
 
-- **`story-jims-story-p031`** (kind: paragraph, pdfPage 247)
+- **`story-jims-story-p018`** (kind: paragraph, pdfPage 247)
 
-  > to hold meetings. They taught us a great deal about Twelfth Step work too. Indeed, without their aid we couldn’t possibly have gone on. They saved us endless time and lost motion. And, not only that, but they gave us financial help. Even when we were paying that two dollars a night, they often paid it for us because our collection was so small. At this time I wasn’t working. Vi was taking care of me, and I was devoting all my time to the building of that group. I worked at that alone for six months. I just gathered up this and that alcoholic, because, in the back of my mind, I wanted to save all the world. I had found this new “something,” and I wanted to give it to everyone who had a problem. We didn’t save the world, but we did manage to help some individuals. That’s my story of what A.A. has done for me.
+  > I haven’t mentioned it, but Charlie, my sponsor, was white, and when we got our group started, we got help from other white groups in Washington. They came, many of them, and stuck by us and told us how to hold meetings. They taught us a great deal about Twelfth Step work too. Indeed, without their aid we couldn’t possibly have gone on. They saved us endless time and lost motion. And, not only that, but they gave us financial help. Even when we were paying that two dollars a night, they often paid it for us because our collection was so small. At this time I wasn’t working. Vi was taking care of me, and I was devoting all my time to the building of that group. I worked at that alone for six months. I just gathered up this and that alcoholic, because, in the back of my mind, I wanted to save all the world. I had found this new “something,” and I wanted to give it to everyone who had a problem. We didn’t save the world, but we did manage to help some individuals. That’s my story of what A.A. has done for me.
 
 ## story-the-man-who-mastered-fear — The Man Who Mastered Fear (p. 261)
 
-- **`story-the-man-who-mastered-fear-p027`** (kind: paragraph, pdfPage 261)
+- **`story-the-man-who-mastered-fear-p023`** (kind: paragraph, pdfPage 261)
 
-  > habitual solution to this problem, because I no longer had a home. Finally, and I shall never know how much later it was, one clear thought came to me: Try prayer. You can’t lose, and maybe God will help you —just maybe, mind you. Having no one else to turn to, I was willing to give Him a chance, although with considerable doubt. I got down on my knees for the first time in thirty years. The prayer I said was simple. It went something like this: “God, for eighteen years I have been unable to handle this problem. Please let me turn it over to you.”
+  > Immediately a great feeling of peace descended upon me, intermingled with a feeling of being suffused with a quiet strength. I lay down on the bed and slept like a child. An hour later I awoke to a new world. Nothing had changed and yet everything had changed. The scales had dropped from my eyes, and I could see life in its proper perspective. I had tried to be the center of my own little world, whereas God was the center of a vast universe of which I was perhaps an essential, but a very tiny, part.
 
-- **`story-the-man-who-mastered-fear-p035`** (kind: paragraph, pdfPage 261)
+- **`story-the-man-who-mastered-fear-p030`** (kind: paragraph, pdfPage 261)
 
-  > After six months of sobriety, I saw the picture in a different light: Detroit was the place I had to return to, not only because I must face the mess I had made there, but because it was there that I could be of the most service to A.A. In the spring of 1939, Bill stopped off in Akron on his way to Detroit on business. I jumped at the suggestion that I accompany him. We spent two days there together before he returned to
+  > New York. Friends invited me to stay on for as long as I cared to. I remained with them for three weeks, using part of the time in making many amends, which
 
-- **`story-the-man-who-mastered-fear-p057`** (kind: paragraph, pdfPage 261)
+- **`story-the-man-who-mastered-fear-p048`** (kind: paragraph, pdfPage 261)
 
   > I do start, and once started, I have a swell time.
 
 ## story-he-sold-himself-short — He Sold Himself Short (p. 273)
 
-- **`story-he-sold-himself-short-p011`** (kind: paragraph, pdfPage 273)
+- **`story-he-sold-himself-short-p008`** (kind: paragraph, pdfPage 273)
 
-  > Several months later Dad was back in Chicago to pick me up again, but this time my attitude was entirely different. I could not wait to tell him that I wanted help, that if these men in Akron had anything, Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 261
+  > After a particularly bad Christmas and New Year’s holiday, Dad picked me up again early in January 1937 to go through the usual sobering up routine. This consisted of walking the floor for three or four days and nights until I could take nourishment. This time he had a suggestion to offer. He waited until I was completely sober, and on the day before I was to head back for Chicago, he told me of a small group of men in Akron who apparently had the same problem that I had but were doing something about it. He said they were sober, happy, and had their self-respect back, as well as the respect of their neighbors. He mentioned two of them whom I had known through the years and suggested that I talk with them. But I had my health back, and, besides, I reasoned, they were much worse than I would ever be. Why, even a year ago I had seen Howard, an ex-doctor, mooching a dime for a drink. I could not possibly be that bad. I would at least have asked for a quarter! So I told Dad that I would lick it on my own, that I would drink nothing for a month and after that only beer.
 
-- **`story-he-sold-himself-short-p018`** (kind: paragraph, pdfPage 273)
+- **`story-he-sold-himself-short-p013`** (kind: paragraph, pdfPage 273)
+
+  > I was terribly impressed by this meeting and the quality of happiness these men displayed, despite their lack of material means. In this small group, during the Depression, there was no one who was not hard up.
+
+- **`story-he-sold-himself-short-p014`** (kind: paragraph, pdfPage 273)
 
   > I stayed in Akron two or three weeks on my initial trip trying to absorb as much of the program and philosophy as possible. I spent a great deal of time with Dr. Bob, whenever he had the time to spare, and in the homes of two or three other people, trying to see how the family lived the program. Every evening we would meet at the home of one of the members and have coffee and doughnuts and spend a social evening.
 
-- **`story-he-sold-himself-short-p019`** (kind: paragraph, pdfPage 273)
-
-  > The day before I was due to go back to Chicago— Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 263
-
 ## story-the-keys-of-the-kingdom — The Keys of the Kingdom (p. 283)
 
-- **`story-the-keys-of-the-kingdom-p009`** (kind: paragraph, pdfPage 283)
+- **`story-the-keys-of-the-kingdom-p007`** (kind: paragraph, pdfPage 283)
 
   > Needless to say, this was not pleasurable drinking. I had long since given up any pretense of the social cocktail hour. This was drinking in sheer desperation, alone and locked behind my own door. Alone in the relative safety of my home because I knew I dare not risk the danger of blacking out in some public place or at the wheel of a car. I could no longer gauge my capacity, and it might be the second or the tenth drink that would erase my consciousness.
 
 - **`story-the-keys-of-the-kingdom-p010`** (kind: paragraph, pdfPage 283)
 
-  > The next three years saw me in sanitariums, once in a ten-day coma, from which I very nearly did not recover, in and out of hospitals or confined at home with day and night nurses. By now I wanted to die but had lost the courage even to take my life. I was trapped, and for the life of me I did not know how or why this had happened to me. And all the while my fear fed a growing conviction that before long it would be necessary for me to be put away in some institution. People didn’t behave this way outside of an asylum. I had heartsickness, shame, and fear bordering on panic, and no complete escape any longer except in oblivion. Certainly, now, anyone would have agreed that only a miracle could prevent my final breakdown. But how does one get a prescription for a miracle?
+  > He further explained that alcohol was no respecter of sex or background but that most of the alcoholics he had encountered had better-than-average minds and abilities. He said the alcoholics seemed to possess a native acuteness and usually excelled in their fields, regardless of environmental or educational advantages.
 
-- **`story-the-keys-of-the-kingdom-p022`** (kind: paragraph, pdfPage 283)
+- **`story-the-keys-of-the-kingdom-p016`** (kind: paragraph, pdfPage 283)
 
   > I didn’t dare hope I might find for myself all that these people had found, but if I could acquire some small part of their intriguing quality of living—and sobriety—that would be enough.
 
@@ -398,29 +398,29 @@ Seed: 42 · Sections: 68
 
 - **`story-the-missing-link-p010`** (kind: paragraph, pdfPage 292)
 
-  > my drinking and a job since they were both full time, but I concocted all kinds of lies to ensure that nothing would interfere with my drinking. After being repeatedly reprimanded at work for being late in the mornings, I made up a story to hide the fact that I was always hung over. I told my manager that I had cancer and needed to go to the doctor for treatment every morning. I would say whatever I needed to say to protect my drinking.
+  > The next morning I went to see my therapist. I told him I’d decided to quit therapy, because after eight years, it wasn’t working. But I decided to tell him how I had been searching through my life for that missing link and had come up with only one thing I had never told him: that I drank. He began asking me questions—he asked about quantities, frequency, what I drank. Before he was even halfway through, I broke down and began sobbing. I cried, “Do you think I have a problem with drinking?” He replied, “I think that is quite obvious.” I then asked, “Do you think I’m an alcoholic?” And he answered, “You are going to have to find out for yourself.” He pulled a list of Alcoholics Anonymous meetings out of his desk drawer; he had already highlighted the young people’s meetings. He told me to go home and not drink at all for the rest of the day. He would call me at nine p.m. and wanted to hear that I hadn’t taken a drink. It was rough, but I went home and locked myself in my room, sweating it out until he called. He asked if I had had a drink. I told him I had not and asked what I should do next. He told me to do the same thing tomorrow, except tomorrow I should also go to the first meeting on the list he had highlighted. The next day I went to my first meeting of Alcoholics Anonymous. I was eighteen years old. In the parking lot, I sat in my car for about fifteen minutes before the meeting started, trying to work up the courage to go in and face myself. I remember finally working up the nerve to open the door and get out, only to close the door, dismissing the notion of going into the meeting as ridiculous. This dance of indecisiveness went on about fifty times before I went in. Had I not gone in, I believe I would not be alive today.
 
-- **`story-the-missing-link-p015`** (kind: paragraph, pdfPage 292)
+- **`story-the-missing-link-p012`** (kind: paragraph, pdfPage 292)
 
-  > in. Had I not gone in, I believe I would not be alive today.
+  > A couple of members, realizing I was there for my first meeting, took me downstairs and sat down with me and outlined the program. I can recall very little of what was said. I remember telling these members that this program they outlined sounded like just what I needed, but I didn’t think I could stay sober for the rest of my life. Exactly how was I supposed to not drink if my girlfriend breaks up with me, or if my best friend dies, or even through happy times like graduations, weddings, and birthdays. They suggested I could just stay sober one day at a time. They explained that it might be easier to set my sights on the twentyfour hours in front of me and to take on these other situations when and if they ever arrived. I decided to give sobriety a try, one day at a time, and I’ve done it that way ever since. When I entered Alcoholics Anonymous, I had done some damage physically, had a bouquet of mental quirks, and was spiritually bankrupt. I knew I was powerless over alcohol and that I needed to be openminded toward what people suggested for recovery. However, when it came to spirituality, I fought it nearly every step of the way. Although raised in an ethnic and religious Jewish household, I was agnostic and very resistant to anyone and anything that I perceived to be imposing religious beliefs. To my surprise, Alcoholics Anonymous suggested something different. The idea that religion and spirituality were not one and the same was a new notion. My sponsor asked that I merely remain open-minded to the possibility that there was a Power greater than myself, one of my own understanding. He assured me that no person was going to impose a belief system on me, that it was a personal matter. Reluctantly, I opened my mind to the fact that maybe, just maybe, there was something to this spiritual lifestyle. Slowly but surely, I realized there was indeed a Power greater than myself, and I soon found myself with a full-time God in my life and following a spiritual path that didn’t conflict with my personal religious convictions. Following this spiritual path made a major difference in my life. It seemed to fill that lonely hole that I used to fill with alcohol. My self-esteem improved dramatically, and I knew happiness and serenity as I had never known it before. I started to see the beauty and usefulness in my own existence, and tried to express my gratitude through helping others in whatever ways I could. A confidence and faith entered my life and unraveled a plan for me that was bigger and better than I could have ever imagined.
 
-- **`story-the-missing-link-p018`** (kind: paragraph, pdfPage 292)
+- **`story-the-missing-link-p014`** (kind: paragraph, pdfPage 292)
 
-  > situations when and if they ever arrived. I decided to give sobriety a try, one day at a time, and I’ve done it that way ever since. When I entered Alcoholics Anonymous, I had done some damage physically, had a bouquet of mental quirks, and was spiritually bankrupt. I knew I was powerless over alcohol and that I needed to be openminded toward what people suggested for recovery. However, when it came to spirituality, I fought it nearly every step of the way. Although raised in an ethnic and religious Jewish household, I was agnostic and very resistant to anyone and anything that I perceived to be imposing religious beliefs. To my surprise, Alcoholics Anonymous suggested something different. The idea that religion and spirituality were not one and the same was a new notion. My sponsor asked that I merely remain open-minded to the possibility that there was a Power greater than myself, one of my own understanding. He assured me that no person was going to impose a belief system on me, that it was a personal matter. Reluctantly, I opened my mind to the fact that maybe, just maybe, there was something to this spiritual lifestyle. Slowly but surely, I realized there was indeed a Power greater than myself, and I soon found myself with a full-time God in my life and following a spiritual path that didn’t conflict with my personal religious convictions. Following this spiritual path made a major difference in my life. It seemed to fill that lonely hole that I used to fill with alcohol. My self-esteem improved dramatically, and I knew happiness and serenity as I had never known it before. I started to see the beauty Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 288
+  > Over the last seven years, nearly everything I thought I could not stay sober through has happened. Indeed, sobriety and life are full of ups and downs. Occasionally depression can creep back into my life and requires outside help. However, this program has provided me with the tools to stay sober through the death of my best friends, failed relationships, and good times like birthdays, weddings, and graduations. Life is exponentially better than it ever was before. I’m living out the life I used to fantasize about, and I have a whole lot of work still in front of me. I have hope to share and love to give, and I just keep going one day at a time, living this adventure called life.
 
 ## story-fear-of-fear — Fear of Fear (p. 300)
 
-- **`story-fear-of-fear-p007`** (kind: paragraph, pdfPage 300)
+- **`story-fear-of-fear-p005`** (kind: paragraph, pdfPage 300)
 
-  > I got into terrific trouble with my drinking. I was afraid, and I had made my mind up that I would never get drunk, so I was watchful and careful. We had a small child, and I loved her dearly, so that held me back quite a bit in my drinking career. Even so, every time I drank, I seemed to get in trouble. I al- Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 291
+  > I started drinking nearly thirty years ago—right after I was married. My first drinking spree was on corn liquor, and I was allergic to it, believe me. I was deathly sick every time I took a drink. But we had to do a lot of entertaining. My husband liked to have a good time; I was very young, and I wanted to have a good time too. The only way I knew to do it was to drink right along with him.
 
-- **`story-fear-of-fear-p015`** (kind: paragraph, pdfPage 300)
+- **`story-fear-of-fear-p006`** (kind: paragraph, pdfPage 300)
+
+  > I got into terrific trouble with my drinking. I was afraid, and I had made my mind up that I would never get drunk, so I was watchful and careful. We had a small child, and I loved her dearly, so that held me back quite a bit in my drinking career. Even so, every time I drank, I seemed to get in trouble. I always wanted to drink too much, so I was watchful, always watchful, counting my drinks. If we were invited to a formal party and I knew they were only going to have one or two drinks, I wouldn’t have any. I was being very cagey, because I knew that if I did take one or two, I might want to take five or six or seven or eight. I did stay fairly good for a few years. But I wasn’t happy, and I didn’t ever let myself go in my drinking. After my son, our second child, came along, and as he became school age and was away at school most of the time, something happened. I really started drinking with a bang. I never went to a hospital. I never lost a job. I was never in jail. And, unlike many others, I never took a drink in the morning. I needed a drink, but I was afraid to take a morning drink, because I didn’t want to be a drunk. I became a drunk anyway, but I was scared to death to take that morning drink. I was accused of it many times when I went to play bridge in the afternoon, but I really never did take a morning drink. I was still woozy from the night before. I should have lost my husband, and I think that only the fact that he was an alcoholic too kept us together. No one else would have stayed with me. Many women who have reached the stage that I had reached in my drinking have lost husbands, children, homes, everything they hold dear. I have been very fortunate in many ways. The important thing I lost was my own self-respect. I could feel fear coming into my life. I couldn’t face people. I couldn’t look them straight in the eyes, although I had always been a self-possessed, brazen person. I’d brazen anything out. I lied like a trooper to get out of many scrapes.
+
+- **`story-fear-of-fear-p010`** (kind: paragraph, pdfPage 300)
 
   > Many of my neighbors devoted time to volunteer work. There was one woman especially, and I’d watch her from my window every morning, leaving faithfully to go to the hospital in the neighborhood. I said to her one day when I met her on the street, “What sort of volunteer work do you do?” She told me; it was simple; I could have done it very easily. She said, “Why don’t you do it too?” I said, “I’d love to.” She said, “Suppose I put your name down as a volunteer—even if you can only give one or two days?” But then I thought, well, now wait, how will I feel next Tuesday? How will I feel next Friday, if I make it a Friday? How will I feel next Saturday morning? I never knew. I was afraid to set even one day. I could never be sure I’d have a clear head and hands that were willing to do some work. So I never did any volunteer work. And I felt depleted, whipped. I had the time, I certainly had the capability, but I never did a thing.
-
-- **`story-fear-of-fear-p016`** (kind: paragraph, pdfPage 300)
-
-  > I am trying now, each day, to make up for all those selfish, thoughtless, foolish things I did in my drinking days. I hope that I never forget to be grateful.
 
 ## story-the-housewife-who-drank-at-home — The Housewife Who Drank at Home (p. 306)
 
@@ -428,27 +428,27 @@ Seed: 42 · Sections: 68
 
   > THE HOUSEWIFE WHO DRANK
 
-- **`story-the-housewife-who-drank-at-home-p005`** (kind: paragraph, pdfPage 306)
+- **`story-the-housewife-who-drank-at-home-p004`** (kind: paragraph, pdfPage 306)
 
-  > I had problems. We all have them, and I thought a little brandy or a little wine now and then could certainly hurt no one. I don’t believe, when I started, that I even had in mind the thought that I was drinking. I had to sleep, I had to clear my mind and free it from worry, and I had to relax. But from one or two drinks of an afternoon or evening, my intake mounted, and mounted fast. It wasn’t long before I was drinking all day. I had to have that wine. The only incentive that I had, toward the end, for getting dressed in the morning was to get out and get “supplies” to help me get my day started. But the only thing that got started was my drinking.
+  > M           y story happens to be a particular kind of woman’s story: the story of the woman who drinks at home. I had to be at home—I had two babies. When alcohol took me over, my bar was my kitchen, my living room, my bedroom, the back bathroom, and the two laundry hampers. At one time the admission that I was and am an alcoholic meant shame, defeat, and failure to me. But in the light of the new understanding that I have found in A.A., I have been able to interpret that defeat and that failure and that shame as seeds of victory. Because it was only through feeling defeat and feeling failure, the inability to cope with my life and with alcohol, that I was able to surrender and accept the fact that I had this disease and that I had to learn to live again without alcohol. I was never a very heavy social drinker. But during a period of particular stress and strain about thirteen years ago, I resorted to using alcohol in my home, alone, as a means of temporary release and of getting a little extra sleep.
 
 - **`story-the-housewife-who-drank-at-home-p008`** (kind: paragraph, pdfPage 306)
 
-  > and I knew I was drinking too much, but I wasn’t conscious of the fact that I should stop. I kept on. My home at that time was a place to mill around in. I wandered from room to room, thinking, drinking, drinking, thinking. And the mops would come out, the vacuum would come out, everything would come out, but nothing would get done. Toward five o’clock, helter-skelter, I’d get everything put away and try to get supper on the table, and after supper I’d finish the job up and knock myself out. I never knew which came first, the thinking or the drinking. If I could only stop thinking, I wouldn’t drink. If I could only stop drinking, maybe I wouldn’t think. But they were all mixed up together, and I was all mixed up inside. And yet I had to have that drink. You know the deteriorating effects, the disintegrating effects, of chronic wine-drinking. I cared nothing about my personal appearance. I didn’t care what I looked like; I didn’t care what I did. To me, taking a bath was just being in a place with a bottle where I could drink in privacy. I had to have it with me at night, in case I woke up and needed that drink. How I ran my home, I don’t know. I went on, realizing what I was becoming, hating myself for it, bitter, blaming life, blaming everything but the fact that I should turn about and do something about my drinking. Finally I didn’t care; I was beyond caring. I just wanted to live to a certain age, carry through with what I felt was my job with the children, and after that—no matter. Half a mother was better than no mother at all. I needed that alcohol. I couldn’t live without it. I couldn’t do anything without it. But there came a Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 298
+  > After that I sat for a week, a body in a chair, a mind off in space. I thought the two would never get together. I knew that alcohol and I had to part. I couldn’t live with it anymore. And yet, how was I going to live without it? I didn’t know. I was bitter, living in hate. The very person who stood with me through it all and has been my greatest help was the person that I turned against, my husband. I also turned against my family, my mother. The people who would have come to help me were just the people I would have nothing to do with.
 
 ## story-physician-heal-thyself — Physician, Heal Thyself! (p. 312)
 
-- **`story-physician-heal-thyself-p007`** (kind: paragraph, pdfPage 312)
+- **`story-physician-heal-thyself-p006`** (kind: paragraph, pdfPage 312)
 
-  > PHYSICIAN, HEAL THYSELF!              303 something will happen.” And then we went up the side of a hill where we have a little barbecue area to make the fire for the barbecue, and on the way up I thought to myself—I’ll go back down to the kitchen and refill this drink. And just then, something did happen. The thought came to me—This is the last one! I was well into the second fifth by this time. And as that thought came to me, it was as though someone had reached down and taken a heavy overcoat off my shoulders, for that was the last one. About two days later I was called by a friend of mine from Nevada City—he’s a brother of my wife’s closest friend. He said, “Earle?” and I said, “Yes.” He said, “I’m an alcoholic; what do I do?” And I gave him some idea of what you do, and so I made my first Twelfth Step call before I ever came into the program. The satisfaction I got from giving him a little of what I had read in those pamphlets far surpassed any feeling that I had ever had before in helping patients. So I decided that I would go to my first meeting. I was introduced as a psychiatrist. (I belong to the American Psychiatric Society, but I don’t practice psychiatry as such. I am a surgeon.) As someone in A.A. said to me once upon a time, there is nothing worse than a confused psychiatrist. I will never forget the first meeting that I attended. There were five people present, including me. At one end of the table sat our community butcher. At the other side of the table sat one of the carpenters in our community, and at the farther end of the table sat the man who ran the bakery, while on one side sat my friend who was a mechanic. I recall, as I walked into Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 304
+  > PHYSICIAN, HEAL THYSELF!              303 something will happen.” And then we went up the side of a hill where we have a little barbecue area to make the fire for the barbecue, and on the way up I thought to myself—I’ll go back down to the kitchen and refill this drink. And just then, something did happen. The thought came to me—This is the last one! I was well into the second fifth by this time. And as that thought came to me, it was as though someone had reached down and taken a heavy overcoat off my shoulders, for that was the last one. About two days later I was called by a friend of mine from Nevada City—he’s a brother of my wife’s closest friend. He said, “Earle?” and I said, “Yes.” He said, “I’m an alcoholic; what do I do?” And I gave him some idea of what you do, and so I made my first Twelfth Step call before I ever came into the program. The satisfaction I got from giving him a little of what I had read in those pamphlets far surpassed any feeling that I had ever had before in helping patients. So I decided that I would go to my first meeting. I was introduced as a psychiatrist. (I belong to the American Psychiatric Society, but I don’t practice psychiatry as such. I am a surgeon.) As someone in A.A. said to me once upon a time, there is nothing worse than a confused psychiatrist. I will never forget the first meeting that I attended. There were five people present, including me. At one end of the table sat our community butcher. At the other side of the table sat one of the carpenters in our community, and at the farther end of the table sat the man who ran the bakery, while on one side sat my friend who was a mechanic. I recall, as I walked into that meeting, saying to myself, “Here I am, a Fellow of the American College of Surgeons, a Fellow of the International College of Surgeons, a diplomate of one of the great specialty boards in these United States, a member of the American Psychiatric Society, and I have to go to the butcher, the baker, and the carpenter to help make a man out of me!”
 
-- **`story-physician-heal-thyself-p014`** (kind: paragraph, pdfPage 312)
+- **`story-physician-heal-thyself-p013`** (kind: paragraph, pdfPage 312)
 
-  > For myself, I have an absolute proof of the existence of God. I was sitting in my office one time after I had operated on a woman. It had been a long fouror five-hour operation, a large surgical procedure, and she was on her ninth or tenth post-operative day. She was doing fine, she was up and around, and that day her husband phoned me and said, “Doctor, thanks very much for curing my wife,” and I thanked him for his felicitations, and he hung up. And then I scratched my head and said to myself, What a fantastic thing for a man to say, that I cured his wife. Here I am down at my office behind my desk, and there she is out at the hospital. I am not even there, and if I was there the only thing I could do would be to give her moral support, and yet he thanks me for curing his wife. I thought to myself—What is curing that woman? Yes, I put in those stitches. The Great Boss Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 307
+  > Doctors have been notoriously unsuccessful in helping alcoholics. They have contributed fantastic amounts of time and work to our problem, but they aren’t able, it seems, to arrest either your alcoholism or mine.
 
-- **`story-physician-heal-thyself-p016`** (kind: paragraph, pdfPage 312)
+- **`story-physician-heal-thyself-p015`** (kind: paragraph, pdfPage 312)
 
-  > except one thing, and that is the opportunity to do anything you want always, and I would like to start off by doing the dishes.” And now I am doing the darn dishes every night!
+  > What is this power that A.A. possesses? This curative power? I don’t know what it is. I suppose the doctor might say, “This is psychosomatic medicine.” I suppose the psychiatrist might say, “This is benevolent interpersonal relations.” I suppose others would say, “This is group psychotherapy.”
 
 ## story-my-chance-to-live — My Chance to Live (p. 320)
 
@@ -456,97 +456,97 @@ Seed: 42 · Sections: 68
 
   > A.A. gave this teenager the tools to climb out of her dark abyss of despair.
 
-- **`story-my-chance-to-live-p016`** (kind: paragraph, pdfPage 320)
+- **`story-my-chance-to-live-p012`** (kind: paragraph, pdfPage 320)
 
-  > It was never my intention to end up in A.A. If someone mentioned perhaps I drank too much, I Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 313
+  > On the rare days I managed to make it past noon, there were few brave enough to get within a hundred yards of me. I was not a nice person sober. I was angry and frightened, and I wanted you to feel as terrible as I did. A few times I had drinks pushed on me: “Here, drink this; then maybe you won’t be so difficult.” I always had a nasty retort, and then took what was offered. Toward the end I prayed every night for God to take me in my sleep, and I cursed Him in the morning for allowing me to live.
 
-- **`story-my-chance-to-live-p029`** (kind: paragraph, pdfPage 320)
+- **`story-my-chance-to-live-p020`** (kind: paragraph, pdfPage 320)
 
-  > turn out as they should. When I’m afraid, I reach for the hand of another alcoholic to steady me.
+  > No one who drank as I did wakes up on the edge of the abyss one morning and says: Things look pretty scary; I think I’d better stop drinking before I fall in. I was convinced I could go as far as I wanted, and then climb back out when it wasn’t fun anymore. What happened was, I found myself at the bottom of the canyon thinking I’d never see the sun again. A.A. didn’t pull me out of that hole. It did give me the tools to construct a ladder, with Twelve Steps.
 
 ## story-student-of-life — Student of Life (p. 330)
 
-- **`story-student-of-life-p007`** (kind: paragraph, pdfPage 330)
+- **`story-student-of-life-p006`** (kind: paragraph, pdfPage 330)
 
   > When I discovered alcohol, everything changed. I took my first real drink my first night at college. I attended what was to be the first of many, many fraternity parties. I didn’t care for the beer, so I went to the vat of innocuous-looking punch. I was told it was laced with grain alcohol. I don’t remember how many drinks
 
-- **`story-student-of-life-p042`** (kind: paragraph, pdfPage 330)
+- **`story-student-of-life-p008`** (kind: paragraph, pdfPage 330)
 
-  > It was the second meeting that clinched my resolve to pursue sobriety. There were about thirty-five people in attendance, but the space was small, so the meeting seemed very crowded. Being from out of town, I stood up and introduced myself when asked to Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 326
+  > Everything made sense. I could dance, talk, and enjoy being in my own skin. It was as if I had been an unfinished jigsaw puzzle with one piece missing; as soon as I took a drink, the last piece instantly and effortlessly snapped into place.
 
-- **`story-student-of-life-p049`** (kind: paragraph, pdfPage 330)
+- **`story-student-of-life-p041`** (kind: paragraph, pdfPage 330)
 
   > It is almost impossible to adequately describe how much the program has given me, even in just these six short years. I have been financially supporting myself in my own apartment for five years and plan to buy a house next year. I’ve secured a good job with a promising future—my income has increased more than 150 percent since I got sober.
 
 ## story-crossing-the-river-of-denial — Crossing the River of Denial (p. 339)
 
-- **`story-crossing-the-river-of-denial-p005`** (kind: paragraph, pdfPage 339)
+- **`story-crossing-the-river-of-denial-p004`** (kind: paragraph, pdfPage 339)
 
-  > Dad was an alcoholic, and my mother drank throughout her pregnancy, but I don’t blame my parents for my alcoholism. Kids with a lot worse upbringings than mine did not turn out alcoholic, while some that had it a lot better did. In fact I stopped wondering, “Why me?” a long time ago. It’s like a man standing on a bridge in the middle of a river with his pants on fire wondering why his pants are on fire. It doesn’t matter. Just jump in! And that is exactly what I did with A.A. once I finally crossed the river of denial!
+  > D        enial is the most cunning, baffling, and powerful part of my disease, the disease of alcoholism. When I look back now, it’s hard to imagine I didn’t see a problem with my drinking. But instead of seeing the truth when all of the “yets” (as in, that hasn’t happened to me—yet) started happening, I just kept lowering my standards.
 
-- **`story-crossing-the-river-of-denial-p017`** (kind: paragraph, pdfPage 339)
+- **`story-crossing-the-river-of-denial-p007`** (kind: paragraph, pdfPage 339)
 
-  > Tomorrow. I won’t drink tomorrow. I despised all of it, but at least it was familiar. I had no idea what sobriety felt like, and I could not imagine life without alcohol. I had reached that terrifying jumping-off point where I couldn’t drink anymore but I just couldn’t not drink. For almost twenty-three years I had done something nearly every day of my life to change reality to one degree or another, yet I had to try this sober thing.
+  > One morning while I was at work, a hospital called, telling me to get there quickly. My father was there, dying of alcoholism. He was sixty. I had seen him in hospitals before, but this time was different. With stomach sorely distended, swollen with fluids his nonfunctioning kidneys and liver could no longer process, he lingered for three weeks. Alcoholic death is very painful and slow. Seeing him die of alcoholism convinced me I could never become an alcoholic. I knew too much about the disease, had too much self-knowledge to ever fall prey. I shipped his body back home without attending the funeral. I could not even help my grandmother bury her only son, because by then I was inextricably involved in an affair mired in sex and alcohol.
 
-- **`story-crossing-the-river-of-denial-p018`** (kind: paragraph, pdfPage 339)
+- **`story-crossing-the-river-of-denial-p011`** (kind: paragraph, pdfPage 339)
 
-  > To this day I am amazed at people who get sober before the holidays. I couldn’t even attempt it until after the Super Bowl. One last blow-out party when I swore I wouldn’t get drunk. When I put alcohol in my body, I’d lose the ability to choose how much I drank, and Super Bowl Sunday that year was no different. I ended up on someone’s couch instead of my own bed and was sick to death all the next day at work. That week I had to go to a hockey game. It was a work event, so I tried to really watch my drinking, consuming only two large cups of beer which, for me, wasn’t even enough to catch a buzz. And that was the beginning of my spiritual awakening. Sitting near the ice, frustrated, and pondering the fact that two tall beers didn’t give me any relief, something in my head—and I know it wasn’t me—said, “So why bother?” At that moment I knew what the Big Book meant about the great obsession of every abnormal drinker being to somehow, someday control and enjoy his drinking. On Super Bowl Sunday, when I enjoyed it, I couldn’t control it, and at the hockey game when I controlled it, I couldn’t enjoy it. There was no more denying that I was an alcoholic. What an epiphany!
+  > The judge sentenced me to six months in Alcoholics Anonymous, and was I outraged! By now I had been arrested five times, but all I could see was a hard partier, not an alcoholic. Didn’t you people know the difference? So I started going to those stupid meetings and identified myself as an alcoholic so you’d sign my court card, even though I couldn’t possibly be an alcoholic. I had a six-figure income, owned my own home. I had a car phone. I used ice cubes, for God’s sake. Everyone knows an alcoholic, at least one that had to go to A.A., is a skid row bum in a dirty raincoat drinking from a brown paper bag. So each time you read that part in Chapter Five of the Big Book that says, “If you have decided you want what we have and are willing to go to any length to get it,” my ears closed. You had the disease of alcoholism, and the last thing I wanted was to be an alcoholic. Eventually, you talked about my feelings in the meetings of Alcoholics Anonymous until I could no longer close my ears. I heard women, beautiful, successful women in recovery, talk about the things they had done while drinking, and I would think, “I did that” or “I did worse than that!” Then I began to see the miracles that happen only in A.A. People who would nearly crawl in the doors, sick and broken, and who in a few weeks of meetings and not drinking one day at a time would get their health back, find a little job and friends who really cared, and then discover a God in their lives. But the most compelling part of A.A., the part that made me want to try this sober thing, was the laughter, the pure joy of the laughter that I heard only from sober alcoholics. Still, the thought of getting sober terrified me. I hated the woman I had become, a compulsive, obsessive daily drinker, not dressing on weekends, always afraid of running out of alcohol. I’d start thinking about a drink by noon and would leave the office earlier and earlier. Or, promising myself that I wouldn’t drink that night, I’d invariably find myself in front of the refrigerator with a drink in my hand, vowing, Tomorrow. I won’t drink tomorrow. I despised all of it, but at least it was familiar. I had no idea what sobriety felt like, and I could not imagine life without alcohol. I had reached that terrifying jumping-off point where I couldn’t drink anymore but I just couldn’t not drink. For almost twenty-three years I had done something nearly every day of my life to change reality to one degree or another, yet I had to try this sober thing.
 
 ## story-because-im-an-alcoholic — Because I'm an Alcoholic (p. 349)
 
-- **`story-because-im-an-alcoholic-p005`** (kind: paragraph, pdfPage 349)
+- **`story-because-im-an-alcoholic-p003`** (kind: paragraph, pdfPage 349)
 
-  > Alcohol helped. At least I thought it helped until I saw the oppressive thirty-year shadow it cast on my life. I discovered it in college, and although at first I didn’t drink often (didn’t have the opportunity), whenever I started, I drank as long as there was any alcohol around. It was a reflex. I don’t remember liking the taste, but I liked that it seemed to bring me to life and get me through a date or a party able to talk. It moved me outside of that hole I felt in myself and lowered the wall I created between me and any person or situation that made me uncomfortable.
+  > This drinker finally found the answer to her nagging question, “Why?”
 
 - **`story-because-im-an-alcoholic-p006`** (kind: paragraph, pdfPage 349)
 
-  > For ten years, through college and graduate school interspersed with jobs, I drank periodically, so it was easy enough to think that I was a social drinker. Looking back, I see that alcohol helped me construct an image of myself as a sophisticated metropolitan Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 339
+  > For ten years, through college and graduate school interspersed with jobs, I drank periodically, so it was easy enough to think that I was a social drinker. Looking back, I see that alcohol helped me construct an image of myself as a sophisticated metropolitan woman, diminishing my feelings of being a backward country girl. I studied vintage wines and selected them with care to accompany the gourmet dishes I learned to make. I read about the correct drinks for various occasions. I learned to put just the tiniest whiff of dry vermouth into my martinis. Meanwhile, my tolerance for alcohol grew, so that while at first I got sick or passed out, as time went on I could hold larger quantities without any visible effects. Until the next morning’s hangover. Behind the façade, my real life seemed just out of reach. I wanted to consider myself grown up, but inside I felt small and helpless, hardly there at all. I would look at my friends—delightful, interesting, good people—and try to define myself through them. If they saw something in me that made them want to be with me, I must have something to offer. But their love for me was not a substitute for loving myself; it didn’t fill the emptiness. So I continued spinning fantasies, and now alcohol fueled my dreams. I would make great discoveries, win the Nobel Prize in medicine and in literature as well. Always the dream was somewhere else, further off, and I took a series of geographical cures in search of myself. I was offered a job in Paris and jumped at the chance. I packed my trunk, left my apartment to my boyfriend, and sailed off, thinking that at last I would find my real home, my real self. I began to drink daily and rationalized that in France, of course, you have to have wine with meals. And after the dinner, after the wine, then there were liqueurs. My journals and letters bear witness in the deterioration of my handwriting as the evening wore on, drinking as I wrote. It was there too that I first became dependent on alcohol. After work, on the way to the Alliance Française for classes, I’d stop at a bistro for a glass of cognac to give me courage to get me there—my need greater than the embarrassment of being a woman drinking alone in the 1950s. One vacation, I went to visit friends in Scotland, traveling slowly through the English and Welsh countryside. The bottles of cognac and Benedictine I’d brought as gifts for them I drank in little hotel rooms miles before I got there. As long as it lasted, I could stay out of the pubs.
 
-- **`story-because-im-an-alcoholic-p011`** (kind: paragraph, pdfPage 349)
+- **`story-because-im-an-alcoholic-p012`** (kind: paragraph, pdfPage 349)
 
-  > One time we sailed from Guadelupe to a little island for a picnic, swam to shore from the ship. After lunch, and quantities of wine, I was with a French ski instructor talking to a troop of small boys on their way home from school, trying to explain to those tropical islanders what snow is like. I remember them giggling. The next thing I knew, I was back at the camp, walking to the dining room—apparently after swimming back to the ship, sailing to the port, then taking a rickety bus across the island. I had no memory of what I had done during those hours between. The blackouts increased, and my terror increased with them. Telephone bills would inform me that I’d made late-night calls to distant places. I could tell from the numbers whom I’d called, but what had I said? Some mornings I woke up with a stranger who had brought me home from a party the night before. These things weighed heavily on me, but I couldn’t stop the drinking that had caused them. That too gnawed away any remnants of self-respect I might have had. I was incapable of controlling my drinking and my life. I needed a drink to go anyplace—to the theater, a party, a date, and, later, to work. I would leave my apartment, lock the door, and start down the stairs, and then turn around and go back in for another drink to get me where I planned to go. I needed a drink to do anything—to write, to cook, to clean the house, to paint the walls, to take a bath. When I passed out and fell into bed early, I woke up at four or five and had Irish coffee to start the day. I discovered that beer was better than orange juice to ease my hangover. Afraid my colleagues or students Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 342
+  > I went to that meeting—a small women’s group. I was scared and in withdrawal. Someone greeted me and I muttered my name aloud. Someone brought me a cup of coffee. People gave me their phone numbers and urged me to call, to pick up the telephone instead of a drink. They were warm and friendly. They said keep coming back.
 
 ## story-it-might-have-benn-worse — It Might Have Benn Worse (p. 359)
 
-- **`story-it-might-have-benn-worse-p008`** (kind: paragraph, pdfPage 359)
+- **`story-it-might-have-benn-worse-p006`** (kind: paragraph, pdfPage 359)
 
-  > hunting, and fishing were now merely excuses to drink excessively.
+  > I was raised like the majority of American boys, coming from a family of modest circumstances, attending public schools, having the social life of a small midwestern town, with part-time work and some athletics. The ambition to succeed was instilled in me by my Scandinavian parents who came to this country where opportunities were so great. “Keep busy; always have something constructive to do.” I did work of all kinds after school and during vacations, trying to find that which would appeal most as a goal for a life work. Then there was wartime service to interrupt my plans, and an education to be picked up after the war. After that came marriage, getting started in business, and a family. The story is not very different from that of thousands of other young men in my generation. It shows nothing or no one to blame for alcoholism. The drive to get ahead, to succeed, kept me too busy for many years to have any great experience with social life. I would have begrudged the time or money for alcohol. In fact I was afraid to try it for fear that I would wind up like many examples I had seen of excessive drinking in the army. I was intolerant of people who drank, particularly those who drank to an extent that interfered with their on-the-job performance. In time I became an officer and director of one of the largest commercial banks in the country. I achieved recognized and national standing in my profession, as well as becoming a director in many important institutions having to do with the civic life of a large city. I had a family to be proud of, actively sharing in the responsibilities of good citizenship. My drinking did not start until after I was thirty-five and a fairly successful career had been established. But success brought increased social activities, and I realized that many of my friends enjoyed a social drink with no apparent harm to themselves or others. I disliked being different so, ultimately, I began to join them occasionally. At first it was just that—an occasional drink. Then I looked forward to the weekend of golf and the nineteenth hole. The cocktail hour became a daily routine. Gradually, the quantity increased and the occasions for a drink came more frequently: a hard day, worries and pressure, bad news, good news—there were more and more reasons for a drink. Why did I want increasingly greater quantities of alcohol? It was frightening that drink was being substituted for more and more of the things I really enjoyed doing. Golf, hunting, and fishing were now merely excuses to drink excessively.
 
-- **`story-it-might-have-benn-worse-p013`** (kind: paragraph, pdfPage 359)
+- **`story-it-might-have-benn-worse-p017`** (kind: paragraph, pdfPage 359)
 
-  > I was living in constant fear that I would get caught while driving a car, so I used taxis part of the time. Then I began to have blackouts, and that was a constant worry. To wake up at home, not knowing how I got there, and to realize I had driven my car, became torture. Not knowing where I had been or how I got home was making me desperate.
+  > Could I be an alcoholic without some of the hairraising experiences I had heard of in meetings? The answer came to me very simply in the first step of the Twelve Steps of A.A. “We admitted we were powerless over alcohol—that our lives had become unmanageable.” This didn’t say we had to be in jail, ten, fifty, or one hundred times. It didn’t say I had to lose one, five, or ten jobs. It didn’t say I had to lose my family. It didn’t say I had to finally live on skid row and drink bay rum, canned heat, or lemon extract. It did say I admitted I was powerless over alcohol—that my life had become unmanageable.
 
 - **`story-it-might-have-benn-worse-p024`** (kind: paragraph, pdfPage 359)
 
-  > Most certainly I was powerless over alcohol, and for me, my life had become unmanageable. It wasn’t how far I had gone, but where I was headed. It was important to me to see what alcohol had done to me and would continue to do if I didn’t have help.
+  > The fact that A.A. is a spiritual program didn’t scare me or raise any prejudice in my mind. I couldn’t afford the luxury of prejudice. I had tried my way and had failed.
 
 ## story-tightrope — Tightrope (p. 370)
 
-- **`story-tightrope-p009`** (kind: paragraph, pdfPage 370)
+- **`story-tightrope-p006`** (kind: paragraph, pdfPage 370)
 
-  > in addition to my gay and straight friends from my private lives. Needless to say, as the drinking increased, things became ever more confused. Eventually, the pressures became too great. I had formed a serious relationship and decided that I could no longer carry on the deception. Instead, I would change careers and go into teaching. For a while things seemed to be going well. But the slide toward active alcoholism was slowly accelerating. I had had my first blackout several years before. At that time I told myself that if it ever happened again, I would stop drinking. It happened again—and again and again—but I didn’t stop. I was always able to come up with some explanation, excuse, or rationalization that justified my continued drinking. In time, personality changes began to occur with regularity when I drank. I had always had a sharp tongue; when drinking, I frequently became vitriolic. At other times I could be charming and affectionate, sometimes too much so. People never knew just what I would do or say. After a few years I was a nightly blackout drinker. My lover drank heavily as well, and I began to compare my drinking with his. I argued to myself that I could not have a problem because his drinking was worse than mine at times. In fact, I suggested that he might try A.A. When he did try this Fellowship, I did all I could to undermine his efforts to get sober—his recovery would present an obvious, if unacknowledged, threat to my drinking. Eventually, the stress became too much and we broke up, but not before I had succeeded in undermining his recovery. The slide continued. Most of my friends were un- Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 362
+  > I had to walk this tightrope while trying to build a solid professional life as well. After college I had gone on to law school, where drinking on a daily basis became the norm. I justified myself with the thought that a few drinks helped me to relax and “focus” on my studies. Somehow, I managed to do well in law school and to land several prestigious legal positions afterward. I soon learned that I could not drink during the day; if I had even one drink at lunch, the rest of the afternoon would be lost. Instead, I postponed my drinking until immediately after work and would then make up for lost time.
 
-- **`story-tightrope-p016`** (kind: paragraph, pdfPage 370)
+- **`story-tightrope-p007`** (kind: paragraph, pdfPage 370)
 
-  > I called my former lover, and he put me in contact with an individual who took me to my first meeting. Although I can barely recall anything about that meeting, I heard two things I have never forgotten. The first was “You don’t have to drink again.” This was a total revelation to me. For a long time I had believed that alcohol was one of the few positive things left in my life. I looked forward to my first drink every evening and thought that alcohol was holding my life together. I had to drink to survive, let alone to have any comfort. Yet here, people who had been in the same boat were telling me that I didn’t have to drink. Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 365
+  > Work in a law firm added a third side to my already divided life. Now I had to try to maintain social relations with clients, members, and associates of the firm, in addition to my gay and straight friends from my private lives. Needless to say, as the drinking increased, things became ever more confused. Eventually, the pressures became too great. I had formed a serious relationship and decided that I could no longer carry on the deception. Instead, I would change careers and go into teaching. For a while things seemed to be going well. But the slide toward active alcoholism was slowly accelerating. I had had my first blackout several years before. At that time I told myself that if it ever happened again, I would stop drinking. It happened again—and again and again—but I didn’t stop. I was always able to come up with some explanation, excuse, or rationalization that justified my continued drinking. In time, personality changes began to occur with regularity when I drank. I had always had a sharp tongue; when drinking, I frequently became vitriolic. At other times I could be charming and affectionate, sometimes too much so. People never knew just what I would do or say. After a few years I was a nightly blackout drinker. My lover drank heavily as well, and I began to compare my drinking with his. I argued to myself that I could not have a problem because his drinking was worse than mine at times. In fact, I suggested that he might try A.A. When he did try this Fellowship, I did all I could to undermine his efforts to get sober—his recovery would present an obvious, if unacknowledged, threat to my drinking. Eventually, the stress became too much and we broke up, but not before I had succeeded in undermining his recovery. The slide continued. Most of my friends were unwilling to put up with my conduct—the verbal and sometimes physical abuse, the midnight phone calls, the forgotten invitations, and the selfish disregard of anything but my own need to drink. Those few friends who did not withdraw were forced away by my resentments and increasing paranoia. I cut people out of my life, refusing to return phone calls and ignoring them when we met by chance. By the end of my drinking, only two people were willing to have anything to do with me on a social basis, and both were heavy drinkers who were not surprised by my actions.
 
-- **`story-tightrope-p023`** (kind: paragraph, pdfPage 370)
+- **`story-tightrope-p013`** (kind: paragraph, pdfPage 370)
 
-  > difficulty over the Third Step and “the God concept,” I began to develop a sense of trust in the A.A. group and in the ideals of the Fellowship as a manifestation of a Power greater than myself. Although for many years I did not come to an acceptance of a God who intervened personally and directly in the lives of individuals, I was able to accept the idea of a force that moved in the rooms and animated A.A. members with a sense of unconditional love. That satisfied my spiritual needs for a long time. A later sponsor took me through Steps Eight and Nine and provided me with support during some trying times. In my third year of sobriety, I was bedridden for over a month as a result of that earlier injury to my spinal discs, my father died, a relationship ended, and the AIDS epidemic started to hit home among my friends and acquaintances. Over the course of that and the next few years, almost half of my gay friends died. I learned in that year that if I ask for help, my Higher Power will never give me anything I can’t handle. It was in this period that I started to turn to service beyond the group level. I had helped in founding the first gay A.A. group in my part of town and was elected general service representative after having served in other group offices. I knew nothing of general service at that time, and I decided to learn what it was all about so I could do a decent job and be able to pass it on to a successor as quickly as possible. After two years I went on to do a number of other service jobs for A.A. In all these positions I never felt obligated to conceal or deny my sexuality. I have always felt that the Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 368
+  > He suggested that for me a good starting point would simply be recognition of the fact that I had failed in running the world—in short, acceptance of the fact that I was not God. He also suggested that I might try occasionally to act as if I believed. Somewhere I had heard that it is easier to act yourself into a new way of thinking than to think yourself into a new way of acting, and this made sense in the context of “acting as if.”
 
 ## story-flooded-with-feeling — Flooded with Feeling (p. 380)
 
-- **`story-flooded-with-feeling-p003`** (kind: paragraph, pdfPage 380)
+- **`story-flooded-with-feeling-p002`** (kind: heading, pdfPage 380)
 
-  > When a barrier to God collapsed, this self-described agnostic was at Step Three.
+  > FLOODED WITH FEELING
 
-- **`story-flooded-with-feeling-p008`** (kind: paragraph, pdfPage 380)
+- **`story-flooded-with-feeling-p006`** (kind: paragraph, pdfPage 380)
 
-  > I became a teacher and didn’t drink too often for a while. When I did drink, I almost always got drunk. The teachers would get together a couple times a year for a poker party. I usually didn’t drink anything. One time I did, and I made a fool of myself. I decided that drinking just wasn’t fun anymore. I quit.
+  > Soon I found that I didn’t get as sick on vodka. Drinking vodka was like something out of science fiction—I could be someplace one moment and instantly transported to somewhere else the next. I could never seem to find that happy balance. I remember going to a party. I started drinking, and suddenly I could talk to anybody. I was having a lot of fun, but I kept on drinking. Soon I could barely walk. A friend drove me home that night, but I sometimes drove a car when I was too drunk to walk.
 
-- **`story-flooded-with-feeling-p016`** (kind: paragraph, pdfPage 380)
+- **`story-flooded-with-feeling-p013`** (kind: paragraph, pdfPage 380)
 
-  > stopped, or for how long, I always started drinking again. After not drinking for three months, I was on the phone with the friend who had taken me to that first meeting. I was complaining to her about problems at work and how my sponsor didn’t understand me. Later in the conversation I mentioned that even when I described myself as agnostic, I thought maybe something was watching out for me. She asked, “Isn’t it about time you made a decision?” I knew where to look in the Big Book, and I had been careful to avoid it until then. I turned to the Third Step Prayer and quietly read it to her over the phone. Nothing happened. I didn’t expect anything to happen. Then, for some reason, I turned back to the words, “No one among us has been able to maintain anything like perfect adherence to these principles.” They echoed in my mind. Something happened. A barrier collapsed. Without moving or speaking, I was carried away on a flood of emotion, yet at the same time, I was completely aware of myself and my surroundings. I could hear my friend’s voice asking what had happened to me. I couldn’t answer. I still can’t explain it. I know that I took the Third Step (turning my will and my life over to a Higher Power) that night because I began writing a Fourth Step inventory the next day, and I continued to write until I did the Fifth Step with my sponsor. Soon I had a list of people I had harmed. I talked about each of the amends with my sponsor. By the time I had started setting things right with my family, I began to feel a lot better. More than eleven years later it’s hard to recapture Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 374
+  > I do know that my life is different now. I haven’t had a drink since I came to A.A. I have fewer resentments, and I don’t spend much time thinking about the past. I’ve found that my experience can be of help to other people. I have come to believe that hard times are not just meaningless suffering and that something good might turn up at any moment. That’s a big change for someone who used to come to in the morning feeling sentenced to another day of life. When I wake up today, there are lots of possibilities. I can hardly wait to see what’s going to happen next.
 
 ## story-winner-takes-all — Winner Takes All (p. 386)
 
@@ -554,45 +554,41 @@ Seed: 42 · Sections: 68
 
   > (12)
 
-- **`story-winner-takes-all-p015`** (kind: paragraph, pdfPage 386)
+- **`story-winner-takes-all-p023`** (kind: paragraph, pdfPage 386)
 
-  > German. She patted my hand and said, “No, that’s not why you drink.” Then I told them I drank because I was legally blind. They said, “No, that’s not why you drink,” and they started to explain to me that alcoholism is a disease. They shared their stories with me and told me how alcohol had taken over their lives.
+  > I met a lady who had a handicapped child, and we learned so much from each other. One important thing that I learned was that handicapped is not a four-letter word. Handicapped is not a dirty word. I learned that I was not bad—that I was one of God’s special children, that God had a plan for my life. The people of A.A. showed me how my past could and would become an asset. I got a sponsor and started working the steps. The promises of the Big Book started coming true for me. The feeling of uselessness and self-pity went away, and I could see how my experiences could help others.
 
-- **`story-winner-takes-all-p035`** (kind: paragraph, pdfPage 386)
+- **`story-winner-takes-all-p027`** (kind: paragraph, pdfPage 386)
 
-  > When my son filled out an application for college, I filled one out too, and was accepted. Soon I will be a senior, and I have a 3.71 grade point average. Thanks to A.A. I have come a long way from being near the bottom of my high school class. It takes me a lot longer to read the material, so I have a CCTV (I put my book under this camera and it comes out in big print on a monitor). I have a talking calculator that helped me get through statistics and a telescope that Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 381
+  > This is just an example of how God works in my life.
 
 ## story-me-an-alcoholic — Me An Alcoholic? (p. 393)
 
-- **`story-me-an-alcoholic-p025`** (kind: verse, pdfPage 393)
+- **`story-me-an-alcoholic-p008`** (kind: paragraph, pdfPage 393)
 
-  > “Two reasons,” he said. “First, I couldn’t be sure.
-  > The line between a heavy drinker and an alcoholic is
-  > not always clear. It wasn’t until just lately that, in
-  > your case, I could draw it. Second, you wouldn’t have
-  > believed me even if I had told you.”
+  > I’d claw my way back to respectability and stay there —until the inevitable next time.
 
-- **`story-me-an-alcoholic-p029`** (kind: paragraph, pdfPage 393)
-
-  > Doc,” I said, “what are we going to do?”
-
-- **`story-me-an-alcoholic-p034`** (kind: paragraph, pdfPage 393)
+- **`story-me-an-alcoholic-p033`** (kind: paragraph, pdfPage 393)
 
   > I haven’t had a drink during those seven years. Moreover, I am deeply convinced that so long as I continue to strive, in my bumbling way, toward the principles
 
+- **`story-me-an-alcoholic-p034`** (kind: paragraph, pdfPage 393)
+
+  > I first encountered in the earlier chapters of this book, this remarkable power will continue to flow through me. What is this power? With my A.A. friends, all I can say is that it’s a Power greater than myself. If
+
 ## story-the-perpetual-quest — The Perpetual Quest (p. 399)
 
-- **`story-the-perpetual-quest-p010`** (kind: paragraph, pdfPage 399)
+- **`story-the-perpetual-quest-p007`** (kind: paragraph, pdfPage 399)
 
-  > By the age of fourteen I had my first drunk, which ended in a minor police visit to my home. By the age Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 390
+  > My husband and I met and married in law school in a romantic haze of alcohol, twinkling lights, and much promise. We stood out as the only young married couple in our class. We worked and played hard, camped and hiked and skied, threw fabulous parties for our sophisticated friends, and prided ourselves on staying away from drugs. In fact, it was fear that kept me away from drugs—fear that I might not get called to the bar (that’s the other bar, the legal one) if I were convicted of possession of illegal street drugs. More importantly, my best friend was wonderful, powerful alcohol, and I loved it.
 
-- **`story-the-perpetual-quest-p029`** (kind: paragraph, pdfPage 399)
+- **`story-the-perpetual-quest-p019`** (kind: paragraph, pdfPage 399)
+
+  > My friend suggested that we contact a man she knew who was a member of Alcoholics Anonymous, and I agreed to call him. “Perhaps he could call you,” she said helpfully, which was the key, because by that night I was just fine and didn’t need any outside help aside from a drink or two. But he kept phoning and bothering me about going to a meeting. When he told me he went to A.A. meetings three or four times a week, I thought, Poor man, he has nothing better to do. What a boring life it must be for him, running around to A.A. meetings with nothing to drink! Boring indeed: no bouncing off walls, no falling down stairs, no regular trips to hospital emergency rooms, no lost cars, and on and on.
+
+- **`story-the-perpetual-quest-p023`** (kind: paragraph, pdfPage 399)
 
   > I was so hungover that I had to give up trying to swim and instead wrapped myself in a bathrobe and sat in a dark corner of the locker room lounge for two hours, feeling desperately sorry for myself.
-
-- **`story-the-perpetual-quest-p043`** (kind: paragraph, pdfPage 399)
-
-  > Many years later, although alcohol is not part of my life and I no longer have the compulsion to drink, it can still occur to me what a good drink tastes like and what it can do for me, from my stand-at-attention alcoholic taste buds right down to my stretched out tingling toes. As my sponsor used to point out, such Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 397
 
 ## story-a-drunk-like-you — A Drunk, Like You (p. 409)
 
@@ -600,226 +596,224 @@ Seed: 42 · Sections: 68
 
   > A DRUNK, LIKE YOU
 
-- **`story-a-drunk-like-you-p005`** (kind: paragraph, pdfPage 409)
+- **`story-a-drunk-like-you-p008`** (kind: paragraph, pdfPage 409)
 
-  > My story starts in the middle. What happened? My family and I were attending a relative’s bris, a Jewish ritual circumcision and baby-naming ceremony. After the ceremonies and brunch I fell asleep. When it was time to leave, they woke me up. The car ride home was very quiet. The wife and my two kids said nothing. Later that day I found out what the problem was.
+  > Then I hit on a clever solution. I have several academic degrees, and someone as smart as I was could solve this problem. The idea was to put off the first drink as long as possible and go to bed after the last drink. That worked out okay, and I told the counselor I was able to keep it to five a day with little or no problem. But she said if you had to control something, it was out of control.
 
-- **`story-a-drunk-like-you-p014`** (kind: paragraph, pdfPage 409)
+- **`story-a-drunk-like-you-p018`** (kind: paragraph, pdfPage 409)
 
-  > When I was about ten years old, we all came back from my cousin’s bar mitzvah services to celebrate at my grandmother’s house. There I had my first real drink. All the adults went over to the table for a schnapps. There were all these little tiny glasses in front of various liquor bottles and everybody was having one, so I had one too. It was good. It was smooth and warm and wonderful. I liked it and went back for another. This one wasn’t smooth—it was hot going down, not as wonderful.
+  > We were able to stay on site in special offices set aside for us to conduct our job search. As part of this job search, I was allowed to go to a professional convention being held in the Southwest.
 
 ## story-acceptance-was-the-answer — Acceptance was the Answer (p. 418)
 
-- **`story-acceptance-was-the-answer-p009`** (kind: paragraph, pdfPage 418)
+- **`story-acceptance-was-the-answer-p001`** (kind: paragraph, pdfPage 418)
+
+  > (16) ACCEPTANCE WAS THE ANSWER The physician wasn’t hooked, he thought—he just prescribed drugs medically indicated for his many ailments. Acceptance was his key to liberation.
+
+- **`story-acceptance-was-the-answer-p006`** (kind: paragraph, pdfPage 418)
+
+  > I had begun to drink in the early years of pharmacy school, in order to get to sleep. After going to school all day, working in the family drugstore all evening, and then studying until one or two in the morning, I would not be able to sleep soundly, with everything I had been studying going round in my head. I would be half asleep and half awake, and in the morning I would be both tired and stupid. Then I found the solution: At the end of study time, I would drink two beers, jump in bed, sleep real fast, and wake up smart. I drank my way through schools and always got honors. And as I went through pharmacy school, graduate school, medical school, internship, residency, and specialty training, and finally, went into practice, my drinking kept increasing. But I thought it was because my responsibilities were increasing. “If you had my responsibilities, if you needed the sleep like I do, you’d drink too.” My drinking took place after work hours. I remember finding myself in the middle of the night in the doctors’ parking lot at the hospital with one foot in the car and one foot on the ground, not knowing which was the lead foot; finding myself hanging up the telephone—then realizing I had gotten out of bed, answered the phone, turned on the light, and carried on a conversation with a patient. I didn’t know whether I had told him to rush to the hospital and I’d meet him there, or to take two aspirin and call me in the morning. With a problem like that, I couldn’t go back to sleep. So I’d sit up, watch old Wallace Beery movies on all-night TV, and drink. The longer the drinking continued, the shorter the time the alcohol would keep me asleep; I would have to drink myself back to sleep again and again throughout the night. But I never became a morning drinker. Instead, I had a 5:00 a.m. shutoff time. If it was one minute before five, I’d drink myself back to sleep. If it was one minute after, I’d stay up and act like a martyr all day. It became progressively harder to get up in the morning, until one day I asked myself what I would do for a patient who felt this rotten. The answer came right back: I’d give him something to pep him up.
+
+- **`story-acceptance-was-the-answer-p007`** (kind: paragraph, pdfPage 418)
 
   > So I immediately started taking and shooting pep pills. Eventually, I was taking forty-five milligrams of the long-acting Benzedrine and forty-five of the shortacting just to get out of bed in the morning. I took more through the day to increase the high, and more to maintain it; when I overshot the mark, I’d take tranquilizers to level off. The pep pills affected my hearing at times: I couldn’t listen fast enough to hear what I was saying. I’d think, I wonder why I’m saying that again—I’ve already said it three times. Still, I couldn’t turn my mouth off.
 
-- **`story-acceptance-was-the-answer-p010`** (kind: paragraph, pdfPage 418)
-
-  > For the leveling-off process, I just loved intravenous Demerol, but I found it hard to practice good medicine while shooting morphine. Following an injection, I would have to keep one hand busy scratching my constantly itching nose and would also have sudden uncontrollable urges to vomit. I never got much effect out of codeine and Percodan and the tranquilizers. However, for a period of time I was injecting Pentothal intravenously to put myself to sleep. That’s the stuff used when the oral surgeon puts the needle in your vein and says, “Count to ten,” and before you get to two, you’re asleep. Instant blackout was what it was, and it seemed delightful. I didn’t feel I could lie in bed and squirt the stuff in my veins while my kids and wife stood around watching me, so I kept the drug in my bag and the bag in the car and the car in the garage. Luckily, the garage was attached to the house. In the garage I would put the needle in my vein and then try to figure out exactly how much medication to inject to overcome the pep pills while adding to the Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 411
-
-- **`story-acceptance-was-the-answer-p022`** (kind: paragraph, pdfPage 418)
-
-  > At last, acceptance proved to be the key to my drinking problem. After I had been around A.A. for seven months, tapering off alcohol and pills, not finding the program working very well, I was finally able to say, “Okay, God. It is true that I—of all people, strange as Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 417
-
 ## story-window-of-opportunity — Window of Opportunity (p. 432)
 
-- **`story-window-of-opportunity-p002`** (kind: heading, pdfPage 432)
+- **`story-window-of-opportunity-p012`** (kind: paragraph, pdfPage 432)
 
-  > WINDOW OF OPPORTUNITY
+  > Money had always been a big issue, and I equated it with security, prestige, and worth. My father was fond of saying that the sole purpose of life is to make money. I had classmates whose names were household words that connoted wealth. I was ashamed, ashamed of my family and ashamed of myself. My shaky confidence crumbled. I was terrified of being found out. I knew that if others discovered who I really was, they wouldn’t like me and I would be left alone, worthless and alone.
 
-- **`story-window-of-opportunity-p014`** (kind: paragraph, pdfPage 432)
+- **`story-window-of-opportunity-p030`** (kind: paragraph, pdfPage 432)
 
-  > Then I discovered alcohol. I had tried it a few times in high school, but never enough to get drunk. I knew that getting drunk meant being out of control. My escape plan required that I always keep my wits about me. I was too afraid to be out of control. When I got to college, however, that fear left me. In order to fit in, I pretended, at first, that I had as extensive a drinking history as any of my classmates. It was not long before my history surpassed everyone’s.
+  > The room was filled with well-dressed, smiling, happy people. No rancid coats or three-day beards. No bloodshot eyes, wheezing coughs, or shaky hands, but laughter. Someone was talking about God. I was sure
 
-- **`story-window-of-opportunity-p020`** (kind: paragraph, pdfPage 432)
+- **`story-window-of-opportunity-p051`** (kind: paragraph, pdfPage 432)
 
-  > Because my college was fairly small, it did not take long for me to come to the attention of the college deans. It was under their watchful eyes that I first agreed to enter counseling. While the administration saw this as an opportunity to help a troubled student,
+  > I once knew a woman who was crying before a meeting. She was approached by a five-year-old girl who told her, “You don’t have to cry here. This is a good place. They took my daddy and they made him better.” That is exactly what A.A. did for me; it took me and it made me better. For that I am eternally grateful.
 
 ## story-my-bottle-my-resentments-and-me — My Bottle, My Resentments, and Me (p. 443)
 
 - **`story-my-bottle-my-resentments-and-me-p008`** (kind: paragraph, pdfPage 443)
 
-  > unbelievably worse, a few days later the police came and arrested my father. They had found mom’s mutilated body in a field outside of town and wanted to question him. In that instant the family life I knew was destroyed! My father was soon returned because the police had found a pair of glasses that did not belong to him at the murder scene. This clue led to the man who had so brutally killed my mother.
+  > At school the gossip was vicious. At home there was chaos and no one would tell me what was happening, so I withdrew and began to block out the reality around me. If I could pretend it didn’t exist, it might go away. I became extremely lonely and defiant. The confusion, pain, and grief had begun to subside when an article appeared in a murder mystery magazine about my family’s misfortune. The children at school started the gossip and scrutiny all over again. I retreated further and became angrier and more withdrawn. It was easier that way, because people would leave me alone if I acted disturbed even before they tried to inquire.
 
-- **`story-my-bottle-my-resentments-and-me-p027`** (kind: paragraph, pdfPage 443)
+- **`story-my-bottle-my-resentments-and-me-p025`** (kind: paragraph, pdfPage 443)
 
   > Then, on my way to find a drink, I ran into one of my old hobo buddies, an older man. I remembered him as an excessive drinker, an “alcoholic.” And here he was walking toward me down the street in a white shirt, tie, and suit, looking marvelous! With a big smile on his face, he told me he’d quit drinking, and how he’d managed to do it, and how much better he felt.
 
-- **`story-my-bottle-my-resentments-and-me-p046`** (kind: verse, pdfPage 443)
+- **`story-my-bottle-my-resentments-and-me-p043`** (kind: verse, pdfPage 443)
 
   > I believe that I am living proof of the A.A. saying
   > “Don’t give up until the miracle happens.”
 
 ## story-he-lived-only-to-drink — He Lived Only to Drink (p. 452)
 
-- **`story-he-lived-only-to-drink-p005`** (kind: paragraph, pdfPage 452)
-
-  > Missionary Baptist tradition. My father was a minister, and I attended his church every Sunday with the rest of the family and, like them, was very active in religious work. My parents were also educators; my father was principal of the school I attended, and my mother taught there. They were both champions of community outreach and well respected. There was caring and togetherness among us. My maternal grandmother, herself a deeply religious woman who lived with us, helped raise me and was a living example of unconditional love.
-
-- **`story-he-lived-only-to-drink-p009`** (kind: paragraph, pdfPage 452)
+- **`story-he-lived-only-to-drink-p008`** (kind: paragraph, pdfPage 452)
 
   > I drank so much that night that nobody believed I hadn’t been drinking all the time, and I didn’t get drunk, although there were parts of the evening that I didn’t remember the next day. But more important than anything else that night, I belonged. I was at home in the universe; I was comfortable with people. Despite my active church and school life as a child, I had never felt really comfortable; I was actually very nervous and insecure around people and most of the time forced myself to be outgoing like my parents because I thought it was my duty. But this night in the bar was like no other time in my life. Not only was I completely at ease, but I actually loved all the strangers around me and they loved me in return, I thought, all because of this magic potion, alcohol. What a discovery. What a revelation!
 
-- **`story-he-lived-only-to-drink-p016`** (kind: paragraph, pdfPage 452)
+- **`story-he-lived-only-to-drink-p010`** (kind: paragraph, pdfPage 452)
 
-  > I do know that I had become suicidal. I became comfortable there, and months later I cried when I was dismissed. I knew by that time that I could not make it in the world. I was safe behind the barred hospital windows and wanted to stay there for the rest of my life. I could not drink there, but tranquilizers and Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 449
+  > I had made a profound decision that was to direct my life for many years to come: Alcohol was my friend and I would follow it to the ends of the earth.
+
+- **`story-he-lived-only-to-drink-p011`** (kind: paragraph, pdfPage 452)
+
+  > After that first job there were many more that I lost, all because of my drinking. I taught in many schools and in different states. I was no longer the moral young man who had seen his destiny in helping people live better. I was loud and arrogant, angry, abusive, always blaming and confronting others. I was getting arrested and beaten up. I had developed a foul mouth and was frequently drunk in classes and in public places. Finally my teaching career ended in total dishonor. My family could not understand what was happening to me, nor could I. In moments of clarity, I was full of shame, guilt, and remorse; I had become an embarrassment to all who had had faith in me; to others I had become a joke. I wanted to die.
 
 ## story-safe-haven — Safe Haven (p. 458)
 
-- **`story-safe-haven-p014`** (kind: paragraph, pdfPage 458)
+- **`story-safe-haven-p012`** (kind: paragraph, pdfPage 458)
 
-  > my vehicle to give live reports over the radio while chasing the storm. One night the storm was extremely turbulent. Our listening audience was larger than ever as I gave my live report, sounding as if I were on the front lines of a war zone.
+  > During my years in the broadcast industry, I worked from time to time as a radio storm chaser. It was my job to use radar information to follow the storm and spot tornados, hail, flooding, and storm-related hazards or damage. I would then use a cellular phone in my vehicle to give live reports over the radio while chasing the storm. One night the storm was extremely turbulent. Our listening audience was larger than ever as I gave my live report, sounding as if I were on the front lines of a war zone.
 
-- **`story-safe-haven-p015`** (kind: paragraph, pdfPage 458)
+- **`story-safe-haven-p013`** (kind: paragraph, pdfPage 458)
 
   > The following day a newspaper honored our station with a nice article about the professional job we did on weather coverage. But what no one knew was that all of those “professional” storm reports were called in from the safety of my back patio as I ad-libbed a little better with each fresh glass of bourbon and cola.
 
-- **`story-safe-haven-p024`** (kind: paragraph, pdfPage 458)
+- **`story-safe-haven-p020`** (kind: paragraph, pdfPage 458)
 
-  > up, locked up, or covered up. Since I was not genuinely willing to do what it took to get sobered up, I had the other options to face. I never dreamed it would happen so quickly.
+  > There is a saying that alcoholics either get sobered up, locked up, or covered up. Since I was not genuinely willing to do what it took to get sobered up, I had the other options to face. I never dreamed it would happen so quickly.
 
 ## story-listening-to-the-wind — Listening to the Wind (p. 464)
 
-- **`story-listening-to-the-wind-p023`** (kind: paragraph, pdfPage 464)
+- **`story-listening-to-the-wind-p020`** (kind: paragraph, pdfPage 464)
 
   > After a year or so I became bored with my life in the islands and the guy I had been dating. I said goodbye to my waitress job and my family, and moved to California with my one-year-old son.
 
-- **`story-listening-to-the-wind-p028`** (kind: paragraph, pdfPage 464)
+- **`story-listening-to-the-wind-p030`** (kind: paragraph, pdfPage 464)
 
-  > We moved in together and my working arrangements became nearly impossible to live with. So did my conscience. One night on my way to work, I sat in rush-hour traffic on the freeway. I broke down in tears and felt all the lies of my life burst open inside of me. I hated myself and I wanted to die. I couldn’t tell him the truth, but I couldn’t continue to lie to him either. Suddenly a great light came on. It was the best idea I had ever had. I got off the freeway at the next ramp, drove home, and told him I got fired! He took it well, and we celebrated with a huge bottle of wine.
+  > My dad and I decided to go to a Native American gathering. I hadn’t been to one of these pow wows since I was a child. When we heard the drums and watched the dancers, I felt some great passion well up inside me. I felt like an outsider. I wanted a drink. I wore my hair down to my waist and wore a lot of turquoise jewelry I had collected over the years. I looked like the people, but I certainly didn’t feel like one of them. I felt as if they all knew something I didn’t.
 
-- **`story-listening-to-the-wind-p061`** (kind: paragraph, pdfPage 464)
+- **`story-listening-to-the-wind-p053`** (kind: paragraph, pdfPage 464)
 
   > Anonymous. I made some friends for the first time in my life. Real friends that cared, even when I was broke and feeling desperate. At twenty-two months of sobriety, I was finally able to complete an honest inventory. The Fifth Step enabled me to see my part in my resentments and fears. In the chapter “How It
 
 ## story-twice-gifted — Twice Gifted (p. 476)
 
-- **`story-twice-gifted-p009`** (kind: paragraph, pdfPage 476)
+- **`story-twice-gifted-p006`** (kind: paragraph, pdfPage 476)
 
-  > I related to others. I did not know anyone who did not drink, and all of my interests, friendships, and more intimate relationships revolved completely around drinking. Over the years, by all appearances, I grew up and got a life, but it was only a façade. I never did mature other than in the physical way. I appeared normal on the outside. I knew I drank and so did everyone else, but I behaved pretty well and, only by chance, managed to stay out of harm’s way, except for a few occasions. Looking back now, the picture of my life before I got sober looks like a long series of unfinished matters. Through the years I had quit on everything that ever mattered: college, going for promotions, relationships—at least the relationships that demanded any work.
+  > Sunday used to be pretty wild in the old days. That is what I call my drinking days, the old days. It was the last day of the weekend, finishing up a few days of partying with my friends. I never went anywhere that was not a party, and if in doubt about the occasion, I’d think of a good one and bring the party with me. I cannot remember a time without booze in my life. Even when I was young and didn’t drink myself, liquor was always around. I do remember a time at the beginning of my drinking, thinking to myself that
+
+- **`story-twice-gifted-p013`** (kind: paragraph, pdfPage 476)
+
+  > The whites of my eyes had yellowed from jaundice, I had spidery broken veins all over my body, my skin itched all over and took on an eerie greenish-gray appearance. My blood had apparently thinned, because the lightest touch would cause a terrible bruise and even a small scratch would bleed for a very long time. Dark marks appeared on my face and arms, my hair began to fall out, and because I had no appetite at all, I was very weak and extremely fatigued. The new physician took one look at my appearance and my blood test results, and asked if I drank. I said that I used to but had abstained for quite a while. This was a blatant lie.
 
 - **`story-twice-gifted-p014`** (kind: paragraph, pdfPage 476)
-
-  > A series of circumstances brought me to a new doctor. I had to see a doctor because once again I had become fearfully ill, and I was unable to work. My stomach was distended, and my ankles were swollen nearly twice their normal size due to fluid retention.
-
-- **`story-twice-gifted-p017`** (kind: paragraph, pdfPage 476)
 
   > In reality the only person who was being fooled was me. My new doctor explained that I had a disease called cirrhosis of the liver. How far it had progressed was hard to tell, but by the symptoms I was having and the results of my tests, the disease seemed fairly advanced. The picture he painted was very bleak. As the disease worsened, I would become sicker and weaker, and finally there would be a slow and painful progression, usually ending in a fatal episode of bleeding into the stomach or lapsing into a coma and death. With that, he referred me to a special clinic, not an ordinary group of doctors but a liver transplant clinic.
 
 ## story-building-a-new-life — Building a New Life (p. 482)
 
-- **`story-building-a-new-life-p013`** (kind: paragraph, pdfPage 482)
+- **`story-building-a-new-life-p015`** (kind: paragraph, pdfPage 482)
 
-  > At thirteen I was tall, strong, and looked older. My aunt and uncle had sent me to live with a family in a larger town to get schooling they hoped would help me. I went around with guys who were eighteen, and they took me to a Halloween party. I almost choked on the first sip of the whiskey they were passing around, but by the second sip, I thought it was pretty good stuff. It made me feel like one of the guys. It didn’t matter that I was only thirteen; I felt just as old as they were. By the end of the night, I had passed out in the outhouse and had to be carried home by a friend.
+  > Two days before Christmas I was on the way to basic training. On the train’s next to last stop, my buddies from home and I got off and rushed to the bar to buy liquor to celebrate Christmas. Back on the train, we were warned that the M.P.’s were throwing bottles out the windows, so we drank ours hard and fast and got loaded.
 
-- **`story-building-a-new-life-p031`** (kind: paragraph, pdfPage 482)
+- **`story-building-a-new-life-p016`** (kind: paragraph, pdfPage 482)
 
-  > After that I moved to California. My kids were on welfare while I was touring all over. I never knew anyone could make the money I made in union construction jobs in California, so I drank it up. I didn’t feel bad about the kids because I was drunk all the time. I sent them presents. When I got sober, I felt bad about them, so I’d drink again. I couldn’t stand being sober because I couldn’t stand thinking about how I hadn’t taken care of my own kids.
+  > After basic we were sent to different bases. I didn’t drink often because I wanted to get ahead, but every time I drank, I wouldn’t stop until everything was gone. I didn’t know how to say, “I’m going to quit now.”
 
 - **`story-building-a-new-life-p033`** (kind: paragraph, pdfPage 482)
 
-  > Once, I was stopped because my truck was “weaving” while I was driving home from a friend’s house, and they gave me a D.W.I. It meant a $300 fine and one year of probation, and I didn’t think I would make it, so I decided to move back home.
+  > This lasted until the day I told off the owner of a company we were working for, and I got fired. That job put me on the union hiring list, however, and I got good jobs, with good companies. I began to try to get sober.
 
 ## story-on-the-move — On the Move (p. 492)
 
-- **`story-on-the-move-p013`** (kind: verse, pdfPage 492)
+- **`story-on-the-move-p006`** (kind: paragraph, pdfPage 492)
 
-  > looking back at me. To say that I had arrived at a
-  > “jumping-off point” is an understatement. Life just
-  > could not go on like this much longer.
+  > It is easier to see now, as I look back on my drinking days, that from the very beginning alcohol had been a part of nearly every disaster in my life. As a very young boy, perhaps ten or eleven years old, I had begun to steal drinks when my parents were not looking, or my friends and I would convince someone from the local high school to buy us some beer.
 
-- **`story-on-the-move-p014`** (kind: paragraph, pdfPage 492)
+- **`story-on-the-move-p008`** (kind: paragraph, pdfPage 492)
 
-  > I began the process of speeding up the day when life would end. My doctor has six or seven suicide attempts on my medical records. Most were pitiful efforts to reach out for help, although I didn’t see it at the time. My last such attempt was very public and demonstrated that I had lost touch with reality and with any sense of what my actions could do to others.
+  > It started with simple episodes at school. My buddies and I would split a six-pack over lunch and thought nobody would notice. It never occurred to me that a thirteen-year-old could not easily hide the effects of even a single beer. By the time I was fourteen or fifteen, things were getting far more serious, and the consequences of my drinking were getting more costly in every way—socially, morally, financially.
 
-- **`story-on-the-move-p028`** (kind: paragraph, pdfPage 492)
+- **`story-on-the-move-p024`** (kind: paragraph, pdfPage 492)
 
-  > One evening I did the unimaginable—at least for me. After picking up my sponsor of the month to go to a meeting, I informed him that I was ready to work the Twelve Steps of Alcoholics Anonymous. In most respects my life began again that night. That man took me through the steps in a loving, gentle way that for the remainder of my life I will be grateful for. He taught me to look inward at my soul, to welcome a Higher Power into my life, and to reach out to others. He taught me how to look into a mirror and to like, and even respect, the man who looked back at me.
+  > When I reached the Ninth Step, I began to hesitate in my enthusiasm. One morning I woke up covered in sweat and could not get over a nightmare I had—that this was my last day of sobriety. After calling friends and my sponsor, I knew what had to be done. I spent the entire day, more than eight or nine hours, going into people’s offices and making my amends. Some were thrilled to see me. One woman called the police.
 
 ## story-a-vision-of-recovery — A Vision of Recovery (p. 500)
 
-- **`story-a-vision-of-recovery-p004`** (kind: paragraph, pdfPage 500)
+- **`story-a-vision-of-recovery-p001`** (kind: paragraph, pdfPage 500)
 
-  > I     thought i was different because I’m an
+  > (8)
+
+- **`story-a-vision-of-recovery-p002`** (kind: heading, pdfPage 500)
+
+  > A VISION OF RECOVERY
 
 - **`story-a-vision-of-recovery-p005`** (kind: paragraph, pdfPage 500)
 
   > Indian.” I heard that statement from many Natives at my early A.A. meetings. I would only shrug and say to myself: You think you’re different, what about me? I’m a red-headed Indian.
 
-- **`story-a-vision-of-recovery-p014`** (kind: paragraph, pdfPage 500)
-
-  > was followed by many more, and I justified them by telling myself: My son is so young, he will never remember the movie. The day after the promised movie I was guilty and remorseful, and felt I was just no good. I faced my son, only to hear him talking excitedly about going to a movie. I couldn’t say anything, for the movie was no longer playing. I left his mother to explain. The next few years saw me living back in the old home with my father, as my girl had left me, taking my son. My drinking escalated even more, as did the guilt, remorse, and fear. I was hospitalized for dehydration, had a mild stroke, spent a week in a psychiatric ward, and suffered a number of alcoholic seizures. I lost the trust of my family and friends. They simply could not rely on me for anything. I would stop for a while, but I always drank again. I can certainly identify with our co-founder Bill W. when he says on page 4 of the Big Book: “. . . the old fierce determination to win came back.” I would take a drink, and then I knew everything was going to be all right. I was going to clean up my act; everything was going to change—you’ll see. It didn’t; nothing changed. I tried so many ways of beating the game: I went to church and took a pledge; I went to a Native sweat lodge; I would do something so I would be put in jail; I vowed to stay away from hard liquor. Nothing worked. Then came the pills to stop the shakes and get off the sauce for a while. One evening during a party at my home, an argument led to fighting, as usual. One of my brothers stabbed me in the back with a knife, and I fell to the floor unconscious. I came to in the hospital. They told Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 498
-
 ## story-gutter-bravado — Gutter Bravado (p. 507)
 
-- **`story-gutter-bravado-p002`** (kind: heading, pdfPage 507)
+- **`story-gutter-bravado-p008`** (kind: paragraph, pdfPage 507)
 
-  > GUTTER BRAVADO
+  > In the mid-sixties I had the opportunity to visit my brother, who had a fellowship at a university in
 
-- **`story-gutter-bravado-p006`** (kind: paragraph, pdfPage 507)
+- **`story-gutter-bravado-p018`** (kind: paragraph, pdfPage 507)
 
-  > Eventually my brother went off to college, and I started venturing into the world on my own. I enjoyed my friends and our many adventures. This is where my first experiments with alcohol began. Sharing a few Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 502
+  > My life became the pursuit of intoxication. After a few drinks I felt more normal and in control. I changed from a furtive loner into a party animal. My jokes were funnier, the girls were prettier, I shot better pool, and the juke box played better tunes. I could look people in the eye and mingle with the best of them.
 
-- **`story-gutter-bravado-p015`** (kind: paragraph, pdfPage 507)
+- **`story-gutter-bravado-p022`** (kind: paragraph, pdfPage 507)
 
-  > After an attempt at college, I sought employment, often with a hangover. The jobs I found I considered to be menial. I did not yet know that all work is honorable. The maintenance crews, the electroplating, the factory work, and the pharmaceutical industry (after emptying the trash, I started on the shelves) were all on my résumé. My thievery, tardiness, and absenteeism, the reasons for my dismissals, weren’t on my résumé. I was becoming generally dissatisfied, but I did not know that the problem was within me. I wanted some of the finer things in life, but upon realizing they took effort, I dismissed them as trappings of the establishment. Watching out for a bag of money by the side of the road was more my idea of planning for the future. Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 504
+  > The judge had no trouble coming up with a few ideas, however. I got house arrest with electronic monitoring and strictly supervised probation with random urinalysis for openers. Five years in the penitentiary waited after that. I still played the angles, until it became clear to the authorities that I could not live up to the conditions of my probation. It didn’t matter what the consequences were—I couldn’t not drink, and I gave up trying. When the court eventually called me in for my violations, they gave me two choices: get help or go to jail. After careful thought I chose the first. Now either they were going to send me someplace, or I could send myself. I chose the second, and they gave me a week to make arrangements.
 
 ## story-empty-on-the-inside — Empty on the Inside (p. 518)
 
-- **`story-empty-on-the-inside-p011`** (kind: paragraph, pdfPage 518)
+- **`story-empty-on-the-inside-p018`** (kind: paragraph, pdfPage 518)
 
-  > Second, social conversation was a skill that I never acquired. When I met someone, I felt totally inadequate. To me, when I said “Hi, my name is ———,” there followed a deafening silence, as if they were thinking, So? How did people have conversations anyway? How did they meet and then begin to talk as if they had known each other for years? For me it was one more thing that it wasn’t all right not to know. So
+  > And I was a bad mom. I was a terrible mom. No, I didn’t beat them, and of course I told them I loved them. But the message my kids got from me was “Yes,
 
-- **`story-empty-on-the-inside-p026`** (kind: paragraph, pdfPage 518)
+- **`story-empty-on-the-inside-p033`** (kind: paragraph, pdfPage 518)
 
-  > I woke again, it would either be light or dark. Opening my eyes, after what seemed like hours, it was only
+  > She became my first sponsor, and I came back.
 
-- **`story-empty-on-the-inside-p031`** (kind: paragraph, pdfPage 518)
+- **`story-empty-on-the-inside-p042`** (kind: paragraph, pdfPage 518)
 
-  > For the next few days every time I went to my favorite watering hole, I was surrounded by people talking about sobering up. My bartender wanted to quit drinking. The guy I was shooting pool with talked about going back to A.A. Someone next to me at the bar was talking about being at the local clubhouse for A.A.’s. I did stop drinking (sort of) for a few months but eventually went on the bender that would end it all.
+  > By the time a month passed, my feet were firmly planted in Alcoholics Anonymous. And I kept coming back. I cannot begin to list all the wonderful things that have happened in my years here. My kids were four and six when I got sober, and they have “grown up” in A.A. I brought them to open meetings, and the people there gave them what I couldn’t in the early days—love and attention. Gradually they became part of my life again, and today I have custody of my children.
 
 ## story-grounded — Grounded (p. 528)
 
-- **`story-grounded-p010`** (kind: paragraph, pdfPage 528)
+- **`story-grounded-p003`** (kind: paragraph, pdfPage 528)
+
+  > Alcohol clipped this pilot’s wings until sobriety and hard work brought him back to the sky.
+
+- **`story-grounded-p008`** (kind: paragraph, pdfPage 528)
 
   > One night, after a hard afternoon and late evening of drinking, I and my two fellow flight crew members were arrested. We were charged with violation of a federal law that prohibits the operation of a common carrier while impaired. It had never been used against airline pilots before. I was devastated. Suddenly I was thrust into an experience beyond my worst nightmare.
 
-- **`story-grounded-p019`** (kind: paragraph, pdfPage 528)
+- **`story-grounded-p015`** (kind: paragraph, pdfPage 528)
 
-  > I had once been a patient, and worked full-time with other alcoholics. Pay was minimal, but I found I was effective at reaching others, and I wanted desperately to pay back some of what so many had given me. I did that for twenty months. For a long time I did not consider flying again, but I could not purge the dream of doing so from my heart. One of my meditation books had said, “Before any dream can come true, there must first be a dream.” I had been told if I wanted to fly again, I would have to begin at the very bottom, with a private license, even though I had previously held the highest license the FAA awarded, the air transport pilot license. I studied for and took all the lengthy FAA written examinations. I had to go back and relearn things I had learned thirty years before and had long since forgotten. I had, unexpectedly, been able to reacquire my FAA medical certificate after proving the quality of my sobriety for more than two years. The trial judge had put sanctions on me that made it impossible for me to fly again because of my age. My lawyer had become my friend and worked for three years after my conviction without taking a cent from me. He was one more person who entered my life in a manner I could only ascribe to some kind of Divine Providence. He took a motion to the judge to lift the sanctions, and the tears came flooding down my cheeks when he called to let me know the judge had approved it. With the lifting of those sanctions, the impossible became slightly less impossible. An extraordinary amount of work was left to do, but at least the attempt could now be made. None of my friends thought it possible to regain Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 528
-
-- **`story-grounded-p024`** (kind: paragraph, pdfPage 528)
-
-  > ment I had lost, and once again an airline pilot! A large crowd gathered to watch me sign the document. So much had happened in my life. I lost almost everything I had worked to acquire. My family had suffered public shame and humiliation. I had been the object of scorn, shame, and disgrace. Yet much more had also happened; every loss had been replaced with rewards. I had seen the promises of the Big Book come true in a magnitude I could never have imagined. I had gotten sober. I had regained my family, and we were once again close and loving. I had learned how to use the Twelve Steps and to live the wonderful program that was founded so many years ago by two drunks. It took several years, but I learned to be grateful for my alcoholism and the program of recovery it forced me into, for all the things that had happened to me and for me, for a life today that transcends and far exceeds anything I had previously known. I could not have that today if I had not experienced all the yesterdays. My back-to-work agreement said I would retire as a copilot. But the miracles in this program have never ceased for me, and last year I was notified that the president of my airline had granted permission for me to once again be a captain. I retired at age sixty, and I checked out as a 747 captain, which means my final year at my airline concluded in the left seat. The circle, so sacred to my Indian people, will once again have been completed. I take little credit for all that has happened. I suited up and showed up, but the process of A.A., the grace of a loving God, and the help of so many around me Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 530
+  > I knew no one would ever hire me to fly passengers. I was an ex-con, a convicted felon, a drunk. I had doubts as to whether anyone would even allow me to fly cargo. It took several months for the FAA to process my licenses and mail them to me. On the exact day they arrived, another miracle occurred. I received a phone call from the head of the pilot union, who informed me that the president of the airline had decided personally to reinstate me. I had not pursued the legal grievance process I was entitled to, because I knew my actions could never be defended or excused. I had steadfastly accepted responsibility, in front of TV cameras and in the treatment center, because my recovery demanded rigorous honesty.
 
 ## story-another-chance — Another Chance (p. 537)
 
-- **`story-another-chance-p003`** (kind: paragraph, pdfPage 537)
-
-  > Poor, black, totally ruled by alcohol, she felt shut away from any life worth living. But when she began a prison sentence, a door opened.
-
-- **`story-another-chance-p007`** (kind: paragraph, pdfPage 537)
+- **`story-another-chance-p006`** (kind: paragraph, pdfPage 537)
 
   > Things got so bad, I was afraid to go on the street, so I turned to Mothers’ Aid. That was one of the worst things that could have happened to an alcoholic woman. I would wait for the mailman each month, like any good mother, but as soon as he handed me my check, I put on my best dress and went looking for my alcoholic friend. Once I started drinking, I didn’t care that the rent wasn’t paid or that there was no food in the house or that my boys needed shoes. I would stay out until my money was gone. Then I would go home full of remorse, and wonder what I was going to do until I got my next check.
 
-- **`story-another-chance-p012`** (kind: paragraph, pdfPage 537)
+- **`story-another-chance-p007`** (kind: paragraph, pdfPage 537)
 
-  > The only thing that bothers me is that there are only about five African-Americans in A.A. in my city. Even those don’t take part in A.A. functions as I would like to see them do. I don’t know if it’s force of habit or something else that keeps them in one place, but I do know that in A.A. there is much work to do, and none of us can do it standing still.
+  > In time, I began to go out and forget the way back home. I would wake to find myself in some beat-up rooming house, where roaches were crawling over everything. Then the time came when I couldn’t afford whiskey, so I turned to wine. Finally I got so lowdown, I was ashamed of my friends’ seeing me, so I went to the worst joints I could find. If it was daylight, I would go down alleys to make sure no one saw me.
+
+- **`story-another-chance-p011`** (kind: paragraph, pdfPage 537)
+
+  > I do think that some of the African-Americans here—and other places too—are afraid to go to other meetings. I just want to say that you don’t have to be afraid, because no one at any A.A. meeting will bite you. There are no color bars in A.A. If you give us a try, you will see that we are really human beings, and we will welcome you with open arms and hearts.
 
 ## story-a-late-start — A Late Start (p. 541)
 
-- **`story-a-late-start-p021`** (kind: paragraph, pdfPage 541)
+- **`story-a-late-start-p005`** (kind: paragraph, pdfPage 541)
 
-  > new freedom and gave myself permission to have a drink only when I was dining out. That worked so well that I made a new rule: I could have a cocktail before dinner and an after-dinner drink. Then I made a rule that said I could serve alcohol to my friends in my home. That of course is the rule that sent me spinning right back down into fearful drunkenness. I was worse than before. My self-imposed hell was in my own home. Unbathed, in the same nightclothes day after day, afraid of the phone, the doorbell, and the darkness. If the clock said six, I wouldn’t know whether it was morning or evening. Days ran into each other in an agonizing blur. I crawled to bed, drank when I came to, and sat shivering in fear of some unknown tragedy that I thought was about to descend on me. I remember wailing because I couldn’t make coffee, sitting curled in a corner trying to sort out how I could commit suicide without making a mess. I might have tried, but I was afraid no one would find me before I started to stink.
+  > I     am a seventy-five-year-old alcoholic. For fifty-five of those seventy-five years I led what is known as a normal middle-class life. Alcohol had as little part in it as candied yams—nice when there but unmissed when absent. The home in which I grew up included two loving parents, one older brother, a constant flow of house pets, riding horses, and friends who were welcomed. Discipline in our house was strict but not out of line with the thinking prevalent during the first quarter of the twentieth century; certainly I don’t consider that I was in any way abused. I attended private school and later a midwestern college. I married, had children, worked, experienced the pain of the death of my parents and of a child. Knew, too, the pleasure of real friends and financial success. I enjoyed horseback riding, swimming, tennis, and had quiet evenings filled with children, books, and friends.
 
-- **`story-a-late-start-p033`** (kind: paragraph, pdfPage 541)
+- **`story-a-late-start-p020`** (kind: paragraph, pdfPage 541)
 
-  > My mentor had to remind me that A.A. is not just a project. A.A. offers me an opportunity to improve the quality of my life. I came to recognize that there is always a deeper and wider experience awaiting me. Early in my growth I remember thanking my sponsor for the hours and hours she had given me. She said, “Don’t you think that you will do the same for someone else some day?” I replied, “I will never be responsible to or for anyone else ever again.” That refusal to make any kind of repayment to the program delayed my offering to be of service in any capacity Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 542
+  > Book. I went to meetings exactly on time, sat quietly, and left as soon as the meeting closed. In no way was
 
-- **`story-a-late-start-p034`** (kind: paragraph, pdfPage 541)
+- **`story-a-late-start-p026`** (kind: paragraph, pdfPage 541)
 
-  > and consequently delayed my maturing process. Not until two years had passed was I willing to act as group secretary. It was four years before I was willing to sponsor anyone. Today it is with real gratitude that I am allowed into the lives of a few women. My own understanding is broadened and deepened by their influence in my life. As the newcomer and I examine each step, both she and I receive new insight and find an additional facet to this jewel of sobriety. I’m proud now to be a part of the Fellowship that showed me the path up and out of hell. Now I am eager to share my experience as others have shared theirs with me.
+  > The Third Step was the most difficult for me. But having completed it, I found that I could face or untangle the other steps if, and when, I could remember to relax, trust the program, and implement the step rather than fight it. Accepting my Higher Power did not fully change my attitude of resistance. It just made yielding to instruction a more rational and acceptable mode of behavior. For each step, I still had to go through the process of recognizing that I had no control over my drinking. I had to understand that the steps of Alcoholics Anonymous had helped others and could help me. I had to realize that if I did want sobriety, I had better do the steps whether I liked them or not. Every time I ran into trouble, I ultimately found that I was resisting change.
 
 ## story-freedom-from-bondage — Freedom From Bondage (p. 550)
 
@@ -827,69 +821,74 @@ Seed: 42 · Sections: 68
 
   > T      he mental twists that led up to my drinking began many years before I ever took a drink, for I am one of those whose history proves conclusively that my drinking was “a symptom of a deeper trouble.”
 
-- **`story-freedom-from-bondage-p012`** (kind: paragraph, pdfPage 550)
+- **`story-freedom-from-bondage-p008`** (kind: paragraph, pdfPage 550)
 
-  > During this time, our country was at war. My husband was soon in uniform and among the first to go overseas. My reaction to this was identical in many Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 547
+  > I was married and divorced again before I was twenty-three years old, this time to a prominent band leader—a man whom many women wanted. I thought this would give me ego-strength, make me feel wanted and secure, and alleviate my fears, but again nothing changed inside me.
 
-- **`story-freedom-from-bondage-p024`** (kind: paragraph, pdfPage 550)
+- **`story-freedom-from-bondage-p011`** (kind: paragraph, pdfPage 550)
 
-  > He said, in effect: “If you have a resentment you want to be free of, if you will pray for the person or the thing that you resent, you will be free. If you will ask in prayer for everything you want for yourself to be given to them, you will be free. Ask for their health, their prosperity, their happiness, and you will be free. Even when you don’t really want it for them and your prayers are only words and you don’t mean it, go ahead and do it anyway. Do it every day for two weeks, and you will find you have come to mean it and to want it for them, and you will realize that where you used to feel bitterness and resentment and hatred, you now feel compassionate understanding and love.”
+  > During this time, our country was at war. My husband was soon in uniform and among the first to go overseas. My reaction to this was identical in many respects to my reaction to my parents leaving me when I was seven. Apparently I’d grown physically at the customary rate of speed, and I had acquired an average amount of intellectual training in the intervening years, but there had been no emotional maturity at all. I realize now that this phase of my development had been arrested by my obsession with self, and my egocentricity had reached such proportions that adjustment to anything outside my personal control was impossible for me. I was immersed in self-pity and resentment, and the only people who would support this attitude or who I felt understood me at all were the people I met in bars and the ones who drank as I did. It became more and more necessary to escape from myself, for my remorse and shame and humiliation when I was sober were almost unbearable. The only way existence was possible was through rationalizing every sober moment and drinking myself into complete oblivion as often as I could. My husband eventually returned, but it was not long until we realized we could not continue our marriage. By this time I was such a past master at kidding myself that I had convinced myself I had sat out a war and waited for this man to come home, and as my resentment and self-pity grew, so did my alcoholic problem. The last three years of my drinking, I drank on my job. The amount of willpower exercised to control my drinking during working hours, diverted into a constructive channel, would have made me president, and the thing that made the willpower possible was the knowledge that as soon as my day was finished, I could drink myself into oblivion. Inside, though, I was scared to death, for I knew that the time was coming (and it couldn’t be too remote) when I would be unable to hold that job. Maybe I wouldn’t be able to hold any job, or maybe (and this was my greatest fear) I wouldn’t care whether I had a job or not. I knew it didn’t make any difference where I started, the inevitable end would be skid row. The only reality I was able to face had been forced upon me by its very repetition—I had to drink; and I didn’t know there was anything in the world that could be done about it.
 
 ## story-aa-taught-him-to-handle-sobriety — A.A. Taught Him to Handle Sobriety (p. 559)
 
-- **`story-aa-taught-him-to-handle-sobriety-p011`** (kind: paragraph, pdfPage 559)
+- **`story-aa-taught-him-to-handle-sobriety-p022`** (kind: paragraph, pdfPage 559)
 
-  > In each new place, I was the new kid—a skinny, shy kid—to be tested and beaten up. As soon as I had begun to feel accepted, we moved again.
+  > So when my liver had recovered after ten months,
 
-- **`story-aa-taught-him-to-handle-sobriety-p030`** (kind: paragraph, pdfPage 559)
+- **`story-aa-taught-him-to-handle-sobriety-p037`** (kind: paragraph, pdfPage 559)
 
-  > My employer gave me one warning, then another. My children avoided me. When I awoke in the middle of the night with shakes and sweats and fears, I would hear my wife weeping quietly in bed beside me. My doctor warned me that if I kept on, I might have esophageal hemorrhaging and die. But now all choice was gone. I had to drink.
+  > All these things and many, many more, A.A. gave me. But above all, it taught me how to handle sobriety.
 
-- **`story-aa-taught-him-to-handle-sobriety-p039`** (kind: paragraph, pdfPage 559)
+- **`story-aa-taught-him-to-handle-sobriety-p043`** (kind: paragraph, pdfPage 559)
 
-  > As the sober days grew into sober months and then into sober years, a new and beautiful life began to emerge from the shambles of my former existence. The relationship between my wife and me was restored to a love and happiness that we had not known even before my alcoholism became acute. (She no longer weeps in the night.) As our children grew up, I was able to be a father to them when they most needed one. My company advanced me rapidly once my reliability was established again. Regaining my health,
+  > Above all, we reject fantasizing and accept reality. The more I drank, the more I fantasized everything. I imagined getting even for hurts and rejections. In my mind’s eye I played and replayed scenes in which I was plucked magically from the bar where I stood nursing a drink and was instantly exalted to some position of power and prestige. I lived in a dream world. A.A. led me gently from this fantasizing to embrace reality with open arms. And I found it beautiful! For, at last, I was at peace with myself. And with others. And with God.
 
 ## appendix-i-the-aa-tradition — I The A.A. Tradition (p. 566)
 
-- **`appendix-i-the-aa-tradition-p009`** (kind: paragraph, pdfPage 566)
+- **`appendix-i-the-aa-tradition-p002`** (kind: paragraph, pdfPage 566)
 
-  > One—Our common welfare should come first; personal recovery depends upon A.A. unity. Two—For our group purpose there is but one ultimate authority—a loving God as He may express Himself in our group conscience. Our leaders are but trusted servants; they do not govern. Three—The only requirement for A.A. membership is a desire to stop drinking. Four—Each group should be autonomous except in matters affecting other groups or A.A. as a whole. Five—Each group has but one primary purpose—to carry its message to the alcoholic who still suffers. Six—An A.A. group ought never endorse, finance or lend the A.A. name to any related facility or outside enterprise, lest problems of money, property and prestige divert us from our primary purpose. Seven—Every A.A. group ought to be fully self-supporting, declining outside contributions. Eight—Alcoholics Anonymous should remain forever nonprofessional, but our service centers may employ special workers. Nine—A.A., as such, ought never be organized; but we may create service boards or committees directly responsible to those they serve. Ten—Alcoholics Anonymous has no opinion on outside issues; hence the A.A. name ought never be drawn into public controversy. Eleven—Our public relations policy is based on attraction rather than promotion; we need always maintain personal anonymity at the level of press, radio and films. Twelve—Anonymity is the spiritual foundation of all our Traditions, ever reminding us to place principles before personalities.
+  > I
 
-- **`appendix-i-the-aa-tradition-p013`** (kind: paragraph, pdfPage 566)
+- **`appendix-i-the-aa-tradition-p018`** (kind: paragraph, pdfPage 566)
 
-  > 2.—For our group purpose there is but one ultimate authority—a loving God as He may express Himself in our group conscience.
+  > 7.—The A.A. groups themselves ought to be fully supported by the voluntary contributions of their own members. We think that each group should soon achieve this ideal; that any public solicitation of funds using the name of Alcoholics Anonymous is highly dangerous, whether by groups, clubs, hospitals, or other outside agencies; that acceptance of large gifts from any source, or of contributions carrying any obligation whatever, is unwise. Then too, we view with much concern those A.A. treasuries which continue, beyond prudent reserves, to accumulate funds for no stated A.A. purpose. Experience has often warned us that nothing can so surely destroy our spiritual heritage as futile disputes over property, money, and authority.
 
-- **`appendix-i-the-aa-tradition-p023`** (kind: paragraph, pdfPage 566)
+- **`appendix-i-the-aa-tradition-p020`** (kind: paragraph, pdfPage 566)
 
-  > 12.—And finally, we of Alcoholics Anonymous believe that the principle of anonymity has an immense spiritual significance. It reminds us that we are to place principles before personalities; that we are actually to practice a genuine humility. This to the end that our great blessings may never spoil us; that we shall forever live in thankful contemplation of Him who presides over us all.
+  > 9.—Each A.A. group needs the least possible organization. Rotating leadership is the best. The small group may elect its secretary, the large group its rotating committee, and the groups of a large metropolitan area their central or intergroup committee, which often employs a full-time secretary. The trustees of the General Service Board are, in effect, our A.A. General Service Committee. They are the custodians of our A.A. Tradition and the receivers of voluntary A.A. contributions by which we maintain our A.A. General Service Office at New York. They are authorized by the groups to handle our over-all public relations and they guarantee the integrity of our principal newspaper, the A.A. Grapevine. All such representatives are to be guided in the spirit of service, for true leaders in A.A. are but trusted and experienced servants of the whole. They derive no real authority from their titles; they do not govern. Universal respect is the key to their usefulness.
 
 ## appendix-ii-spiritual-experience — II Spiritual Experience (p. 572)
 
-- **`appendix-ii-spiritual-experience-p005`** (kind: paragraph, pdfPage 572)
+- **`appendix-ii-spiritual-experience-p001`** (kind: heading, pdfPage 572)
 
-  > Among our rapidly growing membership of thousands of alcoholics such transformations, though frequent, are by no means the rule. Most of our experiences are what the psychologist William James calls the “educational variety” because they develop slowly over a period of time. Quite often friends of the newcomer are aware of the difference long before he is himself. He finally realizes that he has undergone a profound alteration in his reaction to life; that such a change could hardly have been brought about by himself alone. What often takes place in a few months could seldom have been accomplished by years of selfdiscipline. With few exceptions our members find that they have tapped an unsuspected inner resource which they presently identify with their own conception of a Power greater than themselves.
+  > II SPIRITUAL EXPERIENCE
 
-- **`appendix-ii-spiritual-experience-p008`** (kind: paragraph, pdfPage 572)
+- **`appendix-ii-spiritual-experience-p002`** (kind: paragraph, pdfPage 572)
 
-  > We find that no one need have difficulty with the spirituality of the program. Willingness, honesty and open mindedness are the essentials of recovery. But these are indispensable.
+  > The terms “spiritual experience” and “spiritual awakening” are used many times in this book which, upon careful reading, shows that the personality change sufficient to bring about recovery from alcoholism has manifested itself among us in many different forms.
 
-- **`appendix-ii-spiritual-experience-p009`** (kind: paragraph, pdfPage 572)
+- **`appendix-ii-spiritual-experience-p006`** (kind: paragraph, pdfPage 572)
 
-  > “There is a principle which is a bar against all information, which is proof against all arguments and which cannot fail to keep a man in everlasting ignorance—that principle is contempt prior to investigation.”
+  > Most of us think this awareness of a Power greater than ourselves is the essence of spiritual experience. Our more religious members call it “God-consciousness.”
 
 ## appendix-iii-the-medical-view-on-aa — III The Medical View on A.A. (p. 574)
 
-- **`appendix-iii-the-medical-view-on-aa-p001`** (kind: heading, pdfPage 574)
+- **`appendix-iii-the-medical-view-on-aa-p007`** (kind: paragraph, pdfPage 574)
 
-  > III THE MEDICAL VIEW ON A.A.
+  > The American Psychiatric Association requested, in 1949, that a paper be prepared by one of the older members of Alcoholics Anonymous to be read at the Association’s annual meeting of that year. This was done, and the paper was printed in the American Journal of Psychiatry for November 1949.
 
-- **`appendix-iii-the-medical-view-on-aa-p002`** (kind: paragraph, pdfPage 574)
+- **`appendix-iii-the-medical-view-on-aa-p008`** (kind: verse, pdfPage 574)
 
-  > Since Dr. Silkworth’s first endorsement of Alcoholics Anonymous, medical societies and physicians throughout the world have set their approval upon us. Following are excerpts from the comments of doctors present at the annual meeting* of the Medical Society of the State of New York where a paper on A.A. was read:
+  > (This address is now available in pamphlet form at nominal
+  > cost through most A.A. groups or from Box 459, Grand
+  > Central Station, New York, NY 10163, under the title
+  > “Three Talks to Medical Societies by Bill W.”—formerly
+  > called “Bill on Alcoholism” and earlier “Alcoholism the
+  > Illness.”)
 
-- **`appendix-iii-the-medical-view-on-aa-p005`** (kind: paragraph, pdfPage 574)
+- **`appendix-iii-the-medical-view-on-aa-p009`** (kind: paragraph, pdfPage 574)
 
-  > Dr. Harry M. Tiebout, psychiatrist: “As a psychiatrist, I have thought a great deal about the relationship of my specialty to A.A. and I have come to the conclusion that our particular function can very often lie in preparing the way for the patient to accept any sort of treatment or outside help. I now conceive the psychiatrist’s job to be the task of breaking down the patient’s inner resistance so that which is inside him will flower, as under the activity of the A.A. program.” Dr. W. W. Bauer, broadcasting under the auspices of The American Medical Association in 1946, over the NBC network, said, in part: “Alcoholics Anonymous are no crusaders; not a temperance society. They know that they must never drink. They help others with similar problems . . . In this atmosphere the alcoholic often overcomes his excessive concentration upon himself. Learning to depend upon a higher power and absorb himself in his work with other alcoholics, he remains sober day by day. The days add up into weeks, the weeks into months and years.”
+  > _________ * 1944
 
 ## appendix-iv-the-lasker-award — IV The Lasker Award (p. 576)
 
