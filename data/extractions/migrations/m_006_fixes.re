@@ -85,8 +85,10 @@ s/^(AT HOME)$/[[heading]]\n\1/g
 s/^(PHYSICIAN, HEAL THYSELF.*)$/[[heading]]\n\1/g
 s/^(MY CHANCE TO LIVE)$/[[heading]]\n\1/g
 s/^(IT MIGHT HAVE BEEN WORSE)$/[[heading]]\n\1/g
-# Subtitle patterns (story number markers)
+# Story number markers
 s/^(\(\d+\))$/[[heading]]\n\1/g
+# Join consecutive headings into one
+s/\[\[heading\]\]\n(.+)\n\[\[heading\]\]\n(.+)/[[heading]]\n\1 \2/g
 
 # === FOOTNOTES (broad pattern) ===
 s/^(\* .+)$/[[footnote]]\n\1/g
