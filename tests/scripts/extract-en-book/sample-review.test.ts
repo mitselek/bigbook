@@ -50,18 +50,27 @@ describe('buildSampleReview', () => {
     expect(out).toContain('## sec-big')
   })
 
-  it('samples up to 3 blocks per section', () => {
-    const out = buildSampleReview(sampleDoc(), 42)
-    // sec-small has 2 blocks — both appear (arr.length <= n short-circuit)
+  it('samples up to 3 pairs of consecutive blocks per section', () => {
+    const out = buildSampleReview(sampleDoc(), 108)
+    // sec-small has 2 blocks — one pair possible; both appear.
     expect(out).toContain('sec-small-p001')
     expect(out).toContain('sec-small-p002')
-    // sec-big has 10 blocks — exactly 3 appear
-    const bigIds = Array.from(
-      { length: 10 },
-      (_, i) => `sec-big-p${String(i + 1).padStart(3, '0')}`,
-    )
-    const appearing = bigIds.filter((id) => out.includes(id))
-    expect(appearing).toHaveLength(3)
+    // sec-big has 10 blocks — exactly 6 appear, arranged as 3 consecutive pairs.
+    const bigIdPattern = /sec-big-p\d{3}/g
+    const found = out.match(bigIdPattern) ?? []
+    // dedupe while preserving document order (in case overlapping pairs share a neighbor)
+    const ordered: string[] = []
+    for (const id of found) if (!ordered.includes(id)) ordered.push(id)
+    expect(ordered).toHaveLength(6)
+    // Confirm pair structure: ordinals at positions 2k and 2k+1 differ by 1.
+    for (let k = 0; k < 3; k += 1) {
+      const first = ordered[2 * k]
+      const second = ordered[2 * k + 1]
+      if (first === undefined || second === undefined) throw new Error('pair index missing')
+      const a = Number(first.slice(-3))
+      const b = Number(second.slice(-3))
+      expect(b - a).toBe(1)
+    }
   })
 
   it('annotates each sampled block with kind and pdfPage', () => {
@@ -73,5 +82,23 @@ describe('buildSampleReview', () => {
   it('different seeds produce different block selections', () => {
     const doc = sampleDoc()
     expect(buildSampleReview(doc, 42)).not.toBe(buildSampleReview(doc, 1337))
+  })
+
+  it('pairs are consecutive blocks from the section', () => {
+    const out = buildSampleReview(sampleDoc(), 108)
+    const bigIdPattern = /sec-big-p\d{3}/g
+    const found = out.match(bigIdPattern) ?? []
+    const ordered: string[] = []
+    for (const id of found) if (!ordered.includes(id)) ordered.push(id)
+    // Even number of appearances, forming pairs.
+    expect(ordered.length % 2).toBe(0)
+    for (let k = 0; k < ordered.length / 2; k += 1) {
+      const first = ordered[2 * k]
+      const second = ordered[2 * k + 1]
+      if (first === undefined || second === undefined) throw new Error('pair index missing')
+      const a = Number(first.slice(-3))
+      const b = Number(second.slice(-3))
+      expect(b - a).toBe(1)
+    }
   })
 })
