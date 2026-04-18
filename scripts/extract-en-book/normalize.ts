@@ -10,11 +10,13 @@ export interface NormalizeContext {
 const QXD_HEADER = /^Alco_\w+_\d+p_\w+_r\d+\.qxd .+Page \d+$/
 const PAGE_NUMBER_LINE = /^\s*\d{1,3}\s*$/
 const PAGE_AND_TITLE = /^\s*\d{1,3}\s+[A-Z][A-Z .'\u2019-]+\s*$/
+const TITLE_AND_PAGE = /^\s*[A-Z][A-Z .'\u2019-]+\s+\d{1,3}\s*$/
 const BOOK_TITLE_LINE = /^\s*ALCOHOLICS ANONYMOUS\s*$/
+const DROP_CAP = /^([A-Z])\s{2,}([a-z])/
+const INDENT_START = /^\s{3,}\S/
 
-export function normalize(raw: string, ctx: NormalizeContext): string {
+export function normalize(raw: string, _ctx: NormalizeContext): string {
   const lines = raw.split('\n')
-  const sectionTitleUpper = ctx.sectionTitle.toUpperCase()
 
   // Pass 1: mark lines that are page-break artifacts
   const strip: boolean[] = lines.map((line) => {
@@ -22,7 +24,7 @@ export function normalize(raw: string, ctx: NormalizeContext): string {
     if (PAGE_NUMBER_LINE.test(line)) return true
     if (BOOK_TITLE_LINE.test(line)) return true
     if (PAGE_AND_TITLE.test(line)) return true
-    if (line.trim().toUpperCase() === sectionTitleUpper) return true
+    if (TITLE_AND_PAGE.test(line)) return true
     return false
   })
 
@@ -39,7 +41,20 @@ export function normalize(raw: string, ctx: NormalizeContext): string {
   }
 
   const kept = lines.filter((_, i) => !strip[i])
-  return rejoinHyphens(kept.join('\n'))
+
+  // N1: insert a blank line before any line that begins with 3+ spaces.
+  // Layout-mode output uses leading indent to mark a new paragraph start.
+  // N2: collapse the drop-cap whitespace gap on each line.
+  const out: string[] = []
+  for (const [i, line] of kept.entries()) {
+    if (i > 0 && INDENT_START.test(line)) {
+      const prev = out[out.length - 1] ?? ''
+      if (prev.trim() !== '') out.push('')
+    }
+    out.push(line.replace(DROP_CAP, '$1$2'))
+  }
+
+  return rejoinHyphens(out.join('\n'))
 }
 
 function rejoinHyphens(text: string): string {
