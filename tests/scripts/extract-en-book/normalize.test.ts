@@ -58,3 +58,27 @@ describe('normalize — hyphen rejoin', () => {
     expect(out).toContain('successful in his enterprise')
   })
 })
+
+describe('normalize — paragraph rejoin across page breaks', () => {
+  it('rejoins a paragraph split by a page-break artifact', () => {
+    const input = [
+      'First half of paragraph ending',
+      'Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 155',
+      '',
+      '              155             ALCOHOLICS ANONYMOUS',
+      'second half continues here.',
+    ].join('\n')
+    const out = normalize(input, { sectionTitle: 'A Vision For You' })
+    const paragraphs = out.split(/\n\s*\n/).filter((p) => p.trim())
+    expect(paragraphs).toHaveLength(1)
+    expect(paragraphs[0]).toContain('First half of paragraph ending')
+    expect(paragraphs[0]).toContain('second half continues here.')
+  })
+
+  it('preserves legitimate paragraph breaks', () => {
+    const input = ['First paragraph.', '', 'Second paragraph.'].join('\n')
+    const out = normalize(input, { sectionTitle: 'Any' })
+    const paragraphs = out.split(/\n\s*\n/).filter((p) => p.trim())
+    expect(paragraphs).toHaveLength(2)
+  })
+})
