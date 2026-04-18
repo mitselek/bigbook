@@ -34,3 +34,6 @@ coverage/
 
 # Project-local tmp scratch (commit-msg drafts, etc.)
 .tmp/
+
+# Python virtualenv for PDF-extraction scripts (pymupdf, pdfplumber)
+.venv/
