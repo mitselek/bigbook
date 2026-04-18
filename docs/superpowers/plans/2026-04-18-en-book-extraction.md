@@ -1041,7 +1041,7 @@ describe('normalize — paragraph rejoin across page breaks', () => {
 Run: `npx vitest run tests/scripts/extract-en-book/normalize.test.ts`
 Expected: the rejoin test fails; others still pass.
 
-- [ ] **Step 3: Improve normalize — after strip, merge consecutive text lines not separated by blank lines into one; preserve blank-line paragraph breaks**
+- [ ] **Step 3: Improve normalize — mark strips + blanks adjacent to strips, then drop**
 
 Replace `normalize()` in `scripts/extract-en-book/normalize.ts`:
 
@@ -1049,30 +1049,35 @@ Replace `normalize()` in `scripts/extract-en-book/normalize.ts`:
 export function normalize(raw: string, ctx: NormalizeContext): string {
   const lines = raw.split('\n')
   const sectionTitleUpper = ctx.sectionTitle.toUpperCase()
-  const kept: string[] = []
 
-  for (const line of lines) {
-    if (QXD_HEADER.test(line)) continue
-    if (PAGE_NUMBER_LINE.test(line)) continue
-    if (BOOK_TITLE_LINE.test(line)) continue
-    if (PAGE_AND_TITLE.test(line)) continue
-    if (line.trim().toUpperCase() === sectionTitleUpper) continue
-    kept.push(line)
+  // Pass 1: mark lines that are page-break artifacts
+  const strip: boolean[] = lines.map((line) => {
+    if (QXD_HEADER.test(line)) return true
+    if (PAGE_NUMBER_LINE.test(line)) return true
+    if (BOOK_TITLE_LINE.test(line)) return true
+    if (PAGE_AND_TITLE.test(line)) return true
+    if (line.trim().toUpperCase() === sectionTitleUpper) return true
+    return false
+  })
+
+  // Pass 2: propagate — a blank line adjacent to a stripped line is itself
+  // part of the page-break artifact and must be dropped. A blank line between
+  // two kept (non-stripped, non-blank) lines is a legitimate paragraph break
+  // and must be preserved.
+  for (let i = 0; i < lines.length; i++) {
+    if (strip[i]) continue
+    if (lines[i].trim() !== '') continue
+    const prevStripped = i > 0 && strip[i - 1]
+    const nextStripped = i < lines.length - 1 && strip[i + 1]
+    if (prevStripped || nextStripped) strip[i] = true
   }
 
-  // Collapse runs of blank lines to a single blank separator — this merges
-  // the "extra" blank lines left behind after stripping page-break artifacts.
-  const collapsed: string[] = []
-  let prevBlank = false
-  for (const line of kept) {
-    const isBlank = line.trim() === ''
-    if (isBlank && prevBlank) continue
-    collapsed.push(line)
-    prevBlank = isBlank
-  }
-  return rejoinHyphens(collapsed.join('\n'))
+  const kept = lines.filter((_, i) => !strip[i])
+  return rejoinHyphens(kept.join('\n'))
 }
 ```
+
+**Why:** the old "collapse runs of blank lines" approach leaves a single blank intact when the page-break artifact is `text / qxd / blank / header / text` — because after stripping two non-blank lines, the one surviving blank isn't part of a "run" and survives the collapse, producing a false paragraph break. Marking adjacent blanks during the strip-mark pass drops them together with the artifact they belong to, while leaving blanks between two kept lines untouched.
 
 - [ ] **Step 4: Run tests**
 
