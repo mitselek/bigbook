@@ -18,4 +18,11 @@ describe('extractPages', () => {
   it('throws on pdftotext non-zero exit', () => {
     expect(() => extractPages('/nonexistent.pdf', 1, 1)).toThrow()
   })
+
+  it('handles full-book output larger than the default 1MB spawnSync buffer', () => {
+    const text = extractPages(PDF, 1, 581)
+    expect(text.length).toBeGreaterThan(900_000)
+    expect(text).toContain('FOREWORD TO FIRST EDITION')
+    expect(text).toContain('BILL\u2019S STORY')
+  })
 })
