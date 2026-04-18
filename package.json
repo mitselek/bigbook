@@ -20,7 +20,8 @@
     "size": "size-limit",
     "e2e": "playwright test --project=chromium",
     "e2e:all-browsers": "playwright test",
-    "bootstrap:content": "CONTENT_BOOTSTRAP=1 tsx scripts/bootstrap-mock-content.ts"
+    "bootstrap:content": "CONTENT_BOOTSTRAP=1 tsx scripts/bootstrap-mock-content.ts",
+    "extract:en": "tsx scripts/extract-en-book.ts"
   },
   "dependencies": {
     "astro": "^5.0.0",
