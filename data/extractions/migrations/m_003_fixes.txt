@@ -1,0 +1,56 @@
+# m_003 explicit fixes: LINE_NUM<tab>OLD<tab>NEW
+153	S INCE	SINCE
+439	W  E OF	WE OF
+730	W         ar	War
+1268	W        e,	We,
+1737	M          ost	Most
+2204	I     n the	In the
+2665	R         arely	Rarely
+3166	H        aving	Having
+3788	P       ractical	Practical
+4342	W        ith	With
+5015	O      ur	Our
+5538	A        mong	Among
+6078	F      or	For
+6618	I    was	I was
+7021	O      ne	One
+7426	I    believe	I believe
+7682	W          hat	What
+7981	F       ather	Father
+8381	J    anuary	January
+8856	I     was	I was
+9369	F      or	For
+9825	I     grew	I grew
+10185	A         little	A little
+10516	W          hen	When
+10812	I     didn	I didn
+11034	M           y	My
+11254	I    am	I am
+11551	I    came	I came
+11921	I    started	I started
+12258	D        enial	Denial
+12624	I     suppose	I suppose
+12989	H        ow	How
+13389	D       rinking	Drinking
+13753	W        hen	When
+13966	M           y	My
+14227	W        hen	When
+14455	W         hen	When
+14829	U       sually	Usually
+15172	I   f	If
+15697	I    got	I got
+16101	W         hen	When
+16444	O      n	On
+16662	P       rison	Prison
+16882	I    started	I started
+17319	T      oday	Today
+17548	W         e	We
+17923	I     thought	I thought
+18220	I     thought	I thought
+18464	I     was	I was
+18862	I     spent	I spent
+19236	I     am	I am
+19557	I    am	I am
+19702	I     am	I am
+20039	T      he	The
+20378	W         hen	When
