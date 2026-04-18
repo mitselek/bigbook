@@ -1,3 +1,8 @@
-export function kebabCase(_input: string): string {
-  throw new Error('not implemented')
+export function kebabCase(input: string): string {
+  return input
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '')
 }
