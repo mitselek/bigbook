@@ -95,7 +95,7 @@ Section metadata (id, kind, title, page ranges, parentGroup) is handed to you in
 ### Drop entirely
 
 - **Page numbers at top or bottom of page** (the numeric-only running elements). These are layout artifacts, not content.
-- **Running title headers** — "HOW IT WORKS" at the top of every page, "ALCOHOLICS ANONYMOUS" at the top of alternate pages, etc. Detectable by small font size (typically 9pt in this PDF) and position near page top (`y0 < 50`).
+- **Running title headers** — "HOW IT WORKS" at the top of every page, "ALCOHOLICS ANONYMOUS" at the top of alternate pages, etc. Detectable by small font size (typically 9pt in this PDF) **AND** position near page top (`y0 < 50`). **Important — do NOT drop by `y0 < 50` alone.** Front-matter sections (Preface, Foreword, Doctor's Opinion) have no running headers; their section title sometimes sits in that y-zone at full heading size. Combine `y0 < 50` with a font-size check (`size <= 9.5`) before dropping.
 - **"Chapter N" labels** (e.g. "Chapter 5"). Redundant with the section's position in the outline. **Do NOT emit as a heading block.** The chapter's semantic heading is the chapter title ("How It Works"), not the label.
 - **Print-production annotations** — `Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page N` lines. pdftotext surfaces these; they may or may not appear in your structured extraction. Drop on sight.
 - **Form-feed / page-break control characters**.
@@ -110,7 +110,8 @@ Section metadata (id, kind, title, page ranges, parentGroup) is handed to you in
 - **Quoted verse** as `verse` blocks, preserving internal newlines (unlike paragraphs). Detection signals: consistent line length < 50 chars, shared x-coordinate (often center-indented), clear start and end via opening/closing quotes or surrounding blank lines. Known true verse: the **Hampshire Grenadier tombstone** in ch01-bills-story ("Here lies a Hampshire Grenadier / Who caught his death / Drinking cold small beer. / A good soldier is ne'er forgot / Whether he dieth by musket / Or by pot."). Err on the side of NOT emitting verse when the signal is ambiguous — prior pipelines had over-detection problems.
 - **Tables** as `table` blocks. Put the reconstructed rows in the optional `rows: string[][]` field AND serialize to `text` as pipe-and-newline (`" | "` between cells, `"\n"` between rows) so non-table-aware consumers get a readable fallback. Known case: the resentment-inventory table in ch05 (pages 86-87).
 - **Footnotes** as `footnote` blocks. Detectable by the `*` or `†` marker at the start of the first line. Preserve the marker as the first character of the footnote text so it cross-references the paragraph it annotates.
-- **Bylines / author attributions** as `byline` blocks. These appear at the end of most personal stories (e.g. `Bill W., co-founder of A.A., died January 24, 1971.` at the end of ch01, or the `-- Joe M.` style sign-off at the end of many Part II / Part III stories). A byline is typographically distinct from a body paragraph (short, italic or small-caps, no first-line indent) and is metadata about the author, not narrative prose.
+- **Bylines / author attributions** as `byline` blocks. These appear at the end of most personal stories (e.g. `Bill W., co-founder of A.A., died January 24, 1971.` at the end of ch01, or the `-- Joe M.` style sign-off at the end of many Part II / Part III stories) **and at the end of signed letters** in front-matter (e.g. Dr. Silkworth's two letters in The Doctor's Opinion each close with `Very truly yours, / William D. Silkworth, M.D.`). A byline is typographically distinct from a body paragraph (short, italic or small-caps, no first-line indent, often right-aligned or tab-indented) and is metadata about the author, not narrative prose. **Multi-line byline join:** when a closing phrase (`Very truly yours,` / `Sincerely,`) is on one line and the signatory name is on the next, join them into a single `byline` block with `", "` as the separator — not two separate blocks, not `"\n"`.
+- **Blockquotes** as `blockquote` blocks. Reserve this kind for **editorial interludes or inset passages** — passages typographically distinct from the surrounding narrative: smaller font, a different indent column, and often bracketed by parenthetical stage-direction text (e.g. `(The Editors interrupt to add...)`). Known case: the Bill W. editorial interlude on pp. 203-204 of story-aa-number-three, where the Editors hand narration to Bill W.'s first-person account, then hand it back. Emit one `blockquote` per in-deck paragraph. **Do NOT** use `blockquote` for ordinary dialogue, pull-quotes, or italicized prayers — those stay in their surrounding `paragraph`.
 
 ### Emit with care
 
@@ -129,12 +130,21 @@ Section metadata (id, kind, title, page ranges, parentGroup) is handed to you in
 
 ## Heuristics known useful
 
-These are from the Wave 1 ch05 pilot. Agents are free to adapt per section.
+Seeded from Wave 1 ch05 and refined across Waves 1B–4. Agents are free to adapt per section.
 
-- **Body font is size 12.0 in this PDF** (NewCaledonia). Headings are typically 13.5. Running headers/footers are 9.0. Resentment-table body is 11.0. Chapter label ("Chapter N") is 12.5 italic.
-- **Body left margin alternates by page parity** — odd pages ≈ col 69, even pages ≈ col 52. Paragraph-start indent is +12 pts past the body margin.
-- **Running headers are always at `y0 < 50`**, bottom footers at `y0 > 500` (letter-size page).
-- Drop caps are in **ParkAvenue font at ~51pt** and sit at the top-left of the first body paragraph.
+- **Body font is size ~12.0 in chapter/story bodies** (NewCaledonia). **Front-matter body font is ~10.98** (smaller). Headings are typically **≥13.0** (13.5 in chapters, 14.0 in Preface, 13.0 in Doctor's Opinion — do not gate heading detection on exact 13.5). Running headers/footers are 9.0. Resentment-table body is 11.0. Chapter label ("Chapter N") is 12.5 italic.
+- **Body left margin alternates by page parity** — odd pages ≈ col 69, even pages ≈ col 52. Paragraph-start indent is +12 pts past the body margin. Front-matter and other sections may have different body margins — infer per section.
+- **Running headers are at `y0 < 50`** AND at small font-size (≤9.5). Do not drop by y alone.
+- Drop caps are in **ParkAvenue font at ~51pt** in chapters/stories, **~18pt for small lead-in caps** in front-matter (e.g. Preface's `T` + `HIS IS `, Doctor's Opinion's `WE OF` two-word lead-in). Merge drop-cap with the body remainder; flatten any small-caps tail to regular case.
+
+### Cross-page paragraph merge
+
+PyMuPDF's block extraction starts a new block on each new page, which artificially splits paragraphs that wrap across a page boundary. Apply a **post-pass merge** with two signals, in order:
+
+1. **Right-margin carry-over** (works for sections with first-line paragraph indents): if the earlier block's last line's `x1` reaches near the right margin (roughly `> 280pt` on a `~396pt` content width), the paragraph probably continues onto the next page — merge.
+2. **Terminal-punctuation heuristic** (works for front-matter sections with no first-line indent): if the earlier block's last line ends with `.`, `!`, `?`, `:`, or a closing quote, the paragraph is complete — start a new paragraph on the next page. Otherwise, continuation — merge.
+
+Both heuristics have been verified on Wave 4 outputs (preface, foreword-2nd-edition, doctors-opinion). Use whichever matches your section's layout; document the choice in `.md`.
 
 ## Report content
 
@@ -179,3 +189,12 @@ Your `<section-id>.md` report should contain (brief sections are fine):
   - Document the appendix "roman-numeral on line 1 + title on line 2" centered heading pattern: merge into one heading block joined by space (`I THE A.A. TRADITION`). Parenthesized disambiguators on a following line merge too.
 - **2026-04-18 (Wave 3 dr-bobs, noted)**:
   - Latent bug in the Wave 2 Gratitude extraction script (`extract-story-gratitude.py`): when `keep_hyphen` is true in `join_paragraph_lines`, the branch falls through and inserts a space (`one- half`). Wave 2 output unaffected (no compound splits in Gratitude). Each subagent writes its own script, so this is not a shared-code defect — noting here for awareness. If a future wave uses the Wave 2 script as a template, review the join logic.
+- **2026-04-18 (Wave 4 ch11 + aa-three + preface + foreword-2nd + doctors-opinion, accepted)**:
+  - Document cross-page paragraph merge heuristics in "Heuristics known useful": (1) right-margin carry-over for indented sections, (2) terminal-punctuation for front-matter sections with no first-line indent. Both verified on Wave 4 outputs.
+  - Qualify the `y0 < 50` running-header drop rule: require `AND size <= 9.5`. Front-matter sections (Preface, Doctor's Opinion) have their section title in that y-zone at full heading size; dropping by y alone would kill the heading.
+  - Relax heading font-size heuristic from exact `== 13.5` to `>= 13.0`. Preface uses 14.0, Doctor's Opinion uses 13.0, chapters use 13.5.
+  - Document small lead-in caps (ParkAvenue ~18pt) as a front-matter drop-cap variant distinct from the chapter/story ~51pt single-letter drop-cap. Preface: `T` + `HIS IS ` (small-caps tail flattened). Doctor's Opinion: `WE OF` (two-word lead-in). Merge rules unchanged — join with body remainder, flatten small-caps to regular case.
+  - Formalize `blockquote` use for editorial interludes (first appearance: story-aa-number-three pp203-204 Bill W. interlude). Signature: smaller font + own indent column + parenthetical "stage-direction" brackets. Emit one `blockquote` per in-deck paragraph. Reserve the kind for this pattern — do NOT use for dialogue, pull-quotes, or italicized prayers.
+  - Broaden `byline` description to include signed letters (Doctor's Opinion has two Silkworth signatures). Multi-line byline join: closing phrase + name → single `byline` with `", "` separator (not two blocks, not `"\n"`).
+- **2026-04-18 (Wave 4, deferred)**:
+  - **Intra-line hyphen artifacts** — source PDF contains single-line tokens like `suc-ceeded`, `contin-ued`, `Catho-lics`, `ex-periences`, `ex-planation`, `exproblem`, `socalled` that are not cross-line breaks (the current cross-line rule doesn't fire). These need a separate post-reassembly normalization pass with a word-level dictionary or allow/deny list. Observed in ch02, foreword-2nd-edition, doctors-opinion. Deferred — outside per-agent scope. Open follow-up issue if needed.
