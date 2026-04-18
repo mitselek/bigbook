@@ -16482,13 +16482,7 @@ at last, I was at peace with myself. And with others.
 And with God.
 
 [[heading]]
-APPENDICES
-
-[[paragraph]]
-I
-
-[[heading]]
-THE A.A. TRADITION
+APPENDICES I THE A.A. TRADITION
 
 [[paragraph]]
 To those now in its fold, Alcoholics Anonymous has made
@@ -16517,6 +16511,8 @@ is a condensed version of the original “long form” A.A.
 Traditions as first printed in 1946. Because the “long form”
 is more explicit and of possible historic value, it is also
 reproduced.
+
+[[heading]]
 The Twelve Traditions
 
 [[list-item]]
@@ -16575,7 +16571,11 @@ anonymity at the level of press, radio and films.
 Twelve—Anonymity is the spiritual foundation of all our
 Traditions, ever reminding us to place principles before
 personalities.
+
+[[heading]]
 The Twelve Traditions
+
+[[paragraph]]
 (The Long Form)
 
 [[paragraph]]
@@ -16708,10 +16708,9 @@ before personalities; that we are actually to practice a
 genuine humility. This to the end that our great blessings
 may never spoil us; that we shall forever live in thankful
 contemplation of Him who presides over us all.
-II
 
 [[heading]]
-SPIRITUAL EXPERIENCE
+II SPIRITUAL EXPERIENCE
 
 [[paragraph]]
 The terms “spiritual experience” and “spiritual awakening”
@@ -16777,10 +16776,9 @@ contempt prior to investigation.”
 
 [[paragraph]]
 —Herbert Spencer
-III
 
 [[heading]]
-THE MEDICAL VIEW ON A.A.
+III THE MEDICAL VIEW ON A.A.
 
 [[paragraph]]
 Since Dr. Silkworth’s first endorsement of Alcoholics
@@ -16861,10 +16859,9 @@ _________
 
 [[footnote]]
 * 1944
-IV
 
 [[heading]]
-THE LASKER AWARD
+IV THE LASKER AWARD
 
 [[paragraph]]
 In 1951 the Lasker Award was given Alcoholics
@@ -16882,10 +16879,9 @@ have been a great venture in social pioneering which
 forged a new instrument for social action; a new therapy
 based on the kinship of common suffering; one having a
 vast potential for the myriad other ills of mankind.”
-V
 
 [[heading]]
-THE RELIGIOUS VIEW ON A.A.
+V THE RELIGIOUS VIEW ON A.A.
 
 [[paragraph]]
 Clergymen of practically every denomination have given
@@ -16920,10 +16916,9 @@ that may surpass our capacities to imagine.”_____
 [[footnote]]
 * Father Ed, an early and wonderful friend of A.A., died in the
 spring of 1960.
-VI
 
 [[heading]]
-HOW TO GET IN TOUCH WITH A.A
+VI HOW TO GET IN TOUCH WITH A.A
 
 [[paragraph]]
 In the United States and Canada, most towns and cities
@@ -16958,10 +16953,11 @@ Groups, composed largely of the wives, husbands and
 friends of A.A. members. This headquarters will give the
 location of the nearest family group and will, if you wish,
 correspond with you about your special problems.
-VII
 
 [[heading]]
-THE TWELVE CONCEPTS
+VII THE TWELVE CONCEPTS
+
+[[paragraph]]
 (Short Form)
 
 [[paragraph]]

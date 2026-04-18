@@ -85,15 +85,18 @@ s/^(AT HOME)$/[[heading]]\n\1/g
 s/^(PHYSICIAN, HEAL THYSELF.*)$/[[heading]]\n\1/g
 s/^(MY CHANCE TO LIVE)$/[[heading]]\n\1/g
 s/^(IT MIGHT HAVE BEEN WORSE)$/[[heading]]\n\1/g
-# Story number markers
+# Section number markers: (N) for stories, Roman numerals for appendices
 s/^(\(\d+\))$/[[heading]]\n\1/g
+s/^([IVX]+)$/[[heading]]\n\1/g
+# Mixed-case headings
+s/^(The Twelve Traditions)$/[[heading]]\n\1/g
 # Join consecutive headings into one (remove extra [[heading]] tags first)
 s/\[\[heading\]\]\n\[\[heading\]\]/[[heading]]/g
 s/\[\[heading\]\]\n(.+)\n\[\[heading\]\]\n(.+)/[[heading]]\n\1 \2/g
 # Second pass for triple-heading sequences (e.g. (1) + TITLE + SUBTITLE)
 s/\[\[heading\]\]\n(.+)\n\[\[heading\]\]\n(.+)/[[heading]]\n\1 \2/g
 # Separate heading content from following text (insert blank line)
-s/(\[\[heading\]\]\n.+)\n([A-Za-z])/\1\n\n\2/g
+s/(\[\[heading\]\]\n.+)\n([A-Za-z("])/\1\n\n\2/g
 
 # === FOOTNOTES (broad pattern) ===
 s/^(\* .+)$/[[footnote]]\n\1/g
