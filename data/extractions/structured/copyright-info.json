@@ -1,0 +1,95 @@
+{
+  "id": "copyright-info",
+  "kind": "front-matter",
+  "title": "Copyright Info",
+  "pdfPageStart": 1,
+  "pdfPageEnd": 1,
+  "bookPageStart": 1,
+  "bookPageEnd": 1,
+  "blocks": [
+    {
+      "id": "copyright-info-p001",
+      "kind": "paragraph",
+      "text": "Copyright © 1939, 1955, 1976, 2001 by Alcoholics Anonymous World Services, Inc.",
+      "pdfPage": 1
+    },
+    {
+      "id": "copyright-info-p002",
+      "kind": "paragraph",
+      "text": "All rights reserved.",
+      "pdfPage": 1
+    },
+    {
+      "id": "copyright-info-p003",
+      "kind": "paragraph",
+      "text": "First Edition, sixteen printings, 1939 to 1955",
+      "pdfPage": 1
+    },
+    {
+      "id": "copyright-info-p004",
+      "kind": "paragraph",
+      "text": "Second Edition, sixteen printings, 1955 to 1974",
+      "pdfPage": 1
+    },
+    {
+      "id": "copyright-info-p005",
+      "kind": "paragraph",
+      "text": "Third Edition, seventy-four printings, 1976 to 2001",
+      "pdfPage": 1
+    },
+    {
+      "id": "copyright-info-p006",
+      "kind": "paragraph",
+      "text": "Fourth Edition, New and Revised 2001",
+      "pdfPage": 1
+    },
+    {
+      "id": "copyright-info-p007",
+      "kind": "paragraph",
+      "text": "First printing, October 2001",
+      "pdfPage": 1
+    },
+    {
+      "id": "copyright-info-p008",
+      "kind": "paragraph",
+      "text": "Eighteenth printing, August 2006",
+      "pdfPage": 1
+    },
+    {
+      "id": "copyright-info-p009",
+      "kind": "paragraph",
+      "text": "Personal stories on pages 407, 476, 494, 531, and 553 are copyrighted © by The A.A. Grapevine, Inc., and are reprinted here with permission.",
+      "pdfPage": 1
+    },
+    {
+      "id": "copyright-info-p010",
+      "kind": "paragraph",
+      "text": "This is A.A. General Service Conference-approved literature",
+      "pdfPage": 1
+    },
+    {
+      "id": "copyright-info-p011",
+      "kind": "paragraph",
+      "text": "Alcoholics Anonymous and A.A. are registered trademarks® of A.A. World Services, Inc.",
+      "pdfPage": 1
+    },
+    {
+      "id": "copyright-info-p012",
+      "kind": "paragraph",
+      "text": "Library of Congress Control Number: 2001094693",
+      "pdfPage": 1
+    },
+    {
+      "id": "copyright-info-p013",
+      "kind": "paragraph",
+      "text": "ISBN 1-893007-16-2",
+      "pdfPage": 1
+    },
+    {
+      "id": "copyright-info-p014",
+      "kind": "paragraph",
+      "text": "Printed in the United States of America",
+      "pdfPage": 1
+    }
+  ]
+}
