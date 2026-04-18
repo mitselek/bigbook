@@ -213,3 +213,55 @@ describe('normalize — page-boundary cleanup', () => {
     expect(paragraphs[0]).toMatch(/last line of page 81[\s\S]*first line of page 82/)
   })
 })
+
+describe('normalize — N1 local-delta (Task 22)', () => {
+  it('N9: two-body-margin section does not false-fire uppercase body lines', () => {
+    // Fixture modeled on Gratitude in Action (pages 208-209 / book pages
+    // 193-194). The book's justified layout uses 10-space body margin on
+    // odd pages and 14-space body margin on even pages. Paragraph starts
+    // on odd pages are at 13 spaces; on even pages at 17 spaces.
+    //
+    // When the section spans both page types, the older mode-based rule
+    // picks one margin (say 10) as `bodyMargin` and sets threshold = 13.
+    // Uppercase-starting body lines at 14 then exceed the threshold and
+    // false-fire as paragraph starts (observed: "I finally spoke to a
+    // woman,", "Bobbie, who said...", "Book in the mail..." all became
+    // standalone blocks).
+    //
+    // The fixture has 7 lines at 10 (odd-page body), 5 lines at 14 (even-
+    // page body, including two uppercase-starting lines), and 1 line at
+    // 17 (real even-page P-start). Mode = 10, threshold = 13. Under the
+    // OLD rule, lines 11 ("I finally...") and 12 ("Bobbie,...") at 14
+    // spaces with uppercase starts would fire as false P-starts.
+    //
+    // Under local-delta, lines 11 and 12 compare to their immediate
+    // predecessor (also 14-indent), so 14 < 14+3 → do not fire.
+    const raw = [
+      '          later I came to understand that A.A.',
+      '          members were helping each other every day.',
+      '          That message finally reached me.',
+      '          I knew it could work for me too.',
+      '          I felt hope for the first time.',
+      '          Even so, I struggled with doubt.',
+      '          Every day was a battle with fear.',
+      '              was transformed. Alcohol suddenly made me into',
+      '              what I had always wanted to be.',
+      '              used it only at parties and meetings.',
+      '              I finally spoke to a woman, a kind woman,',
+      '              Bobbie, who said words I hope I never forget:',
+      '                 Alcohol became my everyday companion.',
+    ].join('\n')
+    const out = normalize(raw, { sectionTitle: 'Gratitude in Action' })
+    const paragraphs = out.split(/\n\s*\n/).filter((p) => p.trim() !== '')
+    // Expected: exactly 2 paragraphs under local-delta.
+    //   1. Lines 1-12 as one flowing paragraph (no false-fires on
+    //      "I finally spoke..." or "Bobbie, who said..." at 14-indent).
+    //   2. Line 13 "Alcohol became my everyday companion." (17-indent
+    //      P-start).
+    expect(paragraphs).toHaveLength(2)
+    expect(paragraphs[0]).toMatch(
+      /later I came to understand[\s\S]*Bobbie, who said words I hope I never forget:/,
+    )
+    expect(paragraphs[1]).toMatch(/^\s*Alcohol became my everyday companion\.$/)
+  })
+})
