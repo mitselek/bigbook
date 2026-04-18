@@ -2903,38 +2903,25 @@ a program of recovery:
 
 [[list-item]]
 1. We admitted we were powerless over alcohol—
-
-[[paragraph]]
 that our lives had become unmanageable.
 
 [[list-item]]
-2. Came to believe that a Power greater than our-
-
-[[paragraph]]
-selves could restore us to sanity.
+2. Came to believe that a Power greater than ourselves could restore us to sanity.
 
 [[list-item]]
 3. Made a decision to turn our will and our lives
-
-[[paragraph]]
 over to the care of God as we understood Him.
 
 [[list-item]]
 4. Made a searching and fearless moral inventory
-
-[[paragraph]]
 of ourselves.
 
 [[list-item]]
 5. Admitted to God, to ourselves, and to another
-
-[[paragraph]]
 human being the exact nature of our wrongs.
 
 [[list-item]]
 6. Were entirely ready to have God remove all
-
-[[paragraph]]
 these defects of character.
 
 [[list-item]]
@@ -2942,34 +2929,23 @@ these defects of character.
 
 [[list-item]]
 8. Made a list of all persons we had harmed, and
-
-[[paragraph]]
 became willing to make amends to them all.
 
 [[list-item]]
 9. Made direct amends to such people wherever
-
-[[paragraph]]
 possible, except when to do so would injure
 them or others.
 
 [[list-item]]
 10. Continued to take personal inventory and when
-
-[[paragraph]]
 we were wrong promptly admitted it.
 
 [[list-item]]
-11. Sought through prayer and meditation to im-
-
-[[paragraph]]
-prove our conscious contact with God as we understood Him, praying only for knowledge of
+11. Sought through prayer and meditation to improve our conscious contact with God as we understood Him, praying only for knowledge of
 His will for us and the power to carry that out.
 
 [[list-item]]
 12. Having had a spiritual awakening as the result
-
-[[paragraph]]
 of these steps, we tried to carry this message to
 alcoholics, and to practice these principles in all
 our affairs.
@@ -7020,14 +6996,10 @@ for four reasons:
 
 [[list-item]]
 3. Because in so doing I am paying my debt to the
-
-[[paragraph]]
 man who took time to pass it on to me.
 
 [[list-item]]
 4. Because every time I do it I take out a little more
-
-[[paragraph]]
 insurance for myself against a possible slip.
 Unlike most of our crowd, I did not get over my
 craving for liquor much during the first two and onehalf years of abstinence. It was almost always with
