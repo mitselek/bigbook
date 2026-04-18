@@ -76,3 +76,40 @@ describe('segmentBlocks — heading detection', () => {
     expect(blocks[3]).toMatchObject({ kind: 'paragraph' })
   })
 })
+
+describe('segmentBlocks — block-kind detection', () => {
+  it('marks short indented quoted lines as verse', () => {
+    const input = [
+      '"Here lies a Hampshire Grenadier,',
+      'who caught his death',
+      'drinking cold small beer."',
+    ].join('\n')
+    const blocks = segmentBlocks(input, {
+      sectionTitle: "Bill's Story",
+      sectionId: 'ch01-bills-story',
+      pdfPageStart: 22,
+    })
+    expect(blocks[0]).toMatchObject({ kind: 'verse' })
+    expect(blocks[0]?.text).toContain('\n')
+  })
+
+  it('marks numbered list items', () => {
+    const input = '1. First step in the program.'
+    const blocks = segmentBlocks(input, {
+      sectionTitle: 'How It Works',
+      sectionId: 'ch05-how-it-works',
+      pdfPageStart: 79,
+    })
+    expect(blocks[0]).toMatchObject({ kind: 'list-item' })
+  })
+
+  it('marks footnote (asterisk-prefixed, short)', () => {
+    const input = '* This refers to Bill\u2019s first visit with Dr. Bob.'
+    const blocks = segmentBlocks(input, {
+      sectionTitle: 'A Vision For You',
+      sectionId: 'ch11-a-vision-for-you',
+      pdfPageStart: 155,
+    })
+    expect(blocks[0]).toMatchObject({ kind: 'footnote' })
+  })
+})
