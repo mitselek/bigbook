@@ -131,3 +131,57 @@ describe('normalize — preserve section-title heading line (N4)', () => {
     expect(out).toContain('(3) Despite great opportunities')
   })
 })
+
+describe('normalize — N1 calibration (Task 19)', () => {
+  it('N5: splits ch02-style body-margin 10 / paragraph-indent 14', () => {
+    const raw = [
+      '          held us together as we are now joined.',
+      '              The tremendous fact for every one of us is that we',
+      '          have discovered a common solution. We have a way',
+    ].join('\n')
+    const out = normalize(raw, { sectionTitle: 'There is a Solution' })
+    const paragraphs = out.split(/\n\s*\n/).filter((p) => p.trim() !== '')
+    expect(paragraphs).toHaveLength(2)
+    expect(paragraphs[0]).toMatch(/joined\.$/)
+    expect(paragraphs[1]).toMatch(/^\s*The tremendous fact/)
+  })
+
+  it('N6: drop-cap continuation (lowercase at high indent) stays in paragraph', () => {
+    const raw = [
+      '           I believe it would be good to tell the story of my',
+      '                life. Doing so will give me the opportunity to re-',
+      '          member that I must be grateful to God and to those',
+    ].join('\n')
+    const out = normalize(raw, { sectionTitle: 'Gratitude in Action' })
+    const paragraphs = out.split(/\n\s*\n/).filter((p) => p.trim() !== '')
+    expect(paragraphs).toHaveLength(1)
+  })
+
+  it('N7: mid-sentence continuation at body margin does not split', () => {
+    const raw = [
+      '          I was powerless over alcohol. I was learning that I',
+      '          could do nothing to fight it off,',
+      '          even while I was denying the fact.',
+      '             On Easter weekend 1944, I found myself in a jail',
+    ].join('\n')
+    const out = normalize(raw, { sectionTitle: 'Gratitude in Action' })
+    const paragraphs = out.split(/\n\s*\n/).filter((p) => p.trim() !== '')
+    expect(paragraphs).toHaveLength(2)
+    expect(paragraphs[0]).toMatch(/denying the fact\.$/)
+    expect(paragraphs[1]).toMatch(/^\s*On Easter weekend 1944/)
+  })
+
+  it("N8: regression — Bill's Story body-margin 0 with 3-space paragraph indent still splits", () => {
+    const raw = [
+      'burg were assigned, and we were flattered when the',
+      'first citizens took us to their homes, making us feel',
+      'heroic. Here was love, applause, war; moments sublime',
+      '   My brother-in-law is a physician, and through his',
+    ].join('\n')
+    const out = normalize(raw, { sectionTitle: "Bill's Story" })
+    const paragraphs = out.split(/\n\s*\n/).filter((p) => p.trim() !== '')
+    expect(paragraphs).toHaveLength(2)
+    expect(paragraphs[0]).toMatch(/moments sublime$/)
+    expect(paragraphs[1]).toMatch(/^\s*My brother-in-law/)
+  })
+})
