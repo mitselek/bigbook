@@ -20,6 +20,7 @@ import { validateExtraction } from './extract-en-book/invariants'
 import { fetchOutline } from './extract-en-book/outline'
 import { extractPages } from './extract-en-book/pdftotext'
 import { buildBookSection } from './extract-en-book/pipeline'
+import { buildSampleReview } from './extract-en-book/sample-review'
 import type { BigBookEnglish, BookSection } from './extract-en-book/types'
 
 const SCRIPT_FILE = fileURLToPath(import.meta.url)
@@ -28,6 +29,7 @@ const PDF_PATH = 'legacy/assets/AA-BigBook-4th-Edition.pdf'
 const OUT_DIR = 'data/extractions'
 const JSON_OUT = `${OUT_DIR}/en-4th-edition.json`
 const RAW_OUT = `${OUT_DIR}/en-4th-edition.raw.txt`
+const REVIEW_OUT = `${OUT_DIR}/sample-review.md`
 const PDF_TOTAL_PAGES = 581
 
 function readMutoolOutline(): string {
@@ -83,8 +85,10 @@ async function main(): Promise<void> {
   mkdirSync(resolve(REPO_ROOT, OUT_DIR), { recursive: true })
   writeFileSync(resolve(REPO_ROOT, JSON_OUT), JSON.stringify(doc, null, 2) + '\n', 'utf8')
   writeFileSync(resolve(REPO_ROOT, RAW_OUT), rawFullBook, 'utf8')
+  writeFileSync(resolve(REPO_ROOT, REVIEW_OUT), buildSampleReview(doc), 'utf8')
 
   console.log(`wrote ${JSON_OUT} (${String(sections.length)} sections)`)
+  console.log(`wrote ${REVIEW_OUT}`)
 }
 
 main().catch((err: unknown) => {
