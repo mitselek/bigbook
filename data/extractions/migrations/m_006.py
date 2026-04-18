@@ -11,7 +11,7 @@ from pathlib import Path
 from apply_re import parse_re_file, apply_fixes
 
 here = Path(__file__).parent
-src = here / "m_005.txt"
+src = here / "m_007.txt"
 dst = here / "m_006.txt"
 fixes_file = here / "m_006_fixes.re"
 

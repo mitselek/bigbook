@@ -8,7 +8,7 @@ import re
 from pathlib import Path
 
 here = Path(__file__).parent
-lines = (here / "m_007.txt").read_text().splitlines()
+lines = (here / "m_006.txt").read_text().splitlines()
 
 TAG_RE = re.compile(r'^\[\[.+\]\]$')
 NO_JOIN_TAGS = {'[[verse]]'}  # Tags whose content lines should not be joined

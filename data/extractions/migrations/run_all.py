@@ -13,8 +13,8 @@ MIGRATIONS = [
     "m_003.py",  # remove print artifacts (Alco_*.qxd)
     "m_004.py",  # remove headers/footers/page numbers
     "m_005.py",  # fix drop-cap words
-    "m_006.py",  # tag paragraph types
     "m_007.py",  # rejoin hyphenated line breaks
+    "m_006.py",  # tag paragraph types
     "m_008.py",  # join wrapped lines into paragraphs
     "m_009.py",  # normalize blank lines
 ]
