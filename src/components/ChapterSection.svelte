@@ -134,13 +134,19 @@
 
       let baselineParsed: ReturnType<typeof parse>
       if (!baselineResult.ok) {
-        baselineParsed = { frontmatter: { chapter: slug, title: '', lang: 'et' }, paragraphs: new Map() }
+        baselineParsed = {
+          frontmatter: { chapter: slug, title: '', lang: 'et' },
+          paragraphs: new Map(),
+        }
       } else {
         try {
           baselineParsed = parse(baselineResult.value)
         } catch (err) {
           console.warn(`Baseline ET parse failed for ${slug}:`, err)
-          baselineParsed = { frontmatter: { chapter: slug, title: '', lang: 'et' }, paragraphs: new Map() }
+          baselineParsed = {
+            frontmatter: { chapter: slug, title: '', lang: 'et' },
+            paragraphs: new Map(),
+          }
         }
       }
 
@@ -271,9 +277,7 @@
           ...paragraphs[idx],
           etText: newText,
           isDiverged: nowDiverged,
-          baselineEtText: nowDiverged
-            ? (baselineParsed.paragraphs.get(paraId) ?? '')
-            : undefined,
+          baselineEtText: nowDiverged ? (baselineParsed.paragraphs.get(paraId) ?? '') : undefined,
         }
       }
       commitSuccess()
