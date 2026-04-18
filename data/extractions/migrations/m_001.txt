@@ -36,7 +36,6 @@ Personal stories on pages 407, 476, 494, 531, and 553 are
                ISBN 1-893007-16-2
 
       Printed in the United States of America
-
                             Preface
 
 
@@ -75,7 +74,6 @@ headings that are used now.
 In the third edition, Part I (“Pioneers of A.A.”) was left
 unchanged. Nine of the stories in Part II (“They Stopped in
 Time”) were carried over from the second edition; eight new
-
 stories were added. In Part III (“They Lost Nearly All”), eight
 stories were retained; five new ones were added.
 
@@ -97,7 +95,6 @@ one of the forty-two personal stories and think: “Yes, that
 happened to me”; or, more important, “Yes, I’ve felt like that”; or,
 most important, “Yes, I believe this program can work for me
 too.”
-
                   FOREWORD TO FIRST EDITION
 
              This is the Foreword as it appeared in the first
@@ -140,7 +137,6 @@ alcoholics. We should like to be helpful to such cases.
 Inquiry by scientific, medical, and religious societies will be welcomed.
 
                                          ALCOHOLICS ANONYMOUS
-
      FOREWORD TO SECOND EDITION
 
 
@@ -178,7 +174,6 @@ The spark that was to flare into the first A.A. group was
 struck at Akron, Ohio, in June 1935, during a talk between
 a New York stockbroker and an Akron physician. Six
 months earlier, the broker had been relieved of his drink
-
 obsession by a sudden spiritual experience, following a
 meeting with an alcoholic friend who had been in contact
 with the Oxford Groups of that day. He had also been
@@ -214,7 +209,6 @@ seemed to prove that one alcoholic could affect another as
 no nonalcoholic could. It also indicated that strenuous
 work, one alcoholic with another, was vital to permanent
 recovery.
-
 Hence the two men set to work almost frantically upon
 alcoholics arriving in the ward of the Akron City Hospital.
 Their very first case, a desperate one, recovered
@@ -252,7 +246,6 @@ reviewed it with approval. In the fall of 1939 Fulton
 Oursler, then editor of Liberty, printed a piece in his
 magazine, called “Alcoholics and God.” This brought a rush
 of 800 frantic inquiries into the little New York office
-
 which meanwhile had been established. Each inquiry was
 painstakingly answered; pamphlets and books were sent
 out. Businessmen, traveling out of existing groups, were
@@ -288,7 +281,6 @@ But out of this frightening and at first disrupting
 experience the conviction grew that A.A.’s had to hang
 together or die separately. We had to unify our Fellowship
 or pass off the scene.
-
 As we discovered the principles by which the individual
 alcoholic could live, so we had to evolve principles by
 which the A.A. groups and A.A. as a whole could survive
@@ -326,7 +318,6 @@ with A.A. showed improvement. Other thousands came to
 a few A.A. meetings and at first decided they didn’t want
 the program. But great numbers of these—about two out
 of three—began to return as time passed.
-
 Another reason for the wide acceptance of A.A. was the
 ministration of friends—friends in medicine, religion, and
 the press, together with innumerable others who became
@@ -357,7 +348,6 @@ for the alcoholic himself, we surely have no monopoly. Yet
 it is our great hope that all those who have as yet found no
 answer may begin to find one in the pages of this book and
 will presently join us on the high road to a new freedom.
-
        FOREWORD TO THIRD EDITION
 
 
@@ -389,7 +379,6 @@ Fellowship, at its core it remains simple and personal. Each
 day, somewhere in the world, recovery begins when one
 alcoholic talks with another alcoholic, sharing experience,
 strength, and hope.
-
      FOREWORD TO FOURTH EDITION
 
 THIS fourth edition of “Alcoholics Anonymous” came off
@@ -427,14 +416,12 @@ message, sweeping changes in society as a whole are
 reflected in new customs and practices within the
 Fellowship. Taking advantage of technological advances,
 for example, A.A. members with computers can participate
-
 in meetings online, sharing with fellow alcoholics across the
 country or around the world. In any meeting, anywhere,
 A.A.’s share experience, strength, and hope with each
 other, in order to stay sober and help other alcoholics.
 Modem-to-modem or face-to-face, A.A.’s speak the
 language of the heart in all its power and simplicity.
-
             THE DOCTORS OPINION
 
 W  E OF Alcoholics Anonymous believe that the reader will
@@ -471,7 +458,6 @@ whom other methods had failed completely.
 These facts appear to be of extreme medical importance;
 because of the extraordinary possibilities of rapid growth
 inherent in this group they may mark a new epoch in the
-
 annals of alcoholism. These men may well have a remedy
 for thousands of such situations.
 
@@ -508,7 +494,6 @@ Though we work out our solution on the spiritual as well as
 an altruistic plane, we favor hospitalization for the alcoholic
 who is very jittery or befogged. More often than not, it is
 imperative that a man’s brain be cleared before he is
-
 approached, as he has then a better chance of
 understanding and accepting what we have to offer.
 
@@ -546,7 +531,6 @@ been most interesting; in fact, many of them are amazing.
 The unselfishness of these men as we have come to know
 them, the entire absence of profit motive, and their
 community spirit, is indeed inspiring to one who has
-
 labored long and wearily in this alcoholic field. They
 believe in themselves, and still more in the Power which
 pulls chronic alcoholics back from the gates of death.
@@ -584,7 +568,6 @@ movement. We feel, after many years of experience, that
 we have found nothing which has contributed more to the
 rehabilitation of these men than the altruistic movement
 now growing up among them.
-
 Men and women drink essentially because they like the
 effect produced by alcohol. The sensation is so elusive that,
 while they admit it is injurious, they cannot after a time
@@ -622,7 +605,6 @@ recoveries resulting from psychiatric effort is considerable,
 we physicians must admit we have made little impression
 upon the problem as a whole. Many types do not respond
 to the ordinary psychological approach.
-
 I do not hold with those who believe that alcoholism is
 entirely a problem of mental control. I have had many men
 who had, for example, worked a period of months on some
@@ -660,7 +642,6 @@ able, intelligent, friendly people.
 
 All these, and many others, have one symptom in common:
 they cannot start drinking without developing the
-
 phenomenon of craving. This phenomenon, as we have
 suggested, may be the manifestation of an allergy which
 differentiates these people, and sets them apart as a
@@ -698,7 +679,6 @@ alcohol.
 When I need a mental uplift, I often think of another case
 brought in by a physician prominent in New York. The
 patient had made his own diagnosis, and deciding his
-
 situation hopeless, had hidden in a deserted barn
 determined to die. He was rescued by a searching party,
 and, in desperate condition, brought to me. Following his
@@ -723,7 +703,6 @@ and though perhaps he came to scoff, he may remain to
 pray.
 
                                 William D. Silkworth, M.D.
-
                         Chapter 1
                    BILL’S STORY
 
@@ -755,7 +734,6 @@ ciation? My talent for leadership, I imagined, would
 place me at the head of vast enterprises which I would
 manage with the utmost assurance.
                             1
-
 2              ALCOHOLICS ANONYMOUS
     I took a night law course, and obtained employment
 as investigator for a surety company. The drive for
@@ -790,7 +768,6 @@ of markets. I discovered many more reasons later on.
     We gave up our positions and off we roared on a
 motorcycle, the sidecar stuffed with tent, blankets, a
 change of clothes, and three huge volumes of a finan-
-
                      BILL’S STORY                     3
 cial reference service. Our friends thought a lunacy
 commission should be appointed. Perhaps they were
@@ -825,7 +802,6 @@ to the country, my wife to applaud while I started out
 to overtake Walter Hagen. Liquor caught up with me
 much faster than I came up behind Walter. I began
 to be jittery in the morning. Golf permitted drinking
-
 4                ALCOHOLICS ANONYMOUS
 every day and every night. It was fun to carom around
 the exclusive course which had inspired such awe in
@@ -859,7 +835,6 @@ driver. Mercifully, no one could guess that I was to
 have no real employment for five years, or hardly draw
 a sober breath. My wife began to work in a depart-
 ment store, coming home exhausted to find me drunk.
-
                       BILL’S STORY                    5
 I became an unwelcome hanger-on at brokerage
 places.
@@ -894,7 +869,6 @@ Someone had pushed a drink my way, and I had taken
 it. Was I crazy? I began to wonder, for such an ap-
 palling lack of perspective seemed near being just that.
    Renewing my resolve, I tried again. Some time
-
 6               ALCOHOLICS ANONYMOUS
 passed, and confidence began to be replaced by cock-
 sureness. I could laugh at the gin mills. Now I had
@@ -929,7 +903,6 @@ when the physical and mental torture was so hellish I
 feared I would burst through my window, sash and
 all. Somehow I managed to drag my mattress to a
 lower floor, lest I suddenly leap. A doctor came with
-
                       BILL’S STORY                      7
 a heavy sedative. Next day found me drinking both
 gin and sedative. This combination soon landed me
@@ -964,7 +937,6 @@ brain, perhaps within a year. She would soon have to
 give me over to the undertaker or the asylum.
    They did not need to tell me. I knew, and almost
 welcomed the idea. It was a devastating blow to my
-
 8               ALCOHOLICS ANONYMOUS
 pride. I, who had thought so well of myself and my
 abilities, of my capacity to surmount obstacles, was
@@ -999,7 +971,6 @@ full bottle of gin near the head of our bed. I would
 need it before daylight.
    My musing was interrupted by the telephone. The
 cheery voice of an old school friend asked if he might
-
                       BILL’S STORY                     9
 come over. He was sober. It was years since I could re-
 member his coming to New York in that condition. I
@@ -1034,7 +1005,6 @@ of a simple religious idea and a practical program of
 action. That was two months ago and the result was
 self-evident. It worked!
    He had come to pass his experience along to me—if
-
 10               ALCOHOLICS ANONYMOUS
 I cared to have it. I was shocked, but interested. Cer-
 tainly I was interested. I had to be, for I was hopeless.
@@ -1069,7 +1039,6 @@ right there. When they talked of a God personal to
 me, who was love, superhuman strength and direction,
 I became irritated and my mind snapped shut against
 such a theory.
-
                      BILL’S STORY                    11
    To Christ I conceded the certainty of a great man,
 not too closely followed by those who claimed Him.
@@ -1103,7 +1072,6 @@ right then. Never mind the musty past; here sat a
 miracle directly across the kitchen table. He shouted
 great tidings.
    I saw that my friend was much more than inwardly
-
 12              ALCOHOLICS ANONYMOUS
 reorganized. He was on a different footing. His roots
 grasped a new soil.
@@ -1138,7 +1106,6 @@ dral burst upon me. For a brief moment, I had needed
 and wanted God. There had been a humble willing-
 ness to have Him with me—and He came. But soon
 the sense of His presence had been blotted out by
-
                      BILL’S STORY                    13
 worldly clamors, mostly those within myself. And so
 it had been ever since. How blind I had been.
@@ -1173,7 +1140,6 @@ would enter upon a new relationship with my Creator;
 that I would have the elements of a way of living
 which answered all my problems. Belief in the power
 of God, plus enough willingness, honesty and humility
-
 14              ALCOHOLICS ANONYMOUS
 to establish and maintain the new order of things, were
 the essential requirements.
@@ -1208,7 +1174,6 @@ ticularly was it imperative to work with others as he
 had worked with me. Faith without works was dead,
 he said. And how appallingly true for the alcoholic!
 For if an alcoholic failed to perfect and enlarge his
-
                       BILL’S STORY                      15
 spiritual life through work and self-sacrifice for others,
 he could not survive the certain trials and low spots
@@ -1243,7 +1208,6 @@ trouble and misery which has not been overcome
 among us. In one western city and its environs there
 are one thousand of us and our families. We meet fre-
 quently so that newcomers may find the fellowship
-
 16             ALCOHOLICS ANONYMOUS
 they seek. At these informal gatherings one may often
 see from 50 to 200 persons. We are growing in num-
@@ -1273,7 +1237,7 @@ men.
 
 
 *In 2006, A.A. is composed of over 106,000 groups.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 17
 
 
 
@@ -1309,7 +1273,7 @@ men.
           is the great news this book carries to those who suffer
           from alcoholism.
                                       17
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 18
 
 
 
@@ -1347,7 +1311,7 @@ men.
               ever except the sincere desire to be helpful; that there
               are no fees to pay, no axes to grind, no people to
               please, no lectures to be endured—these are the condi-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 19
 
 
 
@@ -1386,7 +1350,7 @@ men.
           achieve that ideal. Most of us sense that real tolerance
           of other people’s shortcomings and viewpoints and a
           respect for their opinions are attitudes which make us
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 20
 
 
 
@@ -1425,7 +1389,7 @@ men.
               can take it or leave it alone.
                  Then we have a certain type of hard drinker. He
               may have the habit badly enough to gradually impair
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 21
 
 
 
@@ -1464,7 +1428,7 @@ men.
           structure down on his head by a senseless series of
           sprees. He is the fellow who goes to bed so intoxicated
           he ought to sleep the clock around. Yet early next
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 22
 
 
 
@@ -1503,7 +1467,7 @@ men.
               once he takes any alcohol whatever into his system,
               something happens, both in the bodily and mental
               sense, which makes it virtually impossible for him to
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 23
 
 
 
@@ -1542,7 +1506,7 @@ men.
           assert his power of will.
              The tragic truth is that if the man be a real alco-
           holic, the happy day may not arrive. He has lost
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 24
 
 
 
@@ -1581,7 +1545,7 @@ men.
               placed himself beyond human aid, and unless locked
               up, may die or go permanently insane. These stark
               and ugly facts have been confirmed by legions of alco-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 25
 
 
 
@@ -1620,7 +1584,7 @@ men.
           the consciousness of our intolerable situation as best
           we could; and the other, to accept spiritual help. This
           *Fully explained—Appendix II.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 26
 
 
 
@@ -1658,7 +1622,7 @@ men.
                  But this man still lives, and is a free man. He does
               not need a bodyguard nor is he confined. He can go
               anywhere on this earth where other free men may go
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 27
 
 
 
@@ -1697,7 +1661,7 @@ men.
           convictions were very good, in his case they did not
           spell the necessary vital spiritual experience.
           *For amplification—see Appendix II.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 28
 
 
 
@@ -1736,7 +1700,7 @@ men.
               tion of alcoholism, as we understand it, then a chapter
               addressed to the agnostic. Many who once were in
               this class are now among our members. Surprisingly
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 29
 
 
 
@@ -1759,7 +1723,6 @@ men.
           ing ourselves and our problems that they will be
           persuaded to say, “Yes, I am one of them too; I must
           have this thing.”
-
                         Chapter 3
         MORE ABOUT ALCOHOLISM
 
@@ -1792,7 +1755,6 @@ worse, never better.
 never grow new ones. Neither does there appear to be
 any kind of treatment which will make alcoholics of
                            30
-
               MORE ABOUT ALCOHOLISM                  31
 our kind like other men. We have tried every imagina-
 ble remedy. In some instances there has been brief
@@ -1827,7 +1789,6 @@ ad infinitum.
 holic, but you can quickly diagnose yourself. Step
 over to the nearest barroom and try some controlled
 drinking. Try to drink and stop abruptly. Try it
-
 32             ALCOHOLICS ANONYMOUS
 more than once. It will not take long for you to de-
 cide, if you are honest with yourself about it. It may
@@ -1861,7 +1822,6 @@ regulate his drinking for a while, making several trips
 to the hospital meantime. Then, gathering all his
 forces, he attempted to stop altogether and found he
 could not. Every means of solving his problem which
-
                MORE ABOUT ALCOHOLISM                 33
 money could buy was at his disposal. Every attempt
 failed. Though a robust man at retirement, he went
@@ -1895,7 +1855,6 @@ Certain drinkers, who would be greatly insulted if
 called alcoholics, are astonished at their inability to
 stop. We, who are familiar with the symptoms, see
 large numbers of potential alcoholics among young
-
 34              ALCOHOLICS ANONYMOUS
 people everywhere. But try and get them to see it!*
     As we look back, we feel we had gone on drinking
@@ -1930,7 +1889,6 @@ be helpful, but we think we can render an even greater
 service to alcoholic sufferers and perhaps to the medi-
 * True when this book was first published. But a 2003 U.S./Canada membership sur-
 vey showed about one-fifth of A.A.’s were thirty and under.
-
                MORE ABOUT ALCOHOLISM                 35
 cal fraternity. So we shall describe some of the mental
 states that precede a relapse into drinking, for ob-
@@ -1965,7 +1923,6 @@ a real alcoholic and in a serious condition. He knew
 he faced another trip to the asylum if he kept on.
 Moreover, he would lose his family for whom he had
 a deep affection.
-
 36             ALCOHOLICS ANONYMOUS
    Yet he got drunk again. We asked him to tell us
 exactly how it happened. This is his story: “I came to
@@ -1999,7 +1956,6 @@ family and position, to say nothing of that intense
 mental and physical suffering which drinking always
 caused him. He had much knowledge about himself
 as an alcoholic. Yet all reasons for not drinking were
-
                MORE ABOUT ALCOHOLISM                    37
 easily pushed aside in favor of the foolish idea that he
 could take whiskey if only he mixed it with milk!
@@ -2034,7 +1990,6 @@ with a passion, say, for jay-walking. He gets a thrill
 out of skipping in front of fast-moving vehicles. He
 enjoys himself for a few years in spite of friendly warn-
 ings. Up to this point you would label him as a foolish
-
 38              ALCOHOLICS ANONYMOUS
 chap having queer ideas of fun. Luck then deserts
 him and he is slightly injured several times in succes-
@@ -2068,7 +2023,6 @@ extremes you fellows did, nor are we likely to, for we
 understand ourselves so well after what you have told
 us that such things cannot happen again. We have
 not lost everything in life through drinking and we
-
                MORE ABOUT ALCOHOLISM                    39
 certainly do not intend to. Thanks for the informa-
 tion.’’
@@ -2103,7 +2057,6 @@ occurred to him that perhaps he could not do so, in
 spite of his character and standing. Fred would not
 believe himself an alcoholic, much less accept a
 spiritual remedy for his problem. We told him what
-
 40              ALCOHOLICS ANONYMOUS
 we knew about alcoholism. He was interested and
 conceded that he had some of the symptoms, but he
@@ -2138,7 +2091,6 @@ and for a time all was well. I had no trouble refusing
 drinks, and began to wonder if I had not been making
 too hard work of a simple matter. One day I went to
 Washington to present some accounting evidence to
-
                MORE ABOUT ALCOHOLISM                 41
 a government bureau. I had been out of town before
 during this particular dry spell, so there was nothing
@@ -2173,7 +2125,6 @@ carelessly as though the cocktails were ginger ale. I
 now remembered what my alcoholic friends had told
 me, how they prophesied that if I had an alcoholic
 mind, the time and place would come—I would drink
-
 42              ALCOHOLICS ANONYMOUS
 again. They had said that though I did raise a defense,
 it would one day give way before some trivial reason
@@ -2208,7 +2159,6 @@ curious feeling that my alcoholic condition was re-
 lieved, as in fact it proved to be.
    “Quite as important was the discovery that spiritual
 principles would solve all my problems. I have since
-
                MORE ABOUT ALCOHOLISM                   43
 been brought into a way of living infinitely more satis-
 fying and, I hope, more useful than the life I lived
@@ -2240,7 +2190,6 @@ effective mental defense against the first drink. Ex-
 cept in a few rare cases, neither he nor any other
 human being can provide such a defense. His defense
 must come from a Higher Power.
-
                         Chapter 4
                  WE AGNOSTICS
 
@@ -2272,7 +2221,6 @@ you need not be disconcerted.
    If a mere code of morals or a better philosophy of
 life were sufficient to overcome alcoholism, many of us
                            44
-
                     WE AGNOSTICS                      45
 would have recovered long ago. But we found that
 such codes and philosophies did not save us, no matter
@@ -2307,7 +2255,6 @@ to impress them during childhood. Perhaps we re-
 jected this particular conception because it seemed
 inadequate. With that rejection we imagined we had
 abandoned the God idea entirely. We were bothered
-
 46              ALCOHOLICS ANONYMOUS
 with the thought that faith and dependence upon a
 Power beyond ourselves was somewhat weak, even
@@ -2342,7 +2289,6 @@ make too hard terms with those who seek Him. To us,
 the Realm of Spirit is broad, roomy, all inclusive; never
 exclusive or forbidding to those who earnestly seek.
 It is open, we believe, to all men.
-
                              WE AGNOSTICS             47
    When, therefore, we speak to you of God, we mean
 your own conception of God. This applies, too, to
@@ -2377,7 +2323,6 @@ so plain to him.’’ So it was comforting to learn that
 we could commence at a simpler level.
    Besides a seeming inability to accept much on faith,
 * Please be sure to read Appendix II on “Spiritual Experience.”
-
 48               ALCOHOLICS ANONYMOUS
 we often found ourselves handicapped by obstinacy,
 sensitiveness, and unreasoning prejudice. Many of us
@@ -2412,7 +2357,6 @@ stantly revealed, as mankind studies the material
 world, that outward appearances are not inward
 reality at all. To illustrate:
    The prosaic steel girder is a mass of electrons whirl-
-
                      WE AGNOSTICS                     49
 ing around each other at incredible speed. These
 tiny bodies are governed by precise laws, and these
@@ -2447,7 +2391,6 @@ many spiritually-minded persons of all races, colors,
 and creeds were demonstrating a degree of stability,
 happiness and usefulness which we should have sought
 ourselves.
-
 50             ALCOHOLICS ANONYMOUS
    Instead, we looked at the human defects of these
 people, and sometimes used their shortcomings as a
@@ -2482,7 +2425,6 @@ of their human resources, they found that a new
 power, peace, happiness, and sense of direction flowed
 into them. This happened soon after they whole-
 heartedly met a few simple requirements. Once con-
-
                      WE AGNOSTICS                      51
 fused and baffled by the seeming futility of existence,
 they show the underlying reasons why they were
@@ -2517,7 +2459,6 @@ flying machine go to the bottom of the Potomac
 River? Was it not true that the best mathematical
 minds had proved man could never fly? Had not
 people said God had reserved this privilege to the
-
 52              ALCOHOLICS ANONYMOUS
 birds? Only thirty years later the conquest of the air
 was almost an old story and airplane travel was in
@@ -2552,7 +2493,6 @@ spring of their accomplishment. Without that, nothing
 could have happened. We agnostics and atheists were
 sticking to the idea that self-sufficiency would solve
 our problems. When others showed us that “God-suf-
-
                      WE AGNOSTICS                      53
 ficiency’’ worked with them, we began to feel like
 those who had insisted the Wrights would never fly.
@@ -2587,7 +2527,6 @@ and we did not like to lose our support.
    That was natural, but let us think a little more
 closely. Without knowing it, had we not been brought
 to where we stood by a certain kind of faith? For did
-
 54               ALCOHOLICS ANONYMOUS
 we not believe in our own reasoning? Did we not
 have confidence in our ability to think? What was
@@ -2622,7 +2561,6 @@ couldn’t. The electrons themselves seemed more in-
 telligent than that. At least, so the chemist said.
    Hence, we saw that reason isn’t everything. Neither
 is reason, as most of us use it, entirely dependable,
-
                     WE AGNOSTICS                      55
 though it emanate from our best minds. What about
 people who proved that man could never fly?
@@ -2657,7 +2595,6 @@ to you.
 who thought he was an atheist. His story is so interest-
 ing that some of it should be told now. His change of
 heart was dramatic, convincing, and moving.
-
 56             ALCOHOLICS ANONYMOUS
    Our friend was a minister’s son. He attended
 church school, where he became rebellious at what
@@ -2692,7 +2629,6 @@ panionship with his Creator.
    Thus was our friend’s cornerstone fixed in place. No
 later vicissitude has shaken it. His alcoholic problem
 was taken away. That very night, years ago, it dis-
-
                     WE AGNOSTICS                   57
 appeared. Save for a few brief moments of temptation
 the thought of drink has never returned; and at such
@@ -2709,7 +2645,7 @@ grow into it more slowly. But He has come to all who
 have honestly sought Him.
    When we drew near to Him He disclosed Himself
 to us!
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 58
 
 
 
@@ -2746,7 +2682,7 @@ to us!
               was nil until we let go absolutely.
                  Remember that we deal with alcohol—cunning, baf-
                                           58
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 59
 
 
 
@@ -2784,7 +2720,7 @@ to us!
                  prove our conscious contact with God as we un-
                  derstood Him, praying only for knowledge of
                  His will for us and the power to carry that out.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 60
 
 
 
@@ -2822,7 +2758,7 @@ to us!
               son is like an actor who wants to run the whole show;
               is forever trying to arrange the lights, the ballet, the
               scenery and the rest of the players in his own way. If
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 61
 
 
 
@@ -2861,7 +2797,7 @@ to us!
           complaining of the sad state of the nation; the minister
           who sighs over the sins of the twentieth century; poli-
           ticians and reformers who are sure all would be Utopia
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 62
 
 
 
@@ -2900,7 +2836,7 @@ to us!
               Most good ideas are simple, and this concept was the
               keystone of the new and triumphant arch through
               which we passed to freedom.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 63
 
 
 
@@ -2939,7 +2875,7 @@ to us!
           was felt at once.
              Next we launched out on a course of vigorous action,
           the first step of which is a personal housecleaning,
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 64
 
 
 
@@ -2978,7 +2914,7 @@ to us!
               angry. We asked ourselves why we were angry. In
               most cases it was found that our self-esteem, our
               pocketbooks, our ambitions, our personal relationships
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 65
 
 
 
@@ -3019,7 +2955,7 @@ to us!
              We went back through our lives. Nothing counted
           but thoroughness and honesty. When we were fin-
           ished we considered it carefully. The first thing ap-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 66
 
 
 
@@ -3058,7 +2994,7 @@ to us!
               could not wish them away any more than alcohol.
                  This was our course: We realized that the people
               who wronged us were perhaps spiritually sick.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 67
 
 
 
@@ -3096,7 +3032,7 @@ to us!
           with it. It set in motion trains of circumstances which
           brought us misfortune we felt we didn’t deserve. But
           did not we, ourselves, set the ball rolling? Sometimes
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 68
 
 
 
@@ -3135,7 +3071,7 @@ to us!
               we find human opinions running to extremes—absurd
               extremes, perhaps. One set of voices cry that sex is a
               lust of our lower nature, a base necessity of procrea-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 69
 
 
 
@@ -3174,7 +3110,7 @@ to us!
           about each specific matter. The right answer will
           come, if we want it.
              God alone can judge our sex situation. Counsel with
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 70
 
 
 
@@ -3213,7 +3149,7 @@ to us!
               have hurt by our conduct, and are willing to straighten
               out the past if we can.
                  In this book you read again and again that faith did
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 71
 
 
 
@@ -3226,7 +3162,7 @@ to us!
           grosser handicaps, you have made a good beginning.
           That being so you have swallowed and digested some
           big chunks of truth about yourself.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 72
 
 
 
@@ -3262,7 +3198,7 @@ to us!
               about their lives. Trying to avoid this humbling ex-
               perience, they have turned to easier methods. Almost
                                           72
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 73
 
 
 
@@ -3301,7 +3237,7 @@ to us!
           the medical profession have a low opinion of alcoholics
           and their chance for recovery!
              We must be entirely honest with somebody if we
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 74
 
 
 
@@ -3339,7 +3275,7 @@ to us!
               very anxious that we talk to the right person. It is im-
               portant that he be able to keep a confidence; that he
               fully understand and approve what we are driving at;
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 75
 
 
 
@@ -3378,7 +3314,7 @@ to us!
           erly in place? Have we skimped on the cement put
           into the foundation? Have we tried to make mortar
           without sand?
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 76
 
 
 
@@ -3417,7 +3353,7 @@ to us!
               of them on a spiritual basis. Let us be reassured. To
               some people we need not, and probably should not
               emphasize the spiritual feature on our first approach.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 77
 
 
 
@@ -3456,7 +3392,7 @@ to us!
           over drinking until we have done our utmost to
           straighten out the past. We are there to sweep off our
           side of the street, realizing that nothing worth while
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 78
 
 
 
@@ -3495,7 +3431,7 @@ to us!
               be imprisoned or lose our job if it were known. Maybe
               it’s only a petty offense such as padding the expense
               account. Most of us have done that sort of thing.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 79
 
 
 
@@ -3534,7 +3470,7 @@ to us!
           was perfectly willing to go to jail if she insisted. Of
           course she did not, and the whole situation has long
           since been adjusted.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 80
 
 
 
@@ -3573,7 +3509,7 @@ to us!
               ago.
                   The chances are that we have domestic troubles.
               Perhaps we are mixed up with women in a fashion we
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 81
 
 
 
@@ -3612,7 +3548,7 @@ to us!
           course to take.
              Our design for living is not a one-way street. It is
           as good for the wife as for the husband. If we can
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 82
 
 
 
@@ -3651,7 +3587,7 @@ to us!
               ruined. To his wife, he remarked, “Don’t see anything
               the matter here, Ma. Ain’t it grand the wind stopped
               blowin’?’’
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 83
 
 
 
@@ -3690,7 +3626,7 @@ to us!
           way through. We are going to know a new freedom
           and a new happiness. We will not regret the past nor
           wish to shut the door on it. We will comprehend the
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 84
 
 
 
@@ -3729,7 +3665,7 @@ to us!
               even alcohol. For by this time sanity will have re-
               turned. We will seldom be interested in liquor. If
               tempted, we recoil from it as from a hot flame. We
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 85
 
 
 
@@ -3768,7 +3704,7 @@ to us!
           more action.
              Step Eleven suggests prayer and meditation. We
           shouldn’t be shy on this matter of prayer. Better men
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 86
 
 
 
@@ -3807,7 +3743,7 @@ to us!
               thought or a decision. We relax and take it easy. We
               don’t struggle. We are often surprised how the right
               answers come after we have tried this for a while.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 87
 
 
 
@@ -3846,7 +3782,7 @@ to us!
              As we go through the day we pause, when agitated
           or doubtful, and ask for the right thought or action.
           We constantly remind ourselves we are no longer
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 88
 
 
 
@@ -3865,7 +3801,7 @@ to us!
                  But this is not all. There is action and more action.
               “Faith without works is dead.’’ The next chapter is
               entirely devoted to Step Twelve.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 89
 
 
 
@@ -3901,7 +3837,7 @@ to us!
           cooperate; never criticize. To be helpful is our only
           aim.
                                       89
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 90
 
 
 
@@ -3940,7 +3876,7 @@ to us!
               of his next drinking bout. You might place this book
               where he can see it in the interval. Here no specific
               rule can be given. The family must decide these
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 91
 
 
 
@@ -3979,7 +3915,7 @@ to us!
           to tell some of his.
              When he sees you know all about the drinking
           game, commence to describe yourself as an alcoholic.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 92
 
 
 
@@ -4018,7 +3954,7 @@ to us!
               all, of the traits of the alcoholic. If his own doctor
               is willing to tell him that he is alcoholic, so much the
               better. Even though your protégé may not have en-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 93
 
 
 
@@ -4057,7 +3993,7 @@ to us!
           have applied it or he would not drink. Perhaps your
           story will help him see where he has failed to practice
           the very precepts he knows so well. We represent no
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 94
 
 
 
@@ -4096,7 +4032,7 @@ to us!
               taken action. On your first visit tell him about the
               Fellowship of Alcoholics Anonymous. If he shows
               interest, lend him your copy of this book.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 95
 
 
 
@@ -4135,7 +4071,7 @@ to us!
           with us. But point out that we alcoholics have much
           in common and that you would like, in any case, to
           be friendly. Let it go at that.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 96
 
 
 
@@ -4173,7 +4109,7 @@ to us!
               not trying to impose upon you for money, connections,
               or shelter. Permit that and you only harm him. You
               will be making it possible for him to be insincere.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 97
 
 
 
@@ -4212,7 +4148,7 @@ to us!
           even though he continues to drink, the family will find
           life more bearable.
              For the type of alcoholic who is able and willing to
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 98
 
 
 
@@ -4251,7 +4187,7 @@ to us!
               about that. He should concentrate on his own spiri-
               tual demonstration. Argument and fault-finding are to
               be avoided like the plague. In many homes this is a
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 99
 
 
 
@@ -4290,7 +4226,7 @@ to us!
           his family back. This just isn’t so. In some cases the
           wife will never come back for one reason or another.
           Remind the prospect that his recovery is not depen-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 100
 
 
 
@@ -4329,7 +4265,7 @@ to us!
                  Assuming we are spiritually fit, we can do all sorts
               of things alcoholics are not supposed to do. People
               have said we must not go where liquor is served; we
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 101
 
 
 
@@ -4368,7 +4304,7 @@ to us!
           I any good social, business, or personal reason for go-
           ing to this place? Or am I expecting to steal a little
           vicarious pleasure from the atmosphere of such
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 102
 
 
 
@@ -4407,7 +4343,7 @@ to us!
               over. Some of us still serve it to our friends provided
               they are not alcoholic. But some of us think we should
               not serve liquor to anyone. We never argue this ques-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 103
 
 
 
@@ -4434,7 +4370,7 @@ to us!
              After all, our problems were of our own making.
           Bottles were only a symbol. Besides, we have stopped
           fighting anybody or anything. We have to!
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 104
 
 
 
@@ -4474,7 +4410,7 @@ to us!
               who lives with a woman alcoholic—whether she is still drinking or is re-
               covering in A.A. A further source of help is noted on page 121.
                                                 104
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 105
 
 
 
@@ -4512,7 +4448,7 @@ to us!
           their self-pity made them killjoys.
              There was never financial security. Positions were
           always in jeopardy or gone. An armored car could
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 106
 
 
 
@@ -4551,7 +4487,7 @@ to us!
               closer together. The alarming physical and mental
               symptoms, the deepening pall of remorse, depression
               and inferiority that settled down on our loved ones—
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 107
 
 
 
@@ -4589,7 +4525,7 @@ to us!
           become of their judgment, their common sense, their
           will power? Why could they not see that drink meant
           ruin to them? Why was it, when these dangers were
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 108
 
 
 
@@ -4628,7 +4564,7 @@ to us!
                  The problem with which you struggle usually falls
               within one of four categories:
                  One: Your husband may be only a heavy drinker.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 109
 
 
 
@@ -4667,7 +4603,7 @@ to us!
           say among ourselves, “He wants to want to stop.”
              Three: This husband has gone much further than
           husband number two. Though once like number two
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 110
 
 
 
@@ -4706,7 +4642,7 @@ to us!
               We know all about liquor as a social lubricant. Some,
               but not all of us, think it has its advantages when
               reasonably used.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 111
 
 
 
@@ -4745,7 +4681,7 @@ to us!
           yourself in his place. Let him see that you want to be
           helpful rather than critical.
              When a discussion does arise, you might suggest he
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 112
 
 
 
@@ -4784,7 +4720,7 @@ to us!
               of the book understand. Tell him some of the interest-
               ing stories you have read. If you think he will be shy
               of a spiritual remedy, ask him to look at the chapter on
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 113
 
 
 
@@ -4823,7 +4759,7 @@ to us!
           body had given them up. Defeat seemed certain. Yet
           often such men had spectacular and powerful recov-
           eries.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 114
 
 
 
@@ -4862,7 +4798,7 @@ to us!
               meet your friends. You draw more and more into
               yourself and you think everyone is talking about con-
               ditions at your home. You avoid the subject of drink-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 115
 
 
 
@@ -4901,7 +4837,7 @@ to us!
           your husband explain. Your desire to protect him
           should not cause you to lie to people when they have
           a right to know where he is and what he is doing. Dis-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 116
 
 
 
@@ -4940,7 +4876,7 @@ to us!
               to work in every department of our lives. When we
               do that, we find it solves our problems too; the ensuing
               lack of fear, worry and hurt feelings is a wonderful
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 117
 
 
 
@@ -4979,7 +4915,7 @@ to us!
           your husband whenever there is an honest difference
           of opinion. Just be careful not to disagree in a resent-
           ful or critical spirit.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 118
 
 
 
@@ -5018,7 +4954,7 @@ to us!
               which we struggled for years. At such moments we
               forget that alcoholism is an illness over which we could
               not possibly have had any power. Your husband will
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 119
 
 
 
@@ -5057,7 +4993,7 @@ to us!
           as much as your husband. If you cooperate, rather
           than complain, you will find that his excess enthusiasm
           will tone down. Both of you will awaken to a new
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 120
 
 
 
@@ -5096,7 +5032,7 @@ to us!
               down to fundamentals. If a repetition is to be pre-
               vented, place the problem, along with everything else,
               in God’s hands.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 121
 
 
 
@@ -5125,7 +5061,7 @@ to us!
             If there is no Al-Anon listing in your local telephone book, you may obtain further
           information on Al-Anon/Alateen Family Groups by writing to its World
           Service Office, 1600 Corporate Landing Parkway, Virginia Beach, VA 23454-5617.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 122
 
 
 
@@ -5161,7 +5097,7 @@ to us!
               start their journey, that all will not be fair weather.
               Each in his turn may be footsore and may straggle.
                                          122
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 123
 
 
 
@@ -5200,7 +5136,7 @@ to us!
           miliating, shameful or tragic. The first impulse will be
           to bury these skeletons in a dark closet and padlock
           the door. The family may be possessed by the idea
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 124
 
 
 
@@ -5239,7 +5175,7 @@ to us!
               one provocation or another, the aggrieved one would
               unearth the old affair and angrily cast its ashes about.
               A few of us have had these growing pains and they
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 125
 
 
 
@@ -5278,7 +5214,7 @@ to us!
           tremes. At the beginning of recovery a man will take,
           as a rule, one of two directions. He may either plunge
           into a frantic attempt to get on his feet in business, or
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 126
 
 
 
@@ -5317,7 +5253,7 @@ to us!
                  This sort of thing can be avoided. Both father and
               the family are mistaken, though each side may have
               some justification. It is of little use to argue and only
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 127
 
 
 
@@ -5355,7 +5291,7 @@ to us!
           heated argument, self-pity, self-justification or resent-
           ful criticism. Little by little, mother and children will
           see they ask too much, and father will see he gives too
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 128
 
 
 
@@ -5394,7 +5330,7 @@ to us!
               dulged in spiritual intoxication. Like a gaunt pros-
               pector, belt drawn in over the last ounce of food, our
               pick struck gold. Joy at our release from a lifetime of
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 129
 
 
 
@@ -5433,7 +5369,7 @@ to us!
           go as far as he likes in helping other alcoholics. Dur-
           ing those first days of convalescence, this will do more
           to insure his sobriety than anything else. Though
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 130
 
 
 
@@ -5472,7 +5408,7 @@ to us!
               responsibilities gallantly. By force of circumstances,
               she was often obliged to treat father as a sick or way-
               ward child. Even when he wanted to assert himself
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 131
 
 
 
@@ -5511,7 +5447,7 @@ to us!
           be helped by such contacts. Being possessed of a
           spiritual experience, the alcoholic will find he has
           much in common with these people, though he may
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 132
 
 
 
@@ -5550,7 +5486,7 @@ to us!
               to help others.
                  Everybody knows that those in bad health, and
               those who seldom play, do not laugh much. So let
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 133
 
 
 
@@ -5589,7 +5525,7 @@ to us!
           of reading this book in manuscript form told us that
           the use of sweets was often helpful, of course depend-
           ing upon a doctor’s advice. He thought all alcoholics
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 134
 
 
 
@@ -5628,7 +5564,7 @@ to us!
               sion without rancor or bias. From that point on,
               progress will be rapid. Marvelous results often follow
               such a reunion.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 135
 
 
 
@@ -5662,7 +5598,7 @@ to us!
                              First Things First
                              Live and Let Live
                              Easy Does It.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 136
 
 
 
@@ -5698,7 +5634,7 @@ to us!
               that you were not to blame in any way.”
                  Another time, as I opened a letter which lay on my
                                          136
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 137
 
 
 
@@ -5737,7 +5673,7 @@ to us!
           employer has sometimes kept such a man at work long
           beyond a reasonable period. Some employers have
           tried every known remedy. In only a few instances
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 138
 
 
 
@@ -5775,7 +5711,7 @@ to us!
                  I wanted to throw up my hands in discouragement,
               for I saw that I had failed to help my banker friend
               understand. He simply could not believe that his
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 139
 
 
 
@@ -5814,7 +5750,7 @@ to us!
              A look at the alcoholic in your organization is many
           times illuminating. Is he not usually brilliant, fast-
           thinking, imaginative and likeable? When sober, does
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 140
 
 
 
@@ -5853,7 +5789,7 @@ to us!
               no matter how bad, to the abnormal action of alcohol
               on his mind. When drinking, or getting over a bout,
               an alcoholic, sometimes the model of honesty when
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 141
 
 
 
@@ -5892,7 +5828,7 @@ to us!
              State that you know about his drinking, and that it
           must stop. You might say you appreciate his abilities,
           would like to keep him, but cannot if he continues to
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 142
 
 
 
@@ -5931,7 +5867,7 @@ to us!
               recover and that he will go to any extreme to do so,
               you may suggest a definite course of action. For most
               alcoholics who are drinking, or who are just getting
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 143
 
 
 
@@ -5970,7 +5906,7 @@ to us!
           return.
              To return to the subject matter of this book: It con-
           tains full suggestions by which the employee may
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 144
 
 
 
@@ -6008,7 +5944,7 @@ to us!
                  On your employee’s return, talk with him. Ask him
               if he thinks he has the answer. If he feels free to
               discuss his problems with you, if he knows you under-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 145
 
 
 
@@ -6047,7 +5983,7 @@ to us!
           of it at first but, within a short time, it was billboarded
           throughout the entire company. Naturally this sort of
           thing decreased the man’s chance of recovery. The
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 146
 
 
 
@@ -6086,7 +6022,7 @@ to us!
               means the loss of his job. For he knows he must be
               honest if he would live at all. He will appreciate
               knowing you are not bothering your head about him,
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 147
 
 
 
@@ -6125,7 +6061,7 @@ to us!
           mighty sick man. You act like one. The firm wants
           to help you get over it, and if you are interested, there
           is a way out. If you take it, your past will be forgotten
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 148
 
 
 
@@ -6164,7 +6100,7 @@ to us!
               the habits of our employees. If a man drinks so much
               that his job suffers, we fire him. I don’t see how you
               can be of any help to us for, as you see, we don’t have
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 149
 
 
 
@@ -6203,7 +6139,7 @@ to us!
           it. He will work like the devil and thank you to his
           dying day.
              Today I own a little company. There are two
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 150
 
 
 
@@ -6217,7 +6153,7 @@ to us!
 
               * See Appendix VI—We shall be happy to hear from you if we can
               be of help.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 151
 
 
 
@@ -6253,7 +6189,7 @@ to us!
           moment says, “I don’t miss it at all. Feel better. Work
           better. Having a better time.” As ex-problem drink-
                                      151
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 152
 
 
 
@@ -6292,7 +6228,7 @@ to us!
               mous. Among them you will make lifelong friends.
               You will be bound to them with new and wonderful
               ties, for you will escape disaster together and you will
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 153
 
 
 
@@ -6331,7 +6267,7 @@ to us!
              Years ago, in 1935, one of our number made a
           journey to a certain western city. From a business
           standpoint, his trip came off badly. Had he been suc-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 154
 
 
 
@@ -6369,7 +6305,7 @@ to us!
               how to get well, ah—yes, those other alcoholics?
               There must be many such in this town. He would
               phone a clergyman. His sanity returned and he thanked
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 155
 
 
 
@@ -6409,7 +6345,7 @@ to us!
           * This refers to Bill’s first visit with Dr. Bob. These men later be-
           came co-founders of A.A. Bill’s story opens the text of this book; Dr.
           Bob’s heads the Story Section.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 156
 
 
 
@@ -6449,7 +6385,7 @@ to us!
               * This refers to Bill’s and Dr. Bob’s first visit to A.A. Number Three.
               See the Pioneer Section. This resulted in A.A.’s first group, at Akron,
               Ohio, in 1935.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 157
 
 
 
@@ -6488,7 +6424,7 @@ to us!
           and told him about the course of action they carried
           out.
              He interrupted: “I used to be strong for the church,
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 158
 
 
 
@@ -6527,7 +6463,7 @@ to us!
               make out whether he wanted to stop drinking or not.
               They were deeply religious people, much shocked by
               their son’s refusal to have anything to do with the
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 159
 
 
 
@@ -6566,7 +6502,7 @@ to us!
           present their discovery to some newcomer. In addi-
           tion to these casual get-togethers, it became customary
           to set apart one night a week for a meeting to be at-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 160
 
 
 
@@ -6604,7 +6540,7 @@ to us!
               absence of intolerance of any kind, the informality,
               the genuine democracy, the uncanny understanding
               which these people had were irresistible. He and his
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 161
 
 
 
@@ -6643,7 +6579,7 @@ to us!
           thing is taking place in many eastern cities. In one of
 
           * Written in 1939.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 162
 
 
 
@@ -6682,7 +6618,7 @@ to us!
                  Thus we grow. And so can you, though you be but
               * Written in 1939. In 2003, there are over 103,000 groups. There is A.A. activity in
               approximately 150 countries, with an estimated membership of over two million.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 163
 
 
 
@@ -6721,7 +6657,7 @@ to us!
           if our experience is a criterion, more than half of those
           approached will become fellows of Alcoholics Anony-
           mous. When a few men in this city have found them-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 164
 
 
 
@@ -6760,7 +6696,7 @@ to us!
 
               * Alcoholics Anonymous will be glad to hear from you. Address P.O. Box 459,
               Grand Central Station, New York, NY 10163.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 171
 
 
 
@@ -6798,7 +6734,7 @@ to us!
              My father was a professional man of recognized
           ability and both my father and mother were most
                                       171
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 172
 
 
 
@@ -6837,7 +6773,7 @@ to us!
               drinking fraternity but not in the eyes of the Dean.
                  The next three years I spent in Boston, Chicago, and
               Montreal in the employ of a large manufacturing con-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 173
 
 
 
@@ -6875,7 +6811,7 @@ to us!
           much disgusted and told me they would attempt to
           struggle along without my presence. After many pain-
           ful discussions, they finally gave me my credits and I
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 174
 
 
 
@@ -6914,7 +6850,7 @@ to us!
                  By this time I was beginning to pay very dearly
               physically and, in hope of relief, voluntarily incar-
               cerated myself at least a dozen times in one of the
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 175
 
 
 
@@ -6953,7 +6889,7 @@ to us!
              During the next few years, I developed two distinct
           phobias. One was the fear of not sleeping, and the
           other was the fear of running out of liquor. Not being
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 176
 
 
 
@@ -6992,7 +6928,7 @@ to us!
               days got dark enough. My bootlegger had hidden
               alcohol at the back steps where I could get it at my
               convenience. Sometimes I would bring it in my
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 177
 
 
 
@@ -7031,7 +6967,7 @@ to us!
           full, with the permission of my good wife. It was not
           long before I was drinking at least a case and a half a
           day. I put on thirty pounds of weight in about two
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 178
 
 
 
@@ -7069,7 +7005,7 @@ to us!
               not, I know I would have been dead a long time ago.
               For some reason, we alcoholics seem to have the gift
               of picking out the world’s finest women. Why they
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 179
 
 
 
@@ -7107,7 +7043,7 @@ to us!
           house, in a town near home. These good people noti-
           fied my wife, who sent my newly made friend over to
           get me. He came and got me home and to bed, gave
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 180
 
 
 
@@ -7145,7 +7081,7 @@ to us!
                  I spend a great deal of time passing on what I
               learned to others who want and need it badly. I do it
               for four reasons:
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 181
 
 
 
@@ -7180,7 +7116,7 @@ to us!
           the zeal you have been in the habit of showing when
           you were getting another drink.
              Your Heavenly Father will never let you down!
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 182
 
 
 
@@ -7217,7 +7153,7 @@ to us!
                  The first time that I became intoxicated I was eight
               years old. This was no fault of my father or mother, as
                                          182
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 183
 
 
 
@@ -7256,7 +7192,7 @@ to us!
           the stuff obtainable was so horrible and sometimes
           deadly, and that I had married and had a job which I
           had to look after, helped me for a period of some three
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 184
 
 
 
@@ -7295,7 +7231,7 @@ to us!
               couldn’t blame her and did not intend to try to justify
               myself. She told me that she had been talking to a
               couple of fellows about drinking. I resented this very
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 185
 
 
 
@@ -7334,7 +7270,7 @@ to us!
              After a while, Bill said, “Well, now, you’ve been
           talking a good long time, let me talk a minute or two.”
           So, after hearing some more of my story, he turned
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 186
 
 
 
@@ -7372,7 +7308,7 @@ to us!
               opportunities that I had discarded, the abilities that
               had been given me and how I had wasted them, and
               I finally came to the conclusion that if I didn’t want
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 187
 
 
 
@@ -7411,7 +7347,7 @@ to us!
           that was the first time I had ever paid any attention
           to that word. I figured I was just a drunk. And they
           said, “No, you have a disease, and it doesn’t make any
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 188
 
 
 
@@ -7454,7 +7390,7 @@ to us!
                 ever, he wearily ventured, “Well, this is wonderful for you
                 fellows, but it can’t be for me. My case is so terrible that
                 I’m scared to go out of this hospital at all. You don’t have
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 189
 
 
 
@@ -7497,7 +7433,7 @@ to us!
           willing to put everything I had into it, with God’s
           power, and that I wanted to do just that. As soon as
           I had done that, I did feel a great release. I knew that
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 190
 
 
 
@@ -7536,7 +7472,7 @@ to us!
               nonexistent. I didn’t have any. Naturally, for quite
               a time, I wasn’t too well physically, either. It took me
               a year, or a year and a half, to get to feeling physically
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 191
 
 
 
@@ -7575,7 +7511,7 @@ to us!
           ble disease, that I just want to keep telling people
           about it,” has been a sort of a golden text for the A.A.
           program and for me.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 192
 
 
 
@@ -7598,7 +7534,7 @@ to us!
               have found God.”
                  I feel that is about the most wonderful thing that a
               person can do.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 193
 
 
 
@@ -7635,7 +7571,7 @@ to us!
              I became an active alcoholic from that first day,
           when alcohol produced a very special effect in me. I
                                       193
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 194
 
 
 
@@ -7674,7 +7610,7 @@ to us!
               ing to do with my misfortunes. I told myself it was
               because of fate, because everyone was against me, be-
               cause things weren’t going well. I sometimes thought
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 195
 
 
 
@@ -7713,7 +7649,7 @@ to us!
           would think I was insane. I was terribly lonely, full of
           self-pity, and terrified. Most of all, I was in a deep de-
           pression.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 196
 
 
 
@@ -7752,7 +7688,7 @@ to us!
               swered in the course of the following weeks. Soon, I
               began to get answers back.
                  In my new enthusiasm, and having found an answer
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 197
 
 
 
@@ -7790,7 +7726,7 @@ to us!
           man isn’t an alcoholic!” Jack was a down-to-earth per-
           son. He was used to discussions about psychiatry, and
           the concept of a Higher Power didn’t appeal to him
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 198
 
 
 
@@ -7828,7 +7764,7 @@ to us!
               ting more and more discouraged. One day, a member
               said, “Dave, why don’t you apply at the aircraft fac-
               tory? I know a fellow there who could help you.” So
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 199
 
 
 
@@ -7860,7 +7796,7 @@ to us!
           more to me than anything in the world. I shall keep all
           that, and I won’t have to drink, if I remember one
           simple thing: to keep my hand in the hand of God.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 200
 
 
 
@@ -7897,7 +7833,7 @@ to us!
               were shaking, so I tucked them under me to keep them
               from flying away. My fright was real enough, but it
                                          200
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 201
 
 
 
@@ -7936,7 +7872,7 @@ to us!
           but I found the subway station. The name on it was
           unfamiliar, and I had to ask the way to Grand Central.
           It took three-quarters of an hour and two changes to
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 202
 
 
 
@@ -7975,7 +7911,7 @@ to us!
               stant drinking, I wonder how I survived it, either
               physically or mentally. For there were, of course,
               periods of clear realization of what I had become,
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 203
 
 
 
@@ -8014,7 +7950,7 @@ to us!
           most of my desires. I met all the people I wanted to
           meet; I saw all the places I wanted to see; I did all the
           things I wanted to do—I was increasingly miserable.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 204
 
 
 
@@ -8053,7 +7989,7 @@ to us!
                  Alcohol was that prop, and I didn’t see how I could
               live without it. When my doctor told me I should
               never touch a drink again, I couldn’t afford to believe
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 205
 
 
 
@@ -8092,7 +8028,7 @@ to us!
           to change one prop for another, and an intangible and
           dubious one at that. And so on and on, for several
           weeks, while I grudgingly plowed through some more
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 206
 
 
 
@@ -8131,7 +8067,7 @@ to us!
               sible. I had found friends—understanding friends who
               often knew what I was thinking and feeling better
               than I knew myself—and who didn’t allow me to re-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 207
 
 
 
@@ -8168,7 +8104,7 @@ to us!
           I believe that my once overweening self-will has finally
           found its proper place, for I can say many times daily,
           “Thy will be done, not mine” . . . and mean it.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 208
 
 
 
@@ -8205,7 +8141,7 @@ to us!
               in the plate so that mine will be seen.
                  I am in another fellow’s room at college. “Fresh-
                                          208
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 209
 
 
 
@@ -8244,7 +8180,7 @@ to us!
           gang’s all here” and “Sweet Adeline,” who gave me
           freedom from fear and feelings of inferiority. Good
           old John! He was my pal, all right.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 210
 
 
 
@@ -8283,7 +8219,7 @@ to us!
               called off. Never in the service! The war leaves me
               with a pair of blankets, a toilet kit, a sweater knit by
               my sister, and a still greater sense of inferiority.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 211
 
 
 
@@ -8322,7 +8258,7 @@ to us!
               I become a teacher in a boys’ school. I am happy
           in my work. I like the boys and we have lots of fun,
           in class and out.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 212
 
 
 
@@ -8361,7 +8297,7 @@ to us!
               night superintendent. She puts me to bed and gives
               me a hypodermic.
                   I am at the hospital to see my wife. We have an-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 213
 
 
 
@@ -8400,7 +8336,7 @@ to us!
              Four alcoholics play bridge in a smoke-filled room.
           Anything to get my mind from myself. The game is
           over and the other three leave. I start to clean up the
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 214
 
 
 
@@ -8439,7 +8375,7 @@ to us!
               But I cannot sleep. Suddenly a thought comes. Can
               all the worthwhile people I have known be wrong
               about God? Then I find myself thinking about myself
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 215
 
 
 
@@ -8478,7 +8414,7 @@ to us!
               Some men and women come to visit my friend of the
           night before. He invites me to meet them. They are
           a joyous crowd. I have never seen people that joyous
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 216
 
 
 
@@ -8517,7 +8453,7 @@ to us!
                  I see where I have been wrong in some respects. I
               do not feel angry any more. I return home and say
               I am sorry for my wrong. I am quiet again. But I have
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 217
 
 
 
@@ -8556,7 +8492,7 @@ to us!
           driveway a thought strikes me. I’ll be honest anyway.
           I’ll tell my wife what I am going to do. I back up to
           the door and go into the house. I call my wife into a
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 218
 
 
 
@@ -8579,7 +8515,7 @@ to us!
               comes more acute.
                  I learn that honesty is truth and that truth shall
               make us free!
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 219
 
 
 
@@ -8616,7 +8552,7 @@ to us!
              I seriously doubt I ever would have asked for help,
           but Fitz, an old school friend of mine, had persuaded
                                       219
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 220
 
 
 
@@ -8655,7 +8591,7 @@ to us!
               himself could not make it and died of alcoholism.
               The lesson of his death still remains with me, yet I
               often wonder what would have happened if somebody
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 221
 
 
 
@@ -8694,7 +8630,7 @@ to us!
           school we had Bible readings before each meal, and
           church services four times on Sunday, and I became
           so rebellious at this that I swore I would never join or
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 222
 
 
 
@@ -8733,7 +8669,7 @@ to us!
               to be unusual to do that. In the next two years, I
               washed more pans and peeled more potatoes than any
               other doughboy. In the army, I became a periodic
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 223
 
 
 
@@ -8772,7 +8708,7 @@ to us!
           high man and got lots of pats on the back. Then I
           turned two company cars over in a short time and
           bingo—fired again. Oddly enough, the big shot who
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 224
 
 
 
@@ -8811,7 +8747,7 @@ to us!
               and night until I had it under control; then it would
               become tedious, and I’d lose all interest in it. I could
               never be bothered with the follow-through and would
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 225
 
 
 
@@ -8850,7 +8786,7 @@ to us!
           round and round with, What’s it all about anyhow?
           People have wars and kill each other; they struggle
           and cut each other’s throats for success, and what does
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 226
 
 
 
@@ -8889,7 +8825,7 @@ to us!
               odic big shots who had goofed out repeatedly at the
               wrong time, and they also knew how to split one paper
               match into three separate matches. (This is very use-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 227
 
 
 
@@ -8928,7 +8864,7 @@ to us!
           had one really sincere purpose in our hearts, and that
           was not to drink. At our weekly meeting I was a
           menace to serenity those first few months, for I took
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 228
 
 
 
@@ -8967,7 +8903,7 @@ to us!
               even my own kind had turned against me. This time it
               really hurt, more than any hangover ever had. My
               brilliant agnosticism vanished, and I saw for the first
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 229
 
 
 
@@ -9006,7 +8942,7 @@ to us!
           could accept spirituality.
              After the book appeared, we all became very busy
           in our efforts to save all and sundry, but I was still
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 230
 
 
 
@@ -9045,7 +8981,7 @@ to us!
                   In conclusion, I can only say that whatever growth
               or understanding has come to me, I have no wish to
               graduate. Very rarely do I miss the meetings of my
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 231
 
 
 
@@ -9066,7 +9002,7 @@ to us!
           ary 8 in Washington, that is how long, by the grace of
           God as I understand Him, I will retain a happy
           sobriety.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 232
 
 
 
@@ -9102,7 +9038,7 @@ to us!
               ated. Later on in life that took its toll. I realize that
               now.
                                           232
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 233
 
 
 
@@ -9141,7 +9077,7 @@ to us!
           some bearing on my joining up.
               About then I realized that my point of view on the
           opposite sex wasn’t entirely like that of most of the
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 234
 
 
 
@@ -9180,7 +9116,7 @@ to us!
               situation was concerned because I was born into it and
               knew nothing other than that. A man wasn’t actually
               mistreated, though if he was, he could only resent it.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 235
 
 
 
@@ -9219,7 +9155,7 @@ to us!
           my shoulders at his death in 1928. For the first couple
           of years it wasn’t too bad because the momentum
           kept things going. But when things became crucial,
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 236
 
 
 
@@ -9258,7 +9194,7 @@ to us!
               look around to see if Vi was watching. Something
               should have told me then that things were haywire. I
               can remember her watching. There came a time when
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 237
 
 
 
@@ -9297,7 +9233,7 @@ to us!
           you.” I thought, “I know you didn’t pay me, because
           you didn’t get a prescription.” He said, “Yes. You
           know the prescription that you gave me for my wife
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 238
 
 
 
@@ -9336,7 +9272,7 @@ to us!
               practice when the government agencies were decen-
               tralized. Then I went south, because they told me
               that the particular county I was going to in North
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 239
 
 
 
@@ -9375,7 +9311,7 @@ to us!
           and I continued to drink, but I guess, deep down
           within our hearts, we both knew I couldn’t stop drink-
           ing. Vi thought I didn’t want to stop. We had several
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 240
 
 
 
@@ -9414,7 +9350,7 @@ to us!
               guess I had five or ten dollars in my pocket. Anyhow, on
               the twenty-fourth, after drinking all day on the twenty-
               third, I must have decided I wanted to see my wife
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 241
 
 
 
@@ -9453,7 +9389,7 @@ to us!
           country, here and there, until I finally wound up in
           Pennsylvania, in a steel mill.
              I worked in the steel mill for possibly two months,
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 242
 
 
 
@@ -9492,7 +9428,7 @@ to us!
               but at this time she weighed as much as she does now,
               which is up around in the two hundreds or very close
               to it. I had not recognized her, but as soon as she said
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 243
 
 
 
@@ -9531,7 +9467,7 @@ to us!
           same problems I did and who, I sincerely believe,
           understood me as an individual. I knew my wife didn’t,
           because I had been sincere in all my promises to her
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 244
 
 
 
@@ -9570,7 +9506,7 @@ to us!
               was white, and when we got our group started, we got
               help from other white groups in Washington. They
               came, many of them, and stuck by us and told us how
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 245
 
 
 
@@ -9593,7 +9529,7 @@ to us!
           save the world, but we did manage to help some in-
           dividuals.
              That’s my story of what A.A. has done for me.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 246
 
 
 
@@ -9632,7 +9568,7 @@ to us!
               more months of being up and around the house for
               brief periods and in bed the rest of the time. Visits
                                          246
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 247
 
 
 
@@ -9671,7 +9607,7 @@ to us!
           job selling printing for a small neighborhood printer.
           This widened the scope of my activities. A year later I
           was able to buy a Model T roadster and take a better
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 248
 
 
 
@@ -9710,7 +9646,7 @@ to us!
               At least three of those four years must have been a
               living hell for my wife, because she had to watch the
               man she loved disintegrate morally, mentally, and
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 249
 
 
 
@@ -9749,7 +9685,7 @@ to us!
           in the faint hope that a bunch of strangers might help
           me with my drinking problem. Well, suicide was a
           last-straw matter, and I had not drawn the last straw
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 250
 
 
 
@@ -9788,7 +9724,7 @@ to us!
               thoughts came to the surface; one, a drink would mean
               homelessness and death; two, I could no longer relieve
               the pressure of fear by starting home, as was once my
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 251
 
 
 
@@ -9827,7 +9763,7 @@ to us!
           tated my remaining with Dr. Bob and Anne for very
           close to a year. It would be impossible for me to pass
           over this year without mentioning my love for, and my
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 252
 
 
 
@@ -9866,7 +9802,7 @@ to us!
               would get very far chasing individual drunks in and
               out of bars. So I spent much of my time calling on
               the people who I felt would logically come in contact
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 253
 
 
 
@@ -9905,7 +9841,7 @@ to us!
           gave it away.
              The Depression was still on, and jobs were scarce.
           My health was still uncertain. So I created a job for
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 254
 
 
 
@@ -9944,7 +9880,7 @@ to us!
               steady job handling an independent dry-cleaning route
               of my own. I was my own boss. It took five years of
               A.A. living, and a substantial improvement in my
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 255
 
 
 
@@ -9983,7 +9919,7 @@ to us!
           travel?
              It would be wonderful were I able to tell you that
           my confidence in God and my application of the
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 256
 
 
 
@@ -10022,7 +9958,7 @@ to us!
               drinking of my youth. I learned early in my A.A. life
               that I could not afford to fondle such thoughts, as you
               might fondle a pet, because this particular pet could
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 257
 
 
 
@@ -10061,7 +9997,7 @@ to us!
           a point where I could even tackle such a job is the
           apex of the story of a man who spent eighteen years
           running away from life.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 258
 
 
 
@@ -10098,7 +10034,7 @@ to us!
                  In 1930, I moved to Chicago. Shortly thereafter,
               aided by the Depression, I found that I had a great
                                          258
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 259
 
 
 
@@ -10137,7 +10073,7 @@ to us!
           I made it. On my ride to the nearest bar, I sold the
           driver on how misunderstood I was by my wife and
           what an unreasonable person she was. By the time we
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 260
 
 
 
@@ -10175,7 +10111,7 @@ to us!
               pick me up again, but this time my attitude was en-
               tirely different. I could not wait to tell him that I
               wanted help, that if these men in Akron had anything,
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 261
 
 
 
@@ -10214,7 +10150,7 @@ to us!
           that they were doing to try to recover from this tragic
           illness. They had that certain something that seemed
           to glow, a peace, a serenity combined with happiness.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 262
 
 
 
@@ -10253,7 +10189,7 @@ to us!
               would meet at the home of one of the members and
               have coffee and doughnuts and spend a social evening.
                  The day before I was due to go back to Chicago—
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 263
 
 
 
@@ -10292,7 +10228,7 @@ to us!
           was that I would try to get a group started in Chicago;
           the second was that I would have to return to Akron
           to attend meetings at least every two months until I
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 264
 
 
 
@@ -10331,7 +10267,7 @@ to us!
               A week later I had to get an old friend from Akron
               to spend two days sobering me up. That was my les-
               son, that one could not take the moral inventory and
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 265
 
 
 
@@ -10370,7 +10306,7 @@ to us!
              The doctor, a young man, immediately took fire
           with the idea, and while he did not convince the son,
           he turned over two prospects who were anxious for
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 266
 
 
 
@@ -10409,7 +10345,7 @@ to us!
               windmills and, instead, have tried to accomplish the
               little daily tasks, unimportant in themselves, but tasks
               that are an integral part of living fully.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 267
 
 
 
@@ -10432,7 +10368,7 @@ to us!
           where I have been able to reap the rich rewards that
           come from showing a little love for others and from
           serving them as I can.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 268
 
 
 
@@ -10469,7 +10405,7 @@ to us!
               in a well-ordered home. I had the best schools, sum-
               mer camps, resort vacations, and travel. Every reason-
                                          268
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 269
 
 
 
@@ -10508,7 +10444,7 @@ to us!
           drinks. I tried them mixed, unmixed, drinking only
           when happy, only when depressed. And still, by the time
           I was thirty years old, I was being pushed around by a
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 270
 
 
 
@@ -10547,7 +10483,7 @@ to us!
               But how does one get a prescription for a miracle?
                  For about one year prior to this time, there was one
               doctor who had continued to struggle with me. He
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 271
 
 
 
@@ -10586,7 +10522,7 @@ to us!
           holic. Few doctors will tell a hopeless patient that
           there is no answer for him or for her. But this day my
           doctor gave it to me straight and said, “People like
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 272
 
 
 
@@ -10625,7 +10561,7 @@ to us!
               read the book Alcoholics Anonymous, and then he
               wanted me to talk with a man who was experiencing
               success with his own arrestment. This man could tell
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 273
 
 
 
@@ -10664,7 +10600,7 @@ to us!
           the Akron group and meet many like himself.
              By this time, with the doctor’s explanation, the rev-
           elations contained in the book, and the hope-inspiring
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 274
 
 
 
@@ -10703,7 +10639,7 @@ to us!
               held our first official group meeting.
                  I had a tough pull back to normal good health. It
               had been so many years since I had not relied on some
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 275
 
 
 
@@ -10742,7 +10678,7 @@ to us!
           cessfully shoulder it. Instead of wanting to escape
           some perplexing problem, we experience the thrill
           of challenge in the opportunity it affords for another
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 276
 
 
 
@@ -10772,7 +10708,7 @@ to us!
               and needed and loved. In return for a bottle and a
               hangover, we have been given the Keys of the
               Kingdom.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 281
 
 
 
@@ -10808,7 +10744,7 @@ to us!
           me. I found that running away from home could sup-
           ply me with some sort of temporary solace. Until of
                                       281
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 282
 
 
 
@@ -10847,7 +10783,7 @@ to us!
               dreds of other Americans celebrating New Year’s Eve.
               Before the night was over, I had started a fight with a
               number of college-aged drunken fellows and returned
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 283
 
 
 
@@ -10886,7 +10822,7 @@ to us!
           make that last semester one big party. But it was no
           fun at all. I was miserable. I graduated narrowly and
           took a job at a local garage. It was difficult to manage
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 284
 
 
 
@@ -10925,7 +10861,7 @@ to us!
               drinking.
                  The next morning I went to see my therapist. I told
               him I’d decided to quit therapy, because after eight
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 285
 
 
 
@@ -10963,7 +10899,7 @@ to us!
           out, only to close the door, dismissing the notion of
           going into the meeting as ridiculous. This dance of in-
           decisiveness went on about fifty times before I went
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 286
 
 
 
@@ -11002,7 +10938,7 @@ to us!
               could just stay sober one day at a time. They explained
               that it might be easier to set my sights on the twenty-
               four hours in front of me and to take on these other
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 287
 
 
 
@@ -11041,7 +10977,7 @@ to us!
           I used to fill with alcohol. My self-esteem improved
           dramatically, and I knew happiness and serenity as I
           had never known it before. I started to see the beauty
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 288
 
 
 
@@ -11075,7 +11011,7 @@ to us!
               have a whole lot of work still in front of me. I have
               hope to share and love to give, and I just keep going
               one day at a time, living this adventure called life.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 289
 
 
 
@@ -11112,7 +11048,7 @@ to us!
           having trouble with my drinking too.” She took me by
           the hand and introduced me to the woman that I’m
                                      289
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 290
 
 
 
@@ -11150,7 +11086,7 @@ to us!
               small child, and I loved her dearly, so that held me
               back quite a bit in my drinking career. Even so, every
               time I drank, I seemed to get in trouble. I al-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 291
 
 
 
@@ -11188,7 +11124,7 @@ to us!
           was my own self-respect. I could feel fear coming into
           my life. I couldn’t face people. I couldn’t look them
           straight in the eyes, although I had always been a
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 292
 
 
 
@@ -11227,7 +11163,7 @@ to us!
               as I always had prayed to Him when I was drinking:
               “Dear God, get me out of this one and I’ll never do
               it again.” And then I’d say, “God, don’t pay any atten-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 293
 
 
 
@@ -11266,7 +11202,7 @@ to us!
           back at what last night had been like. I never could
           face it the next morning. And unless I had some rosy
           picture of what was going to happen that day, I
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 294
 
 
 
@@ -11301,7 +11237,7 @@ to us!
                  I am trying now, each day, to make up for all those
               selfish, thoughtless, foolish things I did in my drinking
               days. I hope that I never forget to be grateful.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 295
 
 
 
@@ -11338,7 +11274,7 @@ to us!
           alone, as a means of temporary release and of getting
           a little extra sleep.
                                       295
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 296
 
 
 
@@ -11377,7 +11313,7 @@ to us!
               had to do. I did my hiding in the hampers and in my
               dresser drawers. When we begin to do things like that
               with alcohol, something’s gone wrong. I needed it,
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 297
 
 
 
@@ -11416,7 +11352,7 @@ to us!
           mother at all.
              I needed that alcohol. I couldn’t live without it. I
           couldn’t do anything without it. But there came a
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 298
 
 
 
@@ -11455,7 +11391,7 @@ to us!
               outside, get myself out of this rut I’m in.” I thought I
               was going out of my mind. If I didn’t have a drink, I
               had to do something.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 299
 
 
 
@@ -11494,7 +11430,7 @@ to us!
           time was when I knew I couldn’t live with alcohol.
           But this second time, I found I couldn’t live normally
           without it, and I was licked worse than ever.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 300
 
 
 
@@ -11530,7 +11466,7 @@ to us!
               know that until I found this A.A. program, I had never
               found or known faith in the reality of God, the reality
               of His power that is now with me in everything I do.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 301
 
 
 
@@ -11567,7 +11503,7 @@ to us!
           cess is just as miserable.
              The second way in which, perhaps, I differ from
                                       301
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 302
 
 
 
@@ -11606,7 +11542,7 @@ to us!
               I said to her, as I had said many times in desperation,
               “I have got to do something.” She’s a good-natured
               soul and said, “I wouldn’t worry about it; probably
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 303
 
 
 
@@ -11645,7 +11581,7 @@ to us!
           our community, and at the farther end of the table sat
           the man who ran the bakery, while on one side sat my
           friend who was a mechanic. I recall, as I walked into
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 304
 
 
 
@@ -11684,7 +11620,7 @@ to us!
               ing hard. You’ve been doing all right.” But then he
               said, “Let me say something to you. We have here in
               this community an organization that helps people, and
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 305
 
 
 
@@ -11723,7 +11659,7 @@ to us!
           So, after taking the first half of the First Step, and
           very gingerly admitting myself to Alcoholics Anony-
           mous, something happened. And then I thought to
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 306
 
 
 
@@ -11762,7 +11698,7 @@ to us!
               moral support, and yet he thanks me for curing his
               wife. I thought to myself—What is curing that
               woman? Yes, I put in those stitches. The Great Boss
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 307
 
 
 
@@ -11801,7 +11737,7 @@ to us!
           thing I want in my whole life, and I don’t want any
           commendation; I don’t want any credit; I don’t want
           anything from you or Janey for the rest of your life
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 308
 
 
 
@@ -11832,7 +11768,7 @@ to us!
               lent interpersonal relations.” I suppose others would
               say, “This is group psychotherapy.”
                  To me it is God.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 309
 
 
 
@@ -11869,7 +11805,7 @@ to us!
           coholic.
              In my early teen years I began to be bothered by
                                        309
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 310
 
 
 
@@ -11907,7 +11843,7 @@ to us!
               effect alcohol had on me. I didn’t like throwing up at
               all. I soon discovered there were other substances I
               could take that would help me “control” my drinking.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 311
 
 
 
@@ -11946,7 +11882,7 @@ to us!
           school. I watched as my friends continued to have fun.
           A depression settled over me, encasing me in a gray
           haze. I couldn’t skip school anymore; my boyfriend
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 312
 
 
 
@@ -11985,7 +11921,7 @@ to us!
               morning for allowing me to live.
                  It was never my intention to end up in A.A. If
               someone mentioned perhaps I drank too much, I
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 313
 
 
 
@@ -12024,7 +11960,7 @@ to us!
           was a concept I had trouble accepting. I stayed and
           listened, careful to let them know I didn’t have a
           problem.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 314
 
 
 
@@ -12063,7 +11999,7 @@ to us!
               make me realize I’d hit bottom. If I were to go back
               to drinking, it would be just a matter of time before
               one of two things happened: I’d succeed at suicide, or
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 315
 
 
 
@@ -12102,7 +12038,7 @@ to us!
           was going to make me stay sober. This program is for
           people who want it, not people who need it.
              If everyone who needed A.A. showed up, we would
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 316
 
 
 
@@ -12140,7 +12076,7 @@ to us!
               I laughed when I should have cried. Events I thought
               were the end of the world turned out to be gifts. It
               was all very confusing. Slowly things began to even
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 317
 
 
 
@@ -12179,7 +12115,7 @@ to us!
           tion have seen me through it all, with the guidance of
           a loving Higher Power and the fellowship of the pro-
           gram. When I’m in doubt, I have faith that things will
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 318
 
 
 
@@ -12210,7 +12146,7 @@ to us!
               more than I ever thought possible, and ever so much
               more than I deserved. All because I was willing to be-
               lieve A.A. just might work for me too.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 319
 
 
 
@@ -12247,7 +12183,7 @@ to us!
           handle and understand my emotions; I always felt as if
           everyone else knew what was going on and what they
                                       319
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 320
 
 
 
@@ -12286,7 +12222,7 @@ to us!
               how to drink right and I was set.
                  I attempted to “drink right” for the next eight years.
               My progression was phenomenal; there is absolutely
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 321
 
 
 
@@ -12325,7 +12261,7 @@ to us!
           myself, for almost two years. I had become a daily, iso-
           lated drinker and was starting to get a little nervous.
              My behavior at this point was textbook: I was stash-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 322
 
 
 
@@ -12364,7 +12300,7 @@ to us!
               ographical cure. For about nine months, I was able to
               cut my drinking down sharply. I still drank almost
               every day, but not to the point of my usual stupors,
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 323
 
 
 
@@ -12403,7 +12339,7 @@ to us!
           could be independent and productive. I could not un-
           derstand why life just wouldn’t cut me a break.
              I did odd projects around the house for my parents
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 324
 
 
 
@@ -12442,7 +12378,7 @@ to us!
               with us. At this point I had managed to hold together
               thirty-one days without a drink, and I was terrified
               that I would give in to the temptation of being on an
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 325
 
 
 
@@ -12481,7 +12417,7 @@ to us!
           ple in attendance, but the space was small, so the
           meeting seemed very crowded. Being from out of
           town, I stood up and introduced myself when asked to
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 326
 
 
 
@@ -12520,7 +12456,7 @@ to us!
               service. I rode the roller coaster of early sobriety;
               every second was worth it to get where I am today.
                  It is very important to my recovery to study and
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 327
 
 
 
@@ -12557,7 +12493,7 @@ to us!
           way to the truth. I pray every day that I never turn my
           back on it. I came to A.A. in order to stop drinking;
           what I received in return was my life.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 328
 
 
 
@@ -12594,7 +12530,7 @@ to us!
               age of sixteen. All the fear, shyness, and disease evap-
               orated with that first burning swallow of bourbon
                                          328
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 329
 
 
 
@@ -12633,7 +12569,7 @@ to us!
           practically talked our way out of it, the driver had kept
           his mouth shut, we would have been fine. But no, he
           started babbling about how he was in rehab. I got off
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 330
 
 
 
@@ -12672,7 +12608,7 @@ to us!
               rested three times. But, I would think, I’ve never
               really done “hard time,” never actually spent the night
               in jail. Then I met Mr. Wrong, my husband-to-be, and
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 331
 
 
 
@@ -12711,7 +12647,7 @@ to us!
           in the bedroom—and still did not see anything wrong
           with this behavior. He was my problem.
              I accepted a transfer with a promotion (yes, my pro-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 332
 
 
 
@@ -12750,7 +12686,7 @@ to us!
               difference? So I started going to those stupid meet-
               ings and identified myself as an alcoholic so you’d sign
               my court card, even though I couldn’t possibly be an
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 333
 
 
 
@@ -12789,7 +12725,7 @@ to us!
           lier and earlier. Or, promising myself that I wouldn’t
           drink that night, I’d invariably find myself in front of
           the refrigerator with a drink in my hand, vowing,
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 334
 
 
 
@@ -12828,7 +12764,7 @@ to us!
               was an alcoholic. What an epiphany!
                  I went to a meeting of Alcoholics Anonymous the
               next night, knowing I wanted what you had. I sat in
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 335
 
 
 
@@ -12867,7 +12803,7 @@ to us!
           have killed myself. When I was drinking, the prestige
           of the job was my self-worth, the only thing that made
           me worth loving. Now I was starting to love myself
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 336
 
 
 
@@ -12906,7 +12842,7 @@ to us!
               “Into Action.” I found plenty of opportunity for action
               in A.A. I could be just as busy and helpful to others as
               I wanted to be as a sober woman in Alcoholics
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 337
 
 
 
@@ -12934,7 +12870,7 @@ to us!
           keeps me sober, and I’m not about to try to find out.
           It’s worked for quite a few days now, so I think I’ll try
           it again tomorrow.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 338
 
 
 
@@ -12971,7 +12907,7 @@ to us!
               Looking back, I see that alcohol helped me construct
               an image of myself as a sophisticated metropolitan
                                          338
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 339
 
 
 
@@ -13010,7 +12946,7 @@ to us!
           And after the dinner, after the wine, then there were
           liqueurs. My journals and letters bear witness in the
           deterioration of my handwriting as the evening wore
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 340
 
 
 
@@ -13049,7 +12985,7 @@ to us!
               were the plates. I was terrified that I’d done some-
               thing horrendous, until my friends called to tell me
               they’d enjoyed the evening.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 341
 
 
 
@@ -13088,7 +13024,7 @@ to us!
           up at four or five and had Irish coffee to start the day.
           I discovered that beer was better than orange juice to
           ease my hangover. Afraid my colleagues or students
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 342
 
 
 
@@ -13127,7 +13063,7 @@ to us!
               My worst fear was that I was an alcoholic. I wasn’t
               sure what that was, except that I might end up down
               on the Bowery in New York, where I had seen drunks
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 343
 
 
 
@@ -13166,7 +13102,7 @@ to us!
              “Call her now.” He handed me the telephone.
              When I asked her if I was an alcoholic, she said that
           from what she’d seen of my drinking I might be and
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 344
 
 
 
@@ -13205,7 +13141,7 @@ to us!
               sober, help me recover, I could learn in A.A.
                  I was blessed to live in a city where there were
               meetings at all hours of the day and night. There I
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 345
 
 
 
@@ -13244,7 +13180,7 @@ to us!
           tling in the wind, to feel the touch of snowflakes on
           my face, to see the first new leaves of spring.
              Then I began to heal emotionally, to experience
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 346
 
 
 
@@ -13283,7 +13219,7 @@ to us!
               come out of that abyss. Alcoholics Anonymous has en-
               abled me to move from fantasies about what I might
               do with my life into living it, one day at a time. In my
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 347
 
 
 
@@ -13308,7 +13244,7 @@ to us!
           ways we simply are, stand out to me now. I came to
           see that we all are really one, and I no longer feel
           alone.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 348
 
 
 
@@ -13345,7 +13281,7 @@ to us!
               generation. It shows nothing or no one to blame for
               alcoholism.
                                          348
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 349
 
 
 
@@ -13384,7 +13320,7 @@ to us!
           creasingly greater quantities of alcohol? It was fright-
           ening that drink was being substituted for more
           and more of the things I really enjoyed doing. Golf,
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 350
 
 
 
@@ -13423,7 +13359,7 @@ to us!
               torture. Not knowing where I had been or how I got
               home was making me desperate.
                  It now became necessary to have noon drinks—at
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 351
 
 
 
@@ -13462,7 +13398,7 @@ to us!
              It seemed to me my wife was becoming more intol-
           erant and narrow-minded all the time. Whenever we
           went out, she appeared to go out of her way to keep
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 352
 
 
 
@@ -13500,7 +13436,7 @@ to us!
               and are afraid to die. Some crisis brings you to a point
               of deciding to do something about your drinking
               problem—to try anything. Help you once continually
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 353
 
 
 
@@ -13539,7 +13475,7 @@ to us!
           and at the same time enjoying themselves.
              However, after I heard a few stories of jails, sani-
           tariums, broken homes, and skid row, I wondered if I
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 354
 
 
 
@@ -13578,7 +13514,7 @@ to us!
                  I was told that I must want sobriety for my own
               sake, and I am convinced this is true. There may be
               many reasons that bring one to A.A. for the first time,
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 355
 
 
 
@@ -13617,7 +13553,7 @@ to us!
           inevitably results in wanting to ease that tension,
           which alcohol seems to do temporarily. It took me
           some time to realize that the Twelve Steps of A.A.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 356
 
 
 
@@ -13656,7 +13592,7 @@ to us!
               sober will be making amends to many we have hurt by
               our drunken actions. Making amends is sometimes
               doing what we are capable of doing but failed to do
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 357
 
 
 
@@ -13695,7 +13631,7 @@ to us!
           things we cannot change, courage to change the things
           we can, and the wisdom to know the difference.”
           These thoughts become part of our daily lives. They
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 358
 
 
 
@@ -13719,7 +13655,7 @@ to us!
               which means so much to my family, friends, and busi-
               ness associates, because God and A.A. were able to do
               for me something I was unable to do for myself.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 359
 
 
 
@@ -13756,7 +13692,7 @@ to us!
           lonely individual.
              It was at this time that I also began to struggle with
                                      359
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 360
 
 
 
@@ -13795,7 +13731,7 @@ to us!
                  Work in a law firm added a third side to my already
               divided life. Now I had to try to maintain social rela-
               tions with clients, members, and associates of the firm,
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 361
 
 
 
@@ -13834,7 +13770,7 @@ to us!
           became too much and we broke up, but not before I
           had succeeded in undermining his recovery.
              The slide continued. Most of my friends were un-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 362
 
 
 
@@ -13873,7 +13809,7 @@ to us!
               vodka, and “read” while the ice melted, the mixer ran
               out, and sometimes the glass broke. Every night was
               blackout drinking. The really bad times were when I
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 363
 
 
 
@@ -13912,7 +13848,7 @@ to us!
           vinced that there were people living in my house. I
           couldn’t see them, except for occasional glimpses out
           of the corner of my eyes, and so I concluded that they
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 364
 
 
 
@@ -13950,7 +13886,7 @@ to us!
               together. I had to drink to survive, let alone to have
               any comfort. Yet here, people who had been in the
               same boat were telling me that I didn’t have to drink.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 365
 
 
 
@@ -13989,7 +13925,7 @@ to us!
           never replaced them. Instead, I was an agnostic,
           doubting the existence of God but afraid to say so in
           case I was wrong. My self-pity and sense of victimiza-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 366
 
 
 
@@ -14028,7 +13964,7 @@ to us!
               about the coffee and cookies. But once a conversation
               starts, communication frequently continues.
                  I started to work on the steps, and even with my
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 367
 
 
 
@@ -14067,7 +14003,7 @@ to us!
           jobs for A.A.
              In all these positions I never felt obligated to con-
           ceal or deny my sexuality. I have always felt that the
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 368
 
 
 
@@ -14094,7 +14030,7 @@ to us!
               still asked to make coffee. I now have an extended
               family that is international in scope, all the members
               of which are joined by bonds of shared pain and joy.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 369
 
 
 
@@ -14131,7 +14067,7 @@ to us!
           playing pool, drinking and driving. Nothing really bad
           happened, but it could have. I nearly got arrested. A
                                       369
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 370
 
 
 
@@ -14170,7 +14106,7 @@ to us!
               good that had ever happened. I couldn’t imagine any-
               thing good ever happening in the future. Life had
               shrunk down to an endless, awful now. The depression
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 371
 
 
 
@@ -14209,7 +14145,7 @@ to us!
           help her out. Besides, I was lonely.
               Halfway through the meeting I had the strangest
           idea. People were introducing themselves as alco-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 372
 
 
 
@@ -14247,7 +14183,7 @@ to us!
               going on, something that never occurred to me until I
               came to A.A. I didn’t just have a stopping problem. I
               had a starting problem too. No matter how often I
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 373
 
 
 
@@ -14286,7 +14222,7 @@ to us!
           sponsor. By the time I had started setting things right
           with my family, I began to feel a lot better.
              More than eleven years later it’s hard to recapture
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 374
 
 
 
@@ -14311,7 +14247,7 @@ to us!
               When I wake up today, there are lots of possibilities. I can
               hardly wait to see what’s going to happen next.
                  I keep coming back because it works.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 375
 
 
 
@@ -14349,7 +14285,7 @@ to us!
           get the boy they wanted, and there was a big party to
           celebrate his birth.
                                        375
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 376
 
 
 
@@ -14388,7 +14324,7 @@ to us!
               out of a class of 152, and I felt that I was dumb.
                  It was during my high school years that I discovered
               alcohol, and my problems were over. Now I was pretty
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 377
 
 
 
@@ -14427,7 +14363,7 @@ to us!
           that I drank because my marriage was bad. One of the
           ladies held my hand and said, “That is not why you
           drink.” I told them I drank because I was part
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 378
 
 
 
@@ -14466,7 +14402,7 @@ to us!
                  I met a lady who had a handicapped child, and we
               learned so much from each other. One important
               thing that I learned was that handicapped is not a
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 379
 
 
 
@@ -14505,7 +14441,7 @@ to us!
           ple working for me, and on my second day one of
           them did not show up. I had never run a business be-
           fore, and my three months of training just didn’t seem
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 380
 
 
 
@@ -14544,7 +14480,7 @@ to us!
               my book under this camera and it comes out in big
               print on a monitor). I have a talking calculator that
               helped me get through statistics and a telescope that
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 381
 
 
 
@@ -14581,7 +14517,7 @@ to us!
           help of God I can now choose how I will respond.
           Today I choose to be happy, and when I’m not, I have
           the tools of this program to put me back on track.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 382
 
 
 
@@ -14618,7 +14554,7 @@ to us!
               during my early drinking, I carried it over into the
               second day, and only once, that I can remember, did
                                          382
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 383
 
 
 
@@ -14657,7 +14593,7 @@ to us!
           the right formula. The binge had been just “one of
           those things.” After a month it seemed unlikely that it hap-
           pened. Intervals between binges were eight months.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 384
 
 
 
@@ -14696,7 +14632,7 @@ to us!
               becoming increasingly hard to maintain my front of
               distinction and respectability to the world. My per-
               sonality was stretched almost to splitting in the effort;
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 385
 
 
 
@@ -14735,7 +14671,7 @@ to us!
           your case, I could draw it. Second, you wouldn’t have
           believed me even if I had told you.”
              I had to admit to myself that he was right. Only
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 386
 
 
 
@@ -14774,7 +14710,7 @@ to us!
               this remarkable power will continue to flow through
               me. What is this power? With my A.A. friends, all I
               can say is that it’s a Power greater than myself. If
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 387
 
 
 
@@ -14810,7 +14746,7 @@ to us!
           creative, relatively sane human being. And should I
           have more bad times, I know that I’ll never again have
           to go through them alone.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 388
 
 
 
@@ -14847,7 +14783,7 @@ to us!
               lawyers were dead from alcoholism, struck down at
               the peak of their careers. The judge is still and always
                                          388
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 389
 
 
 
@@ -14886,7 +14822,7 @@ to us!
           pictures of that place.
              By the age of fourteen I had my first drunk, which
           ended in a minor police visit to my home. By the age
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 390
 
 
 
@@ -14925,7 +14861,7 @@ to us!
               later I drank so much that I was no longer funny. But
               at the time, the drinks and the stories and the cama-
               raderie were as wonderful as I was witty. We would
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 391
 
 
 
@@ -14963,7 +14899,7 @@ to us!
           that I was ready to start drinking in controlled fashion.
           My tongue was almost hanging out.
              Many drunks later, I tried everything else I could
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 392
 
 
 
@@ -15002,7 +14938,7 @@ to us!
               made me go to A.A. way back then. But there were
               no young people at the meetings, and people kept
               marveling at how young and fresh I looked. (No one
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 393
 
 
 
@@ -15041,7 +14977,7 @@ to us!
              My last hangover was on a Friday before a long
           summer weekend. I had struggled through the day
           feeling small and hopeless, hiding the trembling of my
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 394
 
 
 
@@ -15080,7 +15016,7 @@ to us!
               room with me, even though I lived alone. The next
               morning I knew I didn’t have to drink. That night I
               went to a Step meeting where they discussed Step
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 395
 
 
 
@@ -15119,7 +15055,7 @@ to us!
           much either. However, I said nothing, listened, and
           kept going to meetings, mostly Step discussions, where
           I heard people talk about how they practiced the Steps
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 396
 
 
 
@@ -15158,7 +15094,7 @@ to us!
               what it can do for me, from my stand-at-attention al-
               coholic taste buds right down to my stretched out tin-
               gling toes. As my sponsor used to point out, such
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 397
 
 
 
@@ -15196,7 +15132,7 @@ to us!
           life in a community with lots of A.A. friends and meet-
           ings. It’s a long, long way from that first A.A. meeting,
           and it couldn’t get much better.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 398
 
 
 
@@ -15232,7 +15168,7 @@ to us!
               for no reason. I used to be able to demonstrate prod-
               ucts to high-level executives of the corporation I
                                          398
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 399
 
 
 
@@ -15271,7 +15207,7 @@ to us!
           found that I couldn’t. That should have been my
           first clue that she might be right, but it didn’t occur
           to me.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 400
 
 
 
@@ -15310,7 +15246,7 @@ to us!
               meetings. I decided on one I thought would be okay
               for me—a men’s discussion group. They would be my
               kind of people, and the time fit into my schedule. The
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 401
 
 
 
@@ -15349,7 +15285,7 @@ to us!
           could sit up at the table with the family, and then
           there would be kiddush wine every Friday night. Not
           great stuff—what we got was sweet wine and seltzer,
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 402
 
 
 
@@ -15388,7 +15324,7 @@ to us!
               know, how many did I buy? “Well,” I said, “I stopped
               in the package store every day and bought one.” “Oh,”
               he said. “How many did you have left at the end of the
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 403
 
 
 
@@ -15427,7 +15363,7 @@ to us!
           sitting in on strategic planning meetings. I was very
           upset. After all, I was better now and back to being a
           good employee and team player again, but to no avail.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 404
 
 
 
@@ -15466,7 +15402,7 @@ to us!
               whether I was still drinking. And I said, “No, I’m not.”
               I was worried that they were going to take my coin
               back. All they wanted to know was what I was going to
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 405
 
 
 
@@ -15505,7 +15441,7 @@ to us!
           ter than most, and more importantly, it worked. You
           stopped and didn’t start again.”
              Well, that worked for me. I have stayed in the
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 406
 
 
 
@@ -15543,7 +15479,7 @@ to us!
               than ever. And the best is yet to come. All this and
               more I owe to the Fellowship in the rooms and the
               program in the book.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 407
 
 
 
@@ -15580,7 +15516,7 @@ to us!
           hate me! Why don’t you admit you hate me?” So I
           admitted it.
                                       407
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 408
 
 
 
@@ -15618,7 +15554,7 @@ to us!
               had been studying going round in my head. I would
               be half asleep and half awake, and in the morning I
               would be both tired and stupid. Then I found the solu-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 409
 
 
 
@@ -15657,7 +15593,7 @@ to us!
           all day. It became progressively harder to get up in
           the morning, until one day I asked myself what I
           would do for a patient who felt this rotten. The answer
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 410
 
 
 
@@ -15696,7 +15632,7 @@ to us!
               In the garage I would put the needle in my vein and
               then try to figure out exactly how much medication to
               inject to overcome the pep pills while adding to the
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 411
 
 
 
@@ -15735,7 +15671,7 @@ to us!
           affecting chemicals in order to stay sober and com-
           fortable.
              On two occasions, over weekends, I had decided I
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 412
 
 
 
@@ -15774,7 +15710,7 @@ to us!
               But by God, I wouldn’t talk or eat either! And that
               was how Max and I and our two daughters spent
               Christmas Day, eight years ago.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 413
 
 
 
@@ -15813,7 +15749,7 @@ to us!
           comfortable. Much of my time was spent writing letters,
           notes, orders, and lists of things for Max, who was also
           my office nurse, to do to keep the world running while
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 414
 
 
 
@@ -15852,7 +15788,7 @@ to us!
               ing me, now became quite interested; every day he
               would ask me all kinds of questions about the A.A.
               meetings. At first I wondered whether he was alco-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 415
 
 
 
@@ -15891,7 +15827,7 @@ to us!
           most important thing I do each day.)
              It seemed that all they talked about at meetings was
           drinking, drinking, drinking. It made me thirsty. I
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 416
 
 
 
@@ -15930,7 +15866,7 @@ to us!
               months, tapering off alcohol and pills, not finding the
               program working very well, I was finally able to say,
               “Okay, God. It is true that I—of all people, strange as
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 417
 
 
 
@@ -15969,7 +15905,7 @@ to us!
           plaining about God’s handiwork. I am saying that I
           know better than God.
               For years I was sure the worst thing that could
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 418
 
 
 
@@ -16007,7 +15943,7 @@ to us!
               fects, the more they grew and multiplied. Every defect
               I pointed out to her became greater and greater. Each
               time I told her she was a nothing, she receded a little
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 419
 
 
 
@@ -16046,7 +15982,7 @@ to us!
           this program has been in my own home, with my own
           children and, finally, with Max. It seems I should have
           learned to love my wife and family first; the newcomer
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 420
 
 
 
@@ -16083,7 +16019,7 @@ to us!
               directly proportional to my level of acceptance. When
               I remember this, I can see I’ve never had it so good.
               Thank God for A.A.!
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 421
 
 
 
@@ -16120,7 +16056,7 @@ to us!
              How had I gotten there? I had always been a “good
           kid” growing up, the kind of son other mothers loved.
                                      421
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 422
 
 
 
@@ -16159,7 +16095,7 @@ to us!
               class, struggling to get by on what my father earned.
               Money had always been a big issue, and I equated it
               with security, prestige, and worth. My father was fond
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 423
 
 
 
@@ -16198,7 +16134,7 @@ to us!
           goals, and aspirations, were swept away in a wave of
           booze. I realized quickly that I could not drink and
           function at any high level. That did not matter. I was
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 424
 
 
 
@@ -16237,7 +16173,7 @@ to us!
               expulsion. My life had become unmanageable, and I
               knew it.
                  I went back to the dean who had guided me into
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 425
 
 
 
@@ -16276,7 +16212,7 @@ to us!
           you lost or the next thing you are about to lose is more
           important to you than booze. That point is different
           for everyone, and some of us die before we get there.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 426
 
 
 
@@ -16315,7 +16251,7 @@ to us!
               seemed like a long time since I had seen one of those.
                  After the meeting, people welcomed me with open
               arms and gave me their telephone numbers. The dis-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 427
 
 
 
@@ -16354,7 +16290,7 @@ to us!
           find a Higher Power. I was not fooled. I knew when
           they said Higher Power they meant God. And I knew
           that God waited for me to step out of line just once so
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 428
 
 
 
@@ -16393,7 +16329,7 @@ to us!
                  When I had finished talking, he told me something
               simple: “You don’t have to drink over it.” What an
               idea! I had thought that situations made me drink. If
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 429
 
 
 
@@ -16432,7 +16368,7 @@ to us!
           because “those people weren’t doing it right!” My
           sponsor back at college, aware of my propensity for
           finding fault, assured me that if my new friends were
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 430
 
 
 
@@ -16471,7 +16407,7 @@ to us!
               surrounded by loving friends on whom I depend and
               who depend on me. I have reconciled with my par-
               ents, from whom I had been estranged. My life is
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 431
 
 
 
@@ -16496,7 +16432,7 @@ to us!
           better.” That is exactly what A.A. did for me; it took
           me and it made me better. For that I am eternally
           grateful.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 437
 
 
 
@@ -16533,7 +16469,7 @@ to us!
           police were called. Since I was a mama’s boy, this was
           especially traumatic for me. And to make matters
                                       437
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 438
 
 
 
@@ -16572,7 +16508,7 @@ to us!
               in school. That’s the way my drinking began, as a way
               to make the pain go away.
                  After several years of semidelinquent adolescence, I
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 439
 
 
 
@@ -16610,7 +16546,7 @@ to us!
           knew if I stayed, my anger at my wife for taking those
           children away from me would get me into more trou-
           ble than even I could handle, so once again I set off.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 440
 
 
 
@@ -16649,7 +16585,7 @@ to us!
               finally get there, they would say they were not hiring
               anymore. That was all right, because we didn’t want to
               work anyway.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 441
 
 
 
@@ -16688,7 +16624,7 @@ to us!
           time in this town, so I headed straight for my favorite
           bar. Here I met a barmaid who drank like a fish and
           was as mean a woman as I had ever seen, but she had
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 442
 
 
 
@@ -16727,7 +16663,7 @@ to us!
               stay sober was another gift from a Higher Power I had
               given up on many long years before.
                   The next year we took a job managing a camp out-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 443
 
 
 
@@ -16766,7 +16702,7 @@ to us!
           changed as my relationship with my Higher Power
           grew. Life began to take on a whole new meaning. I
           made what amends were possible but knew I would
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 444
 
 
 
@@ -16805,7 +16741,7 @@ to us!
               pened to read the article. Thus began an amazing
               chain of events that has altered not only our lives,
               but the lives of my family and many others. It is noth-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 445
 
 
 
@@ -16844,7 +16780,7 @@ to us!
           the people who had been hurt by my bitterness.
              I believe that I am living proof of the A.A. saying
           “Don’t give up until the miracle happens.”
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 446
 
 
 
@@ -16881,7 +16817,7 @@ to us!
               or hereafter. As a child and young man, I was evan-
               gelical—literally drunk with moral zeal and intellec-
                                          446
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 447
 
 
 
@@ -16920,7 +16856,7 @@ to us!
              The following year I began my career as a teacher.
           My first job was at a college fifty miles from my home-
           town. Before the school year ended, I had been asked
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 448
 
 
 
@@ -16959,7 +16895,7 @@ to us!
               it in the world. I was safe behind the barred hospital
               windows and wanted to stay there for the rest of my
               life. I could not drink there, but tranquilizers and
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 449
 
 
 
@@ -16998,7 +16934,7 @@ to us!
           on with you. It happened to me, and this is what I did
           about it.” She got me to my first A.A. meeting that
           same evening.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 450
 
 
 
@@ -17037,7 +16973,7 @@ to us!
               life. No matter what happened or didn’t happen, I
               couldn’t drink. In fact, none of these things that I was
               going through had anything to do with my sobriety;
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 451
 
 
 
@@ -17069,7 +17005,7 @@ to us!
           with the joy of useful, sober living, and a privilege to
           grow in sobriety one day at a time and bring the mes-
           sage of hope as it was brought to me.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 452
 
 
 
@@ -17106,7 +17042,7 @@ to us!
               came to stock up on beer, cash, and cigarettes. Before
               the first day of travel was over, however, I told my
                                          452
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 453
 
 
 
@@ -17145,7 +17081,7 @@ to us!
           job to use radar information to follow the storm and
           spot tornados, hail, flooding, and storm-related haz-
           ards or damage. I would then use a cellular phone in
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 454
 
 
 
@@ -17183,7 +17119,7 @@ to us!
               mitted a murder, but here I was being considered a
               prime suspect. An hour or two into questioning it was
               determined that I had not committed the crime, and I
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 455
 
 
 
@@ -17222,7 +17158,7 @@ to us!
           care units, and treatment centers. Permanent insanity
           was drawing near, and the gates of death were in view.
              There is a saying that alcoholics either get sobered
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 456
 
 
 
@@ -17261,7 +17197,7 @@ to us!
               me my sanity and an all-around sense of balance. Now
               willing to listen and take suggestions, I have found
               that the process of discovering who I really am begins
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 457
 
 
 
@@ -17296,7 +17232,7 @@ to us!
              From experience, I’ve realized that I cannot go
           back and make a brand-new start. But through A.A., I
           can start from now and make a brand-new end.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 458
 
 
 
@@ -17333,7 +17269,7 @@ to us!
               performer. Three days later I found myself sleeping in
               a doorway to stay out of the rain that had fallen all day.
                                          458
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 459
 
 
 
@@ -17372,7 +17308,7 @@ to us!
           ings each time I woke up. Finally, when I was able to
           walk around a little, a policewoman came and I was
           taken to county jail. It was my third arrest in two
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 460
 
 
 
@@ -17411,7 +17347,7 @@ to us!
               in-law.
                  My brother had gotten a very good job and moved
               to Hawaii. My son was born there, and on the day of
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 461
 
 
 
@@ -17450,7 +17386,7 @@ to us!
           worked for the government and held a top security
           clearance, which required complete secrecy. That’s
           why I had to work nights, undercover, out of town,
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 462
 
 
 
@@ -17489,7 +17425,7 @@ to us!
               a tablespoon of honey, hoping it would give me the
               necessary sugar rush. The next conscious memory was
               the emergency room. They said I was suffering from
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 463
 
 
 
@@ -17528,7 +17464,7 @@ to us!
           didn’t.
              In an effort to prove I was getting better, I started
           hitting the streets again in order to make more money.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 464
 
 
 
@@ -17566,7 +17502,7 @@ to us!
               it away from me. I was numb and couldn’t figure out
               what had happened. My son was taken away from me
               by the authorities, and I was placed in a locked ward
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 465
 
 
 
@@ -17605,7 +17541,7 @@ to us!
           writing something down on a small piece of paper. She
           loaded her baskets and kids into her car, and came
           back into the laundromat. She came right up to me
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 466
 
 
 
@@ -17643,7 +17579,7 @@ to us!
                  “I . . . uh . . . got this number from you . . . uh . . .
               Is this A.A.?” I asked.
                  “Yes. Do you want to stop drinking?”
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 467
 
 
 
@@ -17682,7 +17618,7 @@ to us!
           heads of the people in the meetings. I chose to call
           that magic Great Spirit.
              The Twelve Steps worked like a crowbar, prying
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 468
 
 
 
@@ -17721,7 +17657,7 @@ to us!
               grade level in school when I had been sober nearly
               two years. After college I started my own business.
               Today I publish the books I write. Our daughter was
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 469
 
 
 
@@ -17745,7 +17681,7 @@ to us!
           tact with my Creator today, and He loves me.
           Everything is sacred as a result of the Twelve Steps
           and the love and recovery in Alcoholics Anonymous.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 470
 
 
 
@@ -17782,7 +17718,7 @@ to us!
               of the week, soon to become a week of daily drinking.
                  During my young adulthood, drinking was the way
                                          470
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 471
 
 
 
@@ -17821,7 +17757,7 @@ to us!
           still escalating. When my symptoms started to multiply,
           I finally had to consider the real possibility that drink-
           ing was the cause of all my health problems. For very
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 472
 
 
 
@@ -17860,7 +17796,7 @@ to us!
               had spidery broken veins all over my body, my skin
               itched all over and took on an eerie greenish-gray ap-
               pearance. My blood had apparently thinned, because
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 473
 
 
 
@@ -17899,7 +17835,7 @@ to us!
           to clear the way. At the meeting that first night more
           of what the people in A.A. were saying started to pass
           through my ears, and into my head, and finally into my
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 474
 
 
 
@@ -17938,7 +17874,7 @@ to us!
               the selection process, the tests, the close supervision
               of my A.A. program, and the seemingly endless wait.
               Unquestionably it was only because of the program of
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 475
 
 
 
@@ -17977,7 +17913,7 @@ to us!
              Today my life is filled with miracles big and small,
           not one of which would ever have come to pass had I
           not found the door of Alcoholics Anonymous.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 476
 
 
 
@@ -18014,7 +17950,7 @@ to us!
               that I was forced to speak English and was told that
               speaking Spanish wasn’t right. I never felt I was as
                                          476
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 477
 
 
 
@@ -18053,7 +17989,7 @@ to us!
           older, I bought the liquor. I could talk to the girls. I
           was a big shot with the guys because I had the booze
           and the girls.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 478
 
 
 
@@ -18092,7 +18028,7 @@ to us!
                  Using the G.I. Bill I went to mechanic’s school at
               night and got a job with the city. That’s when I really
               started drinking. These guys had a ritual. As soon as
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 479
 
 
 
@@ -18131,7 +18067,7 @@ to us!
           I was in bad shape. I was a full-blown alcoholic, blam-
           ing God and bad luck. It had me down; I just couldn’t
           get back up, and I lost my business.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 480
 
 
 
@@ -18170,7 +18106,7 @@ to us!
               and stayed with me, drinking coffee until after the
               bars closed. They kept coming, taking me to meetings
               for a month. I thought I was doing okay, so I didn’t
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 481
 
 
 
@@ -18209,7 +18145,7 @@ to us!
           and I think, was God good to me, or what? And I was
           blaming God all this time for my troubles.
               Since it was my first job in some three months, I
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 482
 
 
 
@@ -18248,7 +18184,7 @@ to us!
               tied down, so I tried to be very quiet and hide so they
               wouldn’t find me. The doctor told me that if I went
               into D.T.’s like that again I might not come out. I
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 483
 
 
 
@@ -18287,7 +18223,7 @@ to us!
           ment, and it took three deputies, two counselors, and
           two nurses to hold me down and give me a shot.
           Finally I lay there quietly, ready to die like a man.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 484
 
 
 
@@ -18326,7 +18262,7 @@ to us!
               I had to go back to take care of the kids I had once
               left on welfare. My third son is our A.A. baby. I also
               got to see all our boys play sports. There were other
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 485
 
 
 
@@ -18364,7 +18300,7 @@ to us!
           is there. My sponsor is there. All the credit belongs
           to God. On my own I could not have quit. I know, I
           tried it.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 486
 
 
 
@@ -18401,7 +18337,7 @@ to us!
               that a thirteen-year-old could not easily hide the ef-
               fects of even a single beer. By the time I was fourteen
                                          486
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 487
 
 
 
@@ -18440,7 +18376,7 @@ to us!
           hung out with people that at one time I would cross
           the street to avoid. There came a time when, looking
           into the mirror, I honestly did not know just who was
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 488
 
 
 
@@ -18479,7 +18415,7 @@ to us!
               her, I had to agree to do two things. First, she gave me
               a business card with a phone number on it. She said
               the next time I tried to kill myself, I should call that
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 489
 
 
 
@@ -18518,7 +18454,7 @@ to us!
           them, being treated with respect by society, and find-
           ing some peace of mind. It never occurred to me that
           they had sponsors and were working the Twelve Steps
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 490
 
 
 
@@ -18557,7 +18493,7 @@ to us!
               rious, two-year service commitment was exactly what I
               needed. I tried to explain that I was not eligible, but
               they told me to go to the monthly general service
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 491
 
 
 
@@ -18596,7 +18532,7 @@ to us!
           and my sponsor, I knew what had to be done. I spent
           the entire day, more than eight or nine hours, going
           into people’s offices and making my amends. Some
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 492
 
 
 
@@ -18635,7 +18571,7 @@ to us!
               attitude; if anything, it has enhanced it. Long ago I
               learned that no matter how uncomfortable I was phys-
               ically, I felt better by getting out of myself and help-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 493
 
 
 
@@ -18670,7 +18606,7 @@ to us!
           need is the willingness to do what is in front of me. I
           am grateful that a drunk like me was fortunate enough
           to live until I arrived in Alcoholics Anonymous.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 494
 
 
 
@@ -18707,7 +18643,7 @@ to us!
               Mac was the language in our home, but I would not
               speak it. All my family spoke Mic-Mac, but when they
                                          494
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 495
 
 
 
@@ -18746,7 +18682,7 @@ to us!
           mother and give her the medicine she was required to
           take. I had already had a few drinks and was anxious
           to get out and party with my friends, but I reluctantly
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 496
 
 
 
@@ -18785,7 +18721,7 @@ to us!
               led to many more. The next day I was hung-over, and
               even though I had promised to go to the movies that
               afternoon, I took a drink to fix myself up. That drink
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 497
 
 
 
@@ -18824,7 +18760,7 @@ to us!
           ment led to fighting, as usual. One of my brothers
           stabbed me in the back with a knife, and I fell to the
           floor unconscious. I came to in the hospital. They told
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 498
 
 
 
@@ -18863,7 +18799,7 @@ to us!
                  After three months in A.A., I returned home one
               evening after a meeting to hear the music and laugh-
               ter of a party next door. Some of my drinking buddies
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 499
 
 
 
@@ -18902,7 +18838,7 @@ to us!
           the fewer problems I will have. Today I have more
           faith than I ever had, and as my faith grows, my fears
           lessen.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 500
 
 
 
@@ -18920,7 +18856,7 @@ to us!
               am working on Step Eight at the present time, and I
               just know that more happiness is to come into my life
               as I “trudge the Road of Happy Destiny.”
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 501
 
 
 
@@ -18957,7 +18893,7 @@ to us!
           my friends and our many adventures. This is where
           my first experiments with alcohol began. Sharing a few
                                       501
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 502
 
 
 
@@ -18996,7 +18932,7 @@ to us!
               hotels or flopping with migrant farm workers in town
               for their off-season.
                  What had begun as an adventure was turning into a
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 503
 
 
 
@@ -19035,7 +18971,7 @@ to us!
           dismissed them as trappings of the establishment.
           Watching out for a bag of money by the side of the road
           was more my idea of planning for the future.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 504
 
 
 
@@ -19074,7 +19010,7 @@ to us!
               however.
                  My life became the pursuit of intoxication. After a
               few drinks I felt more normal and in control. I
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 505
 
 
 
@@ -19113,7 +19049,7 @@ to us!
           Despite breaking laws routinely for years, I stayed out
           of big trouble for the most part. A few times they al-
           most had me, but I managed to scam on technicalities
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 506
 
 
 
@@ -19151,7 +19087,7 @@ to us!
               Procrastinating to the end, it took me three. This is
               when, once again, desperate, cornered, and at my low-
               est, I said the only prayer I still knew: “God help
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 507
 
 
 
@@ -19190,7 +19126,7 @@ to us!
           what it felt like to exist without hope. The skeptic in
           me came out, searching for every loophole and excuse
           to pick things apart and to divert attention from my
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 508
 
 
 
@@ -19229,7 +19165,7 @@ to us!
               if I was ever going to try something different, I’d bet-
               ter do it now. It might be my last chance. After all, I
               still had to deal with the authorities, and I had nothing
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 509
 
 
 
@@ -19268,7 +19204,7 @@ to us!
           came and went, and to this day, I still haven’t found
           it necessary to take another drink. That was well over
           six years ago.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 510
 
 
 
@@ -19307,7 +19243,7 @@ to us!
               his accomplishments and many years of sobriety, the
               oldtimer slapped down his hand like a gavel and said,
               “I’ll trade you even! My thirty years for your thirty
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 511
 
 
 
@@ -19330,7 +19266,7 @@ to us!
           practice.
             Oh, and one more thing they told me: Humility is
           the key.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 512
 
 
 
@@ -19367,7 +19303,7 @@ to us!
               seven. Many of my childhood Friday nights were
               spent at open A.A. meetings because we couldn’t
                                          512
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 513
 
 
 
@@ -19406,7 +19342,7 @@ to us!
           make it to class. Hindsight has shown me two reasons
           for this. First, if someone else had a free period, I
           tagged along with them. I thought that I had to be
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 514
 
 
 
@@ -19445,7 +19381,7 @@ to us!
               states that should just post signs on their borders:
               “This state doesn’t work either!”) I did the things
               women do. My first marriage was really a one-night
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 515
 
 
 
@@ -19484,7 +19420,7 @@ to us!
           that—they might think I was a bad mom.
              And I was a bad mom. I was a terrible mom. No, I
           didn’t beat them, and of course I told them I loved
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 516
 
 
 
@@ -19523,7 +19459,7 @@ to us!
               book like a teddy bear. I woke up feeling rested for
               the first time in months. And I didn’t want to drink.
                  I would love to tell you that I have been sober ever
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 517
 
 
 
@@ -19562,7 +19498,7 @@ to us!
           sober today. Once I was drinking, I always had a plan,
           but that day, by the grace of God, I was out of plans.
           I didn’t have one single better idea. I called Mom, told
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 518
 
 
 
@@ -19601,7 +19537,7 @@ to us!
               guy chair”—second row, against the wall (if you sit in
               back they know you’re new, and if you sit in front you
               might have to talk to someone). When it came time to
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 519
 
 
 
@@ -19640,7 +19576,7 @@ to us!
           to do at night. I began to notice people there with sev-
           eral years of sobriety—my own laziness had thrown
           me in with some of the most active people in
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 520
 
 
 
@@ -19679,7 +19615,7 @@ to us!
               days—love and attention. Gradually they became part
               of my life again, and today I have custody of my chil-
               dren.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 521
 
 
 
@@ -19713,7 +19649,7 @@ to us!
           to be a parent by watching good parents and doing
           what they do. And I finally have the freedom of be-
           lieving that it is all right not to know.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 522
 
 
 
@@ -19750,7 +19686,7 @@ to us!
               encouraged; the pilot persona was one of hard, gutsy
               flying with equally hard drinking, and attendance at
                                          522
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 523
 
 
 
@@ -19789,7 +19725,7 @@ to us!
           had been a strife-ridden company, and our family en-
           dured some tough times. During one of the lengthy
           labor strikes, we adopted a baby girl. She completed
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 524
 
 
 
@@ -19828,7 +19764,7 @@ to us!
               wanted the pain to end.
                  I became notorious in commercial aviation, and the
               media had a field day with me. I lost my FAA med-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 525
 
 
 
@@ -19867,7 +19803,7 @@ to us!
           day. Recovery and all I had learned allowed me to
           handle things much, much differently than my two co-
           defendants. Many spoke of my serenity throughout
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 526
 
 
 
@@ -19906,7 +19842,7 @@ to us!
               bation, which restricted my travel and had thirteen
               other conditions. Upon release from prison, no longer
               a pilot, I returned to the same treatment center where
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 527
 
 
 
@@ -19945,7 +19881,7 @@ to us!
           traordinary amount of work was left to do, but at least
           the attempt could now be made.
               None of my friends thought it possible to regain
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 528
 
 
 
@@ -19984,7 +19920,7 @@ to us!
                  Almost four years after my arrest and the explosive
               devastation of my life, I signed my back-to-work
               agreement. Restored to full seniority, given the retire-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 529
 
 
 
@@ -20023,7 +19959,7 @@ to us!
              I take little credit for all that has happened. I suited
           up and showed up, but the process of A.A., the grace
           of a loving God, and the help of so many around me
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 530
 
 
 
@@ -20043,7 +19979,7 @@ to us!
               ourselves. But we need never deal with our adversities
               alone as long as we can find another alcoholic in a
               meeting of Alcoholics Anonymous.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 531
 
 
 
@@ -20079,7 +20015,7 @@ to us!
           to get a drink. I was afraid to drink before the meet-
           ing. I thought if they smelled whiskey on my breath,
                                       531
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 532
 
 
 
@@ -20118,7 +20054,7 @@ to us!
                  I felt that I didn’t have anything to live for, so I
               tried suicide many times. But I would always wake up
               in the psychiatric ward to begin another long treat-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 533
 
 
 
@@ -20157,7 +20093,7 @@ to us!
           me another chance at life and A.A. and being able to
           try and help some other alcoholic. I have been home
           for a year and have not taken a drink in four years.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 534
 
 
 
@@ -20192,7 +20128,7 @@ to us!
               black, because these people treat me as one of them,
               which I am. We all have the same sickness, and in
               helping one another, we are able to stay sober.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 535
 
 
 
@@ -20229,7 +20165,7 @@ to us!
           that at sixty-five I was a crawling, dirty maggot of a
           woman, willing to tarnish all I’d worked for and to
                                         535
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 536
 
 
 
@@ -20268,7 +20204,7 @@ to us!
               after dog obedience training or an oil painting class.
               During my late forties, it was not unusual for me to
               have a drink alone in the evening, although there were
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 537
 
 
 
@@ -20307,7 +20243,7 @@ to us!
           made every possible excuse to meet someone for a
           “business luncheon” so that I could have a drink or
           two. As my alcoholism accelerated, my absenteeism
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 538
 
 
 
@@ -20346,7 +20282,7 @@ to us!
               in the local A.A. program, but I would have none of it.
               I was cured—I needed no further help.
                  A year and a half later I retired. I was enjoying my
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 539
 
 
 
@@ -20385,7 +20321,7 @@ to us!
           A.A. program. Unlike them, I did not enter the rooms
           willingly, nor did I find myself immediately at home.
           However, I had no other option. There was no escape
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 540
 
 
 
@@ -20424,7 +20360,7 @@ to us!
               to acknowledge first that I was powerless over my al-
               coholism; then that others before me had conquered
               their illness. That there had to be some source of help
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 541
 
 
 
@@ -20463,7 +20399,7 @@ to us!
           sponsible to or for anyone else ever again.” That
           refusal to make any kind of repayment to the program
           delayed my offering to be of service in any capacity
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 542
 
 
 
@@ -20502,7 +20438,7 @@ to us!
               person and to my contact with my Higher Power.
                  I approached Alcoholics Anonymous with fear and
               hesitation. Then, urged by the dread of what was be-
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 543
 
 
 
@@ -20538,7 +20474,7 @@ to us!
           have left that lonely, frightening, painful express train
           through hell. I have accepted the gift of a safer, hap-
           pier journey through life.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 544
 
 
 
@@ -20575,7 +20511,7 @@ to us!
               to my grandparents’ home in the Midwest. My mother
               went to a nearby city to go to work, and my father,
                                          544
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 545
 
 
 
@@ -20614,7 +20550,7 @@ to us!
           vince myself that my unhappiness was the fault of the
           man I had married, and I divorced him at the end of
           a year.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 546
 
 
 
@@ -20653,7 +20589,7 @@ to us!
                  During this time, our country was at war. My hus-
               band was soon in uniform and among the first to
               go overseas. My reaction to this was identical in many
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 547
 
 
 
@@ -20692,7 +20628,7 @@ to us!
           the thing that made the willpower possible was the
           knowledge that as soon as my day was finished, I could
           drink myself into oblivion. Inside, though, I was
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 548
 
 
 
@@ -20730,7 +20666,7 @@ to us!
               went to jail for the second time during this period for
               being drunk in an automobile. I was the only person
               I’d ever known personally who had ever been in jail,
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 549
 
 
 
@@ -20769,7 +20705,7 @@ to us!
           simple things. They said if you want to know how this
           program works, take the first word of your question—
           the “H” is for honesty, the “O” is for open-mindedness,
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 550
 
 
 
@@ -20808,7 +20744,7 @@ to us!
               me, and I am serene in the infallibility of these prin-
               ciples that provide the fulfillment of my purpose.
                  A.A. has taught me that I will have peace of mind in
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 551
 
 
 
@@ -20847,7 +20783,7 @@ to us!
           to get drunk anymore. In my prayers that morning I
           asked God to point out to me some way to be free of
           this resentment. During the day, a friend of mine
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 552
 
 
 
@@ -20885,7 +20821,7 @@ to us!
               thing I need I get. And when I get what I need, I
               invariably find that it was just what I wanted all the
               time.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 553
 
 
 
@@ -20923,7 +20859,7 @@ to us!
              I was raised in Kansas, the only child of loving par-
           ents who just drank socially. We moved frequently.
                                       553
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 554
 
 
 
@@ -20962,7 +20898,7 @@ to us!
               trollable tremors. I read self-help books. I turned to
               religion with fervor. I swore off hard liquor and turned
               to wine. I got sick of the sweetness and turned to ale.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 555
 
 
 
@@ -21001,7 +20937,7 @@ to us!
           was the occasion for a huge family reunion at our
           home. Despite my wife’s entreaties to take it easy, I ar-
           rived home in bad shape. I remember being dragged,
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 556
 
 
 
@@ -21041,7 +20977,7 @@ to us!
               I vomited every morning. I could not face food. I
               suffered frequent blackouts. I had severe nosebleeds.
               Bruises appeared mysteriously over my body.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 557
 
 
 
@@ -21080,7 +21016,7 @@ to us!
           same suite of offices. He happened to be, by the grace
           of God, Dr. Harry Tiebout, the psychiatrist who prob-
           ably knew more about alcoholism than any other in
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 558
 
 
 
@@ -21119,7 +21055,7 @@ to us!
               ways—but Alcoholics Anonymous offers us a way to
               stay sober.
                  God willing, we members of A.A. may never again
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 559
 
 
 
@@ -21157,7 +21093,6 @@ to us!
           reality with open arms. And I found it beautiful! For,
           at last, I was at peace with myself. And with others.
           And with God.
-
                     APPENDICES
 
                              I
@@ -21188,7 +21123,6 @@ is a condensed version of the original “long form” A.A.
 Traditions as first printed in 1946. Because the “long form”
 is more explicit and of possible historic value, it is also
 reproduced.
-
                  The Twelve Traditions
 
 One—Our common welfare should come first; personal
@@ -21224,7 +21158,6 @@ anonymity at the level of press, radio and films.
 Twelve—Anonymity is the spiritual foundation of all our
 Traditions, ever reminding us to place principles before
 personalities.
-
                  The Twelve Traditions
                    (The Long Form)
 
@@ -21262,7 +21195,6 @@ carrying its message to the alcoholic who still suffers.
 
 6.—Problems of money, property, and authority may easily
 divert us from our primary spiritual aim. We think,
-
 therefore, that any considerable property of genuine use to
 A.A. should be separately incorporated and managed, thus
 dividing the material from the spiritual. An A.A. group, as
@@ -21300,7 +21232,6 @@ authority.
 nonprofessional. We define professionalism as the
 occupation of counseling alcoholics for fees or hire. But we
 may employ alcoholics where they are going to perform
-
 those services for which we might otherwise have to engage
 nonalcoholics. Such special services may be well
 recompensed. But our usual A.A. “12 Step” work is never to
@@ -21337,7 +21268,6 @@ to avoid sensational advertising. Our names and pictures as
 A.A. members ought not be broadcast, filmed, or publicly
 printed. Our public relations should be guided by the
 principle of attraction rather than promotion. There is
-
 never need to praise ourselves. We feel it better to let our
 friends recommend us.
 
@@ -21348,7 +21278,6 @@ before personalities; that we are actually to practice a
 genuine humility. This to the end that our great blessings
 may never spoil us; that we shall forever live in thankful
 contemplation of Him who presides over us all.
-
                              II
 
              SPIRITUAL EXPERIENCE
@@ -21386,7 +21315,6 @@ himself alone. What often takes place in a few months
 could seldom have been accomplished by years of self-
 discipline. With few exceptions our members find that they
 have tapped an unsuspected inner resource which they
-
 presently identify with their own conception of a Power
 greater than themselves.
 
@@ -21411,7 +21339,6 @@ to keep a man in everlasting ignorance—that principle is
 contempt prior to investigation.”
 
                                           —Herbert Spencer
-
                             III
 
           THE MEDICAL VIEW ON A.A.
@@ -21449,7 +21376,6 @@ help. I now conceive the psychiatrist’s job to be the task of
 breaking down the patient’s inner resistance so that which
 is inside him will flower, as under the activity of the A.A.
 program.”
-
 Dr. W. W. Bauer, broadcasting under the auspices of The
 American Medical Association in 1946, over the NBC
 network, said, in part: “Alcoholics Anonymous are no
@@ -21486,7 +21412,6 @@ Illness.”)
 
 _________
 * 1944
-
                             IV
 
                THE LASKER AWARD
@@ -21505,7 +21430,6 @@ have been a great venture in social pioneering which
 forged a new instrument for social action; a new therapy
 based on the kinship of common suffering; one having a
 vast potential for the myriad other ills of mankind.”
-
                                 V
 
          THE RELIGIOUS VIEW ON A.A.
@@ -21542,7 +21466,6 @@ hands—there are doors of opportunity ahead of this project
 that may surpass our capacities to imagine.”_____
 * Father Ed, an early and wonderful friend of A.A., died in the
 spring of 1960.
-
                              VI
 
       HOW TO GET IN TOUCH WITH A.A
@@ -21579,7 +21502,6 @@ Groups, composed largely of the wives, husbands and
 friends of A.A. members. This headquarters will give the
 location of the nearest family group and will, if you wish,
 correspond with you about your special problems.
-
                             VII
 
               THE TWELVE CONCEPTS
@@ -21617,7 +21539,6 @@ consideration.
 VI. The Conference recognizes that the chief initiative and
 active responsibility in most world service matters should
 be exercised by the trustee members of the Conference
-
 acting as the General Service Board.
 VII. The Charter and Bylaws of the General Service Board
 are legal instruments, empowering the trustees to manage
@@ -21652,7 +21573,7 @@ unanimity; that its actions never be personally punitive nor
 an incitement to public controversy; that it never perform
 acts of government, and that, like the Society it serves, it
 will always remain democratic in thought and action.
-
+Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 576
 
 
 
@@ -21713,4 +21634,3 @@ will always remain democratic in thought and action.
 
               Complete order forms available from A.A. General Service Office:
               Box 459, Grand Central Station, New York, NY 10163
-

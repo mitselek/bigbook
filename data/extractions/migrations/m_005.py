@@ -1,42 +1,11 @@
 #!/usr/bin/env python3
-"""m_005: Rejoin hyphenated words split across lines.
-
-Uses m_005_fixes.re with sed-style regex patterns.
-If m_005_fixes.re doesn't exist, generates it with default joins.
-"""
-import re
+"""m_005: Fix spaced-out drop-cap words."""
 from pathlib import Path
 from apply_re import parse_re_file, apply_fixes
 
 here = Path(__file__).parent
-src = here / "m_004.txt"
-dst = here / "m_005.txt"
-fixes_file = here / "m_005_fixes.re"
-
-text = src.read_text()
-
-if not fixes_file.exists():
-    lines = text.splitlines()
-    patterns = []
-    for i, line in enumerate(lines):
-        s = line.rstrip()
-        if not s.endswith('-') or not s.split():
-            continue
-        word = s.split()[-1]
-        j = i + 1
-        while j < len(lines) and not lines[j].strip():
-            j += 1
-        if j < len(lines) and lines[j].strip():
-            cont = lines[j].strip().split()[0]
-            result = word[:-1] + cont
-            word_esc = re.escape(word)
-            cont_esc = re.escape(cont)
-            patterns.append(f"s/{word_esc}\\n{cont_esc}/{result}/")
-    fixes_file.write_text('\n'.join(patterns) + '\n')
-    print(f"Generated {fixes_file.name} with {len(patterns)} patterns")
-    print("Review and edit, then run again to apply.")
-else:
-    fixes = parse_re_file(fixes_file)
-    text, applied = apply_fixes(text, fixes)
-    dst.write_text(text)
-    print(f"m_005: {applied}/{len(fixes)} patterns applied")
+text = (here / "m_004.txt").read_text()
+fixes = parse_re_file(here / "m_005_fixes.re")
+text, applied = apply_fixes(text, fixes)
+(here / "m_005.txt").write_text(text)
+print(f"m_005: {applied}/{len(fixes)} patterns applied")

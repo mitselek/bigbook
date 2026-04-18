@@ -4,11 +4,11 @@
 Usage: python3 apply_re.py INPUT_FILE FIXES_FILE OUTPUT_FILE
 
 FIXES_FILE format (.re): one sed-style pattern per line:
-  s/FIND_REGEX/REPLACEMENT/
+  s/FIND_REGEX/REPLACEMENT/     first match only
+  s/FIND_REGEX/REPLACEMENT/g    all matches
 
 Lines starting with # are comments. Empty lines are skipped.
-\\n in patterns matches one or more newlines (to span page breaks).
-Each pattern is applied once (first match only).
+Escape sequences: \\n = one or more newlines, \\f = form feed, \\t = tab.
 """
 import re
 import sys
@@ -16,18 +16,19 @@ from pathlib import Path
 
 
 def parse_re_file(path):
-    """Parse a .re file into (pattern, replacement) pairs."""
+    """Parse a .re file into (pattern, replacement, global) tuples."""
     fixes = []
     for line in Path(path).read_text().splitlines():
         line = line.strip()
         if not line or line.startswith('#'):
             continue
-        m = re.match(r'^s/(.+)/(.*)/$', line)
+        # Match s/pattern/replacement/ or s/pattern/replacement/g
+        m = re.match(r'^s/(.+)/(.*)/([g]?)$', line)
         if m:
-            # \n matches one or more newlines (to span page breaks)
-            pattern = m.group(1).replace('\\n', '\n+')
-            replacement = m.group(2)
-            fixes.append((pattern, replacement))
+            pattern = m.group(1).replace('\\n', '\n+').replace('\\f', '\f').replace('\\t', '\t')
+            replacement = m.group(2).replace('\\n', '\n').replace('\\f', '\f').replace('\\t', '\t')
+            global_flag = m.group(3) == 'g'
+            fixes.append((pattern, replacement, global_flag))
         else:
             print(f"WARNING: skipping malformed line: {line}", file=sys.stderr)
     return fixes
@@ -36,8 +37,9 @@ def parse_re_file(path):
 def apply_fixes(text, fixes):
     """Apply regex fixes to text. Returns (new_text, applied_count)."""
     applied = 0
-    for pattern, replacement in fixes:
-        new_text = re.sub(pattern, replacement, text, count=1)
+    for pattern, replacement, global_flag in fixes:
+        count = 0 if global_flag else 1
+        new_text = re.sub(pattern, replacement, text, count=count, flags=re.MULTILINE)
         if new_text != text:
             applied += 1
             text = new_text

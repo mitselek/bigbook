@@ -1,34 +1,41 @@
 #!/usr/bin/env python3
-"""m_006: Join wrapped lines into proper paragraphs.
+"""m_006: Rejoin hyphenated words split across lines.
 
-Consecutive non-blank lines are joined with a single space.
-Blank lines are preserved as paragraph separators.
+Uses m_006_fixes.re. If it doesn't exist, generates it with default joins.
 """
+import re
 from pathlib import Path
+from apply_re import parse_re_file, apply_fixes
 
 here = Path(__file__).parent
 src = here / "m_005.txt"
 dst = here / "m_006.txt"
+fixes_file = here / "m_006_fixes.re"
 
-lines = src.read_text().splitlines()
-paragraphs = []
-current = []
+text = src.read_text()
 
-for line in lines:
-    stripped = line.rstrip()
-    if stripped:
-        current.append(stripped)
-    else:
-        if current:
-            paragraphs.append(' '.join(current))
-            current = []
-        paragraphs.append('')
-
-if current:
-    paragraphs.append(' '.join(current))
-
-dst.write_text("\n".join(paragraphs) + "\n")
-
-orig_nonblank = sum(1 for l in lines if l.strip())
-new_nonblank = sum(1 for l in paragraphs if l.strip())
-print(f"m_006: {orig_nonblank} content lines -> {new_nonblank} paragraphs")
+if not fixes_file.exists():
+    lines = text.splitlines()
+    patterns = []
+    for i, line in enumerate(lines):
+        s = line.rstrip()
+        if not s.endswith('-') or not s.split():
+            continue
+        word = s.split()[-1]
+        j = i + 1
+        while j < len(lines) and not lines[j].strip():
+            j += 1
+        if j < len(lines) and lines[j].strip():
+            cont = lines[j].strip().split()[0]
+            result = word[:-1] + cont
+            word_esc = re.escape(word)
+            cont_esc = re.escape(cont)
+            patterns.append(f"s/{word_esc}\\n{cont_esc}/{result}/")
+    fixes_file.write_text('\n'.join(patterns) + '\n')
+    print(f"Generated {fixes_file.name} with {len(patterns)} patterns")
+    print("Review and edit, then run again to apply.")
+else:
+    fixes = parse_re_file(fixes_file)
+    text, applied = apply_fixes(text, fixes)
+    dst.write_text(text)
+    print(f"m_006: {applied}/{len(fixes)} patterns applied")

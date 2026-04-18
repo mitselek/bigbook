@@ -1,16 +1,11 @@
 #!/usr/bin/env python3
-"""m_001: Remove print production artifacts.
-
-Lines like: Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 576
-"""
-import re
+"""m_001: Strip form feed characters."""
 from pathlib import Path
+from apply_re import parse_re_file, apply_fixes
 
 here = Path(__file__).parent
-src = here.parent / "en-4th-edition.raw.txt"
-dst = here / "m_001.txt"
-
-lines = src.read_text().splitlines()
-out = [l for l in lines if not re.match(r'\s*Alco_\d+.*\.qxd\b', l)]
-dst.write_text("\n".join(out) + "\n")
-print(f"m_001: {len(lines)} -> {len(out)} lines ({len(lines)-len(out)} removed)")
+text = (here.parent / "en-4th-edition.raw.txt").read_text()
+fixes = parse_re_file(here / "m_001_fixes.re")
+text, applied = apply_fixes(text, fixes)
+(here / "m_001.txt").write_text(text)
+print(f"m_001: {applied}/{len(fixes)} patterns applied")
