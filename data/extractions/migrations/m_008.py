@@ -11,28 +11,41 @@ here = Path(__file__).parent
 lines = (here / "m_007.txt").read_text().splitlines()
 
 TAG_RE = re.compile(r'^\[\[.+\]\]$')
+NO_JOIN_TAGS = {'[[verse]]'}  # Tags whose content lines should not be joined
 
 paragraphs = []
 current = []
+current_tag = None
 
 for line in lines:
     stripped = line.rstrip()
     if TAG_RE.match(stripped):
         # Flush current block
         if current:
-            paragraphs.append(' '.join(current))
+            if current_tag in NO_JOIN_TAGS:
+                paragraphs.append('\n'.join(current))
+            else:
+                paragraphs.append(' '.join(current))
             current = []
         paragraphs.append(stripped)
+        current_tag = stripped
     elif stripped:
         current.append(stripped)
     else:
         if current:
-            paragraphs.append(' '.join(current))
+            if current_tag in NO_JOIN_TAGS:
+                paragraphs.append('\n'.join(current))
+            else:
+                paragraphs.append(' '.join(current))
             current = []
         paragraphs.append('')
+        current_tag = None
 
 if current:
-    paragraphs.append(' '.join(current))
+    if current_tag in NO_JOIN_TAGS:
+        paragraphs.append('\n'.join(current))
+    else:
+        paragraphs.append(' '.join(current))
 
 (here / "m_008.txt").write_text("\n".join(paragraphs) + "\n")
 orig_nonblank = sum(1 for l in lines if l.strip())

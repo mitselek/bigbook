@@ -827,15 +827,15 @@ We landed in England. I visited Winchester Cathe-
 dral. Much moved, I wandered outside. My attention
 was caught by a doggerel on an old tombstone:
 
-[[paragraph]]
+[[verse]]
 “Here lies a Hampshire Grenadier
 Who caught his death
 Drinking cold small beer.
 A good soldier is ne’er forgot
 Whether he dieth by musket
+Or by pot.”
 
 [[paragraph]]
-Or by pot.”
 Ominous warning—which I failed to heed.
 Twenty-two, and a veteran of foreign wars, I went
 home at last. I fancied myself a leader, for had not the
