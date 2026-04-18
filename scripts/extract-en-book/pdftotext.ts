@@ -3,6 +3,18 @@
  * Always uses -layout mode for consistent spacing and paragraph breaks.
  */
 
-export function extractPages(_pdfPath: string, _pageStart: number, _pageEnd: number): string {
-  throw new Error('not implemented')
+import { spawnSync } from 'node:child_process'
+
+export function extractPages(pdfPath: string, pageStart: number, pageEnd: number): string {
+  const result = spawnSync(
+    'pdftotext',
+    ['-layout', '-f', String(pageStart), '-l', String(pageEnd), pdfPath, '-'],
+    { encoding: 'utf8' },
+  )
+  if (result.status !== 0) {
+    throw new Error(
+      `pdftotext failed (exit ${String(result.status)}) for ${pdfPath} pages ${String(pageStart)}-${String(pageEnd)}: ${result.stderr}`,
+    )
+  }
+  return result.stdout
 }
