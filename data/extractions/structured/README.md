@@ -27,11 +27,11 @@ Canonical log lives in the conventions doc's "Evolution log" section. Summary of
 - [x] Wave 1 (1 section): `ch05-how-it-works` — _pilot output discarded; re-piloted as Wave 1B under revised conventions_
 - [x] Wave 1B (1 section): `ch01-bills-story`
 - [x] Wave 2 (2 sections): `ch08-to-wives`, `story-gratitude-in-action`
-- [ ] Wave 3 (3 sections): `story-dr-bobs-nightmare`, `ch02-there-is-a-solution`, `appendix-i-the-aa-tradition` _(in flight)_
+- [x] Wave 3 (3 sections): `story-dr-bobs-nightmare`, `ch02-there-is-a-solution`, `appendix-i-the-aa-tradition`
 - [ ] Wave 4 (5 sections)
 - [ ] Wave 5 (8 sections)
 - [ ] Wave 6 (13 sections)
 - [ ] Wave 7 (18 sections)
 - [ ] Wave 8 (18 sections)
 
-**Completed: 4 of 68 sections.**
+**Completed: 7 of 68 sections.**
