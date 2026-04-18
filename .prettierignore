@@ -13,3 +13,9 @@ package-lock.json
 
 # Tmux harness layout — hand-tuned; formatting would risk breaking the harness.
 .tmux-layout.yaml
+
+# Extraction artifacts — generator output. JSON is emitted with stable
+# key order + 2-space indent; raw.txt mirrors pdftotext exactly;
+# sample-review.md uses long blockquote lines (one paragraph per line)
+# that Prettier's proseWrap would corrupt.
+data/extractions/
