@@ -1912,7 +1912,7 @@ function pickN<T>(arr: T[], n: number, rng: () => number): T[] {
   while (indices.size < n) {
     indices.add(Math.floor(rng() * arr.length))
   }
-  return [...indices].sort((a, b) => a - b).map((i) => arr[i])
+  return arr.filter((_, i) => indices.has(i))
 }
 ```
 
