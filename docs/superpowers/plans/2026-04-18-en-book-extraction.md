@@ -1398,7 +1398,7 @@ export function segmentBlocks(text: string, ctx: SegmentContext): Block[] {
     let kind: BlockKind
     let text: string
 
-    if (!headingEmitted && normalizeForMatch(collapsed) === normalizedTitle) {
+    if (!headingEmitted && normalizeForMatch(collapsed).startsWith(normalizedTitle)) {
       kind = 'heading'
       text = collapsed
       headingEmitted = true
