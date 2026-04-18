@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """m_005: Rejoin hyphenated words split across lines.
 
-All lines ending with a trailing hyphen get joined with the first word
-of the next non-blank line, UNLESS the resulting compound word matches
-a pattern in m_005_keep.txt (real hyphenated compounds to preserve).
+Uses m_005_fixes.txt with explicit replacements:
+  WORD_WITH_HYPHEN<tab>CONTINUATION<tab>RESULT
 
-m_005_keep.txt format: one word per line, lowercase, e.g.:
-  self-pity
-  so-called
-  well-to-do
+Example:
+  Platts-	burg	Plattsburg      (join)
+  self-	pity	self-pity       (keep hyphen)
+
+If m_005_fixes.txt doesn't exist, generates it from m_004.txt
+with default suggestions (all joins). Edit to mark keeps.
 """
 import re
 from pathlib import Path
@@ -16,102 +17,117 @@ from pathlib import Path
 here = Path(__file__).parent
 src = here / "m_004.txt"
 dst = here / "m_005.txt"
-keep_file = here / "m_005_keep.txt"
-log_file = here / "m_005_log.txt"
+fixes_file = here / "m_005_fixes.txt"
 
 lines = src.read_text().splitlines()
 
-# Load keep patterns
-keep_words = set()
-if keep_file.exists():
-    for l in keep_file.read_text().splitlines():
-        l = l.strip()
-        if l and not l.startswith('#'):
-            keep_words.add(l.lower())
 
-def is_keep(word_with_hyphen, continuation):
-    """Check if word-continuation is a real compound to keep."""
-    # word_with_hyphen ends with '-', continuation is next word
-    stem = word_with_hyphen[:-1]  # remove trailing hyphen
-    cont = re.sub(r'[.,;:!?"''\'"]+$', '', continuation)
-    # Build the full compound
-    compound = (stem + '-' + cont).lower()
-    # Check against keep list — also check last hyphen segment
-    # for multi-segment words like "self-centered-ness"
-    if compound in keep_words:
-        return True
-    # Check sub-compounds: e.g. for "self-centered-ness",
-    # check "centered-ness" too
-    parts = compound.split('-')
-    for i in range(len(parts) - 1):
-        sub = '-'.join(parts[i:])
-        if sub in keep_words:
-            return True
-    return False
-
-# Process
-out = []
-log = []
-joined = 0
-kept = 0
-steal_first_word_from = set()
-
-# First pass: identify which lines donate their first word
-for i, line in enumerate(lines):
-    s = line.rstrip()
-    if not s.endswith('-'):
-        continue
-    word = s.split()[-1] if s.split() else ''
-    # Find next non-blank line
-    j = i + 1
-    while j < len(lines) and not lines[j].strip():
-        j += 1
-    if j >= len(lines):
-        continue
-    cont = lines[j].strip().split()[0] if lines[j].strip() else ''
-    if not cont:
-        continue
-    if is_keep(word, cont):
-        kept += 1
-        log.append(f"KEEP\t{word}\t{cont}\t{word[:-1]}-{cont}")
-    else:
-        steal_first_word_from.add(j)
-
-# Second pass: build output
-i = 0
-while i < len(lines):
-    s = lines[i].rstrip()
-
-    # If first word was stolen, work with remainder
-    if i in steal_first_word_from:
-        parts = s.split(None, 1)
-        if len(parts) > 1:
-            s = parts[1]
-        else:
-            i += 1
+def find_candidates():
+    """Find all line-ending hyphens and their continuations."""
+    candidates = []
+    for i, line in enumerate(lines):
+        s = line.rstrip()
+        if not s.endswith('-') or not s.split():
             continue
-
-    # If this line ends with hyphen and is a join candidate
-    if s.endswith('-') and s.split():
         word = s.split()[-1]
+        # Find next non-blank line
         j = i + 1
         while j < len(lines) and not lines[j].strip():
             j += 1
         if j < len(lines) and lines[j].strip():
             cont = lines[j].strip().split()[0]
-            if not is_keep(word, cont):
-                # Join: remove hyphen, append continuation word
-                s = s[:-1] + cont
-                joined += 1
-                log.append(f"JOIN\t{word}\t{cont}\t{s.split()[-1]}")
+            # Default: join (remove hyphen)
+            result = word[:-1] + cont
+            candidates.append((word, cont, result))
+    return candidates
 
-    out.append(s)
-    i += 1
 
-with open(log_file, 'w') as f:
-    f.write(f"# m_005: {joined} joined, {kept} kept\n")
-    for entry in log:
-        f.write(entry + "\n")
+if not fixes_file.exists():
+    candidates = find_candidates()
+    with open(fixes_file, 'w') as f:
+        f.write("# m_005 fixes: WORD_HYPHEN<tab>CONTINUATION<tab>RESULT\n")
+        f.write("# Edit RESULT to keep hyphen, e.g.: self-<tab>pity<tab>self-pity\n")
+        for word, cont, result in candidates:
+            f.write(f"{word}\t{cont}\t{result}\n")
+    print(f"Generated {fixes_file.name} with {len(candidates)} entries")
+    print("Review and edit, then run again to apply.")
+else:
+    # Load fixes into lookup: (word, cont) -> result
+    fixes = []
+    for fl in fixes_file.read_text().splitlines():
+        fl = fl.strip()
+        if not fl or fl.startswith('#'):
+            continue
+        parts = fl.split('\t')
+        if len(parts) == 3:
+            fixes.append((parts[0], parts[1], parts[2]))
 
-dst.write_text("\n".join(out) + "\n")
-print(f"m_005: {joined} joined, {kept} kept")
+    # Build a set for quick lookup
+    fix_map = {}
+    for word, cont, result in fixes:
+        fix_map.setdefault(word, []).append((cont, result))
+
+    # Apply
+    out = []
+    applied = 0
+    skip_first_word = set()  # line indices where first word was consumed
+
+    # First pass: identify lines that donate their first word
+    for i, line in enumerate(lines):
+        s = line.rstrip()
+        if not s.endswith('-') or not s.split():
+            continue
+        word = s.split()[-1]
+        if word not in fix_map:
+            continue
+        j = i + 1
+        while j < len(lines) and not lines[j].strip():
+            j += 1
+        if j >= len(lines) or not lines[j].strip():
+            continue
+        cont = lines[j].strip().split()[0]
+        for fc, fr in fix_map[word]:
+            if fc == cont:
+                # Check if result keeps the hyphen (word stays at line end)
+                if '-' in fr and fr == word[:-1] + '-' + cont:
+                    # Keep: don't steal the word
+                    pass
+                else:
+                    skip_first_word.add(j)
+                break
+
+    # Second pass: build output
+    for i, line in enumerate(lines):
+        s = line.rstrip()
+
+        if i in skip_first_word:
+            parts = s.split(None, 1)
+            if len(parts) > 1:
+                s = parts[1]
+            else:
+                continue  # entire line was just the stolen word
+
+        if s.endswith('-') and s.split():
+            word = s.split()[-1]
+            if word in fix_map:
+                j = i + 1
+                while j < len(lines) and not lines[j].strip():
+                    j += 1
+                if j < len(lines) and lines[j].strip():
+                    cont = lines[j].strip().split()[0]
+                    for fc, fr in fix_map[word]:
+                        if fc == cont:
+                            if '-' in fr and fr == word[:-1] + '-' + cont:
+                                # Keep hyphen — leave line as-is
+                                pass
+                            else:
+                                # Replace last word with result
+                                words = s.rsplit(None, 1)
+                                s = (words[0] + ' ' + fr) if len(words) > 1 else fr
+                                applied += 1
+                            break
+
+        out.append(s)
+
+    dst.write_text("\n".join(out) + "\n")
+    print(f"m_005: {applied} replacements applied")
