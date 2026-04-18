@@ -168,9 +168,12 @@ while i < len(lines):
     if m:
         kind = m.group(1)
         i += 1
-        # Collect content until next tag or blank
-        text = lines[i] if i < len(lines) else ''
-        i += 1
+        # Collect content lines until next tag or blank
+        content = []
+        while i < len(lines) and lines[i].strip() and not re.match(r'^\[\[.+\]\]$', lines[i]):
+            content.append(lines[i])
+            i += 1
+        text = '\n'.join(content)
         blocks.append((kind, text))
     elif line.strip() == '':
         i += 1
