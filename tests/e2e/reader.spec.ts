@@ -4,7 +4,7 @@ test.describe('Anonymous reader', () => {
   test('landing page renders top bar, skeleton, and footer', async ({ page }) => {
     await page.goto('./')
 
-    await expect(page.locator('.wordmark')).toHaveText('bigbook')
+    await expect(page.locator('.wordmark')).toHaveText('bigbook', { useInnerText: true })
 
     const firstPara = page.locator('[id^="ch01-billi-lugu"]').first()
     await expect(firstPara).toBeVisible()
