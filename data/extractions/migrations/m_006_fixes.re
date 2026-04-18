@@ -98,5 +98,9 @@ s/(\[\[heading\]\]\n.+)\n([A-Za-z])/\1\n\n\2/g
 # === FOOTNOTES (broad pattern) ===
 s/^(\* .+)$/[[footnote]]\n\1/g
 
-# === LIST ITEMS (broad pattern) ===
+# === LIST ITEMS ===
 s/^(\d+\.\s.+)$/[[list-item]]\n\1/g
+# Twelve Traditions short form (One—, Two—, etc.)
+s/^((?:One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve)—)/[[list-item]]\n\1/g
+# Twelve Traditions long form (1.—, 2.—, etc.)
+s/^(\d+\.—)/[[list-item]]\n\1/g
