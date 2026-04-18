@@ -1,6 +1,8 @@
 name: Build and deploy
 
 on:
+  pull_request:
+    branches: [main]
   push:
     branches: [main]
   workflow_dispatch:
@@ -15,8 +17,39 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Test
+        run: npm run test
+
+      - name: Build (required for size-limit)
+        run: npm run build
+
+      - name: Size check
+        run: npm run size
+
   build-jekyll:
     runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -41,6 +74,8 @@ jobs:
 
   build-astro:
     runs-on: ubuntu-latest
+    needs: [quality]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -67,6 +102,7 @@ jobs:
   assemble:
     runs-on: ubuntu-latest
     needs: [build-jekyll, build-astro]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     steps:
       - name: Download Astro artifact
         uses: actions/download-artifact@v4
@@ -88,6 +124,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: [assemble]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
