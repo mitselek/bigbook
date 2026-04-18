@@ -185,3 +185,31 @@ describe('normalize — N1 calibration (Task 19)', () => {
     expect(paragraphs[1]).toMatch(/^\s*My brother-in-law/)
   })
 })
+
+describe('normalize — page-boundary cleanup', () => {
+  it('strips QXD annotation with form-feed prefix (#36)', () => {
+    const raw = [
+      'paragraph one ends here.',
+      '\fAlco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 17',
+      'paragraph two continues here.',
+    ].join('\n')
+    const out = normalize(raw, { sectionTitle: 'Any' })
+    expect(out).not.toMatch(/Alco_.*\.qxd/)
+  })
+
+  it('strips all blank lines around a stripped running header (#37)', () => {
+    const raw = [
+      '          last line of page 81.',
+      '',
+      '',
+      '',
+      '',
+      '              INTO ACTION                    81',
+      '          first line of page 82 continues.',
+    ].join('\n')
+    const out = normalize(raw, { sectionTitle: 'Into Action' })
+    const paragraphs = out.split(/\n\s*\n/).filter((p) => p.trim() !== '')
+    expect(paragraphs).toHaveLength(1)
+    expect(paragraphs[0]).toMatch(/last line of page 81[\s\S]*first line of page 82/)
+  })
+})
