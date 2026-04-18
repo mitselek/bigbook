@@ -90,6 +90,8 @@ s/^(\(\d+\))$/[[heading]]\n\1/g
 # Join consecutive headings into one (remove extra [[heading]] tags first)
 s/\[\[heading\]\]\n\[\[heading\]\]/[[heading]]/g
 s/\[\[heading\]\]\n(.+)\n\[\[heading\]\]\n(.+)/[[heading]]\n\1 \2/g
+# Second pass for triple-heading sequences (e.g. (1) + TITLE + SUBTITLE)
+s/\[\[heading\]\]\n(.+)\n\[\[heading\]\]\n(.+)/[[heading]]\n\1 \2/g
 
 # === FOOTNOTES (broad pattern) ===
 s/^(\* .+)$/[[footnote]]\n\1/g
