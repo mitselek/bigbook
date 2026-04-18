@@ -34,6 +34,18 @@ Canonical log lives in the conventions doc's "Evolution log" section. Summary of
 - [x] Wave 5 (8 sections): `ch03-more-about-alcoholism`, `ch04-we-agnostics`, `ch06-into-action`, `story-women-suffer-too`, `story-our-southern-friend`, `story-the-vicious-cycle`, `foreword-1st-edition`, `appendix-iii-the-medical-view-on-aa`
 - [x] Wave 6 (13 sections): `ch07-working-with-others`, `ch09-the-family-afterward`, `ch10-to-employers`, `copyright-info`, `foreword-3rd-edition`, `foreword-4th-edition`, `appendix-ii-spiritual-experience`, `appendix-vii-the-twelve-concepts`, `story-jims-story`, `story-the-man-who-mastered-fear`, `story-he-sold-himself-short`, `story-the-keys-of-the-kingdom`, `story-the-missing-link`
 - [x] Wave 7 (18 sections): `ch05-how-it-works` (re-pilot), `story-fear-of-fear`, `story-the-housewife-who-drank-at-home`, `story-physician-heal-thyself`, `story-my-chance-to-live`, `story-student-of-life`, `story-crossing-the-river-of-denial`, `story-because-im-an-alcoholic`, `story-it-might-have-benn-worse`, `story-tightrope`, `story-flooded-with-feeling`, `story-winner-takes-all`, `story-me-an-alcoholic`, `story-the-perpetual-quest`, `story-a-drunk-like-you`, `story-acceptance-was-the-answer`, `story-window-of-opportunity`, `appendix-iv-the-lasker-award`
-- [ ] Wave 8 (18 sections)
+- [x] Wave 8 (18 sections): `story-my-bottle-my-resentments-and-me`, `story-he-lived-only-to-drink`, `story-safe-haven`, `story-listening-to-the-wind`, `story-twice-gifted`, `story-building-a-new-life`, `story-on-the-move`, `story-a-vision-of-recovery`, `story-gutter-bravado`, `story-empty-on-the-inside`, `story-grounded`, `story-another-chance`, `story-a-late-start`, `story-freedom-from-bondage`, `story-aa-taught-him-to-handle-sobriety`, `appendix-v-the-religious-view-on-aa`, `appendix-vi-how-to-get-in-touch-with-aa`, `appendix-aa-pamphlets`
 
-**Completed: 51 of 68 sections.**
+**Completed: 68 of 68 sections. Full extraction DONE.**
+
+## Final block stats
+
+- Total blocks: **2,094**
+- Paragraphs: 1,883
+- List-items: 110 (Twelve Steps, Twelve Traditions short + long form, Twelve Concepts, Six Steps, `(a)(b)(c)` sub-lists, A.A. Pamphlets catalog)
+- Headings: 69 (67 visible + 2 appendix-ii bylines/epigraph attributions count separately; `copyright-info` has no heading)
+- Footnotes: 15
+- Blockquotes: 12 (all in `story-aa-number-three`'s Bill W. editorial interlude pp. 203-204)
+- Bylines: 3 (2 signed letters in Doctor's Opinion + 1 epigraph attribution in appendix-ii)
+- Tables: 1 (resentment inventory in ch05)
+- Verse: 1 (Hampshire Grenadier tombstone in ch01)

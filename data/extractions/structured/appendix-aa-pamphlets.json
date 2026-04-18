@@ -1,0 +1,335 @@
+{
+  "id": "appendix-aa-pamphlets",
+  "kind": "appendix",
+  "title": "A.A. Pamphlets",
+  "pdfPageStart": 581,
+  "pdfPageEnd": 581,
+  "bookPageStart": 581,
+  "bookPageEnd": 581,
+  "blocks": [
+    {
+      "id": "appendix-aa-pamphlets-h001",
+      "kind": "heading",
+      "text": "A.A. Pamphlets",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l002",
+      "kind": "list-item",
+      "text": "44 Questions",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l003",
+      "kind": "list-item",
+      "text": "A.A. Tradition—How It Developed",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l004",
+      "kind": "list-item",
+      "text": "Members of the Clergy Ask About A.A.",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l005",
+      "kind": "list-item",
+      "text": "Three Talks to Medical Societies by Bill W.",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l006",
+      "kind": "list-item",
+      "text": "Alcoholics Anonymous as a Resource for the Health Care Professional",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l007",
+      "kind": "list-item",
+      "text": "A.A. in Your Community",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l008",
+      "kind": "list-item",
+      "text": "Is A.A. for You?",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l009",
+      "kind": "list-item",
+      "text": "Is A.A. for Me?",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l010",
+      "kind": "list-item",
+      "text": "This Is A.A.",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l011",
+      "kind": "list-item",
+      "text": "A Newcomer Asks . . .",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l012",
+      "kind": "list-item",
+      "text": "Is There An Alcoholic in the Workplace?",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l013",
+      "kind": "list-item",
+      "text": "Questions and Answers on Sponsorship",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l014",
+      "kind": "list-item",
+      "text": "A.A. for the Woman",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l015",
+      "kind": "list-item",
+      "text": "A.A. for the Native North American",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l016",
+      "kind": "list-item",
+      "text": "A.A. and the Gay/Lesbian Alcoholic",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l017",
+      "kind": "list-item",
+      "text": "Can A.A. Help Me Too?—Black/African Americans Share Their Stories",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l018",
+      "kind": "list-item",
+      "text": "A.A. for the Older Alcoholic—Never Too Late",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l019",
+      "kind": "list-item",
+      "text": "The Jack Alexander Article",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l020",
+      "kind": "list-item",
+      "text": "Letter to a Woman Alcoholic",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l021",
+      "kind": "list-item",
+      "text": "Young People and A.A.",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l022",
+      "kind": "list-item",
+      "text": "A.A. and the Armed Services",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l023",
+      "kind": "list-item",
+      "text": "The A.A. Member—Medications and Other Drugs",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l024",
+      "kind": "list-item",
+      "text": "Do You Think You’re Different?",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l025",
+      "kind": "list-item",
+      "text": "Is There an Alcoholic in Your Life?",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l026",
+      "kind": "list-item",
+      "text": "Inside A.A.",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l027",
+      "kind": "list-item",
+      "text": "The A.A. Group",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l028",
+      "kind": "list-item",
+      "text": "G.S.R.",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l029",
+      "kind": "list-item",
+      "text": "Memo to an Inmate",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l030",
+      "kind": "list-item",
+      "text": "The Twelve Steps Illustrated",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l031",
+      "kind": "list-item",
+      "text": "The Twelve Traditions Illustrated",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l032",
+      "kind": "list-item",
+      "text": "The Twelve Concepts Illustrated",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l033",
+      "kind": "list-item",
+      "text": "Let’s Be Friendly With our Friends",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l034",
+      "kind": "list-item",
+      "text": "How A.A. Members Cooperate",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l035",
+      "kind": "list-item",
+      "text": "A.A. in Correctional Facilities",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l036",
+      "kind": "list-item",
+      "text": "A Message to Correctional Facilities Adminstrators",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l037",
+      "kind": "list-item",
+      "text": "A.A. in Treatment Facilities",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l038",
+      "kind": "list-item",
+      "text": "Bridging the Gap",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l039",
+      "kind": "list-item",
+      "text": "If You Are a Professional",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l040",
+      "kind": "list-item",
+      "text": "A.A. Membership Survey",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l041",
+      "kind": "list-item",
+      "text": "A Member’s-Eye View of Alcoholics Anonymous",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l042",
+      "kind": "list-item",
+      "text": "Problems Other Than Alcohol",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l043",
+      "kind": "list-item",
+      "text": "Understanding Anonymity",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l044",
+      "kind": "list-item",
+      "text": "The Co-Founders of Alcoholics Anonymous",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l045",
+      "kind": "list-item",
+      "text": "Speaking at Non-A.A. Meetings",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l046",
+      "kind": "list-item",
+      "text": "A Brief Guide to A.A.",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l047",
+      "kind": "list-item",
+      "text": "What Happened to Joe",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l048",
+      "kind": "list-item",
+      "text": "It Happened to Alice",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-p049",
+      "kind": "paragraph",
+      "text": "(Two above are full-color, comic-book-style pamphlets)",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l050",
+      "kind": "list-item",
+      "text": "Too Young?",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-p051",
+      "kind": "paragraph",
+      "text": "(Above is a cartoon pamphlet for teenagers)",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-l052",
+      "kind": "list-item",
+      "text": "It Sure Beats Sitting in a Cell",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-p053",
+      "kind": "paragraph",
+      "text": "(Above is an illustrated pamphlet for inmates)",
+      "pdfPage": 581
+    },
+    {
+      "id": "appendix-aa-pamphlets-p054",
+      "kind": "paragraph",
+      "text": "Complete order forms available from A.A. General Service Office: Box 459, Grand Central Station, New York, NY 10163",
+      "pdfPage": 581
+    }
+  ]
+}
