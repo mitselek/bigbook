@@ -1283,7 +1283,7 @@ export function segmentBlocks(text: string, ctx: SegmentContext): Block[] {
     if (!cleaned) continue
 
     let kind: BlockKind = 'paragraph'
-    if (!headingEmitted && normalizeForMatch(cleaned) === normalizedTitle) {
+    if (!headingEmitted && normalizeForMatch(cleaned).startsWith(normalizedTitle)) {
       kind = 'heading'
       headingEmitted = true
     }
