@@ -1662,6 +1662,10 @@ describe('validateExtraction', () => {
       id: 'appendix-aa-pamphlets',
       kind: 'appendix',
       title: 'A.A. Pamphlets',
+      pdfPageStart: 581,
+      pdfPageEnd: 581,
+      bookPageStart: 581,
+      bookPageEnd: 581,
       blocks: [{ id: 'appendix-aa-pamphlets-p001', kind: 'paragraph', text: 'list', pdfPage: 581 }],
     }
     expect(() => validateExtraction(doc)).not.toThrow()
