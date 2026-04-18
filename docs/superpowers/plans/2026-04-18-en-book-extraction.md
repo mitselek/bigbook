@@ -4,7 +4,7 @@
 
 **Goal:** Extract the authoritative AA Big Book 4th edition PDF into a structured JSON artifact at `data/extractions/en-4th-edition.json`, covering all 68 sections with EN-keyed IDs and zero dependency on the existing ET paragraph grid.
 
-**Architecture:** Pipeline of small pure functions. `mutool show ... outline` provides the section tree (with hardcoded fallback); `pdftotext -layout` extracts raw text per page range; `normalize.ts` strips running headers and rejoins hyphens; `segment.ts` splits into typed blocks; orchestrator in `scripts/extract-en-book.ts` stitches it together, enforces runtime invariants, and emits JSON + raw text + sample-review.md.
+**Architecture:** Pipeline of small pure functions. `mutool show ... outline` provides the section tree; `pdftotext -layout` extracts raw text per page range; `normalize.ts` strips running headers and rejoins hyphens; `segment.ts` splits into typed blocks; orchestrator in `scripts/extract-en-book.ts` stitches it together, enforces runtime invariants, and emits JSON + raw text + sample-review.md.
 
 **Tech Stack:** TypeScript 5 strict, Node 22+, tsx (script runner), Vitest (tests), `pdftotext`/`mutool` (already on host).
 
@@ -605,13 +605,15 @@ git commit -m "feat(extract): parse mutool outline into typed OutlineNodes
 
 ---
 
-## Task 5: Hardcoded fallback outline + fetchOutline glue
+## Task 5: fetchOutline glue + regression fixture
 
 **Files:**
 
 - Modify: `scripts/extract-en-book/outline.ts`
 - Modify: `tests/scripts/extract-en-book/outline.test.ts`
-- Create: `tests/scripts/extract-en-book/fixtures/outline-full.txt` (full mutool output for regression)
+- Create: `tests/scripts/extract-en-book/fixtures/outline-full.txt` (captured real mutool output)
+
+**Rationale:** `fetchOutline` is the thin seam between the `mutool` spawn (in the orchestrator, Task 14) and `parseOutlineText`. It hard-fails with a clear message when mutool output is empty or unparseable — we prefer a loud failure the operator can fix (install mutool, re-run) over a silent fallback that could hide PDF drift. A regression fixture (`outline-full.txt`) locks in parser parity against real mutool output.
 
 - [ ] **Step 1: Capture real mutool output**
 
@@ -627,33 +629,45 @@ mutool show legacy/assets/AA-BigBook-4th-Edition.pdf outline 2>/dev/null \
 Append to `tests/scripts/extract-en-book/outline.test.ts`:
 
 ```typescript
-import { FALLBACK_OUTLINE, fetchOutline } from '../../../scripts/extract-en-book/outline'
+import { fetchOutline } from '../../../scripts/extract-en-book/outline'
 
 const FULL_FIXTURE = readFileSync(resolve(__dirname, 'fixtures/outline-full.txt'), 'utf8')
 
-describe('FALLBACK_OUTLINE', () => {
-  it('has exactly 68 leaf sections', () => {
-    expect(FALLBACK_OUTLINE).toHaveLength(68)
+describe('parseOutlineText on full mutool output', () => {
+  it('extracts exactly 68 leaf sections', () => {
+    const nodes = parseOutlineText(FULL_FIXTURE)
+    expect(nodes).toHaveLength(68)
   })
 
-  it('matches parseOutlineText on the real mutool output', () => {
-    const parsed = parseOutlineText(FULL_FIXTURE)
-    expect(parsed.map((n) => n.title)).toEqual(FALLBACK_OUTLINE.map((n) => n.title))
-    expect(parsed.map((n) => n.kind)).toEqual(FALLBACK_OUTLINE.map((n) => n.kind))
-    expect(parsed.map((n) => n.pdfPageStart)).toEqual(FALLBACK_OUTLINE.map((n) => n.pdfPageStart))
+  it('first and last leaves have expected shape', () => {
+    const nodes = parseOutlineText(FULL_FIXTURE)
+    expect(nodes[0]).toMatchObject({
+      title: 'Copyright Info',
+      kind: 'front-matter',
+      pdfPageStart: 1,
+    })
+    expect(nodes[nodes.length - 1]).toMatchObject({
+      title: 'A.A. Pamphlets',
+      kind: 'appendix',
+      pdfPageStart: 581,
+    })
   })
 })
 
 describe('fetchOutline', () => {
-  it('returns FALLBACK_OUTLINE when parse returns empty', () => {
-    const result = fetchOutline(() => '')
-    expect(result).toEqual(FALLBACK_OUTLINE)
-  })
-
   it('returns parsed nodes when mutool output is valid', () => {
     const result = fetchOutline(() => FULL_FIXTURE)
     expect(result).toHaveLength(68)
     expect(result[0].title).toBe('Copyright Info')
+  })
+
+  it('throws a clear error when mutool output is empty', () => {
+    expect(() => fetchOutline(() => '')).toThrow(/mutool.*empty|unparseable|outline/i)
+  })
+
+  it('throws a clear error when parse returns no leaves', () => {
+    // A non-empty but structureless input
+    expect(() => fetchOutline(() => 'lorem ipsum\n')).toThrow(/mutool.*empty|unparseable|outline/i)
   })
 })
 ```
@@ -661,68 +675,42 @@ describe('fetchOutline', () => {
 - [ ] **Step 3: Run to verify failure**
 
 Run: `npx vitest run tests/scripts/extract-en-book/outline.test.ts`
-Expected: FAIL — `FALLBACK_OUTLINE` and `fetchOutline` not exported.
+Expected: FAIL — `fetchOutline` not exported.
 
-- [ ] **Step 4: Generate the fallback constant from real mutool output**
-
-Run this one-liner to produce the constant (or transcribe manually if preferred):
-
-```bash
-node -e "
-const fs = require('fs');
-const { parseOutlineText } = require('./scripts/extract-en-book/outline.ts');
-" 2>/dev/null || true
-```
-
-Since the above can't run `.ts` directly, instead: open the captured `outline-full.txt` fixture, and transcribe each leaf into a hardcoded array. Alternatively, run a tsx one-shot to emit the array:
-
-```bash
-npx tsx -e "
-import { readFileSync } from 'node:fs'
-import { parseOutlineText } from './scripts/extract-en-book/outline'
-const raw = readFileSync('tests/scripts/extract-en-book/fixtures/outline-full.txt', 'utf8')
-const nodes = parseOutlineText(raw)
-console.log('export const FALLBACK_OUTLINE: OutlineNode[] = ' + JSON.stringify(nodes, null, 2))
-"
-```
-
-Copy the emitted array into `scripts/extract-en-book/outline.ts` as `FALLBACK_OUTLINE`.
-
-- [ ] **Step 5: Add fetchOutline and FALLBACK_OUTLINE to outline.ts**
+- [ ] **Step 4: Implement fetchOutline**
 
 Append to `scripts/extract-en-book/outline.ts`:
 
 ```typescript
-export const FALLBACK_OUTLINE: OutlineNode[] = [
-  // paste the output from Step 4 here
-]
-
 export function fetchOutline(reader: () => string): OutlineNode[] {
   const raw = reader()
-  const parsed = parseOutlineText(raw)
-  if (parsed.length === 0) {
-    console.warn('mutool outline empty or unparseable — using FALLBACK_OUTLINE')
-    return FALLBACK_OUTLINE
+  const nodes = parseOutlineText(raw)
+  if (nodes.length === 0) {
+    throw new Error(
+      'mutool outline empty or unparseable. Run `mutool show legacy/assets/AA-BigBook-4th-Edition.pdf outline` ' +
+        'to inspect; confirm mutool is installed and the PDF is not corrupted.',
+    )
   }
-  return parsed
+  return nodes
 }
 ```
 
-- [ ] **Step 6: Run tests**
+- [ ] **Step 5: Run tests**
 
 Run: `npx vitest run tests/scripts/extract-en-book/outline.test.ts`
-Expected: PASS, all tests green. Notably the "68 leaf sections" assertion must hold.
+Expected: PASS, all tests green. Notably `parseOutlineText` on the real fixture must return exactly 68 leaves.
 
-- [ ] **Step 7: Commit**
+- [ ] **Step 6: Commit**
 
 ```bash
 git add scripts/extract-en-book/outline.ts \
         tests/scripts/extract-en-book/outline.test.ts \
         tests/scripts/extract-en-book/fixtures/outline-full.txt
-git commit -m "feat(extract): FALLBACK_OUTLINE constant + fetchOutline() glue
+git commit -m "feat(extract): fetchOutline() hard-fails on empty mutool output
 
-Defensive fallback in case mutool output shape changes or parsing fails.
-Parity-checked against real mutool output (68 leaf sections).
+Regression fixture locks in parser parity against real mutool output
+(68 leaf sections). No hardcoded fallback — prefer a loud failure the
+operator can fix (install mutool, check PDF) over a silent drift.
 
 (*BB:Granjon*)"
 ```
