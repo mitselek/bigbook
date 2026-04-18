@@ -80,3 +80,65 @@ P4 commits:
 [CONTEXT] All P3 and P4 GREEN/PURPLE handoffs were sent to Granjon. Pipeline state at shutdown: P4.4 cycle in progress (182fa34 RED sent to Granjon). Plantin to run phase-exit gate after P4.4 CYCLE_COMPLETE.
 
 (*BB:Montano*)
+
+## 2026-04-18 — Session 13, v1-extract Task 2 (EN book extraction, kebabCase)
+
+[DECISION] **TEST_SPEC is the go signal, not `task_assignment`.** On Task 2 a `task_assignment` notification fired ~25 min before Plantin's TEST_SPEC. I proceeded from the task_assignment and shipped RED (commit `6081f44`) before the spec arrived — two of the five ACs then came back as deviations. Plantin accepted both deviations and fixed the process: from now on, wait for an explicit TEST_SPEC message before starting. TaskUpdate assignments alone are not authorization.
+
+[PATTERN] **Module-scaffold cycle endorsed for this plan too.** Plantin accepted the stub-in-same-RED-commit approach over "let the test commit fail tsc" — the pattern stays. Plantin's own TEST_SPEC wording going forward will be "meaningful failure pointing at missing behavior" rather than prescribing "Cannot find module"; mechanism is my call.
+
+[PATTERN] **RED commit subject convention for extract plan:** `test(extract): Task N RED — <short description>`. Plantin's original TEST_SPEC proposed `test(extract): failing tests for kebabCase slug helper`; Plantin then adopted my format as the convention. Use `Task N RED —` prefix across Tasks 2, 3, 4, ... (matches earlier sessions' `PX.Y RED` style, just different numbering scheme for this plan).
+
+[CONTEXT] Task 2 RED commit `6081f44` — 6 failing `it()` blocks in `tests/scripts/extract-en-book/slug.test.ts`, stub at `scripts/extract-en-book/slug.ts`. Granjon began GREEN immediately on the handoff; Plantin instructed: do not amend the RED commit. Next expected TEST_SPEC: Task 3 (section-id mapping) after Ortelius's CYCLE_COMPLETE lands.
+
+(*BB:Montano*)
+
+## 2026-04-18 — Session 13, derivation-check discipline (3-for-3 on extract plan)
+
+[PATTERN] **Run the mechanical-derivation check pre-RED, every time — not just when the tests look fishy.** For a hand-written plan, the Step-3 impl snippets carry bugs that won't surface from the test list alone. Walk each test expectation through the plan's impl verbatim *before* writing. If the impl can't satisfy the expectation, flag Plantin pre-RED with a concrete scenario (specific input → what the plan's impl produces → what the test requires). Three catches this session:
+
+- **Task 9** (paragraph rejoin across page breaks): Plan's "collapse consecutive blanks" couldn't satisfy test 1 — after stripping artifacts only one blank remained between halves. Plan fix `4c5ea19` (two-pass: also strip blanks adjacent to stripped lines).
+- **Task 11** (heading detection): Plan used strict `===` match, but PDF heading 'FOREWORD TO FOURTH EDITION' is a superset of outline title 'Foreword to Fourth'. Plan fix `ac5858f` (`===` → `.startsWith(normalizedTitle)`).
+- **Task 12** (block-kind detection): Plan Step 3's replacement loop reverted the `.startsWith` fix back to `===` — would regress Task 11 GREEN. Tests themselves derived fine; flagged anyway as an impl-level regression trap. Plan fix `80614f2` (preserve `.startsWith` in the new loop).
+
+[LEARNED] **Regression traps count too.** Task 12's tests all derived cleanly against the plan snippet in isolation — but the snippet, if Granjon copied it verbatim, would undo a prior-task fix. Flag these proactively even when the current task's RED would pass, because Granjon works from the plan snippet, not git history. Plantin's endorsement: "three-for-three on derivation catches. This is exactly the value the RED role is supposed to provide when the plan is hand-written."
+
+[DECISION] **When a derivation bug is found, still write RED verbatim per the original TEST_SPEC** (unless Plantin says otherwise). The plan gets fixed upstream; the tests are already correct. Don't rewrite tests around the bug. All three catches this session followed this flow: flag → Plantin pushes plan fix → I ship RED verbatim → handoff message to Granjon references the plan-fix commit(s) so GREEN reads the corrected Step 3.
+
+(*BB:Montano*)
+
+## 2026-04-18 — Session 13, `!` non-null-assertion convention (clarified)
+
+[DECISION] **Non-null assertion (`!`) policy — per Plantin 2026-04-18.** The ban is review-enforced, not lint-enforced (eslint has no `no-non-null-assertion` rule configured). Two zones, different rules:
+
+- **Production code** (`src/**`, `scripts/**/*.ts` non-test): **no `!` allowed.** Zero exceptions. Originates here for type-hygiene reasons — avoid load-bearing runtime assumptions in non-test code. If a derivation check catches a plan snippet that would require `!`, flag and get it rewritten (Task 15 `pickN` pattern: index-map → `filter` = naturally typed, zero `!`).
+- **Test code** (`tests/**/*.test.ts`): **`!` acceptable in *setup* positions** where a helper-function invariant or just-constructed local guarantees the shape. Example: `doc.sections[0]!.blocks[0]!.text = '   '` inside a test that called `sampleDoc()` one line earlier. **Not acceptable in *expect* positions** — use `toMatchObject` or optional-chained access (`?.text`) there. Task 14 RED uses this pattern and was accepted on review.
+
+[PATTERN] **When stepping around `!` in impl code.** Prefer transformations that are naturally typed:
+- `arr.filter((_, i) => indices.has(i))` over `[...indices].map((i) => arr[i]!)` — same semantics, no `!`.
+- Early-return guards / narrowing helpers over inline `!` when the invariant is expressible.
+- For test setup, small local `firstSection(doc)` helpers are cleaner than a chain of `!`s — but inline `!` is acceptable when the chain is short.
+
+[DEFERRED] Adding `@typescript-eslint/no-non-null-assertion` with test-file override is a good post-extraction cleanup task — Plantin noted it.
+
+[CONTEXT] Task 16 is not an RED cycle — it's "run the extraction, inspect, commit artifacts." Plantin + Granjon direct; I stand down after Task 15 PURPLE. Task 17 comes back to RED-driven: each proofread finding from the sample review = fresh TEST_SPEC → failing fixture-test → Granjon fix. Iterative, one cycle per parser bug.
+
+(*BB:Montano*)
+
+## 2026-04-18 — Session 13, Task 17 batch RED (7 parser fixes, shipped)
+
+[WIP] **Task 17 batch RED shipped at `099a8de`** on branch `feat/en-book-extraction`. 7 failing tests + 1 green regression guard across `tests/scripts/extract-en-book/normalize.test.ts` and `tests/scripts/extract-en-book/segment.test.ts`. Pipeline at shutdown: Granjon should be working on GREEN; Ortelius queued for PURPLE. After CYCLE_COMPLETE, next Montano work is either (a) another Task 17 batch if PO finds more proofread issues, or (b) stand down for Task 18 phase-exit gate. Earlier same session: hotfix RED for `extractPages` maxBuffer shipped at `c31515a` (amended from `eb8c818`), Granjon's GREEN at `f55f7cd`, then Task 16 extraction artifact at `02a42eb`.
+
+[LEARNED] **"Backstop test" in a TEST_SPEC may mean green-from-start, not RED.** Plantin's initial Task 17 spec listed S1 (chapter-title bleed) alongside 6 other "RED" tests with a phase-gate of "all 7 tests fail". Derivation check showed S1's fixture (`'Chapter 4\n\nIn the preceding chapters...'` with `\n\n` already present) already produces the expected 2 blocks against current impl — it was a regression guard for the N1/N2 upstream reshape, not a RED. Flagged pre-RED; Plantin reframed as "6 RED + 1 green-regression guard" and added N4 to the batch. Rule: when a spec uses words like "backstop" or "regression" for a test but calls it RED, derive the fixture before writing — the fixture often reveals it's already satisfied.
+
+[PATTERN] **Derivation catches from Task 17 (four-for-four now):**
+- **S1** (initial spec): fixture already green; reframed as regression guard.
+- **N4** (added mid-spec by Plantin after corpus re-inspection triggered by S1 discussion): the blanket `line.trim().toUpperCase() === sectionTitleUpper` strip rule in `normalize.ts` was eating legitimate first-occurrence headings across stories/chapters. Fix: remove the rule entirely. Running titles in Big Book are always paired with page numbers, so `PAGE_AND_TITLE` + new `TITLE_AND_PAGE` (N3) cover the actual stripping cases.
+- **S2 tail-kind trap** (impl-level constraint flagged pre-RED): `detectKind`'s list-item regex `/^(\d+\.|[a-z]\.|\([a-z0-9]+\))\s/i` matches `'(3) Despite...'` because `[a-z0-9]` with `/i` flag covers digits. If Granjon's S2 split delegates tail classification to `detectKind`, the tail comes back `'list-item'` and the test (which asserts `paragraph`) fails. Recommended option (i): set tail `kind='paragraph'` directly in the split path, bypassing `detectKind`.
+- **N3 false-positive check** (no action needed): verified `TITLE_AND_PAGE` regex `^\s*[A-Z][A-Z .'\u2019-]+\s+\d{1,3}\s*$` won't match common false-positive lines (4-digit years like `1950`, `'IN 500 B.C.'` with internal non-letter chars). Flagged in handoff for Granjon's awareness.
+
+[DECISION] **When Plantin adds a new fix mid-spec (N4 here), re-run derivation check on the whole batch.** Don't assume earlier clean cases stay clean after a new sibling rule lands. N4's removal of the title-strip rule potentially affected existing tests using `sectionTitle: 'A Vision For You'` etc — verified all existing tests don't have a matching standalone-title line (they rely on `PAGE_AND_TITLE` patterns). Clean bill reported in the GREEN handoff.
+
+[CONTEXT] Handoff message to Granjon covered: file-by-file change map (4 normalize + 3 segment), S2 tail-kind constraint with option (i) recommendation, ordering note (normalize before segment, N1/N2 upstream enables S1 regression guard to stay green), warning about N1 application order (apply *after* strip pass, not before, to avoid tripping on already-stripped running-title lines), and `!` policy reminder. Verification command: `npx vitest run tests/scripts/extract-en-book/normalize.test.ts tests/scripts/extract-en-book/segment.test.ts` → target 26 passed / 0 failed after GREEN.
+
+(*BB:Montano*)

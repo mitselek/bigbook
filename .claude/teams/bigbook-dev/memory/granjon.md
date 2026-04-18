@@ -49,4 +49,20 @@
 
 [LEARNED] **Duplicated error-shape logic across functions is a reliable PURPLE refactor target.** When `fetchCurrentEt` and `fetchRawGithub` ended up with identical 3-branch error-shape logic, Ortelius extracted `httpErrorResult` + `networkErrorResult` helpers post-P0.5. Pattern: when two functions share identical error mapping, flag it explicitly in the GREEN_HANDOFF as a duplication candidate rather than pre-extracting (which is Ortelius's domain).
 
+## 2026-04-18 — Session 13, Task 16 hotfix + Task 17 batch
+
+[RESOLVED] Task 16-hotfix apostrophe bug closed. Plantin chose option (a): Montano amended RED in-place to `c31515a` (curly `\u2019`). My GREEN maxBuffer edit was preserved through a stash and landed as `f55f7cd`. Task 16 full run landed as `02a42eb` (Plantin bundled artifacts + `.prettierignore` fix). Task 17 batch landed as `ad71181`.
+
+[LEARNED] **Generated markdown artifacts need `.prettierignore` coverage.** The `data/extractions/sample-review.md` generator emits long blockquote lines (one per sampled paragraph). Prettier with default `proseWrap` wants to wrap them and will block pre-commit. Any future extractor that emits markdown should: (a) add the output dir to `.prettierignore` (what Plantin did — same pattern as `legacy/`, `worker/`), OR (b) design the generator to emit already-prettier-compliant markdown (wrapped at 80 col on spaces). Option (a) is correct for artifacts; option (b) is correct for authored docs. Don't run `prettier --write` on the artifact as a band-aid — regeneration will dirty it again immediately.
+
+[LEARNED] **`spawnSync` default `maxBuffer` is 1 MiB.** This bit us latent through Tasks 1–15 because per-section (15–20 pages) stdout stayed under 1 MiB. First full-book extraction at Task 16 surfaced it as `status: null` + empty `stderr` (child killed by SIGTERM, misleading "exit null" error surface). Fix pattern: `{ encoding: 'utf8', maxBuffer: 100 * 1024 * 1024 }`. Apply to any new `spawnSync` wrapper touching large stdout. Also: diagnose "exit null" as buffer overflow before hunting for pdf corruption.
+
+[LEARNED] **Protocol discipline: send STARTED on every handoff receipt, no exceptions.** In the resumed hotfix cycle (after Montano amended RED in-place to `c31515a`), I went straight from the amended-RED handoff to GREEN+FINISH without STARTED. Plantin corrected: even when the previous phase's context is still warm, STARTED is the atomic protocol step. One-liner is fine. No exceptions, even for "continuation" cycles.
+
+[LEARNED] **When GREEN scope forbids the clean fix, reach for the scratchpad + SendMessage to team-lead, not destructive workarounds.** Task 16-hotfix RED had a test-data bug (ASCII vs curly apostrophe). GREEN role can't touch tests. Multiple SendMessages to Plantin had body-loss issues. Correct escalation: (1) write state to scratchpad with `[WIP]`, (2) ping team-lead with a pointer. PO Mihkel confirmed this is the fallback. Don't be tempted to "just fix the test" from the GREEN role.
+
+[RECORD] **Clean GREEN record, Tasks 12–17.** Six consecutive ACs (Tasks 12, 13, 14, 15, 16 + hotfix, 17) with zero PURPLE rejections and zero three-strike escalations. Task 17 was the largest single GREEN batch of the v1-foundation + extract-en-book run (7 REDs + 1 regression guard, 2 files, ~40 LoC delta). Option (i) for the S2 tail-kind constraint ("skip detectKind, set paragraph directly") was the right call — Montano's option (ii) (tighten list-item regex) would have been broader than needed for an S2-scoped tail.
+
+[GOTCHA] **Tmp file location is `.tmp/`, not `/tmp/` and not `.claude/`.** Project policy enforced by PO Mihkel this session: "dedicated tmp folder for our project". `/tmp/` is blocked by snap confinement on this host anyway. `.tmp/` is in `.gitignore`. Use `.tmp/commit-msg.txt` for HEREDOC-style commit messages going forward.
+
 (*BB:Granjon*)
