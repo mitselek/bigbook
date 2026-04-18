@@ -69,9 +69,10 @@ type BlockKind =
   | 'list-item'
   | 'footnote'
   | 'table' // added 2026-04-18 via Wave 1 ch05 agent proposal
+  | 'byline' // added 2026-04-18 via Wave 1B ch01 agent proposal
 ```
 
-Section metadata (id, kind, title, page ranges, parentGroup) is handed to you in your prompt — do not re-derive it.
+Section metadata (id, kind, title, page ranges, parentGroup) is handed to you in your prompt — do not re-derive it. **Note:** the `title` field in your prompt is the canonical prose-case form ("Bill's Story"); the `heading` block's text should preserve the source's visual rendering ("BILL'S STORY"). This divergence is intentional — `title` is metadata, the heading block is authored content.
 
 ## Block id scheme
 
@@ -86,6 +87,7 @@ Section metadata (id, kind, title, page ranges, parentGroup) is handed to you in
   - `v` — verse
   - `f` — footnote
   - `t` — table
+  - `b` — byline
 - `<NNN>` is a **continuous** zero-padded 3-digit ordinal across the whole section. No per-kind restart. Example: if the first block is a heading (`h001`), a paragraph (`p002`), and then a list-item (`l003`), the next block is `p004` regardless of kind.
 
 ## What to emit vs drop
@@ -107,7 +109,8 @@ Section metadata (id, kind, title, page ranges, parentGroup) is handed to you in
 - **Numbered or lettered lists** as `list-item` blocks, one block per item. Join hanging-indent continuations into the same list-item block. Known cases: the Twelve Steps in ch05 (numeric `1.`-`12.`), the Twelve Traditions in appendix-i (word `One-`-`Twelve-`), the Twelve Concepts in appendix-vii (roman `I.`-`XII.`), and the `(a)(b)(c)` sub-lists in ch05.
 - **Quoted verse** as `verse` blocks, preserving internal newlines (unlike paragraphs). Detection signals: consistent line length < 50 chars, shared x-coordinate (often center-indented), clear start and end via opening/closing quotes or surrounding blank lines. Known true verse: the **Hampshire Grenadier tombstone** in ch01-bills-story ("Here lies a Hampshire Grenadier / Who caught his death / Drinking cold small beer. / A good soldier is ne'er forgot / Whether he dieth by musket / Or by pot."). Err on the side of NOT emitting verse when the signal is ambiguous — prior pipelines had over-detection problems.
 - **Tables** as `table` blocks. Put the reconstructed rows in the optional `rows: string[][]` field AND serialize to `text` as pipe-and-newline (`" | "` between cells, `"\n"` between rows) so non-table-aware consumers get a readable fallback. Known case: the resentment-inventory table in ch05 (pages 86-87).
-- **Footnotes** as `footnote` blocks. Detectable by the `*` or `†` marker at the start of the first line.
+- **Footnotes** as `footnote` blocks. Detectable by the `*` or `†` marker at the start of the first line. Preserve the marker as the first character of the footnote text so it cross-references the paragraph it annotates.
+- **Bylines / author attributions** as `byline` blocks. These appear at the end of most personal stories (e.g. `Bill W., co-founder of A.A., died January 24, 1971.` at the end of ch01, or the `-- Joe M.` style sign-off at the end of many Part II / Part III stories). A byline is typographically distinct from a body paragraph (short, italic or small-caps, no first-line indent) and is metadata about the author, not narrative prose.
 
 ### Emit with care
 
@@ -122,7 +125,7 @@ Section metadata (id, kind, title, page ranges, parentGroup) is handed to you in
 - **Curly quotes** — PRESERVE. Do not flatten curly `"` / `"` / `'` / `'` to ASCII. These appear in the source text and are part of the authored content.
 - **Em-dash** `—` — preserve.
 - **En-dash** `–` — preserve.
-- **Cross-line hyphenation** — when a line ends with `-` AND the next line begins with a lowercase letter AND the split appears to be mid-word (not an em-dash context, not a list-item prefix), strip the `-` and join the lines without inserting a space.
+- **Cross-line hyphenation** — when a line ends with `-` AND the next line begins with a lowercase letter AND the split appears to be mid-word (not an em-dash context, not a list-item prefix), strip the `-` and join the lines without inserting a space. **Exception — preserve compound-word hyphens.** Keep the hyphen when the joined result is a legitimate compound (e.g. `self-pity`, `well-being`, `co-founder`, `self-esteem`, `non-alcoholic`, `ex-drunk`, `re-emerged`). Maintain a small allowlist of known compound prefixes (`self-`, `well-`, `co-`, `non-`, `ex-`, `re-`, `pre-`, `semi-`, `anti-`, `sub-`, `super-`, `multi-`) — when the string preceding the line-end `-` matches one of these, keep the hyphen.
 
 ## Heuristics known useful
 
@@ -157,3 +160,10 @@ Your `<section-id>.md` report should contain (brief sections are fine):
   - Suppress "Chapter N" label blocks (do not emit).
   - Add `table` to `BlockKind`.
   - Keep Third-Step-Prayer-style italic pull-quotes inline with paragraph (do not split on italics alone).
+- **2026-04-18 (Wave 1B ch01-bills-story pilot, accepted)** — proposals accepted:
+  - Add `byline` to `BlockKind` (prefix `b`) for author-attribution sign-offs at the end of stories.
+  - Compound-word allowlist for cross-line hyphenation (keep `self-`, `well-`, `co-`, `non-`, `ex-`, `re-`, `pre-`, `semi-`, `anti-`, `sub-`, `super-`, `multi-` as hyphenated; strip others).
+  - Document intentional divergence between section `title` (prose-case, metadata) and `heading` block text (visual rendering, content).
+  - Preserve footnote marker (`*` or `†`) as the first character of the footnote text for cross-reference.
+- **2026-04-18 (Wave 1B ch01-bills-story pilot, deferred)**:
+  - Optional `marker?` / `references?` field linking footnote to in-text reference point. Current scheme (leading `*` in the footnote text) is sufficient for ch01's single footnote; revisit if a section has multiple footnotes on the same page.
