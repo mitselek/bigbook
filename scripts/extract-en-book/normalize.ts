@@ -26,5 +26,9 @@ export function normalize(raw: string, ctx: NormalizeContext): string {
     kept.push(line)
   }
 
-  return kept.join('\n')
+  return rejoinHyphens(kept.join('\n'))
+}
+
+function rejoinHyphens(text: string): string {
+  return text.replace(/([a-z]+)-\n\s*\n?\s*([a-z]+)/g, (_, a: string, b: string) => `${a}${b}`)
 }
