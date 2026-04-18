@@ -1,12 +1,15 @@
 /**
  * Editor happy path — E2E test (issue #29, scenario 1 of 4).
  *
- * Scenario:
- *   A signed-in user lands on the reader, opens the inline editor for a
- *   paragraph whose ET text already diverges from baseline, types new ET text,
- *   clicks Salvesta, and sees the paragraph updated with the new text while
- *   the marginalia "originaal" badge remains visible (divergence persists
- *   because isDiverged is computed at load time and is not reset on commit).
+ * Scenario (strengthened per issue #30 / P7):
+ *   A signed-in user lands on the reader. The target paragraph's ET text is
+ *   EQUAL to baseline at load time (isDiverged === false, no marginalia).
+ *   The user opens the inline editor, types new ET text, clicks Salvesta, and
+ *   sees:
+ *     - the paragraph updated with the new text
+ *     - marginalia "originaal" badge appears (because the paragraph is now
+ *       diverged from baseline — P7 diff recompute in handleSave)
+ *     - the baseline text shown in marginalia is the original load-time ET
  *
  * All network calls are intercepted; no real GitHub or Cloudflare Worker
  * requests are made.
@@ -41,21 +44,21 @@ const PARA_IDS = CHAPTER.paraIds
 
 // The paragraph we will edit — first body paragraph.
 const TARGET_PARA_ID = `${SLUG}-p001`
-// ET text for the target paragraph at load time (differs from baseline so
-// isDiverged is true and marginalia is shown before the edit).
-const LOADED_ET_TEXT = `ET tekst ${TARGET_PARA_ID} muudetud.`
+
+// ET text at load time (= baseline default: "ET tekst <paraId>.").
+// No etOverrides → isDiverged is false at load time → no marginalia initially.
+const LOADED_ET_TEXT = `ET tekst ${TARGET_PARA_ID}.`
+
 // New text the user types in the editor.
 const NEW_ET_TEXT = 'Uus tekst E2E testiga.'
 const NEW_SHA = 'new-sha-abc123'
 
 // Build fixture content:
 //   - EN:       one line per paraId, distinct English text
-//   - ET:       same as baseline for all paragraphs except TARGET_PARA_ID
-//   - baseline: default ET text for every paraId (no overrides)
-// This makes TARGET_PARA_ID diverged at load time so marginalia renders.
-const CHAPTER_CONTENT = makeBilingualChapter(SLUG, PARA_IDS, {
-  etOverrides: { [TARGET_PARA_ID]: LOADED_ET_TEXT },
-})
+//   - ET:       same as baseline for every paraId (no overrides)
+//   - baseline: default ET text for every paraId
+// This makes ALL paragraphs non-diverged at load time (no marginalia visible).
+const CHAPTER_CONTENT = makeBilingualChapter(SLUG, PARA_IDS)
 
 // ── Test ──────────────────────────────────────────────────────────────────────
 
@@ -69,7 +72,7 @@ test.describe('Editor happy path', () => {
     await interceptCommit(page, { slug: SLUG, responseKind: 'ok', newSha: NEW_SHA })
   })
 
-  test('signs in, edits a diverged paragraph, saves, sees updated text and marginalia', async ({
+  test('signs in, edits a non-diverged paragraph, saves, sees marginalia appear with baseline text', async ({
     page,
   }) => {
     // 1. Navigate to the app root.
@@ -85,8 +88,9 @@ test.describe('Editor happy path', () => {
     await expect(targetParaRow).toBeVisible({ timeout: 15_000 })
     await expect(targetParaRow.locator('.col-et')).toContainText(LOADED_ET_TEXT)
 
-    // 4. Verify marginalia is shown because the paragraph is already diverged.
-    await expect(targetParaRow.locator('.col-marginalia .label')).toContainText('originaal')
+    // 4. Assert marginalia is NOT shown because the paragraph is NOT diverged
+    //    at load time (ET == baseline). This is the P7 true happy-path start.
+    await expect(targetParaRow.locator('.col-marginalia .label')).not.toBeVisible()
 
     // 5. Open the inline editor by dispatching a synthetic click on the pencil
     //    button. The button is CSS-hidden by default (.read-row:hover reveals
@@ -126,9 +130,78 @@ test.describe('Editor happy path', () => {
     // 11. Assert the paragraph row now renders the updated ET text.
     await expect(targetParaRow.locator('.col-et')).toContainText(NEW_ET_TEXT)
 
-    // 12. Assert the marginalia column still shows "originaal" — isDiverged was
-    //     true at load time and is not reset on commit, so the Marginalia
-    //     component stays mounted with the original baseline text.
+    // 12. Assert the marginalia column NOW shows "originaal" — the paragraph
+    //     is now diverged from baseline (P7: handleSave recomputes diff).
     await expect(targetParaRow.locator('.col-marginalia .label')).toContainText('originaal')
+
+    // 13. Assert the baseline text shown in marginalia is the original load-time
+    //     ET text (the pre-edit content), not the new edited text.
+    await expect(targetParaRow.locator('.col-marginalia .baseline-text')).toContainText(
+      LOADED_ET_TEXT,
+    )
+  })
+
+  test('signs in, edits a diverged paragraph back to baseline, saves, sees marginalia disappear', async ({
+    page,
+  }) => {
+    // Fixture: target paragraph is pre-diverged (ET ≠ baseline).
+    // After editing the ET back to baseline text, marginalia should disappear.
+
+    // The baseline/default text for TARGET_PARA_ID in makeBilingualChapter.
+    const BASELINE_TEXT = LOADED_ET_TEXT // "ET tekst ch01-billi-lugu-p001."
+    // ET at load time is different from baseline — paragraph is diverged.
+    const DIVERGED_ET_TEXT = `${BASELINE_TEXT} Lisatext diverged.`
+
+    // Set up interceptors with a pre-diverged fixture.
+    const divergedContent = makeBilingualChapter(SLUG, PARA_IDS, {
+      etOverrides: { [TARGET_PARA_ID]: DIVERGED_ET_TEXT },
+    })
+
+    // Navigate to app root (beforeEach already set up intercepts for the
+    // non-diverged fixture, so we need to re-register; the LIFO route system
+    // means later registrations take precedence).
+    await setupChapterContent(page, { slug: SLUG, ...divergedContent })
+    await interceptCommit(page, { slug: SLUG, responseKind: 'ok', newSha: 'new-sha-back-to-base' })
+
+    await page.goto('./')
+    await expect(page.locator('#signout-btn')).toBeVisible({ timeout: 15_000 })
+
+    const targetParaRow = page.locator(`#${TARGET_PARA_ID}`)
+    await expect(targetParaRow).toBeVisible({ timeout: 15_000 })
+    await expect(targetParaRow.locator('.col-et')).toContainText(DIVERGED_ET_TEXT)
+
+    // Paragraph is pre-diverged — marginalia should be visible at load.
+    await expect(targetParaRow.locator('.col-marginalia .label')).toContainText('originaal')
+
+    // Open the editor.
+    const readRow = targetParaRow.locator('..')
+    const pencilBtn = readRow.locator('.pencil-btn')
+    await pencilBtn.dispatchEvent('click')
+
+    const textarea = page.locator('textarea')
+    await expect(textarea).toBeVisible({ timeout: 10_000 })
+
+    // Edit the text back to match baseline.
+    await textarea.fill(BASELINE_TEXT)
+
+    const salvestaBtn = page.locator('button.btn-save', { hasText: 'Salvesta' })
+    await expect(salvestaBtn).toBeVisible()
+
+    const putResponsePromise = page.waitForResponse(
+      (resp) =>
+        resp.url().includes(`/contents/src/content/et/${SLUG}.md`) &&
+        resp.request().method() === 'PUT',
+    )
+    await salvestaBtn.click()
+    await putResponsePromise
+
+    // Editor should close.
+    await expect(textarea).not.toBeVisible()
+
+    // Paragraph text should show the baseline text.
+    await expect(targetParaRow.locator('.col-et')).toContainText(BASELINE_TEXT)
+
+    // Marginalia should disappear — paragraph is no longer diverged.
+    await expect(targetParaRow.locator('.col-marginalia .label')).not.toBeVisible()
   })
 })

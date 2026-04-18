@@ -254,7 +254,27 @@
       })
       const idx = paragraphs.findIndex((p) => p.paraId === paraId)
       if (idx >= 0) {
-        paragraphs[idx] = { ...paragraphs[idx], etText: newText }
+        // P7: recompute divergence so marginalia refreshes immediately.
+        const currentParsed = parse(newContent)
+        let baselineParsed: ReturnType<typeof parse>
+        if (state.baselineEt === '') {
+          baselineParsed = {
+            frontmatter: { chapter: slug, title: '', lang: 'et' },
+            paragraphs: new Map(),
+          }
+        } else {
+          baselineParsed = parse(state.baselineEt)
+        }
+        const newDiverged = diffCurrentVsBaseline(currentParsed, baselineParsed)
+        const nowDiverged = newDiverged.has(paraId)
+        paragraphs[idx] = {
+          ...paragraphs[idx],
+          etText: newText,
+          isDiverged: nowDiverged,
+          baselineEtText: nowDiverged
+            ? (baselineParsed.paragraphs.get(paraId) ?? '')
+            : undefined,
+        }
       }
       commitSuccess()
     } else if (result.kind === 'conflict') {
