@@ -1,25 +1,40 @@
 #!/usr/bin/env python3
-"""m_008: Normalize blank lines — collapse runs of 2+ into 1."""
+"""m_008: Join wrapped lines into proper paragraphs.
+
+Tag lines ([[type]]) are preserved on their own line.
+Consecutive non-blank, non-tag lines are joined with a space.
+"""
+import re
 from pathlib import Path
 
 here = Path(__file__).parent
 lines = (here / "m_007.txt").read_text().splitlines()
-out = []
-prev_blank = False
+
+TAG_RE = re.compile(r'^\[\[.+\]\]$')
+
+paragraphs = []
+current = []
 
 for line in lines:
-    if not line.strip():
-        if not prev_blank:
-            out.append('')
-        prev_blank = True
+    stripped = line.rstrip()
+    if TAG_RE.match(stripped):
+        # Flush current block
+        if current:
+            paragraphs.append(' '.join(current))
+            current = []
+        paragraphs.append(stripped)
+    elif stripped:
+        current.append(stripped)
     else:
-        out.append(line)
-        prev_blank = False
+        if current:
+            paragraphs.append(' '.join(current))
+            current = []
+        paragraphs.append('')
 
-while out and not out[0]:
-    out.pop(0)
-while out and not out[-1]:
-    out.pop()
+if current:
+    paragraphs.append(' '.join(current))
 
-(here / "m_008.txt").write_text("\n".join(out) + "\n")
-print(f"m_008: {len(lines)} -> {len(out)} lines")
+(here / "m_008.txt").write_text("\n".join(paragraphs) + "\n")
+orig_nonblank = sum(1 for l in lines if l.strip())
+new_nonblank = sum(1 for l in paragraphs if l.strip())
+print(f"m_008: {orig_nonblank} content lines -> {new_nonblank} paragraphs")
