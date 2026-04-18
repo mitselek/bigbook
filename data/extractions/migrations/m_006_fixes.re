@@ -92,6 +92,8 @@ s/\[\[heading\]\]\n\[\[heading\]\]/[[heading]]/g
 s/\[\[heading\]\]\n(.+)\n\[\[heading\]\]\n(.+)/[[heading]]\n\1 \2/g
 # Second pass for triple-heading sequences (e.g. (1) + TITLE + SUBTITLE)
 s/\[\[heading\]\]\n(.+)\n\[\[heading\]\]\n(.+)/[[heading]]\n\1 \2/g
+# Separate heading content from following text (insert blank line)
+s/(\[\[heading\]\]\n.+)\n([A-Za-z])/\1\n\n\2/g
 
 # === FOOTNOTES (broad pattern) ===
 s/^(\* .+)$/[[footnote]]\n\1/g

@@ -48,9 +48,6 @@ Printed in the United States of America
 [[heading]]
 Preface
 
-
-
-
 [[paragraph]]
 THIS IS the fourth edition of the book “Alcoholics Anonymous.”
 The first edition appeared in April 1939, and in the following
@@ -164,8 +161,6 @@ Inquiry by scientific, medical, and religious societies will be welcomed.
 
 [[heading]]
 ALCOHOLICS ANONYMOUS FOREWORD TO SECOND EDITION
-
-
 
 [[paragraph]]
 Figures given in this foreword describe the
@@ -393,8 +388,6 @@ will presently join us on the high road to a new freedom.
 
 [[heading]]
 FOREWORD TO THIRD EDITION
-
-
 
 [[paragraph]]
 BY March 1976, when this edition went to the printer, the
@@ -802,7 +795,6 @@ William D. Silkworth, M.D.
 
 [[heading]]
 Chapter 1 BILL’S STORY
-
 
 [[paragraph]]
 War fever ran high in the New England town
@@ -1325,7 +1317,6 @@ died January 24, 1971.
 [[heading]]
 Chapter 2 THERE IS A SOLUTION
 
-
 [[paragraph]]
 We, of ALCOHOLICS ANONYMOUS, know
 thousands of men and women who were once
@@ -1734,7 +1725,6 @@ have this thing.”
 
 [[heading]]
 Chapter 3 MORE ABOUT ALCOHOLISM
-
 
 [[paragraph]]
 Most of us have been unwilling to admit we
@@ -2192,7 +2182,6 @@ must come from a Higher Power.
 [[heading]]
 Chapter 4 WE AGNOSTICS
 
-
 [[paragraph]]
 In the preceding chapters you have learned
 something of alcoholism. We hope we have
@@ -2636,8 +2625,6 @@ to us!
 
 [[heading]]
 Chapter 5 HOW IT WORKS
-
-
 
 [[paragraph]]
 Rarely have we seen a person fail who has
@@ -3095,7 +3082,6 @@ big chunks of truth about yourself.
 
 [[heading]]
 Chapter 6 INTO ACTION
-
 
 [[paragraph]]
 Having made our personal inventory, what shall
@@ -3635,7 +3621,6 @@ entirely devoted to Step Twelve.
 [[heading]]
 Chapter 7 WORKING WITH OTHERS
 
-
 [[paragraph]]
 Practical experience shows that nothing will
 so much insure immunity from drinking as
@@ -4115,7 +4100,6 @@ fighting anybody or anything. We have to!
 
 [[heading]]
 Chapter 8 TO WIVES*
-
 
 [[paragraph]]
 With few exceptions, our book thus far has
@@ -4704,7 +4688,6 @@ Service Office, 1600 Corporate Landing Parkway, Virginia Beach, VA 23454-5617.
 [[heading]]
 Chapter 9 THE FAMILY AFTERWARD
 
-
 [[paragraph]]
 Our women folk have suggested certain atti-
 tudes a wife may take with the husband who is
@@ -5158,7 +5141,6 @@ Easy Does It.
 
 [[heading]]
 Chapter 10 TO EMPLOYERS
-
 
 [[paragraph]]
 Among many employers nowadays, we think of
@@ -5628,7 +5610,6 @@ be of help.
 [[heading]]
 Chapter 11 A VISION FOR YOU
 
-
 [[paragraph]]
 For most normal folks, drinking means convivi-
 ality, companionship and colorful imagination.
@@ -6094,6 +6075,8 @@ Grand Central Station, New York, NY 10163.
 
 [[heading]]
 DOCTOR BOB’S NIGHTMARE
+
+[[paragraph]]
 A co-founder of Alcoholics Anonymous. The birth
 of our Society dates from his first day of permanent
 sobriety, June 10, 1935.
@@ -6459,6 +6442,8 @@ Your Heavenly Father will never let you down!
 
 [[heading]]
 (1) ALCOHOLIC ANONYMOUS NUMBER THREE
+
+[[paragraph]]
 Pioneer member of Akron’s Group No. 1, the first
 A.A. group in the world. He kept the faith; therefore,
 he and countless others found a new life.
@@ -6816,6 +6801,8 @@ person can do.
 
 [[heading]]
 (2) GRATITUDE IN ACTION
+
+[[paragraph]]
 The story of Dave B., one of the founders of A.A. in
 Canada in 1944.
 
@@ -7038,6 +7025,8 @@ simple thing: to keep my hand in the hand of God.
 
 [[heading]]
 (3) WOMEN SUFFER TOO
+
+[[paragraph]]
 Despite great opportunities, alcohol nearly ended
 her life. An early member, she spread the word among
 women in our pioneering period.
@@ -7300,6 +7289,8 @@ found its proper place, for I can say many times daily,
 
 [[heading]]
 (4) OUR SOUTHERN FRIEND
+
+[[paragraph]]
 Pioneer A.A., minister’s son, and southern farmer,
 he asked, “Who am I to say there is no God?”
 
@@ -7647,6 +7638,8 @@ make us free!
 
 [[heading]]
 (5) THE VICIOUS CYCLE
+
+[[paragraph]]
 How it finally broke a Southerner’s obstinacy and
 destined this salesman to start A.A. in Philadelphia.
 
@@ -8060,6 +8053,8 @@ sobriety.
 
 [[heading]]
 (6) JIM’S STORY
+
+[[paragraph]]
 This physician, one of the earliest members of A.A.’s
 first black group, tells of how freedom came as he
 worked among his people.
@@ -8505,6 +8500,8 @@ That’s my story of what A.A. has done for me.
 
 [[heading]]
 (7) THE MAN WHO MASTERED FEAR
+
+[[paragraph]]
 He spent eighteen years in running away, and then
 found he didn’t have to run. So he started A.A. in
 Detroit.
@@ -8903,6 +8900,8 @@ running away from life.
 
 [[heading]]
 (8) HE SOLD HIMSELF SHORT
+
+[[paragraph]]
 But he found there was a Higher Power that had
 more faith in him than he had in himself. Thus, A.A.
 was born in Chicago.
@@ -9228,6 +9227,8 @@ serving them as I can.
 
 [[heading]]
 (9) THE KEYS OF THE KINGDOM
+
+[[paragraph]]
 This worldly lady helped to develop A.A. in Chicago
 and thus passed her keys to many.
 
@@ -9516,6 +9517,8 @@ Kingdom.
 
 [[heading]]
 (1) THE MISSING LINK
+
+[[paragraph]]
 He looked at everything as the cause of his unhap-
 piness—except alcohol.
 
@@ -9773,6 +9776,8 @@ one day at a time, living this adventure called life.
 
 [[heading]]
 (2) FEAR OF FEAR
+
+[[paragraph]]
 This lady was cautious. She decided she wouldn’t
 let herself go in her drinking. And she would never,
 never take that morning drink!
@@ -9965,6 +9970,8 @@ days. I hope that I never forget to be grateful.
 
 [[heading]]
 (3) THE HOUSEWIFE WHO DRANK AT HOME
+
+[[paragraph]]
 She hid her bottles in clothes hampers and dresser
 drawers. In A.A., she discovered she had lost nothing
 and had found everything.
@@ -10159,6 +10166,8 @@ of His power that is now with me in everything I do.
 
 [[heading]]
 (4) PHYSICIAN, HEAL THYSELF!
+
+[[paragraph]]
 Psychiatrist and surgeon, he had lost his way until
 he realized that God, not he, was the Great Healer.
 
@@ -10225,6 +10234,8 @@ soul and said, “I wouldn’t worry about it; probably
 
 [[heading]]
 PHYSICIAN, HEAL THYSELF!              303
+
+[[paragraph]]
 something will happen.” And then we went up the
 side of a hill where we have a little barbecue area to
 make the fire for the barbecue, and on the way up I
@@ -10294,6 +10305,8 @@ this community an organization that helps people, and
 
 [[heading]]
 PHYSICIAN, HEAL THYSELF!              305
+
+[[paragraph]]
 this organization is known as Alcoholics Anonymous.
 Why don’t you join it?” I said, “What do you think I’ve
 been doing?” “Well,” he said, “you’ve been sober, but
@@ -10363,6 +10376,8 @@ woman? Yes, I put in those stitches. The Great Boss
 
 [[heading]]
 PHYSICIAN, HEAL THYSELF!             307
+
+[[paragraph]]
 has given me diagnostic and surgical talent, and He
 has loaned it to me to use for the rest of my life. It
 doesn’t belong to me. He has loaned it to me and I did
@@ -10424,6 +10439,8 @@ To me it is God.
 
 [[heading]]
 (5) MY CHANCE TO LIVE
+
+[[paragraph]]
 A.A. gave this teenager the tools to climb out of her
 dark abyss of despair.
 
@@ -10744,6 +10761,8 @@ lieve A.A. just might work for me too.
 
 [[heading]]
 (6) STUDENT OF LIFE
+
+[[paragraph]]
 Living at home with her parents, she tried using
 willpower to beat the obsession to drink. But it wasn’t
 until she met another alcoholic and went to an A.A.
@@ -11039,6 +11058,8 @@ what I received in return was my life.
 
 [[heading]]
 (7) CROSSING THE RIVER OF DENIAL
+
+[[paragraph]]
 She finally realized that when she enjoyed her
 drinking, she couldn’t control it, and when she con-
 trolled it, she couldn’t enjoy it.
@@ -11358,6 +11379,8 @@ it again tomorrow.
 
 [[heading]]
 (8) BECAUSE I’M AN ALCOHOLIC
+
+[[paragraph]]
 This drinker finally found the answer to her nag-
 ging question, “Why?”
 
@@ -11674,6 +11697,8 @@ alone.
 
 [[heading]]
 (9) IT MIGHT HAVE BEEN WORSE
+
+[[paragraph]]
 Alcohol was a looming cloud in this banker’s bright
 sky. With rare foresight he realized it could become a
 tornado.
@@ -12021,6 +12046,8 @@ for me something I was unable to do for myself.
 
 [[heading]]
 (10) TIGHTROPE
+
+[[paragraph]]
 Trying to navigate separate worlds was a lonely
 charade that ended when this gay alcoholic finally
 landed in A.A.
@@ -12338,6 +12365,8 @@ of which are joined by bonds of shared pain and joy.
 
 [[heading]]
 (11) FLOODED WITH FEELING
+
+[[paragraph]]
 When a barrier to God collapsed, this self-described
 agnostic was at Step Three.
 
@@ -12521,6 +12550,8 @@ I keep coming back because it works.
 
 [[heading]]
 (12) WINNER TAKES ALL
+
+[[paragraph]]
 Legally blind but no longer alone, she found a way
 to stay sober, raise a family, and turn her life over to
 the care of God.
@@ -12751,6 +12782,8 @@ the tools of this program to put me back on track.
 
 [[heading]]
 (13) ME AN ALCOHOLIC?
+
+[[paragraph]]
 Alcohol’s wringer squeezed this author—but he
 escaped quite whole.
 
@@ -12949,6 +12982,8 @@ to go through them alone.
 
 [[heading]]
 (14) THE PERPETUAL QUEST
+
+[[paragraph]]
 This lawyer tried psychiatrists, biofeedback, relax-
 ation exercises, and a host of other techniques to con-
 trol her drinking. She finally found a solution,
@@ -13277,6 +13312,8 @@ and it couldn’t get much better.
 
 [[heading]]
 (15) A DRUNK, LIKE YOU
+
+[[paragraph]]
 The more he listened at meetings, the more he came
 to know about his own drinking history.
 
@@ -13576,6 +13613,8 @@ program in the book.
 
 [[heading]]
 (16) ACCEPTANCE WAS THE ANSWER
+
+[[paragraph]]
 The physician wasn’t hooked, he thought—he just
 prescribed drugs medically indicated for his many ail-
 ments. Acceptance was his key to liberation.
@@ -14034,6 +14073,8 @@ Thank God for A.A.!
 
 [[heading]]
 (17) WINDOW OF OPPORTUNITY
+
+[[paragraph]]
 This young alcoholic stepped out a second-story
 window and into A.A.
 
@@ -14383,6 +14424,8 @@ grateful.
 
 [[heading]]
 (1)
+
+[[paragraph]]
 MY BOTTLE, MY RESENTMENTS,
 AND ME
 From childhood trauma to skid row drunk, this hobo
@@ -14450,6 +14493,8 @@ After several years of semidelinquent adolescence, I
 
 [[heading]]
 MY BOTTLE, MY RESENTMENTS, AND ME          439
+
+[[paragraph]]
 was old enough to join the marines. Leaving behind
 the origin of my bitterness, I thought my life would be
 better and the drinking not so bad. However, during
@@ -14518,6 +14563,8 @@ work anyway.
 
 [[heading]]
 MY BOTTLE, MY RESENTMENTS, AND ME           441
+
+[[paragraph]]
 One scorching day, when I was in a desert town
 drinking, something unusual happened. I felt as
 though I had reached the point where I couldn’t go
@@ -14587,6 +14634,8 @@ The next year we took a job managing a camp out-
 
 [[heading]]
 MY BOTTLE, MY RESENTMENTS, AND ME         443
+
+[[paragraph]]
 side of town where drunks were sent to get dried out
 and sobered up. It was our responsibility to see that
 they had food and stayed out of trouble. Both tasks
@@ -14656,6 +14705,8 @@ but the lives of my family and many others. It is noth-
 
 [[heading]]
 MY BOTTLE, MY RESENTMENTS, AND ME           445
+
+[[paragraph]]
 ing short of a modern-day miracle. God has done for
 me what I could not do for myself!
 The article gave the name of the town I live in, so
@@ -14883,6 +14934,8 @@ sage of hope as it was brought to me.
 
 [[heading]]
 (3) SAFE HAVEN
+
+[[paragraph]]
 This A.A. found that the process of discovering who
 he really was began with knowing who he didn’t want
 to be.
@@ -15076,6 +15129,8 @@ can start from now and make a brand-new end.
 
 [[heading]]
 (4) LISTENING TO THE WIND
+
+[[paragraph]]
 It took an “angel” to introduce this Native
 American woman to A.A. and recovery.
 
@@ -15455,6 +15510,8 @@ and the love and recovery in Alcoholics Anonymous.
 
 [[heading]]
 (5) TWICE GIFTED
+
+[[paragraph]]
 Diagnosed with cirrhosis, this sick alcoholic got
 sobriety—plus a lifesaving liver transplant.
 
@@ -15653,6 +15710,8 @@ not found the door of Alcoholics Anonymous.
 
 [[heading]]
 (6) BUILDING A NEW LIFE
+
+[[paragraph]]
 Hallucinating and restrained by sheriff’s deputies
 and hospital staff, this once-happy family man re-
 ceived an unexpected gift from God—a firm founda-
@@ -15982,6 +16041,8 @@ tried it.
 
 [[heading]]
 (7) ON THE MOVE
+
+[[paragraph]]
 Working the A.A. program showed this alcoholic
 how to get from geographics to gratitude.
 
@@ -16241,6 +16302,8 @@ to live until I arrived in Alcoholics Anonymous.
 
 [[heading]]
 (8) A VISION OF RECOVERY
+
+[[paragraph]]
 A feeble prayer forged a lasting connection with a
 Higher Power for this Mic-Mac Indian.
 
@@ -16451,6 +16514,8 @@ as I “trudge the Road of Happy Destiny.”
 
 [[heading]]
 (9) GUTTER BRAVADO
+
+[[paragraph]]
 Alone and unemployable, he was given two options
 by the court, get help or go to jail, and his journey
 toward teachability began.
@@ -16797,6 +16862,8 @@ the key.
 
 [[heading]]
 (10) EMPTY ON THE INSIDE
+
+[[paragraph]]
 She grew up around A.A. and had all the
 answers—except when it came to her own life.
 
@@ -17122,6 +17189,8 @@ lieving that it is all right not to know.
 
 [[heading]]
 (11) GROUNDED
+
+[[paragraph]]
 Alcohol clipped this pilot’s wings until sobriety and
 hard work brought him back to the sky.
 
@@ -17399,6 +17468,8 @@ meeting of Alcoholics Anonymous.
 
 [[heading]]
 (12) ANOTHER CHANCE
+
+[[paragraph]]
 Poor, black, totally ruled by alcohol, she felt shut
 away from any life worth living. But when she began
 a prison sentence, a door opened.
@@ -17820,6 +17891,8 @@ pier journey through life.
 
 [[heading]]
 (14) FREEDOM FROM BONDAGE
+
+[[paragraph]]
 Young when she joined, this A.A. believes her seri-
 ous drinking was the result of even deeper defects. She
 here tells how she was set free.
@@ -18115,6 +18188,8 @@ time.
 
 [[heading]]
 (15) A.A. TAUGHT HIM TO HANDLE
+
+[[paragraph]]
 SOBRIETY
 “God willing, we . . . may never again have to deal
 with drinking, but we have to deal with sobriety every
@@ -18352,7 +18427,6 @@ I
 
 [[heading]]
 THE A.A. TRADITION
-
 
 [[paragraph]]
 To those now in its fold, Alcoholics Anonymous has made
