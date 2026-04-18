@@ -107,3 +107,5 @@ s/^(\d+\.\s.+)$/[[list-item]]\n\1/g
 s/^((?:One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve)—)/[[list-item]]\n\1/g
 # Twelve Traditions long form (1.—, 2.—, etc.)
 s/^(\d+\.—)/[[list-item]]\n\1/g
+# Twelve Concepts (I., II., ... XII.)
+s/^((?:XII|XI|IX|VIII|VII|VI|IV|III|II|V|X|I)\. )/[[list-item]]\n\1/g
