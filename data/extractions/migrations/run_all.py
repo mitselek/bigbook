@@ -8,6 +8,7 @@ here = Path(__file__).parent
 
 MIGRATIONS = [
     "m_001.py",  # strip form feeds
+    "m_001b.py", # insert paragraph breaks from indentation
     "m_002.py",  # strip leading whitespace
     "m_003.py",  # remove print artifacts (Alco_*.qxd)
     "m_004.py",  # remove headers/footers/page numbers

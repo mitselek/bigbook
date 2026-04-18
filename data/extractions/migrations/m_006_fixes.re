@@ -90,6 +90,7 @@ s/^(\(\d+\))$/[[heading]]\n\1/g
 s/^([IVX]+)$/[[heading]]\n\1/g
 # Mixed-case headings
 s/^(The Twelve Traditions)$/[[heading]]\n\1/g
+s/^(A\.A\. Pamphlets)$/[[heading]]\n\1/g
 # Join consecutive headings into one (remove extra [[heading]] tags first)
 s/\[\[heading\]\]\n\[\[heading\]\]/[[heading]]/g
 s/\[\[heading\]\]\n(.+)\n\[\[heading\]\]\n(.+)/[[heading]]\n\1 \2/g
