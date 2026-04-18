@@ -7,7 +7,7 @@ export interface NormalizeContext {
   sectionTitle: string
 }
 
-const QXD_HEADER = /^Alco_\w+_\d+p_\w+_r\d+\.qxd .+Page \d+$/
+const QXD_HEADER = /^\s*Alco_\w+_\d+p_\w+_r\d+\.qxd .+Page \d+$/
 const PAGE_NUMBER_LINE = /^\s*\d{1,3}\s*$/
 const PAGE_AND_TITLE = /^\s*\d{1,3}\s+[A-Z][A-Z .'\u2019-]+\s*$/
 const TITLE_AND_PAGE = /^\s*[A-Z][A-Z .'\u2019-]+\s+\d{1,3}\s*$/
@@ -57,16 +57,27 @@ export function normalize(raw: string, _ctx: NormalizeContext): string {
   // Pass 1: mark lines that are page-break artifacts
   const strip: boolean[] = lines.map((line) => PAGE_ARTIFACTS.some((re) => re.test(line)))
 
-  // Pass 2: propagate — a blank line adjacent to a stripped line is itself
-  // part of the page-break artifact and must be dropped. A blank line between
+  // Pass 2: propagate — runs of blank lines adjacent to a stripped line are
+  // part of the page-break artifact and must be dropped. A blank-run between
   // two kept (non-stripped, non-blank) lines is a legitimate paragraph break
   // and must be preserved.
-  for (const [i, line] of lines.entries()) {
-    if (strip[i]) continue
-    if (line.trim() !== '') continue
-    const prevStripped = i > 0 && strip[i - 1] === true
-    const nextStripped = i < lines.length - 1 && strip[i + 1] === true
-    if (prevStripped || nextStripped) strip[i] = true
+  //
+  // Walk forward from each stripped line, marking following blanks stripped
+  // until a non-blank is reached. Then walk backward similarly.
+  for (const [i] of lines.entries()) {
+    if (!strip[i]) continue
+    // forward
+    for (let j = i + 1; j < lines.length; j++) {
+      const next = lines[j]
+      if (next === undefined || next.trim() !== '') break
+      strip[j] = true
+    }
+    // backward
+    for (let j = i - 1; j >= 0; j--) {
+      const prev = lines[j]
+      if (prev === undefined || prev.trim() !== '') break
+      strip[j] = true
+    }
   }
 
   const kept = lines.filter((_, i) => !strip[i])
