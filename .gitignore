@@ -31,3 +31,6 @@ coverage/
 
 # Claude Code local settings (machine-specific)
 .claude/settings.local.json
+
+# Project-local tmp scratch (commit-msg drafts, etc.)
+.tmp/
