@@ -4,6 +4,7 @@
   import EditableRow from './EditableRow.svelte'
   import { commitParagraphEdit } from '../lib/editor/commit'
   import { replaceParaText } from '../lib/content/serialize'
+  import { preflight } from '../lib/editor/preflight'
   import {
     editorState,
     startSaving,
@@ -207,6 +208,17 @@
     }
 
     startSaving()
+
+    const preflightResult = preflight({
+      currentEt: state.currentEt,
+      paraId,
+      newText,
+      referenceParaIds: new Set(paraIds),
+    })
+    if (!preflightResult.ok) {
+      commitError(`Valideerimisviga: ${preflightResult.errors[0].message}`)
+      return
+    }
 
     const result = await commitParagraphEdit({
       slug,
