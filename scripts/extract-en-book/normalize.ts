@@ -26,22 +26,6 @@ function leadingWhitespaceWidth(line: string): number {
   return match ? match[0].length : 0
 }
 
-function computeBodyMargin(lines: string[]): number {
-  const widths = lines.filter((l) => l.trim() !== '').map(leadingWhitespaceWidth)
-  if (widths.length === 0) return 0
-  const counts = new Map<number, number>()
-  for (const w of widths) counts.set(w, (counts.get(w) ?? 0) + 1)
-  let mode = 0
-  let max = 0
-  for (const [w, c] of counts) {
-    if (c > max) {
-      max = c
-      mode = w
-    }
-  }
-  return mode
-}
-
 function startsWithUppercaseAlpha(line: string): boolean {
   const stripped = line.replace(
     /^[\s\d.,;:!?()[\]{}'"\u2018\u2019\u201c\u201d\u2013\u2014`*-]+/,
@@ -82,28 +66,27 @@ export function normalize(raw: string, _ctx: NormalizeContext): string {
 
   const kept = lines.filter((_, i) => !strip[i])
 
-  // N1 (calibrated): per-section body-margin detection + uppercase guard.
-  // A line is a paragraph start iff its indent exceeds the section's
-  // body-margin by 3+ AND its first alphabetic char is uppercase. The
-  // first non-blank line of the section is always a paragraph start.
+  // N1 (local-delta): a line is a paragraph start iff its indent exceeds
+  // the preceding non-blank line's indent by 3+ AND its first alphabetic
+  // char is uppercase. This handles sections with multiple body margins
+  // (book-layout left/right pages) without a per-section statistic.
+  // First non-blank line of the section is always a paragraph start.
   // N2: collapse the drop-cap whitespace gap on each line.
-  const bodyMargin = computeBodyMargin(kept)
-  const paragraphIndentThreshold = bodyMargin + 3
   const out: string[] = []
   let seenFirstContent = false
+  let lastNonBlankIndent = 0
   for (const [i, line] of kept.entries()) {
     const isBlank = line.trim() === ''
     let isParagraphStart = false
     if (!isBlank) {
+      const currentIndent = leadingWhitespaceWidth(line)
       if (!seenFirstContent) {
         isParagraphStart = true
         seenFirstContent = true
-      } else if (
-        leadingWhitespaceWidth(line) >= paragraphIndentThreshold &&
-        startsWithUppercaseAlpha(line)
-      ) {
+      } else if (currentIndent >= lastNonBlankIndent + 3 && startsWithUppercaseAlpha(line)) {
         isParagraphStart = true
       }
+      lastNonBlankIndent = currentIndent
     }
     if (isParagraphStart && i > 0) {
       const prev = out[out.length - 1] ?? ''
