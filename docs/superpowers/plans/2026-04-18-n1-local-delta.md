@@ -24,36 +24,58 @@ First-content-line bypass and uppercase-alpha guard both remain.
 ```typescript
 describe('normalize — N1 local-delta (Task 22)', () => {
   it('N9: two-body-margin section does not false-fire uppercase body lines', () => {
-    // Fixture modeled on Gratitude in Action, where left page uses 10-space
-    // body margin and right page uses 14-space body margin. Paragraph
-    // starts on the 14-space page are at 17 spaces. Uppercase-starting
-    // body lines at 14 (like "Bobbie," or "Book in the mail") must NOT
-    // fire as paragraph starts.
+    // Fixture modeled on Gratitude in Action (pages 208-209 / book pages
+    // 193-194). The book's justified layout uses 10-space body margin on
+    // odd pages and 14-space body margin on even pages. Paragraph starts
+    // on odd pages are at 13 spaces; on even pages at 17 spaces.
+    //
+    // When the section spans both page types, the older mode-based rule
+    // picks one margin (say 10) as `bodyMargin` and sets threshold = 13.
+    // Uppercase-starting body lines at 14 then exceed the threshold and
+    // false-fire as paragraph starts (observed: "I finally spoke to a
+    // woman,", "Bobbie, who said...", "Book in the mail..." all became
+    // standalone blocks).
+    //
+    // The fixture has 7 lines at 10 (odd-page body), 5 lines at 14 (even-
+    // page body, including two uppercase-starting lines), and 1 line at
+    // 17 (real even-page P-start). Mode = 10, threshold = 13. Under the
+    // OLD rule, lines 11 ("I finally...") and 12 ("Bobbie,...") at 14
+    // spaces with uppercase starts would fire as false P-starts.
+    //
+    // Under local-delta, lines 11 and 12 compare to their immediate
+    // predecessor (also 14-indent), so 14 < 14+3 → do not fire.
     const raw = [
-      '              Alcoholics Anonymous.',
-      '                 I decided to get in touch with them. I had much',
-      '              difficulty in reaching A.A. in New York, as A.A. wasn’t',
-      '              as well-known then. I finally spoke to a woman,',
-      '              Bobbie, who said words I hope I never forget: “I am',
-      '              an alcoholic. We have recovered.',
-      '                 I was very surprised when I got a copy of the Big',
-      '              Book in the mail the following day.',
+      '          later I came to understand that A.A.',
+      '          members were helping each other every day.',
+      '          That message finally reached me.',
+      '          I knew it could work for me too.',
+      '          I felt hope for the first time.',
+      '          Even so, I struggled with doubt.',
+      '          Every day was a battle with fear.',
+      '              was transformed. Alcohol suddenly made me into',
+      '              what I had always wanted to be.',
+      '              used it only at parties and meetings.',
+      '              I finally spoke to a woman, a kind woman,',
+      '              Bobbie, who said words I hope I never forget:',
+      '                 Alcohol became my everyday companion.',
     ].join('\n')
     const out = normalize(raw, { sectionTitle: 'Gratitude in Action' })
     const paragraphs = out.split(/\n\s*\n/).filter((p) => p.trim() !== '')
-    // Expected: 3 paragraphs
-    //   1. "Alcoholics Anonymous." (first content, bypass)
-    //   2. "I decided to get in touch ... recovered." (17-indent P-start,
-    //      subsequent 14-indent lines stay joined)
-    //   3. "I was very surprised ... following day." (17-indent P-start)
-    expect(paragraphs).toHaveLength(3)
-    expect(paragraphs[1]).toMatch(/I decided[\s\S]*Bobbie[\s\S]*recovered\./)
-    expect(paragraphs[2]).toMatch(/I was very surprised[\s\S]*Book in the mail/)
+    // Expected: exactly 2 paragraphs under local-delta.
+    //   1. Lines 1-12 as one flowing paragraph (no false-fires on
+    //      "I finally spoke..." or "Bobbie, who said..." at 14-indent).
+    //   2. Line 13 "Alcohol became my everyday companion." (17-indent
+    //      P-start).
+    expect(paragraphs).toHaveLength(2)
+    expect(paragraphs[0]).toMatch(
+      /later I came to understand[\s\S]*Bobbie, who said words I hope I never forget:/,
+    )
+    expect(paragraphs[1]).toMatch(/^\s*Alcohol became my everyday companion\.$/)
   })
 })
 ```
 
-- [ ] **1.2:** Run `npm run test -- tests/scripts/extract-en-book/normalize.test.ts`. Confirm N9 fails (it will currently split at the uppercase 14-indent lines "Bobbie," and "Book", producing 5+ paragraphs instead of 3). All other tests still pass.
+- [ ] **1.2:** Run `npm run test -- tests/scripts/extract-en-book/normalize.test.ts`. Confirm N9 fails under the current mode-based rule (mode=10, threshold=13, uppercase 14-indent lines "I finally spoke..." and "Bobbie, who said..." false-fire, producing 4 paragraphs instead of 2). All other tests still pass.
 
 - [ ] **1.3:** Write commit message to `.tmp/commit-msg.txt`:
 
