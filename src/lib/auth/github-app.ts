@@ -112,6 +112,12 @@ export async function completeAuth(code: string, stateFromUrl: string): Promise<
   return { ok: true }
 }
 
+export async function tryRefreshAccessToken(): Promise<string | null> {
+  const refreshed = await refreshAccessToken()
+  if (!refreshed) return null
+  return getAccessToken()
+}
+
 async function refreshAccessToken(): Promise<boolean> {
   const refreshToken = getRefreshToken()
   if (!refreshToken) {

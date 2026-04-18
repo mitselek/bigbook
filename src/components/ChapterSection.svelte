@@ -20,7 +20,8 @@
     type CurrentEtResult,
   } from '../lib/content/fetch'
   import { getAccessToken } from '../lib/auth/token-store'
-  import { signOut } from '../lib/auth/github-app'
+  import { signOut, tryRefreshAccessToken } from '../lib/auth/github-app'
+  import { commitEditWithRetry } from '../lib/editor/commit-with-retry'
   import { parse } from '../lib/content/parse'
   import { diffCurrentVsBaseline } from '../lib/content/diff'
   import { readerState } from '../lib/reader/store.svelte'
@@ -100,10 +101,7 @@
       return
     }
     if (!baselineResult.ok) {
-      status = 'error'
-      errorMessage = `Baseline ET fetch failed: ${baselineResult.error.message}`
-      readerState.chapterStates.set(slug, { status: 'error', message: errorMessage })
-      return
+      console.warn(`Baseline ET fetch failed for ${slug}:`, baselineResult.error.message)
     }
     if (!currentResult.ok) {
       status = 'error'
@@ -133,7 +131,19 @@
       }
 
       const enParsed = parse(enResult.value)
-      const baselineParsed = parse(baselineResult.value)
+
+      let baselineParsed: ReturnType<typeof parse>
+      if (!baselineResult.ok) {
+        baselineParsed = { frontmatter: { chapter: slug, title: '', lang: 'et' }, paragraphs: new Map() }
+      } else {
+        try {
+          baselineParsed = parse(baselineResult.value)
+        } catch (err) {
+          console.warn(`Baseline ET parse failed for ${slug}:`, err)
+          baselineParsed = { frontmatter: { chapter: slug, title: '', lang: 'et' }, paragraphs: new Map() }
+        }
+      }
+
       const currentParsed = parse(currentEtContent)
       const diverged = diffCurrentVsBaseline(currentParsed, baselineParsed)
 
@@ -157,7 +167,7 @@
       readerState.chapterStates.set(slug, {
         status: 'loaded',
         en: enResult.value,
-        baselineEt: baselineResult.value,
+        baselineEt: baselineResult.ok ? baselineResult.value : '',
         currentEt: currentEtContent,
         sha: currentSha,
         etag: currentEtag,
@@ -220,13 +230,19 @@
       return
     }
 
-    const result = await commitParagraphEdit({
+    const commitParams = {
       slug,
       paraId,
       newText,
       currentContent: state.currentEt,
       sha: state.sha,
-      token,
+    }
+
+    const result = await commitEditWithRetry({
+      ...commitParams,
+      getToken: getAccessToken,
+      commit: (tok) => commitParagraphEdit({ ...commitParams, token: tok }),
+      refresh: tryRefreshAccessToken,
     })
 
     if (result.ok) {
