@@ -86,14 +86,6 @@ else:
             prev_blank = False
 
     text = "\n".join(out) + "\n"
-
-    # Reclassify specific blocks (verse, blockquote, etc.)
-    post_file = here / "m_006_post.re"
-    if post_file.exists():
-        post_fixes = parse_re_file(post_file)
-        text, post_applied = apply_fixes(text, post_fixes)
-        applied += post_applied
-
     dst.write_text(text)
 
     from collections import Counter

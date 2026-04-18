@@ -2,6 +2,13 @@
 # Format: s/^PATTERN$/[[type]]\nMATCH/
 # \n in replacement = literal newline
 
+# === PRE-TAGGING FIXES ===
+# Verse page-break artifact: rejoin "Or by pot." and separate from next paragraph
+s/dieth by musket\n\nOr by pot./dieth by musket\nOr by pot./
+s/Or by pot.”\nOminous/Or by pot.”\n\nOminous/
+# Tag the Hampshire Grenadier verse
+s/^(\u201cHere lies a Hampshire Grenadier)/[[verse]]\n\1/
+
 # === HEADINGS (broad patterns) ===
 s/^(Chapter\s+\d+)$/[[heading]]\n\1/g
 s/^(Preface)$/[[heading]]\n\1/g
