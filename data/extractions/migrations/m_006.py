@@ -74,6 +74,9 @@ else:
             out.append('')
             prev_blank = True
         elif re.match(r'^\[\[.+\]\]$', line):
+            # Ensure blank line before tag
+            if out and not prev_blank:
+                out.append('')
             out.append(line)
             prev_blank = False
         else:

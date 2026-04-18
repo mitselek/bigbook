@@ -44,6 +44,7 @@ ISBN 1-893007-16-2
 
 [[paragraph]]
 Printed in the United States of America
+
 [[heading]]
 Preface
 
@@ -110,6 +111,7 @@ one of the forty-two personal stories and think: “Yes, that
 happened to me”; or, more important, “Yes, I’ve felt like that”; or,
 most important, “Yes, I believe this program can work for me
 too.”
+
 [[heading]]
 FOREWORD TO FIRST EDITION
 
@@ -162,6 +164,7 @@ Inquiry by scientific, medical, and religious societies will be welcomed.
 
 [[heading]]
 ALCOHOLICS ANONYMOUS
+
 [[heading]]
 FOREWORD TO SECOND EDITION
 
@@ -390,6 +393,7 @@ for the alcoholic himself, we surely have no monopoly. Yet
 it is our great hope that all those who have as yet found no
 answer may begin to find one in the pages of this book and
 will presently join us on the high road to a new freedom.
+
 [[heading]]
 FOREWORD TO THIRD EDITION
 
@@ -426,6 +430,7 @@ Fellowship, at its core it remains simple and personal. Each
 day, somewhere in the world, recovery begins when one
 alcoholic talks with another alcoholic, sharing experience,
 strength, and hope.
+
 [[heading]]
 FOREWORD TO FOURTH EDITION
 
@@ -474,6 +479,7 @@ A.A.’s share experience, strength, and hope with each
 other, in order to stay sober and help other alcoholics.
 Modem-to-modem or face-to-face, A.A.’s speak the
 language of the heart in all its power and simplicity.
+
 [[heading]]
 THE DOCTORS OPINION
 
@@ -796,8 +802,10 @@ pray.
 
 [[paragraph]]
 William D. Silkworth, M.D.
+
 [[heading]]
 Chapter 1
+
 [[heading]]
 BILL’S STORY
 
@@ -1319,8 +1327,10 @@ died January 24, 1971.
 
 [[paragraph]]
 *In 2006, A.A. is composed of over 106,000 groups.
+
 [[heading]]
 Chapter 2
+
 [[heading]]
 THERE IS A SOLUTION
 
@@ -1730,8 +1740,10 @@ pages, and we believe that it is only by fully disclos-
 ing ourselves and our problems that they will be
 persuaded to say, “Yes, I am one of them too; I must
 have this thing.”
+
 [[heading]]
 Chapter 3
+
 [[heading]]
 MORE ABOUT ALCOHOLISM
 
@@ -1892,6 +1904,7 @@ their own satisfaction, whether they are one of us?
 The experiment of quitting for a period of time will
 be helpful, but we think we can render an even greater
 service to alcoholic sufferers and perhaps to the medi-
+
 [[footnote]]
 * True when this book was first published. But a 2003 U.S./Canada membership sur-
 vey showed about one-fifth of A.A.’s were thirty and under.
@@ -2187,8 +2200,10 @@ effective mental defense against the first drink. Ex-
 cept in a few rare cases, neither he nor any other
 human being can provide such a defense. His defense
 must come from a Higher Power.
+
 [[heading]]
 Chapter 4
+
 [[heading]]
 WE AGNOSTICS
 
@@ -2318,6 +2333,7 @@ cept as surely true the many articles of faith which are
 so plain to him.’’ So it was comforting to learn that
 we could commence at a simpler level.
 Besides a seeming inability to accept much on faith,
+
 [[footnote]]
 * Please be sure to read Appendix II on “Spiritual Experience.”
 we often found ourselves handicapped by obstinacy,
@@ -2632,6 +2648,7 @@ grow into it more slowly. But He has come to all who
 have honestly sought Him.
 When we drew near to Him He disclosed Himself
 to us!
+
 [[heading]]
 Chapter 5
 
@@ -2674,41 +2691,53 @@ turning point. We asked His protection and care with
 complete abandon.
 Here are the steps we took, which are suggested as
 a program of recovery:
+
 [[list-item]]
 1. We admitted we were powerless over alcohol—
 that our lives had become unmanageable.
+
 [[list-item]]
 2. Came to believe that a Power greater than our-
 selves could restore us to sanity.
+
 [[list-item]]
 3. Made a decision to turn our will and our lives
 over to the care of God as we understood Him.
+
 [[list-item]]
 4. Made a searching and fearless moral inventory
 of ourselves.
+
 [[list-item]]
 5. Admitted to God, to ourselves, and to another
 human being the exact nature of our wrongs.
+
 [[list-item]]
 6. Were entirely ready to have God remove all
 these defects of character.
+
 [[list-item]]
 7. Humbly asked Him to remove our shortcomings.
+
 [[list-item]]
 8. Made a list of all persons we had harmed, and
 became willing to make amends to them all.
+
 [[list-item]]
 9. Made direct amends to such people wherever
 possible, except when to do so would injure
 them or others.
+
 [[list-item]]
 10. Continued to take personal inventory and when
 we were wrong promptly admitted it.
+
 [[list-item]]
 11. Sought through prayer and meditation to im-
 prove our conscious contact with God as we un-
 derstood Him, praying only for knowledge of
 His will for us and the power to carry that out.
+
 [[list-item]]
 12. Having had a spiritual awakening as the result
 of these steps, we tried to carry this message to
@@ -3081,9 +3110,12 @@ already made a decision, and an inventory of your
 grosser handicaps, you have made a good beginning.
 That being so you have swallowed and digested some
 big chunks of truth about yourself.
+
 [[heading]]
 Chapter 6
+
 [[heading]]
+
 [[heading]]
 INTO ACTION
 
@@ -3622,8 +3654,10 @@ discipline us in the simple way we have just outlined.
 But this is not all. There is action and more action.
 “Faith without works is dead.’’ The next chapter is
 entirely devoted to Step Twelve.
+
 [[heading]]
 Chapter 7
+
 [[heading]]
 WORKING WITH OTHERS
 
@@ -4104,8 +4138,10 @@ will not stand for it.
 After all, our problems were of our own making.
 Bottles were only a symbol. Besides, we have stopped
 fighting anybody or anything. We have to!
+
 [[heading]]
 Chapter 8
+
 [[heading]]
 TO WIVES*
 
@@ -4136,6 +4172,7 @@ We have traveled a rocky road, there is no mistake
 about that. We have had long rendezvous with hurt
 pride, frustration, self-pity, misunderstanding and fear.
 These are not pleasant companions. We have been
+
 [[footnote]]
 * Written in 1939, when there were few women in A.A., this chapter
 assumes that the alcoholic in the home is likely to be the husband. But
@@ -4692,8 +4729,10 @@ Alateen, for teen-aged children of alcoholics, is a part of Al-Anon.
 If there is no Al-Anon listing in your local telephone book, you may obtain further
 information on Al-Anon/Alateen Family Groups by writing to its World
 Service Office, 1600 Corporate Landing Parkway, Virginia Beach, VA 23454-5617.
+
 [[heading]]
 Chapter 9
+
 [[heading]]
 THE FAMILY AFTERWARD
 
@@ -5148,8 +5187,10 @@ Here they are:
 First Things First
 Live and Let Live
 Easy Does It.
+
 [[heading]]
 Chapter 10
+
 [[heading]]
 TO EMPLOYERS
 
@@ -5618,8 +5659,10 @@ straightened out.*
 [[footnote]]
 * See Appendix VI—We shall be happy to hear from you if we can
 be of help.
+
 [[heading]]
 Chapter 11
+
 [[heading]]
 A VISION FOR YOU
 
@@ -6015,6 +6058,7 @@ hand, at the same time avoiding certain alluring dis-
 tractions of the road, about which any traveling man
 can inform you.*
 Thus we grow. And so can you, though you be but
+
 [[footnote]]
 * Written in 1939. In 2003, there are over 103,000 groups. There is A.A. activity in
 approximately 150 countries, with an estimated membership of over two million.
@@ -6085,6 +6129,7 @@ May God bless you and keep you—until then.
 [[footnote]]
 * Alcoholics Anonymous will be glad to hear from you. Address P.O. Box 459,
 Grand Central Station, New York, NY 10163.
+
 [[heading]]
 DOCTOR BOB’S NIGHTMARE
 A co-founder of Alcoholics Anonymous. The birth
@@ -6412,13 +6457,17 @@ certain times.
 I spend a great deal of time passing on what I
 learned to others who want and need it badly. I do it
 for four reasons:
+
 [[list-item]]
 1. Sense of duty.
+
 [[list-item]]
 2. It is a pleasure.
+
 [[list-item]]
 3. Because in so doing I am paying my debt to the
 man who took time to pass it on to me.
+
 [[list-item]]
 4. Because every time I do it I take out a little more
 insurance for myself against a possible slip.
@@ -6445,10 +6494,13 @@ for you. It never fails, if you go about it with one half
 the zeal you have been in the habit of showing when
 you were getting another drink.
 Your Heavenly Father will never let you down!
+
 [[heading]]
 (1)
+
 [[heading]]
 ALCOHOLIC ANONYMOUS
+
 [[heading]]
 NUMBER THREE
 Pioneer member of Akron’s Group No. 1, the first
@@ -6502,6 +6554,7 @@ breakfast, slip a half pint of liquor in my hip pocket,
 and go on to school. Between classes I would run
 down to the washroom, take enough to steady my
 nerves, and then go on to the next class. This was in
+
 [[list-item]]
 1917.
 I left the university in the latter part of my senior
@@ -6804,8 +6857,10 @@ pose of sobriety, but it has been through A.A. that I
 have found God.”
 I feel that is about the most wonderful thing that a
 person can do.
+
 [[heading]]
 (2)
+
 [[heading]]
 GRATITUDE IN ACTION
 The story of Dave B., one of the founders of A.A. in
@@ -7027,8 +7082,10 @@ have all these wonderful things—people who mean
 more to me than anything in the world. I shall keep all
 that, and I won’t have to drink, if I remember one
 simple thing: to keep my hand in the hand of God.
+
 [[heading]]
 (3)
+
 [[heading]]
 WOMEN SUFFER TOO
 Despite great opportunities, alcohol nearly ended
@@ -7290,8 +7347,10 @@ again and earn my living is important but secondary.
 I believe that my once overweening self-will has finally
 found its proper place, for I can say many times daily,
 “Thy will be done, not mine” . . . and mean it.
+
 [[heading]]
 (4)
+
 [[heading]]
 OUR SOUTHERN FRIEND
 Pioneer A.A., minister’s son, and southern farmer,
@@ -7638,8 +7697,10 @@ honesty that is given us, our sense of honesty be-
 comes more acute.
 I learn that honesty is truth and that truth shall
 make us free!
+
 [[heading]]
 (5)
+
 [[heading]]
 THE VICIOUS CYCLE
 How it finally broke a Southerner’s obstinacy and
@@ -8005,6 +8066,7 @@ in our efforts to save all and sundry, but I was still
 actually on the fringes of A.A. While I went along
 with all that was done and attended the meetings, I
 never took an active job of leadership until February
+
 [[list-item]]
 1940. Then I got a very good position in Philadelphia
 and quickly found I would need a few fellow alco-
@@ -8051,8 +8113,10 @@ And I still say that as long as I remember that Janu-
 ary 8 in Washington, that is how long, by the grace of
 God as I understand Him, I will retain a happy
 sobriety.
+
 [[heading]]
 (6)
+
 [[heading]]
 JIM’S STORY
 This physician, one of the earliest members of A.A.’s
@@ -8497,8 +8561,10 @@ give it to everyone who had a problem. We didn’t
 save the world, but we did manage to help some in-
 dividuals.
 That’s my story of what A.A. has done for me.
+
 [[heading]]
 (7)
+
 [[heading]]
 THE MAN WHO MASTERED FEAR
 He spent eighteen years in running away, and then
@@ -8896,8 +8962,10 @@ do feel, though, that the fact that I finally grew up to
 a point where I could even tackle such a job is the
 apex of the story of a man who spent eighteen years
 running away from life.
+
 [[heading]]
 (8)
+
 [[heading]]
 HE SOLD HIMSELF SHORT
 But he found there was a Higher Power that had
@@ -9065,16 +9133,22 @@ it was Dr. Bob’s afternoon off—he had me to the
 office and we spent three or four hours formally
 going through the Six-Step program as it was at that
 time. The six steps were:
+
 [[list-item]]
 1. Complete deflation.
+
 [[list-item]]
 2. Dependence and guidance from a Higher Power.
+
 [[list-item]]
 3. Moral inventory.
+
 [[list-item]]
 4. Confession.
+
 [[list-item]]
 5. Restitution.
+
 [[list-item]]
 6. Continued work with other alcoholics.
 Dr. Bob led me through all of these steps. At the
@@ -9216,8 +9290,10 @@ from the alcoholic scrap heap to a position of trust,
 where I have been able to reap the rich rewards that
 come from showing a little love for others and from
 serving them as I can.
+
 [[heading]]
 (9)
+
 [[heading]]
 THE KEYS OF THE KINGDOM
 This worldly lady helped to develop A.A. in Chicago
@@ -9505,8 +9581,10 @@ Now there is a sense of belonging, of being wanted
 and needed and loved. In return for a bottle and a
 hangover, we have been given the Keys of the
 Kingdom.
+
 [[heading]]
 (1)
+
 [[heading]]
 THE MISSING LINK
 He looked at everything as the cause of his unhap-
@@ -9763,8 +9841,10 @@ I’m living out the life I used to fantasize about, and I
 have a whole lot of work still in front of me. I have
 hope to share and love to give, and I just keep going
 one day at a time, living this adventure called life.
+
 [[heading]]
 (2)
+
 [[heading]]
 FEAR OF FEAR
 This lady was cautious. She decided she wouldn’t
@@ -9956,10 +10036,13 @@ had the capability, but I never did a thing.
 I am trying now, each day, to make up for all those
 selfish, thoughtless, foolish things I did in my drinking
 days. I hope that I never forget to be grateful.
+
 [[heading]]
 (3)
+
 [[heading]]
 THE HOUSEWIFE WHO DRANK
+
 [[heading]]
 AT HOME
 She hid her bottles in clothes hampers and dresser
@@ -10153,8 +10236,10 @@ I had been brought up to believe in God, but I
 know that until I found this A.A. program, I had never
 found or known faith in the reality of God, the reality
 of His power that is now with me in everything I do.
+
 [[heading]]
 (4)
+
 [[heading]]
 PHYSICIAN, HEAL THYSELF!
 Psychiatrist and surgeon, he had lost his way until
@@ -10220,6 +10305,7 @@ between the eyes. After my wife had read this to me,
 I said to her, as I had said many times in desperation,
 “I have got to do something.” She’s a good-natured
 soul and said, “I wouldn’t worry about it; probably
+
 [[heading]]
 PHYSICIAN, HEAL THYSELF!              303
 something will happen.” And then we went up the
@@ -10288,6 +10374,7 @@ you. You’ve been sober for three months, been work-
 ing hard. You’ve been doing all right.” But then he
 said, “Let me say something to you. We have here in
 this community an organization that helps people, and
+
 [[heading]]
 PHYSICIAN, HEAL THYSELF!              305
 this organization is known as Alcoholics Anonymous.
@@ -10356,6 +10443,7 @@ there the only thing I could do would be to give her
 moral support, and yet he thanks me for curing his
 wife. I thought to myself—What is curing that
 woman? Yes, I put in those stitches. The Great Boss
+
 [[heading]]
 PHYSICIAN, HEAL THYSELF!             307
 has given me diagnostic and surgical talent, and He
@@ -10416,8 +10504,10 @@ I suppose the psychiatrist might say, “This is benevo-
 lent interpersonal relations.” I suppose others would
 say, “This is group psychotherapy.”
 To me it is God.
+
 [[heading]]
 (5)
+
 [[heading]]
 MY CHANCE TO LIVE
 A.A. gave this teenager the tools to climb out of her
@@ -10737,8 +10827,10 @@ could a broken-down drunk ask for? Lord knows it is
 more than I ever thought possible, and ever so much
 more than I deserved. All because I was willing to be-
 lieve A.A. just might work for me too.
+
 [[heading]]
 (6)
+
 [[heading]]
 STUDENT OF LIFE
 Living at home with her parents, she tried using
@@ -11033,8 +11125,10 @@ ful that my Higher Power stepped in to show me the
 way to the truth. I pray every day that I never turn my
 back on it. I came to A.A. in order to stop drinking;
 what I received in return was my life.
+
 [[heading]]
 (7)
+
 [[heading]]
 CROSSING THE RIVER OF DENIAL
 She finally realized that when she enjoyed her
@@ -11353,8 +11447,10 @@ willingness each day. I don’t know which of these
 keeps me sober, and I’m not about to try to find out.
 It’s worked for quite a few days now, so I think I’ll try
 it again tomorrow.
+
 [[heading]]
 (8)
+
 [[heading]]
 BECAUSE I’M AN ALCOHOLIC
 This drinker finally found the answer to her nag-
@@ -11670,8 +11766,10 @@ them. But the basic ways we are human, the basic
 ways we simply are, stand out to me now. I came to
 see that we all are really one, and I no longer feel
 alone.
+
 [[heading]]
 (9)
+
 [[heading]]
 IT MIGHT HAVE BEEN WORSE
 Alcohol was a looming cloud in this banker’s bright
@@ -12018,8 +12116,10 @@ Above all, I am grateful to A.A. for my sobriety,
 which means so much to my family, friends, and busi-
 ness associates, because God and A.A. were able to do
 for me something I was unable to do for myself.
+
 [[heading]]
 (10)
+
 [[heading]]
 TIGHTROPE
 Trying to navigate separate worlds was a lonely
@@ -12336,8 +12436,10 @@ portant, I have returned to my home group and am
 still asked to make coffee. I now have an extended
 family that is international in scope, all the members
 of which are joined by bonds of shared pain and joy.
+
 [[heading]]
 (11)
+
 [[heading]]
 FLOODED WITH FEELING
 When a barrier to God collapsed, this self-described
@@ -12520,8 +12622,10 @@ morning feeling sentenced to another day of life.
 When I wake up today, there are lots of possibilities. I can
 hardly wait to see what’s going to happen next.
 I keep coming back because it works.
+
 [[heading]]
 (12)
+
 [[heading]]
 WINNER TAKES ALL
 Legally blind but no longer alone, she found a way
@@ -12751,8 +12855,10 @@ some of the things that happen in my life, but with the
 help of God I can now choose how I will respond.
 Today I choose to be happy, and when I’m not, I have
 the tools of this program to put me back on track.
+
 [[heading]]
 (13)
+
 [[heading]]
 ME AN ALCOHOLIC?
 Alcohol’s wringer squeezed this author—but he
@@ -12950,8 +13056,10 @@ level than it ever was before, and I am today a fairly
 creative, relatively sane human being. And should I
 have more bad times, I know that I’ll never again have
 to go through them alone.
+
 [[heading]]
 (14)
+
 [[heading]]
 THE PERPETUAL QUEST
 This lawyer tried psychiatrists, biofeedback, relax-
@@ -13279,8 +13387,10 @@ Anonymous. We have a nice home and sober family
 life in a community with lots of A.A. friends and meet-
 ings. It’s a long, long way from that first A.A. meeting,
 and it couldn’t get much better.
+
 [[heading]]
 (15)
+
 [[heading]]
 A DRUNK, LIKE YOU
 The more he listened at meetings, the more he came
@@ -13579,8 +13689,10 @@ My marriage is no longer on the brink and is better
 than ever. And the best is yet to come. All this and
 more I owe to the Fellowship in the rooms and the
 program in the book.
+
 [[heading]]
 (16)
+
 [[heading]]
 ACCEPTANCE WAS THE ANSWER
 The physician wasn’t hooked, he thought—he just
@@ -14038,8 +14150,10 @@ ceptance and off my expectations, for my serenity is
 directly proportional to my level of acceptance. When
 I remember this, I can see I’ve never had it so good.
 Thank God for A.A.!
+
 [[heading]]
 (17)
+
 [[heading]]
 WINDOW OF OPPORTUNITY
 This young alcoholic stepped out a second-story
@@ -14388,6 +14502,7 @@ good place. They took my daddy and they made him
 better.” That is exactly what A.A. did for me; it took
 me and it made me better. For that I am eternally
 grateful.
+
 [[heading]]
 (1)
 MY BOTTLE, MY RESENTMENTS,
@@ -14454,6 +14569,7 @@ place to steal beer and be a big guy with the other kids
 in school. That’s the way my drinking began, as a way
 to make the pain go away.
 After several years of semidelinquent adolescence, I
+
 [[heading]]
 MY BOTTLE, MY RESENTMENTS, AND ME          439
 was old enough to join the marines. Leaving behind
@@ -14521,6 +14637,7 @@ Wyoming, and off we’d go. But by the time we would
 finally get there, they would say they were not hiring
 anymore. That was all right, because we didn’t want to
 work anyway.
+
 [[heading]]
 MY BOTTLE, MY RESENTMENTS, AND ME           441
 One scorching day, when I was in a desert town
@@ -14589,6 +14706,7 @@ it just did. It was a miracle! Every day we were able to
 stay sober was another gift from a Higher Power I had
 given up on many long years before.
 The next year we took a job managing a camp out-
+
 [[heading]]
 MY BOTTLE, MY RESENTMENTS, AND ME         443
 side of town where drunks were sent to get dried out
@@ -14657,6 +14775,7 @@ pened to subscribe to this magazine and just hap-
 pened to read the article. Thus began an amazing
 chain of events that has altered not only our lives,
 but the lives of my family and many others. It is noth-
+
 [[heading]]
 MY BOTTLE, MY RESENTMENTS, AND ME           445
 ing short of a modern-day miracle. God has done for
@@ -14692,8 +14811,10 @@ gled circumstances and allow me to make amends to
 the people who had been hurt by my bitterness.
 I believe that I am living proof of the A.A. saying
 “Don’t give up until the miracle happens.”
+
 [[heading]]
 (2)
+
 [[heading]]
 HE LIVED ONLY TO DRINK
 “I had been preached to, analyzed, cursed, and
@@ -14884,8 +15005,10 @@ from the pain and degradation of drinking and filled
 with the joy of useful, sober living, and a privilege to
 grow in sobriety one day at a time and bring the mes-
 sage of hope as it was brought to me.
+
 [[heading]]
 (3)
+
 [[heading]]
 SAFE HAVEN
 This A.A. found that the process of discovering who
@@ -15078,8 +15201,10 @@ important to me and my own sobriety today.
 From experience, I’ve realized that I cannot go
 back and make a brand-new start. But through A.A., I
 can start from now and make a brand-new end.
+
 [[heading]]
 (4)
+
 [[heading]]
 LISTENING TO THE WIND
 It took an “angel” to introduce this Native
@@ -15458,8 +15583,10 @@ and I listen to the wind. I have a conscious daily con-
 tact with my Creator today, and He loves me.
 Everything is sacred as a result of the Twelve Steps
 and the love and recovery in Alcoholics Anonymous.
+
 [[heading]]
 (5)
+
 [[heading]]
 TWICE GIFTED
 Diagnosed with cirrhosis, this sick alcoholic got
@@ -15657,8 +15784,10 @@ this precious life.
 Today my life is filled with miracles big and small,
 not one of which would ever have come to pass had I
 not found the door of Alcoholics Anonymous.
+
 [[heading]]
 (6)
+
 [[heading]]
 BUILDING A NEW LIFE
 Hallucinating and restrained by sheriff’s deputies
@@ -15987,6 +16116,7 @@ A.A. and in sobriety. I don’t think about drinking. God
 is there. My sponsor is there. All the credit belongs
 to God. On my own I could not have quit. I know, I
 tried it.
+
 [[heading]]
 (7)
 
@@ -16248,8 +16378,10 @@ for me to use in all aspects of my life, and all I ever
 need is the willingness to do what is in front of me. I
 am grateful that a drunk like me was fortunate enough
 to live until I arrived in Alcoholics Anonymous.
+
 [[heading]]
 (8)
+
 [[heading]]
 A VISION OF RECOVERY
 A feeble prayer forged a lasting connection with a
@@ -16459,8 +16591,10 @@ ers. I understand the word compassion, and I feel it. I
 am working on Step Eight at the present time, and I
 just know that more happiness is to come into my life
 as I “trudge the Road of Happy Destiny.”
+
 [[heading]]
 (9)
+
 [[heading]]
 GUTTER BRAVADO
 Alone and unemployable, he was given two options
@@ -16806,8 +16940,10 @@ words of the Twelve Steps: continue, improve, and
 practice.
 Oh, and one more thing they told me: Humility is
 the key.
+
 [[heading]]
 (10)
+
 [[heading]]
 EMPTY ON THE INSIDE
 She grew up around A.A. and had all the
@@ -17132,6 +17268,7 @@ good marriages and doing what they do. I learned how
 to be a parent by watching good parents and doing
 what they do. And I finally have the freedom of be-
 lieving that it is all right not to know.
+
 [[heading]]
 (11)
 
@@ -17411,8 +17548,10 @@ youngster growing up. Adversity truly introduces us to
 ourselves. But we need never deal with our adversities
 alone as long as we can find another alcoholic in a
 meeting of Alcoholics Anonymous.
+
 [[heading]]
 (12)
+
 [[heading]]
 ANOTHER CHANCE
 Poor, black, totally ruled by alcohol, she felt shut
@@ -17539,8 +17678,10 @@ didn’t look in the mirror, I wouldn’t know that I was
 black, because these people treat me as one of them,
 which I am. We all have the same sickness, and in
 helping one another, we are able to stay sober.
+
 [[heading]]
 (13)
+
 [[heading]]
 A LATE START
 “It’s been ten years since I retired, seven years since
@@ -17834,8 +17975,10 @@ shame and regret, free to learn and grow and work. I
 have left that lonely, frightening, painful express train
 through hell. I have accepted the gift of a safer, hap-
 pier journey through life.
+
 [[heading]]
 (14)
+
 [[heading]]
 FREEDOM FROM BONDAGE
 Young when she joined, this A.A. believes her seri-
@@ -18130,8 +18273,10 @@ erything I need in Alcoholics Anonymous—and every-
 thing I need I get. And when I get what I need, I
 invariably find that it was just what I wanted all the
 time.
+
 [[heading]]
 (15)
+
 [[heading]]
 A.A. TAUGHT HIM TO HANDLE
 SOBRIETY
@@ -18362,6 +18507,7 @@ A.A. led me gently from this fantasizing to embrace
 reality with open arms. And I found it beautiful! For,
 at last, I was at peace with myself. And with others.
 And with God.
+
 [[heading]]
 APPENDICES
 
@@ -18719,6 +18865,7 @@ Illness.”)
 
 [[paragraph]]
 _________
+
 [[footnote]]
 * 1944
 IV
@@ -18778,6 +18925,7 @@ movement that cannot be duplicated. I suspect that if it is
 wisely handled—and it seems to be in wise and prudent
 hands—there are doors of opportunity ahead of this project
 that may surpass our capacities to imagine.”_____
+
 [[footnote]]
 * Father Ed, an early and wonderful friend of A.A., died in the
 spring of 1960.
