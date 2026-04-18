@@ -9,7 +9,7 @@ export function extractPages(pdfPath: string, pageStart: number, pageEnd: number
   const result = spawnSync(
     'pdftotext',
     ['-layout', '-f', String(pageStart), '-l', String(pageEnd), pdfPath, '-'],
-    { encoding: 'utf8' },
+    { encoding: 'utf8', maxBuffer: 100 * 1024 * 1024 },
   )
   if (result.status !== 0) {
     throw new Error(
