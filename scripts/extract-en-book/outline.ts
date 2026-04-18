@@ -90,6 +90,14 @@ export function parseOutlineText(raw: string): OutlineNode[] {
   return nodes
 }
 
-export function fetchOutline(_reader: () => string): OutlineNode[] {
-  throw new Error('not implemented')
+export function fetchOutline(reader: () => string): OutlineNode[] {
+  const raw = reader()
+  const nodes = parseOutlineText(raw)
+  if (nodes.length === 0) {
+    throw new Error(
+      'mutool outline empty or unparseable. Run `mutool show legacy/assets/AA-BigBook-4th-Edition.pdf outline` ' +
+        'to inspect; confirm mutool is installed and the PDF is not corrupted.',
+    )
+  }
+  return nodes
 }
