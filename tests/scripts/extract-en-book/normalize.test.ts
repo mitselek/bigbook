@@ -31,3 +31,30 @@ describe('normalize', () => {
     expect(out).toContain('real content here')
   })
 })
+
+describe('normalize — hyphen rejoin', () => {
+  it('rejoins a word broken across lines', () => {
+    const input = 'suc-\ncessful in his'
+    const out = normalize(input, { sectionTitle: 'Any' })
+    expect(out).toContain('successful in his')
+    expect(out).not.toContain('suc-')
+  })
+
+  it('preserves intentional hyphen compounds', () => {
+    const input = 'self-reliance and contentment'
+    const out = normalize(input, { sectionTitle: 'Any' })
+    expect(out).toContain('self-reliance')
+  })
+
+  it('rejoins across stripped page-break artifacts', () => {
+    const input = [
+      'suc-',
+      'Alco_1893007162_6p_01_r5.qxd 4/4/03 11:17 AM Page 155',
+      '',
+      '              155             ALCOHOLICS ANONYMOUS',
+      'cessful in his enterprise',
+    ].join('\n')
+    const out = normalize(input, { sectionTitle: 'A Vision For You' })
+    expect(out).toContain('successful in his enterprise')
+  })
+})
