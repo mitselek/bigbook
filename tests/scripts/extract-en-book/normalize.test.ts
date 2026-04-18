@@ -82,3 +82,52 @@ describe('normalize — paragraph rejoin across page breaks', () => {
     expect(paragraphs).toHaveLength(2)
   })
 })
+
+describe('normalize — indent-as-paragraph-break (N1)', () => {
+  it('treats a line with leading indent as the start of a new paragraph', () => {
+    const input = [
+      'paragraph one ends here.',
+      '   We begin paragraph two here',
+      'with a continuation line.',
+      '   paragraph three here',
+    ].join('\n')
+    const out = normalize(input, { sectionTitle: 'Any' })
+    const paragraphs = out.split(/\n\s*\n/).filter((p) => p.trim().length > 0)
+    expect(paragraphs).toHaveLength(3)
+  })
+})
+
+describe('normalize — drop-cap artifact (N2)', () => {
+  it('collapses the whitespace gap between a drop-cap capital and its continuation', () => {
+    const input = 'W         ar fever ran high, and the state called me.'
+    const out = normalize(input, { sectionTitle: "Bill's Story" })
+    expect(out.replace(/\n/g, '')).not.toMatch(/\s{2,}/)
+    expect(out).toContain('War fever')
+  })
+})
+
+describe('normalize — reversed running title (N3)', () => {
+  it('strips a title-first-then-page-number running header line', () => {
+    const input = [
+      '              THERE IS A SOLUTION                 19',
+      'tions we have found most effective...',
+    ].join('\n')
+    const out = normalize(input, { sectionTitle: 'There is a Solution' })
+    expect(out).not.toContain('THERE IS A SOLUTION')
+    expect(out).not.toMatch(/\b19\b/)
+    expect(out).toContain('tions we have found most effective')
+  })
+})
+
+describe('normalize — preserve section-title heading line (N4)', () => {
+  it('keeps the section title when it appears as a standalone heading line', () => {
+    const input = [
+      'WOMEN SUFFER TOO',
+      '',
+      '(3) Despite great opportunities, alcohol nearly ended her life.',
+    ].join('\n')
+    const out = normalize(input, { sectionTitle: 'Women Suffer Too' })
+    expect(out).toContain('WOMEN SUFFER TOO')
+    expect(out).toContain('(3) Despite great opportunities')
+  })
+})

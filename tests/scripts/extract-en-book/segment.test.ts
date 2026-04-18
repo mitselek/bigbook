@@ -113,3 +113,69 @@ describe('segmentBlocks — block-kind detection', () => {
     expect(blocks[0]).toMatchObject({ kind: 'footnote' })
   })
 })
+
+describe('segmentBlocks — chapter-title bleed regression guard (S1)', () => {
+  it('emits chapter-label and body as separate blocks when a blank separates them', () => {
+    const input = ['Chapter 4', '', 'In the preceding chapters you have learned...'].join('\n')
+    const blocks = segmentBlocks(input, {
+      sectionTitle: 'We Agnostics',
+      sectionId: 'ch04-we-agnostics',
+      pdfPageStart: 44,
+    })
+    expect(blocks.length).toBeGreaterThanOrEqual(2)
+    expect(blocks[0]?.text).toBe('Chapter 4')
+    expect(blocks[1]?.text).toMatch(/^In the preceding chapters/)
+  })
+})
+
+describe('segmentBlocks — story subtitle merge split (S2)', () => {
+  it('splits a title-line + subtitle continuation group into heading + paragraph', () => {
+    const input = [
+      'WOMEN SUFFER TOO',
+      '(3) Despite great opportunities, alcohol nearly ended her life.',
+      'She shared her experience at length with other members...',
+    ].join('\n')
+    const blocks = segmentBlocks(input, {
+      sectionTitle: 'Women Suffer Too',
+      sectionId: 'story-women-suffer-too',
+      pdfPageStart: 200,
+    })
+    expect(blocks[0]).toMatchObject({ kind: 'heading', text: 'WOMEN SUFFER TOO' })
+    expect(blocks[1]?.kind).toBe('paragraph')
+    expect(blocks[1]?.text).toMatch(/^\(3\) Despite/)
+  })
+})
+
+describe('segmentBlocks — appendix roman-only heading split (S3)', () => {
+  it('merges a roman-numeral group and the following title group into one heading block', () => {
+    const input = [
+      'V',
+      '',
+      'THE RELIGIOUS VIEW ON A.A.',
+      '',
+      'Clergymen of practically every denomination have been gracious enough...',
+    ].join('\n')
+    const blocks = segmentBlocks(input, {
+      sectionTitle: 'V The Religious View on A.A.',
+      sectionId: 'appendix-v-the-religious-view-on-aa',
+      pdfPageStart: 570,
+    })
+    expect(blocks[0]?.kind).toBe('heading')
+    expect(blocks[0]?.text).toMatch(/THE RELIGIOUS VIEW ON A\.A\./)
+    const bodyBlocks = blocks.slice(1)
+    expect(bodyBlocks).toHaveLength(1)
+    expect(bodyBlocks[0]?.text).toContain('Clergymen of practically every denomination')
+  })
+})
+
+describe('segmentBlocks — footnote without trailing space (S4)', () => {
+  it('detects a footnote when the asterisk is directly followed by text (no space)', () => {
+    const input = '*In 2006, A.A. is composed of over 106,000 groups.'
+    const blocks = segmentBlocks(input, {
+      sectionTitle: 'Bill\u2019s Story',
+      sectionId: 'ch01-bills-story',
+      pdfPageStart: 5,
+    })
+    expect(blocks[0]?.kind).toBe('footnote')
+  })
+})
