@@ -1,104 +1,117 @@
 #!/usr/bin/env python3
 """m_005: Rejoin hyphenated words split across lines.
 
-Step 1: Scan for lines ending with hyphen, generate m_005_candidates.txt
-Step 2: Read m_005_fixes.txt (explicit fixes), apply to produce m_005.txt
+All lines ending with a trailing hyphen get joined with the first word
+of the next non-blank line, UNLESS the resulting compound word matches
+a pattern in m_005_keep.txt (real hyphenated compounds to preserve).
 
-Fixes format: LINE_NUM<tab>join|keep
-  join = remove hyphen and merge with next line's first word
-  keep = leave as-is (real hyphenated word)
+m_005_keep.txt format: one word per line, lowercase, e.g.:
+  self-pity
+  so-called
+  well-to-do
 """
+import re
 from pathlib import Path
 
 here = Path(__file__).parent
 src = here / "m_004.txt"
 dst = here / "m_005.txt"
-candidates_file = here / "m_005_candidates.txt"
-fixes_file = here / "m_005_fixes.txt"
+keep_file = here / "m_005_keep.txt"
+log_file = here / "m_005_log.txt"
 
 lines = src.read_text().splitlines()
 
-if not fixes_file.exists():
-    # Step 1: generate candidates
-    with open(candidates_file, 'w') as f:
-        f.write("# m_005 hyphenation candidates\n")
-        f.write("# LINE_NUM<tab>WORD-<tab>CONTINUATION<tab>JOINED_RESULT\n")
-        f.write("# Copy to m_005_fixes.txt with: LINE_NUM<tab>join or LINE_NUM<tab>keep\n")
-        f.write("#\n")
-        for i, line in enumerate(lines):
-            s = line.rstrip()
-            if s.endswith('-') and i + 1 < len(lines):
-                word_before = s.split()[-1] if s.split() else '-'
-                # Find continuation: skip blank lines
-                j = i + 1
-                while j < len(lines) and not lines[j].strip():
-                    j += 1
-                if j < len(lines):
-                    word_after = lines[j].strip().split()[0] if lines[j].strip() else '???'
-                    joined = word_before[:-1] + word_after
-                    f.write(f"{i}\t{word_before}\t{word_after}\t{joined}\n")
-                else:
-                    f.write(f"{i}\t{word_before}\t???\t???\n")
-    print(f"Candidates written to {candidates_file.name}")
-    print(f"Create {fixes_file.name} with: LINE_NUM\\tjoin or LINE_NUM\\tkeep")
-else:
-    # Step 2: apply fixes
-    fixes = {}
-    for fix_line in fixes_file.read_text().splitlines():
-        fix_line = fix_line.strip()
-        if not fix_line or fix_line.startswith('#'):
-            continue
-        parts = fix_line.split('\t')
-        if len(parts) >= 2:
-            fixes[int(parts[0])] = parts[1]
+# Load keep patterns
+keep_words = set()
+if keep_file.exists():
+    for l in keep_file.read_text().splitlines():
+        l = l.strip()
+        if l and not l.startswith('#'):
+            keep_words.add(l.lower())
 
-    # For each join, find which line provides the continuation word
-    # and record what word to steal from it
-    steal_word_from = {}  # line_index -> True (steal first word)
-    for i in sorted(fixes):
-        if fixes[i] != 'join':
+def is_keep(word_with_hyphen, continuation):
+    """Check if word-continuation is a real compound to keep."""
+    # word_with_hyphen ends with '-', continuation is next word
+    stem = word_with_hyphen[:-1]  # remove trailing hyphen
+    cont = re.sub(r'[.,;:!?"''\'"]+$', '', continuation)
+    # Build the full compound
+    compound = (stem + '-' + cont).lower()
+    # Check against keep list — also check last hyphen segment
+    # for multi-segment words like "self-centered-ness"
+    if compound in keep_words:
+        return True
+    # Check sub-compounds: e.g. for "self-centered-ness",
+    # check "centered-ness" too
+    parts = compound.split('-')
+    for i in range(len(parts) - 1):
+        sub = '-'.join(parts[i:])
+        if sub in keep_words:
+            return True
+    return False
+
+# Process
+out = []
+log = []
+joined = 0
+kept = 0
+steal_first_word_from = set()
+
+# First pass: identify which lines donate their first word
+for i, line in enumerate(lines):
+    s = line.rstrip()
+    if not s.endswith('-'):
+        continue
+    word = s.split()[-1] if s.split() else ''
+    # Find next non-blank line
+    j = i + 1
+    while j < len(lines) and not lines[j].strip():
+        j += 1
+    if j >= len(lines):
+        continue
+    cont = lines[j].strip().split()[0] if lines[j].strip() else ''
+    if not cont:
+        continue
+    if is_keep(word, cont):
+        kept += 1
+        log.append(f"KEEP\t{word}\t{cont}\t{word[:-1]}-{cont}")
+    else:
+        steal_first_word_from.add(j)
+
+# Second pass: build output
+i = 0
+while i < len(lines):
+    s = lines[i].rstrip()
+
+    # If first word was stolen, work with remainder
+    if i in steal_first_word_from:
+        parts = s.split(None, 1)
+        if len(parts) > 1:
+            s = parts[1]
+        else:
+            i += 1
             continue
+
+    # If this line ends with hyphen and is a join candidate
+    if s.endswith('-') and s.split():
+        word = s.split()[-1]
         j = i + 1
         while j < len(lines) and not lines[j].strip():
             j += 1
-        if j < len(lines):
-            steal_word_from[j] = True
+        if j < len(lines) and lines[j].strip():
+            cont = lines[j].strip().split()[0]
+            if not is_keep(word, cont):
+                # Join: remove hyphen, append continuation word
+                s = s[:-1] + cont
+                joined += 1
+                log.append(f"JOIN\t{word}\t{cont}\t{s.split()[-1]}")
 
-    out = []
-    applied = 0
-    i = 0
-    while i < len(lines):
-        s = lines[i].rstrip()
+    out.append(s)
+    i += 1
 
-        if i in fixes and fixes[i] == 'join':
-            # Remove trailing hyphen
-            current = s[:-1]
-            # Find next non-blank line
-            j = i + 1
-            while j < len(lines) and not lines[j].strip():
-                j += 1
-            if j < len(lines):
-                next_words = lines[j].strip().split(None, 1)
-                current += next_words[0]
-                applied += 1
-            out.append(current)
-            i += 1
-        elif i in steal_word_from:
-            # First word was stolen by previous join
-            parts = s.split(None, 1)
-            if len(parts) > 1:
-                remainder = parts[1]
-                # This remainder might itself end with - and need joining
-                if i in fixes and fixes[i] == 'join':
-                    # handled above (shouldn't reach here)
-                    out.append(remainder)
-                else:
-                    out.append(remainder)
-            # else: line was just one word, consumed entirely — skip
-            i += 1
-        else:
-            out.append(s)
-            i += 1
+with open(log_file, 'w') as f:
+    f.write(f"# m_005: {joined} joined, {kept} kept\n")
+    for entry in log:
+        f.write(entry + "\n")
 
-    dst.write_text("\n".join(out) + "\n")
-    print(f"m_005: {applied}/{sum(1 for v in fixes.values() if v == 'join')} joins applied")
+dst.write_text("\n".join(out) + "\n")
+print(f"m_005: {joined} joined, {kept} kept")
