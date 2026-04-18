@@ -20,7 +20,36 @@ const PAGE_ARTIFACTS = [
   TITLE_AND_PAGE,
 ]
 const DROP_CAP = /^([A-Z])\s{2,}([a-z])/
-const INDENT_START = /^\s{3,}\S/
+
+function leadingWhitespaceWidth(line: string): number {
+  const match = line.match(/^\s*/)
+  return match ? match[0].length : 0
+}
+
+function computeBodyMargin(lines: string[]): number {
+  const widths = lines.filter((l) => l.trim() !== '').map(leadingWhitespaceWidth)
+  if (widths.length === 0) return 0
+  const counts = new Map<number, number>()
+  for (const w of widths) counts.set(w, (counts.get(w) ?? 0) + 1)
+  let mode = 0
+  let max = 0
+  for (const [w, c] of counts) {
+    if (c > max) {
+      max = c
+      mode = w
+    }
+  }
+  return mode
+}
+
+function startsWithUppercaseAlpha(line: string): boolean {
+  const stripped = line.replace(
+    /^[\s\d.,;:!?()[\]{}'"\u2018\u2019\u201c\u201d\u2013\u2014`*-]+/,
+    '',
+  )
+  const first = stripped.charAt(0)
+  return first >= 'A' && first <= 'Z'
+}
 
 export function normalize(raw: string, _ctx: NormalizeContext): string {
   const lines = raw.split('\n')
@@ -42,12 +71,30 @@ export function normalize(raw: string, _ctx: NormalizeContext): string {
 
   const kept = lines.filter((_, i) => !strip[i])
 
-  // N1: insert a blank line before any line that begins with 3+ spaces.
-  // Layout-mode output uses leading indent to mark a new paragraph start.
+  // N1 (calibrated): per-section body-margin detection + uppercase guard.
+  // A line is a paragraph start iff its indent exceeds the section's
+  // body-margin by 3+ AND its first alphabetic char is uppercase. The
+  // first non-blank line of the section is always a paragraph start.
   // N2: collapse the drop-cap whitespace gap on each line.
+  const bodyMargin = computeBodyMargin(kept)
+  const paragraphIndentThreshold = bodyMargin + 3
   const out: string[] = []
+  let seenFirstContent = false
   for (const [i, line] of kept.entries()) {
-    if (i > 0 && INDENT_START.test(line)) {
+    const isBlank = line.trim() === ''
+    let isParagraphStart = false
+    if (!isBlank) {
+      if (!seenFirstContent) {
+        isParagraphStart = true
+        seenFirstContent = true
+      } else if (
+        leadingWhitespaceWidth(line) >= paragraphIndentThreshold &&
+        startsWithUppercaseAlpha(line)
+      ) {
+        isParagraphStart = true
+      }
+    }
+    if (isParagraphStart && i > 0) {
       const prev = out[out.length - 1] ?? ''
       if (prev.trim() !== '') out.push('')
     }

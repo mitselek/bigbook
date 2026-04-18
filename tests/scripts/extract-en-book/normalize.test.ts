@@ -89,7 +89,7 @@ describe('normalize — indent-as-paragraph-break (N1)', () => {
       'paragraph one ends here.',
       '   We begin paragraph two here',
       'with a continuation line.',
-      '   paragraph three here',
+      '   Paragraph three here',
     ].join('\n')
     const out = normalize(input, { sectionTitle: 'Any' })
     const paragraphs = out.split(/\n\s*\n/).filter((p) => p.trim().length > 0)
