@@ -1,10 +1,11 @@
 import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { describe, expect, it } from 'vitest'
-import { parseOutlineText } from '../../../scripts/extract-en-book/outline'
+import { fetchOutline, parseOutlineText } from '../../../scripts/extract-en-book/outline'
 import type { OutlineNode } from '../../../scripts/extract-en-book/types'
 
 const FIXTURE = readFileSync(resolve(import.meta.dirname, 'fixtures/outline-sample.txt'), 'utf8')
+const FULL_FIXTURE = readFileSync(resolve(import.meta.dirname, 'fixtures/outline-full.txt'), 'utf8')
 
 describe('parseOutlineText', () => {
   it('extracts all leaf sections with correct kind', () => {
@@ -61,5 +62,46 @@ describe('parseOutlineText', () => {
     expect(byTitle.get('Copyright Info')).toMatchObject({ pdfPageStart: 1 })
     expect(byTitle.get("Bill's Story")).toMatchObject({ pdfPageStart: 22 })
     expect(byTitle.get('A.A. Pamphlets')).toMatchObject({ pdfPageStart: 581 })
+  })
+})
+
+describe('parseOutlineText on full mutool output', () => {
+  it('extracts exactly 68 leaf sections', () => {
+    const nodes = parseOutlineText(FULL_FIXTURE)
+    expect(nodes).toHaveLength(68)
+  })
+
+  it('first leaf has expected shape', () => {
+    const nodes = parseOutlineText(FULL_FIXTURE)
+    expect(nodes[0]).toMatchObject({
+      title: 'Copyright Info',
+      kind: 'front-matter',
+      pdfPageStart: 1,
+    })
+  })
+
+  it('last leaf has expected shape', () => {
+    const nodes = parseOutlineText(FULL_FIXTURE)
+    expect(nodes[nodes.length - 1]).toMatchObject({
+      title: 'A.A. Pamphlets',
+      kind: 'appendix',
+      pdfPageStart: 581,
+    })
+  })
+})
+
+describe('fetchOutline', () => {
+  it('returns parsed nodes when mutool output is valid', () => {
+    const result = fetchOutline(() => FULL_FIXTURE)
+    expect(result).toHaveLength(68)
+    expect(result[0]).toMatchObject({ title: 'Copyright Info' })
+  })
+
+  it('throws a clear error when mutool output is empty', () => {
+    expect(() => fetchOutline(() => '')).toThrow(/mutool.*empty|unparseable|outline/i)
+  })
+
+  it('throws a clear error when parse returns no leaves', () => {
+    expect(() => fetchOutline(() => 'lorem ipsum\n')).toThrow(/mutool.*empty|unparseable|outline/i)
   })
 })

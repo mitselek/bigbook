@@ -89,3 +89,7 @@ export function parseOutlineText(raw: string): OutlineNode[] {
 
   return nodes
 }
+
+export function fetchOutline(_reader: () => string): OutlineNode[] {
+  throw new Error('not implemented')
+}
