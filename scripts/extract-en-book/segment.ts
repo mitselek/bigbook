@@ -13,11 +13,20 @@ export interface SegmentContext {
 export function segmentBlocks(text: string, ctx: SegmentContext): Block[] {
   const rawGroups = text.split(/\n\s*\n/)
   const blocks: Block[] = []
+  const normalizedTitle = normalizeForMatch(ctx.sectionTitle)
   let ordinal = 1
+  let headingEmitted = false
+
   for (const group of rawGroups) {
     const cleaned = collapseLines(group).trim()
     if (cleaned.length === 0) continue
-    const kind: BlockKind = 'paragraph'
+
+    let kind: BlockKind = 'paragraph'
+    if (!headingEmitted && normalizeForMatch(cleaned).startsWith(normalizedTitle)) {
+      kind = 'heading'
+      headingEmitted = true
+    }
+
     const id = `${ctx.sectionId}-p${String(ordinal).padStart(3, '0')}`
     blocks.push({ id, kind, text: cleaned, pdfPage: ctx.pdfPageStart })
     ordinal += 1
@@ -31,4 +40,12 @@ function collapseLines(group: string): string {
     .map((l) => l.trim())
     .filter((l) => l.length > 0)
     .join(' ')
+}
+
+function normalizeForMatch(s: string): string {
+  return s
+    .toLowerCase()
+    .replace(/[^\w\s]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
 }
