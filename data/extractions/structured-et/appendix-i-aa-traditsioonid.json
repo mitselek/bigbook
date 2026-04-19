@@ -1,0 +1,239 @@
+{
+  "id": "appendix-i-aa-traditsioonid",
+  "kind": "appendix",
+  "title": "I AA Traditsioonid",
+  "pdfPageStart": 593,
+  "pdfPageEnd": 598,
+  "bookPageStart": 561,
+  "bookPageEnd": 566,
+  "blocks": [
+    {
+      "id": "appendix-i-aa-traditsioonid-h001",
+      "kind": "heading",
+      "text": "LISAD",
+      "pdfPage": 593
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-t002",
+      "kind": "table",
+      "text": "I | AA Traditsioonid\nII | Vaimne kogemus\nIII | Meditsiiniline vaade AA-le\nIV | Laskeri preemia\nV | Religioosne vaade AA-le\nVI | Kuidas AAga ühendust võtta\nVII | Kaksteist Kontseptsiooni (Lühidalt)",
+      "pdfPage": 593,
+      "rows": [
+        [
+          "I",
+          "AA Traditsioonid"
+        ],
+        [
+          "II",
+          "Vaimne kogemus"
+        ],
+        [
+          "III",
+          "Meditsiiniline vaade AA-le"
+        ],
+        [
+          "IV",
+          "Laskeri preemia"
+        ],
+        [
+          "V",
+          "Religioosne vaade AA-le"
+        ],
+        [
+          "VI",
+          "Kuidas AAga ühendust võtta"
+        ],
+        [
+          "VII",
+          "Kaksteist Kontseptsiooni (Lühidalt)"
+        ]
+      ]
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-h003",
+      "kind": "heading",
+      "text": "I AA TRADITSIOON",
+      "pdfPage": 593
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-p004",
+      "kind": "paragraph",
+      "text": "Need, kes kuuluvad Anonüümsetesse Alkohoolikutesse on kogenud vahet kannatus ja kainuse vahel, tihti ka elu ja surma vahel. AA võib loomulikult saada sama tähendusrikkaks lugematutele alkohoolikutele, kelleni pole veel jõutud.",
+      "pdfPage": 593
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-p005",
+      "kind": "paragraph",
+      "text": "Seetõttu pole ühelgi meeste ja naiste ühendusel olnud kunagi tungivamat vajadust järjepideva efektiivsuse ja püsiva ühtsuse järele. Meie, alkohoolikud, mõistame, et peame koostööd tegema ja kokku hoidma, vastasel juhul sureb enamik meist lõpuks üksinda.",
+      "pdfPage": 593
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-p006",
+      "kind": "paragraph",
+      "text": "Me AA-lased usume, et Anonüümsete Alkohoolikute „12 Traditsiooni” on parimad vastused, mida meie kogemus on siiani andnud neile pakilistele küsimustele: „Kuidas saab AA kõige paremini toimida?” ja „Kuidas saab AA jääda terviklikuks ja seeläbi ellu?”",
+      "pdfPage": 593
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-p007",
+      "kind": "paragraph",
+      "text": "Järgneval leheküljel on ära toodud AA „12 Traditsiooni” nende niinimetatud „lühemas vormis,” mida kasutatakse tänapäeval. See on lühendatud versioon algsest AA Traditsioonide „pikast vormist,” mis avaldati esmakordselt 1946. aastal. Kuna „pikk vorm” on selgem ja võib omada ajaloolist väärtust, on see samuti ära toodud.",
+      "pdfPage": 593
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l008",
+      "kind": "list-item",
+      "text": "Üks − Meie ühine hüvang peaks olema esikohal; isiklik paranemine sõltub AA ühtsusest.",
+      "pdfPage": 594
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l009",
+      "kind": "list-item",
+      "text": "Kaks − Meie rühma eesmärgi jaoks on vaid üks ülim autoriteet − armastav Jumal sellisena, nagu Ta ilmutab end meie rühma südametunnistuses. Meie juhid on vaid usaldatud teenijad − nad ei valitse.",
+      "pdfPage": 594
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l010",
+      "kind": "list-item",
+      "text": "Kolm − Ainus nõue AA liikmeks olemisele on soov joomine lõpetada.",
+      "pdfPage": 594
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l011",
+      "kind": "list-item",
+      "text": "Neli − Iga rühm peaks olema iseseisev, välja arvatud küsimustes, mis puudutavad teisi rühmi või AA-d tervikuna.",
+      "pdfPage": 594
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l012",
+      "kind": "list-item",
+      "text": "Viis − Igal rühmal on vaid üks esmane eesmärk − kanda sõnum veel kannatava alkohoolikuni.",
+      "pdfPage": 594
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l013",
+      "kind": "list-item",
+      "text": "Kuus − AA rühm ei tohiks kunagi toetada, rahastada või laenata AA nime ühelegi temaga seotud organisatsioonile või kõrvalisele asutusele, et raha, omandi või mõjuvõimu küsimused ei juhiks meid peaeesmärgist kõrvale.",
+      "pdfPage": 594
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l014",
+      "kind": "list-item",
+      "text": "Seitse − Iga AA rühm peaks olema täielikult isemajandav ja keelduma välisest toetusest.",
+      "pdfPage": 594
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l015",
+      "kind": "list-item",
+      "text": "Kaheksa − AA peaks alati jääma mitteprofessionaalseks, kuid võib kasutada palgalisi spetsialiste.",
+      "pdfPage": 594
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l016",
+      "kind": "list-item",
+      "text": "Üheksa − AA ei tohiks kunagi organiseeruda, kuid me võime luua nõukogusid või toimkondi, kes vastutavad otseselt nende ees, keda teenivad.",
+      "pdfPage": 594
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l017",
+      "kind": "list-item",
+      "text": "Kümme − AA-l puudub arvamus kõrvaliste asjade kohta; seega ei tohiks AA nime kaasata avalikesse vaidlustesse.",
+      "pdfPage": 594
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l018",
+      "kind": "list-item",
+      "text": "Üksteist − Meie suhted avalikkusega põhinevad pigem külgetõmbavusel kui reklaamil; meil tuleks alati hoida isiklikku anonüümsust suhtlemisel ajakirjanduse, raadio või filmindusega.",
+      "pdfPage": 594
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l019",
+      "kind": "list-item",
+      "text": "Kaksteist − Anonüümsus on kõigi meie Traditsioonide vaimne vundament, mis tuletab alati meelde, et põhimõtted on isikutest tähtsamad.",
+      "pdfPage": 594
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-h020",
+      "kind": "heading",
+      "text": "AA 12 TRADITSIOONI (Pikk versioon)",
+      "pdfPage": 595
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-p021",
+      "kind": "paragraph",
+      "text": "Meie AA kogemus on meile õpetanud, et:",
+      "pdfPage": 595
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l022",
+      "kind": "list-item",
+      "text": "1. − Iga Anonüümsete Alkohoolikute liige on vaid väike osa suurest tervikust. AA peab jääma ellu, vastasel juhul sureb enamik meist kindlasti. Seetõttu on meie ühine heaolu esmatähtis. Kuid isiklik heaolu on kohe selle kannul.",
+      "pdfPage": 595
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l023",
+      "kind": "list-item",
+      "text": "2. − Meie ühise eesmärgi jaoks on vaid üks ülim autoriteet – armastav Jumal, nii nagu Ta ennast meie rühmateadvuse kaudu väljendab.",
+      "pdfPage": 595
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l024",
+      "kind": "list-item",
+      "text": "3. − Meie liikmete hulka võivad kuuluda kõik, kes kannatavad alkoholismi all. Seetõttu ei tohi me tagasi lükata kedagi, kes soovib terveneda. Samuti ei tohi AA-liikmelisus kunagi sõltuda rahast ega vastavusest mingitele normidele. Kõik kahe-kolmekesi kainuse nimel kokku tulnud alkohoolikut võivad end nimetada AA rühmaks, tingimusel et neil pole rühmana muid seoseid.",
+      "pdfPage": 595
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l025",
+      "kind": "list-item",
+      "text": "4. − Igal AA rühmal on õigus ise oma asjadega tegeleda ning nad vastutavad ainult oma südametunnistuse ees. Kui aga rühma kavatsused mõjutavad ka teiste rühmade heaolu, heaolu, siis tuleks nende rühmadega nõu pidada. Ükski rühm, regionaalne toimkond ega üksikisik ei tohiks ilma Üldteenindusnõukogu volinikega nõu pidamata astuda ühtegi sammu, mis võib olulisel määral mõjutada AA-d tervikuna. Sellistes küsimustes on meie ühine heaolu esmatähtis.",
+      "pdfPage": 595
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l026",
+      "kind": "list-item",
+      "text": "5. − Iga Anonüümsete Alkohoolikute rühm peab olema vaimne moodustis, millel on vaid üks peamine eesmärk – kanda oma sõnum veel kannatava alkohoolikuni. simustes on meie ühine heaolu esmatähtis.",
+      "pdfPage": 595
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l027",
+      "kind": "list-item",
+      "text": "6. − Raha, omandi ja võimuga seotud probleemid võivad meid kergesti meie peamisest vaimsest eesmärgist kõrvale kallutada. Seetõttu leiame, et iga märkimisväärse suurusega omand, mis leiab päriselt AA-s kasutust, peaks olema eraldiseisvalt arvele võetud ja hallatud, eraldades materiaalse osa vaimsest. AA rühm ei tohiks kunagi äritegevusse sukelduda. AA teisi ettevõtmisi, nagu klubid või haiglad, mis vajavad palju omandit või haldamist, peaks hallatama eraldi, et rühm saaks neist vajadusel rahumeeli eemalduda. Seetõttu ei tohiks sellised ettevõtmised kunagi kasutada AA nime. Nende haldamise eest peaksid vastutama inimesed, kes neid rahaliselt toetavad. Klubide puhul on eelistatud AA liikmetest juhid. Kuid haiglate ja teiste taastusraviasutuste puhul peaks personal olema AA-st täiesti sõltumatu ja need peaksid olema meditsiinilise järelevalve all. Kuigi AA rühm võib teha koostööd kõigi kõigiga, ei tohiks see suhe kunagi ulatuda liikmelisuse ega toetamiseni, olgu see siis tegelik või aimatav. AA rühm ei tohi end kellegagi siduda.",
+      "pdfPage": 595
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l028",
+      "kind": "list-item",
+      "text": "7. − AA rühmad peavad toime tulema oma liikmete vabatahtlike annetuste kaudu. Meie meelest peaks iga rühm üsna kiiresti selle ideaalini jõudma; iga avalik raha kogumise üleskutse, mis kasutab Anonüümsete Alkohoolikute nime, on äärmiselt ohtlik, olgu selleks siis rühmad, klubid, haiglad või muud välised ettevõtmised; suurte kingituste või annetuste, mis kannavad endas mingit kohustust, vastu võtmine ükskõik millisest allikast, ei ole tark tegu. Samuti on murettekitavad need AA rahakassad, kuhu koguneb määratlemata AA eesmärkide tarvis raha rohkem, kui on mõistlik varu. Kogemus on meid sageli hoiatanud, et meie vaimse pärandi võib kõige tõenäolisemalt hävitada kasutu vaidlus omandi, raha ja võimu üle.",
+      "pdfPage": 596
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l029",
+      "kind": "list-item",
+      "text": "8. − Anonüümsed Alkohoolikud peaks olema alati mitteprofessionaalne ühendus. Professionaalsuse all mõistame me alkohoolikute nõustamist palga või tasu eest. Küll aga võime alkohoolikuid tööle võtta nende kohustuste täitmiseks, mille tarvis peaksime muidu palkama mittealkohoolikuid. Selliseid eriteeneid võib vabalt rahaliselt kompenseerida. Ent meie tavapärane AA Kaheteistkümnenda sammu töö peab alati käima tasuta.",
+      "pdfPage": 596
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l030",
+      "kind": "list-item",
+      "text": "9. − Iga AA rühm vajab võimalikult vähe organiseerimist. Juhtide vaheldumine on parim variant. Väike rühm võib valida sekretäri, suurem rühm vahetuva toimkonna ja suurlinnade rühmad keskse või rühmade ühise toimkonna, mis palkab sageli täiskohaga sekretäri. Üldteenindusnõukogu volinikud on oma olemuselt meie üldine teenindustoimkond. Nad on meie AA traditsioonide hoidjad ja vabatahtlike AA annetuste vastuvõtjad, mille kaudu peame üleval New Yorgis asuvat Üldteenindusbürood. Nad on rühmade poolt volitatud tegelema meie avalike suhetega ja tagama meie peamise ajalehe, „AA Grapevine'i“, usaldatavuse. Kõik need esindajad tegutsevad teenimise vaimus, sest tõelised juhid AA-s on vaid usaldusväärsed ja kogenud teenijad, kes teenivad tervikut. Nende ametinimetused ei anna neile tegelikku võimu; nad ei valitse. Üldine lugupidamine on nende väärtuse võti.",
+      "pdfPage": 597
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l031",
+      "kind": "list-item",
+      "text": "10. − Ükski AA rühm ega liige ei tohiks kunagi, väljendada oma arvamust välistes vastuolulistes küsimustes – eriti poliitika, alkoholireformi või usuliste eriarvamuste kohta sellisel viisil, mis võiks AA asjasse segada. Anonüümsete Alkohoolikute rühmad ei vastandu kellelgi. Sellistes küsimustes ei avalda nad mingeid seisukohti.",
+      "pdfPage": 597
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l032",
+      "kind": "list-item",
+      "text": "11. − Meie suhteid avalikkusega peaks iseloomustama isiklik anonüümsus. Meie meelest peaks AA vältima kõmutekitavat reklaamimist. Meie nimesid ja nägusid AA liikmetena ei tohiks filmida, avalikult trükkida ega kasutada raadios. Meie suhted avalikkusega peaksid põhinema pigem külgetõmbavusel kui reklaamil. Ennast ei ole vaja kunagi kiita. Me tunneme, et on parem lasta meie sõpradel meid soovitada.",
+      "pdfPage": 597
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid-l033",
+      "kind": "list-item",
+      "text": "12. − Ja lõpuks usume me Anonüümsed Alkohoolikud, et anonüümsuse põhimõttel on erakordne vaimset tähtsust. See tuletab meile meelde, et põhimõtted on isikutest tähtsamad, et meie ülesanne on praktiseerida siirast alandlikkust. Seda selleks, et meie suured õnnistused meid iial ära ei rikuks; et me elaksime igavesti tänulikus mõtiskluses Temast, kes meid juhatab.",
+      "pdfPage": 598
+    }
+  ]
+}

@@ -20,13 +20,13 @@ Source PDF: `legacy/_source/BIGBOOK layout.pdf` (608 pages)
 ## Wave progress
 
 - [x] Wave 1 (1 section): `ch01-billi-lugu` — pilot
-- [ ] Wave 2 (3 sections)
+- [x] Wave 2 (3 sections): `ch05-kuidas-see-toetab`, `story-doktor-bobi-painajalik-unenagu`, `appendix-i-aa-traditsioonid`
 - [ ] Wave 3 (6 sections)
 - [ ] Wave 4 (12 sections)
 - [ ] Wave 5 (22 sections)
 - [ ] Wave 6 (23 sections)
 
-**Completed: 1 of 67 sections.**
+**Completed: 4 of 67 sections.**
 
 ## No para-id pairing in this cycle
 

@@ -1,0 +1,504 @@
+{
+  "id": "ch05-kuidas-see-toetab",
+  "kind": "chapter",
+  "title": "Kuidas see töötab",
+  "pdfPageStart": 90,
+  "pdfPageEnd": 103,
+  "bookPageStart": 58,
+  "bookPageEnd": 71,
+  "blocks": [
+    {
+      "id": "ch05-kuidas-see-toetab-h001",
+      "kind": "heading",
+      "text": "KUIDAS SEE TÖÖTAB",
+      "pdfPage": 90
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p002",
+      "kind": "paragraph",
+      "text": "Oleme harva näinud inimest, kes on meie teed põhjalikult järgides ebaõnnestunud. Ei tervene need, kes ei suuda või ei taha sellele lihtsale programmile täielikult pühenduda. Tavaliselt on need mehed ja naised, kes loomult ei suuda iseenda vastu ausad olla. Selliseid õnnetuid leidub. See pole nende süü – näib, et nad on sellistena sündinud. Kuna nad ei suuda omandada ega arendada eluviisi, mis nõuab jäägitut ausust, on nende eduvõimalused keskmisest madalamad. On ka selliseid, kes kannatavad tõsiste emotsionaalsete ja psüühiliste häirete all, kuid paljud neist tervenevad, kui nad suudavad olla ausad.",
+      "pdfPage": 90
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p003",
+      "kind": "paragraph",
+      "text": "Meie lood räägivad üldjoontes sellest, millised me olime, mis meiega juhtus ja millised oleme praegu. Kui olete otsustanud, et tahate seda, mis meil on, ning olete selle nimel kõigeks valmis − siis olete küps teatud sammude astumiseks.",
+      "pdfPage": 90
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p004",
+      "kind": "paragraph",
+      "text": "Mõned neist sammudest tekitasid meis tõrke. Me mõtlesime, et suudame leida kergema ja valutuma mooduse. Kuid me ei suutnud. Palume teid tõsimeeli ja siiralt olla algusest peale kartmatud ning põhjalikud. Mõned meist püüdsid oma vanadest mõtetetest kinni hoida ning tulemus oli null, kuni me nendest täielikult lahti lasime.",
+      "pdfPage": 90
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p005",
+      "kind": "paragraph",
+      "text": "Pidage meeles, et meil on tegemist alkoholiga – salakavala, segadusttekitava ja võimsaga! Ilma abita ei suutnud me sellest jagu saada. Kuid on Üks, kelle päralt on kogu vägi ja võim – see Üks on Jumal. Püüdke Teda nüüd leida!",
+      "pdfPage": 90
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p006",
+      "kind": "paragraph",
+      "text": "Poolikud abinõud ei viinud meid kuhugi. Me seisime pöördepunktis. Palusime täielikus loobumuses Tema kaitset ning hoolt.",
+      "pdfPage": 91
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p007",
+      "kind": "paragraph",
+      "text": "Astusime järgmised sammud, mida me tervenemisprogrammina soovitame:",
+      "pdfPage": 91
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-l008",
+      "kind": "list-item",
+      "text": "1. Tunnistasime, et oleme jõuetud alkoholi ees – et meie elud oli muutunud juhitamatuks.",
+      "pdfPage": 91
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-l009",
+      "kind": "list-item",
+      "text": "2. Hakkasime uskuma, et mingi meist suurem Jõud võib taastada meie terve mõtlemise.",
+      "pdfPage": 91
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-l010",
+      "kind": "list-item",
+      "text": "3. Otsustasime anda oma tahte ja elu Jumala hoolde, nii nagu meie Teda mõistsime.",
+      "pdfPage": 91
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-l011",
+      "kind": "list-item",
+      "text": "4. Viisime läbi enda põhjaliku ja kartmatu moraalse inventuuri.",
+      "pdfPage": 91
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-l012",
+      "kind": "list-item",
+      "text": "5. Tunnistasime Jumalale, iseendale ja mõnele teisele inimesele oma vigade tõelist olemust.",
+      "pdfPage": 91
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-l013",
+      "kind": "list-item",
+      "text": "6. Olime täiesti valmis selleks, et Jumal kõrvaldaks kõik need meie iseloomuvead.",
+      "pdfPage": 91
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-l014",
+      "kind": "list-item",
+      "text": "7. Palusime Teda alandlikult, et ta kõrvaldaks meie puudused.",
+      "pdfPage": 91
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-l015",
+      "kind": "list-item",
+      "text": "8. Koostasime nimekirja kõigist inimestest, kellele olime kahju teinud, ja hakkasime soovima seda neile kõigile hüvitada.",
+      "pdfPage": 91
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-l016",
+      "kind": "list-item",
+      "text": "9. Hüvitasime neile inimestele tehtud kahju vahetult, kui see oli võimalik, välja arvatud juhtudel, kui oleksime sellega kahjustanud neid või teisi.",
+      "pdfPage": 91
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-l017",
+      "kind": "list-item",
+      "text": "10. Jätkasime isikliku inventuuriga ja kui olime milleski eksinud, tunnistasime seda otsekohe.",
+      "pdfPage": 91
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-l018",
+      "kind": "list-item",
+      "text": "11. Otsisime palvete ja meditatsiooni abil võimalust täiustada oma teadlikku sidet Jumalaga, nii nagu meie Teda mõistame, paludes ainult arusaamist Tema tahtest meie suhtes ning jõudu selle elluviimiseks.",
+      "pdfPage": 91
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-l019",
+      "kind": "list-item",
+      "text": "12. Olles nende sammude tulemusena vaimselt ärganud, püüdsime kanda seda sõnumit teiste alkohoolikuteni ning järgida neid põhimõtteid kõigis oma tegemistes.",
+      "pdfPage": 92
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p020",
+      "kind": "paragraph",
+      "text": "Nii mõnigi meist hüüatas: „Küll on kord! Mina sellega hakkama ei saa.” Ärge kaotage julgust. Keegi meist pole suutnud neid põhimõtteid alati täiuslikult järgida. Me pole pühakud. Tähtis on see, et oleme valmis vaimsele teele asuma. Meie poolt kirja pandud põhimõtted on arengu teenäitajad. Me taotleme pigem vaimset edasiminekut kui vaimset täiust.",
+      "pdfPage": 92
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p021",
+      "kind": "paragraph",
+      "text": "Meie alkohooliku kirjeldus, agnostikutele mõeldud peatükk ning meie isiklikud seiklused enne ja pärast toovad selgelt esile kolm asjakohast ideed:",
+      "pdfPage": 92
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-l022",
+      "kind": "list-item",
+      "text": "(a) Et me olime alkohoolikud ega suutnud oma elusid juhtida.",
+      "pdfPage": 92
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-l023",
+      "kind": "list-item",
+      "text": "(b) Et tõenäoliselt ei oleks ükski inimlik jõud suutnud leevendada meie alkoholismi.",
+      "pdfPage": 92
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-l024",
+      "kind": "list-item",
+      "text": "(c) Et Jumal suudab ja teeb seda, kui Teda siiralt otsida.",
+      "pdfPage": 92
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p025",
+      "kind": "paragraph",
+      "text": "Selles veendununa jõudsime Kolmanda Sammuni, mis tähendab, et otsustasime anda oma tahte ja elu Jumalale, nii nagu meie Teda mõistsime. Mida me siis selle all mõtleme ja mida me siis teeme?",
+      "pdfPage": 92
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p026",
+      "kind": "paragraph",
+      "text": "Esmaseks eelduseks on jõuda veendumusele, et ükski elu, mida elatakse vaid omaenese tahte varal, ei saa olla kuigi edukas. Selliselt oleme alati kellegagi või millegagi vastuolus, isegi kui meie ajendid on head. Enamik inimesi üritab elada oma tahet läbi surudes. Iga selline inimene on nagu näitleja, kes tahab juhtida kogu etendust; ta püüab pidevalt sättida valgustust, tantsuseadet, lavakujundust ja teisi näitlejaid oma suva järgi. Kui tema korraldustest ainult kinni peetaks, kui inimesed teeksid tema soovi kohaselt, siis kujuneks etendus suurepäraseks. Kõik jääksid rahule, kaasa arvatud tema ise. Elu oleks imetore. Taolisi korraldusi tehes võib meie näitleja vahel üsnagi vooruslik olla. Ta võib olla lahke, hooliv, kannatlik, helde, isegi tagasihoidlik ja ennastohverdav. Teisalt võib ta olla ka õel, upsakas, isekas ning ebaaus. Nagu enamikul inimestel, on ka tal tõenäoliselt mitmeid erinevaid jooni.",
+      "pdfPage": 92
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p027",
+      "kind": "paragraph",
+      "text": "Mis harilikult juhtub? Etendus ei kujune kuigi õnnestunuks. Meie näitleja hakkab mõtlema, et elu käitub temaga ülekohtuselt. Ta võtab nõuks senisest rohkem pingutada. Järgmisel korral muutub ta kas veelgi nõudlikumaks või suuremeelsemaks, sõltuvalt olukorrast. Ent etendus ei rahulda teda endiselt. Mööndes, et ta võib natukene eksinud olla, on ta kindel, et teised inimesed on rohkem süüdi. Ta muutub vihaseks, nördinuks ning ennasthaletsevaks. Milles seisneb tema peamine viga? Kas mitte selles, et ta taotleb pigem omakasu, isegi kui üritab lahke olla? Kas ta mitte ei kannata pettekujutelma käes, et ta suudab maailmalt rahulolu ja õnne vägisi kätte saada, kui ta vaid kõike hästi juhib? Kas kõigile teistele näitlejatele pole mitte ilmne, et ta tahab just seda? Ja kas tema teod ei tekita neis kõigis soovi talle tagasi teha, pigistada etendusest välja, mis vähegi annab? Kas ta pole mitte isegi oma parimatel hetkedel rohkem segadusetekitaja kui korralooja?",
+      "pdfPage": 93
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p028",
+      "kind": "paragraph",
+      "text": "Meie näitleja on enesekeskne – egotsentriline, nagu tänapäeval tavatsetakse öelda. Ta on nagu pensionile jäänud ärimees, kes talvel Florida päikese käes peesitades kurdab riigi kehva olukorra üle; nagu vaimulik, kes ohib kahekümnenda sajandi pattude pärast; nagu need poliitikud ja uuendajad, kes on veendunud, et kui ülejäänud maailm vaid end korralikult üleval peaks, valitseks üleüldine Utoopia; nagu lindprii murdvaras, kes leiab, et ühiskond on talle liiga teinud; ja nagu alkohoolik, kes on kõigest ilma jäänud ja luku ning riivi taha pandud. Võime küll vastu vaielda, kuid kas pole enamik meist hõivatud eelkõige iseendaga, oma vimmade või enesehaletsusega?",
+      "pdfPage": 93
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p029",
+      "kind": "paragraph",
+      "text": "Isekus – enesekesksus! Arvame, et see on meie hädade algpõhjus. Sajal erineval kujul avalduvast hirmust, enesepettusest, omakasupüüdlikkusest ja enesehaletsusest aetuna tallame oma ligimeste varvastel ja nad vastavad meile samaga. Vahel teevad nad meile näiliselt ilma põhjuseta haiget, kuid avastame peaaegu alati, et oleme minevikus teinud enesekeskselt otsuseid, mis hiljem asetasid meid olukorda, kus saime haiget.",
+      "pdfPage": 94
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p030",
+      "kind": "paragraph",
+      "text": "Niisiis arvame, et meie hädad on põhimõtteliselt meie endi põhjustatud. Need kerkivad meie seest ja alkohoolik on äärmuslik näide metsikust oma tahte läbisurujast, ehkki ta ise enamasti seda nii ei näe. Eelkõige peame meie, alkohoolikud, vabanema sellest isekusest. Me peame seda tegema või see tapab meid! Jumal teeb selle võimalikuks. Ja tihti tundub, et ilma Tema abita pole võimalik endast täielikult vabaneda. Paljudel meist oli küllaga moraalseid ja filosoofilisi tõekspidamisi, aga me ei olnud suutelised neid järgima, olgugi et me seda tahtsime. Samuti ei suutnud me oma enesekesksust kuigi palju vähendada, pelgalt seda soovides või omal jõul püüdes. Meil oli tarvis Jumala abi.",
+      "pdfPage": 94
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p031",
+      "kind": "paragraph",
+      "text": "Sellega ongi öeldud, miks ja kuidas. Eelkõige tuli meil lakata Jumalat mängimast. See ei töötanud. Järgmiseks otsustasime, et nüüdsest peale olgu Jumal meie eludraama Lavastaja. Tema on Boss ja meie Tema alluvad. Tema on Isa ja meie Tema lapsed. Paljud head ideed on lihtsad ja see tõdemus sai päiskiviks uuele triumfikaarele, mille kaudu me vabadusse suundusime.",
+      "pdfPage": 94
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p032",
+      "kind": "paragraph",
+      "text": "Kui võtsime siiralt taolise hoiaku, järgnes paljugi tähelepanuväärset. Meil oli uus Tööandja. Kõikvõimsana andis Ta meile kõik, mida me vajasime, kui me vaid Tema ligi hoidsime ja Tema tööd hästi tegime. Sellisel pinnal seistes kahanes meie huvi iseenda, meie tillukeste plaanide ja kavade vastu järjest. Meis tärkas üha suurem huvi selle vastu, mida saaksime omalt poolt elule anda. Sedamööda, kuidas tundsime, et meisse voolas uut jõudu, nautisime meelerahu, suutsime elule julgelt silma vaadata ja saime teadlikuks Tema juuresolust, hakkas meie hirm tänase, homse ja edaspidise ees kaduma. Me sündisime uuesti.",
+      "pdfPage": 95
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p033",
+      "kind": "paragraph",
+      "text": "Olime jõudnud Kolmanda Sammuni. Paljud meist sõnasid meie Loojale, nagu meie Teda mõistsime: ”Jumal, ma annan end Sulle, et Sa mind kasutaksid ja minuga toimiksid nii nagu Sa soovid. Vabasta mind mu enese köidikuist, et ma saaksin paremini täita Sinu tahet. Vabasta mind mu raskustest, et nendest võitusaamine annaks tunnistust neile, keda ma saan Sinu Väe, Sinu Armastuse ja Sinu Elutee kaudu aidata. Lase mul täita Sinu tahet igavesti!” Enne selle sammu astumist mõtlesime hoolikalt järele ja veendusime, kas oleme valmis, et end viimaks üleni Tema kätesse loovutada.",
+      "pdfPage": 95
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p034",
+      "kind": "paragraph",
+      "text": "Leidsime, et seda vaimset sammu on väga soovitatav astuda koos mõne mõistva inimesega nagu oma abikaasaga, parima sõbraga või vaimse nõuandjaga. Kuid parem on kohtuda Jumalaga üksi, kui koos inimesega, kes võib seda valesti mõista. Pöördumise sõnavalik oli mõistagi üsna vaba, peaasi oli oma mõtted midagi salgamata välja öelda. See oli vaid algus, ent kui tegime seda ausalt ning alandlikult, oli selle mõju sedamaid tuntav ja vahel vägagi suur.",
+      "pdfPage": 95
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p035",
+      "kind": "paragraph",
+      "text": "Järgmiseks asusime agaralt tegutsema, võttes esimese asjana käsile isikliku suurpuhastuse, mida paljud meist polnud kunagi üritanud. Ehkki meie otsus kujutas endast elulist ning hädavajalikku sammu, poleks sellel olnud püsivat mõju, kui sellele poleks kohe järgnenud tõsist pingutust, et jõuda selgusele meid taksitanud asjades ning neist vabaneda. Meie joomine oli vaid sümptom. Niisiis pidime käsile võtma põhjused ning tingimused.",
+      "pdfPage": 95
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p036",
+      "kind": "paragraph",
+      "text": "Seetõttu alustasime enda isiklikku inventuuri. See oli Neljas Samm. Äri, kus ei tehta korrapäraselt inventuuri, läheb harilikult pankrotti. Kaubandusliku inventuuri läbiviimine tähendab faktide tuvastamise ja faktide ausa hindamise protsessi. See on katse selgitada välja tõde kaubavarude osas. Üheks eesmärgiks on leida rikutud või müügikõlbmatud kaubad ja plats neist sedamaid ning kahetsuseta puhtaks teha. Kui äriomanik tahab edu saavutada, siis peab ta oskama väärtusi õigesti hinnata.",
+      "pdfPage": 96
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p037",
+      "kind": "paragraph",
+      "text": "Täpselt sedasama tegime meie oma eludega. Me lugesime kõik ausalt üle. Kõigepealt otsisime üles oma iseloomuvead, mis põhjustasid meie läbikukkumise. Veendunuina selles, et meie lüüasaamise põhjuseks oli mitmekesisel kujul ilmnev enesekesksus, analüüsisime selle levinumaid avaldumisviise.",
+      "pdfPage": 96
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p038",
+      "kind": "paragraph",
+      "text": "Vimmapidamine on meie hädade „peamine põhjus”. See hävitab rohkem alkohoolikuid kui miski muu. Sellest tulenevad kõikvõimalikud vaimsed häired, sest haiged ei olnud mitte ainult meie mõistus ja keha, vaid olime ka vaimselt tõbised. Kui seljatame vaimse tõve, saavad korda ka meie mõistus ja keha. Oma vimmasid loetledes panime need paberile kirja. Koostasime nimekirja inimestest, asutustest ja põhimõtetest, kelle ja mille peale me viha kandsime. Küsisime endilt, millest see viha tingitud on. Enamjuhtudel selgus, et meie enesehinnang, rahaline olukord, ambitsioonid ja isiklikud suhted (seks kaasa arvatud) olid riivatud või ohustatud. Seetõttu olime kibestunud. Meil olid „närvid läbi”.",
+      "pdfPage": 96
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p039",
+      "kind": "paragraph",
+      "text": "Kirjutasime oma pahameelenimekirjas iga nime taha selle, mis meid riivas. Kas oli puudutatud meie enesehinnangut, turvatunnet, ambitsioone, isiklikke või seksuaalsuhteid?",
+      "pdfPage": 97
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p040",
+      "kind": "paragraph",
+      "text": "Olime harilikult sama täpsed nagu järgneva näite puhul:",
+      "pdfPage": 97
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-t041",
+      "kind": "table",
+      "text": "Kannan | Põhjus: | Puudutab minu:\nvimma: |  | \nHärra | Tema tähelepanu | Seksuaalsuhteid.\nBrowni | minu naise suhtes. | Enesehinnangut\npeale | Ta rääkis mu naisele | (hirm).\n | minu armukesest. | Seksuaalsuhteid.\n | Brown võib mu töökoha | Enesehinnangut\n | endale saada. | (hirm).\nProua | Ta on segane ja | Turvatunnet.\nJonesi | tõrjub mind. Ta lasi | Enesehinnangut\npeale | oma mehe joomise | (hirm).\n | pärast haiglasse panna. | Isiklikke suhteid.\n | Mees on minu sõber. | Enesehinnangut\n | Ta on keelepeksja. | (hirm).\nOma | Ebamõistlik, ebaõiglane, | Enesehinnangut\ntööandja | kamandav. | (hirm).\npeale | Ähvardab mind | Turvatunnet.\n | joomise ja kuluarvete | \n | võltsimise pärast lahti | \n | lasta. | \nOma | Ei mõista mind ja | Eneseuhkust,\nnaise | näägutab. | isiklikke sek\npeale | Talle meeldib Brown. | suaalsuhteid,\n | Tahab maja oma | turvatunnet\n | nimele kirjutada. | (hirm).",
+      "pdfPage": 97,
+      "rows": [
+        [
+          "Kannan",
+          "Põhjus:",
+          "Puudutab minu:"
+        ],
+        [
+          "vimma:",
+          "",
+          ""
+        ],
+        [
+          "Härra",
+          "Tema tähelepanu",
+          "Seksuaalsuhteid."
+        ],
+        [
+          "Browni",
+          "minu naise suhtes.",
+          "Enesehinnangut"
+        ],
+        [
+          "peale",
+          "Ta rääkis mu naisele",
+          "(hirm)."
+        ],
+        [
+          "",
+          "minu armukesest.",
+          "Seksuaalsuhteid."
+        ],
+        [
+          "",
+          "Brown võib mu töökoha",
+          "Enesehinnangut"
+        ],
+        [
+          "",
+          "endale saada.",
+          "(hirm)."
+        ],
+        [
+          "Proua",
+          "Ta on segane ja",
+          "Turvatunnet."
+        ],
+        [
+          "Jonesi",
+          "tõrjub mind. Ta lasi",
+          "Enesehinnangut"
+        ],
+        [
+          "peale",
+          "oma mehe joomise",
+          "(hirm)."
+        ],
+        [
+          "",
+          "pärast haiglasse panna.",
+          "Isiklikke suhteid."
+        ],
+        [
+          "",
+          "Mees on minu sõber.",
+          "Enesehinnangut"
+        ],
+        [
+          "",
+          "Ta on keelepeksja.",
+          "(hirm)."
+        ],
+        [
+          "Oma",
+          "Ebamõistlik, ebaõiglane,",
+          "Enesehinnangut"
+        ],
+        [
+          "tööandja",
+          "kamandav.",
+          "(hirm)."
+        ],
+        [
+          "peale",
+          "Ähvardab mind",
+          "Turvatunnet."
+        ],
+        [
+          "",
+          "joomise ja kuluarvete",
+          ""
+        ],
+        [
+          "",
+          "võltsimise pärast lahti",
+          ""
+        ],
+        [
+          "",
+          "lasta.",
+          ""
+        ],
+        [
+          "Oma",
+          "Ei mõista mind ja",
+          "Eneseuhkust,"
+        ],
+        [
+          "naise",
+          "näägutab.",
+          "isiklikke sek"
+        ],
+        [
+          "peale",
+          "Talle meeldib Brown.",
+          "suaalsuhteid,"
+        ],
+        [
+          "",
+          "Tahab maja oma",
+          "turvatunnet"
+        ],
+        [
+          "",
+          "nimele kirjutada.",
+          "(hirm)."
+        ]
+      ]
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p042",
+      "kind": "paragraph",
+      "text": "Vaatasime tagasi kogu oma eelnevale elule. Peamine oli seejuures põhjalikkus ning ausus. Valmis saanud, mõtlesime selle üle hoolikalt järele. Kõigepealt ilmnes, et maailm ja inimesed eksisid üsna sageli. Enamik meist ei jõudnud kaugemale järeldusest, et teised eksisid. Tavaliselt viis see selleni, et inimesed jätkasid meie suhtes valesti käitumist ja meie olime endiselt kibestunud. Mõnikord valdas meid kahetsus ja siis olime kibestunud enda peale. Kuid mida enam me võitlesime ja üritasime oma tahtmist läbi suruda, seda hullemaks asjad läksid. Nagu sõjaski, võitis võitja ainult näiliselt. Meie võidurõõmu hetked jäid üürikeseks.",
+      "pdfPage": 98
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p043",
+      "kind": "paragraph",
+      "text": "On ilmne, et elu, milles leidub sügavat vimma, viib vaid tühisuse ja ebaõnneni. Täpselt sel määral, mil me neid endale lubame, raiskame tunde, mis võinuks olla väärtuslikud. Kuid alkohooliku puhul, kelle lootus seisneb vaimse kogemuse säilitamises ja kasvatamises, on taoline vimma kandmine eriti ohtlik. Me leidsime, et see osutub saatuslikuks. Taolisi tundeid endas kandes lõikame ennast ära Vaimu päikesevalgusest. Alkoholihullus naaseb ja me joome taas. Ja joomine tähendab meile surma.",
+      "pdfPage": 98
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p044",
+      "kind": "paragraph",
+      "text": "Kui tahtsime elada, siis pidime vihast lahti saama. Tusatsemine ja sisemised raevuhood pole meie jaoks. Need võivad olla normaalsetele inimestele kahtlase väärtusega luksuseks, kuid alkohoolikule mõjuvad need nagu mürk.",
+      "pdfPage": 98
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p045",
+      "kind": "paragraph",
+      "text": "Pöördusime oma nimekirja juurde tagasi, sest selles peitus tuleviku võti. Olime valmis seda täiesti teise nurga alt vaatama. Me hakkasime nägema, et maailm ja teised inimesed valitsesid tõepoolest meie üle. Sellises meeleseisundis oli teiste inimeste väärtegudel, kujuteldavatel või mitte, lausa tappev jõud. Kuidas leida pääsetee? Mõistsime, et peame need vimmad kontrolli alla saama, ent kuidas? Me ei saanud neid lihtsalt olematuks soovida nagu alkoholigi.",
+      "pdfPage": 98
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p046",
+      "kind": "paragraph",
+      "text": "Selline oli meie suund: me mõistsime, et inimesed, kes olid meile ülekohut teinud, olid võib-olla vaimselt haiged. Kuigi meile ei meeldinud nende sümptomid ja kuidas need meid häirisid, olid need inimesed haiged nagu meiegi. Palusime Jumalat, et ta aitaks meil nende suhtes üles näidata samasugust sallivust, haletsust ja kannatlikkust, nagu meie oma haige sõbra puhul meelsasti ilmutaksime. Kui keegi on meid pahandanud, ütleme endale: „See on haige inimene. Kuidas ma saaksin talle kasulik olla? Jumal, päästa mind viha küüsist. Sinu tahtmine sündigu.”",
+      "pdfPage": 99
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p047",
+      "kind": "paragraph",
+      "text": "Me väldime tagasi tegemist või vaidlemist. Haigeid ei peaks niimoodi kohtlema. Nii tehes hävitame võimaluse olla kasulikud. Me ei saa kõigile inimestele kasulikud olla, kuid vähemasti näitab Jumal meile, kuidas võtta igaühe suhtes lahke ning salliv hoiak.",
+      "pdfPage": 99
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p048",
+      "kind": "paragraph",
+      "text": "Vaatame veel kord oma nimekirja. Jättes kõrvale kogu teiste tehtud ülekohtu, otsisime järjekindlalt omaenese vigu. Kus olime olnud isekad, ebaausad, omakasupüüdlikud ja hirmul? Kuigi mõni olukord ei tekkinud ainuüksi meie süül, üritasime teise asjassepuutuva inimese hoopis välja jätta. Milles seisnes meie süü? See oli meie, mitte kellegi teise inventuur. Oma eksimusi märgates loetlesime need üles. Asetasime need mustvalgena enese ette. Tunnistasime ausalt oma eksimusi ja tahtsime neid heaks teha.",
+      "pdfPage": 99
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p049",
+      "kind": "paragraph",
+      "text": "Pange tähele, et härra Browni, proua Jonesi, tööandja ja naise puhul nimetatud probleemide kõrval seisab sulgudes sõna „hirm”. See lühike sõna puudutab mingil määral kõiki meie elu tahke. See kuritahtlik ja lagundav niit läbis tervet meie olemasolu kudet. See lükkas käima asjaolude rodu, mis tõi meile meie arvates teenimatut ebaõnne. Kuid kas me mitte ise seda palli veerema ei pannud? Vahel leiame, et hirm peaks olema võrdväärne varastamisega. Tundub, et see toob isegi rohkem kahju.",
+      "pdfPage": 99
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p050",
+      "kind": "paragraph",
+      "text": "Me vaatasime oma hirmud põhjalikult üle. Panime need paberile kirja ka siis, kui nendega ei seondunud ükski vimm. Küsisime endalt, miks meil need olid? Kas mitte sellest, et enese tarkusele tuginemine meid hätta jättis? Enese tarkusest piisas paljuks, kuid kaugeltki mitte kõigeks. Kunagi oli mõnel meist küllaga enesekindlust, kuid see ei lahendanud täielikult ei hirmu ega ühtegi teist probleemi. Kui see meid ülbeks muutis, siis seda hullem.",
+      "pdfPage": 100
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p051",
+      "kind": "paragraph",
+      "text": "Võib-olla leidub parem tee − me usume küll. Sest nüüd toetume teistsugusele alusele, milleks on Jumala usaldamine ja tema peale lootmine. Me usaldame pigem piiritut Jumalat kui piiratud ennast. Me oleme siin ilmas selleks, et etendada osa, mille Tema meile määrab. Just sel määral nagu me teeme nii, nagu Tema meie arvates sooviks, ning alandlikult Tema peale loodame, võimaldab Ta meil hädale ja viletsusele vastukaaluks panna meelerahu.",
+      "pdfPage": 100
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p052",
+      "kind": "paragraph",
+      "text": "Me ei palu eales kelleltki vabandust selle eest, et oma Loojast sõltume. Võime vaid naerda nende üle, kes peavad vaimsust nõrkuse teeks. Paradoksaalsel moel on see hoopis tugevuse tee. Ajalugu on tõestanud, et usk tähendab vaprust. Kõik usklikud on vaprad. Nad usaldavad oma Jumalat. Me ei pea kunagi Jumala pärast vabandama. Selle asemel laseme Tal meie kaudu näidata, mida Ta suudab. Me palume Tal võtta meie hirm ning juhtida meie tähelepanu sellele, milline Ta soovib, et me oleksime. Sedamaid hakkame hirmust üle saama.",
+      "pdfPage": 100
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p053",
+      "kind": "paragraph",
+      "text": "Nüüd seksist. Paljud meist pidid sellega seoses oma suhtumist revideerima. Eelkõige katsusime selles küsimuses mõistlikud olla. On väga kerge õigelt teelt kõrvale kalduda. Näeme, et inimeste arvamused on siin sageli äärmuslikud − võib-olla isegi absurdselt. Üks koolkond kisendab, et seks on meie loomuse madalama poole himu, vaid pelgalt soojätkamise hädavajadus. Teised jälle nõuavad seksi ja veelgi rohkem seksi; nad taunivad abielu; nad arvavad, et enamik inimkonna hädasid on tingitud seksuaalpõhjustest. Mõned arvavad, et meil ei ole seksi piisavalt või et see pole see päris õige. Nad omistavad sellele tähtsust igas eluvaldkonnas. Üks koolkond ei lubaks meil seda üldse mekkida, teine vürtsitaks sellega kõik üle. Me tahame sellest vastasseisust kõrvale hoida. Me ei taha olla kellegi seksuaalkäitumise kohtunikuks. Meil kõigil on seksuaalprobleeme. Kui meil neid ei oleks, siis poleks me kuigivõrd inimesed. Mida siis nendega peale hakata?",
+      "pdfPage": 101
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p054",
+      "kind": "paragraph",
+      "text": "Mõtlesime oma varasemate aastate käitumise üle järele. Millal olime olnud isekad, ebaausad või hoolimatud? Kellele olime haiget teinud? Kas olime põhjendamatult tekitanud armukadedust, kahtlusi või kibestumust? Milles me eksisime ja mida oleksime pidanud teisiti tegema? Panime selle kõik kirja ja vaatasime üle.",
+      "pdfPage": 101
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p055",
+      "kind": "paragraph",
+      "text": "Taolisel moel püüdsime kujundada oma tulevase seksuaalelu mõistliku ja tasakaaluka ideaali. Sellise lähenemise võtsime aluseks iga suhte hindamisel − oli see isekas või mitte? Palusime Jumalat, et ta vormiks meie ideaale ja aitaks meil nende järgi elada. Pidasime alati meeles, et meie seksuaalsed võimed on Jumala antud ning seega head, mitte midagi, mida kasutada kergemeelselt või isekalt, ega ka midagi, mida põlata või jälestada.",
+      "pdfPage": 101
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p056",
+      "kind": "paragraph",
+      "text": "Milliseks meie ideaal ka ei kujuneks, peame olema valmis selle suunas kasvama. Peame olema valmis tehtud halba heastama, välja arvatud juhul, kui me seda tehes veelgi rohkem halba põhjustaksime. Teisisõnu, käsitleme seksi nagu iga teist probleemi. Mediteerides küsime Jumalalt, kuidas peaksime igas konkreetses olukorras käituma. Kui me tõepoolest tahame õiget vastust, siis me ka saame selle.",
+      "pdfPage": 102
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p057",
+      "kind": "paragraph",
+      "text": "Vaid Jumal saab hinnata meie seksuaalset olukorda. Teistega nõu pidamine on sageli kasulik, kuid viimase sõna laseme öelda Jumalal. Me mõistame, et mõned inimesed on seksi suhtes sama fanaatilised, kui teised vabameelsed. Me hoidume hüsteerilistest mõtetest ja nõuannetest.",
+      "pdfPage": 102
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p058",
+      "kind": "paragraph",
+      "text": "Mis siis, kui me ei küündi valitud ideaalini ja komistame? Kas see tähendab, et hakkame jälle jooma? Mõnede arvates on see nii. Kuid see on vaid pool tõde. Kõik sõltub meist ja meie motiividest. Kui me kahetseme oma tegusid ja soovime siiralt, et Jumal meid paremaks muudaks, usume, et meile antakse andeks ja oleme sellega õppetunni kätte saanud. Kui me ei kahetse ja meie käitumine jätkuvalt teisi kahjustab, siis hakkame üsna kindlasti jooma. Me ei teoretiseeri. Need on faktid meie kogemustest.",
+      "pdfPage": 102
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p059",
+      "kind": "paragraph",
+      "text": "Seksi kohta kokkuvõtteks: me palume siiralt endale õiget ideaali, juhatust igas küsitavas olukorras, tervet mõistust ja jõudu õigesti tegutseda. Kui seks on probleemiks, asume seda innukamalt teisi aitama. Mõtleme nende vajadustele ja töötame nende vajaduste heaks. See aitab meil tähelepanu mujale suunata. See rahustab seda sundivat tungi, millele järele andmine tooks südamevalu.",
+      "pdfPage": 102
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p060",
+      "kind": "paragraph",
+      "text": "Kui oleme oma isiklikus loetelus põhjalikud olnud, oleme kirja pannud hulga asju. Me oleme oma vimmad üles lugenud ja läbi analüüsinud. Me hakkame mõistma nende tühisust ning hukatuslikkust. Oleme hakanud mõistma nende kohutavat purustusjõudu. Me õpime sallivust, kannatlikkust ja head tahet kõigi inimeste, isegi meie vaenlaste suhtes, sest me suhtume neisse kui haigetesse inimestesse. Oleme koostanud nimekirja inimestest, keda oleme oma käitumisega haavanud, ja oleme valmis võimalusel minevikku heastama.",
+      "pdfPage": 103
+    },
+    {
+      "id": "ch05-kuidas-see-toetab-p061",
+      "kind": "paragraph",
+      "text": "Sellest raamatust võite ikka ja jälle lugeda, et usk tegi meie heaks seda, mida me ise teha ei suutnud. Me loodame, et olete nüüd veendunud, et Jumal võib eemaldada kõik takistused, mille teie tahe on Tema ja teie vahele seadnud. Kui te olete juba otsuse langetanud ja koostanud inventuuri oma suurimatest puudustest, siis olete hästi algust teinud. Sel moel olete suure tüki tõde enda kohta alla neelanud ja ära seedinud.",
+      "pdfPage": 103
+    }
+  ]
+}

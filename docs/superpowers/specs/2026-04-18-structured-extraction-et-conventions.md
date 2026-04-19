@@ -98,6 +98,23 @@ Discovered in Wave 1:
 
 Pattern: if the PDF renders a character, preserve it. Fidelity to source beats grammatical correctness.
 
+## List-item prefix conventions (ET)
+
+Estonian uses **two marker styles** depending on context:
+
+- **Word cardinals** (used in appendix-i short-form Twelve Traditions): `Üks`, `Kaks`, `Kolm`, `Neli`, `Viis`, `Kuus`, `Seitse`, `Kaheksa`, `Üheksa`, `Kümme`, `Üksteist`, `Kaksteist`. Detection: word at line-start followed by `−` (minus sign with spaces).
+- **Arabic numerals** (used in the Twelve Steps, long-form Twelve Traditions, Twelve Concepts): `1.`, `2.`, ..., `12.`. Detection: `^\d{1,2}\.\s` at line start.
+
+**Item separator in ET is U+2212 MINUS SIGN with surrounding spaces** (`−`), not em-dash. This matches the ET mid-sentence dash convention.
+
+## TOC-on-appendix-opening pattern (ET)
+
+The first appendix page (`appendix-i-aa-traditsioonid`, p593) opens with a `LISAD` heading followed by a **7-row roman-numeral table-of-contents** listing all appendices (I-VII). This pattern may recur on other appendix openers.
+
+- Emit the `LISAD` as a `heading` block.
+- Emit the 7-row TOC as a `table` block with 2 columns (roman numeral, title), rows × cells.
+- **Two-column TOC row-pairing**: sort each column by y-coordinate, then zip. Do NOT y-proximity match — different columns can have different line leadings (observed: 12pt vs 14.5pt), so dy-matching fails after the first few rows.
+
 ## Evolution log
 
 - **2026-04-18 (outline built, pilot dispatched)** — initial ET conventions seeded empty. All rules from the parent EN conventions apply as baseline.
@@ -110,3 +127,9 @@ Pattern: if the PDF renders a character, preserve it. Fidelity to source beats g
   - **No ET-specific compound allowlist needed** (seed empty; soft-hyphen mechanism makes it unnecessary).
   - **Hampshire Grenadier verse present in ET** (translated), emitted as `verse` block with 6 lines and ET curly quotes `„...”`.
   - **Source artifacts preserved verbatim**: `o1i`, `sõruskonna`, `Bill W,` (no period). Document as quirks, not bugs.
+- **2026-04-18 (Wave 2 ch05 + dr-bob + appendix-i, accepted)**:
+  - **ET list-item marker styles documented**: word cardinals (`Üks`..`Kaksteist`) for appendix-i short-form; Arabic numerals (`1.`..`12.`) for Twelve Steps, long-form Traditions. Item separator is `−` (U+2212 MINUS SIGN with spaces), not em-dash.
+  - **TOC-on-appendix-opening pattern documented**: `LISAD` heading + 7-row roman-numeral table on appendix-i's first page. Two-column TOC pairing uses sort-then-zip per column, not y-proximity.
+  - **No abbreviation expansion in ET headings**: confirmed via dr-bob (`DOKTOR` stays `DOKTOR`, not abbreviated to `Dr.`). Estonian source typically uses full word forms; the EN pattern of abbreviation expansion (`Dr.` → `DOCTOR`) does NOT apply.
+  - **Block-count parity with EN**: ch05 both 61 blocks, dr-bob both 39 blocks, appendix-i ET 33 vs EN 32 (+1 for the LISAD TOC on p593). Strong cross-language structural alignment validates the shared schema.
+  - **Source quirks preserved** in appendix-i long-form: duplicated word `heaolu, heaolu`, truncated continuation fragment `simustes...`, heading singular `TRADITSIOON` vs plural elsewhere. Fidelity-over-correction maintained.
