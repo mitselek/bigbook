@@ -22,7 +22,9 @@ import type { Page, Route } from '@playwright/test'
 // ── Auth constants ────────────────────────────────────────────────────────────
 
 export const WORKER_URL = 'https://bigbook-auth-proxy.mihkel-putrinsh.workers.dev'
-export const BASELINE_SHA = 'ecf8c0e8827b971abbca01677d43f4e7916d6df5'
+// Must match src/lib/content/baseline-config.ts BASELINE_COMMIT_SHA.
+// When baseline-config.ts changes, update this constant in lockstep.
+export const BASELINE_SHA = 'ab6f550107b01bca53f62824d4dfe2dfa0486a68'
 
 const FAKE_ACCESS_TOKEN = 'ghu_FAKE_ACCESS_TOKEN_FOR_E2E'
 const FAKE_REFRESH_TOKEN = 'ghr_FAKE_REFRESH_TOKEN_FOR_E2E'
@@ -237,7 +239,7 @@ export async function interceptCommit(page: Page, options: CommitInterceptOption
  * Builds minimal but valid bilingual chapter content strings for a given slug
  * and list of paraIds (taken from the CHAPTERS manifest).
  *
- * The title paraId (ending in '-title') gets heading text. Body paraIds get
+ * The heading paraId (matching /-h\d+$/) gets heading text. Body paraIds get
  * short dummy text. ET and baseline content are identical by default so all
  * paragraphs start as non-diverged (isDiverged === false). Pass etOverrides
  * to make specific ET paragraphs differ from baseline (isDiverged === true).
@@ -265,7 +267,10 @@ export function makeBilingualChapter(
 
     for (const paraId of paraIds) {
       lines.push(`::para[${paraId}]`)
-      if (paraId.endsWith('-title')) {
+      // v1.1 heading convention: heading paraIds match /^.*-h\d+$/
+      // (e.g., ch01-h001, preface-h001). Sections without a heading
+      // (e.g., copyright) never enter this branch.
+      if (/-h\d+$/.test(paraId)) {
         if (lang === 'en') {
           lines.push(`# EN Title for ${slug}`)
         } else {
