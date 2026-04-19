@@ -21,7 +21,10 @@
     "e2e": "playwright test --project=chromium",
     "e2e:all-browsers": "playwright test",
     "bootstrap:content": "CONTENT_BOOTSTRAP=1 tsx scripts/bootstrap-mock-content.ts",
-    "extract:en": "tsx scripts/extract-en-book.ts"
+    "extract:en": "tsx scripts/extract-en-book.ts",
+    "pair": "tsx scripts/pair-en-et/pair.ts",
+    "pair:verify": "tsx scripts/pair-en-et/pair.ts verify",
+    "pair:review": "tsx scripts/pair-en-et/pair.ts review"
   },
   "dependencies": {
     "astro": "^5.0.0",
