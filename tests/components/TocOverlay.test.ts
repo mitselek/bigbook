@@ -11,18 +11,18 @@ describe('TocOverlay', () => {
     onClose: () => {},
   }
 
-  it.skip('renders three group headings (P2: component groupLabel() hardcodes old-mock slugs — rewire to read manifest.group)', () => {
+  it('renders four group headings in order: Front matter, Chapters, Stories, Appendices', () => {
     render(TocOverlay, { props: defaultProps })
 
-    expect(screen.getByText('Front matter')).toBeInTheDocument()
-    expect(screen.getByText('Chapters')).toBeInTheDocument()
-    expect(screen.getByText('Appendices')).toBeInTheDocument()
+    const headings = screen.getAllByRole('heading', { level: 3 })
+    const texts = headings.map((h) => h.textContent?.trim())
+    expect(texts).toEqual(['Front matter', 'Chapters', 'Stories', 'Appendices'])
   })
 
   it('renders bilingual titles for each chapter', () => {
     render(TocOverlay, { props: defaultProps })
 
-    // Ch01 should have both EN and ET titles (with # prefix stripped)
+    // Ch01 should have both EN and ET titles (with # prefix stripped).
     expect(screen.getByText(/Bill's Story/)).toBeInTheDocument()
     expect(screen.getByText(/Billi lugu/)).toBeInTheDocument()
   })
@@ -33,7 +33,7 @@ describe('TocOverlay', () => {
     expect(screen.queryByText('Front matter')).not.toBeInTheDocument()
   })
 
-  it.skip('calls onSelect and onClose when entry is clicked (P2: expects old-mock slug ch01-billi-lugu; new manifest uses canonical ch01)', async () => {
+  it('calls onSelect with the canonical slug when an entry is clicked', async () => {
     const onSelect = vi.fn()
     const onClose = vi.fn()
     render(TocOverlay, { props: { ...defaultProps, onSelect, onClose } })
@@ -41,7 +41,7 @@ describe('TocOverlay', () => {
     const entry = screen.getByText(/Bill's Story/).closest('[role="option"]')!
     await fireEvent.click(entry)
 
-    expect(onSelect).toHaveBeenCalledWith('ch01-billi-lugu')
+    expect(onSelect).toHaveBeenCalledWith('ch01')
     expect(onClose).toHaveBeenCalled()
   })
 
