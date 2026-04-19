@@ -2,9 +2,6 @@
 chapter: copyright
 title: 'Copyright Info'
 lang: et
-group: front-matter
-pdfPageStart: 1
-pdfPageEnd: 1
 ---
 
 ::para[copyright-p001]
@@ -62,3 +59,4 @@ ISBN 1-893007-16-2
 ::para[copyright-p014]
 
 Printed in the United States of America
+test
