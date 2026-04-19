@@ -53,6 +53,19 @@
         "origin": "Abraham Ortelius (1527–1598) — Antwerp cartographer, humanist, and antiquarian, one of Christophe Plantin's closest personal friends and the author whose masterpiece Plantin's own press brought into the world. In 1570 Officina Plantiniana published Ortelius's Theatrum Orbis Terrarum, the first modern atlas and one of the most consequential books of the 16th century. The Theatrum's innovation was not new geographic knowledge — Ortelius drew almost none of its maps himself. Instead he collected existing maps from eighty-seven different cartographers, reformatted them to a uniform folio size and visual vocabulary, compiled them into a single bound volume with consistent typography and indexing, and attached the Catalogus Auctorum Tabularum Geographicarum, an explicit credit list for every source author. He invented the atlas as a genre through a single precise operation: preserve every source, restructure their presentation into a uniform side-by-side form. The Plantin-Moretus Museum in Antwerp preserves his correspondence with Plantin from three decades of friendship and collaboration.",
         "significance": "A PURPLE who takes working implementations and restructures them into a uniform, legible form without changing their behavior. Ortelius's move was not metaphorical refactoring — it was literal: take parallel sources, preserve every one unchanged, compile them into a consistent side-by-side presentation with indexing. That is structurally the same move bigbook makes with its English and Estonian editions, at the same granularity, four hundred and fifty years earlier. His presence on the roster signals that PURPLE's job is to honor every passing test exactly as it is while improving the form it occupies, and it binds the roster together with a documented friendship to the locked three — Plantin was not only his publisher but his friend."
       }
+    },
+    {
+      "name": "boderie",
+      "agentType": "general-purpose",
+      "model": "claude-sonnet-4-6",
+      "color": "cyan",
+      "prompt": "prompts/boderie.md",
+      "lore": {
+        "fullName": "Guy Le Fèvre de la Boderie",
+        "nickname": "Boderie",
+        "origin": "Guy Le Fèvre de la Boderie (1541–1598) — French humanist-orientalist, scholar of Syriac and Hebrew. Plantin hired him to prepare the Syriac portion of the Biblia Polyglotta, working alongside Benito Arias Montano. A translator in the Antwerp Plantiniana circle, documented collaborator of the team's RED.",
+        "significance": "A one-shot translator invoked by the content bootstrap generator to fill asymmetric blocks between the EN and ET editions of the AA Big Book. Boderie runs at generator execution time — not during implementation — reads the source, outputs the translation, caches the result. No scratchpad; the cache file is his memory."
+      }
     }
   ]
 }
