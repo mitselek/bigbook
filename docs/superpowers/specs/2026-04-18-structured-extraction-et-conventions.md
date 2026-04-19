@@ -63,12 +63,22 @@ if prev_line.rstrip().endswith(('\u2013', '\u2212')):
 
 Estonian running headers render at **11pt NewCaledonia**, not 9pt as in English. The EN drop rule `y0 < 50 AND size <= 9.5` misses them.
 
-**ET drop rule:** `y0 < 50 AND (size <= 11.5 OR text.strip().isdigit())`.
+**ET drop rule:** `y0 < 45 AND (size <= 11.5 OR text.strip().isdigit())`.
+
+**Important — y-gate is `< 45`, not `< 50`.** (Wave 3 finding, arsti-arvamus): 11.5pt body lines can appear at `y = 49` on certain pages. The earlier `< 50` gate false-dropped legitimate body content. Running headers actually sit at `y = 35`, so `< 45` is a safe tighter gate.
 
 Known ET running headers:
 
 - Even pages: `ANONÜÜMSED ALKOHOOLIKUD` (book title)
 - Odd pages: chapter title (e.g., `BILLI LUGU`, `LAHENDUS ON OLEMAS`)
+
+## Paragraph boundary via size-band transition (ET — Wave 3 refinement)
+
+In sections with **multi-size body text** (Doctor's Opinion has narrator framing at ~12.5pt and letter/statement body at ~11.5pt), paragraph transitions don't always show x-indent changes. The narrator might hand off to a letter at different y with no indent signal.
+
+**Rule:** flush the current paragraph when font-size changes between adjacent lines, even if x-indent doesn't shift. Apply per section that has multi-size body. Known instance: `arsti-arvamus`.
+
+When this rule fires in the same section, maintain dual paragraph-indent thresholds per size band (e.g. `x >= 64` for narrator 12.5pt; `x >= 76` for letter 11.5pt).
 
 ## Drop-cap (ET refinement)
 
@@ -133,3 +143,10 @@ The first appendix page (`appendix-i-aa-traditsioonid`, p593) opens with a `LISA
   - **No abbreviation expansion in ET headings**: confirmed via dr-bob (`DOKTOR` stays `DOKTOR`, not abbreviated to `Dr.`). Estonian source typically uses full word forms; the EN pattern of abbreviation expansion (`Dr.` → `DOCTOR`) does NOT apply.
   - **Block-count parity with EN**: ch05 both 61 blocks, dr-bob both 39 blocks, appendix-i ET 33 vs EN 32 (+1 for the LISAD TOC on p593). Strong cross-language structural alignment validates the shared schema.
   - **Source quirks preserved** in appendix-i long-form: duplicated word `heaolu, heaolu`, truncated continuation fragment `simustes...`, heading singular `TRADITSIOON` vs plural elsewhere. Fidelity-over-correction maintained.
+- **2026-04-18 (Wave 3 ch02/ch11 + 2 stories + appendix-vii + arsti-arvamus, accepted)**:
+  - **Running-header y-gate tightened** from `y0 < 50` to `y0 < 45`. Flagged by arsti-arvamus agent: 11.5pt body lines at `y=49` were false-dropped. Running headers actually sit at `y=35`, making `y < 45` a safe gate.
+  - **Size-band transition as paragraph boundary**: for sections with multi-size body (e.g. arsti-arvamus narrator 12.5pt + letter 11.5pt), flush paragraph on size-band change. Apply dual x-indent thresholds per size band.
+  - **Three-line heading with disambiguator** (appendix-vii): `VII` / `KAKSTEIST KONSEPTSIOONI` / `(LÜHIKESEL KUJUL)`. Merge all three into a single heading block — matches the English Wave 6 appendix-vii pattern.
+  - **Block-count parity with EN** is very strong across Wave 3. ch02, stories, arsti-arvamus all exact matches. ch11 has +15 from Part I opener pages (197-202) that the outline's page range attaches to ch11 but contextually belong to Part II entry — document as known structural seam.
+  - **Source quirks preserved**: `KONSEPTSIOONI` vs metadata `Kontseptsiooni` (single S vs with T), `Dave B` vs EN `Dave B.`, `Doktor William D Silkworth` (no period after D) in 2nd byline of arsti-arvamus, ASCII `"` closing quote mixed with `„` opener in `p040` of arsti-arvamus, duplicated clause `Me oleme teiega Vaimses Sõpruskonnas Me ühineme teiega Vaimses Sõpruskonnas` in ch11 p062. All preserved verbatim.
+  - **Part I opener pages (pp197-202) attached to ch11** by outline range: 5 part-opener headings + body paragraphs. Structurally transitional; accept as ch11 tail for this pass. Revisit if future needs call for different section boundaries.

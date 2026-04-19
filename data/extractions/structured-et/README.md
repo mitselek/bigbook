@@ -21,12 +21,12 @@ Source PDF: `legacy/_source/BIGBOOK layout.pdf` (608 pages)
 
 - [x] Wave 1 (1 section): `ch01-billi-lugu` — pilot
 - [x] Wave 2 (3 sections): `ch05-kuidas-see-toetab`, `story-doktor-bobi-painajalik-unenagu`, `appendix-i-aa-traditsioonid`
-- [ ] Wave 3 (6 sections)
+- [x] Wave 3 (6 sections): `ch02-lahendus-on-olemas`, `ch11-tulevikupilt-teie-jaoks`, `story-tanulikkus-tegudes`, `story-ka-naised-on-haiged`, `appendix-vii-kaksteist-kontseptsiooni`, `arsti-arvamus`
 - [ ] Wave 4 (12 sections)
 - [ ] Wave 5 (22 sections)
 - [ ] Wave 6 (23 sections)
 
-**Completed: 4 of 67 sections.**
+**Completed: 10 of 67 sections.**
 
 ## No para-id pairing in this cycle
 
