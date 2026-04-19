@@ -21,7 +21,12 @@ export default defineConfig({
     setupFiles: ['tests/setup.ts'],
     coverage: {
       provider: 'v8',
-      include: ['src/lib/**/*.ts', 'src/lib/**/*.svelte.ts', 'scripts/pair-en-et/**/*.ts'],
+      include: [
+        'src/lib/**/*.ts',
+        'src/lib/**/*.svelte.ts',
+        'scripts/pair-en-et/**/*.ts',
+        'scripts/bootstrap-content/**/*.ts',
+      ],
       exclude: ['src/lib/content/manifest.ts', 'src/lib/content/baseline-config.ts'],
       thresholds: {
         lines: 90,
