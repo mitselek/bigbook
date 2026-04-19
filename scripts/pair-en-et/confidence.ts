@@ -3,10 +3,20 @@ export interface ClassifyResult {
   notes?: string
 }
 
-export function lengthRatio(_enText: string, _etText: string): number {
-  return NaN
+const LOWER = 0.55
+const UPPER = 1.6
+
+export function lengthRatio(enText: string, etText: string): number {
+  return etText.length / enText.length
 }
 
-export function classify(_enText: string, _etText: string): ClassifyResult {
-  return { confidence: 'low' }
+export function classify(enText: string, etText: string): ClassifyResult {
+  if (enText.length === 0 || etText.length === 0) {
+    return { confidence: 'low', notes: 'empty text on one or both sides' }
+  }
+  const r = lengthRatio(enText, etText)
+  if (r >= LOWER && r <= UPPER) {
+    return { confidence: 'high' }
+  }
+  return { confidence: 'low', notes: `length-ratio ${r.toFixed(2)}` }
 }
