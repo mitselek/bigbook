@@ -10,4 +10,4 @@
 // update this constant to the new commit's SHA and the reader transparently
 // switches over on the next shell deploy.
 
-export const BASELINE_COMMIT_SHA = 'fc6e2aeeecfda3bc5e9ef19c7dbb6f296137f0a1'
+export const BASELINE_COMMIT_SHA = 'ab6f550107b01bca53f62824d4dfe2dfa0486a68'
