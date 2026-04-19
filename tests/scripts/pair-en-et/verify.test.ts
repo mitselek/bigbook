@@ -161,4 +161,38 @@ describe('verifyArtifact', () => {
     expect(result.ok).toBe(false)
     expect(result.violations.some((v) => v.code === 'I5-nm-needs-justification')).toBe(true)
   })
+
+  it('accounts for unpairedSection blocks (no I1-en-missing for whole-section EN-only)', () => {
+    const a = validArtifact()
+    // Add an EN-only unpaired section so its blocks don't count as missing
+    a.sections = []
+    a.unpairedSections = [
+      {
+        side: 'en',
+        sectionId: 'ch01-bills-story',
+        canonicalSlug: 'ch01',
+        reason: 'section-en-only',
+        blockCount: 2,
+      },
+    ]
+    const result = verifyArtifact(a, validEn(), validEt())
+    // EN blocks from ch01-bills-story are accounted for by the unpaired section.
+    // ET blocks still missing (nothing references them), producing I1-et-missing.
+    expect(result.violations.some((v) => v.code === 'I1-en-missing')).toBe(false)
+    expect(result.violations.some((v) => v.code === 'I1-et-missing')).toBe(true)
+  })
+
+  it('I1: rejects duplicate ET block reference across pairs', () => {
+    const a = validArtifact()
+    const firstSection = a.sections[0]
+    expect(firstSection).toBeDefined()
+    if (firstSection === undefined) throw new Error('narrowing')
+    const secondPair = firstSection.pairs[1]
+    expect(secondPair).toBeDefined()
+    if (secondPair === undefined) throw new Error('narrowing')
+    secondPair.etBlockId = 'ch01-billi-lugu-p001'
+    const result = verifyArtifact(a, validEn(), validEt())
+    expect(result.ok).toBe(false)
+    expect(result.violations.some((v) => v.code === 'I1-et-duplicate')).toBe(true)
+  })
 })

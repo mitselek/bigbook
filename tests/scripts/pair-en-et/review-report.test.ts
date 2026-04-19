@@ -189,4 +189,101 @@ describe('renderReviewReport', () => {
     expect(md).toMatch(/a-pamphlets/)
     expect(md).toMatch(/49/)
   })
+
+  it('renders an N:M low-confidence pair with joined texts and an et-side unpaired block', () => {
+    const artifact: PairingArtifact = {
+      version: '1.0',
+      generatedAt: '2026-04-19T00:00:00Z',
+      sourceEn: { path: 'en.json', sha256: 'aaa', blockCount: 2 },
+      sourceEt: { path: 'et.json', sha256: 'bbb', blockCount: 2 },
+      sections: [
+        {
+          canonicalSlug: 'ch01',
+          enSectionId: 'ch01-bills-story',
+          etSectionId: 'ch01-billi-lugu',
+          pairs: [
+            {
+              paraId: 'ch01-q001',
+              kind: 'blockquote',
+              enBlockId: ['ch01-bills-story-q001', 'ch01-bills-story-q002'],
+              etBlockId: ['ch01-billi-lugu-q001'],
+              confidence: 'low',
+              notes: 'accepted-collapse',
+            },
+          ],
+          unpaired: [
+            {
+              blockId: 'ch01-billi-lugu-p999',
+              side: 'et',
+              kind: 'paragraph',
+              reason: 'needs-review',
+            },
+          ],
+          diagnostics: [],
+        },
+      ],
+      unpairedSections: [],
+    }
+    const en: Extraction = {
+      edition: '4th',
+      sourcePdf: 'en.pdf',
+      extractedAt: '2026-04-19T00:00:00Z',
+      sections: [
+        {
+          id: 'ch01-bills-story',
+          kind: 'chapter',
+          title: "Bill's Story",
+          pdfPageStart: 1,
+          pdfPageEnd: 1,
+          bookPageStart: 1,
+          bookPageEnd: 1,
+          blocks: [
+            {
+              id: 'ch01-bills-story-q001',
+              kind: 'blockquote',
+              text: 'First quote',
+              pdfPage: 1,
+            },
+            {
+              id: 'ch01-bills-story-q002',
+              kind: 'blockquote',
+              text: 'Second quote',
+              pdfPage: 1,
+            },
+          ],
+        },
+      ],
+    }
+    const et: Extraction = {
+      edition: '4th',
+      sourcePdf: 'et.pdf',
+      extractedAt: '2026-04-19T00:00:00Z',
+      sections: [
+        {
+          id: 'ch01-billi-lugu',
+          kind: 'chapter',
+          title: 'Billi lugu',
+          pdfPageStart: 1,
+          pdfPageEnd: 1,
+          bookPageStart: 1,
+          bookPageEnd: 1,
+          blocks: [
+            { id: 'ch01-billi-lugu-q001', kind: 'blockquote', text: 'Kogu tsitaat', pdfPage: 1 },
+            {
+              id: 'ch01-billi-lugu-p999',
+              kind: 'paragraph',
+              text: 'Orphan ET paragraph',
+              pdfPage: 1,
+            },
+          ],
+        },
+      ],
+    }
+    const md = renderReviewReport(artifact, en, et)
+    expect(md).toMatch(/First quote \| Second quote/)
+    expect(md).toMatch(/Kogu tsitaat/)
+    expect(md).toMatch(/ch01-bills-story-q001, ch01-bills-story-q002/)
+    expect(md).toMatch(/Orphan ET paragraph/)
+    expect(md).toMatch(/accepted-collapse/)
+  })
 })

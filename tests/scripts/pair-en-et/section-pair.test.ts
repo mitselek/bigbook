@@ -99,4 +99,25 @@ describe('pairSections', () => {
     if (first === undefined) throw new Error('narrowing')
     expect(first.blockCount).toBe(49)
   })
+
+  it('throws when an ET extraction section has no canonical slug mapping', () => {
+    const en = mkExtraction([])
+    const et = mkExtraction(['not-an-et-section'])
+    expect(() => pairSections(en, et)).toThrow(/ET section.*no canonical slug mapping/i)
+  })
+
+  it('emits UnpairedSection side=et when EN is missing but ET has the paired slug', () => {
+    // Use ch01 slug: EN missing, ET present as ch01-billi-lugu
+    const en = mkExtraction([])
+    const et = mkExtraction(['ch01-billi-lugu'])
+    const result = pairSections(en, et)
+    expect(result.sectionPairs.length).toBe(0)
+    expect(result.unpairedSections.length).toBe(1)
+    const first = result.unpairedSections[0]
+    expect(first).toBeDefined()
+    if (first === undefined) throw new Error('narrowing')
+    expect(first.side).toBe('et')
+    expect(first.sectionId).toBe('ch01-billi-lugu')
+    expect(first.canonicalSlug).toBe('ch01')
+  })
 })
