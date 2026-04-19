@@ -43,6 +43,8 @@ def join_lines_et(prev, curr):
 
 **Real U+002D hyphens in ET body text**: present but intra-line only (e.g., `Uus-Inglismaa`, `AA-le`, `pastori-poeg`). These are authored compound-hyphens and are preserved as-is because they don't appear at line-end.
 
+**Wave 4 refinement — preserve line-end U+002D in ET.** When U+002D DOES appear at an ET line-end (rare), it is almost always an authored compound hyphen being split across lines, NOT a typesetter artifact. Examples: `Võib-` + `olla` → `Võib-olla`. Unlike EN (where line-end U+002D defaults to strip-and-join with a narrow allowlist), **in ET, preserve line-end U+002D and join without space**. The EN compound-prefix allowlist is inapplicable either way.
+
 ## Em-dash / en-dash (ET refinement)
 
 Estonian uses **U+2013 EN-DASH** and sometimes **U+2212 MINUS SIGN** for mid-sentence dashes, **not** U+2014 EM-DASH (which is the English convention). These characters appear **space-padded** in Estonian prose (`ja nii – mina pöördusin` with spaces on both sides of the dash).
@@ -117,6 +119,10 @@ Estonian uses **two marker styles** depending on context:
 
 **Item separator in ET is U+2212 MINUS SIGN with surrounding spaces** (`−`), not em-dash. This matches the ET mid-sentence dash convention.
 
+**Marker inclusion in text (Wave 4 clarification):** **Keep the marker inside the `text` field.** Examples: `"1. Tunnistasime..."`, `"Üks − Meie ühine hüvang..."`, `"I. Lõplik vastutus..."`. Do NOT strip the marker prefix — downstream consumers can parse it via regex if needed. Stripping loses ordinal context and breaks parity with English.
+
+**Hanging-indent continuation heuristic (Wave 4):** when a non-marker line in list context starts with leading whitespace (raw text begins with `\s+`, not the canonical body-margin indent), it is a continuation of the previous list-item. Observed in `story-ta-alahindas-enda-vaartust` where Six-Step item 2 wrapped onto `     saamine.`. Absorb into the current `list-item` block.
+
 ## TOC-on-appendix-opening pattern (ET)
 
 The first appendix page (`appendix-i-aa-traditsioonid`, p593) opens with a `LISAD` heading followed by a **7-row roman-numeral table-of-contents** listing all appendices (I-VII). This pattern may recur on other appendix openers.
@@ -150,3 +156,13 @@ The first appendix page (`appendix-i-aa-traditsioonid`, p593) opens with a `LISA
   - **Block-count parity with EN** is very strong across Wave 3. ch02, stories, arsti-arvamus all exact matches. ch11 has +15 from Part I opener pages (197-202) that the outline's page range attaches to ch11 but contextually belong to Part II entry — document as known structural seam.
   - **Source quirks preserved**: `KONSEPTSIOONI` vs metadata `Kontseptsiooni` (single S vs with T), `Dave B` vs EN `Dave B.`, `Doktor William D Silkworth` (no period after D) in 2nd byline of arsti-arvamus, ASCII `"` closing quote mixed with `„` opener in `p040` of arsti-arvamus, duplicated clause `Me oleme teiega Vaimses Sõpruskonnas Me ühineme teiega Vaimses Sõpruskonnas` in ch11 p062. All preserved verbatim.
   - **Part I opener pages (pp197-202) attached to ch11** by outline range: 5 part-opener headings + body paragraphs. Structurally transitional; accept as ch11 tail for this pass. Revisit if future needs call for different section boundaries.
+- **2026-04-18 (Wave 4 — 12 new + 4 re-runs, accepted)**:
+  - **Cross-run repeatability test passed.** Four sections re-extracted blind against backups: ch05 byte-identical (Jaccard 1.00), ch01 99.91% (page-bottom order swap), appendix-i 99.87% (new run caught extra sub-heading, improvement), dr-bob 99.67% (list-item marker variance). Method is highly reproducible; variance sources are documented conventions gaps, not systematic bugs.
+  - **Preserve line-end U+002D in ET** (added to cross-line-hyphenation section). Confirmed by `ch06-tegutsema` (`Võib-` + `olla`) and `story-noiaring`. In ET, U+002D at line-end is almost always an authored compound, not a typesetter artifact.
+  - **List-item marker inclusion in text** formalized (keep markers IN `text`). Discovered via dr-bob re-run stripping markers that the original preserved. Both agents need consistent guidance.
+  - **Hanging-indent continuation heuristic**: non-marker lines with leading whitespace are list-item continuations. From `story-ta-alahindas-enda-vaartust` Six-Steps.
+  - **Cross-page terminal-punctuation split may be REQUIRED for ET** (not just optional as in EN). From `story-meie-sober-lounast`: page-top paragraphs at body margin without indent need the terminal-punctuation rule.
+  - **En-dash space-padding detection via preceding char** (noiaring): raw line trims trailing whitespace before the dash, so track whether the character BEFORE the dash is a space, not the trailing space.
+  - **Page-bottom reading order: footnote before byline** (ch01 re-run finding). Natural reading order places footnotes (page-bottom apparatus) before the final byline (story sign-off at main-body position). Enforce this ordering when both appear on the final page.
+  - **Editorial-interlude blockquote confirmed in ET** (`story-anonuumne-alkohoolik-number-kolm` pp220-221). 11 blockquote blocks (vs EN's 12; ET collapses the final 2 into 1 paragraph per source). Size-band transition detection from arsti-arvamus transferred cleanly.
+  - **Block-count parity with EN remains near-exact** across all sections extracted. Evidence that the shared schema + ET companion conventions produce a faithful representation of Estonian edition structure.
