@@ -19,14 +19,14 @@ Source PDF: `legacy/_source/BIGBOOK layout.pdf` (608 pages)
 
 ## Wave progress
 
-- [ ] Wave 1 (1 section): `ch01-billi-lugu` — pilot
+- [x] Wave 1 (1 section): `ch01-billi-lugu` — pilot
 - [ ] Wave 2 (3 sections)
 - [ ] Wave 3 (6 sections)
 - [ ] Wave 4 (12 sections)
 - [ ] Wave 5 (22 sections)
 - [ ] Wave 6 (23 sections)
 
-**Completed: 0 of 67 sections.**
+**Completed: 1 of 67 sections.**
 
 ## No para-id pairing in this cycle
 
