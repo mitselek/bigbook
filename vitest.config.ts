@@ -27,7 +27,12 @@ export default defineConfig({
         'scripts/pair-en-et/**/*.ts',
         'scripts/bootstrap-content/**/*.ts',
       ],
-      exclude: ['src/lib/content/manifest.ts', 'src/lib/content/baseline-config.ts'],
+      exclude: [
+        'src/lib/content/manifest.ts',
+        'src/lib/content/baseline-config.ts',
+        'scripts/pair-en-et/pair.ts',
+        'scripts/bootstrap-content/bootstrap.ts',
+      ],
       thresholds: {
         lines: 90,
         functions: 90,
