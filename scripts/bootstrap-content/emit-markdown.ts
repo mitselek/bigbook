@@ -36,9 +36,10 @@ export function renderSection(plan: SectionRenderPlan, lang: 'en' | 'et'): strin
 
 // Markdown treats a line that starts with `<digits>. ` (or tab) as an ordered-list
 // marker, so prose like "1940. aastal..." renders as <ol start="1940">. Escape the
-// period at start-of-line to prevent that.
+// period at start-of-line for 4-digit years in the 1900–2099 range only — narrower
+// than `^\d+` to avoid false positives on legitimate in-prose numeric references.
 function escapeLeadingOrderedListMarker(text: string): string {
-  return text.replace(/^(\d+)(\.[ \t])/gm, '$1\\$2')
+  return text.replace(/^((?:19|20)\d{2})(\.[ \t])/gm, '$1\\$2')
 }
 
 function renderBody(block: RenderedBlock): string {

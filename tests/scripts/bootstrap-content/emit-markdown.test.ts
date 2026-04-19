@@ -65,6 +65,28 @@ describe('renderBlock', () => {
     expect(out).toBe(`::para[s02-q010]\n\n> 1940\\. aastal oli see aasta.\n`)
   })
 
+  it('does not escape non-year digit-dot at start of line (e.g. short step numbering)', () => {
+    const out = renderBlock(
+      mk({
+        paraId: 'ch05-p010',
+        kind: 'paragraph',
+        text: '1. First, we admitted.',
+      }),
+    )
+    expect(out).toBe(`::para[ch05-p010]\n\n1. First, we admitted.\n`)
+  })
+
+  it('does not escape 3-digit or 18xx dates (outside 1900–2099 range)', () => {
+    const out = renderBlock(
+      mk({
+        paraId: 'ch01-p005',
+        kind: 'paragraph',
+        text: '1776. aastal oli revolutsioon.',
+      }),
+    )
+    expect(out).toBe(`::para[ch01-p005]\n\n1776. aastal oli revolutsioon.\n`)
+  })
+
   it('renders a list-item with a hyphen bullet', () => {
     const out = renderBlock(
       mk({ paraId: 'a-pamphlets-l001', kind: 'list-item', text: 'A Brief Guide to A.A.' }),
