@@ -34,21 +34,28 @@ export function renderSection(plan: SectionRenderPlan, lang: 'en' | 'et'): strin
   return fm + '\n' + body
 }
 
+// Markdown treats a line that starts with `<digits>. ` (or tab) as an ordered-list
+// marker, so prose like "1940. aastal..." renders as <ol start="1940">. Escape the
+// period at start-of-line to prevent that.
+function escapeLeadingOrderedListMarker(text: string): string {
+  return text.replace(/^(\d+)(\.[ \t])/gm, '$1\\$2')
+}
+
 function renderBody(block: RenderedBlock): string {
   switch (block.kind) {
     case 'heading':
       return `# ${block.text}`
     case 'paragraph':
-      return block.text
+      return escapeLeadingOrderedListMarker(block.text)
     case 'list-item':
       return `- ${block.text}`
     case 'blockquote':
-      return block.text
+      return escapeLeadingOrderedListMarker(block.text)
         .split('\n')
         .map((line) => `> ${line}`)
         .join('\n')
     case 'verse':
-      return block.text.replace(/\n/g, '  \n')
+      return escapeLeadingOrderedListMarker(block.text).replace(/\n/g, '  \n')
     case 'table':
       return block.text
     case 'byline':

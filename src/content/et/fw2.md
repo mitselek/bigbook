@@ -53,7 +53,7 @@ Uue raamatu ilmumisele järgnesid olulised sündmused. Tuntud vaimulik doktor Ha
 
 ::para[fw2-p011]
 
-1940. aasta kevadel korraldas John D. Rockefeller Jr paljudele oma sõpradele õhtusöögi, kuhu ta kutsus AA liikmeid oma lugusid rääkima. Uudised sellest läksid liikvele, taas vallandus järelepärimiste tulv ning paljud pöördusid „Anonüümsete Alkohoolikute” raamatu leidmiseks raamatupoodidesse. 1941. aasta märtsiks oli liikmeskonna arv kiiresti kasvanud juba 2000-ni. Jack Alexander kirjutas Saturday Evening Postile põhjaliku loo, mis esitas laiemale lugejaskonnale AA-st niivõrd veenva pildi, et hakkasime alkohoolikute abipalvete alla uppuma. 1941. aasta lõpuks oli AA-l 8000 liiget. Kiiresti kasvav ettevõtmine oli täies hoos. AA-st oli saanud ülemaaline institutsioon.
+1940\. aasta kevadel korraldas John D. Rockefeller Jr paljudele oma sõpradele õhtusöögi, kuhu ta kutsus AA liikmeid oma lugusid rääkima. Uudised sellest läksid liikvele, taas vallandus järelepärimiste tulv ning paljud pöördusid „Anonüümsete Alkohoolikute” raamatu leidmiseks raamatupoodidesse. 1941. aasta märtsiks oli liikmeskonna arv kiiresti kasvanud juba 2000-ni. Jack Alexander kirjutas Saturday Evening Postile põhjaliku loo, mis esitas laiemale lugejaskonnale AA-st niivõrd veenva pildi, et hakkasime alkohoolikute abipalvete alla uppuma. 1941. aasta lõpuks oli AA-l 8000 liiget. Kiiresti kasvav ettevõtmine oli täies hoos. AA-st oli saanud ülemaaline institutsioon.
 
 ::para[fw2-p012]
 

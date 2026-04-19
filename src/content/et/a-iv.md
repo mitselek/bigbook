@@ -13,7 +13,7 @@ pdfPageEnd: 576
 
 ::para[a-iv-p002]
 
-1951. aastal anti Anonüümsetele Alkohoolikutele Laskeri preemia. Põhjendus kõlab osaliselt nõnda:
+1951\. aastal anti Anonüümsetele Alkohoolikutele Laskeri preemia. Põhjendus kõlab osaliselt nõnda:
 
 (_BB:Boderie_)
 

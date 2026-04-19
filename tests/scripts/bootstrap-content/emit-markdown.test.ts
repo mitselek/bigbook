@@ -21,6 +21,50 @@ describe('renderBlock', () => {
     expect(out).toBe(`::para[ch01-p001]\n\nWar fever ran high.\n`)
   })
 
+  it('escapes leading year-dot pattern in paragraphs to prevent ordered-list coercion', () => {
+    const out = renderBlock(
+      mk({
+        paraId: 'ch01-p002',
+        kind: 'paragraph',
+        text: '1940. aastal oli see teine asi.',
+      }),
+    )
+    expect(out).toBe(`::para[ch01-p002]\n\n1940\\. aastal oli see teine asi.\n`)
+  })
+
+  it('escapes the leading year-dot pattern at each line of a multi-line paragraph', () => {
+    const out = renderBlock(
+      mk({
+        paraId: 'ch01-p003',
+        kind: 'paragraph',
+        text: 'Eessõna.\n1929. aastal algas krahh.',
+      }),
+    )
+    expect(out).toBe(`::para[ch01-p003]\n\nEessõna.\n1929\\. aastal algas krahh.\n`)
+  })
+
+  it('does not escape year-dot pattern that is not at start of line', () => {
+    const out = renderBlock(
+      mk({
+        paraId: 'ch01-p004',
+        kind: 'paragraph',
+        text: 'Mid-sentence 1940. should not be escaped.',
+      }),
+    )
+    expect(out).toBe(`::para[ch01-p004]\n\nMid-sentence 1940. should not be escaped.\n`)
+  })
+
+  it('escapes year-dot in blockquote lines too', () => {
+    const out = renderBlock(
+      mk({
+        paraId: 's02-q010',
+        kind: 'blockquote',
+        text: '1940. aastal oli see aasta.',
+      }),
+    )
+    expect(out).toBe(`::para[s02-q010]\n\n> 1940\\. aastal oli see aasta.\n`)
+  })
+
   it('renders a list-item with a hyphen bullet', () => {
     const out = renderBlock(
       mk({ paraId: 'a-pamphlets-l001', kind: 'list-item', text: 'A Brief Guide to A.A.' }),

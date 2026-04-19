@@ -25,7 +25,7 @@ Olen palju aastaid tegelenud alkoholismi raviga.
 
 ::para[arsti-p004]
 
-1934. aasta lõpul oli minu hoole all patsient, kes, kuigi oli olnud varasemalt asjatundlik ja hea teenimispotentsiaaliga ärimees, oli seda tüüpi alkohoolik, keda ma olin hakanud pidama lootusetuks.
+1934\. aasta lõpul oli minu hoole all patsient, kes, kuigi oli olnud varasemalt asjatundlik ja hea teenimispotentsiaaliga ärimees, oli seda tüüpi alkohoolik, keda ma olin hakanud pidama lootusetuks.
 
 ::para[arsti-p005]
 
