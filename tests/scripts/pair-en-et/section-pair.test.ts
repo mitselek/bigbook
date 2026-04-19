@@ -56,10 +56,11 @@ describe('pairSections', () => {
     const result = pairSections(en, et)
     expect(result.sectionPairs.length).toBe(0)
     expect(result.unpairedSections.length).toBe(1)
-    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-    expect(result.unpairedSections[0]!.reason).toBe('section-et-only')
-    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-    expect(result.unpairedSections[0]!.side).toBe('en')
+    const first = result.unpairedSections[0]
+    expect(first).toBeDefined()
+    if (first === undefined) throw new Error('narrowing')
+    expect(first.reason).toBe('section-et-only')
+    expect(first.side).toBe('en')
   })
 
   it('throws when an extraction section has no canonical slug', () => {
@@ -93,7 +94,9 @@ describe('pairSections', () => {
     }
     const et = mkExtraction([])
     const result = pairSections(en, et)
-    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-    expect(result.unpairedSections[0]!.blockCount).toBe(49)
+    const first = result.unpairedSections[0]
+    expect(first).toBeDefined()
+    if (first === undefined) throw new Error('narrowing')
+    expect(first.blockCount).toBe(49)
   })
 })
