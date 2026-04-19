@@ -1,0 +1,649 @@
+{
+  "sections": [
+    {
+      "id": "copyright-info",
+      "kind": "front-matter",
+      "title": "Copyright Info",
+      "pdfPageStart": 4,
+      "bookPageStart": 0,
+      "pdfPageEnd": 10,
+      "bookPageEnd": 6
+    },
+    {
+      "id": "eessona",
+      "kind": "preface",
+      "title": "Eessõna",
+      "pdfPageStart": 11,
+      "bookPageStart": 0,
+      "pdfPageEnd": 12,
+      "bookPageEnd": 1
+    },
+    {
+      "id": "eessona-1st",
+      "kind": "foreword",
+      "title": "Eessõna esimesele väljaandele",
+      "pdfPageStart": 13,
+      "bookPageStart": 0,
+      "pdfPageEnd": 14,
+      "bookPageEnd": 1
+    },
+    {
+      "id": "eessona-2nd",
+      "kind": "foreword",
+      "title": "Eessõna teisele väljaandele",
+      "pdfPageStart": 15,
+      "bookPageStart": 0,
+      "pdfPageEnd": 21,
+      "bookPageEnd": 6
+    },
+    {
+      "id": "eessona-3rd",
+      "kind": "foreword",
+      "title": "Eessõna kolmandale väljaandele",
+      "pdfPageStart": 22,
+      "bookPageStart": 0,
+      "pdfPageEnd": 22,
+      "bookPageEnd": 0
+    },
+    {
+      "id": "eessona-4th",
+      "kind": "foreword",
+      "title": "Eessõna neljandale väljaandele",
+      "pdfPageStart": 23,
+      "bookPageStart": 0,
+      "pdfPageEnd": 24,
+      "bookPageEnd": 1
+    },
+    {
+      "id": "arsti-arvamus",
+      "kind": "doctors-opinion",
+      "title": "Arsti arvamus",
+      "pdfPageStart": 25,
+      "bookPageStart": 0,
+      "pdfPageEnd": 32,
+      "bookPageEnd": 7
+    },
+    {
+      "id": "ch01-billi-lugu",
+      "kind": "chapter",
+      "title": "Billi lugu",
+      "pdfPageStart": 33,
+      "bookPageStart": 1,
+      "pdfPageEnd": 48,
+      "bookPageEnd": 16
+    },
+    {
+      "id": "ch02-lahendus-on-olemas",
+      "kind": "chapter",
+      "title": "Lahendus on olemas",
+      "pdfPageStart": 49,
+      "bookPageStart": 17,
+      "pdfPageEnd": 61,
+      "bookPageEnd": 29
+    },
+    {
+      "id": "ch03-alkoholismist-lahemalt",
+      "kind": "chapter",
+      "title": "Alkoholismist lähemalt",
+      "pdfPageStart": 62,
+      "bookPageStart": 30,
+      "pdfPageEnd": 75,
+      "bookPageEnd": 43
+    },
+    {
+      "id": "ch04-meie-agnostikud",
+      "kind": "chapter",
+      "title": "Meie, agnostikud",
+      "pdfPageStart": 76,
+      "bookPageStart": 44,
+      "pdfPageEnd": 89,
+      "bookPageEnd": 57
+    },
+    {
+      "id": "ch05-kuidas-see-toetab",
+      "kind": "chapter",
+      "title": "Kuidas see töötab",
+      "pdfPageStart": 90,
+      "bookPageStart": 58,
+      "pdfPageEnd": 103,
+      "bookPageEnd": 71
+    },
+    {
+      "id": "ch06-tegutsema",
+      "kind": "chapter",
+      "title": "Tegutsema",
+      "pdfPageStart": 104,
+      "bookPageStart": 72,
+      "pdfPageEnd": 120,
+      "bookPageEnd": 88
+    },
+    {
+      "id": "ch07-too-teistega",
+      "kind": "chapter",
+      "title": "Töö teistega",
+      "pdfPageStart": 121,
+      "bookPageStart": 89,
+      "pdfPageEnd": 135,
+      "bookPageEnd": 103
+    },
+    {
+      "id": "ch08-naistele",
+      "kind": "chapter",
+      "title": "Naistele",
+      "pdfPageStart": 136,
+      "bookPageStart": 104,
+      "pdfPageEnd": 153,
+      "bookPageEnd": 121
+    },
+    {
+      "id": "ch09-perekond-hiljem",
+      "kind": "chapter",
+      "title": "Perekond hiljem",
+      "pdfPageStart": 154,
+      "bookPageStart": 122,
+      "pdfPageEnd": 167,
+      "bookPageEnd": 135
+    },
+    {
+      "id": "ch10-tooandjatele",
+      "kind": "chapter",
+      "title": "Tööandjatele",
+      "pdfPageStart": 168,
+      "bookPageStart": 136,
+      "pdfPageEnd": 182,
+      "bookPageEnd": 150
+    },
+    {
+      "id": "ch11-tulevikupilt-teie-jaoks",
+      "kind": "chapter",
+      "title": "Tulevikupilt teie jaoks",
+      "pdfPageStart": 183,
+      "bookPageStart": 151,
+      "pdfPageEnd": 202,
+      "bookPageEnd": 170
+    },
+    {
+      "id": "story-doktor-bobi-painajalik-unenagu",
+      "kind": "story",
+      "title": "Doktor Bobi painajalik unenägu",
+      "pdfPageStart": 203,
+      "bookPageStart": 171,
+      "parentGroup": "personal-stories/pioneers-of-aa",
+      "pdfPageEnd": 213,
+      "bookPageEnd": 181
+    },
+    {
+      "id": "story-anonuumne-alkohoolik-number-kolm",
+      "kind": "story",
+      "title": "Anonüümne alkohoolik number kolm",
+      "pdfPageStart": 214,
+      "bookPageStart": 182,
+      "parentGroup": "personal-stories/pioneers-of-aa",
+      "pdfPageEnd": 224,
+      "bookPageEnd": 192
+    },
+    {
+      "id": "story-tanulikkus-tegudes",
+      "kind": "story",
+      "title": "Tänulikkus tegudes",
+      "pdfPageStart": 225,
+      "bookPageStart": 193,
+      "parentGroup": "personal-stories/pioneers-of-aa",
+      "pdfPageEnd": 231,
+      "bookPageEnd": 199
+    },
+    {
+      "id": "story-ka-naised-on-haiged",
+      "kind": "story",
+      "title": "Ka naised on haiged",
+      "pdfPageStart": 232,
+      "bookPageStart": 200,
+      "parentGroup": "personal-stories/pioneers-of-aa",
+      "pdfPageEnd": 239,
+      "bookPageEnd": 207
+    },
+    {
+      "id": "story-meie-sober-lounast",
+      "kind": "story",
+      "title": "Meie sõber lõunast",
+      "pdfPageStart": 240,
+      "bookPageStart": 208,
+      "parentGroup": "personal-stories/pioneers-of-aa",
+      "pdfPageEnd": 250,
+      "bookPageEnd": 218
+    },
+    {
+      "id": "story-noiaring",
+      "kind": "story",
+      "title": "Nõiaring",
+      "pdfPageStart": 251,
+      "bookPageStart": 219,
+      "parentGroup": "personal-stories/pioneers-of-aa",
+      "pdfPageEnd": 263,
+      "bookPageEnd": 231
+    },
+    {
+      "id": "story-jimi-lugu",
+      "kind": "story",
+      "title": "Jimi lugu",
+      "pdfPageStart": 264,
+      "bookPageStart": 232,
+      "parentGroup": "personal-stories/pioneers-of-aa",
+      "pdfPageEnd": 277,
+      "bookPageEnd": 245
+    },
+    {
+      "id": "story-mees-kes-seljatas-hirmu",
+      "kind": "story",
+      "title": "Mees, kes seljatas hirmu",
+      "pdfPageStart": 278,
+      "bookPageStart": 246,
+      "parentGroup": "personal-stories/pioneers-of-aa",
+      "pdfPageEnd": 289,
+      "bookPageEnd": 257
+    },
+    {
+      "id": "story-ta-alahindas-enda-vaartust",
+      "kind": "story",
+      "title": "Ta alahindas enda väärtust",
+      "pdfPageStart": 290,
+      "bookPageStart": 258,
+      "parentGroup": "personal-stories/pioneers-of-aa",
+      "pdfPageEnd": 299,
+      "bookPageEnd": 267
+    },
+    {
+      "id": "story-kuningriigi-votmed",
+      "kind": "story",
+      "title": "Kuningriigi võtmed",
+      "pdfPageStart": 300,
+      "bookPageStart": 268,
+      "parentGroup": "personal-stories/pioneers-of-aa",
+      "pdfPageEnd": 312,
+      "bookPageEnd": 280
+    },
+    {
+      "id": "story-puuduv-luli",
+      "kind": "story",
+      "title": "Puuduv lüli",
+      "pdfPageStart": 313,
+      "bookPageStart": 281,
+      "parentGroup": "personal-stories/they-stopped-in-time",
+      "pdfPageEnd": 320,
+      "bookPageEnd": 288
+    },
+    {
+      "id": "story-hirm-hirmu-ees",
+      "kind": "story",
+      "title": "Hirm hirmu ees",
+      "pdfPageStart": 321,
+      "bookPageStart": 289,
+      "parentGroup": "personal-stories/they-stopped-in-time",
+      "pdfPageEnd": 326,
+      "bookPageEnd": 294
+    },
+    {
+      "id": "story-koduperenaine-kes-joi-kodus",
+      "kind": "story",
+      "title": "Koduperenaine, kes jõi kodus",
+      "pdfPageStart": 327,
+      "bookPageStart": 295,
+      "parentGroup": "personal-stories/they-stopped-in-time",
+      "pdfPageEnd": 332,
+      "bookPageEnd": 300
+    },
+    {
+      "id": "story-arst-ravi-iseennast",
+      "kind": "story",
+      "title": "Arst, ravi iseennast!",
+      "pdfPageStart": 333,
+      "bookPageStart": 301,
+      "parentGroup": "personal-stories/they-stopped-in-time",
+      "pdfPageEnd": 340,
+      "bookPageEnd": 308
+    },
+    {
+      "id": "story-minu-voimalus-elada",
+      "kind": "story",
+      "title": "Minu võimalus elada",
+      "pdfPageStart": 341,
+      "bookPageStart": 309,
+      "parentGroup": "personal-stories/they-stopped-in-time",
+      "pdfPageEnd": 350,
+      "bookPageEnd": 318
+    },
+    {
+      "id": "story-elu-opilane",
+      "kind": "story",
+      "title": "Elu õpilane",
+      "pdfPageStart": 351,
+      "bookPageStart": 319,
+      "parentGroup": "personal-stories/they-stopped-in-time",
+      "pdfPageEnd": 359,
+      "bookPageEnd": 327
+    },
+    {
+      "id": "story-eitamise-joe-uletamine",
+      "kind": "story",
+      "title": "Eitamise jõe ületamine",
+      "pdfPageStart": 360,
+      "bookPageStart": 328,
+      "parentGroup": "personal-stories/they-stopped-in-time",
+      "pdfPageEnd": 369,
+      "bookPageEnd": 337
+    },
+    {
+      "id": "story-sest-ma-olen-alkohoolik",
+      "kind": "story",
+      "title": "Sest ma olen alkohoolik",
+      "pdfPageStart": 370,
+      "bookPageStart": 338,
+      "parentGroup": "personal-stories/they-stopped-in-time",
+      "pdfPageEnd": 379,
+      "bookPageEnd": 347
+    },
+    {
+      "id": "story-oleks-voinud-ka-hullemini-minna",
+      "kind": "story",
+      "title": "Oleks võinud ka hullemini minna",
+      "pdfPageStart": 380,
+      "bookPageStart": 348,
+      "parentGroup": "personal-stories/they-stopped-in-time",
+      "pdfPageEnd": 390,
+      "bookPageEnd": 358
+    },
+    {
+      "id": "story-kois",
+      "kind": "story",
+      "title": "Köis",
+      "pdfPageStart": 391,
+      "bookPageStart": 359,
+      "parentGroup": "personal-stories/they-stopped-in-time",
+      "pdfPageEnd": 400,
+      "bookPageEnd": 368
+    },
+    {
+      "id": "story-tunnetest-ule-ujutatud",
+      "kind": "story",
+      "title": "Tunnetest üle ujutatud",
+      "pdfPageStart": 401,
+      "bookPageStart": 369,
+      "parentGroup": "personal-stories/they-stopped-in-time",
+      "pdfPageEnd": 406,
+      "bookPageEnd": 374
+    },
+    {
+      "id": "story-voitja-votab-koik",
+      "kind": "story",
+      "title": "Võitja võtab kõik",
+      "pdfPageStart": 407,
+      "bookPageStart": 375,
+      "parentGroup": "personal-stories/they-stopped-in-time",
+      "pdfPageEnd": 413,
+      "bookPageEnd": 381
+    },
+    {
+      "id": "story-mina-alkohoolik",
+      "kind": "story",
+      "title": "Mina, alkohoolik?",
+      "pdfPageStart": 414,
+      "bookPageStart": 382,
+      "parentGroup": "personal-stories/they-stopped-in-time",
+      "pdfPageEnd": 419,
+      "bookPageEnd": 387
+    },
+    {
+      "id": "story-alatine-otsing",
+      "kind": "story",
+      "title": "Alatine otsing",
+      "pdfPageStart": 420,
+      "bookPageStart": 388,
+      "parentGroup": "personal-stories/they-stopped-in-time",
+      "pdfPageEnd": 429,
+      "bookPageEnd": 397
+    },
+    {
+      "id": "story-joodik-nagu-sinagi",
+      "kind": "story",
+      "title": "Joodik nagu sinagi",
+      "pdfPageStart": 430,
+      "bookPageStart": 398,
+      "parentGroup": "personal-stories/they-stopped-in-time",
+      "pdfPageEnd": 438,
+      "bookPageEnd": 406
+    },
+    {
+      "id": "story-leppimine-oli-lahendus",
+      "kind": "story",
+      "title": "Leppimine oli lahendus",
+      "pdfPageStart": 439,
+      "bookPageStart": 407,
+      "parentGroup": "personal-stories/they-stopped-in-time",
+      "pdfPageEnd": 452,
+      "bookPageEnd": 420
+    },
+    {
+      "id": "story-voimaluste-aken",
+      "kind": "story",
+      "title": "Võimaluste aken",
+      "pdfPageStart": 453,
+      "bookPageStart": 421,
+      "parentGroup": "personal-stories/they-stopped-in-time",
+      "pdfPageEnd": 468,
+      "bookPageEnd": 436
+    },
+    {
+      "id": "story-minu-pudel-minu-vimmad-ja-mina",
+      "kind": "story",
+      "title": "Minu pudel, minu vimmad ja mina",
+      "pdfPageStart": 469,
+      "bookPageStart": 437,
+      "parentGroup": "personal-stories/they-lost-nearly-all",
+      "pdfPageEnd": 477,
+      "bookPageEnd": 445
+    },
+    {
+      "id": "story-ta-elas-vaid-selleks-et-juua",
+      "kind": "story",
+      "title": "Ta elas vaid selleks, et juua",
+      "pdfPageStart": 478,
+      "bookPageStart": 446,
+      "parentGroup": "personal-stories/they-lost-nearly-all",
+      "pdfPageEnd": 483,
+      "bookPageEnd": 451
+    },
+    {
+      "id": "story-turvaline-sadam",
+      "kind": "story",
+      "title": "Turvaline sadam",
+      "pdfPageStart": 484,
+      "bookPageStart": 452,
+      "parentGroup": "personal-stories/they-lost-nearly-all",
+      "pdfPageEnd": 489,
+      "bookPageEnd": 457
+    },
+    {
+      "id": "story-kuulates-tuult",
+      "kind": "story",
+      "title": "Kuulates tuult",
+      "pdfPageStart": 490,
+      "bookPageStart": 458,
+      "parentGroup": "personal-stories/they-lost-nearly-all",
+      "pdfPageEnd": 501,
+      "bookPageEnd": 469
+    },
+    {
+      "id": "story-topelt-onnistatud",
+      "kind": "story",
+      "title": "Topelt õnnistatud",
+      "pdfPageStart": 502,
+      "bookPageStart": 470,
+      "parentGroup": "personal-stories/they-lost-nearly-all",
+      "pdfPageEnd": 507,
+      "bookPageEnd": 475
+    },
+    {
+      "id": "story-ehitades-uut-elu",
+      "kind": "story",
+      "title": "Ehitades uut elu",
+      "pdfPageStart": 508,
+      "bookPageStart": 476,
+      "parentGroup": "personal-stories/they-lost-nearly-all",
+      "pdfPageEnd": 517,
+      "bookPageEnd": 485
+    },
+    {
+      "id": "story-liikvel",
+      "kind": "story",
+      "title": "Liikvel",
+      "pdfPageStart": 518,
+      "bookPageStart": 486,
+      "parentGroup": "personal-stories/they-lost-nearly-all",
+      "pdfPageEnd": 525,
+      "bookPageEnd": 493
+    },
+    {
+      "id": "story-nagemus-tervenemisest",
+      "kind": "story",
+      "title": "Nägemus tervenemisest",
+      "pdfPageStart": 526,
+      "bookPageStart": 494,
+      "parentGroup": "personal-stories/they-lost-nearly-all",
+      "pdfPageEnd": 532,
+      "bookPageEnd": 500
+    },
+    {
+      "id": "story-rentsli-bravuur",
+      "kind": "story",
+      "title": "Rentsli bravuur",
+      "pdfPageStart": 533,
+      "bookPageStart": 501,
+      "parentGroup": "personal-stories/they-lost-nearly-all",
+      "pdfPageEnd": 543,
+      "bookPageEnd": 511
+    },
+    {
+      "id": "story-hinges-tuhi",
+      "kind": "story",
+      "title": "Hinges tühi",
+      "pdfPageStart": 544,
+      "bookPageStart": 512,
+      "parentGroup": "personal-stories/they-lost-nearly-all",
+      "pdfPageEnd": 553,
+      "bookPageEnd": 521
+    },
+    {
+      "id": "story-maapinnale-toodud",
+      "kind": "story",
+      "title": "Maapinnale toodud",
+      "pdfPageStart": 554,
+      "bookPageStart": 522,
+      "parentGroup": "personal-stories/they-lost-nearly-all",
+      "pdfPageEnd": 562,
+      "bookPageEnd": 530
+    },
+    {
+      "id": "story-veel-uks-voimalus",
+      "kind": "story",
+      "title": "Veel üks võimalus",
+      "pdfPageStart": 563,
+      "bookPageStart": 531,
+      "parentGroup": "personal-stories/they-lost-nearly-all",
+      "pdfPageEnd": 566,
+      "bookPageEnd": 534
+    },
+    {
+      "id": "story-hiline-algus",
+      "kind": "story",
+      "title": "Hiline algus",
+      "pdfPageStart": 567,
+      "bookPageStart": 535,
+      "parentGroup": "personal-stories/they-lost-nearly-all",
+      "pdfPageEnd": 575,
+      "bookPageEnd": 543
+    },
+    {
+      "id": "story-koidikutest-vabaks",
+      "kind": "story",
+      "title": "Köidikutest vabaks",
+      "pdfPageStart": 576,
+      "bookPageStart": 544,
+      "parentGroup": "personal-stories/they-lost-nearly-all",
+      "pdfPageEnd": 584,
+      "bookPageEnd": 552
+    },
+    {
+      "id": "story-aa-opetas-teda-kainust-kontrollima",
+      "kind": "story",
+      "title": "AA õpetas teda kainust kontrollima",
+      "pdfPageStart": 585,
+      "bookPageStart": 553,
+      "parentGroup": "personal-stories/they-lost-nearly-all",
+      "pdfPageEnd": 592,
+      "bookPageEnd": 560
+    },
+    {
+      "id": "appendix-i-aa-traditsioonid",
+      "kind": "appendix",
+      "title": "I AA Traditsioonid",
+      "pdfPageStart": 593,
+      "bookPageStart": 561,
+      "pdfPageEnd": 598,
+      "bookPageEnd": 566
+    },
+    {
+      "id": "appendix-ii-vaimne-kogemus",
+      "kind": "appendix",
+      "title": "II Vaimne kogemus",
+      "pdfPageStart": 599,
+      "bookPageStart": 567,
+      "pdfPageEnd": 600,
+      "bookPageEnd": 568
+    },
+    {
+      "id": "appendix-iii-meditsiiniline-vaade-aa-le",
+      "kind": "appendix",
+      "title": "III Meditsiiniline vaade AA-le",
+      "pdfPageStart": 601,
+      "bookPageStart": 569,
+      "pdfPageEnd": 602,
+      "bookPageEnd": 570
+    },
+    {
+      "id": "appendix-iv-lasker-award",
+      "kind": "appendix",
+      "title": "IV Lasker Award",
+      "pdfPageStart": 603,
+      "bookPageStart": 571,
+      "pdfPageEnd": 603,
+      "bookPageEnd": 571
+    },
+    {
+      "id": "appendix-v-religioosne-vaade-aa-le",
+      "kind": "appendix",
+      "title": "V Religioosne vaade AA-le",
+      "pdfPageStart": 604,
+      "bookPageStart": 572,
+      "pdfPageEnd": 604,
+      "bookPageEnd": 572
+    },
+    {
+      "id": "appendix-vi-kuidas-aaga-uhendust-votta",
+      "kind": "appendix",
+      "title": "VI Kuidas AAga ühendust võtta",
+      "pdfPageStart": 605,
+      "bookPageStart": 573,
+      "pdfPageEnd": 605,
+      "bookPageEnd": 573
+    },
+    {
+      "id": "appendix-vii-kaksteist-kontseptsiooni",
+      "kind": "appendix",
+      "title": "VII Kaksteist Kontseptsiooni (Lühidalt)",
+      "pdfPageStart": 606,
+      "bookPageStart": 574,
+      "pdfPageEnd": 608,
+      "bookPageEnd": 576
+    }
+  ]
+}
