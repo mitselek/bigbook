@@ -1,0 +1,41 @@
+{
+  "id": "eessona-3rd",
+  "kind": "foreword",
+  "title": "Eessõna kolmandale väljaandele",
+  "pdfPageStart": 22,
+  "pdfPageEnd": 22,
+  "bookPageStart": 0,
+  "bookPageEnd": 0,
+  "blocks": [
+    {
+      "id": "eessona-3rd-h001",
+      "kind": "heading",
+      "text": "EESSÕNA KOLMANDALE VÄLJAANDELE",
+      "pdfPage": 22
+    },
+    {
+      "id": "eessona-3rd-p002",
+      "kind": "paragraph",
+      "text": "Märtsiks 1976, kui kolmas väljaanne trükki läks, oli Anonüümsete Alkohoolikute liikmeid maailmas tagasihoidlikel hinnanguil üle 1 000 000, kes olid koondunud ligemale 28 000 gruppi kokku üle 90 riigis.",
+      "pdfPage": 22
+    },
+    {
+      "id": "eessona-3rd-p003",
+      "kind": "paragraph",
+      "text": "Ülevaade Ameerika Ühendriikides ja Kanadas tegutsevatest rühmadest näitab, et AA tegevus laieneb mitte üksnes kasvava liikmeskonna, vaid ka liikmete mitmekesisuse osas. Tänaseks moodustavad naised rohkem kui neljandiku liikmete arvust. Uute liikmete seas on see suhe üks kolmele. Seitse protsenti küsitletud AA-lastest olid alla kolmekümne aastased, nende hulgas paljud veel teismeeas.",
+      "pdfPage": 22
+    },
+    {
+      "id": "eessona-3rd-p004",
+      "kind": "paragraph",
+      "text": "Ilmneb, et AA programmi põhialused näivad toimivat väga erineva eluviisiga inimeste puhul, samuti on programm aidanud terveneda väga paljudel eri rahvusest alkohoolikutel. Programmi kokkuvõtlikud Kaksteist Sammu võivad ühel maal kanda nime „los Doce Pasos”, teisel „les Douze Etapes”, kuid järgivad ikkagi täpipealt sedasama tervenemisrada, mille tallasid sisse Anonüümsete Alkohoolikute esimesed liikmed.",
+      "pdfPage": 22
+    },
+    {
+      "id": "eessona-3rd-p005",
+      "kind": "paragraph",
+      "text": "Vaatamata sõpruskonna tohutule kasvule nii arvult kui ulatuselt on selle südamik endiselt lihtne ja vahetu. Iga päev pannakse kusagil maailmanurgas alus tervenemisele, kui üks alkohoolik hakkab rääkima teisega, jagades temaga kogemusi, jõudu ja lootust.",
+      "pdfPage": 22
+    }
+  ]
+}

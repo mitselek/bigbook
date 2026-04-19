@@ -1,0 +1,435 @@
+{
+  "id": "copyright-info",
+  "kind": "front-matter",
+  "title": "Copyright Info",
+  "pdfPageStart": 4,
+  "pdfPageEnd": 10,
+  "bookPageStart": 0,
+  "bookPageEnd": 0,
+  "blocks": [
+    {
+      "id": "copyright-info-h001",
+      "kind": "heading",
+      "text": "COPYRIGHT",
+      "pdfPage": 4
+    },
+    {
+      "id": "copyright-info-p002",
+      "kind": "paragraph",
+      "text": "Copyright © 1939, 1955, 1976, 2001 by Alcoholics Anonymous World Services, Inc.",
+      "pdfPage": 4
+    },
+    {
+      "id": "copyright-info-p003",
+      "kind": "paragraph",
+      "text": "All rights reserved.",
+      "pdfPage": 4
+    },
+    {
+      "id": "copyright-info-p004",
+      "kind": "paragraph",
+      "text": "First Edition, sixteen printings, 1939 to 1955",
+      "pdfPage": 4
+    },
+    {
+      "id": "copyright-info-p005",
+      "kind": "paragraph",
+      "text": "Second Edition, sixteen printings, 1955 to 1974",
+      "pdfPage": 4
+    },
+    {
+      "id": "copyright-info-p006",
+      "kind": "paragraph",
+      "text": "Third Edition, seventy-four printings, 1976 to 2001",
+      "pdfPage": 4
+    },
+    {
+      "id": "copyright-info-p007",
+      "kind": "paragraph",
+      "text": "Fourth Edition, New and Revised 2001",
+      "pdfPage": 4
+    },
+    {
+      "id": "copyright-info-p008",
+      "kind": "paragraph",
+      "text": "First printing, October 2001",
+      "pdfPage": 4
+    },
+    {
+      "id": "copyright-info-p009",
+      "kind": "paragraph",
+      "text": "Eighteenth printing, August 2006",
+      "pdfPage": 4
+    },
+    {
+      "id": "copyright-info-p010",
+      "kind": "paragraph",
+      "text": "Personal stories on pages 407, 476, 494, 531, and 553 are copyrighted © by The A.A. Grapevine, Inc., and are reprinted here with permission.",
+      "pdfPage": 4
+    },
+    {
+      "id": "copyright-info-p011",
+      "kind": "paragraph",
+      "text": "This is A.A. General Service Conference-approved literature",
+      "pdfPage": 4
+    },
+    {
+      "id": "copyright-info-p012",
+      "kind": "paragraph",
+      "text": "Alcoholics Anonymous and A.A. are registered trademarks® of A.A. World Services, Inc.",
+      "pdfPage": 4
+    },
+    {
+      "id": "copyright-info-p013",
+      "kind": "paragraph",
+      "text": "Library of Congress Control Number: 2001094693",
+      "pdfPage": 4
+    },
+    {
+      "id": "copyright-info-p014",
+      "kind": "paragraph",
+      "text": "ISBN 1-893007-16-2",
+      "pdfPage": 4
+    },
+    {
+      "id": "copyright-info-p015",
+      "kind": "paragraph",
+      "text": "Printed in the United States of America",
+      "pdfPage": 4
+    },
+    {
+      "id": "copyright-info-h016",
+      "kind": "heading",
+      "text": "SISUKORD",
+      "pdfPage": 5
+    },
+    {
+      "id": "copyright-info-t017",
+      "kind": "table",
+      "text": "Eessõna | xi\nEessõna esimesele väljaandele | xiii\nEessõna teisele väljaandele | xv\nEessõna kolmandale väljaandele | xxii\nEessõna neljandale väljaandele | xxiii\nArsti arvamus | xxv\n1 Billi lugu | 1\n2 Lahendus on olemas | 17\n3 Alkoholismist lähemalt | 30\n4 Meie, agnostikud | 44\n5 Kuidas see töötab | 58\n6 Tegutsema | 72\n7 Töö teiste | 89\n8 Naistele | 104\n9 Perekond hiljem | 122\n10 Tööandjatele | 136\n11 Tulevikupilt teie jaoks | 151",
+      "pdfPage": 5,
+      "rows": [
+        [
+          "Eessõna",
+          "xi"
+        ],
+        [
+          "Eessõna esimesele väljaandele",
+          "xiii"
+        ],
+        [
+          "Eessõna teisele väljaandele",
+          "xv"
+        ],
+        [
+          "Eessõna kolmandale väljaandele",
+          "xxii"
+        ],
+        [
+          "Eessõna neljandale väljaandele",
+          "xxiii"
+        ],
+        [
+          "Arsti arvamus",
+          "xxv"
+        ],
+        [
+          "1 Billi lugu",
+          "1"
+        ],
+        [
+          "2 Lahendus on olemas",
+          "17"
+        ],
+        [
+          "3 Alkoholismist lähemalt",
+          "30"
+        ],
+        [
+          "4 Meie, agnostikud",
+          "44"
+        ],
+        [
+          "5 Kuidas see töötab",
+          "58"
+        ],
+        [
+          "6 Tegutsema",
+          "72"
+        ],
+        [
+          "7 Töö teiste",
+          "89"
+        ],
+        [
+          "8 Naistele",
+          "104"
+        ],
+        [
+          "9 Perekond hiljem",
+          "122"
+        ],
+        [
+          "10 Tööandjatele",
+          "136"
+        ],
+        [
+          "11 Tulevikupilt teie jaoks",
+          "151"
+        ]
+      ]
+    },
+    {
+      "id": "copyright-info-h018",
+      "kind": "heading",
+      "text": "ISIKLIKUD KOGEMUSLOOD — I OSA — AA teerajajad",
+      "pdfPage": 5
+    },
+    {
+      "id": "copyright-info-t019",
+      "kind": "table",
+      "text": "Doktor Bobi painajalik unenägu — Anonüümsete Alkohoolikute asutajaliige. Meie ühingu sündi tähistab tema pideva karskuse esimene päev – 10. juuni 1935. | 171\n1 anonüümne alkohoolik number kolm — Maailma esimese AA rühma, Akroni rühma nr 1 teerajaja. Ta säilitas endas usu. Seeläbi on nii tema kui väga paljud teised leidnud uue elu. | 182\n2 Tänulikkus tegudes — Dave B lugu, kes oli 1944. aastal üks Kanada AA asutajatest. | 193\n3 ka naised on haiged — Kuigi sel naisel oli elus rohkesti võimalusi, oleks alkohol äärepealt ta elu lõpetanud. Ühe esimese AA liikmena levitas ta sõnumit naiste seas meie tegevuse alguspäevil. | 200\n4 Meie sõber lõunast — Üks AA teerajajatest, pastori poeg ja farmer lõunast küsis: ”Kes olen mina ütlema, et Jumalat pole olemas?” | 208\n5 Nõiaring — Kuidas see lõpuks murdis ühe lõunaosariiklase kangekaelsuse ja saatus viis selle müügimehe Philadelphiasse AA-d käivitama. | 219\n6 Jimi lugu — See arst, AA esimese mustanahaliste rühma varajasi liikmeid, räägib kuidas vabadus saabus oma rahva seas töötades. | 232\n7 Mees, kes seljatas hirmu — Ta veetis kaheksateist aastat põgenedes ja leidis siis, et põgeneda pole tarvis. Niisiis pani ta aluse AA-le Detroitis. | 246\n8 Ta alahindas enda väärtust — Ometi leidis ta, et on olemas kõrgem jõud, kes uskus temasse rohkem kui ta ise. Nii sündis AA Chicagos.. | 258\n9 Kuningriigi võtmed — See elutark naine aitas käivitada AA Chicagos ja andis seega oma võtmed paljudele edasi. | 268",
+      "pdfPage": 5,
+      "rows": [
+        [
+          "Doktor Bobi painajalik unenägu — Anonüümsete Alkohoolikute asutajaliige. Meie ühingu sündi tähistab tema pideva karskuse esimene päev – 10. juuni 1935.",
+          "171"
+        ],
+        [
+          "1 anonüümne alkohoolik number kolm — Maailma esimese AA rühma, Akroni rühma nr 1 teerajaja. Ta säilitas endas usu. Seeläbi on nii tema kui väga paljud teised leidnud uue elu.",
+          "182"
+        ],
+        [
+          "2 Tänulikkus tegudes — Dave B lugu, kes oli 1944. aastal üks Kanada AA asutajatest.",
+          "193"
+        ],
+        [
+          "3 ka naised on haiged — Kuigi sel naisel oli elus rohkesti võimalusi, oleks alkohol äärepealt ta elu lõpetanud. Ühe esimese AA liikmena levitas ta sõnumit naiste seas meie tegevuse alguspäevil.",
+          "200"
+        ],
+        [
+          "4 Meie sõber lõunast — Üks AA teerajajatest, pastori poeg ja farmer lõunast küsis: ”Kes olen mina ütlema, et Jumalat pole olemas?”",
+          "208"
+        ],
+        [
+          "5 Nõiaring — Kuidas see lõpuks murdis ühe lõunaosariiklase kangekaelsuse ja saatus viis selle müügimehe Philadelphiasse AA-d käivitama.",
+          "219"
+        ],
+        [
+          "6 Jimi lugu — See arst, AA esimese mustanahaliste rühma varajasi liikmeid, räägib kuidas vabadus saabus oma rahva seas töötades.",
+          "232"
+        ],
+        [
+          "7 Mees, kes seljatas hirmu — Ta veetis kaheksateist aastat põgenedes ja leidis siis, et põgeneda pole tarvis. Niisiis pani ta aluse AA-le Detroitis.",
+          "246"
+        ],
+        [
+          "8 Ta alahindas enda väärtust — Ometi leidis ta, et on olemas kõrgem jõud, kes uskus temasse rohkem kui ta ise. Nii sündis AA Chicagos..",
+          "258"
+        ],
+        [
+          "9 Kuningriigi võtmed — See elutark naine aitas käivitada AA Chicagos ja andis seega oma võtmed paljudele edasi.",
+          "268"
+        ]
+      ]
+    },
+    {
+      "id": "copyright-info-h020",
+      "kind": "heading",
+      "text": "II OSA — Nad lõpetasid aegsasti",
+      "pdfPage": 7
+    },
+    {
+      "id": "copyright-info-t021",
+      "kind": "table",
+      "text": "1 Puuduv lüli — Ta pidas oma õnnetuse põhjuseks kõike, välja arvatud alkoholi. | 281\n2 Hirm hirmu ees — See naine oli ettevaatlik. Ta otsustas, ega lase kunagi oma joomist käest. Ja ta ei võtaks kunagi, mitte kunagi seda hommikust jooki!! | 289\n3 Koduperenaine, kes jõi kodus — Ta peitis oma pudelid riidekorvidesse ja riidekapi sahtlitesse. AA-s avastas ta, et ei ole midagi kaotanud, küll aga leidnud kõik. | 295\n4 arst, ravi iseennast! — Elukutselt psühhiaater ja kirurg, eksles see mees seni, kuni ta ükskord mõistis, et Suur Ravitseja on Jumal mitte tema. | 301\n5 minu võimalus elada — AA andis sellele teismelisele tüdrukule tööriistad, millega välja ronida oma meeleheite süngest kuristikust. | 309\n6 Elu õpilane — Kodus vanematega elades püüdis ta kasutada tahte-jõudu, et saada võitu joomatungist. Alles siis, kui ta kohtas teist alkohoolikut ja läks AA koosolekule, kinnistus ta kainus. | 319\n7 Eitamise jõe ületamine — Lõpuks mõistis see naine, et kui ta nautis joomist, ei suutnud ta seda kontrollida, ja kui ta seda kontrollis, ei suutnud ta seda nautida. | 328\n8 Sest ma olen alkohoolik — See alkohoolik leidis viimaks ometi vastuse oma piinavale küsimusele: miks? | 338\n9 Oleks võinud ka hullemini minna — Alkohol oli ähvardav pilv selle pankuri helges taevas. Haruldase ettenägelikkusega mõistis ta, et sellest võib vallanduda keeristorm. | 348\n10 Köis — Katse navigeerida erinevates maailmades oli üksildane lavastus, mis lõppes siis, kui see homoalkohoolik lõpuks AA-sse sattus. | 359\n11 Tunnetest üle ujutatud — Kui tamm tema ja Jumala vahelt minema uhuti, jõudis see end agnostikuks nimetav inimene Kolmanda Sammuni.. | 369\n12 Võitja võtab kõik — Peaaegu pimedana, kuid mitte enam üksi olles leidis ta viisi jääda kaineks, luua perekond ja anda oma elu Jumala hoolde. | 375\n13 Mina, alkohoolik? — Alkohol pitsitas seda kirjameest üsna kõvasti – kuid ta pääses üsna tervena. | 382\n14 Alatine otsing — See advokaat proovis psühhiaatreid, biotagasiside teraapiat, lõdvestusharjutusi ja mitmeid muid tehnikaid, et oma joomist kontrolli alla saada. Ta leidis lõpuks lahenduse ainulaadselt kohandatud AA Kaheteistkümnes Sammus. | 388\n15 Joodik nagu sinagi — Mida rohkem ta koosolekutel kuulas, seda rohkem mõistis ta omaenda joomise ajalugu. | 398\n16 Leppimine oli lahendus — See arst arvas, et ta ei ole sõltuvuses – ta lihtsalt kirjutas oma arvukate tõbede jaoks välja meditsiiniliselt näidustatud ravimeid. Leppimine oli tema võti vabanemiseks. | 407\n17 Võimaluste aken — See noor alkohoolik astus teise korruse aknast välja ja otse AA-sse. | 421",
+      "pdfPage": 7,
+      "rows": [
+        [
+          "1 Puuduv lüli — Ta pidas oma õnnetuse põhjuseks kõike, välja arvatud alkoholi.",
+          "281"
+        ],
+        [
+          "2 Hirm hirmu ees — See naine oli ettevaatlik. Ta otsustas, ega lase kunagi oma joomist käest. Ja ta ei võtaks kunagi, mitte kunagi seda hommikust jooki!!",
+          "289"
+        ],
+        [
+          "3 Koduperenaine, kes jõi kodus — Ta peitis oma pudelid riidekorvidesse ja riidekapi sahtlitesse. AA-s avastas ta, et ei ole midagi kaotanud, küll aga leidnud kõik.",
+          "295"
+        ],
+        [
+          "4 arst, ravi iseennast! — Elukutselt psühhiaater ja kirurg, eksles see mees seni, kuni ta ükskord mõistis, et Suur Ravitseja on Jumal mitte tema.",
+          "301"
+        ],
+        [
+          "5 minu võimalus elada — AA andis sellele teismelisele tüdrukule tööriistad, millega välja ronida oma meeleheite süngest kuristikust.",
+          "309"
+        ],
+        [
+          "6 Elu õpilane — Kodus vanematega elades püüdis ta kasutada tahte-jõudu, et saada võitu joomatungist. Alles siis, kui ta kohtas teist alkohoolikut ja läks AA koosolekule, kinnistus ta kainus.",
+          "319"
+        ],
+        [
+          "7 Eitamise jõe ületamine — Lõpuks mõistis see naine, et kui ta nautis joomist, ei suutnud ta seda kontrollida, ja kui ta seda kontrollis, ei suutnud ta seda nautida.",
+          "328"
+        ],
+        [
+          "8 Sest ma olen alkohoolik — See alkohoolik leidis viimaks ometi vastuse oma piinavale küsimusele: miks?",
+          "338"
+        ],
+        [
+          "9 Oleks võinud ka hullemini minna — Alkohol oli ähvardav pilv selle pankuri helges taevas. Haruldase ettenägelikkusega mõistis ta, et sellest võib vallanduda keeristorm.",
+          "348"
+        ],
+        [
+          "10 Köis — Katse navigeerida erinevates maailmades oli üksildane lavastus, mis lõppes siis, kui see homoalkohoolik lõpuks AA-sse sattus.",
+          "359"
+        ],
+        [
+          "11 Tunnetest üle ujutatud — Kui tamm tema ja Jumala vahelt minema uhuti, jõudis see end agnostikuks nimetav inimene Kolmanda Sammuni..",
+          "369"
+        ],
+        [
+          "12 Võitja võtab kõik — Peaaegu pimedana, kuid mitte enam üksi olles leidis ta viisi jääda kaineks, luua perekond ja anda oma elu Jumala hoolde.",
+          "375"
+        ],
+        [
+          "13 Mina, alkohoolik? — Alkohol pitsitas seda kirjameest üsna kõvasti – kuid ta pääses üsna tervena.",
+          "382"
+        ],
+        [
+          "14 Alatine otsing — See advokaat proovis psühhiaatreid, biotagasiside teraapiat, lõdvestusharjutusi ja mitmeid muid tehnikaid, et oma joomist kontrolli alla saada. Ta leidis lõpuks lahenduse ainulaadselt kohandatud AA Kaheteistkümnes Sammus.",
+          "388"
+        ],
+        [
+          "15 Joodik nagu sinagi — Mida rohkem ta koosolekutel kuulas, seda rohkem mõistis ta omaenda joomise ajalugu.",
+          "398"
+        ],
+        [
+          "16 Leppimine oli lahendus — See arst arvas, et ta ei ole sõltuvuses – ta lihtsalt kirjutas oma arvukate tõbede jaoks välja meditsiiniliselt näidustatud ravimeid. Leppimine oli tema võti vabanemiseks.",
+          "407"
+        ],
+        [
+          "17 Võimaluste aken — See noor alkohoolik astus teise korruse aknast välja ja otse AA-sse.",
+          "421"
+        ]
+      ]
+    },
+    {
+      "id": "copyright-info-h022",
+      "kind": "heading",
+      "text": "III OSA — Nad kaotasid peaaegu kõik",
+      "pdfPage": 9
+    },
+    {
+      "id": "copyright-info-t023",
+      "kind": "table",
+      "text": "1 Minu pudel, minu vimmad ja mina — Kogenud lapsepõlvetraumat ja saanud agulijoodikuks, leidis see hulgus lõpuks Kõrgema Jõu, mis tõi talle kainuse ja andis tagasi ammu kaotatud perekonna. | 437\n2 Ta elas vaid selleks, et juua — „Mulle oli loetud moraali, mind oli analüüsitud, neetud ja nõustatud, kuid keegi polnud kunagi öelnud, „Ma tean, mida sa läbi elad. Ma olen seda ise kogenud ja ma toimisin selle suhtes niiviisi.” | 446\n3 Turvaline sadam — See AA-lane taipas, et tõelise mina leidmise protsess algas teadmisest, kes ta olla ei taha. | 452\n4 Kuulates tuult — Selleks, et tutvustada sellele indiaanlasest naisele AA-d ja tervenemist, oli vaja inglit. | 458\n5 Topelt õnnistatud — Maksatsirroosi diagnoosi saanud alkohoolik saavutas kainuse – lisaks tehti talle elupäästev maksasiirdamine. | 470\n6 Ehitades uut elu — See kunagi õnnelik olnud pereisa sai hallutsinatsioone nähes ning politsei ja haiglapersonali poolt taltsutatuna, Jumalalt ootamatu kingituse – kindla aluse kainusele, mis püsib nii headel kui ka halbadel aegadel. | 476\n7 Liikvel — AA programmi järgimine näitas sellele alkohoolikule, kuidas jõuda pideva kolimise asemel tänulikkuseni. | 486\n8 Nägemus tervenemisest — Vilets palve aitas sellel mikmaki indiaanlasel luua kestva sideme Kõrgema Jõuga. | 494\n9 Rentsli bravuur — Üksinda ja töövõimetult anti talle kohtu poolt kaks valikut, otsi abi või mine vangi, ja nii tema teekond õppimisvõimele algas. | 501\n10 Hinges tühi — See naine puutus üles kasvades AA-ga palju kokku ning teadis kõiki vastuseid − välja arvatud küsimustes, mis puudutasid tema enda elu. | 512\n11 Maapinnale toodud — Alkohol kärpis selle piloodi tiivad, kuniks kainus ja raske töö ta tagasi taevasse viisid. | 522\n12 Veel üks võimalus — See vaesuses virelev ja alkoholi täielikus meelevallas olev mustanahaline naine tundis, et elamisväärne elu on tema jaoks kättesaamatu.Vanglakaristust kandma hakates avanes talle aga uks. | 531\n13 Hiline algus — „On möödunud kümme aasta minu pensionile jäämisest ja seitse aastat AA-ga liitumisest. Nüüd võin tõesti öelda, et ma olen tänulik alkohoolik.” | 535\n14 Köidikutest vabaks — See noorena liitunud AA-lane usub, et tema tõsine joomine oli sügavamate isiklike puuduste tagajärg. Ta jutustab alljärgnevalt, kuidas ta vabastati. | 544\n15 AA õpetas teda kainust kontrollima — ”Kui Jumal tahab ei pea me… enam kunagi joomisega tegelema, kuid me peame tegelema kainusega iga päev.”. | 553",
+      "pdfPage": 9,
+      "rows": [
+        [
+          "1 Minu pudel, minu vimmad ja mina — Kogenud lapsepõlvetraumat ja saanud agulijoodikuks, leidis see hulgus lõpuks Kõrgema Jõu, mis tõi talle kainuse ja andis tagasi ammu kaotatud perekonna.",
+          "437"
+        ],
+        [
+          "2 Ta elas vaid selleks, et juua — „Mulle oli loetud moraali, mind oli analüüsitud, neetud ja nõustatud, kuid keegi polnud kunagi öelnud, „Ma tean, mida sa läbi elad. Ma olen seda ise kogenud ja ma toimisin selle suhtes niiviisi.”",
+          "446"
+        ],
+        [
+          "3 Turvaline sadam — See AA-lane taipas, et tõelise mina leidmise protsess algas teadmisest, kes ta olla ei taha.",
+          "452"
+        ],
+        [
+          "4 Kuulates tuult — Selleks, et tutvustada sellele indiaanlasest naisele AA-d ja tervenemist, oli vaja inglit.",
+          "458"
+        ],
+        [
+          "5 Topelt õnnistatud — Maksatsirroosi diagnoosi saanud alkohoolik saavutas kainuse – lisaks tehti talle elupäästev maksasiirdamine.",
+          "470"
+        ],
+        [
+          "6 Ehitades uut elu — See kunagi õnnelik olnud pereisa sai hallutsinatsioone nähes ning politsei ja haiglapersonali poolt taltsutatuna, Jumalalt ootamatu kingituse – kindla aluse kainusele, mis püsib nii headel kui ka halbadel aegadel.",
+          "476"
+        ],
+        [
+          "7 Liikvel — AA programmi järgimine näitas sellele alkohoolikule, kuidas jõuda pideva kolimise asemel tänulikkuseni.",
+          "486"
+        ],
+        [
+          "8 Nägemus tervenemisest — Vilets palve aitas sellel mikmaki indiaanlasel luua kestva sideme Kõrgema Jõuga.",
+          "494"
+        ],
+        [
+          "9 Rentsli bravuur — Üksinda ja töövõimetult anti talle kohtu poolt kaks valikut, otsi abi või mine vangi, ja nii tema teekond õppimisvõimele algas.",
+          "501"
+        ],
+        [
+          "10 Hinges tühi — See naine puutus üles kasvades AA-ga palju kokku ning teadis kõiki vastuseid − välja arvatud küsimustes, mis puudutasid tema enda elu.",
+          "512"
+        ],
+        [
+          "11 Maapinnale toodud — Alkohol kärpis selle piloodi tiivad, kuniks kainus ja raske töö ta tagasi taevasse viisid.",
+          "522"
+        ],
+        [
+          "12 Veel üks võimalus — See vaesuses virelev ja alkoholi täielikus meelevallas olev mustanahaline naine tundis, et elamisväärne elu on tema jaoks kättesaamatu.Vanglakaristust kandma hakates avanes talle aga uks.",
+          "531"
+        ],
+        [
+          "13 Hiline algus — „On möödunud kümme aasta minu pensionile jäämisest ja seitse aastat AA-ga liitumisest. Nüüd võin tõesti öelda, et ma olen tänulik alkohoolik.”",
+          "535"
+        ],
+        [
+          "14 Köidikutest vabaks — See noorena liitunud AA-lane usub, et tema tõsine joomine oli sügavamate isiklike puuduste tagajärg. Ta jutustab alljärgnevalt, kuidas ta vabastati.",
+          "544"
+        ],
+        [
+          "15 AA õpetas teda kainust kontrollima — ”Kui Jumal tahab ei pea me… enam kunagi joomisega tegelema, kuid me peame tegelema kainusega iga päev.”.",
+          "553"
+        ]
+      ]
+    },
+    {
+      "id": "copyright-info-h024",
+      "kind": "heading",
+      "text": "Lisad",
+      "pdfPage": 10
+    },
+    {
+      "id": "copyright-info-t025",
+      "kind": "table",
+      "text": "I AA Traditsioonid | 561\nII Vaimne kogemus | 567\nIII Meditsiiniline vaade AA-le | 569\nIV Lasker Award | 571\nV Religioosne vaade AA-le | 572\nVI Kuidas AAga ühendust võtta | 573\nVII Kaksteist Kontseptsiooni (Lühidalt) | 574",
+      "pdfPage": 10,
+      "rows": [
+        [
+          "I AA Traditsioonid",
+          "561"
+        ],
+        [
+          "II Vaimne kogemus",
+          "567"
+        ],
+        [
+          "III Meditsiiniline vaade AA-le",
+          "569"
+        ],
+        [
+          "IV Lasker Award",
+          "571"
+        ],
+        [
+          "V Religioosne vaade AA-le",
+          "572"
+        ],
+        [
+          "VI Kuidas AAga ühendust võtta",
+          "573"
+        ],
+        [
+          "VII Kaksteist Kontseptsiooni (Lühidalt)",
+          "574"
+        ]
+      ]
+    }
+  ]
+}

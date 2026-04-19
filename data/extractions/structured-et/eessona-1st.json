@@ -1,0 +1,71 @@
+{
+  "id": "eessona-1st",
+  "kind": "foreword",
+  "title": "Eessõna esimesele väljaandele",
+  "pdfPageStart": 13,
+  "pdfPageEnd": 14,
+  "bookPageStart": 0,
+  "bookPageEnd": 0,
+  "blocks": [
+    {
+      "id": "eessona-1st-h001",
+      "kind": "heading",
+      "text": "EESSÕNA ESIMESELE VÄLJAANDELE",
+      "pdfPage": 13
+    },
+    {
+      "id": "eessona-1st-p002",
+      "kind": "paragraph",
+      "text": "Ära toodud sellisel kujul, nagu see ilmus esimese väljaande esimeses trükis 1939. aastal.",
+      "pdfPage": 13
+    },
+    {
+      "id": "eessona-1st-p003",
+      "kind": "paragraph",
+      "text": "Meie, Anonüümsete Alkohoolikute liikmed, oleme enam kui sada meest ja naist, kes on tervenenud pealtnäha lootusetust meeleseisundist ning kehalisest seisundist. Selle raamatu peamiseks eesmärgiks on teistele alkohoolikutele täpselt näidata, mil viisil me oleme tervenenud. Me loodame, et need leheküljed osutuvad nende jaoks nii veenvateks, et enamat tõestust ei lähe tarvis. Me arvame, et meie kogemuste ülevaade aitab kõigil alkohoolikut paremini mõista. Paljud ei taipa, et alkohoolik on väga haige inimene. Peale selle oleme kindlad, et meie elulaadis on iga inimese jaoks midagi kasulikku.",
+      "pdfPage": 13
+    },
+    {
+      "id": "eessona-1st-p004",
+      "kind": "paragraph",
+      "text": "Meil on oluline jääda anonüümseteks, sest meid on praegu liiga vähe, et tulla toime rohkete isiklike abipalvetega, mis selle raamatu ilmumisele võivad järgneda. Olles põhiliselt äri- või muu kutseala töötajad, ei suudaks me sellisel juhul enam oma ametis hakkama saada. Me palume mõista, et meie töö alkoholismiga on meie kõrvaltegevus.",
+      "pdfPage": 13
+    },
+    {
+      "id": "eessona-1st-p005",
+      "kind": "paragraph",
+      "text": "Kui keegi meie sõpruskonnast esineb alkoholismi teemal avalikult kirjasõnas või kõnes, siis me julgustame teda oma nime märkimata jätma ning nimetama ennast selle asemel „Anonüümsete Alkohoolikute liikmeks”.",
+      "pdfPage": 13
+    },
+    {
+      "id": "eessona-1st-p006",
+      "kind": "paragraph",
+      "text": "Palume siiralt ka ajakirjandusel sellest nõudest kinni pidada, sest vastasel juhul tooks see meile suurt kahju.",
+      "pdfPage": 13
+    },
+    {
+      "id": "eessona-1st-p007",
+      "kind": "paragraph",
+      "text": "Me ei ole organisatsioon selle sõna tavalises tähenduses. Meil ei ole mingeid liikmemakse ega lõive. Ainus nõue liikmeks astumisel on siiras soov joomine lõpetada. Me ei ole seotud ühegi kindla usundi, sekti või kogudusega ega ole ka kellegi vastu. Me soovime lihtsalt aidata neid, kes on hädas.",
+      "pdfPage": 13
+    },
+    {
+      "id": "eessona-1st-p008",
+      "kind": "paragraph",
+      "text": "Meil on huvi kuulda inimestelt, kes selle raamatu abil on tulemusi saavutanud, ja eriti nendest, kes ka ise alkohoolikutega tööd on alustanud. Meie sooviks on neid selles aidata.",
+      "pdfPage": 14
+    },
+    {
+      "id": "eessona-1st-p009",
+      "kind": "paragraph",
+      "text": "Teaduslike, meditsiiniliste ja usuliste ühingute küsimused meile on teretulnud.",
+      "pdfPage": 14
+    },
+    {
+      "id": "eessona-1st-b010",
+      "kind": "byline",
+      "text": "Anonüümsed Alkohoolikud",
+      "pdfPage": 14
+    }
+  ]
+}
