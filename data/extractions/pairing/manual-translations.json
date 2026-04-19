@@ -7,7 +7,7 @@
     "targetLang": "en",
     "sourceText": "Anonüümsed Alkohoolikud",
     "note": "ET translator added byline absent from EN — see design D3 case 5",
-    "translation": null
+    "translation": "Alcoholics Anonymous"
   },
   {
     "canonicalSlug": "ch01",
@@ -17,7 +17,7 @@
     "targetLang": "et",
     "sourceText": "Ominous warning—which I failed to heed.",
     "note": "One-line aside \"Ominous warning—which I failed to heed.\" merged into ET p005 alongside EN p006",
-    "translation": null
+    "translation": "Kurjakuulutav hoiatus – mida ma ei võtnud kuulda."
   },
   {
     "canonicalSlug": "ch10",
@@ -27,7 +27,7 @@
     "targetLang": "et",
     "sourceText": "But let him tell you:",
     "note": "Bridging phrase \"But let him tell you:\" merged into ET p002 tail",
-    "translation": null
+    "translation": "Kuid laske temal endal rääkida:"
   },
   {
     "canonicalSlug": "s02",
@@ -37,7 +37,7 @@
     "targetLang": "et",
     "sourceText": "(Bill D. now continues his story.)",
     "note": "Editorial aside \"(Bill D. now continues his story.)\" merged into ET q033 tail — spec D3 case 6 option (b)",
-    "translation": null
+    "translation": "(Bill D. jätkab nüüd oma lugu.)"
   },
   {
     "canonicalSlug": "s20",
@@ -47,7 +47,7 @@
     "targetLang": "et",
     "sourceText": "The last few months were filled with fear and self-pity. I began to contemplate suicide with increasing regularity, yet I was afraid of dying. I remember thinking that this life would go on and on, never getting better and slowly fading away to nothing.",
     "note": "Short fear/suicide-contemplation paragraph merged into ET p015 tail",
-    "translation": null
+    "translation": "Viimased kuud olid täis hirmu ja enesehaletsust. Hakkasin üha sagedamini mõtlema enesetapule, ja ometi kartsin surra. Mäletan, kuidas mõtlesin, et see elu kestab ikka ja edasi, ei lähe kunagi paremaks ja hääbub aeglaselt olematusse."
   },
   {
     "canonicalSlug": "s30",
@@ -57,7 +57,7 @@
     "targetLang": "et",
     "sourceText": "In Alcoholics Anonymous, I knew I had found a protective haven. But during the ensuing 4 1⁄2 years I fell into the category known, in A.A. parlance, as a “chronic slipper.” I might get a good six months of sobriety under my belt, but then I would get a bottle to celebrate.",
     "note": "Content folded into tail of ET p012 (2:1 ET merge at \"In Alcoholics Anonymous, I knew I had found a protective haven\")",
-    "translation": null
+    "translation": "Anonüümsetes Alkohoolikutes teadsin, et olin leidnud kaitsva pelgupaiga. Kuid järgnenud 4½ aasta jooksul kuulusin kategooriasse, keda AA kõnepruugis nimetatakse „krooniliseks libastujaks\". Mul võis olla kuue kuu pikkune kainus käes, ent siis võtsin pudeli, et seda tähistada."
   },
   {
     "canonicalSlug": "a-i",
@@ -67,7 +67,7 @@
     "targetLang": "en",
     "sourceText": "LISAD",
     "note": "LISAD section header; no EN equivalent",
-    "translation": null
+    "translation": "APPENDICES"
   },
   {
     "canonicalSlug": "a-iv",
@@ -77,7 +77,7 @@
     "targetLang": "et",
     "sourceText": "In 1951 the Lasker Award was given Alcoholics Anonymous. The citation reads in part as follows:",
     "note": "Lasker citation intro — ET edition does not contain this citation (ET page 603 in source PDF has only \"IV LASKERI PREEMIA\" + \"Neile,\" fragment then jumps to Appendix V). Not an extraction defect; ET source text is incomplete.",
-    "translation": null
+    "translation": "1951. aastal anti Anonüümsetele Alkohoolikutele Laskeri preemia. Põhjendus kõlab osaliselt nõnda:"
   },
   {
     "canonicalSlug": "a-iv",
@@ -87,7 +87,7 @@
     "targetLang": "et",
     "sourceText": "“The American Public Health Association presents a Lasker Group Award for 1951 to Alcoholics Anonymous in recognition of its unique and highly successful approach to that age-old public health and social problem, alcoholism . . . In emphasizing alcoholism as an illness, the social stigma associated with this condition is being blotted out . . . Historians may one day recognize Alcoholics Anonymous to have been a great venture in social pioneering which forged a new instrument for social action; a new therapy based on the kinship of common suffering; one having a vast potential for the myriad other ills of mankind.”",
     "note": "Lasker citation body — ET edition does not contain this citation (same source gap as p002).",
-    "translation": null
+    "translation": "„Ameerika Rahvatervise Assotsiatsioon annab Anonüümsetele Alkohoolikutele 1951. aasta Laskeri grupipreemia tunnustusena tema ainulaadse ja äärmiselt eduka lähenemise eest sellele ammusele rahvatervise- ja ühiskondlikule probleemile – alkoholismile . . . Rõhutades alkoholismi kui haigust, kustutatakse selle seisundiga seotud sotsiaalne häbimärk . . . Ajaloolased võivad ühel päeval tunnistada, et Anonüümsed Alkohoolikud oli suurepärane sotsiaalse pioneeritöö ettevõtmine, mis sepitses uue tööriista ühiskondlikuks tegevuseks; uue teraapia, mis põhineb ühise kannatuse sugulusel; teraapia, millel on tohutu potentsiaal inimkonna lugematute teiste hädade jaoks.\""
   },
   {
     "canonicalSlug": "a-vii",
@@ -97,7 +97,7 @@
     "targetLang": "en",
     "sourceText": "Need „lühikesel kujul“ Konseptsioonid võeti vastu 1971. aastal Teenistuse Üldkonverentsil.",
     "note": "ET-specific standalone sentence on 1971 adoption; EN folds equivalent content into preceding paragraph",
-    "translation": null
+    "translation": "These \"short form\" Concepts were adopted in 1971 at the General Service Conference."
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -107,7 +107,7 @@
     "targetLang": "et",
     "sourceText": "A.A. Pamphlets",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "AA voldikud"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -117,7 +117,7 @@
     "targetLang": "et",
     "sourceText": "44 Questions",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "44 küsimust"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -127,7 +127,7 @@
     "targetLang": "et",
     "sourceText": "A.A. Tradition—How It Developed",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "AA traditsioon – kuidas see kujunes"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -137,7 +137,7 @@
     "targetLang": "et",
     "sourceText": "Members of the Clergy Ask About A.A.",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Vaimulikud küsivad AA kohta"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -147,7 +147,7 @@
     "targetLang": "et",
     "sourceText": "Three Talks to Medical Societies by Bill W.",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Bill W. kolm kõnet meditsiiniühingutele"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -157,7 +157,7 @@
     "targetLang": "et",
     "sourceText": "Alcoholics Anonymous as a Resource for the Health Care Professional",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Anonüümsed Alkohoolikud kui abiressurss tervishoiutöötajale"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -167,7 +167,7 @@
     "targetLang": "et",
     "sourceText": "A.A. in Your Community",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "AA teie kogukonnas"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -177,7 +177,7 @@
     "targetLang": "et",
     "sourceText": "Is A.A. for You?",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Kas AA on sinu jaoks?"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -187,7 +187,7 @@
     "targetLang": "et",
     "sourceText": "Is A.A. for Me?",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Kas AA on minu jaoks?"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -197,7 +197,7 @@
     "targetLang": "et",
     "sourceText": "This Is A.A.",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "See on AA"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -207,7 +207,7 @@
     "targetLang": "et",
     "sourceText": "A Newcomer Asks . . .",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Uustulnuk küsib…"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -217,7 +217,7 @@
     "targetLang": "et",
     "sourceText": "Is There An Alcoholic in the Workplace?",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Kas töökohal on alkohoolik?"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -227,7 +227,7 @@
     "targetLang": "et",
     "sourceText": "Questions and Answers on Sponsorship",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Küsimusi ja vastuseid sponsorluse kohta"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -237,7 +237,7 @@
     "targetLang": "et",
     "sourceText": "A.A. for the Woman",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "AA naisele"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -247,7 +247,7 @@
     "targetLang": "et",
     "sourceText": "A.A. for the Native North American",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "AA Põhja-Ameerika põliselanikule"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -257,7 +257,7 @@
     "targetLang": "et",
     "sourceText": "A.A. and the Gay/Lesbian Alcoholic",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "AA ja gei/lesbi alkohoolik"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -267,7 +267,7 @@
     "targetLang": "et",
     "sourceText": "Can A.A. Help Me Too?—Black/African Americans Share Their Stories",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Kas AA saab ka mind aidata? – mustanahaliste/afroameeriklaste lood"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -277,7 +277,7 @@
     "targetLang": "et",
     "sourceText": "A.A. for the Older Alcoholic—Never Too Late",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "AA vanemale alkohoolikule – kunagi pole liiga hilja"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -287,7 +287,7 @@
     "targetLang": "et",
     "sourceText": "The Jack Alexander Article",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Jack Alexanderi artikkel"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -297,7 +297,7 @@
     "targetLang": "et",
     "sourceText": "Letter to a Woman Alcoholic",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Kiri naisalkohoolikule"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -307,7 +307,7 @@
     "targetLang": "et",
     "sourceText": "Young People and A.A.",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Noored ja AA"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -317,7 +317,7 @@
     "targetLang": "et",
     "sourceText": "A.A. and the Armed Services",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "AA ja relvajõud"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -327,7 +327,7 @@
     "targetLang": "et",
     "sourceText": "The A.A. Member—Medications and Other Drugs",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "AA liige – ravimid ja muud uimastid"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -337,7 +337,7 @@
     "targetLang": "et",
     "sourceText": "Do You Think You’re Different?",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Kas arvad, et oled teistsugune?"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -347,7 +347,7 @@
     "targetLang": "et",
     "sourceText": "Is There an Alcoholic in Your Life?",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Kas sinu elus on alkohoolik?"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -357,7 +357,7 @@
     "targetLang": "et",
     "sourceText": "Inside A.A.",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "AA seestpoolt"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -367,7 +367,7 @@
     "targetLang": "et",
     "sourceText": "The A.A. Group",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "AA grupp"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -377,7 +377,7 @@
     "targetLang": "et",
     "sourceText": "G.S.R.",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "GSR – üldteenistuse esindaja"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -387,7 +387,7 @@
     "targetLang": "et",
     "sourceText": "Memo to an Inmate",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Memo vangile"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -397,7 +397,7 @@
     "targetLang": "et",
     "sourceText": "The Twelve Steps Illustrated",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Kaksteist sammu illustreerituna"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -407,7 +407,7 @@
     "targetLang": "et",
     "sourceText": "The Twelve Traditions Illustrated",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Kaksteist traditsiooni illustreerituna"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -417,7 +417,7 @@
     "targetLang": "et",
     "sourceText": "The Twelve Concepts Illustrated",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Kaksteist kontseptsiooni illustreerituna"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -427,7 +427,7 @@
     "targetLang": "et",
     "sourceText": "Let’s Be Friendly With our Friends",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Olgem oma sõpradega sõbralikud"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -437,7 +437,7 @@
     "targetLang": "et",
     "sourceText": "How A.A. Members Cooperate",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Kuidas AA liikmed koostööd teevad"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -447,7 +447,7 @@
     "targetLang": "et",
     "sourceText": "A.A. in Correctional Facilities",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "AA kinnipidamisasutustes"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -457,7 +457,7 @@
     "targetLang": "et",
     "sourceText": "A Message to Correctional Facilities Adminstrators",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Sõnum kinnipidamisasutuste juhtidele"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -467,7 +467,7 @@
     "targetLang": "et",
     "sourceText": "A.A. in Treatment Facilities",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "AA raviasutustes"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -477,7 +477,7 @@
     "targetLang": "et",
     "sourceText": "Bridging the Gap",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Lõhe ületamine"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -487,7 +487,7 @@
     "targetLang": "et",
     "sourceText": "If You Are a Professional",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Kui sa oled spetsialist"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -497,7 +497,7 @@
     "targetLang": "et",
     "sourceText": "A.A. Membership Survey",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "AA liikmeuuring"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -507,7 +507,7 @@
     "targetLang": "et",
     "sourceText": "A Member’s-Eye View of Alcoholics Anonymous",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Anonüümsed Alkohoolikud liikme silmade läbi"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -517,7 +517,7 @@
     "targetLang": "et",
     "sourceText": "Problems Other Than Alcohol",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Probleemid peale alkoholi"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -527,7 +527,7 @@
     "targetLang": "et",
     "sourceText": "Understanding Anonymity",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Anonüümsuse mõistmine"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -537,7 +537,7 @@
     "targetLang": "et",
     "sourceText": "The Co-Founders of Alcoholics Anonymous",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Anonüümsete Alkohoolikute kaasasutajad"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -547,7 +547,7 @@
     "targetLang": "et",
     "sourceText": "Speaking at Non-A.A. Meetings",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Esinemine AA-välistel koosolekutel"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -557,7 +557,7 @@
     "targetLang": "et",
     "sourceText": "A Brief Guide to A.A.",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Lühijuhend AA kohta"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -567,7 +567,7 @@
     "targetLang": "et",
     "sourceText": "What Happened to Joe",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Mis juhtus Joe’ga"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -577,7 +577,7 @@
     "targetLang": "et",
     "sourceText": "It Happened to Alice",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "See juhtus Alice’iga"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -587,7 +587,7 @@
     "targetLang": "et",
     "sourceText": "(Two above are full-color, comic-book-style pamphlets)",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "(Kaks eelnevat on täisvärvilised koomiksilaadsed voldikud)"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -597,7 +597,7 @@
     "targetLang": "et",
     "sourceText": "Too Young?",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Liiga noor?"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -607,7 +607,7 @@
     "targetLang": "et",
     "sourceText": "(Above is a cartoon pamphlet for teenagers)",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "(Eelnev on koomiksivoldik teismelistele)"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -617,7 +617,7 @@
     "targetLang": "et",
     "sourceText": "It Sure Beats Sitting in a Cell",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "See on kindlasti parem kui kongis istumine"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -627,7 +627,7 @@
     "targetLang": "et",
     "sourceText": "(Above is an illustrated pamphlet for inmates)",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "(Eelnev on illustreeritud voldik kinnipeetavatele)"
   },
   {
     "canonicalSlug": "a-pamphlets",
@@ -637,6 +637,6 @@
     "targetLang": "et",
     "sourceText": "Complete order forms available from A.A. General Service Office: Box 459, Grand Central Station, New York, NY 10163",
     "note": "a-pamphlets whole-section EN-only per spec D4",
-    "translation": null
+    "translation": "Tellimisvormid on saadaval AA Üldteenistusbüroost: Box 459, Grand Central Station, New York, NY 10163"
   }
 ]
