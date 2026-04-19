@@ -345,4 +345,23 @@ The section-map table above lists the chapter and appendix slugs concretely but 
 5. PO review of first `review.md` output; iterate edits to `en-et.json` until review.md is empty.
 6. Close issue #39. Open brainstorm for P1 (bootstrap generator).
 
+## Known design debt (post-Task-14)
+
+### Block-ordinal numbering convention clash
+
+Two different numbering schemes coexist in the data pipeline and the PO has registered this as **poor design** that should be reconciled, not left to chance:
+
+- **Extraction block IDs** (in `data/extractions/structured/*.json` and `.../structured-et/*.json`) use _position-in-section_ ordinals regardless of kind. First block = `h001` (heading), second block = `p002` (paragraph — `p001` is skipped because the heading consumed that slot), third = `p003`, etc.
+- **Pairing artifact `paraId`s** (synthesized by `scripts/pair-en-et/block-pair.ts`) use _within-kind_ ordinals. First heading = `h001`, first paragraph = `p001`, second paragraph = `p002`, etc.
+
+This means a pair like `{paraId: "fw1-p001", enBlockId: "foreword-1st-edition-p002", etBlockId: "eessona-1st-p002"}` is correct in both schemes simultaneously, but reads as a numbering mismatch to anyone not initiated.
+
+**PO position (2026-04-19):** the mixed state is accidental ("happens to land by chance"), not designed. A future cleanup should pick one convention and apply it consistently across extractions, pairing artifact, and the eventual `src/content/{en,et}/` markdown. Decision deferred until P1 brainstorm, where the rebuild target's `para-id` scheme gets re-evaluated holistically.
+
+**Options to revisit at P1:**
+
+1. Align pairing to within-kind (current pairing behaviour) and re-number extractions on next re-run.
+2. Align everything to position-in-section and renumber the pairing artifact's `paraId`s to match.
+3. Keep both but document the clash prominently (current state — explicitly sub-optimal per PO).
+
 (_BB:Plantin_)

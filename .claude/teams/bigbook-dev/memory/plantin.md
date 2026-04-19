@@ -91,6 +91,19 @@ Things intentionally deferred — none of them block v1 or block further reactiv
 - **`npm audit` moderate advisories** — 11+ from Astro scaffold + deps.
 - **ch05/ch06 structural mismatch** with authoritative Estonian PDF chapter boundaries (content between p010–p011 is missing from ch05, and ch06 has duplicates from ch05).
 
+### [DEFERRED] 2026-04-19 — Block-ordinal numbering convention clash (v1.1-content P1)
+
+Two numbering schemes coexist in the data pipeline:
+
+- **Extractions** (`data/extractions/structured/*.json` and `.../structured-et/*.json`) number blocks by _position-in-section_: first block is `h001`, second is `p002` (skipping `p001` because the heading took that slot).
+- **Pairing artifact** (`data/extractions/pairing/en-et.json`) synthesizes `paraId`s by _within-kind_ ordinal: first paragraph is `p001`, second is `p002`.
+
+So a pair `{paraId: "fw1-p001", enBlockId: "foreword-1st-edition-p002", etBlockId: "eessona-1st-p002"}` is valid under both schemes simultaneously but reads as a numbering mismatch.
+
+**Why:** PO considers this poor design — the mixed state is accidental, not decided. Both schemes have merit; what's wrong is that we chose neither on purpose.
+
+**How to apply:** At P1 (bootstrap generator) brainstorm, pick one scheme and apply it consistently across extractions, pairing artifact, and the generated `src/content/{en,et}/` markdown. Options: (a) align pairing to position-in-section and renumber `paraId`s; (b) align extractions to within-kind and re-emit them; (c) keep both schemes with explicit documentation. PO ruled out (c) as acceptable. Decision deferred because P1 will re-evaluate the rebuild target's `para-id` scheme holistically and this trade-off belongs there. See `docs/superpowers/specs/2026-04-19-en-et-pairing-artifact-design.md` → "Known design debt".
+
 ## Session 12 Lessons
 
 - **Node 25 native `localStorage` shadows jsdom's in Vitest.** Node 25 ships `localStorage` natively as part of the `--localstorage-file` feature; the native object lacks `.clear()` and blocks jsdom from taking over the global. Fix in `tests/setup.ts`: reassign `globalThis.localStorage = window._localStorage` at startup. Saved to auto-memory (`node25_jsdom_localstorage.md`).
