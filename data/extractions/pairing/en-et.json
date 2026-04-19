@@ -121,67 +121,78 @@
           "blockId": "copyright-info-h001",
           "side": "et",
           "kind": "heading",
-          "reason": "needs-review"
+          "reason": "structural-extra",
+          "notes": "ET-side TOC/navigation material absent from EN \u2014 spec D3 case 2 (drop at bootstrap)"
         },
         {
           "blockId": "copyright-info-h016",
           "side": "et",
           "kind": "heading",
-          "reason": "needs-review"
+          "reason": "structural-extra",
+          "notes": "ET-side TOC/navigation material absent from EN \u2014 spec D3 case 2 (drop at bootstrap)"
         },
         {
           "blockId": "copyright-info-h018",
           "side": "et",
           "kind": "heading",
-          "reason": "needs-review"
+          "reason": "structural-extra",
+          "notes": "ET-side TOC/navigation material absent from EN \u2014 spec D3 case 2 (drop at bootstrap)"
         },
         {
           "blockId": "copyright-info-h020",
           "side": "et",
           "kind": "heading",
-          "reason": "needs-review"
+          "reason": "structural-extra",
+          "notes": "ET-side TOC/navigation material absent from EN \u2014 spec D3 case 2 (drop at bootstrap)"
         },
         {
           "blockId": "copyright-info-h022",
           "side": "et",
           "kind": "heading",
-          "reason": "needs-review"
+          "reason": "structural-extra",
+          "notes": "ET-side TOC/navigation material absent from EN \u2014 spec D3 case 2 (drop at bootstrap)"
         },
         {
           "blockId": "copyright-info-h024",
           "side": "et",
           "kind": "heading",
-          "reason": "needs-review"
+          "reason": "structural-extra",
+          "notes": "ET-side TOC/navigation material absent from EN \u2014 spec D3 case 2 (drop at bootstrap)"
         },
         {
           "blockId": "copyright-info-t017",
           "side": "et",
           "kind": "table",
-          "reason": "needs-review"
+          "reason": "structural-extra",
+          "notes": "ET-side TOC/navigation material absent from EN \u2014 spec D3 case 2 (drop at bootstrap)"
         },
         {
           "blockId": "copyright-info-t019",
           "side": "et",
           "kind": "table",
-          "reason": "needs-review"
+          "reason": "structural-extra",
+          "notes": "ET-side TOC/navigation material absent from EN \u2014 spec D3 case 2 (drop at bootstrap)"
         },
         {
           "blockId": "copyright-info-t021",
           "side": "et",
           "kind": "table",
-          "reason": "needs-review"
+          "reason": "structural-extra",
+          "notes": "ET-side TOC/navigation material absent from EN \u2014 spec D3 case 2 (drop at bootstrap)"
         },
         {
           "blockId": "copyright-info-t023",
           "side": "et",
           "kind": "table",
-          "reason": "needs-review"
+          "reason": "structural-extra",
+          "notes": "ET-side TOC/navigation material absent from EN \u2014 spec D3 case 2 (drop at bootstrap)"
         },
         {
           "blockId": "copyright-info-t025",
           "side": "et",
           "kind": "table",
-          "reason": "needs-review"
+          "reason": "structural-extra",
+          "notes": "ET-side TOC/navigation material absent from EN \u2014 spec D3 case 2 (drop at bootstrap)"
         }
       ],
       "diagnostics": [
@@ -321,7 +332,8 @@
           "blockId": "eessona-1st-b010",
           "side": "et",
           "kind": "byline",
-          "reason": "needs-review"
+          "reason": "section-et-only",
+          "notes": "ET translator added byline absent from EN \u2014 see design D3 case 5"
         }
       ],
       "diagnostics": [
@@ -881,6 +893,475 @@
           "confidence": "high"
         },
         {
+          "paraId": "ch01-p001",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p002",
+          "etBlockId": "ch01-billi-lugu-p002",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p002",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p003",
+          "etBlockId": "ch01-billi-lugu-p003",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p003",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p006",
+          "etBlockId": "ch01-billi-lugu-p005",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p004",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p007",
+          "etBlockId": "ch01-billi-lugu-p006",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p005",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p008",
+          "etBlockId": "ch01-billi-lugu-p007",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p006",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p009",
+          "etBlockId": "ch01-billi-lugu-p008",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p007",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p010",
+          "etBlockId": "ch01-billi-lugu-p009",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p008",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p011",
+          "etBlockId": "ch01-billi-lugu-p010",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p009",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p012",
+          "etBlockId": "ch01-billi-lugu-p011",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p010",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p013",
+          "etBlockId": "ch01-billi-lugu-p012",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p011",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p014",
+          "etBlockId": "ch01-billi-lugu-p013",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p012",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p015",
+          "etBlockId": "ch01-billi-lugu-p014",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p013",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p016",
+          "etBlockId": "ch01-billi-lugu-p015",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p014",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p017",
+          "etBlockId": "ch01-billi-lugu-p016",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p015",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p018",
+          "etBlockId": "ch01-billi-lugu-p017",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p016",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p019",
+          "etBlockId": "ch01-billi-lugu-p018",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p017",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p020",
+          "etBlockId": "ch01-billi-lugu-p019",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p018",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p021",
+          "etBlockId": "ch01-billi-lugu-p020",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p019",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p022",
+          "etBlockId": "ch01-billi-lugu-p021",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p020",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p023",
+          "etBlockId": "ch01-billi-lugu-p022",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p021",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p024",
+          "etBlockId": "ch01-billi-lugu-p023",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p022",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p025",
+          "etBlockId": "ch01-billi-lugu-p024",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p023",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p026",
+          "etBlockId": "ch01-billi-lugu-p025",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p024",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p027",
+          "etBlockId": "ch01-billi-lugu-p026",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p025",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p028",
+          "etBlockId": "ch01-billi-lugu-p027",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p026",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p029",
+          "etBlockId": "ch01-billi-lugu-p028",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p027",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p030",
+          "etBlockId": "ch01-billi-lugu-p029",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p028",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p031",
+          "etBlockId": "ch01-billi-lugu-p030",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p029",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p032",
+          "etBlockId": "ch01-billi-lugu-p031",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p030",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p033",
+          "etBlockId": "ch01-billi-lugu-p032",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p031",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p034",
+          "etBlockId": "ch01-billi-lugu-p033",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p032",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p035",
+          "etBlockId": "ch01-billi-lugu-p034",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p033",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p036",
+          "etBlockId": "ch01-billi-lugu-p035",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p034",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p037",
+          "etBlockId": "ch01-billi-lugu-p036",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p035",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p038",
+          "etBlockId": "ch01-billi-lugu-p037",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p036",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p039",
+          "etBlockId": "ch01-billi-lugu-p038",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p037",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p040",
+          "etBlockId": "ch01-billi-lugu-p039",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p038",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p041",
+          "etBlockId": "ch01-billi-lugu-p040",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p039",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p042",
+          "etBlockId": "ch01-billi-lugu-p041",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p040",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p043",
+          "etBlockId": "ch01-billi-lugu-p042",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p041",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p044",
+          "etBlockId": "ch01-billi-lugu-p043",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p042",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p045",
+          "etBlockId": "ch01-billi-lugu-p044",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p043",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p046",
+          "etBlockId": "ch01-billi-lugu-p045",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p044",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p047",
+          "etBlockId": "ch01-billi-lugu-p046",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p045",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p048",
+          "etBlockId": "ch01-billi-lugu-p047",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p046",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p049",
+          "etBlockId": "ch01-billi-lugu-p048",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p047",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p050",
+          "etBlockId": "ch01-billi-lugu-p049",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p048",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p051",
+          "etBlockId": "ch01-billi-lugu-p050",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p049",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p052",
+          "etBlockId": "ch01-billi-lugu-p051",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p050",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p053",
+          "etBlockId": "ch01-billi-lugu-p052",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p051",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p054",
+          "etBlockId": "ch01-billi-lugu-p053",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p052",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p055",
+          "etBlockId": "ch01-billi-lugu-p054",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p053",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p056",
+          "etBlockId": "ch01-billi-lugu-p055",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p054",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p057",
+          "etBlockId": "ch01-billi-lugu-p056",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p055",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p058",
+          "etBlockId": "ch01-billi-lugu-p057",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p056",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p059",
+          "etBlockId": "ch01-billi-lugu-p058",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p057",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p060",
+          "etBlockId": "ch01-billi-lugu-p059",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p058",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p061",
+          "etBlockId": "ch01-billi-lugu-p060",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p059",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p062",
+          "etBlockId": "ch01-billi-lugu-p061",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p060",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p063",
+          "etBlockId": "ch01-billi-lugu-p062",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p061",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p064",
+          "etBlockId": "ch01-billi-lugu-p063",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p062",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p065",
+          "etBlockId": "ch01-billi-lugu-p064",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p063",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p066",
+          "etBlockId": "ch01-billi-lugu-p065",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p064",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p067",
+          "etBlockId": "ch01-billi-lugu-p066",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p065",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p068",
+          "etBlockId": "ch01-billi-lugu-p067",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p066",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p069",
+          "etBlockId": "ch01-billi-lugu-p068",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p067",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p070",
+          "etBlockId": "ch01-billi-lugu-p069",
+          "confidence": "high"
+        },
+        {
           "paraId": "ch01-v001",
           "kind": "verse",
           "enBlockId": "ch01-bills-story-v004",
@@ -897,831 +1378,29 @@
       ],
       "unpaired": [
         {
-          "blockId": "ch01-bills-story-p002",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p003",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
           "blockId": "ch01-bills-story-p005",
           "side": "en",
           "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p006",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p007",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p008",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p009",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p010",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p011",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p012",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p013",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p014",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p015",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p016",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p017",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p018",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p019",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p020",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p021",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p022",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p023",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p024",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p025",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p026",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p027",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p028",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p029",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p030",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p031",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p032",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p033",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p034",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p035",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p036",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p037",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p038",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p039",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p040",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p041",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p042",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p043",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p044",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p045",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p046",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p047",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p048",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p049",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p050",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p051",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p052",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p053",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p054",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p055",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p056",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p057",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p058",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p059",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p060",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p061",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p062",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p063",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p064",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p065",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p066",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p067",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p068",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p069",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-bills-story-p070",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
+          "reason": "section-en-only",
+          "notes": "One-line aside \"Ominous warning\u2014which I failed to heed.\" merged into ET p005 alongside EN p006"
         },
         {
           "blockId": "ch01-bills-story-p071",
           "side": "en",
           "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p002",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p003",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p005",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p006",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p007",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p008",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p009",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p010",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p011",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p012",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p013",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p014",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p015",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p016",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p017",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p018",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p019",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p020",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p021",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p022",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p023",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p024",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p025",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p026",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p027",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p028",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p029",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p030",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p031",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p032",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p033",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p034",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p035",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p036",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p037",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p038",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p039",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p040",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p041",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p042",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p043",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p044",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p045",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p046",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p047",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p048",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p049",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p050",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p051",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p052",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p053",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p054",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p055",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p056",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p057",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p058",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p059",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p060",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p061",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p062",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p063",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p064",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p065",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p066",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p067",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p068",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch01-billi-lugu-p069",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
+          "reason": "section-en-only",
+          "notes": "Bill W. death-date line \u2014 paired semantically with ET byline b070 (kind mismatch prevents strict 1:1 pair; both preserved side-only)"
         },
         {
           "blockId": "ch01-billi-lugu-b070",
           "side": "et",
           "kind": "byline",
-          "reason": "needs-review"
+          "reason": "section-et-only",
+          "notes": "Bill W. death-date byline \u2014 paired semantically with EN p071 (kind mismatch)"
         }
       ],
       "diagnostics": [
-        "kind-count mismatch: paragraph en=69 et=67",
-        "kind-count mismatch: byline en=0 et=1"
+        "Post-reconciliation: paired 70 EN and 70 ET blocks positionally"
       ]
     },
     {
@@ -3620,8 +3299,8 @@
           "kind": "heading",
           "enBlockId": "ch07-working-with-others-h001",
           "etBlockId": "ch07-too-teistega-h001",
-          "confidence": "low",
-          "notes": "length-ratio 0.53"
+          "confidence": "high",
+          "notes": "Heading compression: Estonian more terse (T\u00d6\u00d6 TEISTE[GA] = Work With Others)"
         },
         {
           "paraId": "ch07-p001",
@@ -4766,8 +4445,8 @@
           "kind": "paragraph",
           "enBlockId": "ch09-the-family-afterward-p047",
           "etBlockId": "ch09-perekond-hiljem-p047",
-          "confidence": "low",
-          "notes": "length-ratio 1.76"
+          "confidence": "high",
+          "notes": "Translated proverb, Estonian more verbose \u2014 legitimate pair"
         },
         {
           "paraId": "ch09-p047",
@@ -4793,6 +4472,356 @@
           "confidence": "high"
         },
         {
+          "paraId": "ch10-p001",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p002",
+          "etBlockId": "ch10-tooandjatele-p002",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p002",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p004",
+          "etBlockId": "ch10-tooandjatele-p003",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p003",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p005",
+          "etBlockId": "ch10-tooandjatele-p004",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p004",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p006",
+          "etBlockId": "ch10-tooandjatele-p005",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p005",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p007",
+          "etBlockId": "ch10-tooandjatele-p006",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p006",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p008",
+          "etBlockId": "ch10-tooandjatele-p007",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p007",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p009",
+          "etBlockId": "ch10-tooandjatele-p008",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p008",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p010",
+          "etBlockId": "ch10-tooandjatele-p009",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p009",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p011",
+          "etBlockId": "ch10-tooandjatele-p010",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p010",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p012",
+          "etBlockId": "ch10-tooandjatele-p011",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p011",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p013",
+          "etBlockId": "ch10-tooandjatele-p012",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p012",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p014",
+          "etBlockId": "ch10-tooandjatele-p013",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p013",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p015",
+          "etBlockId": "ch10-tooandjatele-p014",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p014",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p016",
+          "etBlockId": "ch10-tooandjatele-p015",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p015",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p017",
+          "etBlockId": "ch10-tooandjatele-p016",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p016",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p018",
+          "etBlockId": "ch10-tooandjatele-p017",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p017",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p019",
+          "etBlockId": "ch10-tooandjatele-p018",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p018",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p020",
+          "etBlockId": "ch10-tooandjatele-p019",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p019",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p021",
+          "etBlockId": "ch10-tooandjatele-p020",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p020",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p022",
+          "etBlockId": "ch10-tooandjatele-p021",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p021",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p023",
+          "etBlockId": "ch10-tooandjatele-p022",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p022",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p024",
+          "etBlockId": "ch10-tooandjatele-p023",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p023",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p025",
+          "etBlockId": "ch10-tooandjatele-p024",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p024",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p026",
+          "etBlockId": "ch10-tooandjatele-p025",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p025",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p027",
+          "etBlockId": "ch10-tooandjatele-p026",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p026",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p028",
+          "etBlockId": "ch10-tooandjatele-p027",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p027",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p029",
+          "etBlockId": "ch10-tooandjatele-p028",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p028",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p030",
+          "etBlockId": "ch10-tooandjatele-p029",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p029",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p031",
+          "etBlockId": "ch10-tooandjatele-p030",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p030",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p032",
+          "etBlockId": "ch10-tooandjatele-p031",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p031",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p033",
+          "etBlockId": "ch10-tooandjatele-p032",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p032",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p034",
+          "etBlockId": "ch10-tooandjatele-p033",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p033",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p035",
+          "etBlockId": "ch10-tooandjatele-p034",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p034",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p036",
+          "etBlockId": "ch10-tooandjatele-p035",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p035",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p037",
+          "etBlockId": "ch10-tooandjatele-p036",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p036",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p038",
+          "etBlockId": "ch10-tooandjatele-p037",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p037",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p039",
+          "etBlockId": "ch10-tooandjatele-p038",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p038",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p040",
+          "etBlockId": "ch10-tooandjatele-p039",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p039",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p041",
+          "etBlockId": "ch10-tooandjatele-p040",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p040",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p042",
+          "etBlockId": "ch10-tooandjatele-p041",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p041",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p043",
+          "etBlockId": "ch10-tooandjatele-p042",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p042",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p044",
+          "etBlockId": "ch10-tooandjatele-p043",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p043",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p045",
+          "etBlockId": "ch10-tooandjatele-p044",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p044",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p046",
+          "etBlockId": "ch10-tooandjatele-p045",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p045",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p047",
+          "etBlockId": "ch10-tooandjatele-p046",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p046",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p048",
+          "etBlockId": "ch10-tooandjatele-p047",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p047",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p049",
+          "etBlockId": "ch10-tooandjatele-p048",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p048",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p050",
+          "etBlockId": "ch10-tooandjatele-p049",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p049",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p051",
+          "etBlockId": "ch10-tooandjatele-p050",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch10-p050",
+          "kind": "paragraph",
+          "enBlockId": "ch10-to-employers-p052",
+          "etBlockId": "ch10-tooandjatele-p051",
+          "confidence": "high"
+        },
+        {
           "paraId": "ch10-f001",
           "kind": "footnote",
           "enBlockId": "ch10-to-employers-f053",
@@ -4802,614 +4831,15 @@
       ],
       "unpaired": [
         {
-          "blockId": "ch10-to-employers-p002",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
           "blockId": "ch10-to-employers-p003",
           "side": "en",
           "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p004",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p005",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p006",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p007",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p008",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p009",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p010",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p011",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p012",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p013",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p014",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p015",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p016",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p017",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p018",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p019",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p020",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p021",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p022",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p023",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p024",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p025",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p026",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p027",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p028",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p029",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p030",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p031",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p032",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p033",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p034",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p035",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p036",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p037",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p038",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p039",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p040",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p041",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p042",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p043",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p044",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p045",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p046",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p047",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p048",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p049",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p050",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p051",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-to-employers-p052",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p002",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p003",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p004",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p005",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p006",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p007",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p008",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p009",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p010",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p011",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p012",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p013",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p014",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p015",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p016",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p017",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p018",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p019",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p020",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p021",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p022",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p023",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p024",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p025",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p026",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p027",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p028",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p029",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p030",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p031",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p032",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p033",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p034",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p035",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p036",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p037",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p038",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p039",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p040",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p041",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p042",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p043",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p044",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p045",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p046",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p047",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p048",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p049",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p050",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch10-tooandjatele-p051",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
+          "reason": "section-en-only",
+          "notes": "Bridging phrase \"But let him tell you:\" merged into ET p002 tail"
         }
       ],
       "diagnostics": [
-        "kind-count mismatch: paragraph en=51 et=50"
+        "Post-reconciliation: paired 52 EN and 52 ET blocks positionally"
       ]
     },
     {
@@ -5422,6 +4852,402 @@
           "kind": "heading",
           "enBlockId": "ch11-a-vision-for-you-h001",
           "etBlockId": "ch11-tulevikupilt-teie-jaoks-h001",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p001",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p002",
+          "etBlockId": [
+            "ch11-tulevikupilt-teie-jaoks-p002",
+            "ch11-tulevikupilt-teie-jaoks-p003"
+          ],
+          "confidence": "high",
+          "notes": "accepted-split: ET translator split EN opening paragraph after first sentence \u2014 1:2 ET split"
+        },
+        {
+          "paraId": "ch11-p002",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p003",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p004",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p003",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p004",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p005",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p004",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p005",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p006",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p005",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p006",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p007",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p006",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p007",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p008",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p007",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p008",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p009",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p008",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p009",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p010",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p009",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p010",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p011",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p010",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p011",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p012",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p011",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p012",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p013",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p012",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p013",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p014",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p013",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p014",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p015",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p014",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p015",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p016",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p015",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p016",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p017",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p016",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p017",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p018",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p017",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p018",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p019",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p018",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p019",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p020",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p019",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p020",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p021",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p020",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p021",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p023",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p021",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p022",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p024",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p022",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p023",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p025",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p023",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p024",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p026",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p024",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p025",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p027",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p025",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p026",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p028",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p026",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p027",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p030",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p027",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p028",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p031",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p028",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p029",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p032",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p029",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p030",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p033",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p030",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p031",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p034",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p031",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p032",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p035",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p032",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p033",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p036",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p033",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p034",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p037",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p034",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p035",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p038",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p035",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p036",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p039",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p036",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p037",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p040",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p037",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p038",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p041",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p038",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p039",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p042",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p039",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p040",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p043",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p040",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p041",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p044",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p041",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p042",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p045",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p042",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p043",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p046",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p043",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p044",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p047",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p044",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p045",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p048",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p045",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p046",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p049",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p046",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p047",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p051",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p047",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p048",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p052",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p048",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p049",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p053",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p049",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p050",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p054",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p050",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p051",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p056",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p051",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p052",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p057",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p052",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p053",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p058",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p053",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p054",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p059",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p054",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p055",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p061",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p055",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p056",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p062",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch11-p056",
+          "kind": "paragraph",
+          "enBlockId": "ch11-a-vision-for-you-p057",
+          "etBlockId": "ch11-tulevikupilt-teie-jaoks-p063",
           "confidence": "high"
         },
         {
@@ -5460,688 +5286,9 @@
           "confidence": "high"
         }
       ],
-      "unpaired": [
-        {
-          "blockId": "ch11-a-vision-for-you-p002",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p003",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p004",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p005",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p006",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p007",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p008",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p009",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p010",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p011",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p012",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p013",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p014",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p015",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p016",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p017",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p018",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p019",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p020",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p021",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p022",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p023",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p024",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p025",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p026",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p027",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p028",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p029",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p030",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p031",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p032",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p033",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p034",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p035",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p036",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p037",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p038",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p039",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p040",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p041",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p042",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p043",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p044",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p045",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p046",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p047",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p048",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p049",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p050",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p051",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p052",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p053",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p054",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p055",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p056",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-a-vision-for-you-p057",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p002",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p003",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p004",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p005",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p006",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p007",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p008",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p009",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p010",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p011",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p012",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p013",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p014",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p015",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p016",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p017",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p018",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p019",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p020",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p021",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p023",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p024",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p025",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p026",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p027",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p028",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p030",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p031",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p032",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p033",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p034",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p035",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p036",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p037",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p038",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p039",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p040",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p041",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p042",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p043",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p044",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p045",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p046",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p047",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p048",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p049",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p051",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p052",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p053",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p054",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p056",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p057",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p058",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p059",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p061",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p062",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "ch11-tulevikupilt-teie-jaoks-p063",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        }
-      ],
+      "unpaired": [],
       "diagnostics": [
-        "kind-count mismatch: paragraph en=56 et=57"
+        "Post-reconciliation: paired 62 EN and 62 ET blocks positionally"
       ]
     },
     {
@@ -6437,493 +5584,296 @@
           "enBlockId": "story-aa-number-three-h001",
           "etBlockId": "story-anonuumne-alkohoolik-number-kolm-h001",
           "confidence": "high"
+        },
+        {
+          "paraId": "s02-p001",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p002",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p002",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p002",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p003",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p003",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p003",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p004",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p004",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p004",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p005",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p005",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p005",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p006",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p006",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p006",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p007",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p007",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p007",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p008",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p008",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p008",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p009",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p009",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p009",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p010",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p010",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p010",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p011",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p011",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p011",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p012",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p012",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p012",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p013",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p013",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p013",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p014",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p014",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p014",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p015",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p015",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p015",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p016",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p016",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p016",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p017",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p017",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p017",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p018",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p018",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p018",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p019",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p019",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p019",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p020",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p020",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p020",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p021",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p021",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p021",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p022",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p022",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p022",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p035",
+          "etBlockId": [
+            "story-anonuumne-alkohoolik-number-kolm-p034",
+            "story-anonuumne-alkohoolik-number-kolm-p035"
+          ],
+          "confidence": "high",
+          "notes": "accepted-split: ET translator split EN paragraph at \"I knew that I had a helper\" \u2014 1:2 ET split"
+        },
+        {
+          "paraId": "s02-p023",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p036",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p036",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p024",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p037",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p037",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p025",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p038",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p038",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p026",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p039",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p039",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p027",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p040",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p040",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-p028",
+          "kind": "paragraph",
+          "enBlockId": "story-aa-number-three-p041",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-p041",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-q001",
+          "kind": "blockquote",
+          "enBlockId": "story-aa-number-three-q023",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-q023",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-q002",
+          "kind": "blockquote",
+          "enBlockId": "story-aa-number-three-q024",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-q024",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-q003",
+          "kind": "blockquote",
+          "enBlockId": "story-aa-number-three-q025",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-q025",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-q004",
+          "kind": "blockquote",
+          "enBlockId": "story-aa-number-three-q026",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-q026",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-q005",
+          "kind": "blockquote",
+          "enBlockId": "story-aa-number-three-q027",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-q027",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-q006",
+          "kind": "blockquote",
+          "enBlockId": "story-aa-number-three-q028",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-q028",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-q007",
+          "kind": "blockquote",
+          "enBlockId": "story-aa-number-three-q029",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-q029",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-q008",
+          "kind": "blockquote",
+          "enBlockId": "story-aa-number-three-q030",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-q030",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-q009",
+          "kind": "blockquote",
+          "enBlockId": "story-aa-number-three-q031",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-q031",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-q010",
+          "kind": "blockquote",
+          "enBlockId": "story-aa-number-three-q032",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-q032",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s02-q011",
+          "kind": "blockquote",
+          "enBlockId": "story-aa-number-three-q033",
+          "etBlockId": "story-anonuumne-alkohoolik-number-kolm-q033",
+          "confidence": "high"
         }
       ],
       "unpaired": [
         {
-          "blockId": "story-aa-number-three-p002",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p003",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p004",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p005",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p006",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p007",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p008",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p009",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p010",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p011",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p012",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p013",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p014",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p015",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p016",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p017",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p018",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p019",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p020",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p021",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p022",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p035",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p036",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p037",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p038",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p039",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p040",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-p041",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p002",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p003",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p004",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p005",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p006",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p007",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p008",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p009",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p010",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p011",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p012",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p013",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p014",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p015",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p016",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p017",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p018",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p019",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p020",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p021",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p022",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p034",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p035",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p036",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p037",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p038",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p039",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p040",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-p041",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-q023",
-          "side": "en",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-q024",
-          "side": "en",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-q025",
-          "side": "en",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-q026",
-          "side": "en",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-q027",
-          "side": "en",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-q028",
-          "side": "en",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-q029",
-          "side": "en",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-q030",
-          "side": "en",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-q031",
-          "side": "en",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-q032",
-          "side": "en",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-aa-number-three-q033",
-          "side": "en",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
           "blockId": "story-aa-number-three-q034",
           "side": "en",
           "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-q023",
-          "side": "et",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-q024",
-          "side": "et",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-q025",
-          "side": "et",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-q026",
-          "side": "et",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-q027",
-          "side": "et",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-q028",
-          "side": "et",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-q029",
-          "side": "et",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-q030",
-          "side": "et",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-q031",
-          "side": "et",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-q032",
-          "side": "et",
-          "kind": "blockquote",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-anonuumne-alkohoolik-number-kolm-q033",
-          "side": "et",
-          "kind": "blockquote",
-          "reason": "needs-review"
+          "reason": "section-en-only",
+          "notes": "Editorial aside \"(Bill D. now continues his story.)\" merged into ET q033 tail \u2014 spec D3 case 6 option (b)"
         }
       ],
       "diagnostics": [
-        "kind-count mismatch: paragraph en=28 et=29",
-        "kind-count mismatch: blockquote en=12 et=11"
+        "Post-reconciliation: paired 40 EN and 40 ET blocks positionally"
       ]
     },
     {
@@ -7754,8 +6704,8 @@
           "kind": "heading",
           "enBlockId": "story-the-vicious-cycle-h001",
           "etBlockId": "story-noiaring-h001",
-          "confidence": "low",
-          "notes": "length-ratio 0.47"
+          "confidence": "high",
+          "notes": "Estonian compound word translation (N\u00d5IARING = witch-circle); length-ratio false alarm"
         },
         {
           "paraId": "s06-p001",
@@ -10815,354 +9765,215 @@
           "enBlockId": "story-tightrope-h001",
           "etBlockId": "story-kois-h001",
           "confidence": "high"
+        },
+        {
+          "paraId": "s20-p001",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p002",
+          "etBlockId": "story-kois-p002",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p002",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p003",
+          "etBlockId": "story-kois-p003",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p003",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p004",
+          "etBlockId": "story-kois-p004",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p004",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p005",
+          "etBlockId": "story-kois-p005",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p005",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p006",
+          "etBlockId": "story-kois-p006",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p006",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p007",
+          "etBlockId": "story-kois-p007",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p007",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p008",
+          "etBlockId": "story-kois-p008",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p008",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p009",
+          "etBlockId": "story-kois-p009",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p009",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p010",
+          "etBlockId": "story-kois-p010",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p010",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p011",
+          "etBlockId": "story-kois-p011",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p011",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p012",
+          "etBlockId": "story-kois-p012",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p012",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p013",
+          "etBlockId": "story-kois-p013",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p013",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p014",
+          "etBlockId": "story-kois-p014",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p014",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p015",
+          "etBlockId": "story-kois-p015",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p015",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p017",
+          "etBlockId": "story-kois-p016",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p016",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p018",
+          "etBlockId": "story-kois-p017",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p017",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p019",
+          "etBlockId": "story-kois-p018",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p018",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p020",
+          "etBlockId": "story-kois-p019",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p019",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p021",
+          "etBlockId": "story-kois-p020",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p020",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p022",
+          "etBlockId": "story-kois-p021",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p021",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p023",
+          "etBlockId": "story-kois-p022",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p022",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p024",
+          "etBlockId": "story-kois-p023",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p023",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p025",
+          "etBlockId": "story-kois-p024",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p024",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p026",
+          "etBlockId": "story-kois-p025",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p025",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p027",
+          "etBlockId": "story-kois-p026",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p026",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p028",
+          "etBlockId": "story-kois-p027",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p027",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p029",
+          "etBlockId": "story-kois-p028",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s20-p028",
+          "kind": "paragraph",
+          "enBlockId": "story-tightrope-p030",
+          "etBlockId": "story-kois-p029",
+          "confidence": "high"
         }
       ],
       "unpaired": [
         {
-          "blockId": "story-tightrope-p002",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p003",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p004",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p005",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p006",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p007",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p008",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p009",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p010",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p011",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p012",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p013",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p014",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p015",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
           "blockId": "story-tightrope-p016",
           "side": "en",
           "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p017",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p018",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p019",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p020",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p021",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p022",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p023",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p024",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p025",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p026",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p027",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p028",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p029",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-tightrope-p030",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p002",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p003",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p004",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p005",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p006",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p007",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p008",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p009",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p010",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p011",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p012",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p013",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p014",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p015",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p016",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p017",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p018",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p019",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p020",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p021",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p022",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p023",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p024",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p025",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p026",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p027",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p028",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-kois-p029",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
+          "reason": "section-en-only",
+          "notes": "Short fear/suicide-contemplation paragraph merged into ET p015 tail"
         }
       ],
       "diagnostics": [
-        "kind-count mismatch: paragraph en=29 et=28"
+        "Post-reconciliation: paired 29 EN and 29 ET blocks positionally"
       ]
     },
     {
@@ -13021,246 +11832,152 @@
           "enBlockId": "story-safe-haven-h001",
           "etBlockId": "story-turvaline-sadam-h001",
           "confidence": "high"
+        },
+        {
+          "paraId": "s30-p001",
+          "kind": "paragraph",
+          "enBlockId": "story-safe-haven-p002",
+          "etBlockId": "story-turvaline-sadam-p002",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s30-p002",
+          "kind": "paragraph",
+          "enBlockId": "story-safe-haven-p003",
+          "etBlockId": "story-turvaline-sadam-p003",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s30-p003",
+          "kind": "paragraph",
+          "enBlockId": "story-safe-haven-p004",
+          "etBlockId": "story-turvaline-sadam-p004",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s30-p004",
+          "kind": "paragraph",
+          "enBlockId": "story-safe-haven-p005",
+          "etBlockId": "story-turvaline-sadam-p005",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s30-p005",
+          "kind": "paragraph",
+          "enBlockId": "story-safe-haven-p006",
+          "etBlockId": "story-turvaline-sadam-p006",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s30-p006",
+          "kind": "paragraph",
+          "enBlockId": "story-safe-haven-p007",
+          "etBlockId": "story-turvaline-sadam-p007",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s30-p007",
+          "kind": "paragraph",
+          "enBlockId": "story-safe-haven-p008",
+          "etBlockId": "story-turvaline-sadam-p008",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s30-p008",
+          "kind": "paragraph",
+          "enBlockId": "story-safe-haven-p009",
+          "etBlockId": "story-turvaline-sadam-p009",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s30-p009",
+          "kind": "paragraph",
+          "enBlockId": "story-safe-haven-p010",
+          "etBlockId": "story-turvaline-sadam-p010",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s30-p010",
+          "kind": "paragraph",
+          "enBlockId": "story-safe-haven-p011",
+          "etBlockId": "story-turvaline-sadam-p011",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s30-p011",
+          "kind": "paragraph",
+          "enBlockId": "story-safe-haven-p012",
+          "etBlockId": "story-turvaline-sadam-p012",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s30-p012",
+          "kind": "paragraph",
+          "enBlockId": "story-safe-haven-p014",
+          "etBlockId": "story-turvaline-sadam-p013",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s30-p013",
+          "kind": "paragraph",
+          "enBlockId": "story-safe-haven-p015",
+          "etBlockId": "story-turvaline-sadam-p014",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s30-p014",
+          "kind": "paragraph",
+          "enBlockId": "story-safe-haven-p016",
+          "etBlockId": "story-turvaline-sadam-p015",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s30-p015",
+          "kind": "paragraph",
+          "enBlockId": "story-safe-haven-p017",
+          "etBlockId": "story-turvaline-sadam-p016",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s30-p016",
+          "kind": "paragraph",
+          "enBlockId": "story-safe-haven-p018",
+          "etBlockId": "story-turvaline-sadam-p017",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s30-p017",
+          "kind": "paragraph",
+          "enBlockId": "story-safe-haven-p019",
+          "etBlockId": "story-turvaline-sadam-p018",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s30-p018",
+          "kind": "paragraph",
+          "enBlockId": "story-safe-haven-p020",
+          "etBlockId": "story-turvaline-sadam-p019",
+          "confidence": "high"
+        },
+        {
+          "paraId": "s30-p019",
+          "kind": "paragraph",
+          "enBlockId": "story-safe-haven-p021",
+          "etBlockId": "story-turvaline-sadam-p020",
+          "confidence": "high"
         }
       ],
       "unpaired": [
         {
-          "blockId": "story-safe-haven-p002",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-safe-haven-p003",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-safe-haven-p004",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-safe-haven-p005",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-safe-haven-p006",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-safe-haven-p007",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-safe-haven-p008",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-safe-haven-p009",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-safe-haven-p010",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-safe-haven-p011",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-safe-haven-p012",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
           "blockId": "story-safe-haven-p013",
           "side": "en",
           "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-safe-haven-p014",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-safe-haven-p015",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-safe-haven-p016",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-safe-haven-p017",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-safe-haven-p018",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-safe-haven-p019",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-safe-haven-p020",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-safe-haven-p021",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-turvaline-sadam-p002",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-turvaline-sadam-p003",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-turvaline-sadam-p004",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-turvaline-sadam-p005",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-turvaline-sadam-p006",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-turvaline-sadam-p007",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-turvaline-sadam-p008",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-turvaline-sadam-p009",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-turvaline-sadam-p010",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-turvaline-sadam-p011",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-turvaline-sadam-p012",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-turvaline-sadam-p013",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-turvaline-sadam-p014",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-turvaline-sadam-p015",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-turvaline-sadam-p016",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-turvaline-sadam-p017",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-turvaline-sadam-p018",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-turvaline-sadam-p019",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "story-turvaline-sadam-p020",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
+          "reason": "section-en-only",
+          "notes": "Content folded into tail of ET p012 (2:1 ET merge at \"In Alcoholics Anonymous, I knew I had found a protective haven\")"
         }
       ],
       "diagnostics": [
-        "kind-count mismatch: paragraph en=20 et=19"
+        "Post-reconciliation: paired 20 EN and 20 ET blocks positionally"
       ]
     },
     {
@@ -14743,8 +13460,8 @@
           "kind": "heading",
           "enBlockId": "story-grounded-h001",
           "etBlockId": "story-maapinnale-toodud-h001",
-          "confidence": "low",
-          "notes": "length-ratio 2.13"
+          "confidence": "high",
+          "notes": "Estonian compound MAAPINNALE TOODUD (= brought to the ground) vs GROUNDED; length-ratio false alarm"
         },
         {
           "paraId": "s38-p001",
@@ -15674,6 +14391,27 @@
       "etSectionId": "appendix-i-aa-traditsioonid",
       "pairs": [
         {
+          "paraId": "a-i-h001",
+          "kind": "heading",
+          "enBlockId": "appendix-i-the-aa-tradition-h001",
+          "etBlockId": "appendix-i-aa-traditsioonid-h003",
+          "confidence": "high"
+        },
+        {
+          "paraId": "a-i-h002",
+          "kind": "heading",
+          "enBlockId": "appendix-i-the-aa-tradition-h006",
+          "etBlockId": "appendix-i-aa-traditsioonid-h008",
+          "confidence": "high"
+        },
+        {
+          "paraId": "a-i-h003",
+          "kind": "heading",
+          "enBlockId": "appendix-i-the-aa-tradition-h019",
+          "etBlockId": "appendix-i-aa-traditsioonid-h021",
+          "confidence": "high"
+        },
+        {
           "paraId": "a-i-p001",
           "kind": "paragraph",
           "enBlockId": "appendix-i-the-aa-tradition-p002",
@@ -15879,57 +14617,22 @@
       ],
       "unpaired": [
         {
-          "blockId": "appendix-i-the-aa-tradition-h001",
-          "side": "en",
-          "kind": "heading",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "appendix-i-the-aa-tradition-h006",
-          "side": "en",
-          "kind": "heading",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "appendix-i-the-aa-tradition-h019",
-          "side": "en",
-          "kind": "heading",
-          "reason": "needs-review"
+          "blockId": "appendix-i-aa-traditsioonid-t002",
+          "side": "et",
+          "kind": "table",
+          "reason": "structural-extra",
+          "notes": "LISAD TOC table; spec D3 case 4"
         },
         {
           "blockId": "appendix-i-aa-traditsioonid-h001",
           "side": "et",
           "kind": "heading",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "appendix-i-aa-traditsioonid-h003",
-          "side": "et",
-          "kind": "heading",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "appendix-i-aa-traditsioonid-h008",
-          "side": "et",
-          "kind": "heading",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "appendix-i-aa-traditsioonid-h021",
-          "side": "et",
-          "kind": "heading",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "appendix-i-aa-traditsioonid-t002",
-          "side": "et",
-          "kind": "table",
-          "reason": "needs-review"
+          "reason": "section-et-only",
+          "notes": "LISAD section header; no EN equivalent"
         }
       ],
       "diagnostics": [
-        "kind-count mismatch: heading en=3 et=4",
-        "kind-count mismatch: table en=0 et=1"
+        "Post-reconciliation: paired 32 EN and 32 ET blocks positionally"
       ]
     },
     {
@@ -16108,23 +14811,26 @@
           "blockId": "appendix-iv-the-lasker-award-p002",
           "side": "en",
           "kind": "paragraph",
-          "reason": "needs-review"
+          "reason": "section-en-only",
+          "notes": "Lasker citation intro \u2014 ET extraction is truncated (ET p002 = \"Neile,\" fragment; flag upstream for re-extraction)"
         },
         {
           "blockId": "appendix-iv-the-lasker-award-p003",
           "side": "en",
           "kind": "paragraph",
-          "reason": "needs-review"
+          "reason": "section-en-only",
+          "notes": "Lasker citation body \u2014 ET extraction is truncated (flag upstream for re-extraction)"
         },
         {
           "blockId": "appendix-iv-lasker-award-p002",
           "side": "et",
           "kind": "paragraph",
-          "reason": "needs-review"
+          "reason": "structural-extra",
+          "notes": "Truncation fragment (\"Neile,\") \u2014 ET extraction bug, real content missing"
         }
       ],
       "diagnostics": [
-        "kind-count mismatch: paragraph en=2 et=1"
+        "Post-reconciliation: paired 1 EN and 1 ET blocks positionally"
       ]
     },
     {
@@ -16249,6 +14955,13 @@
           "confidence": "high"
         },
         {
+          "paraId": "a-vii-p001",
+          "kind": "paragraph",
+          "enBlockId": "appendix-vii-the-twelve-concepts-p002",
+          "etBlockId": "appendix-vii-kaksteist-kontseptsiooni-p002",
+          "confidence": "high"
+        },
+        {
           "paraId": "a-vii-l001",
           "kind": "list-item",
           "enBlockId": "appendix-vii-the-twelve-concepts-l003",
@@ -16335,26 +15048,15 @@
       ],
       "unpaired": [
         {
-          "blockId": "appendix-vii-the-twelve-concepts-p002",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
-          "blockId": "appendix-vii-kaksteist-kontseptsiooni-p002",
-          "side": "et",
-          "kind": "paragraph",
-          "reason": "needs-review"
-        },
-        {
           "blockId": "appendix-vii-kaksteist-kontseptsiooni-p003",
           "side": "et",
           "kind": "paragraph",
-          "reason": "needs-review"
+          "reason": "section-et-only",
+          "notes": "ET-specific standalone sentence on 1971 adoption; EN folds equivalent content into preceding paragraph"
         }
       ],
       "diagnostics": [
-        "kind-count mismatch: paragraph en=1 et=2"
+        "Post-reconciliation: paired 14 EN and 14 ET blocks positionally"
       ]
     }
   ],
