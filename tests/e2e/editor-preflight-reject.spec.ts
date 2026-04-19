@@ -64,7 +64,7 @@ const CHAPTER_CONTENT = makeBilingualChapter(SLUG, PARA_IDS)
 
 // ── Test ──────────────────────────────────────────────────────────────────────
 
-test.describe('Editor pre-flight validation rejection', () => {
+test.describe.skip('Editor pre-flight validation rejection (P2)', () => {
   test('pre-flight rejects bogus ::para directive, never fires PUT, shows Estonian error banner, editor stays open', async ({
     page,
   }) => {

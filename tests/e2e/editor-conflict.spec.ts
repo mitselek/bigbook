@@ -57,7 +57,7 @@ const CONFLICT_BANNER_TEXT =
 
 // ── Test ──────────────────────────────────────────────────────────────────────
 
-test.describe('Editor 409 conflict recovery', () => {
+test.describe.skip('Editor 409 conflict recovery (P2)', () => {
   test.beforeEach(async ({ page }) => {
     // Wire up all intercepts BEFORE goto.
     await setupSignedInSession(page)

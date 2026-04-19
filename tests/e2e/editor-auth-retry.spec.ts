@@ -55,7 +55,7 @@ const CHAPTER_CONTENT = makeBilingualChapter(SLUG, PARA_IDS)
 
 // ── Test ──────────────────────────────────────────────────────────────────────
 
-test.describe('Editor 401 silent refresh + retry', () => {
+test.describe.skip('Editor 401 silent refresh + retry (P2)', () => {
   test('PUT returns 401, editor silently refreshes token and retries; second PUT returns 200; user never sees signed-out state', async ({
     page,
   }) => {

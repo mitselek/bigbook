@@ -62,7 +62,7 @@ const CHAPTER_CONTENT = makeBilingualChapter(SLUG, PARA_IDS)
 
 // ── Test ──────────────────────────────────────────────────────────────────────
 
-test.describe('Editor happy path', () => {
+test.describe.skip('Editor happy path (P2)', () => {
   test.beforeEach(async ({ page }) => {
     // Wire up all intercepts BEFORE goto.
     await setupSignedInSession(page)

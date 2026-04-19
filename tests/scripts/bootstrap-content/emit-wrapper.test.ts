@@ -2,9 +2,11 @@ import { describe, expect, it } from 'vitest'
 import { renderWrapper } from '../../../scripts/bootstrap-content/emit-wrapper'
 
 describe('renderWrapper', () => {
-  it('produces a TypeScript module that imports manifest.json', () => {
+  it('produces a TypeScript module that imports manifest.json with a json import attribute', () => {
     const out = renderWrapper()
-    expect(out).toContain("import manifest from '../../content/manifest.json'")
+    expect(out).toContain(
+      "import manifest from '../../content/manifest.json' with { type: 'json' }",
+    )
   })
 
   it('exports ChapterManifest type', () => {
