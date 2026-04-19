@@ -190,6 +190,41 @@ describe('renderReviewReport', () => {
     expect(md).toMatch(/49/)
   })
 
+  it('omits sections whose unpaired blocks have all been resolved', () => {
+    const artifact: PairingArtifact = {
+      version: '1.0',
+      generatedAt: '2026-04-19T00:00:00Z',
+      sourceEn: { path: 'en.json', sha256: 'aaa', blockCount: 1 },
+      sourceEt: { path: 'et.json', sha256: 'bbb', blockCount: 1 },
+      sections: [
+        {
+          canonicalSlug: 'fw1',
+          enSectionId: 'foreword-1st-edition',
+          etSectionId: 'eessona-1st',
+          pairs: [],
+          unpaired: [
+            {
+              blockId: 'eessona-1st-b010',
+              side: 'et',
+              kind: 'byline',
+              reason: 'section-et-only',
+              notes: 'resolved',
+            },
+          ],
+          diagnostics: ['kind-count mismatch: byline en=0 et=1'],
+        },
+      ],
+      unpairedSections: [],
+    }
+    const md = renderReviewReport(
+      artifact,
+      mkExtraction({ sections: [] }),
+      mkExtraction({ sections: [] }),
+    )
+    expect(md).not.toMatch(/## fw1/)
+    expect(md).toMatch(/0 sections need review/)
+  })
+
   it('renders an N:M low-confidence pair with joined texts and an et-side unpaired block', () => {
     const artifact: PairingArtifact = {
       version: '1.0',

@@ -13,8 +13,7 @@ function indexBlocks(extraction: Extraction): Map<string, ExtractionBlock> {
 function sectionNeedsReview(section: SectionPair): boolean {
   return (
     section.pairs.some((p) => p.confidence === 'low') ||
-    section.unpaired.length > 0 ||
-    section.diagnostics.length > 0
+    section.unpaired.some((u) => u.reason === 'needs-review')
   )
 }
 
