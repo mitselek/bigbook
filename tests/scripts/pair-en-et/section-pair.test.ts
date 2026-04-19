@@ -50,7 +50,7 @@ describe('pairSections', () => {
     ])
   })
 
-  it('emits UnpairedSection side=et when ET is missing a paired slug', () => {
+  it('emits UnpairedSection side=en when ET is missing a paired slug at runtime', () => {
     const en = mkExtraction(['ch01-bills-story'])
     const et = mkExtraction([])
     const result = pairSections(en, et)
@@ -59,7 +59,7 @@ describe('pairSections', () => {
     const first = result.unpairedSections[0]
     expect(first).toBeDefined()
     if (first === undefined) throw new Error('narrowing')
-    expect(first.reason).toBe('section-et-only')
+    expect(first.reason).toBe('section-en-only')
     expect(first.side).toBe('en')
   })
 

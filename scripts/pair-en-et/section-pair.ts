@@ -51,7 +51,7 @@ export function pairSections(en: Extraction, et: Extraction): PairSectionsResult
         side: 'en',
         sectionId: enSection.id,
         canonicalSlug: entry.canonicalSlug,
-        reason: entry.etSectionId === null ? 'section-en-only' : 'section-et-only',
+        reason: 'section-en-only',
         blockCount: enSection.blocks.length,
       })
     } else if (enSection === undefined && etSection !== undefined) {
@@ -59,7 +59,7 @@ export function pairSections(en: Extraction, et: Extraction): PairSectionsResult
         side: 'et',
         sectionId: etSection.id,
         canonicalSlug: entry.canonicalSlug,
-        reason: 'section-en-only',
+        reason: 'section-et-only',
         blockCount: etSection.blocks.length,
       })
     }
