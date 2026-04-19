@@ -13,6 +13,8 @@ function mkBlocks(
       heading: 'h',
       'list-item': 'l',
       blockquote: 'q',
+      verse: 'v',
+      table: 't',
       byline: 'b',
       footnote: 'f',
     }[s.kind]

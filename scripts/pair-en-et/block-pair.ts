@@ -6,6 +6,8 @@ const ALL_KINDS: readonly BlockKind[] = [
   'paragraph',
   'list-item',
   'blockquote',
+  'verse',
+  'table',
   'byline',
   'footnote',
 ]
@@ -15,6 +17,8 @@ const KIND_PREFIX: Record<BlockKind, string> = {
   heading: 'h',
   'list-item': 'l',
   blockquote: 'q',
+  verse: 'v',
+  table: 't',
   byline: 'b',
   footnote: 'f',
 }

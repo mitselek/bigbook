@@ -1,4 +1,12 @@
-export type BlockKind = 'paragraph' | 'heading' | 'list-item' | 'blockquote' | 'byline' | 'footnote'
+export type BlockKind =
+  | 'paragraph'
+  | 'heading'
+  | 'list-item'
+  | 'blockquote'
+  | 'verse'
+  | 'table'
+  | 'byline'
+  | 'footnote'
 
 export interface ExtractionBlock {
   id: string
