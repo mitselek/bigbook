@@ -32,3 +32,23 @@ describe('renderWrapper', () => {
     expect(out).toContain('do not edit by hand')
   })
 })
+
+describe('renderWrapper — v1.1 group plumbing', () => {
+  it('declares ChapterGroup union type with four members', () => {
+    const out = renderWrapper()
+    expect(out).toContain(
+      "export type ChapterGroup = 'front-matter' | 'chapters' | 'stories' | 'appendices'",
+    )
+  })
+
+  it('includes group: ChapterGroup in the ChapterManifest type', () => {
+    const out = renderWrapper()
+    // Tolerate either whitespace style.
+    expect(out).toMatch(/group:\s*ChapterGroup/)
+  })
+
+  it('projects group from manifest.sections into the CHAPTERS array', () => {
+    const out = renderWrapper()
+    expect(out).toMatch(/group:\s*s\.group/)
+  })
+})
