@@ -3,9 +3,12 @@ import { render, screen, fireEvent } from '@testing-library/svelte'
 import EditableRow from '../../src/components/EditableRow.svelte'
 import { resetEditor } from '../../src/lib/editor/state.svelte'
 
-// Helper: flush microtask queue (for queueMicrotask inside $effect)
+// Helper: flush both microtask queue AND one macrotask tick. EditableRow's
+// click-outside guard uses setTimeout(0) to defer listener installation past
+// the current event dispatch; tests must advance the macrotask queue for the
+// listener to be armed before dispatching the "click outside" event.
 function flushMicrotasks(): Promise<void> {
-  return new Promise((resolve) => queueMicrotask(resolve))
+  return new Promise((resolve) => setTimeout(resolve, 0))
 }
 
 const defaultProps = {

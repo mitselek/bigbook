@@ -63,8 +63,14 @@
     document.addEventListener('keydown', handleDocKeydown)
 
     // Track whether the click listener has been armed so we can safely
-    // remove it even if the effect tears down before the microtask fires.
+    // remove it even if the effect tears down before the scheduled
+    // install fires. Under Svelte 5, queueMicrotask wasn't deferring
+    // far enough — the newly-installed listener fired on the SAME
+    // click that opened the edit, immediately cancelling it.
+    // setTimeout(..., 0) pushes the install to a new macrotask, which
+    // is guaranteed to run after the current event dispatch completes.
     let clickListenerArmed = false
+    let installHandle: ReturnType<typeof setTimeout> | undefined
     let removeClickListener: (() => void) | undefined
 
     function handleDocClick(e: MouseEvent) {
@@ -76,16 +82,17 @@
     }
 
     clickListenerArmed = true
-    queueMicrotask(() => {
+    installHandle = setTimeout(() => {
       if (!clickListenerArmed) return // effect already cleaned up
       document.addEventListener('click', handleDocClick)
       removeClickListener = () => document.removeEventListener('click', handleDocClick)
-    })
+    }, 0)
 
     return () => {
       document.removeEventListener('keydown', handleDocKeydown)
-      // Disarm before the microtask fires (if still pending)
+      // Disarm before the scheduled install fires (if still pending)
       clickListenerArmed = false
+      if (installHandle !== undefined) clearTimeout(installHandle)
       if (removeClickListener !== undefined) {
         removeClickListener()
       }
