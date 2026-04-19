@@ -113,6 +113,7 @@ All persistent text output must carry the author agent's name in the format `(*B
 | `.md` file — whole section by one agent | Next to the section heading |
 | Code comment (where warranted) | At the end of the comment |
 | Git commit message | In the commit body |
+| `.md` file — auto-translated block | `(_BB:Boderie_)` trailing line after the block content |
 
 ## Stack
 

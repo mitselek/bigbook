@@ -1,0 +1,12 @@
+[
+  {
+    "canonicalSlug": "ch01",
+    "sourceBlockId": "ch01-bills-story-p003",
+    "kind": "paragraph",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "sourceText": "Orphan paragraph.",
+    "note": "fixture test",
+    "translation": "Orb lõik."
+  }
+]

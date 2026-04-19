@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-04-19T00:00:00Z",
+  "sourceEn": { "path": "tiny-en.json", "sha256": "x", "blockCount": 3 },
+  "sourceEt": { "path": "tiny-et.json", "sha256": "y", "blockCount": 2 },
+  "sections": [
+    {
+      "canonicalSlug": "ch01",
+      "enSectionId": "ch01-bills-story",
+      "etSectionId": "ch01-billi-lugu",
+      "pairs": [
+        {
+          "paraId": "ch01-h001",
+          "kind": "heading",
+          "enBlockId": "ch01-bills-story-h001",
+          "etBlockId": "ch01-billi-lugu-h001",
+          "confidence": "high"
+        },
+        {
+          "paraId": "ch01-p001",
+          "kind": "paragraph",
+          "enBlockId": "ch01-bills-story-p002",
+          "etBlockId": "ch01-billi-lugu-p002",
+          "confidence": "high"
+        }
+      ],
+      "unpaired": [
+        {
+          "blockId": "ch01-bills-story-p003",
+          "side": "en",
+          "kind": "paragraph",
+          "reason": "section-en-only",
+          "notes": "Orphan for fixture"
+        }
+      ],
+      "diagnostics": []
+    }
+  ],
+  "unpairedSections": []
+}

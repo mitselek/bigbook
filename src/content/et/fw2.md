@@ -1,0 +1,88 @@
+---
+chapter: fw2
+title: 'Eessõna teisele väljaandele'
+lang: et
+group: front-matter
+pdfPageStart: 5
+pdfPageEnd: 10
+---
+
+::para[fw2-h001]
+
+# EESSÕNA TEISELE VÄLJAANDELE
+
+::para[fw2-p001]
+
+Selles eessõnas esitatud arvandmed pärinevad 1955. aastast.
+
+::para[fw2-p002]
+
+Pärast selle raamatu esialgse eessõna kirjutamist 1939. aastal on aset leidnud tõeline ime. Meie varasem väljaanne väljendas lootust, et „iga rändav alkohoolik leiaks oma sihtpunktist Anonüümsete Alkohoolikute sõpruskonna. Juba praegu on teisteski kogukondades tekkinud kahesed, kolmesed ja viiesed rühmad”, kirjutatakse selles varasemas tekstis.
+
+::para[fw2-p003]
+
+Käesoleva raamatu esimesest trükist teiseni 1955. aastal on möödunud kuusteist aastat. Selle üürikese ajavahemiku jooksul on Anonüümsete Alkohoolikute rühmade arv paisunud ligi kuue tuhandeni ning nende liikmeiks on rohkem kui 150 000 tervenenud alkohoolikut. Meie rühmi võib leida kõikjal Ameerika Ühendriikides ja kõigis Kanada provintsides. AA tegevus on õitsele löönud ka Briti saartel, Skandinaavias, Lõuna-Aafrikas, Lõuna-Ameerikas, Mehhikos, Alaskal, Austraalias ja Hawail. Ühtekokku on paljutõotav algus tehtud ligikaudu 50 välisriigis ja Ühendriikide halduspiirkonnas. Praegu on rühmad moodustumas Aasias. Paljud meie sõbrad julgustavad meid, öeldes, et see on alles algus, märksa suurema tuleviku ettekuulutus.
+
+::para[fw2-p004]
+
+Säde, mis lõi lõkkele esimese AA rühma näol, tekkis 1935. aasta juunis Akronis Ohios ühe New Yorgi börsimaakleri ja Akroni arsti vestluse käigus. Kuus kuud enne seda oli maakler saanud leevendust joomahullusest tänu äkilisele vaimsele kogemusele pärast kohtumist alkohoolikust sõbraga, kes oli olnud kontaktis tollase Oxfordi liikumisega. Teda oli oluliselt aidanud ka kadunud doktor William D Silkworth, New Yorgi alkoholismiravi spetsialist, keda AA liikmed peavad tänapäeval lausa meditsiinipühakuks ja kelle kirjeldus meie ühingu varasematest aegadest ilmub järgnevatel lehekülgedel. Selle arsti käest sai too maakler teada alkoholismi süngest olemusest. Kuigi ta ei suutnud omaks võtta kõiki Oxfordi liikumise tõekspidamisi, oli ta veendunud, et on tarvilik teha moraalne inventuur, tunnistada isiksuse puudusi, hüvitada teistele tekitatud kahju, abistada teisi ning vajadus uskuda ja sõltuda Jumalast.
+
+::para[fw2-p005]
+
+Enne Akronisse minekut oli too maakler alkohoolikutega tublisti tööd teinud, lähtudes teooriast, et ainult alkohoolik saab aidata teist alkohoolikut, kuid niiviisi õnnestus tal vaid ennast kainena hoida. Too maakler oli Akronisse sõitnud äriasjus, mis olid aga luhta läinud, tekitades temas tõsise hirmu, et ta võib uuesti jooma hakata. Korraga mõistis ta, et peab enda päästmiseks oma sõnumi edasi andma teisele alkohoolikule. Selleks alkohoolikuks osutus seesama Akroni arst.
+
+::para[fw2-p006]
+
+See arst oli oma alkoholismidilemma lahendamiseks korduvalt üritanud kasutada vaimseid vahendeid, kuid ebaõnnestunult. Ent kui maakler esitas talle doktor Silkworthi kirjelduse alkoholismist ja selle lootusetusest, hakkas arst oma tõve raviks hingeravi otsima sellise valmidusega, mida ta varem kunagi ei olnud suutnud. Ta kainenes ega võtnud tilkagi kuni oma surmani 1950. aastal. See näis tõendavat, et üks alkohoolik suudab teist mõjutada viisil, mida ei saa ükski mittealkohoolik. Samuti ilmnes, et püsiva kainuse saavutamiseks on alkohooliku jaoks eluliselt oluline pingeline töö teise alkohoolikuga..
+
+::para[fw2-p007]
+
+Nõnda asusid need kaks meest lausa pöörase hooga tööle Akroni linnahaiglasse saabuvate alkohoolikutega. Nende esimene, lootusetus seisus juhtum tervenes kiiresti ning temast sai kolmas AA liige. Ta ei joonud enam kunagi alkoholi. Seda tööd tehti Akronis kogu 1935. aasta suve vältel. Ebaõnnestumisi oli palju, kuid sekka sattus ka mõni julgust andev kordaminek. Kui maakler 1935. aasta sügisel New Yorki tagasi pöördus, oli esimene AA rühm juba moodustunud, ehkki toona seda veel ei taibatud.
+
+::para[fw2-p008]
+
+Peatselt moodustus New Yorgis teine väike rühm, millele lisandus 1937. aastal kolmas rühm Clevelandis. Lisaks elas eri paigus alkohoolikuid, kes olid Akronis või New Yorgis omandanud põhiideed ja püüdsid teistes linnades AA rühmi asutada. 1937. aasta lõpupoole oli märkimisväärselt pika kainuseperioodiga liikmete arv piisav, veenmaks ülejäänud liikmeskonda, et alkohoolikute süngesse maailma on tulnud uus valgus.
+
+::para[fw2-p009]
+
+Habraste AA rühmade arvates oli nüüd aeg oma sõnum ja ainulaadne kogemus maailma ette tuua. Nende järjekindus kandis vilja käesoleva raamatu ilmumisega 1939. aasta kevadel. Sõpruskond oli siis kasvanud umbes 100 mehe ja naiseni. Noor, seni nimetu ühing sai raamatu pealkirja järgi nimeks Anonüümsed Alkohoolikud. Pimesi kobamise periood oli lõppenud ning AA astus teerajamise uude etappi.
+
+::para[fw2-p010]
+
+Uue raamatu ilmumisele järgnesid olulised sündmused. Tuntud vaimulik doktor Harry Emerson Fosdick andis raamatule kiitva hinnangu. 1939. aasta sügisel avaldas toimetaja Fulton Oursler oma ajakirjas Liberty artikli pealkirjaga „Alkohoolikud ja Jumal”. Artikli ilmumine tõi vahepeal avatud tillukesse New Yorgi kontorisse 800 tungivat järelpärimist. Igale järelpärimisele vastati põhjalikult, saadeti välja brošüüre ja raamatuid. Ärimehed, kes juba olemasolevatest rühmadest ringi reisisid, suunati nende potensiaalsete uute liikmete juurde. Tekkisid uued rühmad ja üldiseks imestuseks leiti, et AA sõnumit on posti teel võimalik sama edukalt edasi anda kui suuliselt. 1939. aasta lõpuks arvati paranemisteel olevaid alkohoolikuid kokku 800.
+
+::para[fw2-p011]
+
+1940. aasta kevadel korraldas John D. Rockefeller Jr paljudele oma sõpradele õhtusöögi, kuhu ta kutsus AA liikmeid oma lugusid rääkima. Uudised sellest läksid liikvele, taas vallandus järelepärimiste tulv ning paljud pöördusid „Anonüümsete Alkohoolikute” raamatu leidmiseks raamatupoodidesse. 1941. aasta märtsiks oli liikmeskonna arv kiiresti kasvanud juba 2000-ni. Jack Alexander kirjutas Saturday Evening Postile põhjaliku loo, mis esitas laiemale lugejaskonnale AA-st niivõrd veenva pildi, et hakkasime alkohoolikute abipalvete alla uppuma. 1941. aasta lõpuks oli AA-l 8000 liiget. Kiiresti kasvav ettevõtmine oli täies hoos. AA-st oli saanud ülemaaline institutsioon.
+
+::para[fw2-p012]
+
+Meie ühing oli jõudnud hirmutavasse, kuid põnevasse noorukiikka. AA ees seisis järgmine proovikivi: kas see suur hulk endisi sõgedaid alkohoolikuid suudab tulemusrikkalt ühineda ja koos töötada? Kas liikmelisuse, juhtimise ja raha pärast tekib vaidlusi? Kas hakatakse püüdlema võimu ja prestiiži? Kas võib tekkida erimeelsusi, mis AA lõhestavad? Peagi oli AA tervikuna ja iga rühm eraldi neist probleemidest ümber piiratud. Kuid sellest ehmatavast ja esmapilgul raputavast kogemusest kasvas välja veendumus, et AA-lased pidid kokku hoidma või muidu ootas neid kõiki ükshaaval surm. Pidime oma sõpruskonna kas ühtseks muutma või oma tegevuse üldse lõpetama.
+
+::para[fw2-p013]
+
+Sedamööda, kuidas me töötasime välja põhimõtted, mille järgi iga alkohoolik võiks elada, tuli meil arendada ka põhimõtteid, mis aitaksid AA rühmi ja AA-d tervikuna püsima jääda ning tulemusrikkalt tegutseda. Aluseks võeti, et mitte ühtki alkohoolikust meest ega naist ei tohi meie ühingust välja jätta; meie juhid võivad teenida, kuid mitte valitseda; rühmad on iseseisvad ja professionaalset teraapiavormi ei ole kavas luua. Ka liikmemakse ega lõive ei olnud kavas nõuda; kõik kulutused võiksid saada kaetud liikmete vabatahtlikest annetustest. Organisatsiooniline struktuur oli mõeldud tulema võimalikult minimaalne, seda ka meie teeninduskeskustes. Meie suhted avalikkusega võiksid põhineda ligitõmbavusel, mitte propagandal. Otsustati, et ajakirjanduses, raadios, televisioonis ja filmides võiksid kõik meie liikmed jääma anonüümseteks. Mingil juhul ei tohtinud me toetusavaldustega esineda, liitudesse astuda ega avalikesse vaidlusküsimustesse sekkuda.
+
+::para[fw2-p014]
+
+Selline oli AA Kaheteistkümne Traditsiooni sisu, mis on avaldatud täies mahus käesoleva raamatu 561. leheküljel. Kuigi ükski neist põhimõtetest ei omanud reegli ega seaduse jõudu, olid need 1950. aastaks leidnud niivõrd laialdast heakskiitu, et meie esimesel rahvusvahelisel konverentsil Clevelandis kinnitati need ametlikult. Tänapäeval on AA märkimisväärne ühtsus meie ühingu suurimaid plusse.
+
+::para[fw2-p015]
+
+Samal ajal, kui meie noorukiea sisemised raskused said välja silutud, kasvas jõudsalt ühiskonna poolehoid AA suhtes. Selleks oli kaks peamist põhjust: tervenemiste arv ning perede taasühinemine. Need avaldasid kõikjal muljet. AA poole pöördunud ja tõsiselt üritanud alkohoolikutest 50% said kohe ja alatiseks kaineks, 25% kainenes pärast mõningaid tagasilööke ja ülejäänud AA juurde jäänutest tervenesid märgatavalt. Peale nende käis AA koosolekutel veel tuhandeid inimesi, kes esialgu otsustasid, et nad ei soovi programmi järgida. Kuid suur osa neist – umbes kaks kolmandikku – tuli mõne aja pärast meie juurde tagasi.
+
+::para[fw2-p016]
+
+Teiseks põhjuseks, miks AA nii suurt poolehoidu võitis, oli sõpradevaheline abistamissüsteem – meie sõpradest meditsiini alal, usuelus ja ajakirjanduses said koos väga paljude teistega meie võimekad ja ustavad toetajad. Sellise toetuseta oleks AA edu jäänud äärmiselt aeglaseks. Mõne AA esimese arstist ja usutegelasest sõbra soovitused toome ära raamatu järgnevates osades.
+
+::para[fw2-p017]
+
+Anonüümsed Alkohoolikud ei ole religioosne organisatsioon. Ka ei lähtu AA mingist kindlast meditsiinilisest seisukohast, kuigi me teeme ulatuslikku koostööd nii meedikute kui usutegelastega.
+
+::para[fw2-p018]
+
+Et alkohol ei tee inimestel vahet, oleme meie omamoodi läbilõige tervest Ameerikast ning ka teistes maades kestab praegu samasugune demokraatlik ühtlustumisprotsess. Isikliku religioosse kuuluvuse põhjal on meie hulgas katoliiklasi, protestante, juute, hindusid ning näpuotsatäis moslemeid ja budiste. Enam kui 15% meie liikmetest on naised.
+
+::para[fw2-p019]
+
+Praegusel ajal kasvab meie liikmeskond keskeltläbi 20% aastas. Tänaseks oleme vaid riivamisi jõudnud puudutada mitmete miljonite tegelike ja potentsiaalsete alkohoolikute ühist probleemi. Väga tõenäoliselt suudame edaspidi tegeleda vaid tillukese osaga alkoholiprobleemist koos kõigi selle mõjudega. Päris kindlasti ei oma me alkohoolikute ravi osas monopoli. Kuid ometi loodame väga, et kõik need inimesed, kes ei ole veel oma ellu lahendust leidnud, hakkavad seda siinse raamatu lehekülgedelt otsima ning ühinevad peagi meiega uue vabaduse poole viival teekonnal.
