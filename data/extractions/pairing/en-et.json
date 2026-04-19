@@ -1374,6 +1374,14 @@
           "enBlockId": "ch01-bills-story-f072",
           "etBlockId": "ch01-billi-lugu-f071",
           "confidence": "high"
+        },
+        {
+          "paraId": "ch01-b001",
+          "kind": "byline",
+          "enBlockId": "ch01-bills-story-p071",
+          "etBlockId": "ch01-billi-lugu-b070",
+          "confidence": "high",
+          "notes": "Reclassified EN p071 from paragraph to byline to match ET semantic; id kept as p071 for stability (violates kind-prefix convention by one block \u2014 acceptable)"
         }
       ],
       "unpaired": [
@@ -1383,20 +1391,6 @@
           "kind": "paragraph",
           "reason": "section-en-only",
           "notes": "One-line aside \"Ominous warning\u2014which I failed to heed.\" merged into ET p005 alongside EN p006"
-        },
-        {
-          "blockId": "ch01-bills-story-p071",
-          "side": "en",
-          "kind": "paragraph",
-          "reason": "section-en-only",
-          "notes": "Bill W. death-date line \u2014 paired semantically with ET byline b070 (kind mismatch prevents strict 1:1 pair; both preserved side-only)"
-        },
-        {
-          "blockId": "ch01-billi-lugu-b070",
-          "side": "et",
-          "kind": "byline",
-          "reason": "section-et-only",
-          "notes": "Bill W. death-date byline \u2014 paired semantically with EN p071 (kind mismatch)"
         }
       ],
       "diagnostics": [
@@ -14812,21 +14806,21 @@
           "side": "en",
           "kind": "paragraph",
           "reason": "section-en-only",
-          "notes": "Lasker citation intro \u2014 ET extraction is truncated (ET p002 = \"Neile,\" fragment; flag upstream for re-extraction)"
+          "notes": "Lasker citation intro \u2014 ET edition does not contain this citation (ET page 603 in source PDF has only \"IV LASKERI PREEMIA\" + \"Neile,\" fragment then jumps to Appendix V). Not an extraction defect; ET source text is incomplete."
         },
         {
           "blockId": "appendix-iv-the-lasker-award-p003",
           "side": "en",
           "kind": "paragraph",
           "reason": "section-en-only",
-          "notes": "Lasker citation body \u2014 ET extraction is truncated (flag upstream for re-extraction)"
+          "notes": "Lasker citation body \u2014 ET edition does not contain this citation (same source gap as p002)."
         },
         {
           "blockId": "appendix-iv-lasker-award-p002",
           "side": "et",
           "kind": "paragraph",
           "reason": "structural-extra",
-          "notes": "Truncation fragment (\"Neile,\") \u2014 ET extraction bug, real content missing"
+          "notes": "Trailing fragment \"Neile,\" (\"To those,\") \u2014 the full beginning of what would have been the ET translation of the Lasker citation, but the ET edition stops here. Drop at bootstrap or render with a \"translation incomplete\" note."
         }
       ],
       "diagnostics": [
