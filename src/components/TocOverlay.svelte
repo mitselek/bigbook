@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte'
-  import type { ChapterManifest } from '../lib/content/manifest'
+  import type { ChapterGroup, ChapterManifest } from '../lib/content/manifest'
   import { readerState } from '../lib/reader/store.svelte'
 
   interface Props {
@@ -26,38 +26,23 @@
     target?.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
 
-  const FRONT_MATTER = new Set(['cover', 'eessonad', 'arsti-arvamus'])
-  const APPENDICES = new Set(['lisad', 'index'])
-
-  function groupLabel(slug: string): 'Front matter' | 'Chapters' | 'Appendices' {
-    if (FRONT_MATTER.has(slug)) return 'Front matter'
-    if (APPENDICES.has(slug)) return 'Appendices'
-    return 'Chapters'
+  const GROUP_ORDER: readonly ChapterGroup[] = ['front-matter', 'chapters', 'stories', 'appendices']
+  const GROUP_LABEL: Record<ChapterGroup, string> = {
+    'front-matter': 'Front matter',
+    chapters: 'Chapters',
+    stories: 'Stories',
+    appendices: 'Appendices',
   }
 
   function stripHash(title: string): string {
     return title.replace(/^#\s*/, '')
   }
 
-  type Group = { label: 'Front matter' | 'Chapters' | 'Appendices'; items: ChapterManifest[] }
-
   const groups = $derived.by(() => {
-    const map = new Map<string, Group>()
-    for (const ch of chapters) {
-      const label = groupLabel(ch.slug)
-      let group = map.get(label)
-      if (!group) {
-        group = { label, items: [] }
-        map.set(label, group)
-      }
-      group.items.push(ch)
-    }
-    const order: Array<'Front matter' | 'Chapters' | 'Appendices'> = [
-      'Front matter',
-      'Chapters',
-      'Appendices',
-    ]
-    return order.map((l) => map.get(l)).filter((g): g is Group => g !== undefined)
+    return GROUP_ORDER.map((g) => ({
+      label: GROUP_LABEL[g],
+      items: chapters.filter((ch) => ch.group === g),
+    })).filter((group) => group.items.length > 0)
   })
 
   const entries = $derived(groups.flatMap((g) => g.items))
