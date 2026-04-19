@@ -1,0 +1,834 @@
+{
+  "9520b68030dcb2e99131dce7510c4bdac695490b5ed7a73a4f917baaef231908": {
+    "sourceText": "Anonüümsed Alkohoolikud",
+    "sourceLang": "et",
+    "targetLang": "en",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Alcoholics Anonymous",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "6e5e85a357708e5ce792993f227343ce0bf692445875a29b8f8234dfd6fcc6b1": {
+    "sourceText": "Ominous warning—which I failed to heed.",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Kurjakuulutav hoiatus – mida ma ei võtnud kuulda.",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "7eebf506a3d77bf5572262f581827a5d9378156e4fb401075b7dac77bfb3a3df": {
+    "sourceText": "But let him tell you:",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Kuid laske temal endal rääkida:",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "49a7e336ceadba5f919118c21fc1bb65167e4a0e97931f5853c676ae0b2a7932": {
+    "sourceText": "(Bill D. now continues his story.)",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "(Bill D. jätkab nüüd oma lugu.)",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "57349fc9699c1927d2effcb96bb67a4ddf0167d32802ac868ca9e96717e8b8d9": {
+    "sourceText": "The last few months were filled with fear and self-pity. I began to contemplate suicide with increasing regularity, yet I was afraid of dying. I remember thinking that this life would go on and on, never getting better and slowly fading away to nothing.",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Viimased kuud olid täis hirmu ja enesehaletsust. Hakkasin üha sagedamini mõtlema enesetapule, ja ometi kartsin surra. Mäletan, kuidas mõtlesin, et see elu kestab ikka ja edasi, ei lähe kunagi paremaks ja hääbub aeglaselt olematusse.",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "2df19852b2f0d8b5c0edae9763ed89816e4a072a50074cb0d1476b54b7b377f9": {
+    "sourceText": "In Alcoholics Anonymous, I knew I had found a protective haven. But during the ensuing 4 1⁄2 years I fell into the category known, in A.A. parlance, as a “chronic slipper.” I might get a good six months of sobriety under my belt, but then I would get a bottle to celebrate.",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Anonüümsetes Alkohoolikutes teadsin, et olin leidnud kaitsva pelgupaiga. Kuid järgnenud 4½ aasta jooksul kuulusin kategooriasse, keda AA kõnepruugis nimetatakse „krooniliseks libastujaks\". Mul võis olla kuue kuu pikkune kainus käes, ent siis võtsin pudeli, et seda tähistada.",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "057b626e41aabcabe71b26323a964fcb0f9d112a2511e1795f3c251d15f55426": {
+    "sourceText": "LISAD",
+    "sourceLang": "et",
+    "targetLang": "en",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "APPENDICES",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "915ee290fae7c24f79df8ac596324e63988a467af2bdbd37ac479f7f77474a49": {
+    "sourceText": "In 1951 the Lasker Award was given Alcoholics Anonymous. The citation reads in part as follows:",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "1951. aastal anti Anonüümsetele Alkohoolikutele Laskeri preemia. Põhjendus kõlab osaliselt nõnda:",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "d321987c3f1a0db1a77ccbc0b59db9cd97b4b0b0dbfcc19233a6115e8e8b3ca5": {
+    "sourceText": "“The American Public Health Association presents a Lasker Group Award for 1951 to Alcoholics Anonymous in recognition of its unique and highly successful approach to that age-old public health and social problem, alcoholism . . . In emphasizing alcoholism as an illness, the social stigma associated with this condition is being blotted out . . . Historians may one day recognize Alcoholics Anonymous to have been a great venture in social pioneering which forged a new instrument for social action; a new therapy based on the kinship of common suffering; one having a vast potential for the myriad other ills of mankind.”",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "„Ameerika Rahvatervise Assotsiatsioon annab Anonüümsetele Alkohoolikutele 1951. aasta Laskeri grupipreemia tunnustusena tema ainulaadse ja äärmiselt eduka lähenemise eest sellele ammusele rahvatervise- ja ühiskondlikule probleemile – alkoholismile . . . Rõhutades alkoholismi kui haigust, kustutatakse selle seisundiga seotud sotsiaalne häbimärk . . . Ajaloolased võivad ühel päeval tunnistada, et Anonüümsed Alkohoolikud oli suurepärane sotsiaalse pioneeritöö ettevõtmine, mis sepitses uue tööriista ühiskondlikuks tegevuseks; uue teraapia, mis põhineb ühise kannatuse sugulusel; teraapia, millel on tohutu potentsiaal inimkonna lugematute teiste hädade jaoks.\"",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "a08111c0360fdc66ecd2c33e071a59833f93e8d4de2a20e4603bfc8639383476": {
+    "sourceText": "Need „lühikesel kujul“ Konseptsioonid võeti vastu 1971. aastal Teenistuse Üldkonverentsil.",
+    "sourceLang": "et",
+    "targetLang": "en",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "These \"short form\" Concepts were adopted in 1971 at the General Service Conference.",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "7b796efd63a8491c7e2d953cdc6207b70d5e4820bd128ada7c4e52148c5221d3": {
+    "sourceText": "A.A. Pamphlets",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "AA voldikud",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "84cf212e26190ca06f9d33de3e715c086ae64d2efcef9d5da58055d957314355": {
+    "sourceText": "44 Questions",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "44 küsimust",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "5e8012c6386ed7c348c56aaeac87ff58f88e7cb9a3266f49b70278f65fed9688": {
+    "sourceText": "A.A. Tradition—How It Developed",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "AA traditsioon – kuidas see kujunes",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "99f80e92a785fa9ea403c65049ed8c1eccdb2dfe1f467190a056d78959c81a52": {
+    "sourceText": "Members of the Clergy Ask About A.A.",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Vaimulikud küsivad AA kohta",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "a1c6344c136062cb9a89b564a69223720629e322b7c8904a5c241f2e150e892a": {
+    "sourceText": "Three Talks to Medical Societies by Bill W.",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Bill W. kolm kõnet meditsiiniühingutele",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "cfe58fc743d637408c7d5ea803e985389092d3509a53f069f70c61c309aebd7c": {
+    "sourceText": "Alcoholics Anonymous as a Resource for the Health Care Professional",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Anonüümsed Alkohoolikud kui abiressurss tervishoiutöötajale",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "017c28ea6da6f330f0808ee7de0c05919bdd3a01d14023b86ff574caaf456d6d": {
+    "sourceText": "A.A. in Your Community",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "AA teie kogukonnas",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "837dca70d4c0dd86c3f337e29374be419408778e0e2a5b0e6a358f8b24a48e4f": {
+    "sourceText": "Is A.A. for You?",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Kas AA on sinu jaoks?",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "755ce95da02ee4c520e1ad87e7b4f1ec6c7d5bde7c6c3314e101aa80718bccb6": {
+    "sourceText": "Is A.A. for Me?",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Kas AA on minu jaoks?",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "6dd12476c52f34dc6045bee6af817cee294f60d45a60706b26dd4464b6de7d71": {
+    "sourceText": "This Is A.A.",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "See on AA",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "3825ae41d7403bbe6d04e0d9e202cce69fb1aac8f8dc15956a21102a08f2c109": {
+    "sourceText": "A Newcomer Asks . . .",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Uustulnuk küsib…",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "4d4177b4994264b2a4be1a8d8a49e0f684dae5479858487e78495b76c97c6210": {
+    "sourceText": "Is There An Alcoholic in the Workplace?",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Kas töökohal on alkohoolik?",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "dc5af5663632337e9966e9de2e37811b04a1c60edc6fd4e29deebfa3b1b9d22c": {
+    "sourceText": "Questions and Answers on Sponsorship",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Küsimusi ja vastuseid sponsorluse kohta",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "caf147eda7bc9082a10a324b915c17835f842d9f755e4fabb14e9e2f877fc2cb": {
+    "sourceText": "A.A. for the Woman",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "AA naisele",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "b9c543b0f89da1aeb279a60c791e8121cd9b758383eb7ad4e8d831c1ed83ca6a": {
+    "sourceText": "A.A. for the Native North American",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "AA Põhja-Ameerika põliselanikule",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "d9ca9ec76cb006be1312308ba8402676a5284c524b21f3ead43407b6edd8828c": {
+    "sourceText": "A.A. and the Gay/Lesbian Alcoholic",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "AA ja gei/lesbi alkohoolik",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "ea093ece2f73e421552356e0a2424cbd2067baac22e9f005ca48fb3a8a138de9": {
+    "sourceText": "Can A.A. Help Me Too?—Black/African Americans Share Their Stories",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Kas AA saab ka mind aidata? – mustanahaliste/afroameeriklaste lood",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "45d79d843e840d342266e093c4dd5ca61a5a03e107fbf0a00aedbf4b2ada574d": {
+    "sourceText": "A.A. for the Older Alcoholic—Never Too Late",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "AA vanemale alkohoolikule – kunagi pole liiga hilja",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "b3919dbea9ce20ad6cde197ef7e63b28e58dfbc76b12fd3b46ce83a2c278043a": {
+    "sourceText": "The Jack Alexander Article",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Jack Alexanderi artikkel",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "9251ad44b0ecddc0ecf3367ca101ffe78c90c616a4cb062f5b9dbcbe3a3142af": {
+    "sourceText": "Letter to a Woman Alcoholic",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Kiri naisalkohoolikule",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "9ba55f934fae88af1d88186bd5b3d8ad58691c06ffcc60270a2d1a856e971b41": {
+    "sourceText": "Young People and A.A.",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Noored ja AA",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "3f95261574901c42591f10b6ad13099cc0b4ed62c4989e0f632e96fb32355257": {
+    "sourceText": "A.A. and the Armed Services",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "AA ja relvajõud",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "5452916f695c218f48354039ea13309ed12baff57589b91a22e88bc8fd1289be": {
+    "sourceText": "The A.A. Member—Medications and Other Drugs",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "AA liige – ravimid ja muud uimastid",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "57776bfef41ea9ec2dd66c25ffd9b35fbc9ed7ec44e837cacaaf29e8675ec9c4": {
+    "sourceText": "Do You Think You’re Different?",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Kas arvad, et oled teistsugune?",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "3c630759c14cd9fb8bbf290197978ad83778c5be74dd2708fb50421fe34e533e": {
+    "sourceText": "Is There an Alcoholic in Your Life?",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Kas sinu elus on alkohoolik?",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "87c18af808e15193a7935836b5ca38fdd805cea525697d44b5597c6714bf8fc9": {
+    "sourceText": "Inside A.A.",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "AA seestpoolt",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "1a568d9f5ecc84c13504f48f1a1078e9e867b59fb296a7638f7a629ff46d7e7d": {
+    "sourceText": "The A.A. Group",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "AA grupp",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "ab0c3e7665e55d3f247fce91d84327896c2e00482ecc6d9fcecf0a32ed0de057": {
+    "sourceText": "G.S.R.",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "GSR – üldteenistuse esindaja",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "45accba5c9ddbf073a9c6221ddd4aff453edee629d5268eb23b17b67bd290186": {
+    "sourceText": "Memo to an Inmate",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Memo vangile",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "7c47f7efac503a36cb5b78787d6bca3f531de206c2a5b66d22794b19245b650f": {
+    "sourceText": "The Twelve Steps Illustrated",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Kaksteist sammu illustreerituna",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "4c23a2509fa48f3d30857277da69134639c49905527c438493a3f7003e1fa836": {
+    "sourceText": "The Twelve Traditions Illustrated",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Kaksteist traditsiooni illustreerituna",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "0367b95f1941bdc1720c274af299cd7dc42ed512fec2187ad75376dfcd5c9a52": {
+    "sourceText": "The Twelve Concepts Illustrated",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Kaksteist kontseptsiooni illustreerituna",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "1989b96e2b49a95ae6fdfbb594ab4df525f34733e74ec55a976ed72dbbab8bfc": {
+    "sourceText": "Let’s Be Friendly With our Friends",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Olgem oma sõpradega sõbralikud",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "11cf1b90a33826bf5cd2a024f505d8620c81305d1e583ed2ffc6e2bd2eea4460": {
+    "sourceText": "How A.A. Members Cooperate",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Kuidas AA liikmed koostööd teevad",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "1d40e12755d1f0b5d9f298153f4dd60d53ccb61da1306e32179f14d8f865b6b2": {
+    "sourceText": "A.A. in Correctional Facilities",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "AA kinnipidamisasutustes",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "a392c82673f6a6a2e6213e7eb0af10cf2008c2717fa9a8b4f3abad7d199f9c23": {
+    "sourceText": "A Message to Correctional Facilities Adminstrators",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Sõnum kinnipidamisasutuste juhtidele",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "5ce8ff3cb30dd9bf3ddd3105859ef0fee48abbd7be380deae698999ce8671bdb": {
+    "sourceText": "A.A. in Treatment Facilities",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "AA raviasutustes",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "1f8e8a1bb7d38a7352c4120b48f31f03cb07a2673668a801d0960b8c4c00b8a0": {
+    "sourceText": "Bridging the Gap",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Lõhe ületamine",
+    "calledAt": "2026-04-19T19:40:09.908Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "474afdf8b94fd073d2e17b1b0fc60b81221cdc91ff23596a43fd1b165892cb80": {
+    "sourceText": "If You Are a Professional",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Kui sa oled spetsialist",
+    "calledAt": "2026-04-19T19:40:09.909Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "49dfc6494ac9ff93054845a1d4347ac2433317fc8adbe26190eb5ceeaa2e7997": {
+    "sourceText": "A.A. Membership Survey",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "AA liikmeuuring",
+    "calledAt": "2026-04-19T19:40:09.909Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "d2a22104ec2e1952bc1522bca4fdbac810e5d7c6204e08daeecfcc551b5b0bc2": {
+    "sourceText": "A Member’s-Eye View of Alcoholics Anonymous",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Anonüümsed Alkohoolikud liikme silmade läbi",
+    "calledAt": "2026-04-19T19:40:09.909Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "55cfd19ae4926dc77199a12b681e3c877f1687f40a3ce00ff82abfa78dae7dd8": {
+    "sourceText": "Problems Other Than Alcohol",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Probleemid peale alkoholi",
+    "calledAt": "2026-04-19T19:40:09.909Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "b882f0bc64d1d1ddf25c150a886d991a57015a2a613c453497e8c14dbf0c66d2": {
+    "sourceText": "Understanding Anonymity",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Anonüümsuse mõistmine",
+    "calledAt": "2026-04-19T19:40:09.909Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "9217bf8f373a58094e47b77a5633fa7e09540e65e158f350590e0847daaa192d": {
+    "sourceText": "The Co-Founders of Alcoholics Anonymous",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Anonüümsete Alkohoolikute kaasasutajad",
+    "calledAt": "2026-04-19T19:40:09.909Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "3527369df080a954097c2bcc06e277ab31037d72d083a42531e1cd70e5b26762": {
+    "sourceText": "Speaking at Non-A.A. Meetings",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Esinemine AA-välistel koosolekutel",
+    "calledAt": "2026-04-19T19:40:09.909Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "66608c59076745364e213e15948449efe7192d77de7d92327841edb04ff5bfe2": {
+    "sourceText": "A Brief Guide to A.A.",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Lühijuhend AA kohta",
+    "calledAt": "2026-04-19T19:40:09.909Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "5ab683adfc6013733fad70dcbc52257801ab79279abef56fc902e41fc98afc2e": {
+    "sourceText": "What Happened to Joe",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Mis juhtus Joe’ga",
+    "calledAt": "2026-04-19T19:40:09.909Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "04c398f61a858ef9ea16b0b741f1ab2d9c6fd2fc81e25e3476ad8f7209b7da72": {
+    "sourceText": "It Happened to Alice",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "See juhtus Alice’iga",
+    "calledAt": "2026-04-19T19:40:09.909Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "ff7b16f71c4a593cda1a0edc3d7c8bff491a8bf3e555995968b1c5d27c31c78f": {
+    "sourceText": "(Two above are full-color, comic-book-style pamphlets)",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "(Kaks eelnevat on täisvärvilised koomiksilaadsed voldikud)",
+    "calledAt": "2026-04-19T19:40:09.909Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "38ce6cbcba8986134c57428e7991032b711833694fe255e0c5cb5856b1a8a3ac": {
+    "sourceText": "Too Young?",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Liiga noor?",
+    "calledAt": "2026-04-19T19:40:09.909Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "b6a691253c1851a3a8bbb29d3009d147c591ef187bcb356f5fb901d26542ad43": {
+    "sourceText": "(Above is a cartoon pamphlet for teenagers)",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "(Eelnev on koomiksivoldik teismelistele)",
+    "calledAt": "2026-04-19T19:40:09.909Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "a851f5dcb7eda2cf9198091c154faf5f9b98decbd60d763af153a72028d0d78e": {
+    "sourceText": "It Sure Beats Sitting in a Cell",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "See on kindlasti parem kui kongis istumine",
+    "calledAt": "2026-04-19T19:40:09.909Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "491f45a3cc06d87131f59622416c44fdc8adef9f0375370b440a5e25def0a5b2": {
+    "sourceText": "(Above is an illustrated pamphlet for inmates)",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "(Eelnev on illustreeritud voldik kinnipeetavatele)",
+    "calledAt": "2026-04-19T19:40:09.909Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  "d92a52f73d3806e3c2259fb368ad63f7c8e05c83a34b1c6b7b9c3e2d7b3fe09c": {
+    "sourceText": "Complete order forms available from A.A. General Service Office: Box 459, Grand Central Station, New York, NY 10163",
+    "sourceLang": "en",
+    "targetLang": "et",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "1.0",
+    "translation": "Tellimisvormid on saadaval AA Üldteenistusbüroost: Box 459, Grand Central Station, New York, NY 10163",
+    "calledAt": "2026-04-19T19:40:09.909Z",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  }
+}
