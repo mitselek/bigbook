@@ -3,8 +3,11 @@
 
 import manifest from '../../content/manifest.json' with { type: 'json' }
 
+export type ChapterGroup = 'front-matter' | 'chapters' | 'stories' | 'appendices'
+
 export type ChapterManifest = {
   slug: string
+  group: ChapterGroup
   title: { en: string; et: string }
   paraIds: readonly string[]
 }
@@ -14,6 +17,7 @@ export const ESTIMATED_HEIGHT_BODY = 110
 
 export const CHAPTERS: readonly ChapterManifest[] = manifest.sections.map((s) => ({
   slug: s.canonicalSlug,
+  group: s.group as ChapterGroup,
   title: s.title,
   paraIds: s.paraIds,
 }))
