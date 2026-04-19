@@ -89,3 +89,107 @@ describe('renderBlock', () => {
     expect(out).toBe(`::para[s30-p013]\n\nAnonüümsetes Alkohoolikutes...\n\n(_BB:Boderie_)\n`)
   })
 })
+
+import { renderSection } from '../../../scripts/bootstrap-content/emit-markdown'
+import type { SectionRenderPlan } from '../../../scripts/bootstrap-content/types'
+
+function plan(
+  partial: Partial<SectionRenderPlan> & Pick<SectionRenderPlan, 'canonicalSlug'>,
+): SectionRenderPlan {
+  return {
+    group: 'chapters',
+    title: { en: 'Test', et: 'Test' },
+    pdfPageStart: 1,
+    pdfPageEnd: 1,
+    en: [],
+    et: [],
+    ...partial,
+  }
+}
+
+describe('renderSection', () => {
+  it('emits frontmatter with chapter, title, lang, group, pdf pages', () => {
+    const p = plan({
+      canonicalSlug: 'ch01',
+      title: { en: "Bill's Story", et: 'Billi lugu' },
+      pdfPageStart: 22,
+      pdfPageEnd: 37,
+      en: [{ paraId: 'ch01-h001', kind: 'heading', text: "BILL'S STORY", isAutoTranslated: false }],
+      et: [],
+    })
+    const enOut = renderSection(p, 'en')
+    expect(enOut).toMatch(
+      /^---\nchapter: ch01\ntitle: "Bill's Story"\nlang: en\ngroup: chapters\npdfPageStart: 22\npdfPageEnd: 37\n---\n/,
+    )
+  })
+
+  it('emits ET frontmatter with ET title', () => {
+    const p = plan({
+      canonicalSlug: 'ch01',
+      title: { en: "Bill's Story", et: 'Billi lugu' },
+      pdfPageStart: 22,
+      pdfPageEnd: 37,
+      en: [],
+      et: [{ paraId: 'ch01-h001', kind: 'heading', text: 'BILLI LUGU', isAutoTranslated: false }],
+    })
+    const etOut = renderSection(p, 'et')
+    expect(etOut).toContain('title: "Billi lugu"')
+    expect(etOut).toContain('lang: et')
+  })
+
+  it('renders each block in the array in order', () => {
+    const p = plan({
+      canonicalSlug: 'ch01',
+      en: [
+        { paraId: 'ch01-h001', kind: 'heading', text: 'Heading', isAutoTranslated: false },
+        { paraId: 'ch01-p001', kind: 'paragraph', text: 'First.', isAutoTranslated: false },
+        { paraId: 'ch01-p002', kind: 'paragraph', text: 'Second.', isAutoTranslated: false },
+      ],
+      et: [],
+    })
+    const out = renderSection(p, 'en')
+    const h001Idx = out.indexOf('::para[ch01-h001]')
+    const p001Idx = out.indexOf('::para[ch01-p001]')
+    const p002Idx = out.indexOf('::para[ch01-p002]')
+    expect(h001Idx).toBeGreaterThan(0)
+    expect(p001Idx).toBeGreaterThan(h001Idx)
+    expect(p002Idx).toBeGreaterThan(p001Idx)
+  })
+
+  it('renders auto-translated blocks with Boderie attribution', () => {
+    const p = plan({
+      canonicalSlug: 'a-pamphlets',
+      title: { en: 'A.A. Pamphlets', et: 'AA brošüürid' },
+      et: [
+        {
+          paraId: 'a-pamphlets-l001',
+          kind: 'list-item',
+          text: 'Lühike AA juhend',
+          isAutoTranslated: true,
+        },
+      ],
+    })
+    const out = renderSection(p, 'et')
+    expect(out).toContain('::para[a-pamphlets-l001]')
+    expect(out).toContain('- Lühike AA juhend')
+    expect(out).toContain('(_BB:Boderie_)')
+  })
+
+  it('escapes quotes in titles', () => {
+    const p = plan({
+      canonicalSlug: 's13',
+      title: { en: 'The "Housewife" Story', et: '"Koduperenaise" lugu' },
+      en: [],
+      et: [],
+    })
+    const out = renderSection(p, 'en')
+    expect(out).toContain('title: "The \\"Housewife\\" Story"')
+  })
+
+  it('emits empty section (no blocks) with frontmatter only', () => {
+    const p = plan({ canonicalSlug: 'empty', en: [], et: [] })
+    const out = renderSection(p, 'en')
+    expect(out).toMatch(/^---\n[\s\S]+?\n---\n$/)
+    expect(out).not.toContain('::para')
+  })
+})
