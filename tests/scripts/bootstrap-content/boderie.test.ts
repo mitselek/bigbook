@@ -77,3 +77,134 @@ describe('buildUserPrompt', () => {
     expect(prompt).toMatch(/Estonian/i)
   })
 })
+
+import type { BoderieCache } from '../../../scripts/bootstrap-content/types'
+import { translate } from '../../../scripts/bootstrap-content/boderie'
+
+interface FakeClient {
+  messages: {
+    create: (args: unknown) => Promise<{
+      content: { type: 'text'; text: string }[]
+      usage: { input_tokens: number; output_tokens: number }
+    }>
+  }
+}
+
+function makeFakeClient(response: string, tokens = { input: 10, output: 5 }): FakeClient {
+  return {
+    messages: {
+      create: async () => ({
+        content: [{ type: 'text', text: response }],
+        usage: { input_tokens: tokens.input, output_tokens: tokens.output },
+      }),
+    },
+  }
+}
+
+describe('translate', () => {
+  it('returns cache hit when key exists, does not call API', async () => {
+    const cache: BoderieCache = {}
+    const { buildCacheKey: k } = await import('../../../scripts/bootstrap-content/boderie')
+    const ck = k({
+      sourceText: 'Hello',
+      targetLang: 'et',
+      model: 'claude-sonnet-4-6',
+      promptVersion: '1.0',
+    })
+    cache[ck] = {
+      sourceText: 'Hello',
+      sourceLang: 'en',
+      targetLang: 'et',
+      model: 'claude-sonnet-4-6',
+      promptVersion: '1.0',
+      translation: 'Tere (cached)',
+      calledAt: '2026-04-19T00:00:00Z',
+      usage: { inputTokens: 1, outputTokens: 1 },
+    }
+    let apiCalls = 0
+    const fake = makeFakeClient('Tere (API)')
+    fake.messages.create = async () => {
+      apiCalls += 1
+      return {
+        content: [{ type: 'text', text: 'Tere (API)' }],
+        usage: { input_tokens: 1, output_tokens: 1 },
+      }
+    }
+    const result = await translate(
+      { sourceText: 'Hello', sourceLang: 'en', targetLang: 'et' },
+      {
+        cache,
+        client: fake as unknown as Parameters<typeof translate>[1]['client'],
+        now: () => '2026-04-19T00:00:01Z',
+      },
+    )
+    expect(result.translation).toBe('Tere (cached)')
+    expect(result.cacheHit).toBe(true)
+    expect(apiCalls).toBe(0)
+  })
+
+  it('calls API and populates cache on miss', async () => {
+    const cache: BoderieCache = {}
+    let apiCalls = 0
+    const fake = makeFakeClient('Tere maailm')
+    fake.messages.create = async () => {
+      apiCalls += 1
+      return {
+        content: [{ type: 'text', text: 'Tere maailm' }],
+        usage: { input_tokens: 8, output_tokens: 4 },
+      }
+    }
+    const result = await translate(
+      { sourceText: 'Hello world', sourceLang: 'en', targetLang: 'et' },
+      {
+        cache,
+        client: fake as unknown as Parameters<typeof translate>[1]['client'],
+        now: () => '2026-04-19T00:00:00Z',
+      },
+    )
+    expect(result.translation).toBe('Tere maailm')
+    expect(result.cacheHit).toBe(false)
+    expect(apiCalls).toBe(1)
+    expect(Object.keys(cache)).toHaveLength(1)
+    const entry = Object.values(cache)[0]
+    expect(entry).toBeDefined()
+    if (entry === undefined) throw new Error('narrowing')
+    expect(entry.sourceText).toBe('Hello world')
+    expect(entry.translation).toBe('Tere maailm')
+    expect(entry.usage.inputTokens).toBe(8)
+    expect(entry.usage.outputTokens).toBe(4)
+  })
+
+  it('trims whitespace from API response', async () => {
+    const cache: BoderieCache = {}
+    const fake = makeFakeClient('  Tere  \n')
+    const result = await translate(
+      { sourceText: 'Hello', sourceLang: 'en', targetLang: 'et' },
+      {
+        cache,
+        client: fake as unknown as Parameters<typeof translate>[1]['client'],
+        now: () => '2026-04-19T00:00:00Z',
+      },
+    )
+    expect(result.translation).toBe('Tere')
+  })
+
+  it('throws when API response is empty', async () => {
+    const cache: BoderieCache = {}
+    const fake: FakeClient = {
+      messages: {
+        create: async () => ({ content: [], usage: { input_tokens: 0, output_tokens: 0 } }),
+      },
+    }
+    await expect(
+      translate(
+        { sourceText: 'Hello', sourceLang: 'en', targetLang: 'et' },
+        {
+          cache,
+          client: fake as unknown as Parameters<typeof translate>[1]['client'],
+          now: () => '2026-04-19T00:00:00Z',
+        },
+      ),
+    ).rejects.toThrow(/empty response/i)
+  })
+})

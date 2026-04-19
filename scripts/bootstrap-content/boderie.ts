@@ -46,3 +46,75 @@ export function buildUserPrompt(input: UserPromptInput): string {
 
 ${input.sourceText}`
 }
+
+import type Anthropic from '@anthropic-ai/sdk'
+import type { BoderieCache } from './types'
+
+const MODEL = 'claude-sonnet-4-6' as const
+
+export interface TranslateInput {
+  sourceText: string
+  sourceLang: 'en' | 'et'
+  targetLang: 'en' | 'et'
+}
+
+export interface TranslateOptions {
+  cache: BoderieCache
+  client: Pick<Anthropic, 'messages'>
+  now?: () => string
+}
+
+export interface TranslateResult {
+  translation: string
+  cacheHit: boolean
+}
+
+export async function translate(
+  input: TranslateInput,
+  options: TranslateOptions,
+): Promise<TranslateResult> {
+  const key = buildCacheKey({
+    sourceText: input.sourceText,
+    targetLang: input.targetLang,
+    model: MODEL,
+    promptVersion: PROMPT_VERSION,
+  })
+  const hit = options.cache[key]
+  if (hit !== undefined) {
+    return { translation: hit.translation, cacheHit: true }
+  }
+
+  const response = await options.client.messages.create({
+    model: MODEL,
+    max_tokens: 4096,
+    temperature: 0,
+    system: buildSystemPrompt(),
+    messages: [{ role: 'user', content: buildUserPrompt(input) }],
+  })
+
+  const firstBlock = response.content[0]
+  if (firstBlock === undefined || firstBlock.type !== 'text') {
+    throw new Error('Boderie received empty response from Claude')
+  }
+  const translation = firstBlock.text.trim()
+  if (translation.length === 0) {
+    throw new Error('Boderie received empty response from Claude')
+  }
+
+  const now = options.now?.() ?? new Date().toISOString()
+  options.cache[key] = {
+    sourceText: input.sourceText,
+    sourceLang: input.sourceLang,
+    targetLang: input.targetLang,
+    model: MODEL,
+    promptVersion: PROMPT_VERSION,
+    translation,
+    calledAt: now,
+    usage: {
+      inputTokens: response.usage.input_tokens,
+      outputTokens: response.usage.output_tokens,
+    },
+  }
+
+  return { translation, cacheHit: false }
+}
