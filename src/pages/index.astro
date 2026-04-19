@@ -22,7 +22,7 @@ import { CHAPTERS } from '../lib/content/manifest'
     {
       CHAPTERS.map((chapter) => (
         <ChapterSection
-          client:idle
+          client:visible
           slug={chapter.slug}
           paraIds={chapter.paraIds}
           titleEn={chapter.title.en}
