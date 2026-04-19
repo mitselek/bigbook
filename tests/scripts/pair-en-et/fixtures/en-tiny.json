@@ -1,0 +1,25 @@
+{
+  "edition": "4th",
+  "sourcePdf": "fixture.pdf",
+  "extractedAt": "2026-04-19T00:00:00Z",
+  "sections": [
+    {
+      "id": "ch01-bills-story",
+      "kind": "chapter",
+      "title": "Bill's Story",
+      "pdfPageStart": 1,
+      "pdfPageEnd": 1,
+      "bookPageStart": 1,
+      "bookPageEnd": 1,
+      "blocks": [
+        { "id": "ch01-bills-story-h001", "kind": "heading", "text": "Bill's Story", "pdfPage": 1 },
+        {
+          "id": "ch01-bills-story-p001",
+          "kind": "paragraph",
+          "text": "Hello there world",
+          "pdfPage": 1
+        }
+      ]
+    }
+  ]
+}
