@@ -1,0 +1,25 @@
+{
+  "edition": "4th",
+  "sourcePdf": "fixture.pdf",
+  "extractedAt": "2026-04-19T00:00:00Z",
+  "sections": [
+    {
+      "id": "ch01-billi-lugu",
+      "kind": "chapter",
+      "title": "Billi lugu",
+      "pdfPageStart": 13,
+      "pdfPageEnd": 13,
+      "bookPageStart": 13,
+      "bookPageEnd": 13,
+      "blocks": [
+        { "id": "ch01-billi-lugu-h001", "kind": "heading", "text": "BILLI LUGU", "pdfPage": 13 },
+        {
+          "id": "ch01-billi-lugu-p002",
+          "kind": "paragraph",
+          "text": "Sõjapalavik oli kõrge.",
+          "pdfPage": 13
+        }
+      ]
+    }
+  ]
+}

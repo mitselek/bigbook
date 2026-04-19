@@ -1,4 +1,11 @@
-import type { BlockKind, Pair, PairingArtifact, UnpairedBlock } from '../pair-en-et/types'
+import type {
+  BlockKind,
+  Extraction,
+  ExtractionBlock,
+  Pair,
+  PairingArtifact,
+  UnpairedBlock,
+} from '../pair-en-et/types'
 
 export type Group = 'front-matter' | 'chapters' | 'stories' | 'appendices' | 'reader-chrome'
 
@@ -53,4 +60,4 @@ export interface SectionRenderPlan {
 }
 
 // Re-exported for convenience so consumers don't need two import lines
-export type { BlockKind, Pair, PairingArtifact, UnpairedBlock }
+export type { BlockKind, Extraction, ExtractionBlock, Pair, PairingArtifact, UnpairedBlock }

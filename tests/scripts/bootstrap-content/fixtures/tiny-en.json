@@ -1,0 +1,31 @@
+{
+  "edition": "4th",
+  "sourcePdf": "fixture.pdf",
+  "extractedAt": "2026-04-19T00:00:00Z",
+  "sections": [
+    {
+      "id": "ch01-bills-story",
+      "kind": "chapter",
+      "title": "Bill's Story",
+      "pdfPageStart": 22,
+      "pdfPageEnd": 22,
+      "bookPageStart": 22,
+      "bookPageEnd": 22,
+      "blocks": [
+        { "id": "ch01-bills-story-h001", "kind": "heading", "text": "BILL'S STORY", "pdfPage": 22 },
+        {
+          "id": "ch01-bills-story-p002",
+          "kind": "paragraph",
+          "text": "War fever ran high.",
+          "pdfPage": 22
+        },
+        {
+          "id": "ch01-bills-story-p003",
+          "kind": "paragraph",
+          "text": "Orphan paragraph.",
+          "pdfPage": 22
+        }
+      ]
+    }
+  ]
+}
