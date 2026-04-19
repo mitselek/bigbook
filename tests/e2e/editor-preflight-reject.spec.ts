@@ -36,10 +36,11 @@ import {
 
 // ── Fixture data ──────────────────────────────────────────────────────────────
 
-const CHAPTER = CHAPTERS[0]
-if (!CHAPTER) throw new Error('No chapters in manifest — check manifest.ts')
+// Pin to ch01 — "Bill's Story" — the canonical first chapter with 72 paraIds.
+const CHAPTER = CHAPTERS.find((c) => c.slug === 'ch01')
+if (!CHAPTER) throw new Error("Manifest missing 'ch01' — did P1 regenerate correctly?")
 
-const SLUG = CHAPTER.slug // 'ch01-billi-lugu'
+const SLUG = CHAPTER.slug // 'ch01'
 const PARA_IDS = CHAPTER.paraIds
 
 // The paragraph we will edit — first body paragraph.
@@ -64,7 +65,7 @@ const CHAPTER_CONTENT = makeBilingualChapter(SLUG, PARA_IDS)
 
 // ── Test ──────────────────────────────────────────────────────────────────────
 
-test.describe.skip('Editor pre-flight validation rejection (P2)', () => {
+test.describe('Editor pre-flight validation rejection', () => {
   test('pre-flight rejects bogus ::para directive, never fires PUT, shows Estonian error banner, editor stays open', async ({
     page,
   }) => {
@@ -96,16 +97,18 @@ test.describe.skip('Editor pre-flight validation rejection (P2)', () => {
       },
     )
 
-    // 2. Navigate to the app root.
-    await page.goto('./')
+    // 2. Navigate deep-linked to ch01-h001 — ch01 is at manifest index 7 and
+    //    requires a deep-link to trigger Astro client:visible hydration.
+    await page.goto(`./#${SLUG}-h001`)
 
     // 3. Wait for signed-in view — "Lahku" button confirms the refresh flow ran.
     await expect(page.locator('#signout-btn')).toBeVisible({ timeout: 15_000 })
 
     // 4. Wait for the target paragraph row to be visible.
     const targetParaRow = page.locator(`#${TARGET_PARA_ID}`)
-    await expect(targetParaRow).toBeVisible({ timeout: 15_000 })
-    await expect(targetParaRow.locator('.col-et')).toContainText(LOADED_ET_TEXT)
+    await expect(targetParaRow.locator('.col-et')).toContainText(LOADED_ET_TEXT, {
+      timeout: 15_000,
+    })
 
     // 5. Open the inline editor via dispatchEvent('click') on the pencil button.
     //    Must use dispatchEvent (not locator.click()) to avoid the timing race
