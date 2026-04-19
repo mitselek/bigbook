@@ -1,0 +1,23 @@
+{
+  "id": "appendix-iv-lasker-award",
+  "kind": "appendix",
+  "title": "IV Lasker Award",
+  "pdfPageStart": 603,
+  "pdfPageEnd": 603,
+  "bookPageStart": 571,
+  "bookPageEnd": 571,
+  "blocks": [
+    {
+      "id": "appendix-iv-lasker-award-h001",
+      "kind": "heading",
+      "text": "IV LASKERI PREEMIA",
+      "pdfPage": 603
+    },
+    {
+      "id": "appendix-iv-lasker-award-p002",
+      "kind": "paragraph",
+      "text": "Neile,",
+      "pdfPage": 603
+    }
+  ]
+}
