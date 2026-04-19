@@ -15,10 +15,23 @@
 | 10 | **v1-reader (full)** | All 8 phases (P0–P7) + 3 post-closure hotfixes. 52 commits, 89 unit/component tests + 4 Playwright E2E. **v1-reader CLOSED.** |
 | 11 | **v1-editor + polish** | Polish: reading position dot, TOC force-load, markdown rendering (marked), rate-limit fix, return-visit scroll. Editor: brainstorm → spec → plan → implementation (7 tasks via subagent-driven). ET content corrections ch05–ch11 from PDF. **116 tests.** |
 | 12 | **v1-editor close-out + v1-ship + v1.0.0 release** | Inline-bug blitz (md gotcha, arrow keys, burger nuke, Estonian top-bar, editor UX, focus observer, auth sync). v1-editor gap fixes (#26–#28, #30) + 4 Playwright editor E2E scenarios (#29). v1-ship: real size-limit budgets, CI quality gates (typecheck/lint/test/size + Playwright matrix), docs/WORKFLOW.md + docs/spec.md. **v1-editor, v1-ship CLOSED. Tagged `v1.0.0`, GitHub Release published.** |
+| 13 | **Content extraction arc** | Post-v1 detour: built `scripts/extract-en-book/` pipeline (pdftotext → normalize → outline → segment → invariants). 8 waves of EN extraction → `data/extractions/structured/en-4th-edition.json` (68 sections, 2,094 blocks). Then 6 waves of ET extraction → `data/extractions/structured-et/et-4th-edition.json` (67 sections, 2,051 blocks). Authoritative PDF-derived structured content, ready for bilingual pairing. Issue #38 (EN heading detection edge cases, 11 sections) deferred. Issue #39 (EN/ET para-id pairing) opened. |
+| 14 | **v1.1-content P0 — pairing artifact (issue #39)** | New milestone `v1.1-content` started. Brainstorm (8 decisions) → spec → plan (14 tasks) → XP-triple execution. Built `scripts/pair-en-et/`: 9 modules (types, section-map with 68 canonical slugs, confidence, section-pair, block-pair, review-report, verify, CLI, index). Deterministic pairer + hybrid A+B schema (strict 1:1 with dormant N:M capability). PO review gate walked all 15 flagged sections (fw1 byline, copyright TOC, s06/ch07/ch09/s38 false alarms, ch01/ch10/ch11/s02/s20 count-mismatch reconciliations with Opus assistance, s30/a-i/a-iv/a-vii small cases). **Artifact committed to main: 67 paired sections + 1 unpaired (a-pamphlets EN-only) · 2,033 paired paraIds · 2 N:M accepted-split pairs · 0 low-confidence · 0 needs-review.** Issue #39 closed. Also: CI fix (poppler-utils apt install), Node 22 LTS bump, 3 follow-ups (a-iv ET source gap documented, ch01 byline reclassified paragraph→byline, UnpairedSectionReason semantic aligned with side). PO flagged the mixed-numbering-convention tension (extraction position-in-section vs pairing within-kind) as deferred design debt; saved to spec + scratchpad + auto-memory. |
+| 15 | **v1.1-content P1 — content bootstrap generator** | Brainstorm (10 decisions including the attribution gem: reuse `(_BB:Boderie_)` for machine translations as a new roster role). Spec → plan (17 tasks) → feature-branch execution via git worktree. Built `scripts/bootstrap-content/`: 10 modules (types, groups, boderie cache+API, seeder, emit-markdown per-kind rendering with year-escape, emit-manifest, emit-wrapper, static-templates cover+index, bootstrap CLI, index). Added Boderie to roster. PO hand-translated all 64 asymmetric blocks into the worksheet during execution → zero Claude API calls at run time. Regenerated 136 markdown files + manifest.json + compat wrapper. Merged feature branch to main (PR #40 squash). Then a chain of post-merge fixes: JSON import attribute, skip 9 P2-scoped e2e tests, baseline SHA bump, year-start markdown escape `^(19\|20)\d{2}\.`, hydration `client:idle` → `client:visible`, click-outside race fix (`queueMicrotask` → `setTimeout(0)` — session 12's Playwright-only bug became real in Svelte 5). **Site deployed, editor functional.** |
 
-## Current State (after session 12)
+## Current State (after session 15)
 
-- **Head of `main`:** `06af659` (`docs: add WORKFLOW.md and spec.md pointer doc`). Tagged **`v1.0.0`**. CI green. Deployed.
+- **Head of `main`:** `8387b5e` (`fix(editor): defer click-outside guard install to macrotask`). CI green. Deployed.
+- **Tag `v1.0.0`** at `06af659` (session 12's release); unchanged, still points at the same commit.
+- **`v1.1-content` milestone:** **P0 CLOSED** (pairing artifact, issue #39), **P1 CLOSED** (bootstrap generator landed + deployed). **P2, P3, P4 PENDING** (reader adaptation, Hard Invariant hook, Playwright refresh).
+- **Feature branch `feat/v1.1-content-p1`:** merged via PR #40, then deleted from remote. All work on `main` now.
+- **Content tree:** `src/content/{en,et}/` — 70 files each (68 canonical sections + cover + index). Replaced the old 16-file mock wholesale. Manifest at `src/content/manifest.json` (new authoritative location); `src/lib/content/manifest.ts` is a regenerated compat wrapper.
+- **Translation cache:** `data/extractions/pairing/translation-cache.json` — 64 PO-authored entries (no Claude API calls this round). `manual-translations.json` worksheet committed alongside as the source of truth.
+- **New roster member Boderie** (Guy Le Fèvre de la Boderie, Plantiniana translator). Persona at `.claude/teams/bigbook-dev/prompts/boderie.md`. Attribution `(_BB:Boderie_)` on auto-translated blocks.
+
+## Earlier state summary (pre-session-13)
+
+(session-12 reference below; still valid for v1 modules)
 - **v1-foundation:** CLOSED (milestone 1, epic #3).
 - **v1-reader:** CLOSED (milestone 2, epic #4).
 - **v1-editor:** **CLOSED** (milestone 3, epic #5, sub-issues #25–#30). PO validated the edit flow in production by landing `6f17bb2 Muuda ch09-perekond-hiljem-p027 (et)` during session 12.
@@ -116,24 +129,36 @@ So a pair `{paraId: "fw1-p001", enBlockId: "foreword-1st-edition-p002", etBlockI
 - **Parallel subagents on independent test files don't conflict.** Dispatched P10b, P10c, P10d in parallel; each wrote a different spec file, none touched the fixtures module; all three commits serialized cleanly through the git index lock. Don't do this when agents might modify the same file.
 - **CI surfaces silent breaks.** The CI gate wiring this session caught two pre-existing silent failures (`local-state.test.ts` localStorage, `reader.spec.ts` wordmark) that had been sitting in the tree unnoticed. Confirms the value of gating early and aggressively.
 
-## Reorientation for next session
+## Reorientation for next session (post session 15)
 
 **You are Plantin, team-lead of `bigbook-dev`.** The main session in this repo assumes that role on startup (see `.claude/startup.md`).
 
-**v1 is SHIPPED.** Tag `v1.0.0`, GitHub Release published, all four milestones closed (v1-foundation, v1-reader, v1-editor, v1-ship). Live at <https://mitselek.github.io/bigbook/>. CI green. No team was persisted from session 12 — start fresh if you spawn one.
+**v1.0.0 is SHIPPED** (session 12). **v1.1-content milestone is MID-FLIGHT**: P0 (pairing artifact) + P1 (bootstrap generator) done; **P2 (reader adaptation), P3 (Hard Invariant hook), P4 (Playwright refresh) still pending**. Live at <https://mitselek.github.io/bigbook/>. CI green. No team was persisted from session 15 — start fresh if you spawn one.
 
 **Default state at session open:**
-1. `git status` should show a clean tree on `main`, up-to-date with `origin/main`, tip at `06af659` tagged `v1.0.0` (unless PO pushed more since).
-2. `gh run list --limit 1` should show the most recent CI run green.
-3. `gh issue list --state open` will show whatever bugs have surfaced reactively since session 12.
+1. `git status`: clean tree on `main`, tip ~= `8387b5e` (or later if PO pushed more).
+2. `gh run list --limit 1`: latest CI green.
+3. `gh issue list --state open`: should show 0 or whatever new issues the PO opened for P2.
 
-**Natural next directions** — all PO-owned; surface the menu, let PO pick:
-- **Reactive bug triage.** Any issues that appeared since shipping (check `gh issue list`). Address as one-shot subagent hotfixes — the pattern worked well all of session 12.
-- **v2-comments milestone.** Explicit post-v1 scope from the editor spec. Would need brainstorm → spec → plan → GitHub milestone setup before execution. Likely a full-team XP cycle, not subagent-driven, because it's greenfield production code (comments data model, rendering, auth gating, signed-in-only visibility, GitHub Issues API or separate content collection).
-- **EN ch05–ch16 content extraction.** Still ET-verbatim placeholders. Session 11 subagents failed at PDF-to-markdown extraction. Needs a different approach before tackling (manual extraction, a dedicated script, different LLM shape, or human-driven).
-- **Real-device cross-browser verification.** Safari macOS/iOS, Firefox desktop. Per PO scope decision, handled reactively — only engage if PO raises a specific symptom.
-- **Auth ADR** at `docs/decisions/0001-auth.md`. Documents the GitHub App configuration in full. Not blocking anything, but worth tackling if there's a quiet session.
-- **Node 20 → 24 migration.** Deadline June 2026 — plenty of time. Low priority unless the Node 20 runner is about to be removed.
+**Natural next direction: P2 — reader adaptation.** P1 landed a 68-section content tree and manifest, but the reader was built for 16-section v1. Three concrete problems already identified:
+
+1. **TocOverlay** (`src/components/TocOverlay.svelte`) hardcodes old slugs in `FRONT_MATTER` / `APPENDICES` sets (e.g., `'eessonad'`, `'arsti-arvamus'`, `'lisad'`). Under the new manifest these slugs don't exist, so everything falls through to "Chapters". Should rewire `groupLabel()` to read the manifest's `group` field directly.
+2. **URL scheme**. Deep links to old slugs (e.g., `/bigbook/ch01-billi-lugu/#para`) now 404. Either add redirect map for old→new, or accept that reader URLs use canonical slugs from here on.
+3. **E2E tests**. Nine Playwright specs skipped (5 files — `reader.spec.ts` + 4 `editor-*.spec.ts`). All use old-shape paraIds (`ch01-billi-lugu-p001`). Re-enable with canonical shape after the reader is adapted.
+
+Also see "Known P2 follow-ups" in commit `7021586`'s message — has the fuller list.
+
+**P1 design debts carried forward:**
+- **Mixed-numbering convention** (PO-flagged 2026-04-19): extraction uses position-in-section, pairing artifact uses within-kind. Deferred to P1 brainstorm which picked within-kind for the content tree but didn't migrate extractions. If P2 or later revisits, see `docs/superpowers/specs/2026-04-19-en-et-pairing-artifact-design.md` "Known design debt" section + auto-memory `feedback_convention_consistency.md`.
+- **a-iv ET source gap**: the Estonian edition's Lasker Award appendix contains only "Neile," — no actual citation. Translated via `(_BB:Boderie_)` through the manual worksheet. Authoritative ET translation would require PDF supplement or hand-authoring.
+- **ch01 cross-kind p071/b070**: EN closing death-date line was reclassified paragraph→byline in the extraction to match ET. One-time edit; future re-extractions should preserve the byline kind.
+
+**Earlier-era follow-ups still valid:**
+- **v2-comments milestone.** Explicit post-v1 scope from editor spec. Needs own brainstorm when the time comes.
+- **EN ch05–ch16 content extraction.** Obsolete — **replaced by the session-13 structured extraction**. All English content now in `data/extractions/structured/en-4th-edition.json` and flowing through to `src/content/en/` via P1.
+- **Real-device cross-browser verification.** Deferred reactively.
+- **Auth ADR** at `docs/decisions/0001-auth.md`. Still pending.
+- **Node 20 → 24 migration.** CI Node is already on 22 LTS (bumped in session 14). Actions' internal Node 20 warnings still present; deadline June 2026 unchanged.
 
 **Session 12 operating patterns that worked:**
 - **One-shot subagents chained serially** handled every bug fix and E2E test this session cleanly.
