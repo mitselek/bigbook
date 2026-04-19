@@ -24,7 +24,10 @@
     "extract:en": "tsx scripts/extract-en-book.ts",
     "pair": "tsx scripts/pair-en-et/pair.ts",
     "pair:verify": "tsx scripts/pair-en-et/pair.ts verify",
-    "pair:review": "tsx scripts/pair-en-et/pair.ts review"
+    "pair:review": "tsx scripts/pair-en-et/pair.ts review",
+    "bootstrap": "CONTENT_BOOTSTRAP=1 tsx scripts/bootstrap-content/bootstrap.ts",
+    "bootstrap:translate-only": "CONTENT_BOOTSTRAP=1 tsx scripts/bootstrap-content/bootstrap.ts translate-only",
+    "bootstrap:emit-only": "CONTENT_BOOTSTRAP=1 tsx scripts/bootstrap-content/bootstrap.ts emit-only"
   },
   "dependencies": {
     "astro": "^5.0.0",
