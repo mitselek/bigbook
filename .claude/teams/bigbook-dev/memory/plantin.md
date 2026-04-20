@@ -22,11 +22,12 @@
 
 ## Current State (after session 16)
 
-- **Head of `main`:** `0c9a117` (`chore(memory): Montano session-16 P2 Task 4 checkpoint`). CI green. Deployed.
+- **Head of `main`:** `296099b` (`docs(team): refresh plantin scratchpad for session 16`). CI green. Deployed.
 - **Tag `v1.0.0`** at `06af659`; unchanged.
-- **Tag `v1.1.0-preview`** at `34b3a05` (pre-release cut session 16); marks P0+P1 shipped with P2 known rough-edges.
-- **`v1.1-content` milestone:** **P0, P1, P2 CLOSED.** **P3, P4 PENDING** (Hard Invariant hook, Playwright refresh).
-- **Open issues:** #38 (EN heading detection, 11 sections, deferred), **#41 NEW** (bootstrap non-idempotency — parse→emit round-trip mutates 134 markdown files per run; candidate for P3 or ship-cleanup).
+- **Tag `v1.1.0-preview`** at `34b3a05` (pre-release cut mid-session 16); historical marker for P0+P1 shipped-with-rough-edges.
+- **Tag `v1.1.0`** at `296099b` (session 16, post-P2); closes the `v1.1-content` milestone.
+- **`v1.1-content` milestone:** **CLOSED.** P0 (pairing artifact), P1 (bootstrap generator), P2 (reader adaptation) shipped. P3 ("Hard Invariant hook") and P4 ("Playwright refresh") were pre-decomposition scaffold labels that turned out not to contain real work — the hook existed since v1-foundation P5, and the Playwright refresh was absorbed into P2 Task 4. Phase labels retired.
+- **Open issues:** #38 (EN heading detection, 11 sections, deferred since session 13), **#41** (bootstrap non-idempotency — parse→emit round-trip mutates 134 markdown files per run; candidate for post-v1.1.0 cleanup).
 - **Content tree:** unchanged from session 15 — 70 files per language, authoritative manifest, compat wrapper at `src/lib/content/manifest.ts` now carrying `group: ChapterGroup`.
 - **TocOverlay:** now four group headings (Front matter 7 · Chapters 11 · Stories 42 · Appendices 8 = 68). Empty-group filter is defensive-only; all four populated.
 - **E2E:** all 9 previously-skipped Playwright specs re-enabled and green on chromium. Shared fixtures module `tests/e2e/fixtures/editor-e2e.ts` uses `/-h\d+$/` heading detection + pinned BASELINE_SHA `ab6f550`.
