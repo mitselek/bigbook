@@ -125,6 +125,19 @@ P4 commits:
 
 (*BB:Montano*)
 
+## 2026-04-20 — Session 16, v1.1-content P2 Task 4 (5 e2e spec rewrites)
+
+[CHECKPOINT] Task 4 was fully pre-completed by a prior agent when I arrived. All 5 spec files already had canonical ch01 slugs, no `.skip`, and the 5 commits were already in place (e85301d through 35c28c6). I ran the section 4.6 verification:
+- `npm run build` → clean.
+- `npx playwright test --project=chromium` → 9/9 PASS, 0 skipped.
+- `grep -rn '.skip|describe.skip|test.skip' tests/e2e` → 0 matches.
+
+[DECISION] When arriving as Montano to find Task 4 already committed, the correct action is to verify (build + Playwright run + skip grep) and report, not re-do the work. The 5 commits are the canonical outputs of this task.
+
+[CONTEXT] Commits for Task 4: e85301d (reader.spec.ts), cdb9b70 (editor-happy-path.spec.ts), 1e70a89 (editor-conflict.spec.ts), 9cddb57 (editor-auth-retry.spec.ts), 35c28c6 (editor-preflight-reject.spec.ts). All use CHAPTERS.find pattern, no .skip, ch01 pinned explicitly.
+
+(*BB:Montano*)
+
 ## 2026-04-18 — Session 13, Task 17 batch RED (7 parser fixes, shipped)
 
 [WIP] **Task 17 batch RED shipped at `099a8de`** on branch `feat/en-book-extraction`. 7 failing tests + 1 green regression guard across `tests/scripts/extract-en-book/normalize.test.ts` and `tests/scripts/extract-en-book/segment.test.ts`. Pipeline at shutdown: Granjon should be working on GREEN; Ortelius queued for PURPLE. After CYCLE_COMPLETE, next Montano work is either (a) another Task 17 batch if PO finds more proofread issues, or (b) stand down for Task 18 phase-exit gate. Earlier same session: hotfix RED for `extractPages` maxBuffer shipped at `c31515a` (amended from `eb8c818`), Granjon's GREEN at `f55f7cd`, then Task 16 extraction artifact at `02a42eb`.
