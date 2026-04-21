@@ -112,3 +112,25 @@ Task 17 landed as the first non-null PURPLE cycle of the EN book extraction phas
 [DEFERRED] **Next non-null PURPLE probably won't come until the ET book extraction phase.** The EN phase peaked at Task 17 with two simultaneous threshold crossings. Task 18's meta-gate shape will not generate dedup pressure. The ET (Estonian) extraction will reuse `pdftotext.ts`, `normalize.ts`, `segment.ts`, `pipeline.ts`, `invariants.ts`, `sample-review.ts`, `slug.ts` — possibly with shape-preserving edits for Estonian-specific regex patterns. **Watchpoint for future sessions**: if ET's normalize needs 3+ new strip regexes (e.g., Estonian running-title variants), `PAGE_ARTIFACTS` may grow to 8+ entries — at which point the array form pays off doubly (adding an ET pattern is one line, not two). If ET introduces an entirely separate strip map for language-specific artifacts, that's a new watchlist shape (per-language regex bundle) — track from site 1.
 
 (*BB:Ortelius*)
+
+## 2026-04-20 — Session 17, issue #41 Task 6 PURPLE review
+
+[CHECKPOINT] Task 6 complete. STATUS: ACCEPT. Walked all five success criteria; all hold. Quality gate fully green (typecheck, lint, vitest 345/345, Astro build). Zero inline polish applied — implementation is tight and matches the spec exactly. Zero PURPLE commits (the `simplify`-style micro-fix opportunity I looked for in bootstrap.ts `emit` isn't there: the function is linear, readable, each `writeFileSync` correctly pushes to `written`, cover gating is intentional). Directly verified idempotency: ran `CONTENT_BOOTSTRAP=1 npm run bootstrap` manually, `git status --porcelain src/content/ src/lib/content/manifest.ts` empty.
+
+[LEARNED] **Deviation-from-plan acceptability test: did the deviation change any success criterion or reduce any guard?** Two deviations from the plan this cycle:
+- Task 2 merged RED+GREEN into one commit (`5358898`) because compile-error RED conflicts with lefthook's `typecheck` hook. Documented in both Montano's scratchpad and the commit body itself with dual `(*BB:Montano*) (*BB:Granjon*)` attribution. Acceptable — the constraint is real (typecheck hook is a Layer 2 gate that would require `--no-verify` to bypass), the history-loss cost is minimal (the RED discipline was observed locally; only the commit boundary moved), and the commit body documents the merge transparently. Tests and implementation landed together; the RED→GREEN intent is still reviewable via the `git show` diff.
+- Task 4's normalization commit was 2 files instead of the planned ~137 because Task 2's `generatedAt` removal plus the prior tree state absorbed most of the expected drift. Commit `d3b6e66` explains this accurately. Acceptable — the commit's *intent* (land the fixed-point tree) is satisfied in full. The smaller diff is actually a better signal than the planned one, because it shows most drift was already incidentally absorbed by the time format-pass-enabled bootstrap ran, which is what idempotency *looks like* from a near-clean starting state.
+
+Rule: **plan deviation doesn't automatically reject or require replan; evaluate against success criteria, not against the planned commit shape.** The plan's commit boundaries are a guide for sequencing, not a contract.
+
+[LEARNED] **Compile-error RED + lefthook typecheck is a structural incompatibility worth remembering for future plans.** Plans that prescribe a RED step which fails `tsc --noEmit` (rather than a vitest assertion) will always clash with the project's Layer-2 pre-commit gate. Three resolutions, in order of preference:
+1. Plan the RED as assertion-error (a test that compiles but fails at runtime) — preserves clean RED→GREEN commit boundary.
+2. Merge RED+GREEN into one commit with dual attribution in body — what happened here.
+3. Authorize `--no-verify` for the RED commit with PO approval — bypasses the gate, should be last resort.
+For future plans in this codebase that touch type signatures: Plantin should write assertion-error REDs by default to avoid this re-emerging.
+
+[DECISION] **Zero-PURPLE-commit verdict for this issue is correct.** The scope is 5 small surgical changes across 3 files (plus a new helper + a new test). The helper is 18 lines (4-line wrapper × 2 functions). The bootstrap.ts diff adds 11 lines for the format pass. The idempotency test is 46 lines of straightforward shell-out. Nothing in any of these touches a duplication threshold, nothing promotes a private helper to module-level prematurely, nothing has a name-vs-behavior issue. This is the session-6 "small pure-function phases produce zero PURPLE commits" rule in action, applied to a bug-fix scope instead of a decomposition-plan scope. The rule generalizes.
+
+[DEFERRED] **Track Plantin's Task 7 push for issue #41 closure.** After this verdict, Plantin pushes origin/main (9 commits ahead) and closes #41. No further XP work in the pipeline for this issue. Next live work is either #38 (EN heading detection edge cases, pending) or the next milestone's decomposition.
+
+(*BB:Ortelius*)

@@ -125,6 +125,16 @@ P4 commits:
 
 (*BB:Montano*)
 
+## 2026-04-20 — Session 17, issue #41 Task 5 (idempotency regression test)
+
+[CHECKPOINT] Task 5 complete. `tests/scripts/bootstrap-content/idempotency.test.ts` created at commit `328c505`. Test PASSES (5.2s runtime). Full suite: 43 files, 345 tests, 0 failures.
+
+[LEARNED] The idempotency test is a PASS-on-first-run regression test, not a RED cycle — the fixed-point tree from Task 4 means bootstrap is already idempotent when this test lands. Correct commit subject drops the "RED" label per the regression-cycle convention.
+
+[DECISION] `execSync` with `stdio: 'pipe'` is the right approach for shelling out to bootstrap in the test — keeps vitest output clean and matches plan spec exactly. The `afterAll` reset via `git checkout --` is a protective measure that fires as a no-op on success.
+
+(*BB:Montano*)
+
 ## 2026-04-20 — Session 16, v1.1-content P2 Task 4 (5 e2e spec rewrites)
 
 [CHECKPOINT] Task 4 was fully pre-completed by a prior agent when I arrived. All 5 spec files already had canonical ch01 slugs, no `.skip`, and the 5 commits were already in place (e85301d through 35c28c6). I ran the section 4.6 verification:
