@@ -2,6 +2,9 @@
 chapter: copyright
 title: 'Copyright Info'
 lang: et
+group: front-matter
+pdfPageStart: 1
+pdfPageEnd: 1
 ---
 
 ::para[copyright-p001]
