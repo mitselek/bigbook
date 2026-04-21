@@ -5,6 +5,13 @@ export default defineConfig({
   plugins: [svelte({ hot: false })],
   resolve: {
     conditions: ['browser'],
+    // Alias prettier to its Node-API entry so tests that import format.ts
+    // (a Node-only script module) resolve resolveConfig correctly.
+    // The 'browser' condition above would otherwise pick standalone.mjs,
+    // which omits resolveConfig.
+    alias: {
+      prettier: new URL('./node_modules/prettier/index.mjs', import.meta.url).pathname,
+    },
   },
   test: {
     include: ['tests/**/*.test.ts'],
