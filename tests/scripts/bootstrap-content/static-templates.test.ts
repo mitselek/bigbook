@@ -42,7 +42,6 @@ describe('shouldRegenerateCover', () => {
 describe('renderIndex', () => {
   const manifest: Manifest = {
     version: '1.1',
-    generatedAt: '2026-04-19T00:00:00Z',
     sections: [
       {
         canonicalSlug: 'fw1',

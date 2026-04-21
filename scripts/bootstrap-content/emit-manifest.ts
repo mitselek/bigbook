@@ -1,6 +1,6 @@
 import type { Manifest, ManifestSection, SectionRenderPlan } from './types'
 
-export function buildManifest(plans: readonly SectionRenderPlan[], generatedAt: string): Manifest {
+export function buildManifest(plans: readonly SectionRenderPlan[]): Manifest {
   const sections: ManifestSection[] = plans.map((p) => ({
     canonicalSlug: p.canonicalSlug,
     group: p.group,
@@ -9,5 +9,5 @@ export function buildManifest(plans: readonly SectionRenderPlan[], generatedAt: 
     pdfPageStart: p.pdfPageStart,
     pdfPageEnd: p.pdfPageEnd,
   }))
-  return { version: '1.1', generatedAt, sections }
+  return { version: '1.1', sections }
 }

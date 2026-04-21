@@ -25,7 +25,6 @@ export interface ManifestSection {
 
 export interface Manifest {
   version: '1.1'
-  generatedAt: string
   sections: readonly ManifestSection[]
 }
 

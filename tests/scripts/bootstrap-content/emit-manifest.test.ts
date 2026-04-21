@@ -18,15 +18,14 @@ function plan(slug: string, overrides: Partial<SectionRenderPlan> = {}): Section
 describe('buildManifest', () => {
   it('includes all provided sections in order', () => {
     const plans = [plan('ch01'), plan('ch02'), plan('ch03')]
-    const m = buildManifest(plans, '2026-04-19T00:00:00Z')
+    const m = buildManifest(plans)
     expect(m.sections).toHaveLength(3)
     expect(m.sections.map((s) => s.canonicalSlug)).toEqual(['ch01', 'ch02', 'ch03'])
   })
 
-  it('records version 1.1 and generatedAt', () => {
-    const m = buildManifest([], '2026-04-19T00:00:00Z')
+  it('records version 1.1', () => {
+    const m = buildManifest([])
     expect(m.version).toBe('1.1')
-    expect(m.generatedAt).toBe('2026-04-19T00:00:00Z')
   })
 
   it('derives paraIds from en array (canonical side)', () => {
@@ -42,7 +41,7 @@ describe('buildManifest', () => {
         ],
       }),
     ]
-    const m = buildManifest(plans, '2026-04-19T00:00:00Z')
+    const m = buildManifest(plans)
     const first = m.sections[0]
     expect(first).toBeDefined()
     if (first === undefined) throw new Error('narrowing')
@@ -58,7 +57,7 @@ describe('buildManifest', () => {
         pdfPageEnd: 196,
       }),
     ]
-    const m = buildManifest(plans, '2026-04-19T00:00:00Z')
+    const m = buildManifest(plans)
     const first = m.sections[0]
     expect(first).toBeDefined()
     if (first === undefined) throw new Error('narrowing')

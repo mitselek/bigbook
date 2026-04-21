@@ -261,7 +261,7 @@ async function run(argv: string[]): Promise<void> {
 }
 
 async function emit(plans: SectionRenderPlan[], repoRoot: string): Promise<void> {
-  const manifest = buildManifest(plans, new Date().toISOString())
+  const manifest = buildManifest(plans)
   const manifestPath = resolve(repoRoot, 'src/content/manifest.json')
   ensureDir(manifestPath)
   writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n')
