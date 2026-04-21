@@ -6,6 +6,7 @@ import { translate } from './boderie'
 import { buildManifest } from './emit-manifest'
 import { renderSection } from './emit-markdown'
 import { renderWrapper } from './emit-wrapper'
+import { formatFiles } from './format'
 import { groupForSlug } from './groups'
 import { readManualTranslations, seedCacheFromManual } from './seeder'
 import { COVER_MARKER, renderCover, renderIndex, shouldRegenerateCover } from './static-templates'
@@ -270,11 +271,14 @@ async function emit(plans: SectionRenderPlan[], repoRoot: string): Promise<void>
   ensureDir(wrapperPath)
   writeFileSync(wrapperPath, renderWrapper())
 
+  const written: string[] = [manifestPath, wrapperPath]
+
   for (const plan of plans) {
     for (const lang of ['en', 'et'] as const) {
       const path = resolve(repoRoot, `src/content/${lang}/${plan.canonicalSlug}.md`)
       ensureDir(path)
       writeFileSync(path, renderSection(plan, lang))
+      written.push(path)
     }
   }
 
@@ -282,14 +286,20 @@ async function emit(plans: SectionRenderPlan[], repoRoot: string): Promise<void>
     const path = resolve(repoRoot, `src/content/${lang}/cover.md`)
     ensureDir(path)
     const existing = existsSync(path) ? readFileSync(path, 'utf8') : null
-    if (shouldRegenerateCover(existing)) writeFileSync(path, renderCover(lang))
+    if (shouldRegenerateCover(existing)) {
+      writeFileSync(path, renderCover(lang))
+      written.push(path)
+    }
   }
 
   for (const lang of ['en', 'et'] as const) {
     const path = resolve(repoRoot, `src/content/${lang}/index.md`)
     ensureDir(path)
     writeFileSync(path, renderIndex(manifest, lang))
+    written.push(path)
   }
+
+  await formatFiles(written)
 }
 
 const isMainModule =
