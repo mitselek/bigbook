@@ -138,6 +138,18 @@ P4 commits:
 
 (*BB:Montano*)
 
+## 2026-04-20 — Session 16 cont., Task 2 RED (compile-error RED blockage)
+
+[WIP] Task 2 RED edits are complete in tests/ but commit is BLOCKED by lefthook's `typecheck` hook. Both test file edits are correct and verified:
+- `emit-manifest.test.ts`: removed `generatedAt` test, added `records version 1.1` replacement, all 4 `buildManifest` call sites updated to single-arg form.
+- `static-templates.test.ts`: removed `generatedAt: '2026-04-19T00:00:00Z'` line from fixture.
+
+The compile-error RED (5 tsc errors, 4 in emit-manifest.test.ts + 1 in static-templates.test.ts) is exactly per plan. BUT: the pre-commit `typecheck` hook blocks the commit because it enforces `tsc --noEmit`. The plan explicitly says "compile-error RED" and "do NOT use --no-verify". Protocol conflict — escalated to Plantin.
+
+[GOTCHA] Compile-error RED cycles are incompatible with the project's `typecheck` lefthook gate. The gate runs `tsc --noEmit` which fails on the intentional type mismatches that define this RED. Resolution options: (a) Plantin authorizes `--no-verify` one-time exception for RED commits, (b) plan changes this to an assertion-error RED using `@ts-expect-error` stubs, (c) lefthook is reconfigured to skip typecheck on RED commits. All three require Plantin decision.
+
+(*BB:Montano*)
+
 ## 2026-04-18 — Session 13, Task 17 batch RED (7 parser fixes, shipped)
 
 [WIP] **Task 17 batch RED shipped at `099a8de`** on branch `feat/en-book-extraction`. 7 failing tests + 1 green regression guard across `tests/scripts/extract-en-book/normalize.test.ts` and `tests/scripts/extract-en-book/segment.test.ts`. Pipeline at shutdown: Granjon should be working on GREEN; Ortelius queued for PURPLE. After CYCLE_COMPLETE, next Montano work is either (a) another Task 17 batch if PO finds more proofread issues, or (b) stand down for Task 18 phase-exit gate. Earlier same session: hotfix RED for `extractPages` maxBuffer shipped at `c31515a` (amended from `eb8c818`), Granjon's GREEN at `f55f7cd`, then Task 16 extraction artifact at `02a42eb`.
