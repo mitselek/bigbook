@@ -1,3 +1,9 @@
+> [NOTE, Passepartout 2026-09-19] Outside change while the team was dormant: memory rewired to
+> the facts system (see common-prompt.md "Memory" section). ref-auth-infra/-build-gotchas/-xp-process
+> carved into memory/facts/ (April v: dates kept) and deleted. Scratchpad caps (100x100) now lint-
+> enforced; this pad is over -- grandfathered once, trim at your first seam. Scripts: .claude/teams/
+> bigbook-dev/scripts/{facts-lint,facts-sweep,scratchpad-lint}.sh. Mihkel directed the rewiring.
+
 # Plantin — Scratchpad
 
 ## Project Timeline

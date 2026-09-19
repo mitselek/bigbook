@@ -321,20 +321,42 @@ Before Plantin hands a story to PO:
 
 **PO-only.** Team may draft messages; PO sends them.
 
+## Memory (facts system -- rewired 2026-09-19)
+
+Team memory has two tiers. Spec of record: passepartout repo, `designs/facts-memory-redesign.md`.
+
+**Facts** -- `.claude/teams/bigbook-dev/memory/facts/`: one flat folder, one strictly formatted
+file per subject (kebab slug, max 4 words, names the subject, never the moment). Every fact is
+exactly three lines: 1) the truth, ~30 words prose + inline-code tokens (`v:YYYY-MM-DD` always;
+`due:`/`recur:`/`class:` only if real); 2) `ev:` -- identifiers only (commits, issues, file paths,
+URLs), never narrative; 3) `rf:` -- the refutation address (`=ev` when it equals the origin; empty
+= no known test, human lane). `v:` is the date the fact last SURVIVED an attempted refutation --
+open the source expecting to be contradicted. Dead facts are deleted, never struck through: git
+remembers. Run `scripts/facts-lint.sh` (team dir) after every facts edit; it must pass before
+commit. `scripts/facts-sweep.sh` prints the re-verification working set; team-lead works it at
+session start when it is non-empty.
+
+**Scratchpads** -- `.claude/teams/bigbook-dev/memory/<your-name>.md`: working memory only (WIP,
+checkpoints, in-flight decisions). Caps: 100 rows, 100 chars per row; `scripts/scratchpad-lint.sh`
+must pass before the shutdown commit. Stable truths do not squat in scratchpads -- promote them to
+a facts file (mint a slug freely) and delete the scratchpad copy. Pads over cap on 2026-09-19 are
+grandfathered ONCE: bring yours under cap at your first seam by promoting facts and pruning.
+
 ## Shutdown Protocol
 
-1. Write in-progress state to your scratchpad at `.claude/teams/bigbook-dev/memory/<your-name>.md`
+1. Write in-progress state to your scratchpad at `.claude/teams/bigbook-dev/memory/<your-name>.md`; promote anything stable to `memory/facts/` (three-line format, lint must pass)
 2. If you are PURPLE and mid-refactor: revert uncommitted changes and note what you were doing in scratchpad
 3. Send closing message to team-lead with: `[LEARNED]`, `[DEFERRED]`, `[WARNING]`, `[UNADDRESSED]` (1 bullet each, max)
 4. Approve shutdown
 
-Team-lead shuts down last, commits memory files, pushes.
+Team-lead shuts down last, runs both lints (`facts-lint.sh`, `scratchpad-lint.sh`), commits memory files, pushes.
 
 ## On Startup
 
 1. Read your personal scratchpad at `.claude/teams/bigbook-dev/memory/<your-name>.md` if it exists
-2. Read `docs/architecture.md`, `docs/legacy.md`, `docs/deploy.md`
-3. Read `docs/WORKFLOW.md` and `docs/spec.md` once they exist (lands with the first story)
-4. Send a brief intro message to `team-lead`
+2. `ls .claude/teams/bigbook-dev/memory/facts/` is the facts index -- read the files your task touches (team-lead additionally runs `scripts/facts-sweep.sh` and works a non-empty set)
+3. Read `docs/architecture.md`, `docs/legacy.md`, `docs/deploy.md`
+4. Read `docs/WORKFLOW.md` and `docs/spec.md` once they exist (lands with the first story)
+5. Send a brief intro message to `team-lead`
 
 (*BB:Plantin*)
