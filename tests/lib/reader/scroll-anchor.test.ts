@@ -1,5 +1,9 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
-import { createPreloadObserver, createTitleObserver } from '../../../src/lib/reader/scroll-anchor'
+import {
+  createPreloadObserver,
+  createTitleObserver,
+  createFocusObserver,
+} from '../../../src/lib/reader/scroll-anchor'
 
 let mockObserverInstance: MockIntersectionObserver
 
@@ -75,6 +79,20 @@ describe('createPreloadObserver', () => {
 
     expect(mockObserverInstance.elements).toEqual([])
   })
+
+  it('uses the given rootMargin when one is passed', () => {
+    const callback = vi.fn()
+    createPreloadObserver(callback, '200% 0px')
+    const mockCtor = IntersectionObserver as unknown as { mock: { calls: unknown[] } }
+    expect(mockCtor.mock.calls).toMatchObject([[expect.anything(), { rootMargin: '200% 0px' }]])
+  })
+
+  it('defaults rootMargin to 150% 0px when omitted', () => {
+    const callback = vi.fn()
+    createPreloadObserver(callback)
+    const mockCtor = IntersectionObserver as unknown as { mock: { calls: unknown[] } }
+    expect(mockCtor.mock.calls).toMatchObject([[expect.anything(), { rootMargin: '150% 0px' }]])
+  })
 })
 
 describe('createTitleObserver', () => {
@@ -98,6 +116,49 @@ describe('createTitleObserver', () => {
     mockObserverInstance.trigger([{ target: el, isIntersecting: false }])
 
     expect(callback).not.toHaveBeenCalled()
+  })
+})
+
+describe('createFocusObserver', () => {
+  it('calls callback with the paraId when the observed element is intersecting', () => {
+    const callback = vi.fn()
+    const controller = createFocusObserver(callback)
+    const el = document.createElement('p')
+    controller.observe(el, 'ch01-p007')
+
+    mockObserverInstance.trigger([{ target: el, isIntersecting: true }])
+
+    expect(callback).toHaveBeenCalledWith('ch01-p007')
+  })
+
+  it('does not call callback when the element is not intersecting', () => {
+    const callback = vi.fn()
+    const controller = createFocusObserver(callback)
+    const el = document.createElement('p')
+    controller.observe(el, 'ch01-p007')
+
+    mockObserverInstance.trigger([{ target: el, isIntersecting: false }])
+
+    expect(callback).not.toHaveBeenCalled()
+  })
+
+  it('constructs the observer with rootMargin -33% 0px -67% 0px', () => {
+    const callback = vi.fn()
+    createFocusObserver(callback)
+    const mockCtor = IntersectionObserver as unknown as { mock: { calls: unknown[] } }
+    expect(mockCtor.mock.calls).toMatchObject([
+      [expect.anything(), { rootMargin: '-33% 0px -67% 0px' }],
+    ])
+  })
+
+  it('disconnect clears the observed elements', () => {
+    const callback = vi.fn()
+    const controller = createFocusObserver(callback)
+    const el = document.createElement('p')
+    controller.observe(el, 'ch01-p007')
+    controller.disconnect()
+
+    expect(mockObserverInstance.elements).toEqual([])
   })
 })
 

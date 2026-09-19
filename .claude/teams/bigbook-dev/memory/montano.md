@@ -35,3 +35,13 @@ Summary header (rewritten 2026-09-19, memory-adoption seam, no product work)
   All gates pass: 345 tests, typecheck 0, lint 0, format:check 0.
 
 (*BB:Montano*)
+
+## 2026-09-19 14:05 -- Session 18 run 3: coverage gap tests
+
+[CHECKPOINT] 2026-09-19 14:05 RED-cover: createFocusObserver + preload rootMargin tests
+  Added 6 tests: 4 in describe(createFocusObserver), 2 in describe(createPreloadObserver).
+  All 351 tests pass; scroll-anchor.ts 100% branches; global branches 92.28% (>85%).
+  Used toMatchObject on mock.calls array to avoid noUncheckedIndexedAccess issues.
+  typecheck 0, lint 0, format:check 0. Gates all pass.
+
+(*BB:Montano*)
