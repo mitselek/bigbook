@@ -45,9 +45,16 @@ f. Teammates now run as workflow agents with pinned roster models (Agent tool on
    cannot message each other or Plantin mid-run. The handoff chain becomes script control flow
    (RED return feeds GREEN prompt, GREEN feeds PURPLE) and escalations come back as return values
    between runs. common-prompt.md "Communication" / message-format sections still describe
-   SendMessage handoffs; rewrite them for the workflow shape before the next XP story.
+   SendMessage handoffs; rewrite them for the workflow shape before the next XP story. Two
+   mailbox-era facts promoted in the seam (STARTED-on-handoff, TEST_SPEC-as-go-signal) were
+   deleted at review as dead under workflow orchestration; git remembers them.
 
 ## Queued by Passepartout 2026-09-19
 - [ ] First comms act after restart: read the hub inbox archive
   (~/bigbook-comms/inboxes/archive/team-lead-archive.json), reply ONE line to Henry (po-team)
   confirming the lane is proven both ways -- his liveness probe of 09:42:27Z asks for it.
+
+## Adoption status
+
+- 2026-09-19 -- memory adoption COMPLETE across the team: Plantin (session 18), then Montano,
+  Granjon, Ortelius via one workflow run on pinned roster models. 8 facts files, both lints green.

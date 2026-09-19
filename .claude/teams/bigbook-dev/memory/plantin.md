@@ -4,12 +4,12 @@ Summary header (rewritten 2026-09-19, session 18: memory-adoption session, no pr
 - State: main @ 29beda3, clean, CI green, deployed. Tag v1.1.0 = 296099b. 345 Vitest + 9 Playwright.
 - Milestones v1-foundation, v1-reader, v1-editor, v1-ship, v1.1-content all CLOSED; #41 CLOSED.
 - Open issues: #38 only (EN heading detection, 11 sections, deferred since session 13).
-- Memory: facts/ is the truth tier (4 files, 38 facts; all v:2026-09-19 except 2 human-lane).
+- Memory: facts/ is the truth tier (8 files, 69 facts; all v:2026-09-19 except 2 human-lane).
 - Queue: memory/backlog.md. Newest item: npm audit 37 advisories incl. 3 critical (dev-time).
 - Next product direction: PO's call. Candidates: audit-upgrade chore, #38, v2 comments brainstorm.
 - Scripts: team dir scripts/{facts-lint,facts-sweep,scratchpad-lint}.sh; run both lints at shutdown.
 - Content tree: 70 files per language, generated only by bootstrap (facts/content-pipeline-*.md).
-- Team: no persistent team; dispatch one-shot roster agents with prompts/<name>.md + the task.
+- Team: run via Workflow tool, models pinned per roster.json; no mailbox (backlog item f).
 - Session 17 (2026-04-20) closed #41 in 6 tasks; this pad missed it until today (see GOTCHA).
 - URLs: memory/urls/{live-site,github-releases}. Ops changelog: nothing out-of-repo touched.
 
@@ -54,6 +54,9 @@ Summary header (rewritten 2026-09-19, session 18: memory-adoption session, no pr
 [PATTERN] PO makes live-editor commits on main mid-session; rebase agent branches, never force.
 [DEFERRED] Numbering-convention debt (extraction position-in-section vs within-kind ordinal):
   decide at the next content-pipeline revisit; facts/content-pipeline-conventions.md has it.
-[WIP] none. Awaiting PO direction on the next story.
+[CHECKPOINT] 2026-09-19 Team seam done: Montano 179->28, Granjon 68->21, Ortelius 136->56 rows;
+  4 new facts files. Agent tool cannot pin model IDs; Workflow agent() model string can, incl.
+  the [1m] suffix. Two mailbox-era facts deleted at review. Adoption COMPLETE (backlog).
+[WIP] none. Awaiting PO direction; audit-upgrade chore is next in the queue.
 
 (*BB:Plantin*)

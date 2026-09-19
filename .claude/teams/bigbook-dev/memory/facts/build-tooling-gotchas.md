@@ -45,3 +45,15 @@ status: live
 - GitHub sub_issues_summary caches for several seconds after a sub-issue closes; re-query before trusting a stale completed count. Epic check-boxes bulk-tick cleanly via sed on the fetched body. `v:2026-09-19`
   - `ev: session 12; gh api repos/mitselek/bigbook/issues/N --jq .sub_issues_summary`
   - `rf:`
+- spawnSync default maxBuffer is 1 MiB; exit-null status with empty stderr signals buffer overflow, not process failure; raise to `maxBuffer: 100 * 1024 * 1024`. `v:2026-09-19`
+  - `ev: scripts/extract-en-book/pdftotext.ts:12; session 13 Task 16; commit 02a42eb`
+  - `rf: =ev`
+- Vitest `objectContaining` on fetch init headers requires plain `Record<string, string>`, not a `Headers` instance; `Headers.get` does not satisfy the matcher. `v:2026-09-19`
+  - `ev: tests/lib/content/fetch.test.ts:136; src/lib/content/fetch.ts:68`
+  - `rf: =ev`
+- Generated markdown artifact dirs belong in `.prettierignore`; a manual `prettier --write` is futile because regeneration immediately re-dirties the output. `v:2026-09-19`
+  - `ev: .prettierignore:21; session 13 Task 16; commit 02a42eb`
+  - `rf: .prettierignore`
+- HTTP 304 has `ok: false` per the Fetch API spec; only 200–299 have `ok: true`; check `response.status === 304` before calling `response.json()` on a 304 response. `v:2026-09-19`
+  - `ev: src/lib/content/fetch.ts:73; MDN Fetch Response.ok`
+  - `rf: =ev`

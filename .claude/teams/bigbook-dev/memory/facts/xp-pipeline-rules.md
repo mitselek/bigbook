@@ -33,3 +33,6 @@ status: live
 - Every gap found mid-story gets a GitHub sub-issue of the epic; commits carry Part of #epic and Closes #issue footers plus the (*BB:Role*) attribution. Subagents never push, Plantin reviews and pushes. `v:2026-09-19`
   - `ev: issues 25-34; commit e1cf287`
   - `rf: git log --grep "Closes #"`
+- When GREEN scope forbids the clean fix, write [WIP] to scratchpad and hand the pointer back to team-lead in the report; never touch tests/ from the GREEN role. `v:2026-09-19`
+  - `ev: session 13 Task 16-hotfix; common-prompt.md File Ownership`
+  - `rf: common-prompt.md File Ownership`

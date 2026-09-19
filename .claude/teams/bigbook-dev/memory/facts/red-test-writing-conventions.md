@@ -1,0 +1,35 @@
+---
+type: rule
+status: live
+---
+
+- For a regression-only cycle the commit subject has no RED label; Granjon's GREEN and Ortelius's PURPLE are no-ops confirming tests pass with no src/ change. `v:2026-09-19`
+  - `ev: sessions 6 P2.2 13 Task5; commits 328c505 6081f44`
+  - `rf: git log --oneline tests/ | grep -v RED`
+- RED commit includes a minimal type-stub in src/ (same commit as the failing test) so tsc resolves the import and hooks pass; stub body throws not-implemented, void-prefixed params silence unused-vars. `v:2026-09-19`
+  - `ev: commits 20d5e12 800a4c1 90348f4 55b215f`
+  - `rf: =ev`
+- Walk every test expectation through the plan's impl verbatim before writing RED; flag Plantin pre-RED with: input → what plan produces → what test expects, when they differ. `v:2026-09-19`
+  - `ev: session 13 Tasks 9 11 12 17; commits 4c5ea19 ac5858f 80614f2`
+  - `rf: =ev`
+- When a derivation bug is found, still write RED verbatim per the original TEST_SPEC; the plan is fixed upstream, the tests already describe the correct behavior. `v:2026-09-19`
+  - `ev: session 13 Tasks 9 11 12; commits 4c5ea19 ac5858f 80614f2 9e53c0c 3b9b8eb fca517a`
+  - `rf: =ev`
+- Under `noUncheckedIndexedAccess`, prefer `expect(arr[0]).toMatchObject({k:v})` over direct `arr[0].prop` in assertions; avoids TS18048 and checks multiple properties at once. `v:2026-09-19`
+  - `ev: session 6 P2 pattern; tests/lib/content/validate.test.ts`
+  - `rf: grep -rn 'toMatchObject' tests/`
+- A test spec labelled 'backstop' or 'regression' but called RED may already pass; derive the fixture before writing to avoid a false RED cycle. `v:2026-09-19`
+  - `ev: session 13 Task 17 S1; commit 099a8de`
+  - `rf: =ev`
+- When Plantin adds a new fix mid-spec, re-run the derivation check on the whole batch; new sibling rules can silently regress earlier clean cases. `v:2026-09-19`
+  - `ev: session 13 Task 17 N4; commit 099a8de`
+  - `rf: =ev`
+- `Map.get()` always returns `T|undefined` regardless of `noUncheckedIndexedAccess` (array/tuple indexing only); the undefined branch in diff.ts is real and exercisable in tests. `v:2026-09-19`
+  - `ev: session 6 MAP_GET_TYPE; src/lib/content/diff.ts; tests/lib/content/validate.test.ts`
+  - `rf: grep -n 'baselineText' src/lib/content/diff.ts`
+- `!` is acceptable in test setup positions where a helper invariant guarantees the shape; never in expect positions -- use `toMatchObject` or optional chaining (`?.`) there. `v:2026-09-19`
+  - `ev: session 13 Task 14 RED; eslint.config.js`
+  - `rf: grep -rn '!' tests/ | grep -v 'not implemented\|node_modules'`
+- Even when a task's tests derive cleanly, flag plan impl snippets that undo a prior fix; Granjon works from the plan snippet, not git history. `v:2026-09-19`
+  - `ev: session 13 Task 12; commits 80614f2 fca517a`
+  - `rf: =ev`
