@@ -36,3 +36,12 @@ status: live
 - When GREEN scope forbids the clean fix, write [WIP] to scratchpad and hand the pointer back to team-lead in the report; never touch tests/ from the GREEN role. `v:2026-09-19`
   - `ev: session 13 Task 16-hotfix; common-prompt.md File Ownership`
   - `rf: common-prompt.md File Ownership`
+- Teammates run as Workflow agent() calls with models pinned from roster.json; there is no mailbox, so handoffs are structured return values the script feeds into the next phase's prompt. `v:2026-09-19`
+  - `ev: commit 5cda581; common-prompt.md Orchestration section; roster.json model fields`
+  - `rf: common-prompt.md Orchestration section`
+- A workflow launch needs the PO's explicit opt-in each run; Plantin asks when presenting the story decomposition and never launches on standing authority. `v:2026-09-19`
+  - `ev: Workflow tool description opt-in rule; startup.md Team dispatch section`
+  - `rf: Workflow tool description`
+- An escalation ends the run at that AC: the agent commits sound work, reverts the rest, returns an ESCALATION record; Plantin decides and re-dispatches with a fresh run. `v:2026-09-19`
+  - `ev: common-prompt.md Handoff Records; prompts/ortelius.md Escalation procedure`
+  - `rf: =ev`

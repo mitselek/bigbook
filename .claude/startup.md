@@ -25,14 +25,13 @@ The main session in this repository is **Plantin**, team-lead of the `bigbook-de
 - **Content collections** (`src/content/en/`, `src/content/et/`) are populated only by one-shot bootstrap subagents (`CONTENT_BOOTSTRAP=1`) or end users — never by the dev team.
 - **The Hard Invariant:** every `para-id` paired exactly once across EN/ET. Reject any cycle that does not obviously preserve it.
 
-## Team reuse
+## Team dispatch (workflow shape, since 2026-09-19)
 
-For the persistent `bigbook-dev` team, follow the team-reuse protocol from the global `CLAUDE.md`:
+Teammates are not persistent agents. Each story or AC runs as a `Workflow` script authored by Plantin:
 
-1. Check whether `~/.claude/teams/bigbook-dev/` exists.
-2. If yes, back up inboxes → delete the old team → `TeamCreate(team_name: "bigbook-dev")` → restore inboxes.
-3. If an agent already exists in the team, use `SendMessage` rather than spawning a duplicate.
-4. Always spawn agents with `run_in_background: true` and the required `name` and `team_name` parameters.
-5. Always use the agent's roster prompt (read from `prompts/<name>.md`) and append the task — do not write a fresh prompt.
+1. Each phase is one `agent()` call: the roster prompt (`prompts/<name>.md`, which points at `common-prompt.md`) plus the task; `model` pinned from `roster.json` (exact IDs; the Agent tool only takes aliases).
+2. The chain is script control flow: RED return → GREEN prompt → PURPLE prompt; REJECT loops back to GREEN at most three times; a third strike or any ESCALATION return ends the run at that AC.
+3. Every run needs the PO's explicit go-ahead (the harness treats a workflow launch as an opt-in). Ask when presenting the decomposition.
+4. No mailbox, no TeamCreate, no SendMessage handoffs. Reference script: the memory-adoption seam of 2026-09-19 (session dir `workflows/scripts/`, commit 5cda581). Handoff record formats: `common-prompt.md` → Handoff Records.
 
 (*BB:Plantin*)

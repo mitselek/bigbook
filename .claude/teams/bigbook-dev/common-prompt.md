@@ -95,13 +95,33 @@ Edits commit directly to `main` via `PUT /repos/mitselek/bigbook/contents/{path}
 
 The concrete auth ADR — GitHub App registration, scopes, refresh cadence, XSS mitigations — is deferred to the bootstrap story's auth spike. This section describes intent, not implementation.
 
-## Communication Rule
+## Orchestration and Communication (workflow shape, since 2026-09-19)
 
-Every message you send via SendMessage must be prepended with the current timestamp in `[YYYY-MM-DD HH:MM]` format. Get the current time by running: `date '+%Y-%m-%d %H:%M'` before sending any message.
+Teammates run as **workflow agents**: Plantin authors a script for the `Workflow` tool, and each
+phase is one `agent()` call carrying the roster prompt plus the task, with the model pinned from
+`roster.json` (the Agent tool accepts only aliases; the workflow API takes exact IDs, `[1m]`
+suffix included). Consequences every teammate must internalize:
 
-**KOHUSTUSLIK: Pärast iga ülesande lõpetamist saada team-leadile SendMessage raport.** Ära mine idle ilma raporteerimata.
+- **No mailbox.** A workflow agent cannot message a teammate or Plantin mid-run, and nobody can
+  reach it. There is no inbox to check and nothing to acknowledge by message.
+- **Your return value is your report.** Every run ends with a structured return (the script
+  passes a JSON schema; fill every field). The return is the handoff record for the next phase:
+  RED's return feeds GREEN's prompt, GREEN's return feeds PURPLE's prompt, PURPLE's verdict either
+  closes the cycle or feeds a GREEN rework prompt. Plantin reads the workflow's final value.
+- **Requirement acknowledgment** happens in the report, not in chat: the first field of your
+  return restates each requirement you received and whether you met it.
+- **Escalation = stop and return.** Anything that needs Plantin's judgment (a spec gap, an
+  untestable AC, a cross-module refactor, a third strike) is an `ESCALATION` record returned in
+  place of the normal handoff. Do not proceed under an assumption and do not leave uncommitted
+  work in the tree: commit what is sound, revert the rest, note the state in your scratchpad.
+  Plantin decides between runs and re-dispatches.
+- **Shared working tree, sequential phases.** All agents work in the repo root on the same
+  branch; the script guarantees one writer at a time. Commit before you return. Never push.
+- **Timestamps** still lead every scratchpad entry and every handoff record: run
+  `date '+%Y-%m-%d %H:%M'` and write it as `[YYYY-MM-DD HH:MM]`.
 
-**REQUIREMENT ACKNOWLEDGMENT:** When you receive a message containing new requirements or instructions, acknowledge EACH item explicitly before beginning work.
+**KOHUSTUSLIK: ära lõpeta ühtegi jooksu ilma struktureeritud raportita.** Tagastusväärtus ON
+raport team-leadile; tühi või poolik raport on protokollirikkumine.
 
 ## Author Attribution
 
@@ -189,9 +209,64 @@ Plantin assigns AC to Montano
               (3 strikes → escalate to Plantin)
 ```
 
-### Message Types
+### How a cycle runs (workflow shape)
 
-#### TEST_SPEC (Plantin → Montano)
+Plantin dispatches one story (or one AC) as a workflow run. The script IS the handoff chain:
+
+```text
+for each AC in order:
+  red    = agent(montano prompt + TEST_SPEC)                  -> RED_HANDOFF   | ESCALATION
+  green  = agent(granjon prompt + RED_HANDOFF)                -> GREEN_HANDOFF | ESCALATION
+  up to 3 times:
+    purple = agent(ortelius prompt + GREEN_HANDOFF + verdicts) -> PURPLE_VERDICT | ESCALATION
+    ACCEPT -> cycle closes; the ACCEPT return carries the CYCLE_COMPLETE fields
+    REJECT -> green = agent(granjon prompt + REJECT guidance)
+  third REJECT, or any ESCALATION -> returned to Plantin; the run stops at this AC
+```
+
+Rules that follow from the shape:
+
+- The next AC starts only after an ACCEPT. The CYCLE_COMPLETE gate is script control flow now,
+  not a message to wait for.
+- A returned ESCALATION ends the run at that AC. Plantin decides, then resumes with a fresh run
+  whose prompt carries the decision.
+- Every phase commits before it returns, so the next phase reads a clean tree.
+- Each run needs the PO's go-ahead: the harness treats a workflow launch as an explicit opt-in,
+  so Plantin asks for it when presenting the story decomposition.
+
+### Handoff Records
+
+These are the records the script passes between phases. The prose shape below is what the
+structured return carries; the run's JSON schema names the fields.
+
+#### RED_HANDOFF (Montano's return, fed to Granjon)
+
+```markdown
+## Red Handoff
+- Story: <story-id>
+- Test case: <N of M>
+- Test file: <path>
+- Asserts: <what the test asserts, in plain language>
+- Must change: <what in src/ has to change for it to pass>
+- Spec reference: <section(s)>
+- Failure output: <the assertion message, verbatim>
+- Commit: <sha>
+```
+
+#### ESCALATION (any phase's return, fed to Plantin; ends the run at this AC)
+
+```markdown
+## Escalation
+- Story: <story-id>
+- Test case: <N of M>
+- Phase: RED | GREEN | PURPLE
+- Reason: untestable AC | spec gap | cross-module change | new dependency | third strike | other
+- Detail: <what you wanted to do, why, alternatives considered>
+- Tree state: <committed shas; uncommitted work reverted: yes/no>
+- Proposed resolution: <one line>
+```
+
+#### TEST_SPEC (Plantin's prompt payload to Montano)
 
 ```markdown
 ## Test Spec
@@ -208,7 +283,7 @@ Plantin assigns AC to Montano
 <relevant section(s) from docs/spec.md>
 ```
 
-#### GREEN_HANDOFF (Granjon → Ortelius)
+#### GREEN_HANDOFF (Granjon's return, fed to Ortelius)
 
 ```markdown
 ## Green Handoff
@@ -222,7 +297,7 @@ Plantin assigns AC to Montano
 
 **Implementation notes are mandatory and must be honest.** Ortelius needs context. An empty notes field is a protocol violation and Ortelius will reject-with-guidance.
 
-#### PURPLE_VERDICT (Ortelius → Granjon or Plantin)
+#### PURPLE_VERDICT (Ortelius's return; REJECT is fed to Granjon, ACCEPT closes the cycle)
 
 ```markdown
 ## Purple Verdict
@@ -245,7 +320,7 @@ Plantin assigns AC to Montano
 <full rejection chain summary for Plantin>
 ```
 
-#### CYCLE_COMPLETE (Ortelius → Plantin)
+#### CYCLE_COMPLETE (fields carried by an ACCEPT return, read by Plantin)
 
 ```markdown
 ## Cycle Complete
@@ -365,10 +440,12 @@ session start; propose reprioritization, never silently reorder.
 
 ## Shutdown Protocol
 
+A workflow agent shuts down by returning; there is no handshake. Before you return:
+
 1. Write in-progress state to your scratchpad at `.claude/teams/bigbook-dev/memory/<your-name>.md`; rewrite its summary header (lines 1-15); promote anything stable to `memory/facts/` (three-line format, lint must pass)
 2. If you are PURPLE and mid-refactor: revert uncommitted changes and note what you were doing in scratchpad
-3. Send closing message to team-lead with: `[LEARNED]`, `[DEFERRED]`, `[WARNING]`, `[UNADDRESSED]` (1 bullet each, max)
-4. Approve shutdown
+3. Put the closing bullets in your return report: `[LEARNED]`, `[DEFERRED]`, `[WARNING]`, `[UNADDRESSED]` (1 bullet each, max; empty string if none)
+4. Return. The run ends when you do.
 
 Team-lead shuts down last, runs both lints (`facts-lint.sh`, `scratchpad-lint.sh`), commits memory files, pushes.
 
@@ -378,6 +455,6 @@ Team-lead shuts down last, runs both lints (`facts-lint.sh`, `scratchpad-lint.sh
 2. `ls .claude/teams/bigbook-dev/memory/facts/` is the facts index -- read the files your task touches (team-lead additionally consults `memory/backlog.md`, and works `scripts/facts-sweep.sh` on the weekly cadence)
 3. Read `docs/architecture.md`, `docs/legacy.md`, `docs/deploy.md`
 4. Read `docs/WORKFLOW.md` and `docs/spec.md` once they exist (lands with the first story)
-5. Send a brief intro message to `team-lead`
+5. Begin the task in your prompt. There is no intro message; the first thing Plantin sees from you is your return
 
 (*BB:Plantin*)

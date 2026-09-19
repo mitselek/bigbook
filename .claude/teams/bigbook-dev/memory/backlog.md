@@ -40,7 +40,7 @@ e. The carve left narrative ev: tokens ("ref-* carve 2026-09-19"); replaced with
 
 ## Follow-ups from the workflow-orchestration switch (Plantin, 2026-09-19)
 
-f. Teammates now run as workflow agents with pinned roster models (Agent tool only accepts model
+f. DONE 2026-09-19 (common-prompt, four prompts, design-spec, startup.md rewritten). Teammates now run as workflow agents with pinned roster models (Agent tool only accepts model
    aliases; the workflow API takes exact IDs). Workflow agents have NO mailbox: RED/GREEN/PURPLE
    cannot message each other or Plantin mid-run. The handoff chain becomes script control flow
    (RED return feeds GREEN prompt, GREEN feeds PURPLE) and escalations come back as return values
@@ -50,9 +50,8 @@ f. Teammates now run as workflow agents with pinned roster models (Agent tool on
    deleted at review as dead under workflow orchestration; git remembers them.
 
 ## Queued by Passepartout 2026-09-19
-- [ ] First comms act after restart: read the hub inbox archive
-  (~/bigbook-comms/inboxes/archive/team-lead-archive.json), reply ONE line to Henry (po-team)
-  confirming the lane is proven both ways -- his liveness probe of 09:42:27Z asks for it.
+- [x] 2026-09-19 13:10 -- replied to Henry (po-team), hub id 85b93c26c4585689, status accepted.
+  Both inbound consignments (Passepartout welcome, Henry probe) are in the archive; inbox empty.
 
 ## Adoption status
 

@@ -246,8 +246,10 @@ The bigbook repository contains two independent products that share a git histor
 
 ## 7. Communication Protocol
 
-- **Agent ↔ Agent**: via task list comments and SendMessage
-- **Agent → Lead (escalation)**: SendMessage to Plantin with escalation note
+Rewired 2026-09-19 for workflow orchestration: the team runs as `Workflow` agents with models pinned from `roster.json`, and there is no mailbox. The original SendMessage shape is in git before commit 5cda581.
+
+- **Agent ↔ Agent**: none mid-run. Handoffs are structured return values the script feeds into the next phase's prompt (RED_HANDOFF → GREEN_HANDOFF → PURPLE_VERDICT).
+- **Agent → Lead (escalation)**: an ESCALATION return record; the run stops at that AC and Plantin decides between runs.
 - **Agent → PO**: never directly. Route through Plantin.
 - **Lead → PO**: main session, plain text
 - **Plantin → one-shot bootstrap subagent**: spawned anonymously with a tightly-scoped extraction/alignment task, no memory, no team membership; result validated against the alignment invariant before any commit
@@ -259,13 +261,13 @@ All agents maintain scratchpads at `.claude/teams/bigbook-dev/memory/<name>.md`.
 On shutdown:
 
 1. Save WIP to scratchpad
-2. Send closing message with `[LEARNED]`, `[DEFERRED]`, `[WARNING]`, `[UNADDRESSED]` tags (1 bullet each, max)
+2. Put the closing bullets `[LEARNED]`, `[DEFERRED]`, `[WARNING]`, `[UNADDRESSED]` in the return report (1 bullet each, max)
 3. Plantin shuts down last, commits memory files
 
 On startup:
 
 1. Read scratchpad
 2. Read `docs/WORKFLOW.md` and `docs/spec.md`
-3. Report to Plantin
+3. Do the task; the structured return is the report to Plantin
 
 (*FR:Celes*)
