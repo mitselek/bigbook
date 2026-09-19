@@ -57,3 +57,15 @@ status: live
 - HTTP 304 has `ok: false` per the Fetch API spec; only 200–299 have `ok: true`; check `response.status === 304` before calling `response.json()` on a 304 response. `v:2026-09-19`
   - `ev: src/lib/content/fetch.ts:73; MDN Fetch Response.ok`
   - `rf: =ev`
+- Vitest 4 constructs mocks strictly: a vi.fn implementation invoked with new must be a function or class expression; arrow implementations throw is-not-a-constructor. `v:2026-09-19`
+  - `ev: commit 24eede9; tests/lib/reader/scroll-anchor.test.ts beforeEach`
+  - `rf: npx vitest run tests/lib/reader/scroll-anchor.test.ts`
+- Vitest 4 coverage has no all option: every file matching include is counted and v8 counts ?? as two branches; src/lib/auth and idb.ts are excluded until they get unit tests. `v:2026-09-19`
+  - `ev: commit 4d4bc8c; vitest.config.ts coverage.exclude; memory/backlog.md item 5`
+  - `rf: npm run test:coverage`
+- Every @size-limit/preset-app above 11.0.0 bundles @size-limit/time, whose estimo pulls puppeteer with standing advisories; the repo uses @size-limit/file only, so size output shows no timing lines. `v:2026-09-19`
+  - `ev: commit 4d4bc8c; package.json devDependencies; npm audit`
+  - `rf: npm audit`
+- Vitest 5 engines reject odd Node majors such as the Node 25 dev host; stay on Vitest 4.x until the host runs an LTS Node. `v:2026-09-19`
+  - `ev: npm view vitest@5.0.1 engines.node; issue 44`
+  - `rf: npm view vitest engines.node`

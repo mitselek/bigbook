@@ -6,9 +6,10 @@ shutdown. Team-lead consults at session start; propose reprioritization, never s
 
 ## Product / engineering queue (Plantin, 2026-09-19; order = proposed priority, PO decides)
 
-1. npm audit: 37 advisories (3 critical: vitest, astro via esbuild+sharp, @vitest/coverage-v8;
-   22 high incl. @size-limit/preset-app). All dev-time. Needs a dependency-upgrade chore story
-   with the full quality gate as the acceptance test. Found 2026-09-19 after npm ci.
+1. npm audit -> epic #42. Tiers A (#43) and B (#44) landed 2026-09-19: 37 -> 4 advisories.
+   Remaining 4 are astro/sharp/esbuild/@astrojs/svelte = tier C #45 (Astro 5 -> 7, Vite 8,
+   Rust compiler); PO deferred it. Branch coverage under Vitest 4 is 85.22% vs the 85% gate:
+   src/lib/editor 77.8%, src/lib/content 84.4% branches. A small RED story there buys margin.
 2. Issue #38 -- EN heading detection fails for 11 sections. Open since session 13 (2026-04-18).
    Only blocks a re-extraction; the current content tree was hand-reconciled around it.
 3. Auth ADR docs/decisions/0001-auth.md -- deferred since session 2. The operational truths now

@@ -57,8 +57,11 @@ Summary header (rewritten 2026-09-19, session 18: memory-adoption session, no pr
 [CHECKPOINT] 2026-09-19 Team seam done: Montano 179->28, Granjon 68->21, Ortelius 136->56 rows;
   4 new facts files. Agent tool cannot pin model IDs; Workflow agent() model string can, incl.
   the [1m] suffix. Two mailbox-era facts deleted at review. Adoption COMPLETE (backlog).
-[WIP] 2026-09-19 epic #42 deps-upkeep: PO chose A+B now (#43,#44), C (#45) later. Workflow run:
-  Granjon tier A then tier B, sonnet pinned; Plantin re-runs gate, pushes, watches CI. 5eeaed1 base.
+[CHECKPOINT] 2026-09-19 epic #42: tiers A+B landed (bb3e31c, 4d4bc8c) in 3 workflow runs; two
+  escalations (Vitest 4 constructor rule, coverage gate) fixed by Montano test commits. C=#45 open.
+[PATTERN] 2026-09-19 Escalation-as-return works: agent reverts + npm ci, returns failure verbatim,
+  Plantin amends the sub-issue body with decisions, next run reads it via gh issue view.
+[WIP] none. Next: PO decides tier C (#45) or the coverage-margin RED story (backlog item 1).
 [DECISION] 2026-09-19 Vitest 4.1.11 not 5: v5 engines reject Node 25 dev host. size-limit -> 14.
 [GOTCHA] 2026-09-19 format:check fails on main (eslint.config.js, Prettier 3.8.2 drift); CI never
   runs format:check, only the staged-files pre-commit hook. Fixed in tier A.
