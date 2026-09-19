@@ -33,3 +33,21 @@ c. scratchpad-lint.sh caps backlog.md and ops-changelog.md at 100 rows too (find
 d. Two facts stay at v:2026-04-17 because only a human can refute them from this host: the
    GitHub App dashboard settings and the Wrangler-on-Git-Bash behaviour. PO lane.
 e. The carve left narrative ev: tokens ("ref-* carve 2026-09-19"); replaced with identifiers.
+
+## Sweep log (weekly cadence per common-prompt Memory section)
+
+- 2026-09-19 -- sweep worked by Plantin: 21 facts re-verified, 19 bumped, 2 human-lane (see a-e).
+
+## Follow-ups from the workflow-orchestration switch (Plantin, 2026-09-19)
+
+f. Teammates now run as workflow agents with pinned roster models (Agent tool only accepts model
+   aliases; the workflow API takes exact IDs). Workflow agents have NO mailbox: RED/GREEN/PURPLE
+   cannot message each other or Plantin mid-run. The handoff chain becomes script control flow
+   (RED return feeds GREEN prompt, GREEN feeds PURPLE) and escalations come back as return values
+   between runs. common-prompt.md "Communication" / message-format sections still describe
+   SendMessage handoffs; rewrite them for the workflow shape before the next XP story.
+
+## Queued by Passepartout 2026-09-19
+- [ ] First comms act after restart: read the hub inbox archive
+  (~/bigbook-comms/inboxes/archive/team-lead-archive.json), reply ONE line to Henry (po-team)
+  confirming the lane is proven both ways -- his liveness probe of 09:42:27Z asks for it.
