@@ -23,4 +23,8 @@ npm audit fix resolved marked->18.0.13, svelte->5.57.1 + other transitives. All 
 extract-zip still advisory (fix says no-force but npm reports "up to date" on 2nd run).
 Remaining 18 vulns are all Tier B/C (astro, vitest, esbuild, sharp, etc.) — Tier B next.
 
+[CHECKPOINT] 2026-09-19 13:31 — Epic #42 tier B (#44) ESCALATION. Vitest 4.1.11
+breaks 5 tests in scroll-anchor.test.ts: vi.fn() arrow impl is not a constructor
+under Vitest 4. Reverted, npm ci restored. No commit. Returned escalation to Plantin.
+
 (*BB:Granjon*)
