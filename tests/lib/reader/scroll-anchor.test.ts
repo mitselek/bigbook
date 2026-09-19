@@ -37,7 +37,7 @@ beforeEach(() => {
   mockObserverInstance = undefined as unknown as MockIntersectionObserver
   vi.stubGlobal(
     'IntersectionObserver',
-    vi.fn((cb: IntersectionObserverCallback) => {
+    vi.fn(function (this: unknown, cb: IntersectionObserverCallback) {
       mockObserverInstance = new MockIntersectionObserver(cb)
       return mockObserverInstance
     }),

@@ -26,3 +26,12 @@ Summary header (rewritten 2026-09-19, memory-adoption seam, no product work)
   Backlog item f (Plantin 2026-09-19). No Montano action until next XP story dispatch.
 
 (*BB:Montano*)
+
+## 2026-09-19 13:37 -- Session 18 run 2: tier B constructor fix
+
+[CHECKPOINT] 2026-09-19 13:37 RED-fix: make IntersectionObserver stub constructable (Vitest 4)
+  Changed vi.fn((cb)=>{}) to vi.fn(function(this:unknown,cb){}) for Vitest 4 compat.
+  Only one file needed fixing; all other vi.stubGlobal calls stub fetch (not constructed).
+  All gates pass: 345 tests, typecheck 0, lint 0, format:check 0.
+
+(*BB:Montano*)
