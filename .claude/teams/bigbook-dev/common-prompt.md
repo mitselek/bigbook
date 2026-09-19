@@ -337,14 +337,34 @@ commit. `scripts/facts-sweep.sh` prints the re-verification working set; team-le
 session start when it is non-empty.
 
 **Scratchpads** -- `.claude/teams/bigbook-dev/memory/<your-name>.md`: working memory only (WIP,
-checkpoints, in-flight decisions). Caps: 100 rows, 100 chars per row; `scripts/scratchpad-lint.sh`
-must pass before the shutdown commit. Stable truths do not squat in scratchpads -- promote them to
-a facts file (mint a slug freely) and delete the scratchpad copy. Pads over cap on 2026-09-19 are
-grandfathered ONCE: bring yours under cap at your first seam by promoting facts and pruning.
+checkpoints, in-flight decisions). Structure: lines 1-15 are a SUMMARY HEADER, rewritten at every
+shutdown -- a fresh session reads the header and is oriented. Caps: 100 rows, 100 chars per row;
+`scripts/scratchpad-lint.sh` must pass before the shutdown commit. Date every entry. Tag entries
+with the house tags: `[DECISION]` (confirmed choices + rationale), `[PATTERN]` (working patterns),
+`[WIP]` (resumption points), `[CHECKPOINT]` (progress summary), `[GOTCHA]` (traps), `[LEARNED]`
+(valuable findings), `[DEFERRED]` (pending decisions, with reasoning). Save only what is not
+obvious from the code, stable, cost real tokens to discover, and saves a fresh you >5 minutes;
+never the search path, fixed transient errors, anything one grep away, or replaced drafts. Stable
+truths do not squat in scratchpads -- promote them to a facts file (mint a slug freely) and delete
+the scratchpad copy. Pads over cap on 2026-09-19 are grandfathered ONCE: bring yours under cap at
+your first seam by promoting facts and pruning.
+
+**URLs** -- long URLs never inline in scratchpads or facts: one URL per file in `memory/urls/`,
+referenced by file name.
+
+**Ops changelog** -- `memory/ops-changelog.md`: every OUT-OF-REPO mutation (Worker deploys, secret
+changes, GitHub App / Pages / repo settings, DNS) logged the moment it is made -- what, why, how
+to revert. Git remembers the repo; this file remembers everything else. The gas-lamp rule: a
+change nobody wrote down is a burner left lit.
+
+**Backlog** -- `memory/backlog.md`: the between-sessions queue. Facts redistribution tasks (splits
+on overflow, consolidations on stagnant stubs) land here when triggered, executed at the next
+natural seam; deferred work that must survive a shutdown lands here too. Team-lead consults it at
+session start; propose reprioritization, never silently reorder.
 
 ## Shutdown Protocol
 
-1. Write in-progress state to your scratchpad at `.claude/teams/bigbook-dev/memory/<your-name>.md`; promote anything stable to `memory/facts/` (three-line format, lint must pass)
+1. Write in-progress state to your scratchpad at `.claude/teams/bigbook-dev/memory/<your-name>.md`; rewrite its summary header (lines 1-15); promote anything stable to `memory/facts/` (three-line format, lint must pass)
 2. If you are PURPLE and mid-refactor: revert uncommitted changes and note what you were doing in scratchpad
 3. Send closing message to team-lead with: `[LEARNED]`, `[DEFERRED]`, `[WARNING]`, `[UNADDRESSED]` (1 bullet each, max)
 4. Approve shutdown
@@ -354,7 +374,7 @@ Team-lead shuts down last, runs both lints (`facts-lint.sh`, `scratchpad-lint.sh
 ## On Startup
 
 1. Read your personal scratchpad at `.claude/teams/bigbook-dev/memory/<your-name>.md` if it exists
-2. `ls .claude/teams/bigbook-dev/memory/facts/` is the facts index -- read the files your task touches (team-lead additionally runs `scripts/facts-sweep.sh` and works a non-empty set)
+2. `ls .claude/teams/bigbook-dev/memory/facts/` is the facts index -- read the files your task touches (team-lead additionally runs `scripts/facts-sweep.sh` and works a non-empty set, and consults `memory/backlog.md`)
 3. Read `docs/architecture.md`, `docs/legacy.md`, `docs/deploy.md`
 4. Read `docs/WORKFLOW.md` and `docs/spec.md` once they exist (lands with the first story)
 5. Send a brief intro message to `team-lead`
