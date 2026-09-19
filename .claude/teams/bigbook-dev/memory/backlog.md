@@ -15,7 +15,10 @@ shutdown. Team-lead consults at session start; propose reprioritization, never s
    live in facts/github-app-auth.md; the ADR's remaining value is the XSS/scope decision record.
 4. v2 comments milestone (logged-in paragraph comments). Explicit post-v1 scope; needs its own
    brainstorm before any decomposition.
-5. Real-device cross-browser check (Safari macOS+iOS, Firefox desktop). PO decision session 12:
+5. src/lib/auth/** (5 files, 405 lines) and src/lib/reader/idb.ts have no unit tests; hidden by
+   Vitest 2 coverage.all:false, now explicit coverage.exclude entries (epic #42 tier B). Needs a
+   RED story: unit tests for pkce, state, token-store, github-app, idb; then drop the excludes.
+6. Real-device cross-browser check (Safari macOS+iOS, Firefox desktop). PO decision session 12:
    reactive only; the Playwright matrix on push to main is the standing coverage.
 
 Dropped 2026-09-19 as resolved or superseded: Node 20 -> 24 Actions runner migration (runners
