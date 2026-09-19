@@ -6,7 +6,7 @@
 set -u
 memdir="$(cd "$(dirname "$0")/../memory" && pwd)"
 files=("$@")
-[ ${#files[@]} -eq 0 ] && mapfile -t files < <(find "$memdir" -maxdepth 1 -name '*.md' ! -name 'facts*')
+[ ${#files[@]} -eq 0 ] && mapfile -t files < <(find "$memdir" -maxdepth 1 -name '*.md' ! -name 'facts*' ! -name 'backlog.md' ! -name 'ops-changelog.md')
 rc=0
 for f in "${files[@]}"; do
   rows=$(wc -l < "$f")

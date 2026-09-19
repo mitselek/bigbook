@@ -333,8 +333,9 @@ URLs), never narrative; 3) `rf:` -- the refutation address (`=ev` when it equals
 = no known test, human lane). `v:` is the date the fact last SURVIVED an attempted refutation --
 open the source expecting to be contradicted. Dead facts are deleted, never struck through: git
 remembers. Run `scripts/facts-lint.sh` (team dir) after every facts edit; it must pass before
-commit. `scripts/facts-sweep.sh` prints the re-verification working set; team-lead works it at
-session start when it is non-empty.
+commit. `scripts/facts-sweep.sh` prints the re-verification working set (by design never empty --
+it always lists the oldest facts); team-lead works it WEEKLY-CADENCE: at the first session of a
+week, or when more than 7 days passed since the last sweep note in the backlog.
 
 **Scratchpads** -- `.claude/teams/bigbook-dev/memory/<your-name>.md`: working memory only (WIP,
 checkpoints, in-flight decisions). Structure: lines 1-15 are a SUMMARY HEADER, rewritten at every
@@ -374,7 +375,7 @@ Team-lead shuts down last, runs both lints (`facts-lint.sh`, `scratchpad-lint.sh
 ## On Startup
 
 1. Read your personal scratchpad at `.claude/teams/bigbook-dev/memory/<your-name>.md` if it exists
-2. `ls .claude/teams/bigbook-dev/memory/facts/` is the facts index -- read the files your task touches (team-lead additionally runs `scripts/facts-sweep.sh` and works a non-empty set, and consults `memory/backlog.md`)
+2. `ls .claude/teams/bigbook-dev/memory/facts/` is the facts index -- read the files your task touches (team-lead additionally consults `memory/backlog.md`, and works `scripts/facts-sweep.sh` on the weekly cadence)
 3. Read `docs/architecture.md`, `docs/legacy.md`, `docs/deploy.md`
 4. Read `docs/WORKFLOW.md` and `docs/spec.md` once they exist (lands with the first story)
 5. Send a brief intro message to `team-lead`
