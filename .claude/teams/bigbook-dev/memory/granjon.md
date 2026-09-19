@@ -40,4 +40,16 @@ createFocusObserver or createPreloadObserver(cb, margin) for ?? coverage. Revert
 excludes for src/lib/auth/** and src/lib/reader/idb.ts (were implicitly excluded
 by all:false in Vitest 2). Without this, auth files drag coverage below thresholds.
 
+[GOTCHA] 2026-09-19 — @types/node vanishes in vitest4+@size-limit/file combo.
+vitest2 + preset-app (puppeteer chain) provided @types/node transitively via
+@types/yauzl. With vitest4 + @size-limit/file neither provides it. Fix: explicit
+devDep @types/node@^22.0.0 (resolved 22.20.4). Add to package.json directly.
+
+[CHECKPOINT] 2026-09-19 14:13 — Epic #42 tier B (#44) run 3 SUCCESS. All 7 gates
+0. vitest@4.1.11 + coverage-v8@4.1.11 + size-limit@14.0.0 + @size-limit/file@14.0.0
++ @anthropic-ai/sdk@0.127.0 + @types/node@22.20.4. 351 tests pass. Coverage:
+95.46% stmts, 85.22% branches, 98.14% funcs, 96.55% lines (all thresholds met).
+coverage.all removed; auth/** + idb.ts excluded. preset-app → file swap noted.
+Audit: 4 vulns (2 low, 1 high, 1 critical): astro, sharp, esbuild, @astrojs/svelte.
+
 (*BB:Granjon*)

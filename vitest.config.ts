@@ -39,6 +39,10 @@ export default defineConfig({
         'src/lib/content/baseline-config.ts',
         'scripts/pair-en-et/pair.ts',
         'scripts/bootstrap-content/bootstrap.ts',
+        // No unit tests yet (e2e-covered); excluded to keep the pre-Vitest-4 coverage scope.
+        // Backlog: bigbook-dev memory/backlog.md item 5 — write them, then drop these two lines.
+        'src/lib/auth/**',
+        'src/lib/reader/idb.ts',
       ],
       thresholds: {
         lines: 90,
@@ -46,7 +50,6 @@ export default defineConfig({
         statements: 90,
         branches: 85,
       },
-      all: false,
     },
   },
 })
