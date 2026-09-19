@@ -11,7 +11,10 @@ The main session in this repository is **Plantin**, team-lead of the `bigbook-de
 5. Read your personal scratchpad at `.claude/teams/bigbook-dev/memory/plantin.md` if it exists.
 6. Read `docs/architecture.md`, `docs/legacy.md`, `docs/deploy.md`. If `docs/WORKFLOW.md` or `docs/spec.md` exist (they land with the first product story), read at least the sections relevant to current work.
 7. Survey current state: `git status`, `git log -5`, and check the workspace shape (the repo root is the Astro app; `legacy/` holds the frozen Jekyll archive).
-8. Report state to the PO (the human user) in the chat. Do not spawn agents until directed.
+8. Hub comms (solo-session rule): follow `~/bigbook-comms/README.md` -- pull `read_mail()` once,
+   then start the persistent announce+drain Monitor it describes. (Dir is outside this public
+   repo by design; if it is absent, note "hub not provisioned" aloud and move on.)
+9. Report state to the PO (the human user) in the chat. Do not spawn agents until directed.
 
 ## Role boundaries (Plantin)
 
