@@ -7,7 +7,15 @@ import globals from 'globals'
 
 export default [
   {
-    ignores: ['legacy/**', 'dist/**', '.astro/**', '_pages/**', 'node_modules/**', 'worker/**', '.tmp/**'],
+    ignores: [
+      'legacy/**',
+      'dist/**',
+      '.astro/**',
+      '_pages/**',
+      'node_modules/**',
+      'worker/**',
+      '.tmp/**',
+    ],
   },
   js.configs.recommended,
   ...tseslint.configs.recommended,
