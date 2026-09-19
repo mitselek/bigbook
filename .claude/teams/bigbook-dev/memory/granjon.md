@@ -27,4 +27,17 @@ Remaining 18 vulns are all Tier B/C (astro, vitest, esbuild, sharp, etc.) — Ti
 breaks 5 tests in scroll-anchor.test.ts: vi.fn() arrow impl is not a constructor
 under Vitest 4. Reverted, npm ci restored. No commit. Returned escalation to Plantin.
 
+[CHECKPOINT] 2026-09-19 13:56 — Epic #42 tier B (#44) run 2 ESCALATION. All pkgs
+installed: vitest@4.1.11, coverage-v8@4.1.11, size-limit@14.0.0, sdk@0.127.0.
+coverage.all removed from vitest.config.ts; added src/lib/auth/** + reader/idb.ts
+to coverage.exclude. 6/7 gates pass (typecheck, lint, format, test 345, build,
+size). FAIL: branches 84.46% < 85%. Root: Vitest 4 V8 counts ?? as 2 branches;
+createFocusObserver (lines 53-54) has 2 uncovered branches. Vitest 2 did not count
+?? branches → same code was 85.11% (223/262). Fix: Montano adds test calling
+createFocusObserver or createPreloadObserver(cb, margin) for ?? coverage. Reverted.
+
+[GOTCHA] 2026-09-19 — coverage.all removal in Vitest 4: must also add explicit
+excludes for src/lib/auth/** and src/lib/reader/idb.ts (were implicitly excluded
+by all:false in Vitest 2). Without this, auth files drag coverage below thresholds.
+
 (*BB:Granjon*)
