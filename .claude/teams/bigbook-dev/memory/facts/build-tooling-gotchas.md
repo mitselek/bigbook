@@ -3,27 +3,45 @@ type: rule
 status: live
 ---
 
-- eslint-plugin-astro's jsx-a11y configs need eslint-plugin-jsx-a11y installed separately (undeclared peer dep); flat config wants flat/jsx-a11y-recommended, not the legacy variant. `v:2026-04-17`
-  - `ev: ConfigError Key "plugins" Key "jsx-a11y"; eslint.config.js`
+- eslint-plugin-astro's jsx-a11y configs need eslint-plugin-jsx-a11y installed separately (undeclared peer dep); flat config wants flat/jsx-a11y-recommended, not the legacy variant. `v:2026-09-19`
+  - `ev: eslint.config.js:15; package.json devDependencies`
   - `rf: npx eslint . after a clean install`
-- size-limit path globs fail hard on empty matches (exit 1) -- no budgets for not-yet-existing categories; it reports brotli sizes despite "(gzipped)" labels. `v:2026-04-17`
-  - `ev: ref-build-gotchas carve 2026-09-19`
-  - `rf: package.json size-limit block`
-- Plan files edited inline bypass format-on-save; run npx prettier --write before staging plan edits and on generated content (formatContentFile output). `v:2026-04-17`
-  - `ev: ref-build-gotchas carve 2026-09-19`
-  - `rf: git diff after prettier --write`
-- .gitattributes enforces eol=lf on 13 extensions; git stash pop on Windows with autocrlf=true can silently convert LF to CRLF on untracked-by-attribute files. `v:2026-04-17`
+- size-limit path globs fail hard on empty matches (exit 1) -- no budgets for not-yet-existing categories; default compression is brotli unless gzip:true, whatever the entry name says. `v:2026-09-19`
+  - `ev: .size-limit.json; node_modules/@size-limit/file/index.js:49-55`
+  - `rf: =ev`
+- Plan and spec files edited inline bypass format-on-save; run npx prettier --write before staging. Generated content no longer needs a manual pass: bootstrap emit formats its own output. `v:2026-09-19`
+  - `ev: lefthook.yml prettier step; scripts/bootstrap-content/format.ts; commit 3f1c8d9`
+  - `rf: npx prettier --check on the staged file`
+- .gitattributes enforces eol=lf on 13 extensions; git stash pop on Windows with autocrlf=true can silently convert LF to CRLF on files outside that list. `v:2026-09-19`
   - `ev: commit 40bcc1f; .gitattributes`
   - `rf: .gitattributes`
-- Windows Git Bash lefthook: multi-step guard scripts go in separate .sh files invoked via bash, never inline sh -c in lefthook.yml (shell-escaping breaks). `v:2026-04-17`
-  - `ev: lefthook.yml; ref-build-gotchas carve 2026-09-19`
+- Windows Git Bash lefthook: multi-step guard scripts go in separate .sh files invoked via bash, never inline sh -c in lefthook.yml (shell-escaping breaks). `v:2026-09-19`
+  - `ev: lefthook.yml; scripts/legacy-guard.sh; scripts/content-guard.sh`
   - `rf: lefthook.yml`
-- Strict TS (noUncheckedIndexedAccess + exactOptionalPropertyTypes) demands null guards on DOM returns; use pathToFileURL().href over manual file:// concat for entry-point detection on Windows. `v:2026-04-17`
-  - `ev: tsconfig.json; ref-build-gotchas carve 2026-09-19`
+- Strict TS (noUncheckedIndexedAccess + exactOptionalPropertyTypes) demands null guards on DOM returns; use pathToFileURL().href over manual file:// concat for entry-point detection on Windows. `v:2026-09-19`
+  - `ev: tsconfig.json; scripts/hard-invariant.ts:80`
   - `rf: tsconfig.json compilerOptions`
-- Playwright browser install ~60s, lands outside the repo (user-profile ms-playwright dir); @astrojs/svelte@^7 is the Astro 5 family (^6 peer-depends on astro@^4). `v:2026-04-17`
-  - `ev: package.json; ref-build-gotchas carve 2026-09-19`
+- Playwright browser install ~60s, lands outside the repo (user-profile ms-playwright dir); @astrojs/svelte@^7 is the Astro 5 family (^6 peer-depends on astro@^4). `v:2026-09-19`
+  - `ev: package.json devDependencies`
   - `rf: package.json deps`
-- v8 coverage + noUncheckedIndexedAccess on regex captures: prefer 1) string slicing 2) assertDefined helpers 3) destructure-and-check 4) v8-ignore as last resort; catch at plan review. `v:2026-04-17`
-  - `ev: session 5 P1.7; ref-xp-process carve 2026-09-19`
+- v8 coverage + noUncheckedIndexedAccess on regex captures: prefer 1) string slicing 2) assertDefined helpers 3) destructure-and-check 4) v8-ignore as last resort; catch at plan review. `v:2026-09-19`
+  - `ev: session 5 P1.7; src/lib/content/parse.ts`
+  - `rf: grep -rn "v8 ignore" src`
+- Node 25 ships a native localStorage without clear(), which shadows jsdom's in Vitest; tests/setup.ts reassigns the global from window._localStorage before any test runs. `v:2026-09-19`
+  - `ev: tests/setup.ts:5-13; commit 2ca7a18`
+  - `rf: =ev`
+- Playwright locator.click() on the paragraph pencil races the Svelte 5 click-outside guard in EditableRow (now setTimeout 0); e2e specs open the editor with dispatchEvent('click') instead. `v:2026-09-19`
+  - `ev: tests/e2e/editor-preflight-reject.spec.ts:113; src/components/EditableRow.svelte:67-73`
+  - `rf: =ev`
+- Playwright runs against npm run preview, never the dev server: rebuild before npx playwright test locally or the stale dist is what gets tested. `v:2026-09-19`
+  - `ev: playwright.config.ts:24-27`
+  - `rf: =ev`
+- Playwright toHaveText compares textContent, so display:none spans count; visibility-respecting assertions need the useInnerText option. `v:2026-09-19`
+  - `ev: tests/e2e/reader.spec.ts:13; commit f8db2b6`
+  - `rf: =ev`
+- gh is snap-confined on the Linux host: body files under /tmp or at $HOME root are denied; write them inside the repo, the gitignored .tmp/ directory exists for that. `v:2026-09-19`
+  - `ev: .gitignore:35-36; .tmp/`
+  - `rf: gh issue create --body-file /tmp/x.md`
+- GitHub sub_issues_summary caches for several seconds after a sub-issue closes; re-query before trusting a stale completed count. Epic check-boxes bulk-tick cleanly via sed on the fetched body. `v:2026-09-19`
+  - `ev: session 12; gh api repos/mitselek/bigbook/issues/N --jq .sub_issues_summary`
   - `rf:`

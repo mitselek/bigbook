@@ -3,24 +3,33 @@ type: rule
 status: live
 ---
 
-- Wait for explicit CYCLE_COMPLETE from Ortelius before dispatching the next TEST_SPEC to Montano, even on regression-only cycles -- dispatching ahead races Ortelius's gate run against uncommitted work. `v:2026-04-17`
-  - `ev: session 6 P2.2 race; ref-xp-process carve 2026-09-19`
+- Wait for explicit CYCLE_COMPLETE from Ortelius before dispatching the next TEST_SPEC to Montano, even on regression-only cycles -- dispatching ahead races Ortelius's gate run against uncommitted work. `v:2026-09-19`
+  - `ev: session 6 P2.2 race; common-prompt.md XP Pipeline section`
+  - `rf: common-prompt.md XP Pipeline section`
+- Every cycle flows RED to GREEN to PURPLE to team-lead, even when GREEN and PURPLE are no-ops -- bypassing the chain leaves agents stale on closed ACs. `v:2026-09-19`
+  - `ev: session 6; montano.md session 17 regression-cycle notes`
+  - `rf: common-prompt.md XP Pipeline section`
+- PURPLE holds a duplication note at cycle N until N+K shows the pattern is real; one informed refactor beats two speculative ones. "Nothing to do here" is the active default. `v:2026-09-19`
+  - `ev: session 6 P2.3; ortelius.md session 17 zero-PURPLE verdict`
   - `rf:`
-- Every cycle flows RED to GREEN to PURPLE to team-lead, even when GREEN and PURPLE are no-ops -- bypassing the chain leaves agents stale on closed ACs. `v:2026-04-17`
-  - `ev: session 6; ref-xp-process carve 2026-09-19`
+- Coverage thresholds gate at phase exit, not mid-phase; temporal gaps (GREEN pre-implementing bodies later tests cover) are legitimate. `v:2026-09-19`
+  - `ev: session 6 P2.3 P2.4; vitest.config.ts coverage thresholds`
   - `rf:`
-- PURPLE holds a duplication note at cycle N until N+K shows the pattern is real; one informed refactor beats two speculative ones. "Nothing to do here" is the active default. `v:2026-04-17`
-  - `ev: session 6 P2.3; ref-xp-process carve 2026-09-19`
+- Scratchpad-save requests carry specific itemized content, never generic "save your learnings"; multi-step dispatches may need a follow-up poke if the agent idles after reading. `v:2026-09-19`
+  - `ev: sessions 5 and 7`
   - `rf:`
-- Coverage thresholds gate at phase exit, not mid-phase; temporal gaps (GREEN pre-implementing bodies later tests cover) are legitimate. `v:2026-04-17`
-  - `ev: session 6 P2.3 P2.4; ref-xp-process carve 2026-09-19`
+- Before executing any phase, re-read the plan file and fix drifts (JS-to-TS porting, Windows path idioms, stale code blocks) -- cheap discipline, clean implementation commits. `v:2026-09-19`
+  - `ev: session 7, applied 7-8`
   - `rf:`
-- Scratchpad-save requests carry specific itemized content, never generic "save your learnings"; multi-step dispatches may need a follow-up poke if the agent idles after reading. `v:2026-04-17`
-  - `ev: sessions 5 and 7; ref-xp-process carve 2026-09-19`
+- Never leave uncommitted docs edits in the tree while agents are active: their git add -A sweeps them into agent commits. Commit housekeeping immediately or stash. `v:2026-09-19`
+  - `ev: session 7`
   - `rf:`
-- Before executing any phase, re-read the plan file and fix drifts (JS-to-TS porting, Windows path idioms, stale code blocks) -- cheap discipline, clean implementation commits. `v:2026-04-17`
-  - `ev: session 7, applied 7-8; ref-xp-process carve 2026-09-19`
+- A compile-error RED cannot be committed: the lefthook typecheck gate runs tsc --noEmit. Plan assertion-error REDs by default; otherwise merge RED+GREEN in one commit with dual attribution. `v:2026-09-19`
+  - `ev: commit 5358898; lefthook.yml typecheck step; ortelius.md session 17`
+  - `rf: lefthook.yml`
+- Post-v1 work runs as one-shot subagent dispatches chained serially, not a persistent team; parallel dispatches are safe only when each touches disjoint files. Sonnet suffices for RED/GREEN, Opus for PURPLE. `v:2026-09-19`
+  - `ev: sessions 12-17; roster.json models`
   - `rf:`
-- Never leave uncommitted docs edits in the tree while agents are active: their git add -A sweeps them into agent commits. Commit housekeeping immediately or stash. `v:2026-04-17`
-  - `ev: session 7; ref-xp-process carve 2026-09-19`
-  - `rf:`
+- Every gap found mid-story gets a GitHub sub-issue of the epic; commits carry Part of #epic and Closes #issue footers plus the (*BB:Role*) attribution. Subagents never push, Plantin reviews and pushes. `v:2026-09-19`
+  - `ev: issues 25-34; commit e1cf287`
+  - `rf: git log --grep "Closes #"`
